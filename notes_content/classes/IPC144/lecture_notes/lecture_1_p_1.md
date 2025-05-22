@@ -1,5 +1,5 @@
 ---
-title: "One Part One: Introduction to Computers, Programs, and C"
+title: "Introduction to Computers, Programs, and C"
 created: 2025-05-12
 tags:
   - c-programming

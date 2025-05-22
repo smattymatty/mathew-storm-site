@@ -22,6 +22,7 @@ ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
     "mathew-storm-site-6sz7p.ondigitalocean.app",
+    "mathewstorm.ca"
     
 ]
 

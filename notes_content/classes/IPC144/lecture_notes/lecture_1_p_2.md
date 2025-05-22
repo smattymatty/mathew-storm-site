@@ -1,5 +1,5 @@
 ---
-title: "One Part Two: Operating Systems & The C Language"
+title: "Operating Systems & The C Language"
 created: 2025-05-15
 tags:
   - c-programming
