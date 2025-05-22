@@ -1,7 +1,7 @@
 {% div .sb-mb-n4 %}
 {% enddiv %}
 
-{~ hero layout="text_left_image_right" bg_color="secondary-25" text_bg_color="white-50" image_alt="My Mastodon Profile Picture" image_src="https://files.techhub.social/accounts/avatars/112/618/249/566/505/608/original/efa78fd4464e9fad.jpg" ~}
+{~ hero layout="text_left_image_right" bg_color="secondary-25" text_bg_color="white-50" image_alt="My Mastodon Profile Picture" image_src="https://pbs.twimg.com/profile_images/1869063256146366464/TWUh0PrB_400x400.jpg" ~}
 
 *This is the kind of thing I'm talking about.*
 

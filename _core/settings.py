@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_spellbook',
+    'analytics',
     'A_base',
     'A_home',
 ]
@@ -49,6 +50,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     "whitenoise.middleware.WhiteNoiseMiddleware",
+    'analytics.middleware.PageViewMiddleware',
 ]
 
 ROOT_URLCONF = '_core.urls'
@@ -63,6 +65,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'analytics.context_processors.analytics_context',
             ],
         },
     },
@@ -134,3 +137,13 @@ STORAGES = {
         "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
     },
 }
+
+
+ANALYTICS_EXCLUDED_PATHS = [
+    '/main.mjs'
+]
+
+ANALYTICS_EXCLUDED_PREFIXES = [
+    '/hidden',
+    '/prop',
+]
