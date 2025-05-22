@@ -1,0 +1,59 @@
+{% load static spellbook_tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mathew Storm</title>
+    {% spellbook_styles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'A_base/style.css' %}" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    {% include 'A_base/partials/navbar.html' %}
+
+    <main class="main-container">
+      <aside class="first-zone sticky-top">
+        <section class="welcome-message" aria-label="Welcome Message">
+          <!-- Your welcome message content -->
+           {{ sidebar_header|safe }}
+        </section>
+        <section class="sidebar" aria-label="Additional Information">
+          {% block sidebar_content %}
+            <!-- Sidebar content -->
+             {% include 'A_base/partials/examples/sidebar_content.html' %}
+          {% endblock %}
+        </section>
+      </aside>
+
+      <section id="home-content" class="content">
+        
+        <div class="sb-w-full">
+            {% block content %}
+            {{ content|safe }}
+            {% endblock %}
+        </div>
+
+      </section>
+
+    </main>
+
+    {% include 'A_base/partials/footer.html' %}
+
+    <script>
+      // Update copyright year automatically
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+    </script>
+    <script src="main.mjs" type="module"></script>
+  </body>
+</html>
