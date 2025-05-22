@@ -26,7 +26,13 @@
       <aside class="first-zone sticky-top">
         <section class="welcome-message" aria-label="Welcome Message">
           <!-- Your welcome message content -->
+           {% if sidebar_header %}
            {{ sidebar_header|safe }}
+           {% elif metadata.title %}
+           {{ metadata.title|title }}
+           {% elif metadata.namespace %}
+           {{ metadata.namespace|title }}
+           {% endif %}
         </section>
         <section class="sidebar" aria-label="Additional Information">
           {% block sidebar_content %}
@@ -35,6 +41,14 @@
           {% endblock %}
         </section>
       </aside>
+
+      {% if toc %}
+      <div class="sb-w-full sb-justify-start sb-border sb-bg-white" aria-label="">
+      {% sidebar_toc %}
+      </div>
+      {% endif %}
+
+
 
       <section id="home-content" class="content">
         

@@ -67,6 +67,14 @@
           class="active"
           {% endif %}
           >Blog</a>
+          <a 
+          href="{% url 'notes:intro' %}" 
+          id="note" 
+          aria-label="Notes"
+          {% if metadata.namespace == 'notes' %}
+          class="active"
+          {% endif %}
+          >Notes</a>
         </div>
       </div>
     </nav>

@@ -1,3 +1,24 @@
+{% load spellbook_tags %}
+{% if metadata %}
+<div class="sb-flex sb-flex-col sb-gap-2 sb-md:flex-row sb-md:gap-0 sb-mb-n4">
+    <p class="sb-text-sm sb-border-r-2 sb-border-0 sb-border-black-50 sb-pr-2">
+        <strong>Date Published:</strong> {{ metadata.published|date:"F j, Y" }}
+    </p>
+    <p class="sb-text-sm sb-border-r-2 sb-border-0 sb-border-black-50 sb-pr-2">
+        <strong>Word Count:</strong> {{ metadata.word_count }}
+    </p>
+    <p class="sb-text-sm sb-border-r-2 sb-border-0 sb-border-black-50 sb-pr-2">
+        <strong>Reading Time:</strong> {{ metadata.reading_time_minutes }}
+    </p>
+</div>
+<p class="sb-text-sm sb-border-t-2 sb-border-0 sb-border-black-50 sb-pt-2">
+    <strong>Tags:</strong>
+    {% for tag in metadata.tags %}
+    {{ tag }}{% if not forloop.last %}, {% endif %}
+    {% endfor %}
+    </p>
+{% else %}
 <a href="https://github.com/smattymatty">GitHub</a>
 <a href="https://techhub.social/@smattymatty">Mastodon</a>
 <a href="https://www.youtube.com/@MatHEWStorm">YouTube</a>
+{% endif %}

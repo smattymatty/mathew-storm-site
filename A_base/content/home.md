@@ -26,11 +26,10 @@
 {% enddiv %}
 
 {~ card title="Who am I?" footer="Open Source Developer, Educator & Student"  ~}
-I am a developer who loves to code and learn new things. 
+I am a developer who loves to code and learn new things.
 
 I have been working with Python and Django for 5+ years.
 {~~}
-
 
 {~ label_seperator ~}
 About Me (Thursday, May 22nd, 2025)

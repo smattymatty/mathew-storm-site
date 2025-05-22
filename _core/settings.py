@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'projects',
     'tutorials',
     'blog',
+    'notes',
 ]
 
 MIDDLEWARE = [
@@ -133,18 +134,21 @@ SPELLBOOK_MD_PATH = [
     BASE_DIR / 'projects_content',
     BASE_DIR / 'tutorials_content',
     BASE_DIR / 'blog_content',
+    BASE_DIR / 'notes_content',
 ]
 
 SPELLBOOK_MD_APP = [
     'projects',
     'tutorials',
     'blog',
+    'notes',
 ]
 
 SPELLBOOK_MD_URL_PREFIX = [
     'proj',
     'tuts',
     'blog',
+    'note',
 ]
 
 SPELLBOOK_MD_BASE_TEMPLATE = 'A_base/sb_base.html'
