@@ -1,0 +1,562 @@
+{% extends 'A_base/sb_base.html' %}
+
+{% block spellbook_md %}
+<p><section
+  class="sb-hero sb-hero-layout--text-right-image-left sb-items-center  sb-black "
+  style="min-height: 30vh;"
+
+>
+
+
+<div class="sb-hero-content-wrapper sb-grid sb-grid-cols-1 md:sb-grid-cols-2 sb-gap-8">
+  <div class="sb-hero-media-column md:sb-order-1"> 
+
+      <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&amp;w=1470&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Abstract flowchart design" class="sb-hero-image">
+
+  </div>
+  <div class="sb-hero-text-column md:sb-order-2 sb-bg-white-75"> 
+    <h2 id="session-objectives">Session Objectives</h2>
+<p>By the end of this session, the student will be able to:</p>
+<ul>
+<li>List the three elements of the Structure Theorem.</li>
+<li>Identify the symbols used in flowcharts.</li>
+<li>Recognize the flowchart symbols and their meaning.</li>
+<li>Construct the elements of the Structure Theorem using Flowcharts.</li>
+</ul>
+  </div>
+</div>
+
+</section>
+</p>
+<hr />
+<h2>Flowcharts Background</h2>
+<p>The third phase of the Program Development Cycle (PDC) is "Develop Solution into an Algorithm". Key points to remember are:</p>
+<ul>
+<li>Computers cannot devise a plan or decide to act on their own.</li>
+<li>Computers can only do what they are told, exactly the way they are told.</li>
+<li>Computers do what you tell them to do, not what you <em>want</em> them to do.</li>
+<li>An <strong>algorithm</strong> is a set of precise instructions which describe the task to be performed and the order in which they are to be carried out.</li>
+</ul>
+<p>Flowcharting is a tool that helps develop a solution into an algorithm:</p>
+<ul>
+<li>A picture is worth a thousand words.</li>
+<li>It uses only a limited number of symbols to define an algorithm of any complexity.</li>
+</ul>
+<hr />
+<h2>Flowcharts: Shaping the Program</h2>
+<p>This is where the program starts to take shape. The <strong>Structure Theorem</strong> states that it is possible to write any computer program by using only <strong>THREE basic control structures</strong>:</p>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Core Control Structures</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <ol>
+<li><strong>Simple sequence:</strong> Represents the computer's ability to execute instructions in a step-by-step, sequential manner.</li>
+<li><strong>Selection:</strong> Represents the computer's ability to make a decision. By evaluating a condition, alternate execution paths are followed.</li>
+<li><strong>Iteration:</strong> Represents the computer's ability to repeat a series of instructions.</li>
+</ol>
+    </div>
+
+</div>
+
+<hr />
+<h2>Simple Sequence in Flowcharting</h2>
+<p>This section details the symbols and concepts used to represent sequential operations.</p>
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Flow Lines</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>Flow lines show the direction of logic flow within the flowchart. Unless otherwise stated, the symbols of a flowchart have one flow line entering it, and one flow line exiting it.<br />
+<em>(Visual: Arrow indicating direction)</em></p>
+        </div>
+    </div>
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Terminator (Terminal Interrupt)</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>Used to show the beginning or end of an algorithm. There must be exactly one <code>Start</code> and one <code>Stop</code> terminator in a flowchart.<br />
+<em>(Visual: Oval shape for "Start" and "Stop")</em></p>
+<p>A simple flowchart that does nothing:<br />
+<em>(Visual: Start oval -&gt; flow line -&gt; Stop oval)</em></p>
+        </div>
+    </div>
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Process Box</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>Used to show a processing operation. The operation is described inside the box (e.g., a calculation). It does not show a decision, or the input or output of data.<br />
+<em>(Visual: Rectangle with text "Perform a process")</em></p>
+<p><strong>Example: Prepare for an exam</strong><br />
+<em>(Visual: Start -&gt; Review texts -&gt; Review Lectures -&gt; Review Tests -&gt; Review Labs -&gt; Stop; all "Review..." steps are in process boxes)</em></p>
+        </div>
+    </div>
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Off-page / On-page Connector</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>Used when you run out of room on the page or need to connect distant parts of the flowchart. A unique identifier is written inside the symbol so that they can be paired up.<br />
+* An off-page connector has a flow line entering it.<br />
+* An on-page connector has a flow line exiting it.<br />
+<em>(Visual: Small circle. Example: Connector "A" (off-page) points to Connector "A" (on-page) on another part of the diagram or another page).</em></p>
+<p><strong>A three-page example using connectors:</strong><br />
+<em>(Visual: Start -&gt; U -&gt; V -&gt; Connector A (off-page))</em><br />
+<em>(Page 2: Connector A (on-page) -&gt; W -&gt; X -&gt; Connector B (off-page))</em><br />
+<em>(Page 3: Connector B (on-page) -&gt; Y -&gt; Z -&gt; Stop)</em></p>
+        </div>
+    </div>
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Input / Output Operation</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>Used to show the input of data, or the output of data. The operation is described inside the box. It does not show a decision or any processing steps.<br />
+<em>(Visual: Parallelogram with text "Read valueA")</em></p>
+        </div>
+    </div>
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Modularity &amp; Module Call Box</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>Recall the hierarchy chart: a module is a small program within a larger program that performs a task (a single task if possible). These modules are flowcharts that are invoked by a parent flowchart. The module is dependent on data found in the parent flowchart, and the parent flowchart requires the results of the module to complete its processing.</p>
+<p>The <strong>Module Call Box</strong> is used to call or invoke another flowchart (module). Any variables or values in the current program that are required by the module are listed in parentheses, each separated by a comma. The new flowchart is executed, and when it completes (hits its <code>Stop</code> Terminator), the current flowchart resumes execution. This represents the modularity of programming.<br />
+<em>(Visual: Rectangle with double vertical lines on sides.)</em><br />
+* Procedure being called: <code>getData(a, b)</code><br />
+* Function being called (assigning a return value): <code>tax = calcTax(ttl, rate)</code></p>
+        </div>
+    </div>
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Key Definitions for Modularity</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <ul>
+<li><strong>Variable:</strong> A symbol representing any value (a number, a character, or a string of characters). E.g., <code>x = 5y + 10</code>.</li>
+<li><strong>Value:</strong> A fixed, unchanging number or a single character or a string of characters.</li>
+<li><strong>Parameter:</strong> A variable or value that is passed to the module for use in its processing. A parameter list is a list of multiple variables and/or values separated by commas.</li>
+<li><strong>Return Value:</strong> A value generated by a module that can be assigned to a variable in the parent flowchart.</li>
+<li><strong>Procedure:</strong> A module that accepts parameters. If the variables in the parameter list are altered by the module, the changes may affect the variables in the parent flowchart. A procedure may not have a “return value” in the sense of direct assignment like a function.</li>
+<li><strong>Function:</strong> A module that accepts parameters. If the variables in the parameter list are altered by the module, the changes are <em>not</em> reflected in the variables in the parent flowchart (for parameters passed by value). A function may have a “return value”.</li>
+</ul>
+    </div>
+
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Flowcharting the Module</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>All flowcharting rules apply to modules. Modules are flowcharts composed of Simple Sequence, Decisions, and Iteration.<br />
+* The <code>START</code> terminal interrupt now shows the name of the module and its parameters (e.g., <code>myModule(a, varB, x, y)</code>).<br />
+* The <code>STOP</code> terminal interrupt shows the module is complete and execution control returns to the invoking flowchart.<br />
+* For a function, the <code>STOP</code> terminator may be a <code>RETURN</code> terminator, including a value or variable to be returned (e.g., <code>Return q</code>).</p>
+<p><strong>Parameters:</strong><br />
+Parameters pass values from a flowchart to a module. The names of parameter variables in the module need not be the same as in the calling flowchart, but they are positionally dependent.<br />
+Example:<br />
+Caller: <code>myModule(a, b, c, d)</code><br />
+Module Start: <code>myModule(a_local, varB_local, x_local, y_local)</code><br />
+(Here <code>a</code> maps to <code>a_local</code>, <code>b</code> to <code>varB_local</code>, etc.)</p>
+<p>To identify variable parameters whose contents can be changed by the module and have that change reflected in the caller (pass-by-reference concept), an asterisk (<code>*</code>) might be used in the module's parameter list (convention can vary):<br />
+Module Start: <code>myModule(a, b, *c, *d)</code><br />
+<em>(Visual: Module Start oval: <code>myModule(a, b, *c, *d)</code>, leading to module logic, ending in Stop oval.)</em></p>
+        </div>
+    </div>
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Example: Sum and Average of Three Numbers (Simple Sequence)</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p><strong>Problem:</strong> Develop a program to accept three numbers, add them together, then print their total and average.</p>
+<p><strong>IPO Chart:</strong><br />
+* <strong>Input:</strong> <code>val1</code>, <code>val2</code>, <code>val3</code><br />
+* <strong>Process:</strong><br />
+    1.  Read <code>val1</code>, <code>val2</code>, <code>val3</code><br />
+    2.  Calculate <code>total = val1 + val2 + val3</code><br />
+    3.  Calculate <code>average = total / 3</code><br />
+    4.  Display <code>total</code><br />
+    5.  Display <code>average</code><br />
+* <strong>Output:</strong> <code>total</code>, <code>average</code></p>
+<p><strong>Flowchart (Conceptual):</strong><br />
+<em>(Visual: Start -&gt; Display "Enter value 1" -&gt; Get val1 -&gt; Display "Enter value 2" -&gt; Get val2 -&gt; Display "Enter value 3" -&gt; Get val3 -&gt; total = val1 + val2 + val3 -&gt; average = total / 3 -&gt; Display total, average -&gt; Stop. Connectors A and B might be used if drawn across lines.)</em></p>
+    </div>
+
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Example: Sum/Average using a Procedure `getVal`</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p><strong>Main Flowchart:</strong><br />
+<em>(Visual: Start -&gt; ModuleCall: <code>getVal(1, val1)</code> -&gt; ModuleCall: <code>getVal(2, val2)</code> -&gt; ModuleCall: <code>getVal(3, val3)</code> -&gt; Process: <code>total = val1 + val2 + val3</code> -&gt; Process: <code>average = total / 3</code> -&gt; Output: Display <code>total, average</code> -&gt; Stop)</em></p>
+<p><strong>Module <code>getVal(num, *x)</code>:</strong><br />
+<em>(Visual: Start <code>getVal(num, *x)</code> -&gt; Output: Display "Enter value", <code>num</code> -&gt; Input: Get <code>*x</code> -&gt; Stop)</em></p>
+        </div>
+    </div>
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Example: Sum/Average using a Function `getVal`</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p><strong>Main Flowchart:</strong><br />
+<em>(Visual: Start -&gt; Process: <code>val1 = getVal(1)</code> -&gt; Process: <code>val2 = getVal(2)</code> -&gt; Process: <code>val3 = getVal(3)</code> -&gt; Process: <code>total = val1 + val2 + val3</code> -&gt; Process: <code>average = total / 3</code> -&gt; Output: Display <code>total, average</code> -&gt; Stop)</em></p>
+<p><strong>Module <code>getVal(num)</code>:</strong><br />
+<em>(Visual: Start <code>getVal(num)</code> -&gt; Output: Display "Enter value", <code>num</code> -&gt; Input: Get <code>x</code> -&gt; Return <code>x</code> oval)</em></p>
+        </div>
+    </div>
+</div>
+
+<hr />
+<h2>Selection in Flowcharting</h2>
+<p>Selection involves "conditions": a logical expression that is either TRUE or FALSE.<br />
+The condition is expressed as some form of a mathematical expression. Examples: <code>A &gt; B</code>, <code>SIN(theta) = COS(theta)</code>, <code>recordValue = "end of records"</code>.</p>
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Simple Selection Box (Decision Diamond)</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <ul>
+<li>Used to show a change in the path of logic.</li>
+<li>The condition being tested is written inside the diamond.</li>
+<li>Has <strong>two</strong> flow lines exiting it.</li>
+<li>These flow lines <strong>MUST</strong> be labelled with the result of the decision (i.e., <code>TRUE</code> or <code>FALSE</code>). There must be one <code>TRUE</code> and one <code>FALSE</code> path.<br />
+<em>(Visual: Diamond shape with "A &gt; B + 5" inside. One exit path labeled "True", another "False".)</em></li>
+</ul>
+        </div>
+    </div>
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Multiway Selection Box (Case Structure)</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <ul>
+<li>Used to show a change in the path of logic based on equality with one of several values.</li>
+<li>Has more than two flow lines exiting it.</li>
+<li>Used for <strong>EQUALITY</strong> decisions (each flow line is labelled with the value that variable <code>varC</code> must equal for that path to be taken).</li>
+<li>You may <strong>not</strong> place a range of values on the flow lines (e.g., <code>1 - 6</code> is generally not standard for pure case symbol, though logic can achieve it).</li>
+<li>You may <strong>not</strong> place conditions (e.g., <code>x &gt; 5</code>) on the flow lines of a case symbol.</li>
+<li>One branch may be labelled <code>Default</code> to represent the path taken when none of the other specified values match.<br />
+<em>(Visual: Elongated hexagon or a series of connected diamonds for "varC" with exit paths labeled "1", "2", "3", "Default". A separate "INVALID" example might show paths like "1-6" or "x&gt;5" crossed out.)</em></li>
+</ul>
+        </div>
+    </div>
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Collector</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <ul>
+<li>Used to collect the flow lines that were created from a decision box and restore the logic of the program back to a single stream.</li>
+<li><strong>THE PATHS FROM A DECISION MUST REJOIN IN A COLLECTOR.</strong></li>
+<li>A simple circle is often used. One collector for simple (IF-THEN-ELSE) decisions, one for multiway (CASE) decisions before continuing the main flow.<br />
+<em>(Visual: Circle symbol where multiple flow lines converge into one outgoing flow line.)</em></li>
+</ul>
+        </div>
+    </div>
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Example: Simple Decision (Debit/Credit)</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p><em>(Visual: ... -&gt; Diamond: <code>amount &lt; 0</code> -&gt; (True path) Process: <code>DB = DB + amount</code> -&gt; Collector -&gt; ...)</em><br />
+<em>(Visual: ... -&gt; Diamond: <code>amount &lt; 0</code> -&gt; (False path) Process: <code>CR = CR + amount</code> -&gt; Collector -&gt; ...)</em><br />
+The True and False paths merge at the collector (labeled C in the original, implies connecting to a further point).</p>
+    </div>
+
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Example: Multiway Decision (Calculator Operation)</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p><em>(Visual: ... -&gt; Multiway Decision on <code>userOption</code>:)</em><br />
+* <em>Path 'A':</em> <code>res = x + y</code> -&gt; Collector<br />
+* <em>Path 'S':</em> <code>res = x - y</code> -&gt; Collector<br />
+* <em>Path 'M':</em> <code>res = x × y</code> -&gt; Collector<br />
+* <em>Path 'D':</em> <code>res = x ÷ y</code> -&gt; Collector<br />
+<em>(All paths merge at a common collector, labeled C in the original.)</em></p>
+    </div>
+
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Detailed Example: Library Overdue Fines</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p><strong>Problem:</strong> Help a local Elementary School's library with overdue fines. Librarians enter student's name, book name, sign-out date, and card colour (W, B, G, O). The program calculates days overdue and the fine ($0.05 per day). A list is produced with student name, book name, days overdue, and fine. A procedure <code>daysBetween(date, n)</code> exists: <code>n</code> becomes days between <code>date</code> and today (negative if <code>date</code> is invalid/future).</p>
+<p><strong>Card Colour Due Periods:</strong><br />
+* White (W): 14 days<br />
+* Blue (B): 7 days<br />
+* Green (G): 1 day (next day)<br />
+* Orange (O): 28 days</p>
+<p><strong>IPO Chart:</strong><br />
+* <strong>Input:</strong> <code>studentName</code>, <code>bookName</code>, <code>signoutDate</code>, <code>colourCode</code><br />
+* <strong>Process:</strong><br />
+    1.  Get <code>studentName</code>, <code>bookName</code>, <code>signoutDate</code>, <code>colourCode</code>.<br />
+    2.  Call <code>daysBetween(signoutDate, actualDaysBorrowed)</code>.<br />
+    3.  Determine <code>allowedDays</code> based on <code>colourCode</code>.<br />
+    4.  <code>IF actualDaysBorrowed &lt; 0 THEN daysOverdue = 0, fine = 0</code> (handle invalid date)<br />
+    5.  <code>ELSE daysOverdue = actualDaysBorrowed - allowedDays</code><br />
+    6.  <code>IF daysOverdue &lt; 0 THEN daysOverdue = 0</code><br />
+    7.  <code>fine = daysOverdue * 0.05</code><br />
+    8.  Display <code>studentName</code>, <code>bookName</code>, <code>daysOverdue</code>, <code>fine</code>.<br />
+* <strong>Output:</strong> <code>studentName</code>, <code>bookName</code>, <code>daysOverdue</code>, <code>fine</code></p>
+<p><strong>(Flowchart for this example would be complex, involving input, a multiway decision for <code>colourCode</code> to set <code>allowedDays</code>, calling the <code>daysBetween</code> module, calculations for <code>daysOverdue</code> and <code>fine</code>, and output. It would be a good exercise to draw it based on the IPO.)</strong></p>
+    </div>
+
+</div>
+
+<hr />
+<h2>Iteration in Flowcharting</h2>
+<p>Iteration is also referred to as "looping." The goal is to repeat a sequence of steps until a certain condition has been met. It's a special case of the decision structure. The sequence of steps in the loop may consist of simple sequences, decisions, or even other loops.</p>
+<p>There are two main types of loops:<br />
+* Pre-test Loop<br />
+* Post-test Loop</p>
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Pre-Test Loop</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>The condition that terminates the loop is tested <em>before</em> the loop is entered. It is therefore possible to not execute any of the statements within the loop at all.<br />
+<em>(Visual: Flow line -&gt; Diamond (Conditional Expression) -&gt; (True path) Process (Repeated statement(s)) -&gt; Process (Update Statement) -&gt; Flow line back to before Diamond. Diamond -&gt; (False path) -&gt; Exits loop.)</em></p>
+        </div>
+    </div>
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Post-Test Loop</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>The condition that terminates the loop is tested <em>after</em> the loop is entered. It is therefore necessary to execute the sequence of statements at least once to reach the decision that terminates the loop.<br />
+<em>(Visual: Flow line -&gt; Process (Repeated statement(s)) -&gt; Process (Update Statement) -&gt; Diamond (Conditional Expression) -&gt; (True path) Flow line back to before Process block. Diamond -&gt; (False path) -&gt; Exits loop. The True path flow line cannot have symbols embedded on it.)</em></p>
+        </div>
+    </div>
+</div>
+
+<hr />
+<h2>Flowcharting Best Practices</h2>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Integrity of a Flowchart</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>In this course, you will represent ALL logic necessary to represent a program – every last tedious step. There are no 'magic' shortcuts. A flowchart is not just a collection of symbols and lines.</p>
+<p><strong>As a rule of thumb – lines in a flowchart do NOT cross each other.</strong></p>
+<p>Think of a flowchart as a story:<br />
+* <strong>Symbols</strong> (rectangles, parallelograms, etc.) are like letters – individually they have little meaning but are used to make "words."<br />
+* <strong>Structures</strong> (Simple Sequence / Decision / Iteration) are like the "words" of the story. You don’t mix symbols arbitrarily, just as you don't mix letters arbitrarily.<br />
+* The <strong>flowchart</strong> is the complete story you are composing from <code>START</code> to <code>STOP</code>.</p>
+    </div>
+
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Nesting Structures</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>When combining structures, they <strong>must be nested</strong>. Each structure (Simple Sequence, Simple Decision, and Iteration) has <strong>ONE entry point and ONE exit point</strong>. This rule cannot be broken.</p>
+<p><strong>Embedding a loop within a decision:</strong><br />
+<em>(Visual: Decision diamond. One path of the decision contains a complete loop structure (condition, body, back to condition) before rejoining the main flow after the decision's collector.)</em></p>
+<p><strong>Embedding a decision within a loop:</strong><br />
+<em>(Visual: Loop structure. The body of the loop contains a complete decision structure (diamond, true path, false path, collector) before the loop continues or terminates.)</em></p>
+<p>Think of the nesting of your program as a series of self-contained objects, one inside the other. There is no connection/interaction across layers.<br />
+<em>(Visual: An "illegal" flowchart example showing flow lines crossing or improperly entering/exiting structures, for instance, a line from outside a loop jumping into the middle of it, or a decision path jumping out of a loop without proper exit.)</em></p>
+        </div>
+    </div>
+</div>
+{% endblock %}

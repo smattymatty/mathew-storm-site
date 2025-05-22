@@ -166,6 +166,10 @@ a:hover {
     max-width: 32rem;
   }
   
+  pre {
+    text-align: left;
+  }
+
   .nav-links button:hover,
   .nav-links a:hover,
   .nav-title:hover {
