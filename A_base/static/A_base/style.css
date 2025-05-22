@@ -3,6 +3,7 @@
     --seconday-bg-color: rgb(240, 249, 252);
     --primary-color: rgb(6, 6, 22);
     --text-color: rgb(0, 0, 0);
+    --link-hover-color: rgb(24, 24, 88);
     --text-primary-color: rgb(255, 255, 255);
     --accent-color: rgba(133, 211, 207, 0.596);
     --content-heading-color: rgb(34, 56, 68);
@@ -11,7 +12,6 @@
   }
   
   * {
-    color: var(--primary-color);
     font-family: "Newsreader", serif;
   }
   
@@ -130,6 +130,15 @@
   
   }
   
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+  font-weight: 500;
+}
+
   .nav-links button,
   .nav-links a,
   .nav-title {
@@ -141,7 +150,7 @@
     margin-top: 1rem;
     transition: all 0.2s ease-in-out;
     background-color: white;
-  
+    color: var(--primary-color);
     border-radius: 0.5rem;
     margin-bottom: 0.5rem;
     padding: 1rem;
