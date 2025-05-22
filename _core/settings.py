@@ -43,6 +43,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
 ]
 
 ROOT_URLCONF = '_core.urls'
@@ -64,6 +65,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = '_core.wsgi.application'
 
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
@@ -120,3 +122,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 SPELLBOOK_MD_PATH = BASE_DIR / 'A_home_content'
 
 SPELLBOOK_MD_APP = 'my_app'
+
+STORAGES = {
+    # ...
+    "staticfiles": {
+        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
+    },
+}
