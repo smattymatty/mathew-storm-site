@@ -11,7 +11,7 @@ def index(request):
         content = f.read()
     context = {
         'content': render_spellbook_markdown_to_html(content),
-        'sidebar_header': 'Welcome to my Home Page',
+        'sidebar_header': 'This is my Home Page',
         }
     template = 'A_base/base.html'
     return render(request, template, context)

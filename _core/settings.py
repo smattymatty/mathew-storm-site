@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django_spellbook',
     'analytics',
     'A_base',
-    'A_home',
+    'projects',
+    'tutorials',
+    'blog',
 ]
 
 MIDDLEWARE = [
@@ -127,9 +129,25 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-SPELLBOOK_MD_PATH = BASE_DIR / 'A_home_content'
+SPELLBOOK_MD_PATH = [
+    BASE_DIR / 'projects_content',
+    BASE_DIR / 'tutorials_content',
+    BASE_DIR / 'blog_content',
+]
 
-SPELLBOOK_MD_APP = 'my_app'
+SPELLBOOK_MD_APP = [
+    'projects',
+    'tutorials',
+    'blog',
+]
+
+SPELLBOOK_MD_URL_PREFIX = [
+    'proj',
+    'tuts',
+    'blog',
+]
+
+SPELLBOOK_MD_BASE_TEMPLATE = 'A_base/sb_base.html'
 
 STORAGES = {
     # ...

@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="{% static 'A_base/main.mjs' %}" type="module"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -20,7 +21,7 @@
 
   <body>
     {% include 'A_base/partials/navbar.html' %}
-
+    
     <main class="main-container">
       <aside class="first-zone sticky-top">
         <section class="welcome-message" aria-label="Welcome Message">
@@ -54,6 +55,6 @@
       document.getElementById("current-year").textContent =
         new Date().getFullYear();
     </script>
-    <script src="main.mjs" type="module"></script>
+
   </body>
 </html>

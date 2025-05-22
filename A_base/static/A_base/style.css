@@ -115,6 +115,7 @@
     width: 80%;
     margin-right: 2rem;
     margin-left: 2rem;
+    text-align: center;
   }
   
   .nav-links button {
@@ -123,11 +124,14 @@
   
   .nav-title {
     font-weight: 600 !important;
-    font-size: 1.5rem !important;
+    font-size: 1.6rem !important;
     text-wrap: nowrap;
+    text-indent: 0.75rem;
+  
   }
   
   .nav-links button,
+  .nav-links a,
   .nav-title {
     font-size: 1rem;
     border: 2px solid rgba(0, 0, 0, 0.37);
@@ -154,12 +158,14 @@
   }
   
   .nav-links button:hover,
+  .nav-links a:hover,
   .nav-title:hover {
     cursor: pointer;
     transform: scale(1.05);
   }
   
   .nav-links button.active:hover,
+  .nav-links a.active:hover,
   .nav-title.active:hover {
     cursor: pointer;
     transform: scale(1.01);
@@ -184,6 +190,7 @@
   }
   
   .nav-links button.active,
+  .nav-links a.active,
   .nav-title.active {
     background-color: var(--primary-color);
     color: var(--text-primary-color);

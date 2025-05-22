@@ -2,7 +2,16 @@
     <nav>
       <div class="nav-container">
         <div class="first-nav-container">
-          <h1 class="nav-title" id="home">Mathew Storm</h1>
+          <a 
+          href="{% url 'base:index' %}" 
+          id="home" 
+          class="
+          nav-title
+          {% if not metadata %}
+          active
+          {% endif %}
+          "
+          >Mathew Storm</a>
           <div class="social-logos" aria-label="Social Media Links">
             <a
               href="https://github.com/smattymatty"
@@ -34,9 +43,30 @@
           </div>
         </div>
         <div class="nav-links" role="navigation">
-          <button id="projects" aria-label="View Projects">Projects</button>
-          <button id="about" aria-label="About Me">About</button>
-          <button id="blog" aria-label="Blog">Blog</button>
+          <a 
+          href="{% url 'projects:intro' %}" 
+          id="proj" 
+          aria-label="Projects"
+          {% if metadata.namespace == 'projects' %}
+          class="active"
+          {% endif %}
+          >Projects</a>
+          <a 
+          href="{% url 'tutorials:intro' %}" 
+          id="tuts" 
+          aria-label="Tutorials"
+          {% if metadata.namespace == 'tutorials' %}
+          class="active"
+          {% endif %}
+          >Tutorials</a>
+          <a 
+          href="{% url 'blog:intro' %}" 
+          id="blog" 
+          aria-label="Blog"
+          {% if metadata.namespace == 'blog' %}
+          class="active"
+          {% endif %}
+          >Blog</a>
         </div>
       </div>
     </nav>

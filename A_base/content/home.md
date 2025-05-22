@@ -1,9 +1,9 @@
 {% div .sb-mb-n4 %}
 {% enddiv %}
 
-{~ hero layout="text_left_image_right" bg_color="secondary-25" text_bg_color="white-50" image_alt="My Mastodon Profile Picture" image_src="https://pbs.twimg.com/profile_images/1869063256146366464/TWUh0PrB_400x400.jpg" ~}
+{~ hero layout="text_left_image_right" bg_color="secondary-25" text_bg_color="white-75" image_alt="My Mastodon Profile Picture" image_src="https://pbs.twimg.com/profile_images/1869063256146366464/TWUh0PrB_400x400.jpg" ~}
 
-*This is the kind of thing I'm talking about.*
+*My name is Mathew Storm, but I go by 'smattymatty' online.*
 
 ## The projects I have built
 
