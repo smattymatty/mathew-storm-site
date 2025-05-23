@@ -3,4 +3,25 @@
 {% block spellbook_md %}
 <h1>Welcome to my Notes</h1>
 <p>This is my notes page.</p>
+<h2>Topics</h2>
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="true" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Computer Science</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="false">
+        <div class="sb-accordion-body">
+            <p><a href="/note/classes/IPC144/lecture_1_p_1">Introduction to Programming with C</a><br />
+<em>My Notes on the IPC144 course at Seneca Polytechnic</em></p>
+        </div>
+    </div>
+</div>
 {% endblock %}

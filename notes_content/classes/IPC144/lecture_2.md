@@ -114,7 +114,7 @@ The value on the right side of the `=` is calculated (if necessary) and then pla
 
 {~ card title="Flowchart vs. Pseudo code: Assignments" ~}
 **Flowchart Snippet:**
-(Diagram showing process boxes for `counterA = 0` and `SET recordSize to 500`)
+![Flowchart vs. Pseudo code: Assignments](https://i.imgur.com/Da7Yap6.png)
 {~~}
 
 **Pseudo code:**
@@ -127,6 +127,7 @@ SET recordSize to 500
 ### Input of Data
 
 Verbs used: `READ`, `GET`.
+
 * `READ` usually refers to data being read from a file.
 * `GET` usually refers to data being entered by the user at a keyboard.
 
@@ -139,7 +140,7 @@ GET newAddress
 
 {~ card title="Flowchart vs. Pseudo code: Input" ~}
 **Flowchart Snippet:**
-(Diagram showing input parallelograms for `READ address FROM customerFile` and `GET newAddress`)
+![Flowchart vs. Pseudo code: Input](https://i.imgur.com/v0T3s10.png)
 {~~}
 
 **Pseudo code:**
@@ -175,7 +176,7 @@ Should be written as:
 
 {~ card title="Flowchart vs. Pseudo code: Output" ~}
 **Flowchart Snippet:**
-(Diagram showing output parallelograms for `WRITE address TO customerFile` and `DISPLAY newAddress`)
+![Flowchart vs. Pseudo code: Output](https://i.imgur.com/u8u1GwV.png)
 {~~}
 
 **Pseudo code:**
@@ -199,7 +200,7 @@ degreesC = (degreesF- 32) x (5/9)
 
 {~ card title="Flowchart vs. Pseudo code: Computation" ~}
 **Flowchart Snippet:**
-(Diagram showing process boxes for `Add 1 to counter` and `degreesC = (degreesF - 32) x (5÷9)`)
+![Flowchart vs. Pseudo code: Computation](https://i.imgur.com/9sQWjsC.png)
 {~~}
 
 **Pseudo code:**
@@ -227,7 +228,7 @@ var = yourFunction(a, b)
 
 {~ card title="Flowchart vs. Pseudo code: Module Call" ~}
 **Flowchart Snippet:**
-(Diagram showing predefined process for `dspMenu(x)` and process for `x = func(a, b, c)`)
+![Flowchart vs. Pseudo code: Module Call](https://i.imgur.com/BAvCpXc.png)
 {~~}
 
 **Pseudo code:**
@@ -261,7 +262,7 @@ Note the indentation that is being used:
 
 {~ card title="Flowchart vs. Pseudo code: Simple Decision" ~}
 **Flowchart Snippet:**
-(Diagram showing a diamond for `a > b`, with TRUE path to `c = e + f` and FALSE path to `c = t x q`)
+![Flowchart vs. Pseudo code: Simple Decision](https://i.imgur.com/GBmGyiD.png)
 {~~}
 
 **Pseudo code:**
@@ -276,8 +277,7 @@ ENDIF
 
 {~ accordion title="Visualizing Simple Decision Flow" ~}
 **Flowchart Structure:**
-(Diagram showing a condition leading to `StatementA`, `StatementB`, `StatementC` on TRUE path, and `StatementD`, `StatementE` on FALSE path, both paths merging before continuing.)
-
+![Flowchart vs. Pseudo code: Simple Decision](https://i.imgur.com/cKPsZQV.png)
 {~~}
 
 **Pseudo code Structure:**
@@ -327,7 +327,7 @@ ENDIF
 What if you don't need an `ELSE` clause?
 
 **Flowchart Snippet:**
-(Diagram showing `avg < 50` condition. TRUE path leads to `DISPLAY "Low Average"`. FALSE path bypasses this display.)
+![Flowchart vs. Pseudo code: Simple Decision](https://i.imgur.com/YfJ8IGA.png)
 {~~}
 
 **Pseudo code:**
@@ -361,12 +361,7 @@ ENDSWITCH
 
 {~ card title="Flowchart vs. Pseudo code: Multiway Decision" ~}
 **Flowchart Snippet:**
-(Diagram showing `usrSel` leading to different paths for 'A', 'S', 'M', 'D', and a Default path.)
-* 'A': `res = a + b`
-* 'S': `res = a - b`
-* 'M': `res = a × b`
-* 'D': `res = a ÷ b`
-* Default: `DISPLAY "Invalid option"`
+![flowchart](https://i.imgur.com/zZkX2nY.png)
 {~~}
 
 **Pseudo code:**
@@ -402,7 +397,7 @@ ENDWHILE
 
 {~ card title="Flowchart vs. Pseudo code: Pre-Test Loop" ~}
 **Flowchart Snippet:**
-(Diagram showing a condition `i < 10`. TRUE path leads to `b = b × c` and `i = i + 1`, then loops back to the condition. FALSE path exits loop.)
+![Flowchart vs. Pseudo code: Pre-Test Loop](https://i.imgur.com/ACiOwqS.png)
 {~~}
 
 **Pseudo code:**
@@ -426,7 +421,7 @@ WHILE condition
 
 {~ card title="Flowchart vs. Pseudo code: Post-Test Loop" ~}
 **Flowchart Snippet:**
-(Diagram showing process block with `b = b × c` and `i = i + 1`, followed by condition `i < 10`. TRUE path loops back to process block. FALSE path exits loop.)
+![Flowchart vs. Pseudo code: Post-Test Loop](https://i.imgur.com/6x6cmCD.png)
 {~~}
 
 **Pseudo code:**

@@ -1,0 +1,583 @@
+{% extends 'A_base/sb_base.html' %}
+
+{% block spellbook_md %}
+<p><section
+  class="sb-hero sb-hero-layout--text-right-image-left sb-items-center  sb-black "
+  style="min-height: 20vh;"
+
+>
+
+
+<div class="sb-hero-content-wrapper sb-grid sb-grid-cols-1 md:sb-grid-cols-2 sb-gap-8">
+  <div class="sb-hero-media-column md:sb-order-1"> 
+
+      <img src="https://images.unsplash.com/photo-1729710877242-6305c22c18b8?q=80&amp;w=1470&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Abstract code on a screen representing operating systems and programming" class="sb-hero-image">
+
+  </div>
+  <div class="sb-hero-text-column md:sb-order-2 sb-bg-white-75"> 
+    <h2 id="session-objectives">Session Objectives</h2>
+<ul>
+<li>To write pseudo code.</li>
+<li>To convert Flowcharts into Pseudo code.</li>
+<li>To perform walkthroughs on pseudo code.</li>
+<li>To represent data files in flowcharts and pseudo code.</li>
+<li>To represent arrays in flowcharts and pseudo code.</li>
+</ul>
+  </div>
+</div>
+
+</section>
+</p>
+<hr />
+<h2>Pseudo code</h2>
+<p>Pseudo code (pseudo = fake, code = computer language) is a fake computer language (3GL). Throughout these discussions, we have been using the Program Development Cycle (PDC) to move from a high-level, general analysis of a problem to a more specific solution.</p>
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">From IPO Charts to Pseudo code</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>The IPO Chart gave us a brief description of the inputs, the outputs, and a list of processes for transforming the inputs into the outputs. The Flowchart gave us, diagrammatically, the sequence or order in which processes and decisions are made to solve the problem.</p>
+<p>Some people are more comfortable with pseudo code and may choose to design their algorithm directly in pseudo code. In this course, you are expected to be able to read and write both flowcharts and pseudo code.</p>
+        </div>
+    </div>
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Nature of Pseudo code</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>Pseudo code is a hybrid between structured computer languages (C, Pascal, BASIC, etc.) and English. The control structures we defined in Flowcharting are represented here.</p>
+<p>Because pseudo code is not a real computer language and it has loose rules for implementation, it can be used to develop an algorithm for any structured computer language. From the pseudo code (after testing the algorithm), the program can be coded by translating the statements in pseudo code to statements in the programming language (C in our case).</p>
+        </div>
+    </div>
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Characteristics of Pseudo code</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>There is no real standard for pseudo code; however, it must have the following characteristics:</p>
+<ul>
+<li>Statements are written in simple English.</li>
+<li>Each instruction is written on a separate line.</li>
+<li>Keywords are used to consistently name the parts of control structures.</li>
+<li>Indentation is used to make parts of a control structure conspicuous.</li>
+<li>Each set of instructions is written from top to bottom, with only one entry point and one exit point.</li>
+</ul>
+    </div>
+
+</div>
+
+<p>Again, the three basic structures are represented:</p>
+<ul>
+<li>Simple sequence</li>
+<li>Decision</li>
+<li>Iteration</li>
+</ul>
+<hr />
+<h2>Simple Sequence</h2>
+<h3>Assigning Variables</h3>
+<p>This is where variables are manipulated within your algorithm.<br />
+The New Webster's Computer Terms dictionary definition: <strong>A variable is a symbolic name representing a value that changes during the program's execution.</strong><br />
+Back to Secondary School algebra, remember these?<br />
+<code>5 = 5x + 4y</code><br />
+<code>0 = 5(x + y) - 3x + 5</code><br />
+Solve for <code>x</code> and <code>y</code>. <code>x</code> and <code>y</code> are the variables.</p>
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Naming Variables</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>When creating a name for a variable, make it meaningful. Don't make it too long (you will end up with writer's cramp now and carpal tunnel syndrome later).</p>
+<p><code>ttlOrder</code> may be not as meaningful as <code>total_order_for_customer</code> but it is easier to write and probably conveys enough information about how the variable is being used. The other extreme, <code>t</code>, is obviously meaningless. Use your judgement. Ask yourself: "If I had to re-read this in another year, would the variable name be meaningful?"</p>
+<p>Try to get used to writing variables names as lower case strings of characters without spaces. You can use underscores or “camel bumps” to help make more complex variables names easier to read:</p>
+<ul>
+<li>A simple one-word variable: <code>section</code></li>
+<li>A complex variable name using underscores: <code>total_order_for_customer</code></li>
+<li>A complex variable name using camel bumps: <code>totalOrderForCustomer</code></li>
+</ul>
+        </div>
+    </div>
+</div>
+
+<h3>Types of Variable Assignments</h3>
+<p>There are two types of variable assignments:</p>
+<ol>
+<li>When you are initializing a variable.</li>
+<li>As a result of some processing.</li>
+</ol>
+<p><strong>It will be considered BAD FORM not to initialize a variable before using it.</strong></p>
+<p>Verbs used for initialization: <code>INITIALIZE</code>, <code>SET</code>.</p>
+<pre><code class="language-pseudo">INITIALIZE counter to zero
+SET recordSize to 500
+</code></pre>
+<h3>Assignments from Processing</h3>
+<p>Expect to use the symbol <code>=</code> (will be referred to as an assignment operator).</p>
+<pre><code class="language-pseudo">totalPrice = basePrice + salesTax
+</code></pre>
+<p>You can use this form for initializing variables as well:</p>
+<pre><code class="language-pseudo">counterA = 0
+counterB = 0
+recordSize = 500
+</code></pre>
+<p>The value on the right side of the <code>=</code> is calculated (if necessary) and then placed into the variable that is on the left side of the <code>=</code>. You can have only one variable on the left of the <code>=</code>.</p>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Flowchart vs. Pseudo code: Assignments</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p><strong>Flowchart Snippet:</strong><br />
+<img alt="Flowchart vs. Pseudo code: Assignments" src="https://i.imgur.com/Da7Yap6.png" /></p>
+    </div>
+
+</div>
+
+<p><strong>Pseudo code:</strong></p>
+<pre><code class="language-pseudo">counterA = 0
+SET recordSize to 500
+</code></pre>
+<h3>Input of Data</h3>
+<p>Verbs used: <code>READ</code>, <code>GET</code>.</p>
+<ul>
+<li><code>READ</code> usually refers to data being read from a file.</li>
+<li><code>GET</code> usually refers to data being entered by the user at a keyboard.</li>
+</ul>
+<p>Examples:</p>
+<pre><code class="language-pseudo">READ address FROM customerFile
+GET newAddress
+</code></pre>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Flowchart vs. Pseudo code: Input</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p><strong>Flowchart Snippet:</strong><br />
+<img alt="Flowchart vs. Pseudo code: Input" src="https://i.imgur.com/v0T3s10.png" /></p>
+    </div>
+
+</div>
+
+<p><strong>Pseudo code:</strong></p>
+<pre><code class="language-pseudo">READ address FROM customerFile
+GET newAddress
+</code></pre>
+<h3>Output of Data</h3>
+<p>Verbs used: <code>PRINT</code>, <code>WRITE</code>, <code>OUTPUT</code>, <code>DISPLAY</code>.</p>
+<ul>
+<li><code>PRINT</code> usually refers to data being sent to a printer.</li>
+<li><code>WRITE</code> usually refers to data being sent to a file.</li>
+<li><code>OUTPUT</code> and <code>DISPLAY</code> usually refer to data being sent to a monitor.</li>
+</ul>
+<p>In pseudo code, the output is not necessarily formatted (made to look pretty), so it is common to simply list each piece of information separated by commas. E.g., <code>DISPLAY count, average</code>.</p>
+<pre><code class="language-pseudo">PRINT &quot;Program Completed&quot;
+WRITE newAddress TO customerFile
+OUTPUT name, address, postalCode
+DISPLAY &quot;End of Data Reached&quot;
+</code></pre>
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Output Examples &amp; Literal Strings</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>Note that any phrase that is to be output EXACTLY as written is enclosed in quotes. This helps to differentiate between a literal string and a variable name.<br />
+E.g., <code>DISPLAY The average is average over a range of count values</code><br />
+Should be written as:<br />
+<code>DISPLAY “The average is”, average, “over a range of ”, count, “values”</code></p>
+        </div>
+    </div>
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Flowchart vs. Pseudo code: Output</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p><strong>Flowchart Snippet:</strong><br />
+<img alt="Flowchart vs. Pseudo code: Output" src="https://i.imgur.com/u8u1GwV.png" /></p>
+    </div>
+
+</div>
+
+<p><strong>Pseudo code:</strong></p>
+<pre><code class="language-pseudo">WRITE address TO customerFile
+DISPLAY newAddress
+</code></pre>
+<h3>Computation</h3>
+<p>Some verbs used: <code>ADD</code>, <code>COMPUTE</code>, <code>CALCULATE</code>, <code>MULTIPLY</code>, <code>DIVIDE</code>, <code>SUBTRACT</code>.</p>
+<p>Examples:</p>
+<pre><code class="language-pseudo">ADD 1 TO counter
+COMPUTE tax = price x 0.15
+degreesC = (degreesF- 32) x (5/9)
+</code></pre>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Flowchart vs. Pseudo code: Computation</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p><strong>Flowchart Snippet:</strong><br />
+<img alt="Flowchart vs. Pseudo code: Computation" src="https://i.imgur.com/9sQWjsC.png" /></p>
+    </div>
+
+</div>
+
+<p><strong>Pseudo code:</strong></p>
+<pre><code class="language-pseudo">ADD 1 TO counter
+degreesC = (degreesF- 32) × (5/9)
+</code></pre>
+<h3>Module Call</h3>
+<p>Verbs Used: <code>CALL</code>.</p>
+<pre><code class="language-pseudo">CALL myModule
+CALL yourModule(myvar)
+CALL theirModule(yourVar, myVar, someVar)
+</code></pre>
+<p>The exception is when you are invoking a function that is returning a value to a variable in the parent flowchart:</p>
+<pre><code class="language-pseudo">var = yourFunction(a, b)
+</code></pre>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Flowchart vs. Pseudo code: Module Call</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p><strong>Flowchart Snippet:</strong><br />
+<img alt="Flowchart vs. Pseudo code: Module Call" src="https://i.imgur.com/BAvCpXc.png" /></p>
+    </div>
+
+</div>
+
+<p><strong>Pseudo code:</strong></p>
+<pre><code class="language-pseudo">CALL dspMenu(x)
+x = func(a, b, c)
+</code></pre>
+<hr />
+<h2>Selection (Decision)</h2>
+<h3>Simple Decision</h3>
+<p>The basic form looks like:</p>
+<pre><code class="language-pseudo">IF condition THEN
+    statement(s)
+ELSE
+    statement(s)
+ENDIF
+</code></pre>
+<ul>
+<li>If the condition is <strong>TRUE</strong>, then the statements immediately following the <code>THEN</code> keyword are executed, until the <code>ELSE</code> clause. At which point the program resumes after the <code>ENDIF</code> keyword.</li>
+<li>If the condition is <strong>FALSE</strong>, then the statements immediately following the <code>ELSE</code> keyword are executed.<br />
+Note the indentation that is being used:</li>
+<li>Makes it easier to see the components of the selection.</li>
+<li>Provides for readability.</li>
+</ul>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Flowchart vs. Pseudo code: Simple Decision</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p><strong>Flowchart Snippet:</strong><br />
+<img alt="Flowchart vs. Pseudo code: Simple Decision" src="https://i.imgur.com/GBmGyiD.png" /></p>
+    </div>
+
+</div>
+
+<p><strong>Pseudo code:</strong></p>
+<pre><code class="language-pseudo">IF a &gt; b THEN
+    c = e + f
+ELSE
+    c = t x q
+ENDIF
+</code></pre>
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Visualizing Simple Decision Flow</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p><strong>Flowchart Structure:</strong><br />
+<img alt="Flowchart vs. Pseudo code: Simple Decision" src="https://i.imgur.com/cKPsZQV.png" /></p>
+        </div>
+    </div>
+</div>
+
+<p><strong>Pseudo code Structure:</strong></p>
+<pre><code class="language-pseudo">IF condition THEN
+    StatementA
+    StatementB
+    StatementC
+ELSE
+    StatementD
+    StatementE
+ENDIF
+</code></pre>
+<h3>Importance of Indentation</h3>
+<p>An example of no indentation:</p>
+<pre><code class="language-pseudo">IF a = b THEN
+DISPLAY &quot;A equals B&quot;
+c = (23 - d) / 2
+lifeUniverseEverything = 42
+ELSE
+DISPLAY &quot;A does not equal B&quot;
+vogons = 1
+earth = 0
+ENDIF
+</code></pre>
+<p>With indentation:</p>
+<pre><code class="language-pseudo">IF a = b THEN
+    DISPLAY &quot;A equals B&quot;
+    c = (23 - d) / 2
+    lifeUniverseEverything = 42
+ELSE
+    DISPLAY &quot;A does not equal B&quot;
+    vogons = 1
+    earth = 0
+ENDIF
+</code></pre>
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Simple Decision without ELSE</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>What if you don't need an <code>ELSE</code> clause?</p>
+<p><strong>Flowchart Snippet:</strong><br />
+<img alt="Flowchart vs. Pseudo code: Simple Decision" src="https://i.imgur.com/YfJ8IGA.png" /></p>
+        </div>
+    </div>
+</div>
+
+<p><strong>Pseudo code:</strong></p>
+<pre><code class="language-pseudo">IF avg &lt; 50 THEN
+    DISPLAY &quot;Low average”
+ENDIF
+</code></pre>
+<h3>Multiway Decision</h3>
+<p>The basic form looks like:</p>
+<pre><code class="language-pseudo">SWITCH (variable)
+    CASE (option)
+        statement(s)
+    CASE (option)
+        statement(s)
+    . . .
+    CASE (option)
+        statement(s)
+    DEFAULT
+        statement(s)
+ENDSWITCH
+</code></pre>
+<ul>
+<li><code>variable</code> is what is being tested.</li>
+<li><code>option</code> is the possible value that <code>variable</code> takes on, and represents the new path of logic.</li>
+</ul>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Flowchart vs. Pseudo code: Multiway Decision</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p><strong>Flowchart Snippet:</strong><br />
+<img alt="flowchart" src="https://i.imgur.com/zZkX2nY.png" /></p>
+    </div>
+
+</div>
+
+<p><strong>Pseudo code:</strong></p>
+<pre><code class="language-pseudo">SWITCH (usrSel)
+    CASE (‘A’)
+        res = a + b
+    CASE (‘S’)
+        res = a - b
+    CASE (‘M’)
+        res = a × b
+    CASE (‘D’)
+        res = a ÷ b
+    DEFAULT
+        DISPLAY &quot;Invalid option”
+ENDSWITCH
+</code></pre>
+<hr />
+<h2>Iteration (Loop)</h2>
+<h3>Pre-Test Loop</h3>
+<p>The basic form looks like:</p>
+<pre><code class="language-pseudo">DOWHILE condition
+    statement(s)
+ENDWHILE
+</code></pre>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Flowchart vs. Pseudo code: Pre-Test Loop</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p><strong>Flowchart Snippet:</strong><br />
+<img alt="Flowchart vs. Pseudo code: Pre-Test Loop" src="https://i.imgur.com/ACiOwqS.png" /></p>
+    </div>
+
+</div>
+
+<p><strong>Pseudo code:</strong></p>
+<pre><code class="language-pseudo">DOWHILE i &lt; 10
+    b = b × c
+    i = i + 1
+ENDWHILE
+</code></pre>
+<h3>Post-Test Loop</h3>
+<p>The basic form looks like:</p>
+<pre><code class="language-pseudo">DO
+    statement(s)
+WHILE condition
+</code></pre>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Flowchart vs. Pseudo code: Post-Test Loop</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p><strong>Flowchart Snippet:</strong><br />
+<img alt="Flowchart vs. Pseudo code: Post-Test Loop" src="https://i.imgur.com/6x6cmCD.png" /></p>
+    </div>
+
+</div>
+
+<p><strong>Pseudo code:</strong></p>
+<pre><code class="language-pseudo">DO
+    b = b × c
+    i = i + 1
+WHILE i &lt; 10
+</code></pre>
+<hr />
+<h2>Pseudo code Walkthroughs</h2>
+<div class="sb-practice-block sb-border sb-border-radius-lg sb-p-4 sb-mb-4 sb-shadow-sm ">
+    <div class="sb-practice-metadata sb-flex sb-flex-wrap sb-gap-3 sb-mb-3 sb-p-2 sb-border-radius-md">
+        <span class="sb-difficulty-level sb-badge" data-difficulty="beginner">
+            <strong>Difficulty:</strong> Beginner
+        </span>
+        <span class="sb-time-commitment sb-badge">
+            <strong>Time:</strong> Varies
+        </span>
+        <span class="sb-impact-level sb-badge" data-impact="medium">
+            <strong>Impact:</strong> Medium
+        </span>
+        <span class="sb-focus-area sb-badge">
+            <strong>Focus:</strong> Post-Test Loop &amp; Variables
+        </span>
+    </div>
+    <div class="sb-practice-content">
+        <p>What is the output of the following pseudo code?</p>
+    </div>
+</div>
+
+<pre><code class="language-pseudo">num = 1
+var = 0
+DO
+    var = num + var
+    DISPLAY var
+    num = num + 2
+WHILE num &lt; 7
+</code></pre>
+<div class="sb-practice-block sb-border sb-border-radius-lg sb-p-4 sb-mb-4 sb-shadow-sm ">
+    <div class="sb-practice-metadata sb-flex sb-flex-wrap sb-gap-3 sb-mb-3 sb-p-2 sb-border-radius-md">
+        <span class="sb-difficulty-level sb-badge" data-difficulty="intermediate">
+            <strong>Difficulty:</strong> Intermediate
+        </span>
+        <span class="sb-time-commitment sb-badge">
+            <strong>Time:</strong> Varies
+        </span>
+        <span class="sb-impact-level sb-badge" data-impact="medium">
+            <strong>Impact:</strong> Medium
+        </span>
+        <span class="sb-focus-area sb-badge">
+            <strong>Focus:</strong> Nested Loops &amp; Factorials
+        </span>
+    </div>
+    <div class="sb-practice-content">
+        <p>What is the output of the following pseudo code?</p>
+    </div>
+</div>
+
+<pre><code class="language-pseudo">i = 5
+DOWHILE i &gt; 0
+    j = i
+    f = 1
+    DOWHILE j &gt; 1
+        f = f * j
+        j = j – 1
+    ENDWHILE
+    DISPLAY f
+    i = i – 1
+ENDWHILE
+DISPLAY “Done”
+</code></pre>
+{% endblock %}

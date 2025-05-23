@@ -9,9 +9,7 @@ tags:
   - c-language
 ---
 
-# Lecture One: Part Two - Operating Systems & The C Language
-
-{~ hero layout="text_center_image_background" image_src="https://cdn.shopify.com/s/files/1/0855/1446/files/OS-buddies-1-1024x570.jpg" image_alt="Abstract code on a screen representing operating systems and programming" min_height="60vh" text_color="white" text_bg_color="black-50" content_align_vertical="center" ~}
+{~ hero layout="text_center_image_background" image_src="https://cdn.shopify.com/s/files/1/0855/1446/files/OS-buddies-1-1024x570.jpg" image_alt="Abstract code on a screen representing operating systems and programming" min_height="60vh" text_color="black" text_bg_color="white-75" content_align_vertical="top" ~}
 ## Diving Deeper: Operating Systems and the C Language
 
 This section explores the crucial role of Operating Systems (OS) in managing computer activities and delves into the specifics of the C programming language, its history, and development environment.
