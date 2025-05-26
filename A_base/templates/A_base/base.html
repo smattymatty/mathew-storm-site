@@ -52,7 +52,13 @@
 
       <section id="home-content" class="content">
         
-        <div class="sb-w-full">
+        <div class="
+        {% if metadata %}
+        sb-w-full
+        {% else %}
+        spellbook-content
+        {% endif %}
+        ">
             {% block content %}
             {{ content|safe }}
             {% endblock %}

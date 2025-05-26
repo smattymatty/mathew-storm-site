@@ -603,3 +603,20 @@ a:hover {
   .navigation-error button:hover {
     background: #c53030;
   }
+
+  .spellbook-content {
+    width: clamp(420px, 99%, 888px); /* min, preferred, max */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+@media (max-width: 764px) {
+  .spellbook-content {
+    margin-right:auto;
+  }
+}
+
+img {
+  max-width: 100%;
+  overflow-x: scroll;
+}
