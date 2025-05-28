@@ -1196,6 +1196,7 @@ This button usually appears on the **original repository's page** (e.g., `ibrahi
 
 {~ accordion title="✍️ Oops! I made a mistake in my last commit message." ~}
 If you haven't pushed the commit yet, or if you've pushed it but no one has based work off it (common for your own PR branch on your fork):
+
 * You can amend the message of your *most recent* commit using:
     `` `git commit --amend -m "New, corrected commit message"` ``
 * If you need to change the message for an older commit, it's more complex (involving interactive rebase, `` `git rebase -i` ``) and might be best avoided for your first contribution unless necessary.
@@ -1204,14 +1205,17 @@ If you haven't pushed the commit yet, or if you've pushed it but no one has base
 
 {~ accordion title="📁 I forgot to add a file/change to my last commit!" ~}
 If you haven't pushed the commit yet:
-1.  Stage the missed file/changes: `` `git add <missed-file-or-changes>` ``
-2.  Add it to the previous commit without changing the message:
+
+1. Stage the missed file/changes: `` `git add <missed-file-or-changes>` ``
+2. Add it to the previous commit without changing the message:
     `` `git commit --amend --no-edit` ``
+
 * If you have already pushed, you can still do this and then force push (`` `--force-with-lease` ``). Alternatively, you can just create a *new* commit with the missed changes: `` `git add <missed-file>` ``, then `` `git commit -m "Add missing file for X feature"` ``, and then `` `git push` ``. This is often simpler if you're unsure about amending pushed commits.
 {~~}
 
 {~ accordion title="🚫 My `git push` was rejected!" ~}
 This can happen for a few reasons:
+
 * **Local branch is out of date:** The remote branch has changes you don't have locally. You might need to `` `git pull` `` (or better, `` `git fetch` `` then `` `git rebase` `` or `` `git merge` ``) first. This is less common when pushing a brand new feature branch for the first time but can happen if you're re-pushing to an existing remote branch.
 * **Authentication failed:** Double-check your PAT or SSH key setup. Refer to the "Authenticating with GitHub" section.
 * **Wrong remote or branch:** Are you sure you're trying to push to `origin` (your fork) and not `upstream` (the original project, where you likely don't have direct push access)?
@@ -1219,7 +1223,9 @@ This can happen for a few reasons:
 {~~}
 
 {~ accordion title="📄 What should I write in my PR Title & Description?" ~}
+
 * **Title:** Make it short, clear, and summarize the change (e.g., "Fix: Correct typo in README installation section").
+* 
 * **Description:**
     * Explain *what* you changed and *why*.
     * If it fixes a GitHub Issue, link it using keywords like `Closes #123` or `Fixes #456`.
@@ -1230,8 +1236,9 @@ This can happen for a few reasons:
 
 {~ accordion title="😱 Help! I accidentally cloned the original EduLite repo, not my fork!" ~}
 No worries, it happens!
-1.  **If you haven't made changes yet:** The easiest is to delete the cloned directory and then clone your fork correctly.
-2.  **If you've made changes but haven't pushed:**
+
+1. **If you haven't made changes yet:** The easiest is to delete the cloned directory and then clone your fork correctly.
+2. **If you've made changes but haven't pushed:**
     * In the cloned directory (currently pointing to the original repo), add your fork as a remote:
         `` `git remote add myfork https://github.com/YOUR_USERNAME/EduLite.git` ``
     * Push your branch to your fork:
@@ -1244,17 +1251,18 @@ No worries, it happens!
 
 {~ accordion title="🤯 I made commits directly on my `main` branch in my fork by mistake!" ~}
 This is a common slip-up for beginners. Here's a way to fix it (ideally *before* you push these commits on `main` to your `origin` or try to make a PR from it):
-1.  **Create a new branch from the current state of your `main` branch.** This new branch will now have your accidental commits:
+
+1. **Create a new branch from the current state of your `main` branch.** This new branch will now have your accidental commits:
     `` `git checkout -b my-intended-feature-branch` ``
-2.  **Now, reset your local `main` branch back to match the `upstream/main` (the original project's main).**
+2. **Now, reset your local `main` branch back to match the `upstream/main` (the original project's main).**
     * Switch back to `main`: `` `git checkout main` ``
     * Fetch the latest from upstream: `` `git fetch upstream` ``
     * Reset `main` hard to `upstream/main`. **Warning:** This will discard any commits on your local `main` that are not on `upstream/main` (which is what you want in this case for the accidental commits, but be sure!).
         `` `git reset --hard upstream/main` ``
-3.  **Update your fork's `main` branch (if you had already pushed the mistaken commits there):**
+3. **Update your fork's `main` branch (if you had already pushed the mistaken commits there):**
     If your `origin/main` (on GitHub) has those mistaken commits, you'll need to force push to correct it:
     `` `git push origin main --force` `` (Use with caution, but for your own fork's `main` to correct a mistake, it's usually okay).
-4.  Now, continue your work on `my-intended-feature-branch` and create your PR from there!
+4. Now, continue your work on `my-intended-feature-branch` and create your PR from there!
 {~~}
 
 ---
