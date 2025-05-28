@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'taggit',
     'django_spellbook',
     'analytics',
     'A_base',
@@ -43,6 +44,7 @@ INSTALLED_APPS = [
     'tutorials',
     'blog',
     'notes',
+    'questions',
 ]
 
 MIDDLEWARE = [
@@ -74,6 +76,60 @@ TEMPLATES = [
         },
     },
 ]
+
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,  # Keep Django's default loggers
+    'formatters': {
+        'verbose': {
+            'format': '\n{levelname} {asctime} {module} {name}:\n{message}',
+            'style': '{',
+        },
+        'simple': {
+            'format': '\n{levelname} {name}:\n{message}',
+            'style': '{',
+        },
+        'none': {
+            'format': '{message}',
+            'style': '{',
+        },
+    },
+    'handlers': {
+        'console': {
+            'level': 'DEBUG',  # Set the overall handler level to DEBUG to allow debug messages through
+            'class': 'logging.StreamHandler', # Outputs to console (stderr by default)
+            'formatter': 'simple', # You can choose 'simple' or 'verbose'
+        },
+        'console-none': {
+            'level': 'DEBUG',  # Set the overall handler level to DEBUG to allow debug messages through
+            'class': 'logging.StreamHandler', # Outputs to console (stderr by default)
+            'formatter': 'none', # You can choose 'simple' or 'verbose'
+        },
+    },
+    'loggers': {
+        'django': { # Configure Django's internal loggers
+            'handlers': ['console'],
+            'level': 'WARNING',
+            'propagate': False,
+        },
+        'questions': {
+            'handlers': ['console'],
+            'level': 'INFO', 
+            'propagate': False, 
+        },
+        'questions.tests': {
+            'handlers': ['console-none'],
+            'level': 'DEBUG',
+            'propagate': False,
+        },
+    },
+    # Root logger (optional, catches anything not caught by specific loggers)
+    # '': {
+    #     'handlers': ['console'],
+    #     'level': 'INFO', # Default level for other modules
+    # },
+}
 
 WSGI_APPLICATION = '_core.wsgi.application'
 
@@ -169,4 +225,8 @@ ANALYTICS_EXCLUDED_PATHS = [
 ANALYTICS_EXCLUDED_PREFIXES = [
     '/hidden',
     '/prop',
+]
+
+QUESTION_DATA_DIRECTORIES = [
+    BASE_DIR / 'tutorials_content/git-for-beginners',
 ]

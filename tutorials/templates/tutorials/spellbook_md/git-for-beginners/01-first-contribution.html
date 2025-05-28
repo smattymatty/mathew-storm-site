@@ -1,0 +1,2100 @@
+{% extends 'A_base/sb_base.html' %}
+
+{% block spellbook_md %}
+<p><section
+  class="sb-hero sb-hero-layout--text-left-image-right sb-items-center  sb-black-75 "
+
+
+>
+
+
+<div class="sb-hero-content-wrapper sb-grid sb-grid-cols-1 md:sb-grid-cols-2 sb-gap-8">
+  <div class="sb-hero-text-column sb-bg-primary-25">
+    <h2 id="getting-started-with-git-github-for-beginners">Getting Started with Git &amp; GitHub for Beginners 🚀</h2>
+<p>This guide helps new contributors learn about open source, Git, and GitHub, so you can make your first contribution.</p>
+<p>We specifically cover the <strong>EduLite</strong> project, which is a great example of a project that welcomes new contributors.</p>
+<p>You can use this information to learn more about Git and GitHub, and to contribute to open source projects in general.</p>
+  </div>
+  <div class="sb-hero-media-column">
+
+      <img src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" alt="GitHub Desktop logo" class="sb-hero-image">
+
+  </div>
+</div>
+
+</section>
+</p>
+<div class="sb-alert sb-alert-success sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ✅
+
+    </span>
+    <span class="sb-alert-content">
+        <p><strong>Welcome to your First Contribution Guide!</strong><br />
+If you choose to contribute to <strong>EduLite</strong>, you'll be making your first contribution to a real-world project and your work will be recognized and appreciated by the community.</p>
+    </span>
+</div>
+
+<hr />
+<h3>What you need to get started (Requirements)</h3>
+<ul>
+<li>A GitHub account (if you don't already have one)</li>
+<li>A text editor or IDE (preferably VS Code for this tutorial)</li>
+<li>The technical skills to install Git on your operating system</li>
+</ul>
+<div class="sb-alert sb-alert-info sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ℹ️
+
+    </span>
+    <span class="sb-alert-content">
+        <p><strong>Note:</strong> This tutorial is designed for beginners who are new to Git and GitHub, but we expect you to have some familiarity with the command line and basic programming concepts.<br />
+If these requirements are too steep, perhaps I can create a '0' level tutorial for you.</p>
+    </span>
+</div>
+
+<hr />
+<h3>Understanding Git Basics 🛠️</h3>
+<ul>
+<li><strong>What Git is:</strong> A tool that tracks changes to your project, lets you go back to earlier versions, and allows multiple people to work on different parts at once.</li>
+</ul>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Key terms</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <ul>
+<li><strong><code>Repository (Repo)</code>:</strong> Where your project and its history are stored.</li>
+<li><strong><code>Commit</code>:</strong> A saved snapshot of your changes.</li>
+<li><strong><code>Branch</code>:</strong> A separate line of development within a project.</li>
+<li><strong><code>Merge</code>:</strong> Combining changes from different branches.</li>
+<li><strong><code>Remote</code>:</strong> A connection to a repository hosted elsewhere (like on GitHub).</li>
+</ul>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            Learning these terms will help you understand the fundamentals of Git.
+        </div>
+
+</div>
+
+<ul>
+<li><strong>Why it's important:</strong> Essential for managing your own projects and working effectively in a team.</li>
+</ul>
+<hr />
+<h3>Using the GitHub Workflow 🔄</h3>
+<ul>
+<li><strong>What GitHub adds:</strong> A website that uses Git and adds features for better teamwork, like tracking issues, managing projects, and <strong>Pull Requests</strong>.</li>
+</ul>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Standard GitHub steps</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <ol>
+<li><strong><code>Fork</code>:</strong> Make a personal copy of a project on GitHub.</li>
+<li><strong><code>Clone</code>:</strong> Download your forked project to your computer.</li>
+<li><strong><code>Branch</code>:</strong> Create a new branch for your changes (e.g., a new feature or bug fix).</li>
+<li><strong><code>Push</code>:</strong> Upload your changes from your computer to your fork on GitHub.</li>
+<li><strong><code>Pull Request (PR)</code>:</strong> Propose your changes to the original project.</li>
+</ol>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            These are the steps you&#x27;ll follow when contributing to any project on GitHub.
+        </div>
+
+</div>
+
+<ul>
+<li><strong>Benefits:</strong> This process allows for clear discussion, code review, and organized contributions, especially for remote teams.</li>
+</ul>
+<hr />
+<h3>Making Your First Pull Request (PR) 🎉</h3>
+<ul>
+<li><strong>What a Pull Request is:</strong> Your formal way to ask the project owners to include your improvements.</li>
+</ul>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Why it&#x27;s a big deal</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>It shows you can use Git and GitHub and is your first step into open source.</p>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            This process provides a clear discussion, code review, and organized contributions, especially for remote teams.
+        </div>
+
+</div>
+
+<ul>
+<li><strong>What you'll learn here:</strong> How to find suitable tasks (like "good first issues"), make your changes, and confidently submit your first contribution to projects like EduLite.</li>
+</ul>
+<hr />
+<h2>Why Learn Git &amp; GitHub?</h2>
+<p>Understanding Git and GitHub is crucial for anyone involved in software development. Here's why:</p>
+<ul>
+<li>
+<p><strong>A Must-Have Skill for Developers:</strong></p>
+<ul>
+<li>Git and GitHub are as important as knowing a programming language for managing code.</li>
+<li>Git lets you track changes, experiment safely, and see your project's history.</li>
+<li>Many modern development tools (like CI/CD for automatic testing and deployment) rely on Git.</li>
+</ul>
+</li>
+<li>
+<p><strong>The Go-To for Version Control:</strong></p>
+<ul>
+<li>Most companies and projects use Git to manage different versions of their code.</li>
+<li>Knowing Git makes you more valuable to employers because it's used almost everywhere.</li>
+</ul>
+</li>
+<li>
+<p><strong>Key for Teamwork:</strong></p>
+<ul>
+<li>Git and GitHub are built for teams to work together on the same project smoothly.</li>
+<li><strong>Branches</strong> let developers work on new things separately without causing problems.</li>
+<li><strong>Pull Requests</strong> on GitHub allow for code reviews and discussions before changes are combined. This avoids confusion and lost work.</li>
+</ul>
+</li>
+<li>
+<p><strong>Builds Your Coding Portfolio:</strong></p>
+<ul>
+<li>Your GitHub profile is like a live resume that shows off your projects and skills.</li>
+<li>It displays your coding abilities, how you learn, and that you can use version control.</li>
+</ul>
+</li>
+<li>
+<p><strong>Shows Your Skills to Employers:</strong></p>
+<ul>
+<li>Employers often look at GitHub profiles to see a candidate's actual coding work.</li>
+<li>Good code, clear notes (commit messages), and contributions to projects demonstrate your skills and passion.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2>What You'll Learn</h2>
+<p>Here’s a summary of the topics we will go through:</p>
+<ul>
+<li><strong>Setting Up Git:</strong><ul>
+<li>Install Git on your computer (we'll provide links/commands).</li>
+<li>Configure your Git user name and email.</li>
+<li>Briefly see how to use Git with the command line and code editors (like VS Code).</li>
+</ul>
+</li>
+</ul>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Core Git Concepts</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <ul>
+<li><strong><code>Working directory vs. staging area</code>:</strong> Your current files vs. files ready to be saved.</li>
+<li><strong><code>Commits</code>:</strong> Snapshots of your project at a specific time.</li>
+<li><strong><code>Branches</code>:</strong> Parallel lines of work within your project.</li>
+<li><strong><code>HEAD</code>:</strong> What Git considers your current position.</li>
+<li><strong><code>Local &amp; remote repos</code>:</strong> Your computer's copy vs. a copy on a server (like GitHub).</li>
+</ul>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            Understand how Git works
+        </div>
+
+</div>
+
+<ul>
+<li>
+<p><strong>Forking &amp; Cloning Repositories:</strong></p>
+<ul>
+<li><strong>Forking:</strong> Creating your own server-side copy of a project (e.g., EduLite on GitHub) to work on.</li>
+<li><strong>Cloning:</strong> Downloading a repository (like your fork) to your computer using <code>git clone</code>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Using Branches for Your Work:</strong></p>
+<ul>
+<li>Learn why branches are useful for keeping new features or fixes separate and organized.</li>
+<li>Practice creating and switching between branches (e.g., <code>git branch</code>, <code>git checkout</code>).</li>
+</ul>
+</li>
+<li>
+<p><strong>Making Good Commits:</strong></p>
+<ul>
+<li>Save your changes by "committing" them:<ol>
+<li>Stage changes with <code>git add</code>.</li>
+<li>Commit with <code>git commit</code>.</li>
+</ol>
+</li>
+<li>Learn to write clear and helpful commit messages.</li>
+</ul>
+</li>
+<li>
+<p><strong>Creating Pull Requests (PRs):</strong></p>
+<ul>
+<li>After pushing changes to your fork on GitHub, learn to create a Pull Request.</li>
+<li>A PR is how you ask for your changes to be added to the main project. It's where discussions and code reviews happen.</li>
+</ul>
+</li>
+<li>
+<p><strong>Handling Code Reviews:</strong></p>
+<ul>
+<li>Understand that project maintainers will review your PR to improve code quality.</li>
+<li>Learn how to take feedback, ask questions, and update your PR with more changes.</li>
+</ul>
+</li>
+<li>
+<p><strong>Contributing to Real Projects (like EduLite):</strong></p>
+<ul>
+<li>Put everything together to make real contributions.</li>
+<li>Learn to find beginner-friendly tasks (e.g., "good first issue") and submit your work.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h1>About Our Example Project: EduLite</h1>
+<ul>
+<li>Student-first learning platform</li>
+<li>Built for areas with weak internet</li>
+<li>100% volunteer-driven open source project</li>
+<li>Perfect for your first contribution</li>
+<li>Includes both frontend and backend opportunities</li>
+</ul>
+<div class="sb-alert sb-alert-success sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ✅
+
+    </span>
+    <span class="sb-alert-content">
+        <p>While the <strong>EduLite</strong> community appreciates any contributions, the material in this tutorial can be used as a foundation for any projects.</p>
+    </span>
+</div>
+
+<hr />
+<h1>Git: A Distributed Version Control System</h1>
+<p>Git is a powerful version control tool. Its key functions include:</p>
+<ul>
+<li><strong>Distributed VCS:</strong> Tracks all file changes, supporting parallel work. Full local copies offer speed and offline use.</li>
+<li><strong>Change Tracking:</strong> Saves all modifications as <strong>commits</strong> (project snapshots) for easy history review and rollbacks.</li>
+<li><strong>Team Collaboration:</strong> Employs <strong>branching</strong> for isolated development and <strong>merging</strong> to integrate changes, managing conflicts.</li>
+<li><strong>Comprehensive History:</strong> Logs detailed information for every commit (who, when, why), vital for audits and debugging.</li>
+<li><strong>Offline Functionality:</strong> Most operations are performed <strong>locally and quickly</strong>; internet is only needed to share or fetch updates (push/pull).</li>
+</ul>
+<hr />
+<h1>Git Across Different Operating Systems</h1>
+<div class="sb-alert sb-alert-warning sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ⚠️
+
+    </span>
+    <span class="sb-alert-content">
+        <p><strong>Git installation varies by OS:</strong><br />
+Getting Git onto your computer is the first hands-on step, and the method differs slightly based on your operating system. Here's a brief rundown of the most common ways:</p>
+    </span>
+</div>
+
+<ul>
+<li><strong>Windows:</strong> The most straightforward method is typically to download the official installer directly from the <a href="https://git-scm.com/downloads/win">Git SCM website (https://git-scm.com/downloads/win)</a>. This installer often includes "Git Bash," a terminal environment that provides a Linux-like command-line experience for using Git on Windows.</li>
+<li><strong>Mac:</strong> If you use Homebrew (a popular package manager for macOS), installing Git can be as simple as running the command <code>brew install git</code>. Alternatively, installers are also available, sometimes bundled with Xcode developer tools or directly from the <a href="https://git-scm.com/downloads/mac">Git SCM website (https://git-scm.com/downloads/mac)</a>.</li>
+<li><strong>Linux:</strong> Installation is typically handled through your distribution's built-in package manager. For example:<ul>
+<li>On <strong>Ubuntu/Debian</strong> based systems, you'll use <code>sudo apt install git</code>.</li>
+<li>On <strong>Fedora</strong>, the command is <code>sudo dnf install git</code>.</li>
+<li>On <strong>Arch Linux</strong>, you would use <code>sudo pacman -S git</code>.</li>
+</ul>
+</li>
+</ul>
+<div class="sb-alert sb-alert-success sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ✅
+
+    </span>
+    <span class="sb-alert-content">
+        <p><strong>Good news: Once installed, Git commands are identical across all platforms:</strong></p>
+<p>This is a fantastic aspect of Git! While the initial setup might differ, the core Git commands you will learn and use (<code>git commit</code>, <code>git branch</code>, <code>git checkout</code>, <code>git push</code>, <code>git pull</code>, etc.) are exactly the same whether you're on Windows, macOS, or any Linux distribution.</p>
+<p>This universality means the skills you develop are highly transferable, and you can collaborate seamlessly with others who might be using different operating systems.</p>
+    </span>
+</div>
+
+<ul>
+<li><strong>All terminal commands in this course work the same on Windows, Mac, and Linux:</strong><ul>
+<li>To ensure a consistent learning experience, this course will focus on these universal Git commands as executed in a terminal or command-line interface.</li>
+<li>While the terminal application itself might have a different name or appearance (e.g., Git Bash or PowerShell on Windows, Terminal on macOS, various terminal emulators on Linux), the underlying Git commands you type and their behavior will be consistent with what's taught.</li>
+</ul>
+</li>
+</ul>
+<div class="sb-alert sb-alert-info sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ℹ️
+
+    </span>
+    <span class="sb-alert-content">
+        <p><strong>GUI clients available for all platforms if preferred:</strong></p>
+<p>If you're not entirely comfortable with the command line, or if you prefer a more visual way to interact with Git, there's good news: numerous Graphical User Interface (GUI) clients are available for all major operating systems. These tools provide a visual interface for Git operations.</p>
+<p>While these GUI clients can be helpful, especially for visualizing branches and history, this course will primarily focus on the command-line interface to ensure you build a fundamental understanding of Git's operations, which are consistent everywhere.</p>
+    </span>
+</div>
+
+<hr />
+<h1>Why We Use VS Code for This Tutorial</h1>
+<ul>
+<li>Combines code editor and terminal in one interface</li>
+<li>Built-in Git integration saves time</li>
+<li>Visual diff tool makes changes clear</li>
+<li>Widely used in industry (familiar to most teams)</li>
+<li>Works consistently across Windows, Mac, and Linux</li>
+<li>Extensions enhance Git workflow</li>
+<li>Free and open source</li>
+<li>Lightweight enough for beginners</li>
+</ul>
+<div class="sb-alert sb-alert-danger sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            🚫
+
+    </span>
+    <span class="sb-alert-content">
+        <p><strong>Important Consideration:</strong> While VS Code's built-in Git tools are convenient for this tutorial, make sure you also grasp the fundamental Git commands. Over-reliance on GUI features alone can sometimes hinder a deeper understanding of Git's core operations and troubleshooting.</p>
+    </span>
+</div>
+
+<hr />
+<h2>Configuring Git in VS Code 🛠️</h2>
+<p>Before you start committing, it's essential to tell Git who you are and understand how VS Code helps with GitHub.</p>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">1. Set Your Git Identity 🧑‍💻</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>Git needs your name and email to correctly attribute your work. These settings apply globally to all your Git projects.</p>
+<p>Open your terminal and run:<br />
+<code>git config --global user.name "Your Name"</code></p>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            This info appears on all your commits.
+        </div>
+
+</div>
+
+<div class="sb-alert sb-alert-warning sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ⚠️
+
+    </span>
+    <span class="sb-alert-content">
+        <p>Make sure to replate <code>"Your Name"</code> and <code>"your.email@example.com"</code> with your actual name and the email address you want associated with your commits (often the one linked to your GitHub account).</p>
+    </span>
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">2. Verify Your Settings ✅</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>Double-check that your Git identity was saved correctly:<br />
+<code>git config --global --list</code></p>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            This confirms your Git identity was saved correctly.
+        </div>
+
+</div>
+
+<div class="sb-alert sb-alert-success sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ✅
+
+    </span>
+    <span class="sb-alert-content">
+        <p>You should see your <code>user.name</code> and <code>user.email</code> in the output list. This confirms Git knows who you are for future commits!</p>
+    </span>
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">3. VS Code&#x27;s GitHub Authentication Perks 🚀</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>VS Code has excellent built-in features to simplify how you connect and authenticate with GitHub:</p>
+<ul>
+<li><strong>Easy Login:</strong> Automatically prompts for GitHub login on your first push, especially with HTTPS.</li>
+<li><strong>Secure Credential Storage:</strong> Safely remembers your login details (using your OS keychain or similar), so you don't have to re-enter them.</li>
+<li><strong>Automatic Token Refresh:</strong> Handles refreshing access tokens in the background, ensuring continuous access.</li>
+<li><strong>Multiple Account Support:</strong> Lets you manage and switch between different GitHub accounts for various projects.</li>
+</ul>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            Without VS Code, Git would require you to re-enter your username and password.
+        </div>
+
+</div>
+
+<hr />
+<h1>VS Code's Git Integration Features</h1>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Key VS Code Git Features at Your Fingertips</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>Visual Studio Code offers powerful built-in Git integration and is further enhanced by extensions like GitLens. Here are some key features:</p>
+<ul>
+<li><strong>Source Control Tab (Ctrl+Shift+G):</strong> Your main hub for viewing changes, staging files, committing, and managing branches.</li>
+<li><strong>Status Indicators in File Explorer:</strong> Easily see which files are modified, added, or untracked with visual cues next to filenames.</li>
+<li><strong>Built-in Diff Viewer:</strong> Visually compare versions of your files to see exactly what has changed.</li>
+<li><strong>Inline Blame Annotations (with GitLens):</strong> See who last modified a line of code and when, directly in the editor (GitLens extension feature).</li>
+<li><strong>Commit Staging with Checkboxes:</strong> Simply check boxes to select which changes or parts of files you want to include in your next commit.</li>
+<li><strong>Branch Switching from Status Bar:</strong> Quickly view your current branch and switch to others directly from the bottom status bar.</li>
+<li><strong>Conflict Resolution Helpers:</strong> Provides visual tools to help you resolve merge conflicts when they occur.</li>
+<li><strong>Integrated Terminal Access:</strong> Open a terminal within VS Code to use Git command-line for any advanced operations.</li>
+</ul>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            These tools streamline your Git workflow directly within the editor.
+        </div>
+
+</div>
+
+<hr />
+<h1>Git Terminal vs. GUI Clients: Which to Use?</h1>
+<div class="sb-alert sb-alert-info sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ℹ️
+
+    </span>
+    <span class="sb-alert-content">
+        <p>In this guide, we often use VS Code, which includes excellent visual Git integration (giving you a bit of a hybrid experience!). However, to ensure you build a strong and versatile understanding of Git, we primarily focus on teaching the <strong>terminal/command line</strong> operations. Mastering the core commands empowers you with a deep knowledge of how Git works, allowing you to use any Git tool—whether CLI or GUI—more effectively.</p>
+    </span>
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Comparing Git Interfaces: Terminal (CLI) vs. Graphical (GUI)</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>You have two main ways to interact with Git:</p>
+<p><strong>1. Terminal / Command Line (CLI):</strong></p>
+<ul>
+<li><strong>Universally Available:</strong> Works on all major operating systems (Windows, macOS, Linux).</li>
+<li><strong>Consistent Commands:</strong> The Git commands you learn are the same everywhere.</li>
+<li><strong>Full Power &amp; Control:</strong> Provides access to all of Git's features and is great for scripting complex workflows.</li>
+<li><strong>Often Preferred by Pros:</strong> Many experienced developers favor the CLI for its speed, precision, and efficiency.</li>
+</ul>
+<p><strong>2. Graphical User Interface (GUI) Clients:</strong><br />
+<em>(Examples: GitHub Desktop, Sourcetree, GitKraken, VS Code's integrated Git panel)</em></p>
+<ul>
+<li><strong>Visual Interaction:</strong> Offers a graphical way to see your repository's history, branches, and changes.</li>
+<li><strong>Potentially Easier for Beginners:</strong> The visual nature can make initial Git concepts less intimidating for some.</li>
+<li><strong>Varying Feature Access:</strong> While user-friendly, some GUIs might not expose all of Git's advanced commands or options directly.</li>
+<li><strong>Behind the Scenes:</strong> GUI tools are essentially user-friendly interfaces that execute standard Git commands for you.</li>
+</ul>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            Both have their strengths; understanding core Git is key!
+        </div>
+
+</div>
+
+<hr />
+<h1>Recommended VS Code Extensions for Git</h1>
+<ul>
+<li>Extensions enhance your Git workflow in VS Code</li>
+<li>Install from Extensions panel (Ctrl+Shift+X)</li>
+<li>These tools make Git more visual and intuitive</li>
+<li>Perfect for beginners learning Git concepts</li>
+</ul>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Extension: GitLens</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>GitLens is widely recognized as one of the most powerful and comprehensive Git extensions for Visual Studio Code. It dramatically enhances your ability to visualize, understand, and navigate your project's Git history.</p>
+<p><strong>Key Features Include:</strong></p>
+<ul>
+<li><strong>Line-by-line Blame Annotations:</strong> Instantly see who wrote or last changed any line of code and when, right in the editor.</li>
+<li><strong>Commit Search &amp; Exploration:</strong> Easily search, filter, and explore the commit history in various insightful ways.</li>
+<li><strong>File and Line History:</strong> View the detailed evolution of any file or even specific lines of code over time.</li>
+<li><strong>Branch Comparison Tools:</strong> Visually compare branches to understand differences and track changes effectively.</li>
+<li><strong>Revision Navigation:</strong> Effortlessly jump between different versions (commits) of your files.</li>
+<li><strong>Interactive Rebase Editor:</strong> Provides a powerful UI for more advanced operations like reordering, squashing, or editing commits (use with understanding, as it rewrites history!).</li>
+</ul>
+<p><strong>Why It's So Useful:</strong><br />
+GitLens makes your Git repository's history and authorship incredibly transparent and accessible, all without leaving your code editor. This significantly boosts productivity and deepens your understanding of how your project has evolved.</p>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            A must-have VS Code extension for deeper Git insights!
+        </div>
+
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Extension: Git Graph</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>Another invaluable VS Code extension for Git users is <strong>Git Graph</strong>. This tool excels at providing a clear, visual representation of your repository's commit history, branches, and merges.</p>
+<p><strong>Key Features &amp; Benefits:</strong></p>
+<ul>
+<li><strong>Graphical Git Log:</strong> Transforms the often complex Git log into an easy-to-understand, interactive graph.</li>
+<li><strong>Clear Branch Visualization:</strong> Instantly see how branches diverge, where they merge, and the overall structure of your development lines.</li>
+<li><strong>Tag Display:</strong> Clearly indicates where tags are placed within your commit history.</li>
+<li><strong>Enhanced Understanding:</strong> Makes it much simpler to grasp the flow of changes and the relationship between different commits, especially in projects with multiple contributors or complex branching strategies.</li>
+<li><strong>Repository Overview:</strong> Provides a great bird's-eye view of your project's evolution.</li>
+<li><strong>Contextual Git Actions:</strong> (For more advanced users) Allows performing some common Git actions directly from the graph.</li>
+</ul>
+<p><strong>Why It's a Great Addition:</strong><br />
+Git Graph is particularly helpful for beginners and visual learners as it makes the abstract concepts of branches and merges much more tangible. It complements tools like GitLens by focusing on the graphical layout of your Git history.</p>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            See your branches and merges come to life!
+        </div>
+
+</div>
+
+<hr />
+<h1>Understanding GitHub</h1>
+<ul>
+<li>Web-based platform built around Git</li>
+<li>Hosts repositories (projects)</li>
+<li>Adds collaboration features:</li>
+<li>Issues and discussions</li>
+<li>Pull requests</li>
+<li>Project management tools</li>
+<li>Code reviews</li>
+<li>Actions (CI/CD)</li>
+</ul>
+<hr />
+<h1>The Contribution Workflow</h1>
+<ol>
+<li>Find a project you want to contribute to</li>
+<li>Fork the repository to your account</li>
+<li>Clone your fork to your computer</li>
+<li>Create a branch for your changes</li>
+<li>Make and commit your changes</li>
+<li>Push your branch to your fork</li>
+<li>Create a pull request</li>
+<li>Respond to feedback</li>
+</ol>
+<hr />
+<h1>Authenticating with GitHub</h1>
+<div class="sb-alert sb-alert-info sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ℹ️
+
+    </span>
+    <span class="sb-alert-content">
+        <p>It's important to distinguish: <code>git config user.name</code> and <code>git config user.email</code> set your <em>author identity</em> for commits. This is different from <em>authenticating</em> with GitHub, which is required when you interact with remote repositories (like pushing your commits or cloning private ones). Authentication proves to GitHub that you have permission to perform these actions.</p>
+    </span>
+</div>
+
+<p>When you <code>push</code> to or <code>pull</code> from GitHub, especially with private repositories or when pushing to your forks, GitHub needs to verify who you are. Here are the common methods to authenticate:</p>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">🔑 GitHub Authentication Options</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>Here are three primary ways to authenticate your Git operations with GitHub:</p>
+<h3 id="option-1-https-with-a-personal-access-token-pat">Option 1: HTTPS with a Personal Access Token (PAT)</h3>
+<p>This method uses the familiar HTTPS URLs for your repositories but replaces your account password with a more secure Personal Access Token (PAT). PATs are revocable, can have specific scopes (permissions), and are the recommended way to authenticate for Git over HTTPS.</p>
+<ul>
+<li>
+<p><strong>How to Get and Use a PAT:</strong></p>
+<ol>
+<li><strong>Generate on GitHub:</strong> Navigate to your GitHub settings:<ul>
+<li>Click your profile picture (top-right) → Settings.</li>
+<li>In the left sidebar, scroll down to Developer settings.</li>
+<li>Go to Personal access tokens → <strong>Tokens (classic)</strong> or <strong>Fine-grained tokens</strong>.</li>
+<li>Click "Generate new token".</li>
+<li>Give it a descriptive name, set an expiration, and select the necessary scopes (e.g., <code>repo</code> for full control of private repositories).</li>
+</ul>
+</li>
+<li><strong>Copy Your Token:</strong> After creating the token, <strong>copy it immediately</strong>. GitHub will not show it to you again for security reasons. Store it securely (like in a password manager).</li>
+<li><strong>Use When Prompted:</strong> When Git (over HTTPS) asks for your username and password:<ul>
+<li>Enter your GitHub username.</li>
+<li>For the password, paste your <strong>Personal Access Token</strong>.</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>Optional: Caching Your PAT (Credential Helper)</strong><br />
+    To avoid entering your PAT every time, Git can cache it.<br />
+    On your command line, you can tell Git to store credentials:<br />
+<code>git config --global credential.helper store</code></p>
+</li>
+</ul>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            Choose the method that aligns with your security preferences and workflow.
+        </div>
+
+</div>
+
+<div class="sb-alert sb-alert-warning sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ⚠️
+
+    </span>
+    <span class="sb-alert-content">
+        <p>The <code>store</code> helper saves your credentials (including your PAT) in <strong>plain text</strong> on your computer. While convenient, this is not the most secure option. Modern Git installations on macOS and Windows often default to more secure helpers (<code>osxkeychain</code> or <code>manager-core</code>/<code>wincred</code>). Linux users might use <code>libsecret</code> or <code>cache</code> (which has a timeout). It's worth checking your Git setup or configuring a more secure credential helper if <code>store</code> is the default and you're concerned.</p>
+    </span>
+</div>
+
+<h3>Option 2: SSH Keys (Recommended) 🌟</h3>
+<p>Using SSH provides a more secure and often more convenient way to interact with GitHub without needing to enter your username or PAT repeatedly. You generate an SSH key pair (a public key and a private key) on your computer. You add the public key to your GitHub account, and your private key authenticates you automatically.</p>
+<div class="sb-alert sb-alert-success sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ✅
+
+    </span>
+    <span class="sb-alert-content">
+        <p>Once set up, SSH authentication is seamless for <code>git push</code>, <code>git pull</code>, <code>git clone</code>, etc. It uses strong cryptography and avoids password/token prompts for each operation.</p>
+    </span>
+</div>
+
+<ul>
+<li><strong>Steps to Use SSH:</strong><ol>
+<li><strong>Generate SSH Key (if you don't have one):</strong><br />
+    Open your terminal and run:<br />
+<code>`ssh-keygen -t ed25519 -C "your_email@example.com"`</code><br />
+    (Replace <code>"your_email@example.com"</code> with your GitHub email. Press Enter to accept default file locations and optionally set a passphrase for extra security.)</li>
+<li><strong>Add Public Key to GitHub:</strong><ul>
+<li>Copy the content of your <strong>public</strong> SSH key file. This is usually located at <code>~/.ssh/id_ed25519.pub</code> (or <code>~/.ssh/id_rsa.pub</code> for older keys). You can display it with <code>cat ~/.ssh/id_ed25519.pub</code>.</li>
+<li>On GitHub: Settings → SSH and GPG keys → Click "New SSH key" or "Add SSH key".</li>
+<li>Give it a title (e.g., "My Laptop") and paste your copied public key into the "Key" field.</li>
+</ul>
+</li>
+<li><strong>Use SSH URLs for Repositories:</strong><ul>
+<li>When cloning, use the SSH URL format: <code>`git clone git@github.com:YOUR_USERNAME/YourProject.git`</code></li>
+<li>If you have an existing repository cloned via HTTPS, you can change its remote URL:<br />
+<code>`git remote set-url origin git@github.com:YOUR_USERNAME/YourProject.git`</code></li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<h3>Option 3: GitHub CLI (gh)</h3>
+<p>GitHub's official command-line tool, <code>gh</code>, can simplify authentication and many other GitHub interactions.</p>
+<ul>
+<li><strong>Installation:</strong> Download and install <code>gh</code> from <a href="https://cli.github.com">cli.github.com</a>.</li>
+<li><strong>Authentication:</strong> Once installed, run:<br />
+<code>`gh auth login`</code><br />
+    This command will guide you through an interactive process (usually involving your web browser) to authenticate <code>gh</code> and, optionally, configure Git to use <code>gh</code> for authenticating HTTPS operations.</li>
+</ul>
+<hr />
+<h1>Cloning Your Fork &amp; Connecting Upstream</h1>
+<p>After you've successfully forked a repository (like <code>EduLite</code>) on GitHub, the next step is to bring a copy of <strong>your fork</strong> to your local computer. This process is called "cloning." Once cloned, you'll also want to establish a link back to the original project repository. This allows you to fetch updates and keep your work aligned with the main project.</p>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">⬇️ Step 1: Clone Your Forked Repository to Your Computer</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>First, navigate in your terminal to the directory on your computer where you want to store your project. Then, use one of the following <code>git clone</code> commands. Your choice depends on whether you've set up GitHub authentication via HTTPS (with a Personal Access Token - PAT) or SSH keys.</p>
+<p><strong>A. Using HTTPS (if authenticating with a PAT):</strong><br />
+Remember to replace <code>YOUR_USERNAME</code> with your actual GitHub username.<br />
+<code>`git clone https://github.com/YOUR_USERNAME/EduLite.git`</code></p>
+<p><strong>B. Using SSH (Recommended, if you've set up SSH keys):</strong><br />
+Replace <code>YOUR_USERNAME</code> with your GitHub username.<br />
+<code>`git clone git@github.com:YOUR_USERNAME/EduLite.git`</code></p>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            Always clone your fork, not the original, to make contributions!
+        </div>
+
+</div>
+
+<div class="sb-alert sb-alert-info sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ℹ️
+
+    </span>
+    <span class="sb-alert-content">
+        <p>You can easily find these URLs on <strong>your forked repository's page</strong> on GitHub. Click the green "&lt;&gt; Code" button, and you'll see options for HTTPS and SSH. Make sure you're copying the URL from <em>your fork</em>, not the original project page.</p>
+    </span>
+</div>
+
+<p>This command will:<br />
+1.  Create a new directory on your computer named after the repository (e.g., <code>EduLite</code>).<br />
+2.  Download all the project files and its entire Git history into this new directory.<br />
+3.  Automatically configure a "remote" named <code>origin</code> that points to <strong>your fork</strong> on GitHub.</p>
+<div class="sb-alert sb-alert-info sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ℹ️
+
+    </span>
+    <span class="sb-alert-content">
+        <p>You can easily find these URLs on <strong>your forked repository's page</strong> on GitHub. Click the green "&lt;&gt; Code" button, and you'll see options for HTTPS and SSH. Make sure you're copying the URL from <em>your fork</em>, not the original project page.</p>
+    </span>
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">🔗 Step 2: Connect to the Original (Upstream) Repository</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>After cloning your fork, it's a crucial best practice to add a remote connection to the <em>original project repository</em>. This remote is conventionally named <code>upstream</code>.</p>
+<ol>
+<li>
+<p><strong>Navigate into Your Cloned Project Directory:</strong><br />
+    If you're not already there, change into the directory Git just created:<br />
+    (Replace <code>EduLite</code> if your project folder has a different name)<br />
+<code>`cd EduLite`</code></p>
+</li>
+<li>
+<p><strong>Add the <code>upstream</code> Remote:</strong><br />
+    You'll need the URL of the original project you forked from. For the <code>EduLite</code> example, the original is <code>https://github.com/ibrahim-sisar/EduLite.git</code>.</p>
+<ul>
+<li>
+<p><strong>Using HTTPS for the upstream remote:</strong><br />
+    (Replace with the HTTPS URL of the original project if different)<br />
+<code>`git remote add upstream https://github.com/ibrahim-sisar/EduLite.git`</code></p>
+</li>
+<li>
+<p><strong>Using SSH for the upstream remote (if you prefer SSH for all remotes):</strong><br />
+    (Replace with the SSH URL of the original project if different)<br />
+<code>`git remote add upstream git@github.com:ibrahim-sisar/EduLite.git`</code></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Verify Your Remotes (Optional but Recommended):</strong><br />
+    You can check that both <code>origin</code> (your fork) and <code>upstream</code> (the original project) are set up correctly:<br />
+<code>`git remote -v`</code><br />
+    You should see output similar to this:<br />
+<code>origin  git@github.com:YOUR_USERNAME/EduLite.git (fetch)</code><br />
+<code>origin  git@github.com:YOUR_USERNAME/EduLite.git (push)</code><br />
+<code>upstream        [https://github.com/ibrahim-sisar/EduLite.git](https://github.com/ibrahim-sisar/EduLite.git) (fetch)</code><br />
+<code>upstream        [https://github.com/ibrahim-sisar/EduLite.git](https://github.com/ibrahim-sisar/EduLite.git) (push)</code><br />
+    (The URLs will reflect whether you used HTTPS or SSH for each.)</p>
+</li>
+</ol>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            This is key for fetching updates from the main project.
+        </div>
+
+</div>
+
+<div class="sb-alert sb-alert-success sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ✅
+
+    </span>
+    <span class="sb-alert-content">
+        <p>Connecting to the <code>upstream</code> repository allows you to fetch the latest changes from the original project directly into your local copy. This is essential for keeping your feature branches up-to-date before you create a Pull Request, helping to minimize merge conflicts and ensuring your contributions integrate smoothly.</p>
+    </span>
+</div>
+
+<hr />
+<h1>Working with Branches: Keeping Your Code Organized</h1>
+<p>In Git, branches are like parallel universes for your project. They allow you to work on new features, bug fixes, or experiments in isolation without affecting the main, stable version of your code (often called <code>main</code> or <code>master</code>). This is a cornerstone of clean, collaborative, and safe development.</p>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">🌿 Understanding and Using Branches</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <h3 id="why-are-branches-so-important">Why Are Branches So Important?</h3>
+<ul>
+<li><strong>Isolation of Work:</strong> Keep new, potentially unstable code separate from your stable <code>main</code> branch until it's ready.</li>
+<li><strong>Parallel Development:</strong> Allow multiple developers (or even just you working on multiple tasks) to work on different features or fixes simultaneously without tripping over each other.</li>
+<li><strong>Safe Experimentation:</strong> Try out new ideas or approaches on a branch. If it doesn't work out, you can simply discard the branch without impacting the main project.</li>
+<li><strong>Clearer History:</strong> When branches are merged, they can provide a clear history of how features were developed and integrated.</li>
+</ul>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            Branches: Your best friend for safe and organized coding adventures!
+        </div>
+
+</div>
+
+<div class="sb-alert sb-alert-danger sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            🚫
+
+    </span>
+    <span class="sb-alert-content">
+        <p><strong>Almost always, avoid working directly on your <code>main</code> (or <code>master</code>) branch!</strong> For any new piece of work—a feature, a bug fix, documentation, an experiment—always create a new branch first. This keeps your <code>main</code> branch clean, stable, and potentially shippable at all times.</p>
+    </span>
+</div>
+
+<h3>Creating a New Branch (and Switching to It)</h3>
+<p>The most common way to create a new branch and immediately start working on it is with the <code>git checkout -b</code> command:</p>
+<p><code>`git checkout -b &lt;your-new-branch-name&gt;`</code></p>
+<ul>
+<li>This command does two things:<ol>
+<li>Creates a new branch named <code>&lt;your-new-branch-name&gt;</code>.</li>
+<li>Switches your working directory to this new branch.</li>
+</ol>
+</li>
+</ul>
+<p><strong>Choosing Good Branch Names:</strong><br />
+Descriptive branch names are crucial for understanding the purpose of the work being done.</p>
+<ul>
+<li><strong>Be Clear and Concise:</strong> Examples:<ul>
+<li>For a new feature: <code>`git checkout -b feature/user-login-page`</code></li>
+<li>For fixing a bug: <code>`git checkout -b fix/submit-button-alignment`</code></li>
+<li>For documentation updates: <code>`git checkout -b docs/update-installation-guide`</code></li>
+</ul>
+</li>
+<li><strong>Common Conventions:</strong> Many teams use prefixes like <code>feature/</code>, <code>fix/</code>, <code>docs/</code>, <code>chore/</code>, etc. Using hyphens (<code>-</code>) to separate words is also a common practice.</li>
+</ul>
+<div class="sb-alert sb-alert-info sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ℹ️
+
+    </span>
+    <span class="sb-alert-content">
+        <p>When contributing to a project (like <strong>EduLite</strong>), check if they have specific branch naming conventions outlined in their <code>CONTRIBUTING.md</code> file or other documentation. Following project conventions is good practice!</p>
+    </span>
+</div>
+
+<h3>Checking Your Current Branch &amp; Listing Branches</h3>
+<ul>
+<li>
+<p>To see which branch you are currently on and list all your local branches:<br />
+<code>`git branch`</code><br />
+    (Your current branch will be marked with an asterisk <code>*</code> and often highlighted in your terminal.)</p>
+</li>
+<li>
+<p>To see all branches, including local branches and remote-tracking branches (branches on GitHub that your local Git knows about):<br />
+<code>`git branch -a`</code></p>
+</li>
+</ul>
+<h3>Switching Between Existing Branches</h3>
+<p>If you need to switch back to a branch you've already created (without creating a new one):<br />
+<code>`git checkout &lt;existing-branch-name&gt;`</code><br />
+For example, to switch back to your main branch:<br />
+<code>`git checkout main`</code></p>
+<hr />
+<h1>Making Changes to Your Code</h1>
+<p>Alright, you've created and switched to your new branch! Now comes the fun part: actually making the changes for your feature, bug fix, or documentation update.</p>
+<div class="sb-alert sb-alert-info sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ℹ️
+
+    </span>
+    <span class="sb-alert-content">
+        <p>Just a quick reminder: all the edits, new files, and deletions you're about to do should happen while you are checked out on the specific branch you created for this task (e.g., <code>feature/user-login-page</code>). This is key to keeping your work isolated and the <code>main</code> branch clean. If you're unsure, run <code>`git branch`</code> to check!</p>
+    </span>
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">📝 Making and Reviewing Your Code Changes</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>Here’s the typical process:</p>
+<ol>
+<li>
+<p><strong>Edit Existing Files or Create New Ones:</strong></p>
+<ul>
+<li>Open your project in your preferred code editor (like VS Code).</li>
+<li>Make the necessary modifications to existing files.</li>
+<li>Create any new files that your feature or fix requires.</li>
+<li>This is where you write your code, update documentation, fix that typo, etc.</li>
+</ul>
+</li>
+<li>
+<p><strong>Check the Status of Your Changes (<code>git status</code>):</strong><br />
+    After you've made some edits, <code>git status</code> is your best friend. It tells you what Git has noticed about your files.<br />
+<code>`git status`</code><br />
+    The output will show you:</p>
+<ul>
+<li><strong>"Changes not staged for commit"</strong>: Lists files that Git knows about (tracked files) that you have modified since your last commit.</li>
+<li><strong>"Untracked files"</strong>: Lists new files you've created that Git doesn't yet track.</li>
+<li>(Later, it will also show <strong>"Changes to be committed"</strong> for files you've staged.)</li>
+</ul>
+</li>
+<li>
+<p><strong>Review Your Specific Changes (<code>git diff</code>):</strong><br />
+    To see the exact line-by-line modifications you've made to your tracked files (those that are <em>not yet staged</em> for commit), use <code>git diff</code>:<br />
+<code>`git diff`</code></p>
+<ul>
+<li>This command shows the differences between what's in your working directory and what's in your last commit (or what's in the staging area if you've staged some files already).</li>
+<li>Lines starting with <code>-</code> (often in red) are lines removed or the old version of changed lines.</li>
+<li>Lines starting with <code>+</code> (often in green) are lines added or the new version of changed lines.</li>
+<li>To see changes only for a specific file:<br />
+<code>`git diff path/to/your/file.py`</code></li>
+</ul>
+</li>
+<li>
+<p><strong>Review Staged Changes (What Will Be in Your Next Commit):</strong><br />
+    After you "stage" your changes (which we'll cover in the very next section!), you can see a diff of exactly what will go into your next commit using:<br />
+<code>`git diff --staged`</code><br />
+    (An older, equivalent command is <code>`git diff --cached`</code>.)<br />
+    This is like a final review of your "package" of changes before you formally save it with a commit message.</p>
+</li>
+</ol>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            Always check what you&#x27;ve changed before moving on!
+        </div>
+
+</div>
+
+<hr />
+<h1>Staging Changes: Selecting What to Commit</h1>
+<p>After you've made and reviewed your modifications on your feature branch, the next step in Git's workflow is "staging" those changes. Git uses a two-step process to save your work:</p>
+<ol>
+<li><strong>Stage:</strong> You select the specific changes (files, or even parts of files) you want to include in your next snapshot.</li>
+<li><strong>Commit:</strong> You permanently record those staged changes along with a descriptive message.</li>
+</ol>
+<p>This "staging area" (also known as the "index") is powerful because it lets you craft your commits precisely.</p>
+<div class="sb-alert sb-alert-info sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ℹ️
+
+    </span>
+    <span class="sb-alert-content">
+        <p>Think of the staging area as a "drafting table" or "shopping basket" for your next commit. You might have made many different edits in several files (your working directory). The staging area allows you to pick and choose only the changes that logically belong together for a single, focused commit. This helps keep your project history clean and understandable.</p>
+    </span>
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">💾 Adding Changes to the Staging Area with `git add`</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>The command to move changes from your working directory to the staging area is <code>git add</code>.</p>
+<h3 id="common-ways-to-use-git-add">Common Ways to Use <code>git add</code>:</h3>
+<ul>
+<li>
+<p><strong>Stage All Changes in a Specific File:</strong><br />
+    If you want to include all modifications in one particular file:<br />
+<code>`git add path/to/your/filename.js`</code><br />
+    (Replace <code>path/to/your/filename.js</code> with the actual file path.)</p>
+</li>
+<li>
+<p><strong>Stage All Changes in a Specific Directory:</strong><br />
+    To add all modified and new (untracked) files within a particular directory and its subdirectories:<br />
+<code>`git add path/to/your/directory/`</code></p>
+</li>
+<li>
+<p><strong>Stage All Changes in the Current Directory (and subdirectories):</strong><br />
+    This is a very common and powerful command. The <code>.</code> symbol refers to your current working directory.<br />
+<code>`git add .`</code><br />
+    This command stages all modified files and all new untracked files from the current directory downwards.</p>
+</li>
+</ul>
+<h3 id="verifying-what-youve-staged">Verifying What You've Staged:</h3>
+<p>It's essential to check what you've staged before you commit.</p>
+<ol>
+<li>
+<p><strong>Using <code>git status</code>:</strong><br />
+    Run <code>`git status`</code> again after using <code>git add</code>. You'll see:</p>
+<ul>
+<li>Files listed under <strong>"Changes to be committed"</strong>: These are now in the staging area.</li>
+<li>Any other modified files (that you didn't <code>add</code>) will remain under "Changes not staged for commit."</li>
+<li>Untracked files that were not added will still be listed as untracked.</li>
+</ul>
+</li>
+<li>
+<p><strong>Using <code>git diff --staged</code> (Review Actual Content):</strong><br />
+    To see the exact line-by-line changes that are currently in your staging area (i.e., what will be included in your next commit), use:<br />
+<code>`git diff --staged`</code><br />
+    (You might also see its older synonym, <code>`git diff --cached`</code>.)<br />
+    Reviewing this output is a great final check before you write your commit message.</p>
+</li>
+</ol>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            Always check `git status` before and after staging!
+        </div>
+
+</div>
+
+<div class="sb-alert sb-alert-warning sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ⚠️
+
+    </span>
+    <span class="sb-alert-content">
+        <p>While <code>`git add .`</code> is incredibly convenient, it stages <em>everything</em> in the current directory and below. Always run <code>`git status`</code> <strong>before</strong> <code>`git add .`</code> to be sure you know what changes will be included. This helps prevent accidentally staging temporary files, build artifacts, or unrelated changes that should go into a separate commit. For more precise control, consider staging files individually or using <code>git add -p</code> for interactive staging (an advanced but very useful technique).</p>
+    </span>
+</div>
+
+<hr />
+<h1>Creating Commits: Saving Your Progress</h1>
+<p>Once you've "staged" the changes you want to group together (using <code>git add</code>), the next crucial step is to <strong>commit</strong> them. A commit is like taking a permanent, named snapshot of your staged changes at that specific point in time. It becomes a recorded part of your project's history, allowing you to revisit this version, understand what changed, and collaborate effectively.</p>
+<div class="sb-alert sb-alert-success sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ✅
+
+    </span>
+    <span class="sb-alert-content">
+        <p>Think of commits as more than just saved files; they are well-described milestones in your project's evolution. Each commit tells a part of the story of how your project was built or modified. Good commits make your project history understandable and trustworthy.</p>
+    </span>
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">📸 Crafting and Making a Commit</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>The command to create a commit is <code>git commit</code>. It takes the files currently in your staging area and records them as a new version in your local repository.</p>
+<h3 id="ways-to-commit">Ways to Commit:</h3>
+<ul>
+<li>
+<p><strong>For a Short, Single-Line Message (Most Common for Simple Changes):</strong><br />
+    Use the <code>-m</code> flag followed by your commit message in quotes:<br />
+<code>`git commit -m "Add validation for user login form"`</code><br />
+    This command creates the commit immediately with the message you provided.</p>
+</li>
+<li>
+<p><strong>For Longer, Multi-Line Messages (Recommended for More Significant Changes):</strong><br />
+    If your changes require more explanation than a single line, simply run:<br />
+<code>`git commit`</code><br />
+    This will open your system's default text editor (or the one Git is configured to use, like VS Code, Vim, Nano). In the editor:</p>
+<ol>
+<li>Write a concise <strong>subject line</strong> (ideally 50 characters or less).</li>
+<li>Leave a <strong>blank line</strong> after the subject.</li>
+<li>Write a more detailed <strong>body</strong> explaining the "what" and "why" of your changes, if necessary. You can use multiple paragraphs.<br />
+Once you save and close the editor, Git will create the commit with your full message.</li>
+</ol>
+</li>
+</ul>
+<h3 id="writing-effective-commit-messages">Writing Effective Commit Messages:</h3>
+<p>A well-written commit message is crucial. It helps others (and your future self!) understand the purpose of the change without having to read all the code.</p>
+<ul>
+<li>
+<p><strong>Start with an Imperative Verb (Command Tense):</strong><br />
+    Treat the subject line as if you're giving an order to the codebase.</p>
+<ul>
+<li><em>Examples:</em> <code>`Add user profile page`</code>, <code>`Fix typo in README`</code>, <code>`Update API documentation`</code>, <code>`Refactor login logic`</code>, <code>`Remove deprecated feature`</code>.</li>
+<li><em>Avoid:</em> "Added...", "Fixing...", "Updates..."</li>
+</ul>
+</li>
+<li>
+<p><strong>Keep the Subject Line Concise:</strong><br />
+    Aim for around 50 characters (max ~72) for the subject. This ensures it displays well in various Git tools (like <code>git log --oneline</code>).</p>
+</li>
+<li>
+<p><strong>Explain "What" and "Why," Not "How":</strong></p>
+<ul>
+<li>Your code shows <em>how</em> the change was made.</li>
+<li>Your commit message should explain <em>what</em> the change does and <em>why</em> it was necessary or beneficial.</li>
+<li><em>Example:</em> Instead of "Changed loop variable name," a better message might be "Refactor: Clarify variable name in user processing loop for readability."</li>
+</ul>
+</li>
+<li>
+<p><strong>Use the Body for Details:</strong><br />
+    If the "what" and "why" need more than a short subject line, use the body of the commit message (when you run <code>git commit</code> without <code>-m</code>).</p>
+</li>
+<li>
+<p><strong>Maintain Consistency:</strong><br />
+    If you're contributing to an existing project (like <strong>EduLite</strong>), look at its commit history (<code>git log</code>) to see the style and conventions used, and try to follow them.</p>
+</li>
+</ul>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            Clear commits lead to a clear project history.
+        </div>
+
+</div>
+
+<hr />
+<h1>Commit Best Practices</h1>
+<ul>
+<li>Make small, focused commits</li>
+<li>Each commit should do one logical change</li>
+<li>Write meaningful commit messages</li>
+<li>Make sure code works before committing</li>
+<li>Follow project commit guidelines if they exist</li>
+</ul>
+<hr />
+<h1>Pushing Changes: Sharing Your Work with GitHub</h1>
+<p>Once you've diligently made and committed your changes locally on your feature branch, the next crucial step is to "push" those commits to your remote repository on GitHub. Pushing essentially uploads your local branch and its commit history to your fork on GitHub. This makes your work accessible online, backs it up, and is a necessary prerequisite before you can create a Pull Request to propose your changes to the original project.</p>
+<div class="sb-alert sb-alert-info sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ℹ️
+
+    </span>
+    <span class="sb-alert-content">
+        <p>When you push your branch to your fork, you're not changing the original project directly. Instead, you're updating your personal copy on GitHub. From there, you can initiate a Pull Request to suggest that the original project incorporate your contributions.</p>
+    </span>
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">📤 Uploading Your Local Commits with `git push`</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>The command to send your local committed changes to a remote repository is <code>git push</code>. In most common workflows for contributing, you'll be pushing to <code>origin</code>, which is the conventional name for the remote that points to your fork on GitHub.</p>
+<h3 id="pushing-a-new-branch-for-the-first-time">Pushing a New Branch for the First Time</h3>
+<p>If you've created a new branch locally (e.g., <code>feature/amazing-new-thing</code>) and made commits on it, the very first time you push this branch to your <code>origin</code> (your fork), you need to tell Git to establish a link between your local branch and the new branch on the remote.</p>
+<ul>
+<li>
+<p><strong>The Command:</strong><br />
+<code>`git push -u origin your-branch-name`</code><br />
+    (Make sure to replace <code>your-branch-name</code> with the actual name of your local branch, like <code>feature/amazing-new-thing</code>.)</p>
+</li>
+<li>
+<p><strong>Breaking Down the Command:</strong></p>
+<ul>
+<li><code>git push</code>: The core command to send changes.</li>
+<li><code>-u</code> (or its longer, more descriptive form <code>--set-upstream</code>): This flag is very important for the first push of a branch. It does two key things:<ol>
+<li>It pushes your local <code>your-branch-name</code> to the <code>origin</code> remote, creating a branch with the same name there if it doesn't already exist.</li>
+<li>It sets up a "tracking relationship." This means your local branch will now "track" (or be linked to) the remote branch <code>origin/your-branch-name</code>. This simplifies future pushes and pulls from this branch.</li>
+</ol>
+</li>
+<li><code>origin</code>: The name of your remote repository (which, by default, is your fork on GitHub).</li>
+<li><code>your-branch-name</code>: The name of your local branch that you want to push.</li>
+</ul>
+<p>After this command successfully completes, your branch and all its commits will be on your GitHub fork.</p>
+</li>
+</ul>
+<h3 id="pushing-subsequent-commits-to-an-existing-remote-branch">Pushing Subsequent Commits to an Existing Remote Branch</h3>
+<p>Once your local branch is tracking a remote branch (because you used the <code>-u</code> flag on its first push), sending any new local commits you make on that branch is much simpler:</p>
+<ul>
+<li>
+<p><strong>The Command:</strong><br />
+<code>`git push`</code></p>
+</li>
+<li>
+<p><strong>Why This Works:</strong><br />
+    Since the tracking relationship was established, Git knows that when you're on <code>your-branch-name</code> locally and type <code>git push</code>, you intend to send the commits to <code>origin/your-branch-name</code>. No need to specify the remote or branch name again!</p>
+</li>
+</ul>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            Remember: commit locally, then push to share!
+        </div>
+
+</div>
+
+<div class="sb-alert sb-alert-warning sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ⚠️
+
+    </span>
+    <span class="sb-alert-content">
+        <p>The <code>git push</code> command only uploads changes that have been <strong>committed</strong> to your local repository. If you have made changes to files but haven't yet run <code>git add</code> and <code>git commit</code>, those changes will not be included in the push. Always check your <code>git status</code> to ensure your desired changes are committed before pushing.</p>
+    </span>
+</div>
+
+<hr />
+<h1>Creating a Pull Request: Proposing Your Changes</h1>
+<p>You've done the local work: created a branch, made your changes, committed them, and pushed your branch to your fork on GitHub. Fantastic! The next essential step is to create a <strong>Pull Request</strong> (often shortened to <strong>PR</strong>).</p>
+<p>A Pull Request is your formal way of telling the maintainers of the original project, "Hey, I've made some changes on my fork that I think would be valuable. Please review them and consider merging them into your project!"</p>
+<div class="sb-alert sb-alert-info sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ℹ️
+
+    </span>
+    <span class="sb-alert-content">
+        <p>Pull Requests are the heart of collaboration on GitHub. They open up a dedicated space for discussion about your proposed changes. Maintainers can review your code, ask questions, suggest improvements, and (hopefully!) approve and merge your work.</p>
+    </span>
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">🚀 How to Create Your Pull Request (PR) on GitHub</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>Before you begin, quickly double-check that you have:<br />
+1.  Committed all your desired changes to your local feature branch.<br />
+2.  Pushed that feature branch from your local machine to your remote fork on GitHub.</p>
+<p>Now, let's create the PR using the GitHub website:</p>
+<ol>
+<li>
+<p><strong>Navigate to the Original Project Repository:</strong><br />
+    Go to the main page of the repository you forked <em>from</em> (e.g., for our example, this would be <code>ibrahim-sisar/EduLite</code> on GitHub).</p>
+</li>
+<li>
+<p><strong>Start a New Pull Request:</strong></p>
+<ul>
+<li><strong>Option A (Often Automatic):</strong> If you've recently pushed a new branch to your fork, GitHub is usually smart enough to detect this. You'll often see a yellow banner or a prominent button on the original repository's page saying something like <strong><code>Compare &amp; pull request</code></strong> next to your branch name. If you see this for your feature branch, click it! This is the quickest way.</li>
+<li><strong>Option B (Manual):</strong> If you don't see the automatic prompt, click on the <strong><code>Pull requests</code></strong> tab (usually located near the top of the repository page, alongside "Code", "Issues", etc.). On the Pull Requests page, click the green <strong><code>New pull request</code></strong> button.</li>
+</ul>
+</li>
+<li>
+<p><strong>Configure the Base and Head Branches (This is Crucial!):</strong><br />
+    You'll be taken to a "Comparing changes" page. This is where you tell GitHub <em>what</em> you want to merge and <em>where</em> you want to merge it.</p>
+<ul>
+<li><strong>Base Repository &amp; Base Branch:</strong><ul>
+<li>Ensure the <strong>"base repository"</strong> is the original project (e.g., <code>ibrahim-sisar/EduLite</code>).</li>
+<li>The <strong>"base"</strong> branch (dropdown) should be the branch in the original project that you want your changes to be merged <em>into</em>. This is typically <code>main</code>, <code>master</code>, or sometimes a <code>develop</code> branch. (Check the project's <code>CONTRIBUTING.md</code> if unsure).</li>
+</ul>
+</li>
+<li><strong>Head Repository &amp; Compare Branch:</strong><ul>
+<li>You will likely need to click the link that says <strong><code>compare across forks</code></strong>. This allows you to select your fork.</li>
+<li>Set the <strong>"head repository"</strong> to <strong>your fork</strong> (e.g., <code>YOUR_USERNAME/EduLite</code>).</li>
+<li>Set the <strong>"compare"</strong> branch (dropdown) to <strong>your feature branch</strong> from your fork (the one containing the changes you just pushed).</li>
+</ul>
+</li>
+</ul>
+<p>Once these are correctly set, GitHub will show you a summary of your commits and a "diff" (the changes you've made).</p>
+</li>
+<li>
+<p><strong>Review Your Changes:</strong><br />
+    Take a moment to look at the diff displayed. Does it include all the changes you intended and nothing extra? This is a good final check.</p>
+</li>
+<li>
+<p><strong>Create the Pull Request &amp; Write a Clear Description:</strong></p>
+<ul>
+<li>If everything looks good, click the green <strong><code>Create pull request</code></strong> button.</li>
+<li>You'll now see a form where you provide a <strong>Title</strong> and a <strong>Description</strong> for your PR:<ul>
+<li><strong>Title:</strong> Make it clear and concise, summarizing your changes (e.g., "Fix: Prevent crash on invalid user input" or "Feat: Add dark mode toggle to settings").</li>
+<li><strong>Description (Body):</strong> This is very important!<ul>
+<li>Clearly explain <em>what</em> changes your PR introduces.</li>
+<li>Explain <em>why</em> these changes were made (e.g., what bug it fixes, what feature it adds).</li>
+<li>If your PR addresses a specific GitHub Issue, link to it by typing its number (e.g., <code>Closes #42</code>, <code>Fixes #123</code>). This often automatically links the PR and the issue.</li>
+<li>Include screenshots or GIFs for any UI changes.</li>
+<li>If there are specific testing steps, mention them.</li>
+<li>(Many projects have a Pull Request template that will guide you on what information to include.)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Submit Your Pull Request:</strong><br />
+    After filling out the title and description thoroughly, click the final <strong><code>Create pull request</code></strong> button at the bottom of the form.</p>
+</li>
+</ol>
+<p>And that's it! Your Pull Request is now open and visible on the original project's "Pull requests" tab. Maintainers will be notified, any configured automated checks (like tests) will run, and the review process will begin. Be prepared to answer questions or make further changes based on feedback!</p>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            A well-crafted PR makes the review process smoother for everyone!
+        </div>
+
+</div>
+
+<hr />
+<h1>Writing a Good PR Description</h1>
+<ul>
+<li>Clearly explain what your changes do</li>
+<li>Reference any related issues: "Fixes #42"</li>
+<li>Include screenshots for UI changes</li>
+<li>Explain how to test your changes</li>
+<li>List any potential concerns or questions</li>
+<li>Thank maintainers for their time</li>
+</ul>
+<hr />
+<h1>The Code Review Process</h1>
+<ul>
+<li>Maintainers will review your code</li>
+<li>They may request changes</li>
+<li>Be responsive and open to feedback</li>
+<li>Make requested changes by:</li>
+<li>Making new commits on your branch</li>
+<li>Pushing them to your fork</li>
+<li>PR updates automatically</li>
+</ul>
+<hr />
+<h1>Updating Your Pull Request (PR)</h1>
+<p>Once your Pull Request (PR) is open on GitHub, it's common to need to make further changes. This might be because:</p>
+<ol>
+<li>Maintainers have reviewed your code and requested modifications.</li>
+<li>The main branch of the original project (e.g., <code>main</code> or <code>develop</code>) has been updated, and you want to incorporate these latest changes into your PR branch to ensure compatibility and reduce future merge conflicts.</li>
+</ol>
+<p>Here’s how to handle these common scenarios:</p>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">🔄 Keeping Your Pull Request Current &amp; Clean</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <h3 id="scenario-1-addressing-review-feedback">Scenario 1: Addressing Review Feedback</h3>
+<p>If reviewers ask for changes on your PR:</p>
+<ol>
+<li>
+<p><strong>Make the Changes Locally:</strong></p>
+<ul>
+<li>First, make sure you are on your feature branch:<br />
+<code>`git checkout your-feature-branch`</code><br />
+  (Replace <code>your-feature-branch</code> with the actual name of your branch.)</li>
+<li>Use your code editor to make the requested modifications to your files.</li>
+</ul>
+</li>
+<li>
+<p><strong>Commit Your New Changes:</strong></p>
+<ul>
+<li>Stage the files you've changed:<br />
+<code>`git add .`</code> (to stage all changes in the current directory)<br />
+  or <code>`git add path/to/specific/file.py`</code> (to stage specific files).</li>
+<li>Commit these changes with a clear message, often referencing the review:<br />
+<code>`git commit -m "Address review feedback: Refactor user service"`</code><br />
+  You can also create multiple small commits if the feedback involves several distinct points.</li>
+</ul>
+</li>
+<li>
+<p><strong>Push to Your Fork:</strong><br />
+    Push the new commit(s) to the <strong>exact same branch</strong> on your remote fork (usually <code>origin</code>):<br />
+<code>`git push`</code></p>
+<p>GitHub will automatically detect these new commits and add them to your existing Pull Request. There's no need to close and re-open it!</p>
+</li>
+</ol>
+<h3 id="scenario-2-updating-your-branch-with-changes-from-the-original-projects-main-branch-rebasing">Scenario 2: Updating Your Branch with Changes from the Original Project's Main Branch (Rebasing)</h3>
+<p>It's good practice to keep your feature branch up-to-date with the latest changes from the original project's main development line (e.g., <code>upstream/main</code> or <code>upstream/develop</code>). This helps prevent large merge conflicts when your PR is eventually merged. Rebasing is a common and clean way to achieve this.</p>
+<ol>
+<li>
+<p><strong>Ensure Your Local Knowledge of <code>upstream</code> is Current:</strong><br />
+    Fetch the latest changes from the <code>upstream</code> remote (the original project):<br />
+<code>`git fetch upstream`</code></p>
+</li>
+<li>
+<p><strong>Switch to Your Feature Branch:</strong><br />
+    Make sure you are on the branch you want to update:<br />
+<code>`git checkout your-feature-branch`</code></p>
+</li>
+<li>
+<p><strong>Rebase Your Branch onto <code>upstream/main</code>:</strong><br />
+    This command takes the commits from your feature branch and re-applies them, one by one, on top of the latest commit from <code>upstream/main</code> (or whichever branch is the target, like <code>upstream/develop</code>).<br />
+<code>`git rebase upstream/main`</code></p>
+<ul>
+<li><strong>Note:</strong> Rebasing <em>rewrites the commit history</em> of your local feature branch. The commit SHAs will change.</li>
+<li><strong>Conflicts:</strong> If your changes conflict with changes from <code>upstream/main</code>, Git will pause the rebase and ask you to resolve the conflicts. After resolving them in your editor, you'll use <code>`git add &lt;conflicted-file&gt;`</code> and then <code>`git rebase --continue`</code>. (Detailed conflict resolution is often covered in its own section.) If you get stuck, you can abort with <code>`git rebase --abort`</code>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Push Your Rebased Branch to Your Fork:</strong><br />
+    Because rebasing rewrites history, your local branch will have diverged from the version on your remote fork. You'll need to "force push" to update the branch on <code>origin</code>.<br />
+<code>`git push --force origin your-feature-branch`</code><br />
+    (Or, if your local branch is correctly tracking the remote branch and has the same name, often just <code>`git push --force`</code> or <code>`git push -f`</code> will work.)</p>
+</li>
+</ol>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            Well-maintained PRs are easier to review and merge!
+        </div>
+
+</div>
+
+<div class="sb-alert sb-alert-warning sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ⚠️
+
+    </span>
+    <span class="sb-alert-content">
+        <ul>
+<li><strong>Rewriting History (<code>git rebase</code>):</strong> This is generally safe and encouraged for your <em>own feature branches</em> that you haven't shared extensively or that others aren't directly basing work off of (common for PR branches on your fork). It keeps the project history linear and clean.</li>
+<li><strong>Force Pushing (<code>--force</code> or <code>-f</code>):</strong> This command overwrites the remote branch with your local version.<ul>
+<li><strong>When is it okay?</strong> For your own Pull Request branch on your personal fork, force pushing after a rebase is a standard and often necessary practice to keep the PR updated with a clean history.</li>
+<li><strong>When to AVOID?</strong> <strong>Never force push to shared branches</strong> like <code>main</code>, <code>develop</code>, or any branch that other collaborators are actively pulling from and basing their work on. This can cause serious problems for them by rewriting history they depend on.</li>
+<li><strong>A Safer Alternative:</strong> Consider using <code>`git push --force-with-lease`</code>. It's a more cautious version of force push that will only proceed if the remote branch hasn't been updated by someone else since your last fetch, helping to prevent accidentally overwriting others' work on that remote branch if it were shared (though less of a concern for your own fork's PR branch).</li>
+</ul>
+</li>
+</ul>
+    </span>
+</div>
+
+<hr />
+<h1>Handling Merge Conflicts: Resolving Clashing Changes</h1>
+<p>Sooner or later, as you work with Git—especially in collaborative projects or when keeping your branches updated with an active <code>main</code> branch—you'll encounter <strong>merge conflicts</strong>.</p>
+<p>A merge conflict occurs when Git is trying to combine changes from two different sources (e.g., your branch and the <code>main</code> branch, or two different commits during a rebase) and finds that both sources have made different changes to the <strong>same lines in the same file(s)</strong>. Git can't automatically decide which version is correct, so it pauses the operation and asks for your help.</p>
+<div class="sb-alert sb-alert-info sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ℹ️
+
+    </span>
+    <span class="sb-alert-content">
+        <p>Seeing a "merge conflict" message for the first time can be a bit alarming, but it's a very normal part of using Git. It doesn't mean you've broken anything catastrophically! Git is simply telling you it needs your human intelligence to make the right decision about how to combine the overlapping changes.</p>
+    </span>
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">⚔️ Tackling Merge Conflicts: A Step-by-Step Guide</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>When a merge conflict happens (for example, during a <code>`git rebase`</code>, <code>`git merge`</code>, or even a <code>`git pull`</code> that involves a merge), Git will:<br />
+1.  Inform you that there are conflicts.<br />
+2.  Modify the conflicted files to show you exactly where the overlapping changes are, using special "conflict markers."<br />
+3.  Pause the ongoing operation (e.g., the rebase or merge) until you've resolved the issues.</p>
+<p>Here’s how to approach resolving them:</p>
+<h3 id="1-identify-the-conflicted-files">1. Identify the Conflicted Files</h3>
+<ul>
+<li>Git will usually list the files that have conflicts in its output.</li>
+<li>Running <code>`git status`</code> is your best friend here. It will clearly show "Unmerged paths" (or similar), listing the files that need your attention.</li>
+</ul>
+<h3 id="2-understand-the-conflict-markers-in-the-file">2. Understand the Conflict Markers in the File</h3>
+<p>Open each conflicted file in your code editor. You will see sections clearly marked by Git, like this example:</p>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            Patience, `git status`, and careful review are your best allies!
+        </div>
+
+</div>
+
+<pre><code class="language-text">Some content that is not conflicting.
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+This is the version of the line(s) from your current branch (HEAD).
+It might be your feature work.
+=======
+This is the version of the line(s) from the other branch
+(e.g., upstream/main if you're rebasing, or the branch you're merging).
+It represents the conflicting incoming changes.
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; some-other-branch-name-or-commit-reference
+More content that is not conflicting.
+</code></pre>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">🔍 Understanding the Conflict Markers</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <ul>
+<li><strong><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</code></strong>: Marks the beginning of the conflicting lines from <strong>your</strong> current changes (what <code>HEAD</code> pointed to).</li>
+<li><strong><code>=======</code></strong>: This line separates your changes from the "incoming" changes.</li>
+<li><strong><code>&gt;&gt;&gt;&gt;&gt;&gt;&gt; ...</code></strong>: Marks the end of the conflicting lines from the <strong>other</strong> source (the branch name or commit reference after <code>&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code> tells you where these changes came from).</li>
+</ul>
+<h3 id="3-resolve-the-conflict-in-your-editor">3. Resolve the Conflict in Your Editor</h3>
+<p>Your task is to edit the file to make it look exactly how you want the final, merged version to be.<br />
+* <strong>Read the conflicting sections carefully.</strong><br />
+* <strong>Decide what to keep:</strong><br />
+    * You might want to keep only your version (the lines between <code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</code> and <code>=======</code>).<br />
+    * You might want to keep only their version (the lines between <code>=======</code> and <code>&gt;&gt;&gt;&gt;&gt;&gt;&gt; ...</code>).<br />
+    * You might need to combine parts of both versions.<br />
+    * You might even need to write something entirely new that incorporates both ideas.<br />
+* <strong>Crucially, you must delete all the conflict marker lines</strong> (<code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; ...</code>, <code>=======</code>, <code>&gt;&gt;&gt;&gt;&gt;&gt;&gt; ...</code>) once you've made your edits. The file should only contain the code/text you intend to keep.<br />
+* <strong>Save the file</strong> after you've resolved the conflict within it.</p>
+<h3 id="4-stage-the-resolved-files">4. Stage the Resolved File(s)</h3>
+<p>After you've edited a conflicted file and saved your resolution, you need to tell Git that you've handled it by adding it to the staging area:<br />
+<code>`git add path/to/your/resolved_file.txt`</code><br />
+If you had multiple conflicted files, you'll need to resolve and <code>`git add`</code> each one.<br />
+(You can also use <code>`git add .`</code> if you're sure all resolved files are ready and there are no other unintended changes to stage.)</p>
+<h3 id="5-complete-the-interrupted-operation">5. Complete the Interrupted Operation</h3>
+<p>The command to finalize the process depends on what operation caused the conflict:</p>
+<ul>
+<li>
+<p><strong>If the conflict occurred during a <code>git merge</code>:</strong><br />
+    Once all conflicts are resolved and staged, complete the merge by creating a merge commit:<br />
+<code>`git commit`</code><br />
+    (Git usually provides a default merge commit message, which you can edit.)</p>
+</li>
+<li>
+<p><strong>If the conflict occurred during a <code>git rebase</code> (common when updating your PR branch):</strong><br />
+    The sequence you provided in your original snippet is for this scenario. Here's the flow:</p>
+<ol>
+<li>You likely started with <code>`git fetch upstream`</code> and then <code>`git rebase upstream/main`</code>.</li>
+<li>Git paused due to a conflict.</li>
+<li><strong>Resolve &amp; Stage:</strong> You've just done this (Steps 2, 3, and 4 above).</li>
+<li><strong>Continue the Rebase:</strong> Tell Git to proceed with applying the rest of your commits:<br />
+<code>`git rebase --continue`</code><br />
+    If more conflicts arise on subsequent commits during the rebase, repeat the resolve-add-continue cycle.</li>
+<li><strong>Aborting a Rebase (Escape Hatch):</strong> If the rebase becomes too complex or you want to start over, you can abort it:<br />
+<code>`git rebase --abort`</code><br />
+    This will return your branch to the state it was in before you started the rebase.</li>
+<li><strong>After a Successful Rebase:</strong> Once the rebase completes without further conflicts, your local branch's history has been rewritten. You will then need to force push to update your branch on your remote fork (e.g., <code>origin</code>):<br />
+<code>`git push --force origin your-feature-branch`</code><br />
+    (Or, more safely, <code>`git push --force-with-lease origin your-feature-branch`</code>)</li>
+</ol>
+</li>
+</ul>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            These are the key lines to understand when resolving conflicts.
+        </div>
+
+</div>
+
+<div class="sb-alert sb-alert-warning sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ⚠️
+
+    </span>
+    <span class="sb-alert-content">
+        <p>When resolving merge conflicts, pay close attention to the changes you are keeping, modifying, or discarding. It's easy to accidentally remove important code or introduce new issues if you're not careful. If you're unsure about how to resolve a particular conflict, don't hesitate to ask a teammate, mentor, or the project maintainers for guidance.</p>
+    </span>
+</div>
+
+<hr />
+<h1>Git Command Cheat Sheet  QUICK REFERENCE</h1>
+<p>As you get more familiar with Git, you'll start to remember these commands. Until then, here's a quick reference for some of the most common and useful ones you'll encounter, especially when making your first contributions. For full details on any command, you can always type <code>`git &lt;command&gt; --help`</code> in your terminal.</p>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">🛠️ Essential Git Commands at a Glance</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>Here are some common Git commands grouped by their general purpose:</p>
+<ul>
+<li>
+<p><strong>Setting Up Your Environment &amp; Project:</strong></p>
+<ul>
+<li><code>`git clone &lt;repository_url&gt;`</code>: Downloads a copy of an existing remote repository (like a fork) to your local machine.</li>
+<li><code>`git config --global user.name "Your Name"`</code>: Sets the name that will be attached to your commits globally.</li>
+<li><code>`git config --global user.email "your.email@example.com"`</code>: Sets the email that will be attached to your commits globally.</li>
+</ul>
+</li>
+<li>
+<p><strong>Checking Status &amp; Reviewing Changes:</strong></p>
+<ul>
+<li><code>`git status`</code>: Shows the current state of your working directory and staging area (what's changed, what's staged, what's untracked).</li>
+<li><code>`git log`</code>: Displays the commit history for the current branch. (Use <code>q</code> to quit the log view).</li>
+<li><code>`git diff`</code>: Shows the line-by-line differences between your working directory files and your last commit (or staged changes).</li>
+<li><code>`git diff --staged`</code> (or <code>`git diff --cached`</code>): Shows the differences between your staged changes and your last commit (i.e., what will be in the next commit).</li>
+</ul>
+</li>
+<li>
+<p><strong>Working with Branches:</strong></p>
+<ul>
+<li><code>`git branch`</code>: Lists all your local branches. The current branch is marked with an asterisk (<code>*</code>).</li>
+<li><code>`git branch &lt;new-branch-name&gt;`</code>: Creates a new local branch (but doesn't switch to it).</li>
+<li><code>`git checkout &lt;branch-name&gt;`</code>: Switches your working directory to an existing branch.</li>
+<li><code>`git checkout -b &lt;new-branch-name&gt;`</code>: Creates a new local branch <strong>and</strong> immediately switches to it. This is very common.</li>
+</ul>
+</li>
+<li>
+<p><strong>Staging &amp; Committing Changes (The Core Workflow):</strong></p>
+<ul>
+<li><code>`git add &lt;file-or-directory-path&gt;`</code>: Adds changes from the specified file(s) or directory to the staging area.</li>
+<li><code>`git add .`</code>: Stages all new and modified files in the current directory and its subdirectories. (Use with <code>`git status`</code> first to be sure!)</li>
+<li><code>`git commit -m "Your concise commit message"`</code>: Records the staged changes to your local repository with a short message.</li>
+<li><code>`git commit`</code>: Opens your text editor to write a more detailed (multi-line) commit message.</li>
+</ul>
+</li>
+<li>
+<p><strong>Synchronizing with Remote Repositories (like GitHub):</strong></p>
+<ul>
+<li><code>`git remote -v`</code>: Lists all your configured remote repositories (like <code>origin</code> and <code>upstream</code>).</li>
+<li><code>`git fetch &lt;remote_name&gt;`</code> (e.g., <code>`git fetch upstream`</code>): Downloads changes, branches, and tags from the specified remote repository but <strong>does not</strong> merge them into your local working branch.</li>
+<li><code>`git pull &lt;remote_name&gt; &lt;branch_name&gt;`</code> (e.g., <code>`git pull origin main`</code>): Fetches changes from the specified remote branch and immediately tries to <strong>merge</strong> them into your current local branch. (Equivalent to <code>git fetch</code> followed by <code>git merge</code>).</li>
+<li><code>`git push -u &lt;remote_name&gt; &lt;branch_name&gt;`</code> (e.g., <code>`git push -u origin feature/my-work`</code>): Pushes your local branch to the remote repository for the first time and sets up upstream tracking.</li>
+<li><code>`git push`</code>: Pushes your committed changes from your current local branch to its linked remote branch (if tracking is set up).</li>
+<li><code>`git rebase &lt;base_branch&gt;`</code> (e.g., <code>`git rebase upstream/main`</code>): Re-applies commits from your current branch onto the tip of another branch, creating a linear history. <strong>Use with caution, especially on shared branches, as it rewrites history.</strong></li>
+</ul>
+</li>
+<li>
+<p><strong>Temporarily Saving Changes &amp; Undoing (Use with Care):</strong></p>
+<ul>
+<li><code>`git stash`</code>: Temporarily shelves uncommitted changes (both staged and unstaged) in your working directory, allowing you to switch branches or work on something else. Use <code>`git stash pop`</code> or <code>`git stash apply`</code> to reapply.</li>
+<li><code>`git reset &lt;file&gt;`</code>: Unstages a file (removes it from the staging area) but keeps the changes in your working directory.</li>
+<li><code>`git revert &lt;commit-hash&gt;`</code>: Creates a new commit that undoes the changes introduced by a previous commit. This is a safe way to undo changes in a shared history because it doesn't alter existing history.</li>
+<li><code>`git reset --hard &lt;commit-hash-or-HEAD&gt;`</code>: <strong>(Potentially Destructive!)</strong> Resets your current branch HEAD, staging area, and working directory to a specific commit, discarding all changes made since that commit in the working directory and staging area.</li>
+</ul>
+</li>
+</ul>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            Practice these commands to build your Git muscle memory!
+        </div>
+
+</div>
+
+<hr />
+<h1>GitHub Features for Contributors</h1>
+<ul>
+<li>Issues: Find tasks to work on</li>
+<li>Projects: Track progress</li>
+<li>Discussions: Ask questions</li>
+<li>Actions: Automated testing</li>
+<li>Wiki: Project documentation</li>
+<li>Notifications: Stay updated</li>
+<li>Profile: Showcase your contributions</li>
+</ul>
+<hr />
+<h1>Practical Exercise: Your First Contribution to EduLite!</h1>
+<p>This exercise will walk you through the entire process of making a small contribution to a real open source project, <strong>EduLite</strong>. By the end, you'll have created your first Pull Request!</p>
+<div class="sb-practice-block sb-border sb-border-radius-lg sb-p-4 sb-mb-4 sb-shadow-sm ">
+    <div class="sb-practice-metadata sb-flex sb-flex-wrap sb-gap-3 sb-mb-3 sb-p-2 sb-border-radius-md">
+        <span class="sb-difficulty-level sb-badge" data-difficulty="beginner">
+            <strong>Difficulty:</strong> Beginner
+        </span>
+        <span class="sb-time-commitment sb-badge">
+            <strong>Time:</strong> 1-2 hours (active contribution time)
+        </span>
+        <span class="sb-impact-level sb-badge" data-impact="very high">
+            <strong>Impact:</strong> Very High
+        </span>
+        <span class="sb-focus-area sb-badge">
+            <strong>Focus:</strong> End-to-End Git &amp; GitHub Workflow
+        </span>
+    </div>
+    <div class="sb-practice-content">
+        <h3 id="your-mission-make-a-small-improvement-to-edulite-open-a-pr">Your Mission: Make a Small Improvement to EduLite &amp; Open a PR</h3>
+<p>Follow these steps to make your first open source contribution. This exercise simulates the complete workflow, from forking a project to submitting a Pull Request.</p>
+<ol>
+<li>
+<p><strong>Fork the Repository:</strong></p>
+<ul>
+<li>Go to the <a href="https://github.com/ibrahim-sisar/EduLite">EduLite GitHub repository</a>.</li>
+<li>Click the <strong><code>Fork</code></strong> button in the top-right corner to create your own copy of the project under your GitHub account.</li>
+</ul>
+</li>
+<li>
+<p><strong>Clone Your Fork Locally:</strong></p>
+<ul>
+<li>On your GitHub page for <em>your fork</em> of <code>EduLite</code>, click the <strong><code>&lt;&gt; Code</code></strong> button and copy the clone URL (HTTPS or SSH, depending on your setup).</li>
+<li>In your terminal, navigate to where you want to store the project and run:<br />
+<code>`git clone &lt;your-forked-repository-url&gt;`</code></li>
+<li>Change into the newly created project directory:<br />
+<code>`cd EduLite`</code></li>
+<li><strong>(Important!) Add an <code>upstream</code> remote</strong> pointing to the original EduLite repository:<br />
+<code>`git remote add upstream https://github.com/ibrahim-sisar/EduLite.git`</code></li>
+</ul>
+</li>
+<li>
+<p><strong>Create a New Branch:</strong></p>
+<ul>
+<li>Always create a new branch for your changes. Give it a descriptive name, for example:<br />
+<code>`git checkout -b my-first-improvement`</code><br />
+    (e.g., <code>`git checkout -b fix/readme-typo`</code> or <code>`git checkout -b docs/add-setup-clarification`</code>)</li>
+</ul>
+</li>
+<li>
+<p><strong>Make a Small Improvement:</strong></p>
+<ul>
+<li><strong>Find something simple to change.</strong> This could be:<ul>
+<li>Fixing a typo in the <code>README.md</code> file or other documentation files (files ending in <code>.md</code>).</li>
+<li>Adding a clarifying sentence to the documentation.</li>
+<li>Correcting a broken link if you spot one.</li>
+</ul>
+</li>
+<li>Use your code editor to make the change. For this first exercise, focus on a small, straightforward text edit.</li>
+<li><em>(Tip: Look for files ending in <code>.md</code> for documentation to edit.)</em></li>
+</ul>
+</li>
+<li>
+<p><strong>Commit and Push Your Changes:</strong></p>
+<ul>
+<li><strong>Stage</strong> your change(s):<br />
+<code>`git add .`</code> (or <code>`git add &lt;path/to/your/changed_file.md&gt;`</code>)</li>
+<li><strong>Commit</strong> your change(s) with a clear, concise message:<br />
+<code>`git commit -m "Docs: Fix typo in installation instructions"`</code> (This is just an example message!)</li>
+<li><strong>Push</strong> your new branch (with your commit) to your fork on GitHub:<br />
+<code>`git push -u origin my-first-improvement`</code> (Use your branch name)</li>
+</ul>
+</li>
+<li>
+<p><strong>Create Your First Pull Request (PR):</strong></p>
+<ul>
+<li>Go to the original <strong><a href="https://github.com/ibrahim-sisar/EduLite">EduLite GitHub repository</a></strong> on GitHub.</li>
+<li>You should see a prompt to "Compare &amp; pull request" for your recently pushed branch. Click it!</li>
+<li>If not, go to the "Pull requests" tab and click "New pull request".</li>
+<li>Ensure the base repository is <code>ibrahim-sisar/EduLite</code> (merging into its <code>main</code> or <code>develop</code> branch) and the head repository is <em>your fork</em> comparing <em>your feature branch</em>.</li>
+<li>Write a clear title and a brief description for your PR (e.g., "Fixed a typo in the README's setup section.").</li>
+<li>Click "Create pull request".</li>
+</ul>
+</li>
+<li>
+<p><strong>Experience the Review Process:</strong></p>
+<ul>
+<li>Congratulations! You've submitted a PR.</li>
+<li>A maintainer might review it, leave comments, or merge it. Be responsive to any feedback.</li>
+<li>This step might take some time depending on maintainer availability.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Goal of this Exercise:</strong> To successfully navigate the full open source contribution workflow, from forking a project to having a Pull Request opened on the EduLite project with your small improvement.</p>
+    </div>
+</div>
+
+<h3>🤔 Stuck on the Exercise? FAQ &amp; Troubleshooting Tips</h3>
+<p>It's perfectly normal to hit a few bumps, especially when you're new to the workflow! Here are some common questions and quick hints. These are kept brief; refer to earlier sections for more details on commands.</p>
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">❓ I can&#x27;t find the &#x27;Compare &amp; pull request&#x27; button on GitHub!</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>This button usually appears on the <strong>original repository's page</strong> (e.g., <code>ibrahim-sisar/EduLite</code>) shortly after you push a new branch to <em>your fork</em>.</p>
+<ul>
+<li><strong>Did you push your branch?</strong> Make sure you've successfully run <code>`git push -u origin your-branch-name`</code>.</li>
+<li><strong>Are you on the right page?</strong> Navigate to the original <code>ibrahim-sisar/EduLite</code> repository on GitHub.</li>
+<li><strong>Alternative:</strong> If the button isn't there, go to the "Pull requests" tab of the original repository and click "New pull request." You'll then need to manually select "compare across forks" and choose your fork and branch as the "head repository" and "compare" branch, respectively.</li>
+</ul>
+        </div>
+    </div>
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">✍️ Oops! I made a mistake in my last commit message.</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>If you haven't pushed the commit yet, or if you've pushed it but no one has based work off it (common for your own PR branch on your fork):<br />
+* You can amend the message of your <em>most recent</em> commit using:<br />
+<code>`git commit --amend -m "New, corrected commit message"`</code><br />
+* If you need to change the message for an older commit, it's more complex (involving interactive rebase, <code>`git rebase -i`</code>) and might be best avoided for your first contribution unless necessary.<br />
+* <strong>If already pushed to your PR:</strong> After amending, you'll need to force push: <code>`git push --force-with-lease origin your-branch-name`</code>.</p>
+        </div>
+    </div>
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">📁 I forgot to add a file/change to my last commit!</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>If you haven't pushed the commit yet:<br />
+1.  Stage the missed file/changes: <code>`git add &lt;missed-file-or-changes&gt;`</code><br />
+2.  Add it to the previous commit without changing the message:<br />
+<code>`git commit --amend --no-edit`</code><br />
+* If you have already pushed, you can still do this and then force push (<code>`--force-with-lease`</code>). Alternatively, you can just create a <em>new</em> commit with the missed changes: <code>`git add &lt;missed-file&gt;`</code>, then <code>`git commit -m "Add missing file for X feature"`</code>, and then <code>`git push`</code>. This is often simpler if you're unsure about amending pushed commits.</p>
+        </div>
+    </div>
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">🚫 My `git push` was rejected!</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>This can happen for a few reasons:<br />
+* <strong>Local branch is out of date:</strong> The remote branch has changes you don't have locally. You might need to <code>`git pull`</code> (or better, <code>`git fetch`</code> then <code>`git rebase`</code> or <code>`git merge`</code>) first. This is less common when pushing a brand new feature branch for the first time but can happen if you're re-pushing to an existing remote branch.<br />
+* <strong>Authentication failed:</strong> Double-check your PAT or SSH key setup. Refer to the "Authenticating with GitHub" section.<br />
+* <strong>Wrong remote or branch:</strong> Are you sure you're trying to push to <code>origin</code> (your fork) and not <code>upstream</code> (the original project, where you likely don't have direct push access)?<br />
+* <strong>Force push needed:</strong> If you've rebased or amended commits that were already pushed, your local history differs from the remote, and a regular push will be rejected. You'll need to force push (e.g., <code>`git push --force-with-lease origin your-branch-name`</code>).</p>
+        </div>
+    </div>
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">📄 What should I write in my PR Title &amp; Description?</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <ul>
+<li><strong>Title:</strong> Make it short, clear, and summarize the change (e.g., "Fix: Correct typo in README installation section").</li>
+<li><strong>Description:</strong><ul>
+<li>Explain <em>what</em> you changed and <em>why</em>.</li>
+<li>If it fixes a GitHub Issue, link it using keywords like <code>Closes #123</code> or <code>Fixes #456</code>.</li>
+<li>Include screenshots for UI changes.</li>
+<li>Be polite and concise!<br />
+(Refer to the "Writing a Good PR Description" section for more detailed tips.)</li>
+</ul>
+</li>
+</ul>
+        </div>
+    </div>
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">😱 Help! I accidentally cloned the original EduLite repo, not my fork!</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>No worries, it happens!<br />
+1.  <strong>If you haven't made changes yet:</strong> The easiest is to delete the cloned directory and then clone your fork correctly.<br />
+2.  <strong>If you've made changes but haven't pushed:</strong><br />
+    * In the cloned directory (currently pointing to the original repo), add your fork as a remote:<br />
+<code>`git remote add myfork https://github.com/YOUR_USERNAME/EduLite.git`</code><br />
+    * Push your branch to your fork:<br />
+<code>`git push -u myfork your-branch-name`</code><br />
+    * Then, you can either continue working in this directory (but be careful with remotes!) or, to be cleaner, now clone <em>your fork</em> to a new directory and copy your changes over if needed, or just use the version you just pushed to <code>myfork</code>.<br />
+    * Alternatively, you can change the <code>origin</code> remote's URL to point to your fork:<br />
+<code>`git remote set-url origin https://github.com/YOUR_USERNAME/EduLite.git`</code><br />
+        Then verify with <code>`git remote -v`</code>.</p>
+        </div>
+    </div>
+</div>
+
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">🤯 I made commits directly on my `main` branch in my fork by mistake!</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>This is a common slip-up for beginners. Here's a way to fix it (ideally <em>before</em> you push these commits on <code>main</code> to your <code>origin</code> or try to make a PR from it):<br />
+1.  <strong>Create a new branch from the current state of your <code>main</code> branch.</strong> This new branch will now have your accidental commits:<br />
+<code>`git checkout -b my-intended-feature-branch`</code><br />
+2.  <strong>Now, reset your local <code>main</code> branch back to match the <code>upstream/main</code> (the original project's main).</strong><br />
+    * Switch back to <code>main</code>: <code>`git checkout main`</code><br />
+    * Fetch the latest from upstream: <code>`git fetch upstream`</code><br />
+    * Reset <code>main</code> hard to <code>upstream/main</code>. <strong>Warning:</strong> This will discard any commits on your local <code>main</code> that are not on <code>upstream/main</code> (which is what you want in this case for the accidental commits, but be sure!).<br />
+<code>`git reset --hard upstream/main`</code><br />
+3.  <strong>Update your fork's <code>main</code> branch (if you had already pushed the mistaken commits there):</strong><br />
+    If your <code>origin/main</code> (on GitHub) has those mistaken commits, you'll need to force push to correct it:<br />
+<code>`git push origin main --force`</code> (Use with caution, but for your own fork's <code>main</code> to correct a mistake, it's usually okay).<br />
+4.  Now, continue your work on <code>my-intended-feature-branch</code> and create your PR from there!</p>
+        </div>
+    </div>
+</div>
+
+<hr />
+<h1>Contributing to EduLite 💖</h1>
+<p>We're thrilled you're interested in contributing to the EduLite project! Whether you're fixing a bug, adding a new feature, improving documentation, or helping with design, your contributions are highly valued and make a real impact on making education more accessible.</p>
+<div class="sb-alert sb-alert-success sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ✅
+
+    </span>
+    <span class="sb-alert-content">
+        <p>Before you begin any work, please take the time to read our comprehensive <strong><code>CONTRIBUTING.md</code></strong> file. You'll find it in the root of the <a href="https://github.com/ibrahim-sisar/EduLite">EduLite GitHub repository</a>. This document contains crucial details on our development setup, coding standards, how to submit changes, and much more!</p>
+    </span>
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">🚀 Quick Pointers for Getting Involved with EduLite</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>While the <code>CONTRIBUTING.md</code> is your main guide, here are some key ways to get started:</p>
+<ul>
+<li>
+<p><strong>Setting Up Your Environment:</strong></p>
+<ul>
+<li>Our <code>CONTRIBUTING.md</code> (along with specific <code>README.md</code> files in the <code>backend</code> and <code>Frontend</code> directories) has detailed instructions for <strong>setting up your local development environment</strong>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Finding Something to Work On:</strong></p>
+<ul>
+<li>A great place to start is by Browse the <strong><a href="https://github.com/ibrahim-sisar/EduLite/issues">EduLite GitHub Issues</a></strong>.</li>
+<li>Look for issues labeled <strong><code>good first issue</code></strong> or <strong><code>help wanted</code></strong> – these are often well-suited for new contributors.</li>
+<li>Don't hesitate to comment on an issue to ask clarifying questions or express your interest in working on it.</li>
+</ul>
+</li>
+<li>
+<p><strong>Communication &amp; Getting Help:</strong></p>
+<ul>
+<li><strong>Join our Discord Server:</strong> The <strong><a href="https://discord.gg/phXnxX2dD4">EduLite Discord</a></strong> is perfect for general chat, asking quick questions, and collaborating with other contributors.</li>
+<li><strong>Use GitHub Discussions:</strong> For broader ideas, more in-depth Q&amp;A, or project-wide topics, head over to our <strong><a href="https://github.com/ibrahim-sisar/EduLite/discussions">GitHub Discussions</a></strong>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Following Project Guidelines:</strong></p>
+<ul>
+<li>Always adhere to the <strong>coding standards</strong> and development practices outlined in our <code>CONTRIBUTING.md</code>.</li>
+<li>Ensure your contributions are well-tested and align with the project's goals.</li>
+<li>Communicate respectfully and constructively with everyone in the community.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Remember, the <code>CONTRIBUTING.md</code> file is your primary resource for all contribution details!</strong></p>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            We&#x27;re excited to welcome you to the EduLite community!
+        </div>
+
+</div>
+
+<hr />
+<h1>Beyond Your First PR</h1>
+<ul>
+<li>Keep your fork updated</li>
+<li>Tackle more complex issues</li>
+<li>Review other people's PRs</li>
+<li>Help with documentation</li>
+<li>Participate in discussions</li>
+<li>Share your experience with others</li>
+</ul>
+<hr />
+<h1>Resources for Learning More 📚</h1>
+<p>Your Git and GitHub journey doesn't end here! There's a vast amount of information available to help you deepen your understanding and master these powerful tools.</p>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">🚀 Continue Your Learning Journey</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>Here are some highly recommended resources to explore as you continue to develop your Git and GitHub skills:</p>
+<ul>
+<li>
+<p><strong>Pro Git Book (Free Online):</strong><br />
+    Considered by many to be the definitive guide to Git. It's comprehensive, well-written, and available for free online at <a href="https://git-scm.com/book">git-scm.com/book</a>. It covers everything from the basics to advanced internals.</p>
+</li>
+<li>
+<p><strong>GitHub Learning Lab:</strong><br />
+    Interactive, bot-led courses directly on GitHub that guide you through real-world scenarios and projects. Find it at <a href="https://lab.github.com">lab.github.com</a>.</p>
+</li>
+<li>
+<p><strong>Official Git Documentation:</strong><br />
+    The official documentation at <a href="https://git-scm.com/doc">git-scm.com/doc</a> is an excellent reference for every Git command and concept.</p>
+</li>
+<li>
+<p><strong>Official GitHub Docs:</strong><br />
+    For anything related to GitHub features (Pull Requests, Issues, Actions, etc.), check out <a href="https://docs.github.com">docs.github.com</a>.</p>
+</li>
+<li>
+<p><strong>Stack Overflow:</strong><br />
+    An invaluable resource for troubleshooting specific Git or GitHub problems. Chances are, if you have a question, someone has already asked and answered it there.</p>
+</li>
+<li>
+<p><strong>YouTube Tutorials:</strong><br />
+    Many creators offer excellent visual tutorials on Git and GitHub, catering to all learning styles. Search for topics like "Git for beginners," "GitHub workflow," or specific commands.</p>
+</li>
+<li>
+<p><strong>Interactive Learning (try.github.io):</strong><br />
+    GitHub's interactive tutorial site (though some content might be older, the basics are still solid) can be a fun way to get hands-on practice.</p>
+</li>
+<li>
+<p><strong>Git Visualization Tools:</strong><br />
+    Tools that help you visualize your branches and commit history (like some VS Code extensions or standalone apps) can greatly aid in understanding complex repositories. Search for "Git visualization tools" to find options.</p>
+</li>
+</ul>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            The more you learn, the more you can contribute!
+        </div>
+
+</div>
+
+<hr />
+<h1>Thank You!</h1>
+<ul>
+<li>You're now ready to start contributing</li>
+<li>Remember: everyone was a beginner once</li>
+<li>The open source community welcomes you</li>
+<li>Your contributions matter</li>
+<li>Let's build something great together!</li>
+</ul>
+{% endblock %}
