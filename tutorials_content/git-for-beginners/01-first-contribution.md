@@ -1327,8 +1327,8 @@ Here are some highly recommended resources to explore as you continue to develop
 
 # Thank You!
 
-* You're now ready to start contributing
-* Remember: everyone was a beginner once
-* The open source community welcomes you
-* Your contributions matter
-* Let's build something great together!
+You're now ready to start contributing
+**Remember**: *everyone* was a beginner once
+The open source community welcomes you
+Your contributions matter
+Let's build something great together!
