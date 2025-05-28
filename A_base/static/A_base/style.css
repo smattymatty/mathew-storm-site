@@ -344,7 +344,7 @@ a:hover {
     flex-direction: row;
     flex-grow: 22;
     justify-content: space-between;
-    position: sticky;
+    /* position: sticky; */
     align-items: center;
     width: 100vw;
     border-left: 2vw solid white;

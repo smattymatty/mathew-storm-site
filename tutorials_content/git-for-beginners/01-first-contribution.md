@@ -30,13 +30,19 @@ You can use this information to learn more about Git and GitHub, and to contribu
 If you choose to contribute to **EduLite**, you'll be making your first contribution to a real-world project and your work will be recognized and appreciated by the community.
 {~~}
 
-### 🧭 Quick Navigation
+{~ card title="Tutorial Quick Links 🗺️" footer="Use these links to jump to specific parts of the tutorial." ~}
 
-This guide walks you through everything from Git basics to making your first open source contribution. Use these links to jump to specific parts:
+If you need help installing, **[Git Across Different Operating Systems](#git-across-different-operating-systems)** is a useful reminder.
 
-{~ card title="Guide Quick Links" ~}
-* Ready to get hands-on? Jump directly to the **[Practical Exercise: Your First Contribution!](#practical-exercise-your-first-contribution-to-edulite)**
-* *(You can add more links here as needed, e.g., to "Understanding Git Basics", "The GitHub Workflow", "Troubleshooting FAQ")*
+We **[Recommend some VS Code Extnesions](#recommended-vs-code-extensions-for-git)** for Git.
+
+**[Authenticating with GitHub](#authenticating-with-github)** is an important step.
+
+**[Creating A Pull Request](#creating-a-pull-request-proposing-your-changes)** will help you prepare your first PR.
+
+Visit the **[Git Cheatsheet](#git-command-cheat-sheet-quick-reference)** for a quick reference.
+
+Ready to get hands-on? Jump directly to the **[Practical Exercise: Your First Contribution!](#practical-exercise-your-first-contribution-to-edulite)**
 {~~}
 
 ---
