@@ -1,0 +1,696 @@
+{% extends 'A_base/sb_base.html' %}
+
+{% block spellbook_md %}
+<h2>Getting Started with Git &amp; GitHub for Beginners 🚀</h2>
+<p>This guide helps new contributors learn about open source, Git, and GitHub, so you can make your first contribution.</p>
+<div class="sb-alert sb-alert-success sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ✅
+
+    </span>
+    <span class="sb-alert-content">
+        <p><strong>Welcome to your First Contribution Guide!</strong><br />
+This guide will help you get started with Git and GitHub, and make your first contribution to open source projects.</p>
+<p>We specifically cover the EduLite project, which is a great example of a project that welcomes new contributors.</p>
+<p>You can use this information to learn more about Git and GitHub, and to contribute to open source projects in general.</p>
+<p>If you choose to contribute to EduLite, you'll be making your first contribution to a real-world project and your work will be recognized and appreciated by the community.</p>
+    </span>
+</div>
+
+<hr />
+<h3>What you need to get started (Requirements)</h3>
+<ul>
+<li>A GitHub account (if you don't already have one)</li>
+<li>A text editor or IDE (preferably VS Code for this tutorial)</li>
+<li>The technical skills to install Git on your operating system</li>
+</ul>
+<div class="sb-alert sb-alert-info sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ℹ️
+
+    </span>
+    <span class="sb-alert-content">
+        <p><strong>Note:</strong> This tutorial is designed for beginners who are new to Git and GitHub.<br />
+If these requirements are too steep, perhaps I can create a '0' level tutorial for you.</p>
+    </span>
+</div>
+
+<hr />
+<h3>Understanding Git Basics 🛠️</h3>
+<ul>
+<li><strong>What Git is:</strong> A tool that tracks changes to your project, lets you go back to earlier versions, and allows multiple people to work on different parts at once.</li>
+</ul>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Key terms</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <ul>
+<li><strong><code>Repository (Repo)</code>:</strong> Where your project and its history are stored.</li>
+<li><strong><code>Commit</code>:</strong> A saved snapshot of your changes.</li>
+<li><strong><code>Branch</code>:</strong> A separate line of development within a project.</li>
+<li><strong><code>Merge</code>:</strong> Combining changes from different branches.</li>
+<li><strong><code>Remote</code>:</strong> A connection to a repository hosted elsewhere (like on GitHub).</li>
+</ul>
+    </div>
+
+        <div class="sb-card-footer sb-p-2">
+            Learning these terms will help you understand the fundamentals of Git.
+        </div>
+
+</div>
+
+<ul>
+<li><strong>Why it's important:</strong> Essential for managing your own projects and working effectively in a team.</li>
+</ul>
+<hr />
+<h3>Using the GitHub Workflow 🔄</h3>
+<ul>
+<li><strong>What GitHub adds:</strong> A website that uses Git and adds features for better teamwork, like tracking issues, managing projects, and <strong>Pull Requests</strong>.</li>
+<li><strong>Standard GitHub steps:</strong><ol>
+<li><strong>Fork:</strong> Make a personal copy of a project on GitHub.</li>
+<li><strong>Clone:</strong> Download your forked project to your computer.</li>
+<li><strong>Branch:</strong> Create a new branch for your changes (e.g., a new feature or bug fix).</li>
+<li><strong>Push:</strong> Upload your changes from your computer to your fork on GitHub.</li>
+<li><strong>Pull Request (PR):</strong> Propose your changes to the original project.</li>
+</ol>
+</li>
+<li><strong>Benefits:</strong> This process allows for clear discussion, code review, and organized contributions, especially for remote teams.</li>
+</ul>
+<hr />
+<h3>Making Your First Pull Request (PR) 🎉</h3>
+<ul>
+<li><strong>What a Pull Request is:</strong> Your formal way to ask the project owners to include your improvements.</li>
+<li><strong>Why it's a big deal:</strong> It shows you can use Git and GitHub and is your first step into open source.</li>
+<li><strong>What you'll learn here:</strong> How to find suitable tasks (like "good first issues"), make your changes, and confidently submit your first contribution to projects like EduLite.</li>
+</ul>
+<hr />
+<h1>Why Learn Git &amp; GitHub?</h1>
+<ul>
+<li>
+<p><strong>Essential skill for all developers:</strong></p>
+<ul>
+<li>In today's software development landscape, proficiency in Git and GitHub is as fundamental as knowing a programming language. It's the bedrock for managing code changes efficiently, whether you're working on a small personal project or as part of a large distributed team.</li>
+<li>Understanding version control with Git allows you to experiment fearlessly, track your project's evolution, and pinpoint when and where changes were made, saving you countless hours and potential headaches.</li>
+<li>Many modern development practices and tools, such as Continuous Integration/Continuous Deployment (CI/CD) pipelines, are built around Git workflows.</li>
+</ul>
+</li>
+<li>
+<p><strong>Industry standard for version control:</strong></p>
+<ul>
+<li>Git has overwhelmingly become the standard for version control across the tech industry, replacing older systems. Its distributed nature, powerful branching and merging capabilities, speed, and strong community support have led to its widespread adoption.</li>
+<li>This means that regardless of the company size, programming language, or type of project, you'll almost certainly encounter Git and a platform like GitHub. Knowing it makes you instantly more adaptable and employable.</li>
+</ul>
+</li>
+<li>
+<p><strong>Required for collaborative projects:</strong></p>
+<ul>
+<li>Git and GitHub are designed for teamwork. They provide the mechanisms for multiple developers to work on the same project simultaneously without stepping on each other's toes. Features like branches allow for isolated development of new features or fixes, while Pull Requests on GitHub facilitate code reviews and discussions before changes are merged into the main codebase.</li>
+<li>Without robust version control, collaborative efforts can quickly descend into chaos with conflicting file versions, overwritten work, and a lack of clear history, making platforms like GitHub indispensable for projects like EduLite that rely on community contributions.</li>
+</ul>
+</li>
+<li>
+<p><strong>Helps build your developer portfolio:</strong></p>
+<ul>
+<li>Your GitHub profile acts as a dynamic, living resume and portfolio. By hosting your projects (even small ones or course assignments) on GitHub and making contributions to other open source projects, you create a tangible record of your coding skills, your learning journey, and your ability to work with version control.</li>
+<li>Potential employers and collaborators can see not just the final product, but also the process, the quality of your commits, and how you interact within a development environment.</li>
+</ul>
+</li>
+<li>
+<p><strong>Shows your code to potential employers:</strong></p>
+<ul>
+<li>Many recruiters and hiring managers actively use GitHub to find and assess candidates. A public GitHub profile gives them direct insight into your practical coding abilities, problem-solving skills, and attention to detail in a way that a traditional resume cannot.</li>
+<li>Well-commented code, clear commit messages, thoughtful Pull Request descriptions, and contributions to existing projects (like EduLite!) can significantly strengthen your profile and demonstrate your passion for development and collaboration.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h1>What We'll Cover</h1>
+<ul>
+<li>
+<p><strong>Setting up Git on your computer:</strong></p>
+<ul>
+<li>This is the essential first step. Once you have git installed on your operating system, you will be ready for this course. We will share links and commands for installation.</li>
+<li>You'll also learn how to perform initial configurations, such as setting your <code>user.name</code> and <code>user.email</code>, which are important for identifying your contributions.</li>
+<li>We'll touch upon using Git via the command line and briefly introduce how it integrates with popular code editors like VS Code.</li>
+</ul>
+</li>
+<li>
+<p><strong>Understanding key Git concepts:</strong></p>
+<ul>
+<li>Beyond just commands, we'll help you build a solid mental model of how Git works. This understanding is crucial for using Git effectively and troubleshooting any issues.</li>
+<li>We'll cover fundamental ideas like what a repository (repo) is, the difference between your working directory and the staging area (index), the significance of commits as snapshots in time, the power of branches for parallel work, what HEAD signifies, and how local and remote repositories interact in a distributed system.</li>
+</ul>
+</li>
+<li>
+<p><strong>Forking and cloning repositories:</strong></p>
+<ul>
+<li>Learn the concept of "<strong>forking</strong>" – creating your own server-side copy of a project (like EduLite on GitHub). This gives you a space to experiment and prepare your changes without affecting the original project directly.</li>
+<li>We'll then cover "<strong>cloning</strong>," which is how you bring that forked repository (or any remote repository) down to your local machine so you can work on the files. You'll get comfortable with the <code>git clone</code> command.</li>
+</ul>
+</li>
+<li>
+<p><strong>Creating branches for your work:</strong></p>
+<ul>
+<li>Discover the power of <strong>branches</strong> as independent lines of development within your repository.</li>
+<li>Understand why it's a best practice to <strong>create a new branch</strong> for every new feature, bug fix, or piece of work. This keeps your changes organized, isolates them from the main codebase (often called <code>main</code> or <code>master</code>), and makes collaboration much smoother.</li>
+<li>We’ll practice creating, switching between, and managing branches using commands like <code>git branch</code> and <code>git checkout</code> (or <code>git switch</code>).</li>
+</ul>
+</li>
+<li>
+<p><strong>Making commits with good messages:</strong></p>
+<ul>
+<li>A "commit" is how you save your work in Git, creating a snapshot of your project at a specific point. We'll cover the two-step process: staging changes with <code>git add</code> and then committing them with <code>git commit</code>.</li>
+<li>Crucially, we'll emphasize the art of writing clear, concise, and informative commit messages. Good messages are vital for understanding the project's history, helping collaborators (and your future self!), and making debugging easier.</li>
+</ul>
+</li>
+<li>
+<p><strong>Creating pull requests:</strong></p>
+<ul>
+<li>Once you've pushed your committed changes to your fork on GitHub, the next step for contributing to a project like EduLite is creating a Pull Request (PR).</li>
+<li>A PR is a formal proposal to merge the changes from your branch into the original project's main branch. It's the central hub for discussion, code review, and automated checks before your contributions are integrated. We'll show you how to initiate and describe your PRs effectively on GitHub.</li>
+</ul>
+</li>
+<li>
+<p><strong>Responding to code reviews:</strong></p>
+<ul>
+<li>After submitting a Pull Request, project maintainers or other contributors will likely review your code. This is a valuable part of the open source process, designed to improve code quality, catch potential issues, share knowledge, and ensure consistency.</li>
+<li>We'll discuss how to receive feedback constructively, ask for clarifications if needed, and make further changes to your PR by adding new commits and pushing them to the same branch.</li>
+</ul>
+</li>
+<li>
+<p><strong>Contributing to real projects:</strong></p>
+<ul>
+<li>This is where all the pieces come together! We'll guide you on how to apply this entire workflow to make actual contributions, using EduLite as our primary example.</li>
+<li>You'll learn how to find beginner-friendly tasks (like those often labeled "good first issue"), make your changes, and go through the full cycle of submitting a contribution, empowering you to participate in any open source project.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h1>About Our Example Project: EduLite</h1>
+<ul>
+<li>Student-first learning platform</li>
+<li>Built for areas with weak internet</li>
+<li>100% volunteer-driven open source project</li>
+<li>Perfect for your first contribution</li>
+<li>Includes both frontend and backend opportunities</li>
+</ul>
+<hr />
+<h1>Getting Started with Git</h1>
+<ul>
+<li>
+<p><strong>Git is a distributed version control system:</strong></p>
+<ul>
+<li>A Version Control System (VCS) is a tool that helps you manage and track changes to your project's files over time. Think of it as a "save" button for your entire project, but with the ability to go back to previous saves, see who changed what, and work on different versions simultaneously.</li>
+<li>The "distributed" part is key: unlike older centralized systems where the entire project history is stored on a single server, Git gives every developer a full, independent copy of the project's history on their local machine. This means more flexibility, speed, and resilience, as you're not always reliant on a central server.</li>
+</ul>
+</li>
+<li>
+<p><strong>Tracks changes to files over time:</strong></p>
+<ul>
+<li>Git meticulously records every modification you make to your project's files – whether you're adding new code, changing existing lines, or deleting something. It does this by taking snapshots of your entire project at points you define (called "commits").</li>
+<li>This tracking is incredibly beneficial because it allows you to look back at the history, see exactly what changed between versions, revert to a previous stable state if something goes wrong, and understand how your project has evolved. It's primarily optimized for text files like source code but can manage other file types too.</li>
+</ul>
+</li>
+<li>
+<p><strong>Allows multiple people to work together:</strong></p>
+<ul>
+<li>Git is designed from the ground up for collaboration. It provides powerful tools like "branching," which lets developers work on different features or fixes in isolation without interfering with each other or the main codebase.</li>
+<li>Once individual work is complete, Git offers mechanisms for "merging" these different lines of development back together. It even helps identify and resolve "merge conflicts" that can occur if different people have modified the same part of a file. This is essential for team projects and open-source contributions like those for EduLite.</li>
+</ul>
+</li>
+<li>
+<p><strong>Maintains history of all changes:</strong></p>
+<ul>
+<li>Every time you save a snapshot of your work (a "commit"), Git stores it along with important metadata: who made the change, when it was made, and, crucially, a message describing <em>why</em> the change was made.</li>
+<li>This comprehensive history is invaluable. It allows you to understand past decisions, pinpoint when bugs were introduced (using tools like <code>git bisect</code>), audit changes, and confidently revert to any previous version of your project if needed. This entire history is typically stored in a hidden <code>.git</code> directory within your project.</li>
+</ul>
+</li>
+<li>
+<p><strong>Works offline (most operations are local):</strong></p>
+<ul>
+<li>Because Git is distributed and you have a full copy of the repository history on your computer, most of the operations you'll perform—like creating branches, making commits, viewing your project's history, or comparing versions—are done locally and are incredibly fast.</li>
+<li>This means you can be fully productive even without an internet connection, which is a huge advantage for developers on the go or in environments with unreliable connectivity (a consideration relevant to EduLite's mission). You only need an internet connection when you're ready to share your changes with others (by "pushing" to a remote repository like GitHub) or get the latest updates from them ("pulling").</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h1>Git Across Different Operating Systems</h1>
+<ul>
+<li>
+<p><strong>Git installation varies by OS:</strong></p>
+<ul>
+<li>Getting Git onto your computer is the first hands-on step, and the method differs slightly based on your operating system. We'll guide you through the most common ways:</li>
+<li><strong>Windows:</strong> The most straightforward method is typically to download the official installer directly from the <a href="https://git-scm.com/downloads/win">Git SCM website (https://git-scm.com/downloads/win)</a>. This installer often includes "Git Bash," a terminal environment that provides a Linux-like command-line experience for using Git on Windows.</li>
+<li><strong>Mac:</strong> If you use Homebrew (a popular package manager for macOS), installing Git can be as simple as running the command <code>brew install git</code>. Alternatively, installers are also available, sometimes bundled with Xcode developer tools or directly from the <a href="https://git-scm.com/downloads/mac">Git SCM website (https://git-scm.com/downloads/mac)</a>.</li>
+<li><strong>Linux:</strong> Installation is typically handled through your distribution's built-in package manager. For example:<ul>
+<li>On <strong>Ubuntu/Debian</strong> based systems, you'll use <code>sudo apt install git</code>.</li>
+<li>On <strong>Fedora</strong>, the command is <code>sudo dnf install git</code>.</li>
+<li>On <strong>Arch Linux</strong>, you would use <code>sudo pacman -S git</code>.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Good news: Once installed, Git commands are identical across all platforms:</strong></p>
+<ul>
+<li>This is a fantastic aspect of Git! While the initial setup might differ, the core Git commands you will learn and use (<code>git commit</code>, <code>git branch</code>, <code>git checkout</code>, <code>git push</code>, <code>git pull</code>, etc.) are exactly the same whether you're on Windows, macOS, or any Linux distribution.</li>
+<li>This universality means the skills you develop are highly transferable, and you can collaborate seamlessly with others who might be using different operating systems.</li>
+</ul>
+</li>
+<li>
+<p><strong>All terminal commands in this course work the same on Windows, Mac, and Linux:</strong></p>
+<ul>
+<li>To ensure a consistent learning experience, this course will focus on these universal Git commands as executed in a terminal or command-line interface.</li>
+<li>While the terminal application itself might have a different name or appearance (e.g., Git Bash or PowerShell on Windows, Terminal on macOS, various terminal emulators on Linux), the underlying Git commands you type and their behavior will be consistent with what's taught.</li>
+</ul>
+</li>
+<li>
+<p><strong>GUI clients available for all platforms if preferred:</strong></p>
+<ul>
+<li>If you're not entirely comfortable with the command line, or if you prefer a more visual way to interact with Git, there's good news: numerous Graphical User Interface (GUI) clients are available for all major operating systems. These tools provide a visual interface for Git operations.</li>
+<li>While these GUI clients can be helpful, especially for visualizing branches and history, this course will primarily focus on the command-line interface to ensure you build a fundamental understanding of Git's operations, which are consistent everywhere.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h1>Why We Use VS Code for This Tutorial</h1>
+<ul>
+<li>Combines code editor and terminal in one interface</li>
+<li>Built-in Git integration saves time</li>
+<li>Visual diff tool makes changes clear</li>
+<li>Widely used in industry (familiar to most teams)</li>
+<li>Works consistently across Windows, Mac, and Linux</li>
+<li>Extensions enhance Git workflow</li>
+<li>Free and open source</li>
+<li>Lightweight enough for beginners</li>
+</ul>
+<hr />
+<h1>Configuring Git in VS Code</h1>
+<ul>
+<li>
+<p><strong>Set your identity (used in commits):</strong></p>
+<ul>
+<li>Before you start making commits (saving your work), you need to tell Git who you are. This identity (your name and email address) will be embedded in every commit you create, making it clear who made which changes in the project's history.</li>
+<li>You'll do this using the <code>git config</code> command with the <code>--global</code> flag, which means these settings will apply to all Git projects on your computer.</li>
+<li>The commands are straightforward:<br />
+<code>git config --global user.name "Your Name"
+    git config --global user.email "your.email@example.com"</code></li>
+<li>Be sure to replace <code>"Your Name"</code> and <code>"your.email@example.com"</code> with your actual name and the email address you want associated with your commits (often the one linked to your GitHub account).</li>
+</ul>
+</li>
+<li>
+<p><strong>Verify your settings:</strong></p>
+<ul>
+<li>After setting your identity, it's a good practice to verify that the configuration was applied correctly.</li>
+<li>You can easily check your global Git settings by running:<br />
+<code>git config --global --list</code></li>
+<li>This command will display all your global Git configurations, and you should see the <code>user.name</code> and <code>user.email</code> you just set, among other potential settings. This confirms Git knows who you are for future commits.</li>
+</ul>
+</li>
+<li>
+<p><strong>VS Code authentication benefits:</strong></p>
+<ul>
+<li>Visual Studio Code (VS Code) has excellent built-in integration with Git and GitHub, which can significantly simplify how you authenticate with remote services like GitHub.</li>
+<li><strong>Automatically prompts for GitHub login on first push:</strong><ul>
+<li>When you're ready to "push" (upload) your local commits to a remote repository on GitHub for the first time, VS Code can automatically detect this and prompt you to log in to GitHub. This often streamlines the initial authentication process, especially when using HTTPS.</li>
+</ul>
+</li>
+<li><strong>Securely stores credentials:</strong><ul>
+<li>Instead of you having to re-enter your username and password (or Personal Access Token) repeatedly, VS Code can securely store these credentials for you, typically by leveraging your operating system's keychain or other secure storage mechanisms.</li>
+</ul>
+</li>
+<li><strong>Handles token refresh automatically:</strong><ul>
+<li>Access tokens used for authentication (especially those obtained via OAuth through VS Code's GitHub extension) can expire. VS Code's integration can often handle the process of refreshing these tokens automatically in the background, ensuring you maintain uninterrupted access to your remote repositories.</li>
+</ul>
+</li>
+<li><strong>Supports multiple accounts:</strong><ul>
+<li>If you work with multiple GitHub accounts (for example, a personal account and a work or school account), VS Code's GitHub integration is designed to support this, allowing you to authenticate and switch between different accounts as needed for different projects or workspaces.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h1>VS Code's Git Integration Features</h1>
+<ul>
+<li>Source Control tab (Ctrl+Shift+G)</li>
+<li>Status indicators in file explorer</li>
+<li>Built-in diff viewer</li>
+<li>Inline blame annotations with GitLens</li>
+<li>Commit staging with checkboxes</li>
+<li>Branch switching from status bar</li>
+<li>Conflict resolution helpers</li>
+<li>Terminal access for advanced commands</li>
+</ul>
+<hr />
+<h1>Git Terminal vs. GUI Clients</h1>
+<ul>
+<li>Terminal/Command Line:</li>
+<li>Available on all platforms</li>
+<li>Consistent across systems</li>
+<li>Full access to all Git features</li>
+<li>
+<p>Preferred by many professionals</p>
+</li>
+<li>
+<p>GUI Clients (GitHub Desktop, GitKraken, etc.):</p>
+</li>
+<li>More visual interface</li>
+<li>Easier for beginners</li>
+<li>May hide some advanced features</li>
+<li>This course focuses on terminal commands for consistency</li>
+</ul>
+<hr />
+<h1>Configuring Git</h1>
+<ul>
+<li>
+<p>Set your identity (used in commits):<br />
+<code>git config --global user.name "Your Name"
+  git config --global user.email "your.email@example.com"</code></p>
+</li>
+<li>
+<p>Verify your settings:<br />
+<code>git config --global --list</code></p>
+</li>
+</ul>
+<hr />
+<h1>Recommended VS Code Extensions for Git</h1>
+<ul>
+<li>Extensions enhance your Git workflow in VS Code</li>
+<li>Install from Extensions panel (Ctrl+Shift+X)</li>
+<li>These tools make Git more visual and intuitive</li>
+<li>Perfect for beginners learning Git concepts</li>
+</ul>
+<hr />
+<h1>Extension: GitLens</h1>
+<ul>
+<li>The most comprehensive Git extension</li>
+<li>Features:</li>
+<li>Line-by-line blame annotations</li>
+<li>Commit search and exploration</li>
+<li>File and line history</li>
+<li>Branch comparison</li>
+<li>Revision navigation</li>
+<li>
+<p>Interactive rebase editor</p>
+</li>
+<li>
+<p>Why it's useful: Makes Git history and authorship visible within your code</p>
+</li>
+</ul>
+<hr />
+<h1>Understanding GitHub</h1>
+<ul>
+<li>Web-based platform built around Git</li>
+<li>Hosts repositories (projects)</li>
+<li>Adds collaboration features:</li>
+<li>Issues and discussions</li>
+<li>Pull requests</li>
+<li>Project management tools</li>
+<li>Code reviews</li>
+<li>Actions (CI/CD)</li>
+</ul>
+<hr />
+<h1>The Contribution Workflow</h1>
+<ol>
+<li>Find a project you want to contribute to</li>
+<li>Fork the repository to your account</li>
+<li>Clone your fork to your computer</li>
+<li>Create a branch for your changes</li>
+<li>Make and commit your changes</li>
+<li>Push your branch to your fork</li>
+<li>Create a pull request</li>
+<li>Respond to feedback</li>
+</ol>
+<hr />
+<h1>Authenticating with GitHub</h1>
+<ul>
+<li>Git config only sets commit identity, not GitHub authentication</li>
+<li>
+<p>When pushing/pulling, you'll need to authenticate:</p>
+</li>
+<li>
+<p>Option 1: HTTPS with Personal Access Token (PAT)</p>
+</li>
+<li>Generate token on GitHub (Settings → Developer settings → PAT)</li>
+<li>First push will prompt for username and token</li>
+<li>
+<p>Can save credentials with:<br />
+<code>git config --global credential.helper store</code></p>
+</li>
+<li>
+<p>Option 2: SSH Keys (recommended)</p>
+</li>
+<li>Generate SSH key: <code>ssh-keygen -t ed25519 -C "your.email@example.com"</code></li>
+<li>Add to GitHub (Settings → SSH Keys)</li>
+<li>
+<p>Clone using SSH URL: <code>git clone git@github.com:YOUR_USERNAME/EduLite.git</code></p>
+</li>
+<li>
+<p>Option 3: GitHub CLI</p>
+</li>
+<li>Install GitHub CLI and run: <code>gh auth login</code></li>
+</ul>
+<hr />
+<h1>Cloning Your Fork (Updated)</h1>
+<ul>
+<li>
+<p>HTTPS method (requires PAT):<br />
+<code>git clone https://github.com/YOUR_USERNAME/EduLite.git</code></p>
+</li>
+<li>
+<p>SSH method (requires SSH key setup):<br />
+<code>git clone git@github.com:YOUR_USERNAME/EduLite.git</code></p>
+</li>
+<li>
+<p>After cloning, connect to original repo:<br />
+<code>cd EduLite
+  git remote add upstream https://github.com/ibrahim-sisar/EduLite.git
+  # or with SSH:
+  git remote add upstream git@github.com:ibrahim-sisar/EduLite.git</code></p>
+</li>
+</ul>
+<hr />
+<h1>Working with Branches</h1>
+<ul>
+<li>Branches isolate your changes from main code</li>
+<li>Never work directly on main/master branch</li>
+<li>
+<p>Create a descriptive branch name:<br />
+<code>git checkout -b feature/login-page
+  git checkout -b fix/broken-link
+  git checkout -b docs/update-readme</code></p>
+</li>
+<li>
+<p>Check current branch:<br />
+<code>git branch</code></p>
+</li>
+</ul>
+<hr />
+<h1>Making Changes</h1>
+<ul>
+<li>Edit files in your favorite code editor</li>
+<li>Create new files as needed</li>
+<li>
+<p>Check which files you've changed:<br />
+<code>git status</code></p>
+</li>
+<li>
+<p>See specific changes:<br />
+<code>git diff</code></p>
+</li>
+</ul>
+<hr />
+<h1>Staging Changes</h1>
+<ul>
+<li>Git requires a two-step commit process</li>
+<li>
+<p>First "stage" the files you want to commit:<br />
+<code>git add filename.js          # Add specific file
+  git add directory/           # Add all files in directory
+  git add .                    # Add all changed files</code></p>
+</li>
+<li>
+<p>Check what's staged:<br />
+<code>git status</code></p>
+</li>
+</ul>
+<hr />
+<h1>Creating Commits</h1>
+<ul>
+<li>Commits are snapshots of your changes</li>
+<li>Include a clear message explaining what changed</li>
+<li>
+<p>Command:<br />
+<code>git commit -m "Add login form validation"</code></p>
+</li>
+<li>
+<p>Good commit messages:</p>
+</li>
+<li>Start with a verb (Add, Fix, Update)</li>
+<li>Be specific but concise</li>
+<li>Focus on "what" and "why", not "how"</li>
+</ul>
+<hr />
+<h1>Commit Best Practices</h1>
+<ul>
+<li>Make small, focused commits</li>
+<li>Each commit should do one logical change</li>
+<li>Write meaningful commit messages</li>
+<li>Make sure code works before committing</li>
+<li>Follow project commit guidelines if they exist</li>
+</ul>
+<hr />
+<h1>Pushing Changes</h1>
+<ul>
+<li>Upload your commits to GitHub</li>
+<li>
+<p>First time pushing a branch:<br />
+<code>git push -u origin your-branch-name</code></p>
+</li>
+<li>
+<p>Subsequent pushes:<br />
+<code>git push</code></p>
+</li>
+</ul>
+<hr />
+<h1>Creating a Pull Request</h1>
+<ul>
+<li>Formally requests project maintainers to review and merge your changes</li>
+<li>Steps:</li>
+<li>Go to original repository on GitHub</li>
+<li>Click "Pull requests" tab</li>
+<li>Click "New pull request"</li>
+<li>Select "compare across forks"</li>
+<li>Select your fork and branch</li>
+<li>Click "Create pull request"</li>
+<li>Fill out the form with details</li>
+</ul>
+<hr />
+<h1>Writing a Good PR Description</h1>
+<ul>
+<li>Clearly explain what your changes do</li>
+<li>Reference any related issues: "Fixes #42"</li>
+<li>Include screenshots for UI changes</li>
+<li>Explain how to test your changes</li>
+<li>List any potential concerns or questions</li>
+<li>Thank maintainers for their time</li>
+</ul>
+<hr />
+<h1>The Code Review Process</h1>
+<ul>
+<li>Maintainers will review your code</li>
+<li>They may request changes</li>
+<li>Be responsive and open to feedback</li>
+<li>Make requested changes by:</li>
+<li>Making new commits on your branch</li>
+<li>Pushing them to your fork</li>
+<li>PR updates automatically</li>
+</ul>
+<hr />
+<h1>Updating Your PR</h1>
+<ul>
+<li>
+<p>If changes are requested:<br />
+<code># Make your changes
+  git add .
+  git commit -m "Address review feedback"
+  git push</code></p>
+</li>
+<li>
+<p>If main branch has changed:<br />
+<code>git fetch upstream
+  git rebase upstream/main
+  git push -f</code></p>
+</li>
+</ul>
+<hr />
+<h1>Handling Merge Conflicts</h1>
+<ul>
+<li>Occur when two people change the same code</li>
+<li>Resolve locally before pushing:<br />
+<code>git fetch upstream
+  git rebase upstream/main
+  # Fix conflicts in your editor
+  git add .
+  git rebase --continue
+  git push -f</code></li>
+</ul>
+<hr />
+<h1>Git Command Cheat Sheet</h1>
+<ul>
+<li>Setup: <code>git clone</code>, <code>git config</code></li>
+<li>Check status: <code>git status</code>, <code>git log</code>, <code>git diff</code></li>
+<li>Branches: <code>git branch</code>, <code>git checkout -b</code>, <code>git checkout</code></li>
+<li>Changes: <code>git add</code>, <code>git commit</code>, <code>git push</code></li>
+<li>Updates: <code>git fetch</code>, <code>git pull</code>, <code>git rebase</code></li>
+<li>Problems: <code>git stash</code>, <code>git reset</code>, <code>git revert</code></li>
+</ul>
+<hr />
+<h1>GitHub Features for Contributors</h1>
+<ul>
+<li>Issues: Find tasks to work on</li>
+<li>Projects: Track progress</li>
+<li>Discussions: Ask questions</li>
+<li>Actions: Automated testing</li>
+<li>Wiki: Project documentation</li>
+<li>Notifications: Stay updated</li>
+<li>Profile: Showcase your contributions</li>
+</ul>
+<hr />
+<h1>Practical Exercise</h1>
+<ul>
+<li>Fork the EduLite repository</li>
+<li>Clone your fork locally</li>
+<li>Create a branch for a simple change</li>
+<li>Make a small improvement (fix typo, update docs)</li>
+<li>Commit and push your changes</li>
+<li>Create your first pull request</li>
+<li>Experience the review process</li>
+</ul>
+<hr />
+<h1>Contributing to EduLite</h1>
+<ul>
+<li>Check the CONTRIBUTING.md file</li>
+<li>Look for issues labeled "good first issue"</li>
+<li>Join the Discord server for help</li>
+<li>Setup development environment per README</li>
+<li>Follow coding standards of the project</li>
+<li>Ask questions in GitHub Discussions</li>
+</ul>
+<hr />
+<h1>Beyond Your First PR</h1>
+<ul>
+<li>Keep your fork updated</li>
+<li>Tackle more complex issues</li>
+<li>Review other people's PRs</li>
+<li>Help with documentation</li>
+<li>Participate in discussions</li>
+<li>Share your experience with others</li>
+</ul>
+<hr />
+<h1>Resources for Learning More</h1>
+<ul>
+<li>Pro Git book (free online)</li>
+<li>GitHub Learning Lab</li>
+<li>Git documentation</li>
+<li>Stack Overflow</li>
+<li>YouTube tutorials</li>
+<li>Interactive learning: try.github.io</li>
+<li>Git Visualization tools</li>
+</ul>
+<hr />
+<h1>Thank You!</h1>
+<ul>
+<li>You're now ready to start contributing</li>
+<li>Remember: everyone was a beginner once</li>
+<li>The open source community welcomes you</li>
+<li>Your contributions matter</li>
+<li>Let's build something great together!</li>
+</ul>
+{% endblock %}
