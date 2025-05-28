@@ -30,6 +30,15 @@ You can use this information to learn more about Git and GitHub, and to contribu
 If you choose to contribute to **EduLite**, you'll be making your first contribution to a real-world project and your work will be recognized and appreciated by the community.
 {~~}
 
+### 🧭 Quick Navigation
+
+This guide walks you through everything from Git basics to making your first open source contribution. Use these links to jump to specific parts:
+
+{~ card title="Guide Quick Links" ~}
+* Ready to get hands-on? Jump directly to the **[Practical Exercise: Your First Contribution!](#practical-exercise-your-first-contribution-to-edulite)**
+* *(You can add more links here as needed, e.g., to "Understanding Git Basics", "The GitHub Workflow", "Troubleshooting FAQ")*
+{~~}
+
 ---
 
 ### What you need to get started (Requirements)
