@@ -1,5 +1,6 @@
 asgiref==3.8.1
 Django==5.2.1
+django-htmx==1.23.0
 django-spellbook==0.1.14b10
 django-taggit==6.1.0
 gunicorn==23.0.0

@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'taggit',
+    'django_htmx',
     'django_spellbook',
     'analytics',
     'A_base',
