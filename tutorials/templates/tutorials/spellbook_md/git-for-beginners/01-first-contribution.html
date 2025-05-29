@@ -1836,11 +1836,13 @@ If you had multiple conflicted files, you'll need to resolve and <code>`git add`
     </button>
     <div class="sb-accordion-content" aria-hidden="true">
         <div class="sb-accordion-body">
-            <p>If you haven't pushed the commit yet, or if you've pushed it but no one has based work off it (common for your own PR branch on your fork):<br />
-* You can amend the message of your <em>most recent</em> commit using:<br />
-<code>`git commit --amend -m "New, corrected commit message"`</code><br />
-* If you need to change the message for an older commit, it's more complex (involving interactive rebase, <code>`git rebase -i`</code>) and might be best avoided for your first contribution unless necessary.<br />
-* <strong>If already pushed to your PR:</strong> After amending, you'll need to force push: <code>`git push --force-with-lease origin your-branch-name`</code>.</p>
+            <p>If you haven't pushed the commit yet, or if you've pushed it but no one has based work off it (common for your own PR branch on your fork):</p>
+<ul>
+<li>You can amend the message of your <em>most recent</em> commit using:<br />
+<code>`git commit --amend -m "New, corrected commit message"`</code></li>
+<li>If you need to change the message for an older commit, it's more complex (involving interactive rebase, <code>`git rebase -i`</code>) and might be best avoided for your first contribution unless necessary.</li>
+<li><strong>If already pushed to your PR:</strong> After amending, you'll need to force push: <code>`git push --force-with-lease origin your-branch-name`</code>.</li>
+</ul>
         </div>
     </div>
 </div>
@@ -1860,11 +1862,15 @@ If you had multiple conflicted files, you'll need to resolve and <code>`git add`
     </button>
     <div class="sb-accordion-content" aria-hidden="true">
         <div class="sb-accordion-body">
-            <p>If you haven't pushed the commit yet:<br />
-1.  Stage the missed file/changes: <code>`git add &lt;missed-file-or-changes&gt;`</code><br />
-2.  Add it to the previous commit without changing the message:<br />
-<code>`git commit --amend --no-edit`</code><br />
-* If you have already pushed, you can still do this and then force push (<code>`--force-with-lease`</code>). Alternatively, you can just create a <em>new</em> commit with the missed changes: <code>`git add &lt;missed-file&gt;`</code>, then <code>`git commit -m "Add missing file for X feature"`</code>, and then <code>`git push`</code>. This is often simpler if you're unsure about amending pushed commits.</p>
+            <p>If you haven't pushed the commit yet:</p>
+<ol>
+<li>Stage the missed file/changes: <code>`git add &lt;missed-file-or-changes&gt;`</code></li>
+<li>Add it to the previous commit without changing the message:<br />
+<code>`git commit --amend --no-edit`</code></li>
+</ol>
+<ul>
+<li>If you have already pushed, you can still do this and then force push (<code>`--force-with-lease`</code>). Alternatively, you can just create a <em>new</em> commit with the missed changes: <code>`git add &lt;missed-file&gt;`</code>, then <code>`git commit -m "Add missing file for X feature"`</code>, and then <code>`git push`</code>. This is often simpler if you're unsure about amending pushed commits.</li>
+</ul>
         </div>
     </div>
 </div>
@@ -1884,11 +1890,13 @@ If you had multiple conflicted files, you'll need to resolve and <code>`git add`
     </button>
     <div class="sb-accordion-content" aria-hidden="true">
         <div class="sb-accordion-body">
-            <p>This can happen for a few reasons:<br />
-* <strong>Local branch is out of date:</strong> The remote branch has changes you don't have locally. You might need to <code>`git pull`</code> (or better, <code>`git fetch`</code> then <code>`git rebase`</code> or <code>`git merge`</code>) first. This is less common when pushing a brand new feature branch for the first time but can happen if you're re-pushing to an existing remote branch.<br />
-* <strong>Authentication failed:</strong> Double-check your PAT or SSH key setup. Refer to the "Authenticating with GitHub" section.<br />
-* <strong>Wrong remote or branch:</strong> Are you sure you're trying to push to <code>origin</code> (your fork) and not <code>upstream</code> (the original project, where you likely don't have direct push access)?<br />
-* <strong>Force push needed:</strong> If you've rebased or amended commits that were already pushed, your local history differs from the remote, and a regular push will be rejected. You'll need to force push (e.g., <code>`git push --force-with-lease origin your-branch-name`</code>).</p>
+            <p>This can happen for a few reasons:</p>
+<ul>
+<li><strong>Local branch is out of date:</strong> The remote branch has changes you don't have locally. You might need to <code>`git pull`</code> (or better, <code>`git fetch`</code> then <code>`git rebase`</code> or <code>`git merge`</code>) first. This is less common when pushing a brand new feature branch for the first time but can happen if you're re-pushing to an existing remote branch.</li>
+<li><strong>Authentication failed:</strong> Double-check your PAT or SSH key setup. Refer to the "Authenticating with GitHub" section.</li>
+<li><strong>Wrong remote or branch:</strong> Are you sure you're trying to push to <code>origin</code> (your fork) and not <code>upstream</code> (the original project, where you likely don't have direct push access)?</li>
+<li><strong>Force push needed:</strong> If you've rebased or amended commits that were already pushed, your local history differs from the remote, and a regular push will be rejected. You'll need to force push (e.g., <code>`git push --force-with-lease origin your-branch-name`</code>).</li>
+</ul>
         </div>
     </div>
 </div>
@@ -1910,6 +1918,7 @@ If you had multiple conflicted files, you'll need to resolve and <code>`git add`
         <div class="sb-accordion-body">
             <ul>
 <li><strong>Title:</strong> Make it short, clear, and summarize the change (e.g., "Fix: Correct typo in README installation section").</li>
+<li></li>
 <li><strong>Description:</strong><ul>
 <li>Explain <em>what</em> you changed and <em>why</em>.</li>
 <li>If it fixes a GitHub Issue, link it using keywords like <code>Closes #123</code> or <code>Fixes #456</code>.</li>
@@ -1938,17 +1947,21 @@ If you had multiple conflicted files, you'll need to resolve and <code>`git add`
     </button>
     <div class="sb-accordion-content" aria-hidden="true">
         <div class="sb-accordion-body">
-            <p>No worries, it happens!<br />
-1.  <strong>If you haven't made changes yet:</strong> The easiest is to delete the cloned directory and then clone your fork correctly.<br />
-2.  <strong>If you've made changes but haven't pushed:</strong><br />
-    * In the cloned directory (currently pointing to the original repo), add your fork as a remote:<br />
-<code>`git remote add myfork https://github.com/YOUR_USERNAME/EduLite.git`</code><br />
-    * Push your branch to your fork:<br />
-<code>`git push -u myfork your-branch-name`</code><br />
-    * Then, you can either continue working in this directory (but be careful with remotes!) or, to be cleaner, now clone <em>your fork</em> to a new directory and copy your changes over if needed, or just use the version you just pushed to <code>myfork</code>.<br />
-    * Alternatively, you can change the <code>origin</code> remote's URL to point to your fork:<br />
+            <p>No worries, it happens!</p>
+<ol>
+<li><strong>If you haven't made changes yet:</strong> The easiest is to delete the cloned directory and then clone your fork correctly.</li>
+<li><strong>If you've made changes but haven't pushed:</strong><ul>
+<li>In the cloned directory (currently pointing to the original repo), add your fork as a remote:<br />
+<code>`git remote add myfork https://github.com/YOUR_USERNAME/EduLite.git`</code></li>
+<li>Push your branch to your fork:<br />
+<code>`git push -u myfork your-branch-name`</code></li>
+<li>Then, you can either continue working in this directory (but be careful with remotes!) or, to be cleaner, now clone <em>your fork</em> to a new directory and copy your changes over if needed, or just use the version you just pushed to <code>myfork</code>.</li>
+<li>Alternatively, you can change the <code>origin</code> remote's URL to point to your fork:<br />
 <code>`git remote set-url origin https://github.com/YOUR_USERNAME/EduLite.git`</code><br />
-        Then verify with <code>`git remote -v`</code>.</p>
+    Then verify with <code>`git remote -v`</code>.</li>
+</ul>
+</li>
+</ol>
         </div>
     </div>
 </div>
@@ -1968,18 +1981,22 @@ If you had multiple conflicted files, you'll need to resolve and <code>`git add`
     </button>
     <div class="sb-accordion-content" aria-hidden="true">
         <div class="sb-accordion-body">
-            <p>This is a common slip-up for beginners. Here's a way to fix it (ideally <em>before</em> you push these commits on <code>main</code> to your <code>origin</code> or try to make a PR from it):<br />
-1.  <strong>Create a new branch from the current state of your <code>main</code> branch.</strong> This new branch will now have your accidental commits:<br />
-<code>`git checkout -b my-intended-feature-branch`</code><br />
-2.  <strong>Now, reset your local <code>main</code> branch back to match the <code>upstream/main</code> (the original project's main).</strong><br />
-    * Switch back to <code>main</code>: <code>`git checkout main`</code><br />
-    * Fetch the latest from upstream: <code>`git fetch upstream`</code><br />
-    * Reset <code>main</code> hard to <code>upstream/main</code>. <strong>Warning:</strong> This will discard any commits on your local <code>main</code> that are not on <code>upstream/main</code> (which is what you want in this case for the accidental commits, but be sure!).<br />
-<code>`git reset --hard upstream/main`</code><br />
-3.  <strong>Update your fork's <code>main</code> branch (if you had already pushed the mistaken commits there):</strong><br />
+            <p>This is a common slip-up for beginners. Here's a way to fix it (ideally <em>before</em> you push these commits on <code>main</code> to your <code>origin</code> or try to make a PR from it):</p>
+<ol>
+<li><strong>Create a new branch from the current state of your <code>main</code> branch.</strong> This new branch will now have your accidental commits:<br />
+<code>`git checkout -b my-intended-feature-branch`</code></li>
+<li><strong>Now, reset your local <code>main</code> branch back to match the <code>upstream/main</code> (the original project's main).</strong><ul>
+<li>Switch back to <code>main</code>: <code>`git checkout main`</code></li>
+<li>Fetch the latest from upstream: <code>`git fetch upstream`</code></li>
+<li>Reset <code>main</code> hard to <code>upstream/main</code>. <strong>Warning:</strong> This will discard any commits on your local <code>main</code> that are not on <code>upstream/main</code> (which is what you want in this case for the accidental commits, but be sure!).<br />
+<code>`git reset --hard upstream/main`</code></li>
+</ul>
+</li>
+<li><strong>Update your fork's <code>main</code> branch (if you had already pushed the mistaken commits there):</strong><br />
     If your <code>origin/main</code> (on GitHub) has those mistaken commits, you'll need to force push to correct it:<br />
-<code>`git push origin main --force`</code> (Use with caution, but for your own fork's <code>main</code> to correct a mistake, it's usually okay).<br />
-4.  Now, continue your work on <code>my-intended-feature-branch</code> and create your PR from there!</p>
+<code>`git push origin main --force`</code> (Use with caution, but for your own fork's <code>main</code> to correct a mistake, it's usually okay).</li>
+<li>Now, continue your work on <code>my-intended-feature-branch</code> and create your PR from there!</li>
+</ol>
         </div>
     </div>
 </div>

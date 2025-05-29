@@ -1,5 +1,5 @@
 [
-{
+  {
     "question-id": "pre-assessment-text-editor-basic-purpose",
     "question": "What is a 'text editor' (like VS Code, Notepad, or Sublime Text) most commonly used for when working with computers, especially in contexts like programming?",
     "answer_a": "Primarily for watching videos and streaming movies.",
@@ -489,6 +489,66 @@
     "correct_answer": "b",
     "difficulty": "impossible",
     "tags": ["git", "detached-head", "checkout", "commit", "internals", "advanced-git", "garbage-collection"],
+    "title-id": "01-first-contribution"
+  },
+  {
+    "question-id": "pre-assessment-open-source-contribution-motivation",
+    "question": "Which of the following best describes a common motivation for individuals to contribute to open source projects?",
+    "answer_a": "To gain exclusive access to secret software features.",
+    "answer_b": "To learn new skills, collaborate with others, build a portfolio, and give back to a community or project they find valuable.",
+    "answer_c": "To quickly earn a large amount of money.",
+    "answer_d": "To ensure that the software can never be used for commercial purposes.",
+    "correct_answer": "b",
+    "difficulty": "foundational",
+    "tags": ["open-source", "motivation", "community", "learning", "pre-assessment"],
+    "title-id": "01-first-contribution"
+  },
+  {
+    "question-id": "git-basics-remote-repository-concept",
+    "question": "In Git terminology, what is a 'remote' repository?",
+    "answer_a": "A backup copy of your Git installation files.",
+    "answer_b": "A version of your repository that is hosted on a server elsewhere, like on GitHub, which allows for collaboration and backup.",
+    "answer_c": "A special type of branch that cannot be modified.",
+    "answer_d": "A Git command used to remove files from your local repository.",
+    "correct_answer": "b",
+    "difficulty": "easy",
+    "tags": ["git", "remote", "repository", "github", "basics", "collaboration"],
+    "title-id": "01-first-contribution"
+  },
+  {
+    "question-id": "git-workflow-importance-of-pulling-before-pushing-shared-branch",
+    "question": "If you are working on a shared branch (not your own feature branch) with others, why is it generally important to `git pull` (or `git fetch` and `git merge/rebase`) before you `git push` your own new commits?",
+    "answer_a": "`git pull` automatically deletes any conflicting files from your local machine.",
+    "answer_b": "To incorporate any changes others may have pushed to the shared branch since your last update, resolve any potential merge conflicts locally, and ensure your changes are based on the latest version before pushing.",
+    "answer_c": "`git pull` is only needed if you want to change your commit messages before pushing.",
+    "answer_d": "It's not important; `git push --force` will always ensure your changes are accepted on the remote.",
+    "correct_answer": "b",
+    "difficulty": "medium",
+    "tags": ["git", "pull", "push", "fetch", "workflow", "collaboration", "shared-branch"],
+    "title-id": "01-first-contribution"
+  },
+  {
+    "question-id": "git-commit-amending-pushed-commit-implications",
+    "question": "You've made a commit and pushed it to your feature branch on your remote fork (which has an open PR). You then realize you need to make a small correction to that last commit. If you use `git commit --amend` and then `git push`, what will likely happen and why?",
+    "answer_a": "The push will succeed, and GitHub will automatically append '(amended)' to your original commit message in the PR.",
+    "answer_b": "The push will be rejected because amending a commit rewrites its history (changes its SHA-1). The local and remote branches will have diverged. You would typically need to use `git push --force` or `git push --force-with-lease` to update the remote branch.",
+    "answer_c": "`git commit --amend` cannot be used on commits that have already been pushed; Git will show an error.",
+    "answer_d": "The push will succeed, but it will create a new, separate commit on the remote branch, leaving the original (now incorrect) commit also visible in the PR history.",
+    "correct_answer": "b",
+    "difficulty": "hard",
+    "tags": ["git", "commit-amend", "push", "force-push", "history-rewriting", "pull-request", "workflow"],
+    "title-id": "01-first-contribution"
+  },
+  {
+    "question-id": "git-bisect-purpose-and-basic-mechanism",
+    "question": "What is the primary purpose of the `git bisect` command, and how does it generally work to achieve this?",
+    "answer_a": "`git bisect` is used to split a large commit into several smaller ones to improve repository performance.",
+    "answer_b": "`git bisect` helps you find which commit introduced a bug by performing an automated binary search through the commit history. You tell it a 'good' commit (where the bug didn't exist) and a 'bad' commit (where the bug exists), and Git then checks out commits in between, asking you to identify them as 'good' or 'bad' until the problematic commit is pinpointed.",
+    "answer_c": "`git bisect` is a tool for visualizing the two parent commits of a merge commit to understand its history.",
+    "answer_d": "`git bisect` automatically identifies and reverts commits that are known to cause common security vulnerabilities.",
+    "correct_answer": "b",
+    "difficulty": "impossible",
+    "tags": ["git", "bisect", "debugging", "commit-history", "advanced-commands", "troubleshooting"],
     "title-id": "01-first-contribution"
   }
 ]
