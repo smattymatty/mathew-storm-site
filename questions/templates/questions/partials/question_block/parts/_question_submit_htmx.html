@@ -1,0 +1,17 @@
+{% comment %} questions/templates/questions/partials/_question_submit_htmx.html {% endcomment %}
+{% load spellbook_tags %}
+
+<div class="sb-mt-4">
+    <button 
+        type="submit" 
+        class="sb-btn sb-btn-success sb-w-full md:sb-w-auto"
+        {# 
+          hx-post="" 
+          hx-target="#question-block-{{ question.pk }}" 
+          hx-swap="outerHTML" 
+          hx-indicator="#loading-indicator-q{{ question.pk }}"
+        #}
+        >
+        Submit Answer 
+    </button>
+    </div>

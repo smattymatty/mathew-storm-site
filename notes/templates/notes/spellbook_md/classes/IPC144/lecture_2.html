@@ -29,7 +29,7 @@
 </section>
 </p>
 <hr />
-<h2 id="pseudo-code">Pseudo code</h2>
+<h2>Pseudo code</h2>
 <p>Pseudo code (pseudo = fake, code = computer language) is a fake computer language (3GL). Throughout these discussions, we have been using the Program Development Cycle (PDC) to move from a high-level, general analysis of a problem to a more specific solution.</p>
 <div class="sb-accordion ">
     <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
@@ -99,8 +99,8 @@
 <li>Iteration</li>
 </ul>
 <hr />
-<h2 id="simple-sequence">Simple Sequence</h2>
-<h3 id="assigning-variables">Assigning Variables</h3>
+<h2>Simple Sequence</h2>
+<h3>Assigning Variables</h3>
 <p>This is where variables are manipulated within your algorithm.<br />
 The New Webster's Computer Terms dictionary definition: <strong>A variable is a symbolic name representing a value that changes during the program's execution.</strong><br />
 Back to Secondary School algebra, remember these?<br />
@@ -134,7 +134,7 @@ Solve for <code>x</code> and <code>y</code>. <code>x</code> and <code>y</code> a
     </div>
 </div>
 
-<h3 id="types-of-variable-assignments">Types of Variable Assignments</h3>
+<h3>Types of Variable Assignments</h3>
 <p>There are two types of variable assignments:</p>
 <ol>
 <li>When you are initializing a variable.</li>
@@ -145,7 +145,7 @@ Solve for <code>x</code> and <code>y</code>. <code>x</code> and <code>y</code> a
 <pre><code class="language-pseudo">INITIALIZE counter to zero
 SET recordSize to 500
 </code></pre>
-<h3 id="assignments-from-processing">Assignments from Processing</h3>
+<h3>Assignments from Processing</h3>
 <p>Expect to use the symbol <code>=</code> (will be referred to as an assignment operator).</p>
 <pre><code class="language-pseudo">totalPrice = basePrice + salesTax
 </code></pre>
@@ -172,7 +172,7 @@ recordSize = 500
 <pre><code class="language-pseudo">counterA = 0
 SET recordSize to 500
 </code></pre>
-<h3 id="input-of-data">Input of Data</h3>
+<h3>Input of Data</h3>
 <p>Verbs used: <code>READ</code>, <code>GET</code>.</p>
 <ul>
 <li><code>READ</code> usually refers to data being read from a file.</li>
@@ -199,7 +199,7 @@ GET newAddress
 <pre><code class="language-pseudo">READ address FROM customerFile
 GET newAddress
 </code></pre>
-<h3 id="output-of-data">Output of Data</h3>
+<h3>Output of Data</h3>
 <p>Verbs used: <code>PRINT</code>, <code>WRITE</code>, <code>OUTPUT</code>, <code>DISPLAY</code>.</p>
 <ul>
 <li><code>PRINT</code> usually refers to data being sent to a printer.</li>
@@ -252,7 +252,7 @@ Should be written as:<br />
 <pre><code class="language-pseudo">WRITE address TO customerFile
 DISPLAY newAddress
 </code></pre>
-<h3 id="computation">Computation</h3>
+<h3>Computation</h3>
 <p>Some verbs used: <code>ADD</code>, <code>COMPUTE</code>, <code>CALCULATE</code>, <code>MULTIPLY</code>, <code>DIVIDE</code>, <code>SUBTRACT</code>.</p>
 <p>Examples:</p>
 <pre><code class="language-pseudo">ADD 1 TO counter
@@ -276,7 +276,7 @@ degreesC = (degreesF- 32) x (5/9)
 <pre><code class="language-pseudo">ADD 1 TO counter
 degreesC = (degreesF- 32) × (5/9)
 </code></pre>
-<h3 id="module-call">Module Call</h3>
+<h3>Module Call</h3>
 <p>Verbs Used: <code>CALL</code>.</p>
 <pre><code class="language-pseudo">CALL myModule
 CALL yourModule(myvar)
@@ -303,8 +303,8 @@ CALL theirModule(yourVar, myVar, someVar)
 x = func(a, b, c)
 </code></pre>
 <hr />
-<h2 id="selection-decision">Selection (Decision)</h2>
-<h3 id="simple-decision">Simple Decision</h3>
+<h2>Selection (Decision)</h2>
+<h3>Simple Decision</h3>
 <p>The basic form looks like:</p>
 <pre><code class="language-pseudo">IF condition THEN
     statement(s)
@@ -370,7 +370,7 @@ ELSE
     StatementE
 ENDIF
 </code></pre>
-<h3 id="importance-of-indentation">Importance of Indentation</h3>
+<h3>Importance of Indentation</h3>
 <p>An example of no indentation:</p>
 <pre><code class="language-pseudo">IF a = b THEN
 DISPLAY &quot;A equals B&quot;
@@ -420,7 +420,7 @@ ENDIF
     DISPLAY &quot;Low average”
 ENDIF
 </code></pre>
-<h3 id="multiway-decision">Multiway Decision</h3>
+<h3>Multiway Decision</h3>
 <p>The basic form looks like:</p>
 <pre><code class="language-pseudo">SWITCH (variable)
     CASE (option)
@@ -466,8 +466,8 @@ ENDSWITCH
 ENDSWITCH
 </code></pre>
 <hr />
-<h2 id="iteration-loop">Iteration (Loop)</h2>
-<h3 id="pre-test-loop">Pre-Test Loop</h3>
+<h2>Iteration (Loop)</h2>
+<h3>Pre-Test Loop</h3>
 <p>The basic form looks like:</p>
 <pre><code class="language-pseudo">DOWHILE condition
     statement(s)
@@ -492,7 +492,7 @@ ENDWHILE
     i = i + 1
 ENDWHILE
 </code></pre>
-<h3 id="post-test-loop">Post-Test Loop</h3>
+<h3>Post-Test Loop</h3>
 <p>The basic form looks like:</p>
 <pre><code class="language-pseudo">DO
     statement(s)
@@ -518,7 +518,7 @@ WHILE condition
 WHILE i &lt; 10
 </code></pre>
 <hr />
-<h2 id="pseudo-code-walkthroughs">Pseudo code Walkthroughs</h2>
+<h2>Pseudo code Walkthroughs</h2>
 <div class="sb-practice-block sb-border sb-border-radius-lg sb-p-4 sb-mb-4 sb-shadow-sm ">
     <div class="sb-practice-metadata sb-flex sb-flex-wrap sb-gap-3 sb-mb-3 sb-p-2 sb-border-radius-md">
         <span class="sb-difficulty-level sb-badge" data-difficulty="beginner">

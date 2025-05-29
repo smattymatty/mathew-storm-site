@@ -1,0 +1,24 @@
+{% comment %} questions/templates/questions/partials/_question_options_htmx.html {% endcomment %}
+{% load spellbook_tags %}
+
+<div class="sb-mt-3 sb-mb-3 question-options">
+    <h5 class="sb-text-md sb-font-medium sb-mb-2">Choose an answer:</h5>
+    <div class="sb-space-y-2">
+        <label class="sb-flex sb-items-center sb-p-2 sb-border sb-rounded-md hover:sb-bg-neutral-50 sb-cursor-pointer">
+            <input type="radio" name="answer_for_q{{ question.pk }}" value="a" class="sb-radio sb-radio-primary sb-mr-2">
+            <span class="sb-flex-1">{{ question.answer_a }}</span>
+        </label>
+        <label class="sb-flex sb-items-center sb-p-2 sb-border sb-rounded-md hover:sb-bg-neutral-50 sb-cursor-pointer">
+            <input type="radio" name="answer_for_q{{ question.pk }}" value="b" class="sb-radio sb-radio-primary sb-mr-2">
+            <span class="sb-flex-1">{{ question.answer_b }}</span>
+        </label>
+        <label class="sb-flex sb-items-center sb-p-2 sb-border sb-rounded-md hover:sb-bg-neutral-50 sb-cursor-pointer">
+            <input type="radio" name="answer_for_q{{ question.pk }}" value="c" class="sb-radio sb-radio-primary sb-mr-2">
+            <span class="sb-flex-1">{{ question.answer_c }}</span>
+        </label>
+        <label class="sb-flex sb-items-center sb-p-2 sb-border sb-rounded-md hover:sb-bg-neutral-50 sb-cursor-pointer">
+            <input type="radio" name="answer_for_q{{ question.pk }}" value="d" class="sb-radio sb-radio-primary sb-mr-2">
+            <span class="sb-flex-1">{{ question.answer_d }}</span>
+        </label>
+    </div>
+</div>

@@ -56,3 +56,15 @@ def htmx_load_questions(request: HttpRequest) -> HttpResponse:
 
     # 5. Render the HTML partial and return it
     return render(request, template_name, context)
+
+
+def quiz_page_view(request: HttpRequest) -> HttpResponse:
+    """
+    Renders the main interactive quiz page.
+    """
+    # Any context you might want to pass to the main quiz page itself can go here.
+    # For now, it might not need any specific context beyond what the base template provides.
+    context = {
+        'sidebar_header': 'Interactive Quiz',
+    } 
+    return render(request, 'questions/quiz_page.html', context)

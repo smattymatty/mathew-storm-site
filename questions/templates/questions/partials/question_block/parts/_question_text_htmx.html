@@ -1,0 +1,20 @@
+{% comment %} questions/templates/questions/partials/_question_text_htmx.html {% endcomment %}
+{% load spellbook_tags %}
+
+<h4 class="sb-text-lg sb-font-semibold sb-mb-2">{{ question.question_text }}</h4>
+            
+<div class="sb-text-sm sb-black-75 sb-mb-1">
+    <strong>Tutorial:</strong> {{ question.tutorial_title.name|default:question.tutorial_title.title_id_slug }}
+</div>
+<div class="sb-text-sm sb-black-75 sb-mb-1">
+    <strong>Difficulty:</strong> <span class="sb-badge sb-badge-primary-outline">{{ question.get_difficulty_display }}</span>
+</div>
+
+{% if question.tags.all %}
+    <div class="sb-text-sm sb-black-75 sb-mb-2">
+        <strong>Tags:</strong>
+        {% for tag in question.tags.all %}
+            <span class="sb-badge sb-badge-secondary-outline sb-mr-1">{{ tag.name }}</span>
+        {% endfor %}
+    </div>
+{% endif %}

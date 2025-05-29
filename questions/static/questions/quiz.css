@@ -1,0 +1,97 @@
+.quiz-options-container {
+    background-color: var(--primary-color);
+}
+
+.quiz-options-container h1, h2, h3{
+    color: var(--text-primary-color);
+    opacity: 0.7;
+}
+
+/* --- Tutorial Name Pill Styles --- */
+.tutorial-name-pill {
+    /* Base styles from your HTML: sb-p-2 sb-rounded sb-text-xs sb-text-center sb-cursor-pointer */
+    padding: 0.5rem; /* Corresponds to sb-p-2 */
+    border-radius: var(--sb-border-radius-md, 0.375rem); /* sb-rounded (assuming md) */
+    font-size: 0.75rem; /* Corresponds to sb-text-xs */
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    
+    /* Custom base appearance for the pill */
+    background-color: #d0d0d0dd; /* Example for a very light info bg (like sb-bg-info-25) */
+    color: #0e2a4a; /* Darker info text for contrast on light bg */
+    border: 1px solid transparent; /* Start with a transparent border, active state will override */
+    
+    transition: background-color 0.15s ease-in-out, 
+                color 0.15s ease-in-out, 
+                transform 0.15s ease-in-out,
+                border-color 0.15s ease-in-out,
+                font-weight 0.15s ease-in-out,
+                box-shadow 0.15s ease-in-out; /* Added box-shadow for active state border */
+}
+
+.tutorial-name-pill:hover {
+    background-color: #c7d2fe; /* Slightly darker/different shade on hover */
+    color: #1c3276; /* Slightly darker text on hover */
+    transform: translateY(-2px) scale(1.03); /* Slight lift and scale */
+}
+
+/* Immediate feedback when any pill (active or not) is being clicked */
+.tutorial-name-pill:active {
+    transform: translateY(0px) scale(0.98); /* "Pressed down" effect */
+    /* Specific background change for non-active pills on :active */
+}
+.tutorial-name-pill:not(.active):active {
+    background-color: #b4c5fd; /* Slightly more different for non-active press */
+}
+
+
+/* Keyframe animation for an extra "pop" on click - requires JS to add .pill-was-clicked */
+/* This animation will apply to any .tutorial-name-pill that gets the .pill-was-clicked class,
+   regardless of whether it's also .active */
+@keyframes pill-click-pop-animation {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.15); /* Pop out */
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.tutorial-name-pill.pill-was-clicked {
+    animation: pill-click-pop-animation 0.3s ease-out;
+}
+
+/* Active (selected) state for the pill */
+.tutorial-name-pill.active {
+    background-color: var(--info-color, #2563eb); /* Brighter - use main info color */
+    color: #fff; /* White text for contrast */
+    font-weight: 600; /* Bolder text (sb-font-semibold) */
+    border: 2px solid var(--info-color, #2563eb); /* Initial border for active */
+    /* You can use box-shadow to make the border appear "brighter" or more distinct */
+    box-shadow: 0 0 0 1px var(--info-color, #2563eb); /* Ensures border color is solid if base border was transparent */
+}
+
+/* Hover state for an ACTIVE pill */
+.tutorial-name-pill.active:hover {
+    background-color: #1e54d3; /* Darker shade of the main active info color */
+    border-color: #1c4fc3;    /* Match darker shade */
+    box-shadow: 0 0 0 1px #1c4fc3; /* Match darker shade */
+    color: #e0e8fb;           /* Lighter text on the darker hover background */
+    transform: translateY(-2px) scale(1.03); /* Keep consistent hover animation */
+}
+
+/* Immediate click feedback for an ACTIVE pill */
+.tutorial-name-pill.active:active {
+    background-color: #1a4abd; /* Even slightly darker for the "press" */
+    border-color: #1843ad;
+    box-shadow: 0 0 0 1px #1843ad;
+    transform: translateY(0px) scale(0.97); /* Slightly more pronounced press for active pill */
+    color: #d1d9f7; /* Keep text readable during press */
+}

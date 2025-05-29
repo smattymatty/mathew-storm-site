@@ -1,0 +1,15 @@
+{% comment %} questions/templates/questions/partials/_question_list_htmx.html {% endcomment %}
+
+{% if error_message %}
+    <div class="sb-alert sb-alert-danger sb-p-3 sb-rounded-md">
+        <p>{{ error_message }}</p>
+    </div>
+{% elif questions %}
+    {% for question_item in questions %}
+        {% include "questions/partials/question_block/_question_block_htmx.html" with question=question_item %}
+    {% endfor %}
+{% else %}
+    <div class="sb-p-3 sb-text-center">
+        <p class="sb-black-50">No questions found matching your criteria.</p>
+    </div>
+{% endif %}
