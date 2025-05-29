@@ -74,7 +74,7 @@ class Question(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     # --- Manager ---
-    objects = QuestionManager() # Use your custom manager
+    objects: QuestionManager = QuestionManager() # Use your custom manager
 
     # --- Meta ---
     class Meta:
