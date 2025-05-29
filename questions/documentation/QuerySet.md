@@ -13,7 +13,7 @@ The `Question` model provides a custom manager method, `get_interactive_quiz_que
 **Method Signature:**
 
 ```python
-Question.objects.get_interactive_quiz_questions(
+Question.objects.get_queryset().get_interactive_quiz_questions(
     title_id_slug: Optional[str] = None,
     difficulty_levels: Optional[List[str]] = None,
     tag_names: Optional[List[str]] = None
