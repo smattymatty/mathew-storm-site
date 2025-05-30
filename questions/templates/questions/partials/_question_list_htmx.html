@@ -7,6 +7,7 @@
 {% elif questions %}
     {% for question_item in questions %}
         {% include "questions/partials/question_block/_question_block_htmx.html" with question=question_item %}
+        <hr class="">
     {% endfor %}
 {% else %}
     <div class="sb-p-3 sb-text-center">

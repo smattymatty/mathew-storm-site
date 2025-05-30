@@ -3,22 +3,186 @@
 
 <div class="sb-mt-3 sb-mb-3 question-options">
     <h5 class="sb-text-md sb-font-medium sb-mb-2">Choose an answer:</h5>
-    <div class="sb-space-y-2">
-        <label class="sb-flex sb-items-center sb-p-2 sb-border sb-rounded-md hover:sb-bg-neutral-50 sb-cursor-pointer">
+    <div class="sb-space-y-2 question-block-options">
+        <label class="sb-flex sb-items-center sb-p-2 sb-border sb-rounded-md sb-cursor-pointer">
             <input type="radio" name="answer_for_q{{ question.pk }}" value="a" class="sb-radio sb-radio-primary sb-mr-2">
             <span class="sb-flex-1">{{ question.answer_a }}</span>
         </label>
-        <label class="sb-flex sb-items-center sb-p-2 sb-border sb-rounded-md hover:sb-bg-neutral-50 sb-cursor-pointer">
+        <label class="sb-flex sb-items-center sb-p-2 sb-border sb-rounded-md sb-cursor-pointer">
             <input type="radio" name="answer_for_q{{ question.pk }}" value="b" class="sb-radio sb-radio-primary sb-mr-2">
             <span class="sb-flex-1">{{ question.answer_b }}</span>
         </label>
-        <label class="sb-flex sb-items-center sb-p-2 sb-border sb-rounded-md hover:sb-bg-neutral-50 sb-cursor-pointer">
+        <label class="sb-flex sb-items-center sb-p-2 sb-border sb-rounded-md sb-cursor-pointer">
             <input type="radio" name="answer_for_q{{ question.pk }}" value="c" class="sb-radio sb-radio-primary sb-mr-2">
             <span class="sb-flex-1">{{ question.answer_c }}</span>
         </label>
-        <label class="sb-flex sb-items-center sb-p-2 sb-border sb-rounded-md hover:sb-bg-neutral-50 sb-cursor-pointer">
+        <label class="sb-flex sb-items-center sb-p-2 sb-border sb-rounded-md sb-cursor-pointer">
             <input type="radio" name="answer_for_q{{ question.pk }}" value="d" class="sb-radio sb-radio-primary sb-mr-2">
             <span class="sb-flex-1">{{ question.answer_d }}</span>
         </label>
     </div>
 </div>
+
+<style>
+   /* --- Custom Radio Button Styles --- */
+.sb-radio {
+    appearance: none; /* Remove default browser styling */
+    -webkit-appearance: none; /* Safari/Chrome specific */
+    -moz-appearance: none;    /* Firefox specific */
+    
+    /* Dimensions - using 'em' to scale with text size */
+    width: 1.15em;  
+    height: 1.15em;
+    
+    /* Shape and base appearance */
+    border-radius: 50%; /* Circular */
+    border: 2px solid #adb5bd; /* Default border color */
+    background-color: #fff; /* Default background */
+    
+    position: relative; /* For positioning the ::after pseudo-element */
+    vertical-align: middle; /* Helps align with adjacent text */
+    cursor: pointer;
+    margin-right: 0.5em; /* Spacing from text (replaces sb-mr-2 on input) */
+    
+    flex-shrink: 0; /* PREVENT THIS ELEMENT FROM SHRINKING in a flex container */
+    
+    /* Smooth transitions for state changes */
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.sb-radio:hover {
+    border-color: #adb5bd; /* Default unchecked border: neutral gray */
+    background-color: rgba(64, 128, 201, 0.733);
+}
+
+/* Common style for the inner dot of a checked radio button */
+.sb-radio:checked::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0.5em; 
+    height: 0.5em;
+    border-radius: 50%;
+    background-color: #fff; /* Dot is usually white */
+}
+
+/* --- Primary Radio --- */
+.sb-radio-primary:checked {
+    background-color: var(--primary-color, #3b82f6);
+    border-color: var(--primary-color, #3b82f6);
+}
+.sb-radio-primary:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.35); /* RGB from --primary-color */
+}
+
+/* --- Success Radio --- */
+.sb-radio-success:checked {
+    background-color: var(--success-color, #16a34a);
+    border-color: var(--success-color, #16a34a);
+}
+.sb-radio-success:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(22, 163, 74, 0.35); /* RGB from --success-color */
+}
+
+/* --- Info Radio --- */
+.sb-radio-info:checked {
+    background-color: var(--info-color, #2563eb);
+    border-color: var(--info-color, #2563eb);
+}
+.sb-radio-info:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.35); /* RGB from --info-color */
+}
+
+/* --- Warning Radio --- */
+.sb-radio-warning:checked {
+    background-color: var(--warning-color, #f59e0b);
+    border-color: var(--warning-color, #f59e0b);
+}
+.sb-radio-warning:checked::after { /* Amber bg might need darker dot for contrast if white isn't good */
+    background-color: #fff; /* Or #333 if white is hard to see on amber */
+}
+.sb-radio-warning:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(245, 158, 11, 0.35); /* RGB from --warning-color */
+}
+
+/* --- Error Radio --- */
+.sb-radio-error:checked {
+    background-color: var(--error-color, #dc2626);
+    border-color: var(--error-color, #dc2626);
+}
+.sb-radio-error:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(220, 38, 38, 0.35); /* RGB from --error-color */
+}
+
+/* --- Secondary Radio --- */
+.sb-radio-secondary:checked {
+    background-color: var(--secondary-color, #6b7280);
+    border-color: var(--secondary-color, #6b7280);
+}
+.sb-radio-secondary:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(107, 114, 128, 0.35); /* RGB from --secondary-color */
+}
+
+/* --- Accent Radio --- */
+.sb-radio-accent:checked {
+    background-color: var(--accent-color, #f59e0b);
+    border-color: var(--accent-color, #f59e0b);
+}
+.sb-radio-accent:checked::after { /* Amber bg might need darker dot */
+    background-color: #fff; /* Or #333 */
+}
+.sb-radio-accent:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(245, 158, 11, 0.35); /* RGB from --accent-color */
+}
+
+/* --- Black Radio --- */
+.sb-radio-black { /* For unchecked state if different from default */
+    /* border-color: #343a40; */ /* Darker border for unchecked black variant if desired */
+}
+.sb-radio-black:checked {
+    background-color: #000;
+    border-color: #000;
+}
+.sb-radio-black:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.35);
+}
+
+/* --- White Radio --- */
+.sb-radio-white { /* Unchecked state might want a more defined border */
+    border-color: #adb5bd; /* Neutral gray, same as default .sb-radio */
+}
+.sb-radio-white:checked {
+    background-color: #d1d5db; /* Light gray fill when "checked" to show against white page */
+    border-color: #6c757d;    /* Darker gray border when "checked" */
+}
+.sb-radio-white:checked::after {
+    background-color: #343a40; /* Dark dot for contrast on light gray background */
+}
+.sb-radio-white:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(173, 181, 189, 0.35); /* Based on a light gray */
+}
+
+/* Disabled State for radio buttons */
+.sb-radio:disabled {
+    cursor: not-allowed;
+    border-color: #e9ecef !important;
+    background-color: #f8f9fa !important;
+    opacity: 0.65;
+}
+.sb-radio:disabled:checked::after {
+    background-color: #adb5bd !important; /* Muted dot color */
+}
+
+</style>

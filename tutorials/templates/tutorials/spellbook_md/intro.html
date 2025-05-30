@@ -1,9 +1,35 @@
 {% extends 'A_base/sb_base.html' %}
 
 {% block spellbook_md %}
-<h2>Welcome to my Tutorials</h2>
+<h2 id="welcome-to-my-tutorials">Welcome to my Tutorials</h2>
 <p>This is my tutorials page.</p>
-<h2>Topics</h2>
+<p>Visit my <a href="/questions/">Interactive Questions Page</a> (WORK IN PROGRESS!) to test your knowledge.</p>
+<h2 id="topics">Topics</h2>
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="true" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Django Web Development Fundamentals</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="false">
+        <div class="sb-accordion-body">
+            <p><a href="/tuts/django-webdev-fundamentals/01-creating-a-project-base/">01 - Creating a Project Base</a><br />
+<em>Learn the basics of Django and HTML/CSS/JavaScript</em></p>
+<p><a href="/tuts/django-webdev-fundamentals/02-models-and-admin-interface/">02 - Models and Admin Interface</a><br />
+<em>Learn how to create database models and customize the admin interface</em></p>
+<p><a href="/tuts/django-webdev-fundamentals/03-forms/">03 - Forms</a><br />
+<em>Learn how to create forms for your models</em></p>
+        </div>
+    </div>
+</div>
+
 <div class="sb-accordion ">
     <button class="sb-accordion-toggle" aria-expanded="true" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
         <span class="sb-accordion-title">Git and GitHub Fundamentals with VS Code</span>
@@ -23,5 +49,18 @@
 <em>Learn how to contribute to open source projects</em></p>
         </div>
     </div>
+</div>
+
+<hr />
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Hungry for More Education?</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <a class="sb-text-3xl" href="/note/intro/"><p>Visit my 'Notes' section, my personal second-brain.</p></a>
+    </div>
+
 </div>
 {% endblock %}

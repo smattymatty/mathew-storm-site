@@ -1,0 +1,122 @@
+[
+  {
+    "question-id": "django-pre-assessment-html-role",
+    "question": "What is the primary role of HTML (HyperText Markup Language) in a webpage?",
+    "answer_a": "To define the visual style and layout (colors, fonts, spacing).",
+    "answer_b": "To provide interactivity and dynamic content (animations, form validation).",
+    "answer_c": "To structure the content and define the meaning of different parts of a webpage (headings, paragraphs, links, images).",
+    "answer_d": "To manage data storage and server-side logic.",
+    "correct_answer": "c",
+    "difficulty": "foundational",
+    "tags": ["web-basics", "html", "frontend", "pre-assessment"],
+    "title-id": "01-creating-a-project-base"
+  },
+  {
+    "question-id": "django-pre-assessment-variable-purpose",
+    "question": "In general programming, what is a 'variable' most commonly used for?",
+    "answer_a": "To display static images on a webpage.",
+    "answer_b": "To store and manage data that can change or be referenced by a name.",
+    "answer_c": "To define the main structure of a program's user interface.",
+    "answer_d": "To send requests to a web server.",
+    "correct_answer": "b",
+    "difficulty": "foundational",
+    "tags": ["programming-concepts", "variables", "data", "pre-assessment"],
+    "title-id": "01-creating-a-project-base"
+  },
+  {
+    "question-id": "django-pre-assessment-web-server-purpose",
+    "question": "What is the main purpose of a web server?",
+    "answer_a": "To design the visual appearance of websites.",
+    "answer_b": "To store a user's internet Browse history.",
+    "answer_c": "To write the code that runs directly in a user's web browser.",
+    "answer_d": "To receive requests from web browsers and send back the requested resources (like HTML pages, images, etc.).",
+    "correct_answer": "d",
+    "difficulty": "foundational",
+    "tags": ["web-basics", "server", "http", "pre-assessment"],
+    "title-id": "01-creating-a-project-base"
+  },
+  {
+    "question-id": "django-pre-assessment-python-description",
+    "question": "Which of the following best describes Python?",
+    "answer_a": "A markup language used to structure web content.",
+    "answer_b": "A styling language used to design the appearance of webpages.",
+    "answer_c": "A general-purpose programming language often used for web development, data science, and scripting.",
+    "answer_d": "A type of database used for storing large amounts of information.",
+    "correct_answer": "c",
+    "difficulty": "foundational",
+    "tags": ["python", "programming-languages", "pre-assessment"],
+    "title-id": "01-creating-a-project-base"
+  },
+  {
+    "question-id": "django-pre-assessment-url-request-action",
+    "question": "When you type a URL (like `www.example.com`) into your web browser and press Enter, what is the browser essentially doing first?",
+    "answer_a": "Immediately downloading all images from the website.",
+    "answer_b": "Sending a request to a server associated with that URL, asking for the webpage's content.",
+    "answer_c": "Checking your computer for locally stored copies of the website.",
+    "answer_d": "Executing Python code directly within the browser.",
+    "correct_answer": "b",
+    "difficulty": "foundational",
+    "tags": ["web-basics", "browser", "http", "url", "pre-assessment"],
+    "title-id": "01-creating-a-project-base"
+  },
+  {
+    "question-id": "django-easy-venv-creation",
+    "question": "According to the guide, what is the command to create a Python virtual environment named `venv`?",
+    "answer_a": "python create venv myenv",
+    "answer_b": "pip install virtualenv venv",
+    "answer_c": "python -m venv venv",
+    "answer_d": "source venv new",
+    "correct_answer": "c",
+    "difficulty": "easy",
+    "tags": ["python", "django", "virtual-environment", "setup", "commands"],
+    "title-id": "01-creating-a-project-base"
+  },
+  {
+    "question-id": "django-easy-django-installation",
+    "question": "What command is used to install Django into your activated virtual environment using pip?",
+    "answer_a": "python manage.py install django",
+    "answer_b": "python -m pip install Django",
+    "answer_c": "pip setup django",
+    "answer_d": "django-admin install --pip",
+    "correct_answer": "b",
+    "difficulty": "easy",
+    "tags": ["python", "django", "pip", "installation", "setup", "commands"],
+    "title-id": "01-creating-a-project-base"
+  },
+  {
+    "question-id": "django-easy-managepy-purpose",
+    "question": "What is described as the primary purpose of the `manage.py` file in a Django project?",
+    "answer_a": "To define the project's database models.",
+    "answer_b": "To store the project's main HTML templates.",
+    "answer_c": "To execute various Django-specific console commands like creating apps or running the server.",
+    "answer_d": "To configure the project's global CSS styles.",
+    "correct_answer": "c",
+    "difficulty": "easy",
+    "tags": ["django", "manage.py", "commands", "project-structure"],
+    "title-id": "01-creating-a-project-base"
+  },
+  {
+    "question-id": "django-easy-create-project-command",
+    "question": "Which command creates a new Django project named `_core` in the current directory?",
+    "answer_a": "python manage.py startproject _core .",
+    "answer_b": "django-admin newproject _core .",
+    "answer_c": "django-admin startproject _core .",
+    "answer_d": "pip create django_project _core .",
+    "correct_answer": "c",
+    "difficulty": "easy",
+    "tags": ["django", "project-creation", "django-admin", "commands"],
+    "title-id": "01-creating-a-project-base"
+  },
+  {
+    "question-id": "django-easy-register-app-settings",
+    "question": "After creating a new Django app (e.g., `A_base`), where must you add its name so that the Django project recognizes it?",
+    "answer_a": "In the `_core/urls.py` file, within the `urlpatterns` list.",
+    "answer_b": "In the `A_base/models.py` file, as a special comment.",
+    "answer_c": "In the `_core/settings.py` file, within the `INSTALLED_APPS` list.",
+    "answer_d": "In the `manage.py` file, under a `PROJECT_APPS` variable.",
+    "correct_answer": "c",
+    "difficulty": "easy",
+    "tags": ["django", "settings", "installed-apps", "app-configuration"],
+    "title-id": "01-creating-a-project-base"
+  }
+]

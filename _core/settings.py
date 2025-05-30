@@ -231,4 +231,5 @@ ANALYTICS_EXCLUDED_PREFIXES = [
 
 QUESTION_DATA_DIRECTORIES = [
     BASE_DIR / 'tutorials_content/git-for-beginners',
+    BASE_DIR / 'tutorials_content/django-webdev-fundamentals',
 ]

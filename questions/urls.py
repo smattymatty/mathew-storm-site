@@ -12,7 +12,7 @@ urlpatterns = [
     ),
     path(
         '',
-        views.quiz_page_view,
-        name='quiz_page' 
+        views.question_page_view,
+        name='question_page' 
     ),
 ]

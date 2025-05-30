@@ -1,0 +1,17 @@
+<div class="sb-flex sb-flex-col sb-md:flex-row">
+    <form class="quiz-search-form sb-flex-col sb-gap-2 sb-mb-4 sb-mr-4" role="search" aria-label="Search for Tutorial Names to Include">
+        <div class="sb-flex sb-flex-grow sb-h-full"></div>
+        <label for="quiz-tag-search-input" class="sb-text-sm sb-font-medium sb-white-50 sb-whitespace-nowrap">
+            Search For Tag Names to Include:
+        </label>
+        <input type="text" id="quiz-tag-search-input" name="q_tag_search" class="sb-input sb-input-primary sb-flex-grow" placeholder="Tag Name..." />
+        <div class="sb-flex sb-flex-grow sb-h-full"></div>
+    </form>
+    <div id="tag-name-pills-container" class="sb-flex-grow sb-w-full sb-mb-2">
+        <div class="sb-grid sb-grid-cols-2 sb-md:grid-cols-3 sb-gap-2">
+            {% for tag in initial_tags %}
+                {% include 'questions/partials/pills/tag_name_pill.html' with tag_name=tag %}
+            {% endfor %}
+        </div>
+    </div>
+</div>

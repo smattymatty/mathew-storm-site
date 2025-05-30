@@ -1,0 +1,19 @@
+<div class="sb-flex sb-flex-col sb-md:flex-row">
+    <form class="quiz-search-form sb-flex-col sb-gap-2 sb-mb-4 sb-mr-4" role="search" aria-label="Search for Tutorial Names to Include">
+        <div class="sb-flex sb-flex-grow sb-h-full"></div>
+        <label for="quiz-search-input" class="sb-text-sm sb-font-medium sb-white-50 sb-whitespace-nowrap">
+            Search For Tutorial Names to Include:
+        </label>
+        <input type="text" id="quiz-search-input" name="q_search" class="sb-input sb-input-primary sb-flex-grow" placeholder="Tutorial Name..." />
+        <div class="sb-flex sb-flex-grow sb-h-full"></div>
+    </form>
+    <div id="tutorial-name-pills-container" class="sb-flex-grow sb-w-full sb-mb-2">
+        <div class="sb-grid sb-grid-cols-1 sb-md:grid-cols-2 sb-gap-2">
+{% for title in initial_title_names %}
+    {% include 'questions/partials/pills/tutorial_name_pill.html' with tutorial_name=title %}
+{% endfor %}
+
+
+</div>
+    </div>
+</div>
