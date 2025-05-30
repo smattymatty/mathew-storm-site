@@ -19,6 +19,9 @@ class TutorialTitle(models.Model):
     objects: TutorialTitleManager = TutorialTitleManager() # Use your custom manager
 
     def __str__(self):
+        """
+        Returns the tutorial's name if set; otherwise, returns its unique slug identifier.
+        """
         return self.name or self.title_id_slug
 
     class Meta:

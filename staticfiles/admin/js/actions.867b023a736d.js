@@ -1,24 +1,44 @@
 /*global gettext, interpolate, ngettext*/
 'use strict';
 {
+    /**
+     * Makes all elements matching the selector visible by removing the 'hidden' class.
+     *
+     * @param {string} selector - A CSS selector for the elements to show.
+     */
     function show(selector) {
         document.querySelectorAll(selector).forEach(function(el) {
             el.classList.remove('hidden');
         });
     }
 
+    /**
+     * Hides all elements matching the given selector by adding the 'hidden' class.
+     *
+     * @param {string} selector - A CSS selector identifying elements to hide.
+     */
     function hide(selector) {
         document.querySelectorAll(selector).forEach(function(el) {
             el.classList.add('hidden');
         });
     }
 
+    /**
+     * Displays the bulk action question prompt and hides clear selection and all actions containers.
+     *
+     * @param {Object} options - Configuration object containing selectors for UI elements.
+     */
     function showQuestion(options) {
         hide(options.acrossClears);
         show(options.acrossQuestions);
         hide(options.allContainer);
     }
 
+    /**
+     * Updates the UI to display the option for clearing bulk selections.
+     *
+     * Shows elements for clearing selections, hides question prompts, removes the selected class from the action container, displays the all actions container, and hides the counter container.
+     */
     function showClear(options) {
         show(options.acrossClears);
         hide(options.acrossQuestions);
@@ -27,6 +47,9 @@
         hide(options.counterContainer);
     }
 
+    /**
+     * Resets the bulk action UI to its default state by hiding selection prompts and showing the counter container.
+     */
     function reset(options) {
         hide(options.acrossClears);
         hide(options.acrossQuestions);
@@ -34,6 +57,11 @@
         show(options.counterContainer);
     }
 
+    /**
+     * Clears the "select across all pages" option and resets the bulk action UI state.
+     *
+     * Resets the UI, sets all inputs matching the across input selector to zero, and removes the selected class from the action container.
+     */
     function clearAcross(options) {
         reset(options);
         const acrossInputs = document.querySelectorAll(options.acrossInput);
@@ -43,6 +71,15 @@
         document.querySelector(options.actionContainer).classList.remove(options.selectedClass);
     }
 
+    /**
+     * Sets the checked state for all action checkboxes and updates the UI to reflect bulk selection.
+     *
+     * If {@link checked} is true, displays the bulk action question prompt; otherwise, resets the selection UI.
+     *
+     * @param {NodeList|Array<HTMLInputElement>} actionCheckboxes - The checkboxes to update.
+     * @param {Object} options - Configuration options for UI class names and selectors.
+     * @param {boolean} checked - Whether to check or uncheck all action checkboxes.
+     */
     function checker(actionCheckboxes, options, checked) {
         if (checked) {
             showQuestion(options);
@@ -55,6 +92,11 @@
         });
     }
 
+    /**
+     * Updates the selection counter display and toggles UI elements based on the number of checked action checkboxes.
+     *
+     * Updates the counter with a localized string showing how many items are selected out of the total. Toggles the "select all" checkbox and shows or hides bulk action prompts depending on whether all items are selected.
+     */
     function updateCounter(actionCheckboxes, options) {
         const sel = Array.from(actionCheckboxes).filter(function(el) {
             return el.checked;
@@ -128,6 +170,15 @@
             });
         });
 
+        /**
+         * Returns the set of checkboxes affected by a selection action, supporting shift-click multi-selection.
+         *
+         * If shift-click is used and a previous checkbox was selected, returns all checkboxes in the range between the last checked and the current target. Otherwise, returns only the target checkbox.
+         *
+         * @param {HTMLInputElement} target - The checkbox that was interacted with.
+         * @param {boolean} withModifier - Whether a modifier key (such as Shift) is held.
+         * @returns {HTMLInputElement[]} Array of affected checkboxes.
+         */
         function affectedCheckboxes(target, withModifier) {
             const multiSelect = (lastChecked && withModifier && lastChecked !== target);
             if (!multiSelect) {
@@ -186,7 +237,13 @@
 
     // Call function fn when the DOM is loaded and ready. If it is already
     // loaded, call the function now.
-    // http://youmightnotneedjquery.com/#ready
+    /**
+     * Executes a function when the DOM is fully loaded.
+     *
+     * If the DOM is already ready, the function is called immediately; otherwise, it is called after the DOMContentLoaded event.
+     *
+     * @param {Function} fn - The function to execute when the DOM is ready.
+     */
     function ready(fn) {
         if (document.readyState !== 'loading') {
             fn();

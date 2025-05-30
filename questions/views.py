@@ -9,8 +9,12 @@ logger = logging.getLogger(__name__)
 
 def htmx_load_questions(request: HttpRequest) -> HttpResponse:
     """
-    View to load questions based on GET parameters, intended exclusively for HTMX requests.
-    Returns an HTML fragment to be swapped into the page by HTMX.
+    Handles HTMX requests to dynamically load and filter quiz questions based on GET parameters.
+    
+    Processes filter parameters for tutorial title, difficulty levels, and tags from the request,
+    retrieves matching questions, and returns an HTML fragment for partial page updates. If the
+    request is not an HTMX request, returns HTTP 403 Forbidden. On error, provides a user-friendly
+    error message in the rendered fragment.
     """
     # 1. Ensure this is an HTMX request
     if not getattr(request, 'htmx', False): # Check for request.htmx (provided by django-htmx)
@@ -64,7 +68,9 @@ def htmx_load_questions(request: HttpRequest) -> HttpResponse:
 
 def question_page_view(request: HttpRequest) -> HttpResponse:
     """
-    Renders the main interactive quiz page.
+    Renders the interactive quiz page with initial questions, tags, and tutorial titles.
+    
+    The view prepares and passes to the template the initial set of quiz questions, available tags, tutorial title slugs, and their human-readable names for display in the sidebar and main content.
     """
     initial_questions_namespaced_ids = Question.objects.get_initial_questions()
     initial_tags = Question.objects.get_initial_tags()
@@ -99,8 +105,9 @@ def question_page_view(request: HttpRequest) -> HttpResponse:
 # TODO: move this to a utils file
 def _generate_readable_name_from_slug(title_id_slug: str) -> str:
         """
-        Helper method to generate a human-readable name from the title_id_slug.
-        Example: '01-first-contribution' -> '01 First Contribution'
+        Converts a slug string into a human-readable title.
+        
+        Returns an empty string if the input is falsy. Each hyphen-separated part of the slug is capitalized and joined with spaces.
         """
         if not title_id_slug:
             return ""
