@@ -10,7 +10,7 @@ class LabelSeperatorSpellBlock(BasicSpellBlock):
     template = "A_base/blocks/label_seperator.html" # Main template for the hero block
 
     DEFAULT_ALIGN = "center"
-    DEFAULT_COLOR = "info-75"
+    DEFAULT_COLOR = "info-75" # color effects the text and border
     DEFAULT_BG_COLOR = "white-75"
 
     def get_context(self):

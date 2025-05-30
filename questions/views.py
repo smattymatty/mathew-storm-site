@@ -1,6 +1,8 @@
 # questions/views.py
 import logging
 from typing import List
+
+from django.db import models
 from django.shortcuts import render
 from django.http import HttpRequest, HttpResponse, HttpResponseForbidden
 from .models import Question, TutorialTitle
@@ -66,25 +68,33 @@ def question_page_view(request: HttpRequest) -> HttpResponse:
     """
     Renders the main interactive quiz page.
     """
-    initial_questions_namespaced_ids = Question.objects.get_initial_questions()
-    initial_tags = Question.objects.get_initial_tags()
+    try: # to get the initial data
+        initial_questions_namespaced_ids = Question.objects.get_initial_questions()
+        initial_tags = Question.objects.get_initial_tags()
+        initial_title_ids = TutorialTitle.objects.get_initial_titles()
+    except Exception as e:
+        logger.error(f"Error loading initial data: {e}", exc_info=True)
+        # Provide fallback values or redirect to error page
+        initial_questions_namespaced_ids = []
+        initial_tags = []
+        initial_title_ids = []
     
-    initial_title_ids = TutorialTitle.objects.get_initial_titles()
     initial_title_names = []
     
     for title_id in initial_title_ids:
         initial_title_names.append(_generate_readable_name_from_slug(title_id))
     
-    print(f"titles ids : {initial_title_ids}")
-    print(f"titles names : {initial_title_names}")
     initial_questions: List[Question] = []
     
+    # Build lookup conditions for all questions at once
+    conditions = models.Q()
     for q_tuple in initial_questions_namespaced_ids:
-        question = Question.objects.get(
+        conditions |= models.Q(
             tutorial_title__title_id_slug=q_tuple[0],
             question_id_slug=q_tuple[1]
-            )
-        initial_questions.append(question)
+        )
+
+    initial_questions = list(Question.objects.select_related('tutorial_title').filter(conditions))
     
     context = {
         'sidebar_header': 'Interactive Quiz',
