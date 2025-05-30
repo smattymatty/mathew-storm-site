@@ -1,8 +1,11 @@
 # questions/views.py
 import logging
+from typing import List
+
+from django.db import models
 from django.shortcuts import render
 from django.http import HttpRequest, HttpResponse, HttpResponseForbidden
-from .models import Question 
+from .models import Question, TutorialTitle
 
 logger = logging.getLogger(__name__)
 
@@ -17,7 +20,10 @@ def htmx_load_questions(request: HttpRequest) -> HttpResponse:
         return HttpResponseForbidden(b"This endpoint is for HTMX requests only.")
 
     template_name = 'questions/partials/_question_list_htmx.html'
-    context = {'questions': Question.objects.none(), 'error_message': None} # Default context
+    context = {
+        'questions': Question.objects.none(), # To be populated by the view
+        'error_message': None,
+        } 
 
     try:
         # 2. Extract and process filter parameters from GET request
@@ -56,3 +62,61 @@ def htmx_load_questions(request: HttpRequest) -> HttpResponse:
 
     # 5. Render the HTML partial and return it
     return render(request, template_name, context)
+
+
+def question_page_view(request: HttpRequest) -> HttpResponse:
+    """
+    Renders the main interactive quiz page.
+    """
+    try: # to get the initial data
+        initial_questions_namespaced_ids = Question.objects.get_initial_questions()
+        initial_tags = Question.objects.get_initial_tags()
+        initial_title_ids = TutorialTitle.objects.get_initial_titles()
+    except Exception as e:
+        logger.error(f"Error loading initial data: {e}", exc_info=True)
+        # Provide fallback values or redirect to error page
+        initial_questions_namespaced_ids = []
+        initial_tags = []
+        initial_title_ids = []
+    
+    initial_title_names = []
+    
+    for title_id in initial_title_ids:
+        initial_title_names.append(_generate_readable_name_from_slug(title_id))
+    
+    initial_questions: List[Question] = []
+    
+    # Build lookup conditions for all questions at once
+    conditions = models.Q()
+    for q_tuple in initial_questions_namespaced_ids:
+        conditions |= models.Q(
+            tutorial_title__title_id_slug=q_tuple[0],
+            question_id_slug=q_tuple[1]
+        )
+
+    initial_questions = list(Question.objects.select_related('tutorial_title').filter(conditions))
+    
+    context = {
+        'sidebar_header': 'Interactive Quiz',
+        'initial_questions': initial_questions,
+        'initial_tags': initial_tags,
+        'initial_title_ids': initial_title_ids,
+        'initial_title_names': initial_title_names,
+        
+    } 
+    return render(request, 'questions/quiz_page.html', context)
+
+# TODO: move this to a utils file
+def _generate_readable_name_from_slug(title_id_slug: str) -> str:
+        """
+        Helper method to generate a human-readable name from the title_id_slug.
+        Example: '01-first-contribution' -> '01 First Contribution'
+        """
+        if not title_id_slug:
+            return ""
+        
+        parts = title_id_slug.split('-')
+        # Capitalize each part. For "01", .capitalize() keeps it "01".
+        # For "first", .capitalize() makes it "First".
+        processed_parts = [part.capitalize() for part in parts]
+        return " ".join(processed_parts)

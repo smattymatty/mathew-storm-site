@@ -1,0 +1,62 @@
+[
+  {
+    "question-id": "django-foundational-model-definition",
+    "question": "In Django, what does a model primarily represent or map to, according to the document?",
+    "answer_a": "A CSS file that styles a webpage.",
+    "answer_b": "A single user interaction or event.",
+    "answer_c": "A single database table, where each attribute of the model class represents a database field.",
+    "answer_d": "A Python function that handles web requests.",
+    "correct_answer": "c",
+    "difficulty": "foundational",
+    "tags": ["django", "models", "database", "foundational"],
+    "title-id": "02-models-admin-interface"
+  },
+  {
+    "question-id": "django-foundational-str-method-purpose",
+    "question": "What is the primary purpose of defining the `__str__(self)` method in a Django model class, as mentioned in the TeamMember model example?",
+    "answer_a": "To automatically create database fields for the model.",
+    "answer_b": "To define how an instance of the model should be displayed as a string, often used in the Django admin.",
+    "answer_c": "To validate the data before it's saved to the database.",
+    "answer_d": "To link the model to a specific URL.",
+    "correct_answer": "b",
+    "difficulty": "foundational",
+    "tags": ["django", "models", "python", "str-method", "foundational"],
+    "title-id": "02-models-admin-interface"
+  },
+  {
+    "question-id": "django-foundational-makemigrations-purpose",
+    "question": "After defining or changing a model in `models.py`, what does the `python manage.py makemigrations` command primarily do?",
+    "answer_a": "It directly applies changes to the database tables.",
+    "answer_b": "It creates Python files (migration files) that describe the changes made to your models.",
+    "answer_c": "It starts the Django development web server.",
+    "answer_d": "It checks your Python code for syntax errors.",
+    "correct_answer": "b",
+    "difficulty": "foundational",
+    "tags": ["django", "migrations", "manage.py", "database", "foundational"],
+    "title-id": "02-models-admin-interface"
+  },
+  {
+    "question-id": "django-foundational-admin-ui-what-is",
+    "question": "According to the 'Introduction to Django Admin' section, what is the Django Admin UI?",
+    "answer_a": "A tool for writing and testing Python code for Django views.",
+    "answer_b": "A pre-built dashboard primarily for managing an application's data (CRUD operations).",
+    "answer_c": "A command-line interface for creating new Django projects.",
+    "answer_d": "A library for designing the front-end appearance of a website.",
+    "correct_answer": "b",
+    "difficulty": "foundational",
+    "tags": ["django", "admin", "crud", "foundational"],
+    "title-id": "02-models-admin-interface"
+  },
+  {
+    "question-id": "django-foundational-createsuperuser-command",
+    "question": "Which command is used to create a user with privileges to access the Django admin interface?",
+    "answer_a": "python manage.py createadmin",
+    "answer_b": "python manage.py makeuser --admin",
+    "answer_c": "python manage.py createsuperuser",
+    "answer_d": "python manage.py adduser --superuser",
+    "correct_answer": "c",
+    "difficulty": "foundational",
+    "tags": ["django", "admin", "users", "manage.py", "foundational"],
+    "title-id": "02-models-admin-interface"
+  }
+]

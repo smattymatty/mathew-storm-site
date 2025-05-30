@@ -1,7 +1,7 @@
 # questions/models.py
 from django.db import models
 from taggit.managers import TaggableManager
-from .managers import QuestionManager 
+from .managers import QuestionManager , TutorialTitleManager
 
 class TutorialTitle(models.Model):
     title_id_slug = models.SlugField(
@@ -15,6 +15,8 @@ class TutorialTitle(models.Model):
         blank=True,
         help_text="A human-readable name for the tutorial (e.g., 'Your First Contribution'). Optional."
     )
+    # -- Manager --
+    objects: TutorialTitleManager = TutorialTitleManager() # Use your custom manager
 
     def __str__(self):
         return self.name or self.title_id_slug

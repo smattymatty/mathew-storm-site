@@ -3,12 +3,60 @@
 {% block spellbook_md %}
 <p>Welcome to C—one of the world’s most senior computer programming languages and, according to the Tiobe Index, the world’s most popular. You’re probably familiar with many of the powerful tasks computers perform. In this textbook, you’ll get intensive, hands-on experience writing C instructions that command computers to perform those and other tasks. Software (that is, the C instructions you write, which are also called code) controls hardware (that is, computers and related devices).</p>
 <p>C is widely used in industry for a wide range of tasks.2 Today’s popular desktop operating systems—Windows3 , macOS4 and Linux 5—are partially written in C. Many popular applications are partially written in C, including popular web browsers (e.g., Google Chrome 6 and Mozilla Firefox 7), database management systems (e.g., Microsoft SQL Server 8 , Oracle9 and MySQL10 ) and more.</p>
-<!-- Block 'label_seperator' not found -->
+<div class="sb-mb-4 sb-mt-4 sb-flex sb-justify-center sb-items-center sb-gap-2 sb-text-center">
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+    <div class="
+
+    sb-bg-white-75
+
+    sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+    <span class="
+
+    sb-info-75
+
+    "><h2 id="hardware-and-software">Hardware and Software</h2></span>
+    </div>
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+</div>
 
 <p>Computers can perform calculations and make logical decisions phenomenally faster than human beings can. Today’s personal computers and smartphones can perform billions of calculations in one second—more than a human can perform in a lifetime.</p>
 <p>Supercomputers already perform thousands of trillions (quadrillions) of instructions per second! As of December 2020, Fujitsu’s Fugaku is the world’s fastest supercomputer—it can perform 442 quadrillion calculations per second (442 petaflops)! To put that in perspective, this supercomputer can perform in one second almost 58 million calculations for every person on the planet! And supercomputing upper limits are growing quickly.</p>
 <p>Computers process data under the control of sequences of instructions called computer programs (or simply programs). These programs guide the computer through ordered actions specified by people called computer programmers.</p>
-<!-- Block 'label_seperator' not found -->
+<div class="sb-mb-4 sb-mt-4 sb-flex sb-justify-center sb-items-center sb-gap-2 sb-text-center">
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+    <div class="
+
+    sb-bg-white-75
+
+    sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+    <span class="
+
+    sb-info-75
+
+    "><h2 id="computer-organisation">Computer Organisation</h2></span>
+    </div>
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+</div>
 
 <p>Regardless of physical differences, computers can be envisioned as divided into various logical units or sections.</p>
 <h3 id="input-unit">Input Unit</h3>
@@ -24,7 +72,31 @@
 <p>Most computers today have multicore processors that economically implement multiple processors on a single integrated circuit chip. Such processors can perform many operations simultaneously. A dual-core processor has two CPUs, a quad-core processor has four and an octa-core processor has eight. Intel has some processors with up to 72 cores.</p>
 <h3 id="secondary-storage-unit">Secondary Storage Unit</h3>
 <p>This is the long-term, high-capacity “warehousing” section. Programs and data not actively being used by the other units are placed on secondary storage devices until they’re again needed, possibly hours, days, months or even years later. Information on secondary storage devices is persistent—it’s preserved even when the computer’s power is turned off. Secondary storage information takes much longer to access than information in primary memory, but its cost per byte is much less. Examples of sec- ondary storage devices include solid-state drives (SSDs), USB flash drives, hard drives and read/write Blu-ray drives. Many current drives hold terabytes (TB) of data. A tera- byte is approximately one trillion bytes. Typical desktop and notebook-computer hard drives hold up to 4 TB, and some recent desktop-computer hard drives hold up to 20 TB.16 The largest commercial SSD holds up to 100 TB (and costs $40,000).</p>
-<!-- Block 'label_seperator' not found -->
+<div class="sb-mb-4 sb-mt-4 sb-flex sb-justify-center sb-items-center sb-gap-2 sb-text-center">
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+    <div class="
+
+    sb-bg-white-75
+
+    sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+    <span class="
+
+    sb-info-75
+
+    "><h2 id="data-hierarchy">Data  Hierarchy</h2></span>
+    </div>
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+</div>
 
 <p>Data items processed by computers form a data hierarchy that becomes larger and more complex in structure as we progress from the simplest data items (called “bits”) to richer ones, such as characters and fields.</p>
 <h3 id="bits">Bits</h3>
@@ -47,7 +119,31 @@
 <p>A file is a group of related records. More generally, a file contains arbitrary data in arbitrary formats. Some operating systems view a file simply as a sequence of bytes— any organization of the bytes in a file, such as organizing the data into records, is a view created by the application programmer. You’ll see how to do that in Chapter 11, File Processing. It’s not unusual for an organization to have many files, some containing billions, or even trillions, of characters of information. As we’ll see below, with big data, far larger file sizes are becoming increasingly common.</p>
 <h3 id="databases">Databases</h3>
 <p>A database is a collection of data organized for easy access and manipulation. The most popular model is the relational database, in which data is stored in simple tables. A table includes records and fields. For example, a table of students might include first name, last name, major, year, student ID number and grade-point-aver- age fields. The data for each student is a record, and the individual pieces of information in each record are the fields. You can search, sort and otherwise manipulate the data based on its relationship to multiple tables or databases. For example, a university might use data from the student database combined with data from databases of courses, on-campus housing, meal plans, etc.</p>
-<!-- Block 'label_seperator' not found -->
+<div class="sb-mb-4 sb-mt-4 sb-flex sb-justify-center sb-items-center sb-gap-2 sb-text-center">
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+    <div class="
+
+    sb-bg-white-75
+
+    sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+    <span class="
+
+    sb-info-75
+
+    "><h2 id="machine-languages-assembly-languages-and-high-level-languages">Machine Languages, Assembly Languages and High-Level Languages</h2></span>
+    </div>
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+</div>
 
 <p>Programmers write instructions in various programming languages, some directly understandable by computers and others requiring intermediate translation steps. Hundreds of such languages are in use today. These may be divided into three general types:</p>
 <h3 id="machine-languages">Machine Languages</h3>
@@ -71,7 +167,31 @@ store  grosspay
 <p>From the programmer’s standpoint, high-level languages are preferable to machine and assembly languages. C is among the world’s most widely used high-level programming languages.</p>
 <h3 id="interpreters">Interpreters</h3>
 <p>Compiling a large high-level language program into machine language can take con- siderable computer time. Interpreters execute high-level language programs directly. Interpreters avoid compilation delays, but your code runs slower than compiled programs. Some programming languages, such as Java and Python , use a clever mixture of compilation and interpretation to run programs.</p>
-<!-- Block 'label_seperator' not found -->
+<div class="sb-mb-4 sb-mt-4 sb-flex sb-justify-center sb-items-center sb-gap-2 sb-text-center">
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+    <div class="
+
+    sb-bg-white-75
+
+    sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+    <span class="
+
+    sb-info-75
+
+    "><h2 id="operating-systems">Operating Systems</h2></span>
+    </div>
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+</div>
 
 <p>Operating systems are software that make using computers more convenient for users, software developers and system administrators. They provide services that allow applications to execute safely, efficiently and concurrently with one another. The software that contains the core operating-system components is called the kernel. Linux, Windows and macOS are popular desktop computer operating systems—you can use any of these with this book. Each is partially written in C. The most popular mobile operating systems used in smartphones and tablets are Google’s Android and Apple’s iOS.</p>
 <h3 id="windows-a-proprietary-operating-system">Windows - A Proprietary Operating System</h3>
@@ -83,7 +203,31 @@ store  grosspay
 <p>Apple, founded in 1976 by Steve Jobs and Steve Wozniak, quickly became a leader in personal computing. In 1979, Jobs and several Apple employees visited Xerox PARC (Palo Alto Research Center) to learn about Xerox’s desktop computer that featured a graphical user interface (GUI). That GUI served as the inspiration for the Apple Macintosh, launched in 1984.</p>
 <h3 id="googles-android">Google's Android</h3>
 <p>Android—the most widely used mobile and smartphone operating system—is based on the Linux kernel, the Java programming language and, now, the open-source Kotlin programming language. Android is open source and free. Though you can’t develop Android apps purely in C, you can incorporate C code into Android apps. According to idc.com, 84.8% of smartphones shipped in 2020 use Android, compared to 15.2% for Apple. The Android operating system is used in numerous smartphones, e-reader devices, tablets, TVs, in-store touch-screen kiosks, cars, robots, multimedia players and more.</p>
-<!-- Block 'label_seperator' not found -->
+<div class="sb-mb-4 sb-mt-4 sb-flex sb-justify-center sb-items-center sb-gap-2 sb-text-center">
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+    <div class="
+
+    sb-bg-white-75
+
+    sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+    <span class="
+
+    sb-info-75
+
+    "><h2 id="the-c-programming-language">The C Programming Language</h2></span>
+    </div>
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+</div>
 
 <p>C evolved from two earlier languages, BCPL and B. BCPL was developed in 1967 by Martin Richards as a language for writing operating systems and compilers. Ken Thompson modeled many features in his B language after their counterparts in BCPL, and in 1970 he used B to create early versions of the UNIX operating system at Bell Laboratories.</p>
 <p>The C language was evolved from B by Dennis Ritchie at Bell Laboratories and was originally implemented in 1972. C initially became widely known as the development language of the UNIX operating system. Many of today’s leading operating systems are written in C and/or C++. C is mostly hardware-independent—with careful design, it’s possible to write C programs that are portable to most computers.</p>
@@ -96,7 +240,31 @@ store  grosspay
 <p>By the late 1970s, C had evolved into what’s now referred to as “traditional C.” The publication in 1978 of Kernighan and Ritchie’s book, The C Programming Language, drew wide attention to the language. This became one of the most successful computer-science books of all time.</p>
 <h3 id="standardization">Standardization</h3>
 <p>C’s rapid expansion to various hardware platforms (that is, types of computer hard- ware) led to many similar but often incompatible C versions. This was a serious problem for programmers who needed to develop code for several platforms. It became clear that a standard C version was needed. In 1983, the American National Standards Com- mittee on Computers and Information Processing (X3) created the X3J11 technical committee to “provide an unambiguous and machine-independent definition of the language.” In 1989, the standard was approved in the United States through the American National Standards Institute (ANSI), then worldwide through the International Standards Organization (ISO). This version was simply called Standard C.</p>
-<!-- Block 'label_seperator' not found -->
+<div class="sb-mb-4 sb-mt-4 sb-flex sb-justify-center sb-items-center sb-gap-2 sb-text-center">
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+    <div class="
+
+    sb-bg-white-75
+
+    sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+    <span class="
+
+    sb-info-75
+
+    "><h2 id="the-c-standard-library-and-open-source-libraries">The C Standard Library and Open-Source Libraries</h2></span>
+    </div>
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+</div>
 
 <p>C programs consist of pieces called functions. You can program all the functions you need to form a C program. However, most C programmers take advantage of the rich collection of existing functions in the C standard library. Thus, there are really two parts to learning C programming:</p>
 <ul>
@@ -118,7 +286,31 @@ https://github.com/topics/c<br />
 In addition, pages such as Awesome C:<br />
 https://github.com/kozross/awesome-c<br />
 provide curated lists of popular C libraries for a wide range of application areas.</p>
-<!-- Block 'label_seperator' not found -->
+<div class="sb-mb-4 sb-mt-4 sb-flex sb-justify-center sb-items-center sb-gap-2 sb-text-center">
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+    <div class="
+
+    sb-bg-white-75
+
+    sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+    <span class="
+
+    sb-info-75
+
+    "><h2 id="typical-c-program-development-environment">Typical C Program-Development Environment</h2></span>
+    </div>
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+</div>
 
 <p>C systems generally consist of several parts: a program-development environment, the language and the C standard library. C programs typically go through six phases to be executed—edit, preprocess, compile, link, load and execute. Although C How to Program, 9/e, is a generic C text- book (written independently of any particular operating system), we concentrate in this section on a typical Linux-based C system</p>
 <h3 id="phase-1-creating-a-program">Phase 1: Creating a Program</h3>
@@ -138,10 +330,58 @@ provide curated lists of popular C libraries for a wide range of application are
 <h3 id="problems-that-may-occur-at-execution-time">Problems that May Occur at Execution Time</h3>
 <p>Programs do not always work on the first try. Each of the preceding phases can fail because of various errors that we’ll discuss. For example, an executing program might attempt to divide by zero (an illegal operation on computers just as in arithmetic). This would cause the computer to display an error message. You would then return to the edit phase, make the necessary corrections and proceed through the remaining phases again to determine that the corrections work properly.</p>
 <p>Errors such as division-by-zero that occur as programs run are called runtime errors or execution-time errors. Divide-by-zero is generally a fatal error that causes the program to terminate immediately without successfully performing its job. Nonfatal errors allow programs to run to completion, often producing incorrect results.</p>
-<!-- Block 'label_seperator' not found -->
+<div class="sb-mb-4 sb-mt-4 sb-flex sb-justify-center sb-items-center sb-gap-2 sb-text-center">
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+    <div class="
+
+    sb-bg-white-75
+
+    sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+    <span class="
+
+    sb-info-75
+
+    "><h2 id="standard-input-standard-output-and-standard-error-streams">Standard Input, Standard Output and Standard Error Streams</h2></span>
+    </div>
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+</div>
 
 <p>Most C programs input and/or output data. Certain C functions take their input from stdin (the standard input stream), which is normally the keyboard. Data is often output to stdout (the standard output stream), which is normally the com- puter screen. When we say that a program prints a result, we normally mean that the result is displayed on a screen. Data also may be output to devices such as disks and printers. There’s also a standard error stream referred to as stderr, which is normally connected to the screen and used to display error messages. It’s common to route regular output data, i.e., stdout, to a device other than the screen while keeping stderr assigned to the screen so that the user can be immediately informed of errors.</p>
-<!-- Block 'label_seperator' not found -->
+<div class="sb-mb-4 sb-mt-4 sb-flex sb-justify-center sb-items-center sb-gap-2 sb-text-center">
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+    <div class="
+
+    sb-bg-white-75
+
+    sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+    <span class="
+
+    sb-info-75
+
+    "><h2 id="internet-world-wide-web-the-cloud-and-iot">Internet, World Wide Web, the Cloud, and IoT</h2></span>
+    </div>
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+</div>
 
 <p>In the late 1960s, ARPA—the Advanced Research Projects Agency of the United States Department of Defense—rolled out plans for networking the main computer systems of approximately a dozen ARPA-funded universities and research institutions.</p>
 <p>he computers were to be connected with communications lines operating at speeds on the order of 50,000 bits per second, a stunning rate at a time when most people (of the few who even had networking access) were connecting over telephone lines to computers at a rate of 110 bits per second. Academic research was about to take a giant leap forward. ARPA proceeded to implement what quickly became known as the ARPANET, the precursor to today’s Internet.</p>
@@ -169,7 +409,31 @@ provide curated lists of popular C libraries for a wide range of application are
 - smart thermostats that adjust temperatures based on weather forecasts,<br />
 - intelligent home appliances</p>
 <p>According to statista.com, there are already over 23 billion IoT devices in use today, and there could be over 75 billion IoT devices in 2025</p>
-<!-- Block 'label_seperator' not found -->
+<div class="sb-mb-4 sb-mt-4 sb-flex sb-justify-center sb-items-center sb-gap-2 sb-text-center">
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+    <div class="
+
+    sb-bg-white-75
+
+    sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+    <span class="
+
+    sb-info-75
+
+    "><h2 id="software-technologies">Software Technologies</h2></span>
+    </div>
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+</div>
 
 <p>As you learn about and work in software development, you’ll frequently encounter the following buzzwords:</p>
 <ul>
@@ -177,7 +441,31 @@ provide curated lists of popular C libraries for a wide range of application are
 <li><strong>Design patterns</strong>: Proven architectures for constructing flexible and maintainable object-oriented software. The field of design patterns tries to enumerate those recurring patterns, encouraging software designers to reuse them to develop better-quality software using less time, money and effort.</li>
 <li><strong>Software Development Kits (SDKs)</strong>—The tools and documentation that developers use to program applications.</li>
 </ul>
-<!-- Block 'label_seperator' not found -->
+<div class="sb-mb-4 sb-mt-4 sb-flex sb-justify-center sb-items-center sb-gap-2 sb-text-center">
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+    <div class="
+
+    sb-bg-white-75
+
+    sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+    <span class="
+
+    sb-info-75
+
+    "><h2 id="how-big-is-big-data">How Big is Big Data?</h2></span>
+    </div>
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+</div>
 
 <p>For computer scientists and data scientists, data is now as crucial as writing programs. According to IBM, approximately 2.5 quintillion bytes (2.5 exabytes) of data are created daily, and 90% of the world’s data was created in the last two years. The Internet, which will play an important part in your career, is responsible for much of this trend. According to IDC, the global data supply will reach 175 zettabytes (equal to 175 trillion gigabytes or 175 billion terabytes) annually by 2025. Consider the following examples of various popular data measures.</p>
 <h3 id="megabytes-mb">Megabytes (MB)</h3>
@@ -239,7 +527,31 @@ provide curated lists of popular C libraries for a wide range of application are
 <li>dynamic pricing</li>
 <li>diagnostic medicine</li>
 </ul>
-<!-- Block 'label_seperator' not found -->
+<div class="sb-mb-4 sb-mt-4 sb-flex sb-justify-center sb-items-center sb-gap-2 sb-text-center">
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+    <div class="
+
+    sb-bg-white-75
+
+    sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+    <span class="
+
+    sb-info-75
+
+    "><h2 id="case-study-a-big-data-mobile-application">Case Study - A Big Data Mobile Application</h2></span>
+    </div>
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+</div>
 
 <p>In your career, you’ll work with many programming languages and software technol- ogies. With its 130 million monthly active users, Google’s Waze GPS navigation app is one of the most widely used big-data apps. Early GPS navigation devices and apps relied on static maps and GPS coordinates to determine the best route to your destination. They could not adjust dynamically to changing traffic situations. Waze processes massive amounts of crowdsourced data—that is, the data that’s continuously supplied by their users and their users’ devices worldwide.</p>
 <p>They analyze this data as it arrives to determine the best route to get you safely to your destination in the least amount of time. To accomplish this, Waze relies on your smartphone’s Internet connection. The app automatically sends location updates to their servers (assuming you allow it to). They use that data to dynamically re-route you based on current traffic conditions and to tune their maps. Users report other information, such as roadblocks, construction, obstacles, vehicles in breakdown lanes, police locations, gas prices and more. Waze then alerts other drivers in those locations.</p>
@@ -253,7 +565,31 @@ provide curated lists of popular C libraries for a wide range of application are
 <li>Waze probably stores its routing information in a graph database. Such data- bases can efficiently calculate shortest routes. You can use graph databases, such as Neo4J.</li>
 <li>Waze uses artificial-intelligence capabilities to perform the data-analysis tasks that enable it to predict the best routes based on the information it receives. You can use machine learning and deep learning, respectively, to analyze mas- sive amounts of data and make predictions based on that data.</li>
 </ul>
-<!-- Block 'label_seperator' not found -->
+<div class="sb-mb-4 sb-mt-4 sb-flex sb-justify-center sb-items-center sb-gap-2 sb-text-center">
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+    <div class="
+
+    sb-bg-white-75
+
+    sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+    <span class="
+
+    sb-info-75
+
+    "><h2 id="ai-at-the-intersection-of-computer-science-and-data-science">AI - at the Intersection of Computer Science and Data Science</h2></span>
+    </div>
+    <div class="sb-flex sb-grow sb-justify-center sb-items-center 
+    sb-border-info-75 
+    sb-border-b-2 sb-border-solid">
+
+    </div>
+</div>
 
 <p>When a baby first opens its eyes, does it “see” its parent’s faces? Does it understand any notion of what a face is—or even what a simple shape is? Babies must “learn” the world around them. That’s what artificial intelligence (AI) is doing today. It’s looking at massive amounts of data and learning from it. AI is being used to play games, implement a wide range of computer-vision applications, enable self-driving cars, enable robots to learn to perform new tasks, diagnose medical conditions, translate speech to other languages in near real-time, create chatbots that can respond to arbitrary questions using massive databases of knowledge, and much more. </p>
 <p>Who’d have guessed just a few years ago that artificially intelligent self-driving cars would be allowed on our roads—or even become common? Yet, this is now a highly competitive area. The ultimate goal of all this learning is artificial general intelligence—an AI that can perform intelligence tasks as well as humans can</p>

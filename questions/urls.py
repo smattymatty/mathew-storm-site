@@ -10,4 +10,9 @@ urlpatterns = [
         views.htmx_load_questions, 
         name='htmx_load_questions'
     ),
+    path(
+        '',
+        views.question_page_view,
+        name='question_page' 
+    ),
 ]

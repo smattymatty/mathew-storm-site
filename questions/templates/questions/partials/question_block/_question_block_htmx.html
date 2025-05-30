@@ -1,0 +1,14 @@
+{% comment %} questions/templates/questions/partials/_question_block_htmx.html {% endcomment %}
+{% load spellbook_tags %}
+
+<div class="sb-card sb-mb-4 sb-p-4 sb-border sb-rounded-md sb-bg-white" id="question-block-{{ question.pk }}">
+    {% include "questions/partials/question_block/parts/_question_text_htmx.html" with question=question %}
+
+    {% include "questions/partials/question_block/parts/_question_options_htmx.html" with question=question %}
+    
+    {% include "questions/partials/question_block/parts/_question_submit_htmx.html" with question=question %}
+
+    <p class="sb-text-xs sb-black-50 sb-mt-3">
+        <small>ID: {{ question.question_id_slug }}</small>
+    </p>
+</div>

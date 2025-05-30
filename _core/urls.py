@@ -7,4 +7,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('A_base.urls')),
     path('', include('django_spellbook.urls')),
+    path('questions/', include('questions.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

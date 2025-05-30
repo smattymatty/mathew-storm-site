@@ -5,3 +5,5 @@ db.sqlite3
 # Python
 __pycache__/
 *.pyc
+
+staticfiles/
