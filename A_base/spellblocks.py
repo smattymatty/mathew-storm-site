@@ -14,6 +14,13 @@ class LabelSeperatorSpellBlock(BasicSpellBlock):
     DEFAULT_BG_COLOR = "white-75"
 
     def get_context(self):
+        """
+        Extends the template context with alignment, color, and background color settings.
+        
+        Adds 'align', 'color', and 'bg_color' keys to the context dictionary, using values
+        from the block's keyword arguments or falling back to class defaults if not provided.
+        The alignment value is converted to lowercase.
+        """
         context = super().get_context() # Gets basic context like 'content', 'kwargs'
         
         context["align"] = self.kwargs.get("align", self.DEFAULT_ALIGN).lower()

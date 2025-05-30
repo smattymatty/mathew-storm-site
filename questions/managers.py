@@ -12,13 +12,21 @@ class QuestionManager(models.Manager):
     
     def get_queryset(self) -> QuestionQuerySet:
         """
-        Overrides the default `get_queryset` method to use QuestionQuerySet.
+        Returns a `QuestionQuerySet` for the associated model.
         """
         return QuestionQuerySet(self.model, using=self._db)
     
     def get_initial_questions(self, amount: int = 5) -> List[Tuple[str, str]]: # Return type is List of (string, string) tuples
         """
-        Retrieves a random list of (TutorialTitle.title_id_slug, Question.question_id_slug) tuples.
+        Returns a randomized list of unique (tutorial title slug, question slug) tuples.
+        
+        Each tuple contains the slug of a tutorial title and the slug of a question. The list is shuffled and limited to the specified amount. Returns an empty list if no such pairs exist.
+        
+        Args:
+            amount: The maximum number of tuples to return. Defaults to 5.
+        
+        Returns:
+            A list of up to `amount` unique (tutorial title slug, question slug) tuples.
         """
         # Fetching tuples of (TutorialTitle.title_id_slug, Question.question_id_slug)
         # This directly gives us a list of 2-element tuples.
@@ -42,7 +50,13 @@ class QuestionManager(models.Manager):
     
     def get_initial_tags(self, amount: int = 9) -> List[str]:
         """
-        Retrieves a random list of unique tag names.
+        Returns a randomized list of unique tag names associated with questions.
+        
+        Args:
+            amount: The maximum number of tag names to return. Defaults to 9.
+        
+        Returns:
+            A list of up to `amount` unique tag names, randomly ordered. Returns an empty list if no tags are found.
         """
         tags = list(
             self.model.objects
@@ -67,7 +81,13 @@ class TutorialTitleManager(models.Manager):
     
     def get_initial_titles(self, amount: int = 6) -> List[str]:
         """
-        Retrieves a random list of unique tutorial title names.
+        Returns a randomized list of unique tutorial title names, limited to the specified amount.
+        
+        Args:
+            amount: The maximum number of tutorial title names to return. Defaults to 6.
+        
+        Returns:
+            A list of up to `amount` unique tutorial title names, randomly ordered. Returns an empty list if no titles are found.
         """
         titles = list(
             self.model.objects
