@@ -14,12 +14,16 @@
 ## Projects I have contributed to
 
 1. [EduLite](https://github.com/ibrahim-sisar/EduLite)
+2. [Archimedes ASCII Game](https://github.com/McCoy1701/ASCIIGame)
+3. [Daedalus](https://github.com/McCoy1701/Daedalus)
 
 ## My Skills
 
 - Python (Django, Flask, etc.)
 - HTML/HTMX, Vanilla CSS/JavaScript
 - RESTful API Design, Creation, and Testing
+- EmScripten for WebAssembly with C
+- DigitialOcean App Platform for CI/CD Deployment
 {~~}
 
 {% div .sb-mb-4 %}
@@ -29,6 +33,15 @@
 I am a developer who loves to code and learn new things.
 
 I have been working with Python and Django for 5+ years.
+
+I started with Python because I was curious about Automation. Then I became interested in Django, and it turned me into a full-blown WEB DEVELOPER!
+
+I never expected to go down this route, but I am glad I did. I spend a lot more time in HTML/CSS/JavaScript than I do in Python/Django.
+
+I am also interested in learning low level languages like C and Rust, because I am interested in LIGHTWEIGHT, ACCESSIBLE, and FAST code on the web.
+
+I think WebAssembly is the future of the web. It allows developers to write code in languages like C, C++, and Rust, and run it in the browser without the need for a plugin or an additional runtime.
+
 {~~}
 
 {~ label_seperator ~}
