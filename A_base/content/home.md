@@ -14,6 +14,8 @@
 ## Projects I have contributed to
 
 1. [EduLite](https://github.com/ibrahim-sisar/EduLite)
+2. [Archimedes ASCII Game](https://github.com/McCoy1701/ASCIIGame)
+3. [Daedalus](https://github.com/McCoy1701/Daedalus)
 
 ## My Skills
 
