@@ -23,6 +23,7 @@
 - HTML/HTMX, Vanilla CSS/JavaScript
 - RESTful API Design, Creation, and Testing
 - EmScripten for WebAssembly with C
+- DigitialOcean App Platform for CI/CD Deployment
 {~~}
 
 {% div .sb-mb-4 %}
