@@ -36,20 +36,20 @@
       </div>
 
       <div class="footer-bottom">
-        
+
       <div class="sb-flex sb-justify-center sb-items-center sb-gap-2">
           <p class="sb-mt-4 sb-text-sm">
-              <a href="https://github.com/smattymatty/mathew-storm-site" class="in-code-link" 
+              <a href="https://github.com/smattymatty/mathew-storm-site" class="in-code-link"
               target="_blank">
               This Website</a>
               is powered by
-              <a href="https://django-spellbook.org" class="in-code-link" 
+              <a href="https://django-spellbook.org" class="in-code-link"
               target="_blank">
                   Django Spellbook</a>
           </p>
       </div>
-      
-      
+
+
       <!-- Copyright section -->
       <div class="sb-mt-2 sb-text-xs sb-text-gray-600">
           <p>© {% now "Y" %} Mathew Storm. All rights reserved.</p>
@@ -57,12 +57,12 @@
       </div>
 
       <!-- Analytics Button for Toggle -->
-       <button onclick="toggleAnalytics()" class="sb-cursor-pointer sb-text-xs sb-px-4 sb-py-2">
+       <button onclick="toggleAnalytics()" class="sb-hidden sb-cursor-pointer sb-text-xs sb-px-4 sb-py-2">
            Show Analytics
        </button>
 
       <!-- Analytics Section (hidden by default) -->
-      <div id="analytics-section" 
+      <div id="analytics-section sb"
       class="sb-mt-3 sb-text-sm sb-border-t sb-pt-3 sb-w-full"
       style="display: none;">
           <h4 class="sb-black-75 sb-opacity-50">Page Analytics</h4>
@@ -76,7 +76,7 @@
                   <p><span class="sb-font-sm">Unique visitors:</span> {{ unique_visitors }}</p>
               </div>
           </div>
-          
+
           {% if popular_pages %}
           <div class="sb-mt-2 sb-white sb-opacity-50">
               <h5 class="sb-font-medium">Popular Pages:</h5>
@@ -96,7 +96,7 @@
     function toggleAnalytics() {
         const section = document.getElementById('analytics-section');
         const button = document.querySelector('button[onclick="toggleAnalytics()"]');
-        
+
         if (section.style.display === 'none') {
             section.style.display = 'block';
             // scroll down to the section

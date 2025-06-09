@@ -81,7 +81,7 @@ If these requirements are too steep, perhaps I can create a '0' level tutorial f
 ### Using the GitHub Workflow 🔄
 
 * **What GitHub adds:** A website that uses Git and adds features for better teamwork, like tracking issues, managing projects, and **Pull Requests**.
-  
+
 {~ card title="Standard GitHub steps" footer="These are the steps you'll follow when contributing to any project on GitHub." ~}
 
 1. **`Fork`:** Make a personal copy of a project on GitHub.
@@ -443,15 +443,19 @@ This method uses the familiar HTTPS URLs for your repositories but replaces your
     The `store` helper saves your credentials (including your PAT) in **plain text** on your computer. While convenient, this is not the most secure option. Modern Git installations on macOS and Windows often default to more secure helpers (`osxkeychain` or `manager-core`/`wincred`). Linux users might use `libsecret` or `cache` (which has a timeout). It's worth checking your Git setup or configuring a more secure credential helper if `store` is the default and you're concerned.
 {~~}
 
-### Option 2: SSH Keys (Recommended) 🌟
+
+{~ card title="Option 2: SSH Keys (Recommended) 🌟" ~}
 
 Using SSH provides a more secure and often more convenient way to interact with GitHub without needing to enter your username or PAT repeatedly. You generate an SSH key pair (a public key and a private key) on your computer. You add the public key to your GitHub account, and your private key authenticates you automatically.
+{~~}
 
-{~ alert type="success" title="Why SSH is often preferred" ~}
+{~ alert type="success" ~}
+### Why SSH is often preferred
+
 Once set up, SSH authentication is seamless for `git push`, `git pull`, `git clone`, etc. It uses strong cryptography and avoids password/token prompts for each operation.
 {~~}
 
-* **Steps to Use SSH:**
+{~ card title="Steps to Use SSH" ~}
     1.  **Generate SSH Key (if you don't have one):**
         Open your terminal and run:
         `` `ssh-keygen -t ed25519 -C "your_email@example.com"` ``
@@ -464,15 +468,16 @@ Once set up, SSH authentication is seamless for `git push`, `git pull`, `git clo
         * When cloning, use the SSH URL format: `` `git clone git@github.com:YOUR_USERNAME/YourProject.git` ``
         * If you have an existing repository cloned via HTTPS, you can change its remote URL:
             `` `git remote set-url origin git@github.com:YOUR_USERNAME/YourProject.git` ``
+{~~}
 
-### Option 3: GitHub CLI (gh)
-
+{~ card title="Option 3: GitHub CLI (gh)" ~}
 GitHub's official command-line tool, `gh`, can simplify authentication and many other GitHub interactions.
 
 * **Installation:** Download and install `gh` from [cli.github.com](https://cli.github.com).
 * **Authentication:** Once installed, run:
     `` `gh auth login` ``
     This command will guide you through an interactive process (usually involving your web browser) to authenticate `gh` and, optionally, configure Git to use `gh` for authenticating HTTPS operations.
+{~~}
 
 ---
 
@@ -1225,7 +1230,7 @@ This can happen for a few reasons:
 {~ accordion title="📄 What should I write in my PR Title & Description?" ~}
 
 * **Title:** Make it short, clear, and summarize the change (e.g., "Fix: Correct typo in README installation section").
-* 
+*
 * **Description:**
     * Explain *what* you changed and *why*.
     * If it fixes a GitHub Issue, link it using keywords like `Closes #123` or `Fixes #456`.

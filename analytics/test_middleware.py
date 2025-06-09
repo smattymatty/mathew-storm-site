@@ -236,7 +236,7 @@ class PageViewMiddlewareTests(TestCase):
         self.assertEqual(UniqueVisitor.objects.count(), 1)
         uv = UniqueVisitor.objects.first()
         self.assertTrue(uv.is_bot)
-        
+
 @override_settings(ANALYTICS_VALIDATE_URL=True) # Ensure validation is active for this class
 class PageViewMiddlewareValidateUrlIntegrationTests(TestCase):
     """

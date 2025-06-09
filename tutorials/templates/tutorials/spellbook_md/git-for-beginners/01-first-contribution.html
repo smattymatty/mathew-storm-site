@@ -703,8 +703,18 @@ Git Graph is particularly helpful for beginners and visual learners as it makes 
     </span>
 </div>
 
-<h3 id="option-2-ssh-keys-recommended">Option 2: SSH Keys (Recommended) 🌟</h3>
-<p>Using SSH provides a more secure and often more convenient way to interact with GitHub without needing to enter your username or PAT repeatedly. You generate an SSH key pair (a public key and a private key) on your computer. You add the public key to your GitHub account, and your private key authenticates you automatically.</p>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Option 2: SSH Keys (Recommended) 🌟</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>Using SSH provides a more secure and often more convenient way to interact with GitHub without needing to enter your username or PAT repeatedly. You generate an SSH key pair (a public key and a private key) on your computer. You add the public key to your GitHub account, and your private key authenticates you automatically.</p>
+    </div>
+
+</div>
+
 <div class="sb-alert sb-alert-success sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
     <span class="sb-alert-icon">
 
@@ -712,16 +722,23 @@ Git Graph is particularly helpful for beginners and visual learners as it makes 
 
     </span>
     <span class="sb-alert-content">
-        <p>Once set up, SSH authentication is seamless for <code>git push</code>, <code>git pull</code>, <code>git clone</code>, etc. It uses strong cryptography and avoids password/token prompts for each operation.</p>
+        <h3 id="why-ssh-is-often-preferred">Why SSH is often preferred</h3>
+<p>Once set up, SSH authentication is seamless for <code>git push</code>, <code>git pull</code>, <code>git clone</code>, etc. It uses strong cryptography and avoids password/token prompts for each operation.</p>
     </span>
 </div>
 
-<ul>
-<li><strong>Steps to Use SSH:</strong><ol>
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Steps to Use SSH</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <ol>
 <li><strong>Generate SSH Key (if you don't have one):</strong><br />
-    Open your terminal and run:<br />
+        Open your terminal and run:<br />
 <code>`ssh-keygen -t ed25519 -C "your_email@example.com"`</code><br />
-    (Replace <code>"your_email@example.com"</code> with your GitHub email. Press Enter to accept default file locations and optionally set a passphrase for extra security.)</li>
+        (Replace <code>"your_email@example.com"</code> with your GitHub email. Press Enter to accept default file locations and optionally set a passphrase for extra security.)<ol start="2">
 <li><strong>Add Public Key to GitHub:</strong><ul>
 <li>Copy the content of your <strong>public</strong> SSH key file. This is usually located at <code>~/.ssh/id_ed25519.pub</code> (or <code>~/.ssh/id_rsa.pub</code> for older keys). You can display it with <code>cat ~/.ssh/id_ed25519.pub</code>.</li>
 <li>On GitHub: Settings → SSH and GPG keys → Click "New SSH key" or "Add SSH key".</li>
@@ -736,15 +753,29 @@ Git Graph is particularly helpful for beginners and visual learners as it makes 
 </li>
 </ol>
 </li>
-</ul>
-<h3 id="option-3-github-cli-gh">Option 3: GitHub CLI (gh)</h3>
-<p>GitHub's official command-line tool, <code>gh</code>, can simplify authentication and many other GitHub interactions.</p>
+</ol>
+    </div>
+
+</div>
+
+<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+
+        <div class="sb-card-header sb-p-2 sb-bold">
+            <h5 class="sb-card-title">Option 3: GitHub CLI (gh)</h5>
+        </div>
+
+    <div class="sb-card-body sb-p-3">
+        <p>GitHub's official command-line tool, <code>gh</code>, can simplify authentication and many other GitHub interactions.</p>
 <ul>
 <li><strong>Installation:</strong> Download and install <code>gh</code> from <a href="https://cli.github.com">cli.github.com</a>.</li>
 <li><strong>Authentication:</strong> Once installed, run:<br />
 <code>`gh auth login`</code><br />
     This command will guide you through an interactive process (usually involving your web browser) to authenticate <code>gh</code> and, optionally, configure Git to use <code>gh</code> for authenticating HTTPS operations.</li>
 </ul>
+    </div>
+
+</div>
+
 <hr />
 <h1 id="cloning-your-fork-connecting-upstream">Cloning Your Fork &amp; Connecting Upstream</h1>
 <p>After you've successfully forked a repository (like <code>EduLite</code>) on GitHub, the next step is to bring a copy of <strong>your fork</strong> to your local computer. This process is called "cloning." Once cloned, you'll also want to establish a link back to the original project repository. This allows you to fetch updates and keep your work aligned with the main project.</p>
@@ -1917,8 +1948,8 @@ If you had multiple conflicted files, you'll need to resolve and <code>`git add`
     <div class="sb-accordion-content" aria-hidden="true">
         <div class="sb-accordion-body">
             <ul>
-<li><strong>Title:</strong> Make it short, clear, and summarize the change (e.g., "Fix: Correct typo in README installation section").</li>
-<li></li>
+<li><strong>Title:</strong> Make it short, clear, and summarize the change (e.g., "Fix: Correct typo in README installation section").<br />
+*</li>
 <li><strong>Description:</strong><ul>
 <li>Explain <em>what</em> you changed and <em>why</em>.</li>
 <li>If it fixes a GitHub Issue, link it using keywords like <code>Closes #123</code> or <code>Fixes #456</code>.</li>
