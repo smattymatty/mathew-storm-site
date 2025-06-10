@@ -4,56 +4,76 @@
 
     /* === Tutorial Pill Specific Variables === */
     /* Base State */
-    --tutorial-pill-background-color: #e0e8fbdd;  /* Example: Very light blue (like an info-100 or info-25) */
-    --tutorial-pill-text-color: #2f3d77;        /* Example: Darker blue text for contrast */
-    --tutorial-pill-border-color: transparent;  /* Example: Transparent or a very light border */
-    
+    --tutorial-pill-background-color: #e0e8fbdd; /* Example: Very light blue (like an info-100 or info-25) */
+    --tutorial-pill-text-color: #2f3d77; /* Example: Darker blue text for contrast */
+    --tutorial-pill-border-color: transparent; /* Example: Transparent or a very light border */
+
     /* Hover State */
     --tutorial-pill-hover-background-color: #838facee; /* Example: Slightly darker than base background */
-    --tutorial-pill-hover-text-color: #2f3d77;       /* Example: Slightly darker/richer text */
+    --tutorial-pill-hover-text-color: #2f3d77; /* Example: Slightly darker/richer text */
 
     /* Active (Selected) State */
     --tutorial-pill-active-background-color: #3f4d8e; /* Use main info color */
-    --tutorial-pill-active-text-color: #e0e8fb;                          /* White text */
-    --tutorial-pill-active-border-color: var(--info-color, #538dff);    /* Border matching active background */
-    --tutorial-pill-active-font-weight: 700;                             /* Bolder for active state */
+    --tutorial-pill-active-text-color: #e0e8fb; /* White text */
+    --tutorial-pill-active-border-color: var(
+        --info-color,
+        #538dff
+    ); /* Border matching active background */
+    --tutorial-pill-active-font-weight: 700; /* Bolder for active state */
 
     /* Pressed State (immediate feedback on click via :active pseudo-class) */
-    --tutorial-pill-pressed-background-color: #b4c5fd;         
+    --tutorial-pill-pressed-background-color: #b4c5fd;
     --tutorial-pill-active-pressed-background-color: #1e54d3; /* For active pills when pressed (darker than active bg) */
-    
+
     /* Shadow (optional, can be used for subtle depth or focus) */
-    --tutorial-pill-shadow-color: rgba(0, 0, 0, 0.05); /* Example: Very subtle shadow */
+    --tutorial-pill-shadow-color: rgba(
+        0,
+        0,
+        0,
+        0.05
+    ); /* Example: Very subtle shadow */
 
     /* Font Properties */
-    --tutorial-pill-font-size: 0.6rem;     
-    --tutorial-pill-font-weight: 400;    /* Base font weight (semibold) */
+    --tutorial-pill-font-size: 0.6rem;
+    --tutorial-pill-font-weight: 400; /* Base font weight (semibold) */
     --tutorial-pill-font-family: monospace; /* As you defined */
 
     /* === NEW: Tag Pill Specific Variables (Greenish Hint) === */
     /* Base State */
-    --tag-pill-background-color: #e7ffe9;  /* Example: Very light green */
-    --tag-pill-text-color: #1a531d;        /* Example: Dark green text */
+    --tag-pill-background-color: #e7ffe9; /* Example: Very light green */
+    --tag-pill-text-color: #1a531d; /* Example: Dark green text */
     --tag-pill-border-color: transparent;
-    
+
     /* Hover State */
     --tag-pill-hover-background-color: #c8e6c9; /* Example: Light green */
-    --tag-pill-hover-text-color: #103e13;       /* Example: Darker green text */
+    --tag-pill-hover-text-color: #103e13; /* Example: Darker green text */
 
     /* Active (Selected) State */
-    --tag-pill-active-background-color: var(--success-color, #16a34a); /* Main success green */
-    --tag-pill-active-text-color: #ffffff;                          
-    --tag-pill-active-border-color: var(--success-color, #16a34a);    
+    --tag-pill-active-background-color: var(
+        --success-color,
+        #16a34a
+    ); /* Main success green */
+    --tag-pill-active-text-color: #ffffff;
+    --tag-pill-active-border-color: var(--success-color, #16a34a);
     --tag-pill-active-font-weight: 700; /* Bolder for active state */
 
     /* Pressed State */
     --tag-pill-pressed-background-color: #a5d6a7; /* For non-active pills when pressed */
     --tag-pill-active-pressed-background-color: #117a37; /* For active pills when pressed (darker than active bg) */
-    
+
     /* Font Properties (can inherit from tutorial pill or be specific) */
-    --tag-pill-font-size: var(--tutorial-pill-font-size, 0.6rem); /* Or set a new value */
-    --tag-pill-font-weight: var(--tutorial-pill-font-weight, 400); /* Or set a new value */
-    --tag-pill-font-family: var(--tutorial-pill-font-family, monospace); /* Or set a new value */
+    --tag-pill-font-size: var(
+        --tutorial-pill-font-size,
+        0.6rem
+    ); /* Or set a new value */
+    --tag-pill-font-weight: var(
+        --tutorial-pill-font-weight,
+        400
+    ); /* Or set a new value */
+    --tag-pill-font-family: var(
+        --tutorial-pill-font-family,
+        monospace
+    ); /* Or set a new value */
     --tag-pill-border-radius: var(--sb-border-radius-md, 0.375rem);
 }
 
@@ -69,7 +89,7 @@
 }
 
 .quiz-search-form {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-items: center;
 }
@@ -97,18 +117,19 @@
     cursor: pointer;
     user-select: none;
     min-height: 0.75rem;
-    max-height: 0.75rem; 
-    overflow-y:hidden;
+    max-height: 0.75rem;
+    overflow-y: hidden;
     background-color: var(--tutorial-pill-background-color, #e0e8fb);
     color: var(--tutorial-pill-text-color, #374da1);
     border: 1px solid var(--tutorial-pill-border-color, transparent);
-    
-    transition: background-color 0.15s ease-in-out, 
-                color 0.15s ease-in-out, 
-                transform 0.15s ease-in-out,
-                border-color 0.15s ease-in-out,
-                font-weight 0.15s ease-in-out,
-                box-shadow 0.15s ease-in-out;
+
+    transition:
+        background-color 0.15s ease-in-out,
+        color 0.15s ease-in-out,
+        transform 0.15s ease-in-out,
+        border-color 0.15s ease-in-out,
+        font-weight 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
 }
 
 .tutorial-name-pill:hover {
@@ -128,9 +149,18 @@
 
 /* Keyframe animation for an extra "pop" on click - JS adds .pill-was-clicked class */
 @keyframes pill-click-pop-animation {
-    0% { transform: scale(1); opacity: 1; }
-    50% { transform: scale(1.15); opacity: 0.7; } /* Pop out */
-    100% { transform: scale(1); opacity: 1; }
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.15);
+        opacity: 0.7;
+    } /* Pop out */
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .tutorial-name-pill.pill-was-clicked {
@@ -141,7 +171,10 @@
 .tutorial-name-pill.active {
     background-color: var(--tutorial-pill-active-background-color, #2563eb);
     color: var(--tutorial-pill-active-text-color, #fff);
-    font-weight: var(--tutorial-pill-active-font-weight, 700); /* Use specific active font-weight */
+    font-weight: var(
+        --tutorial-pill-active-font-weight,
+        700
+    ); /* Use specific active font-weight */
     border: 2px solid var(--tutorial-pill-active-border-color, #2563eb);
     /* A more prominent shadow or different border style can also be used */
     /* box-shadow: 0 0 0 2px var(--tutorial-pill-active-border-color, #2563eb); */
@@ -150,34 +183,50 @@
 /* Hover state for an ACTIVE pill */
 .tutorial-name-pill.active:hover {
     /* You might want a slightly different hover for active pills, or keep it similar */
-    background-color: var(--tutorial-pill-active-pressed-background-color, #1e54d3); /* Using pressed color as example */
+    background-color: var(
+        --tutorial-pill-active-pressed-background-color,
+        #1e54d3
+    ); /* Using pressed color as example */
     border-color: var(--tutorial-pill-active-pressed-background-color, #1e54d3);
     /* box-shadow: 0 0 0 2px var(--tutorial-pill-active-pressed-background-color, #1e54d3); */
-    color: var(--tutorial-pill-active-text-color, #fff); /* Keep text color or adjust if needed */
+    color: var(
+        --tutorial-pill-active-text-color,
+        #fff
+    ); /* Keep text color or adjust if needed */
     transform: translateY(-2px) scale(1.03); /* Keep consistent hover animation */
 }
 
 /* Immediate click feedback for an ACTIVE pill */
 .tutorial-name-pill.active:active {
-    background-color: var(--tutorial-pill-active-pressed-background-color, #1a4abd); /* Darker than active */
-    border-color: var(--tutorial-pill-active-pressed-background-color, #1a4abd); /* Darker than active */
+    background-color: var(
+        --tutorial-pill-active-pressed-background-color,
+        #1a4abd
+    ); /* Darker than active */
+    border-color: var(
+        --tutorial-pill-active-pressed-background-color,
+        #1a4abd
+    ); /* Darker than active */
     /* box-shadow: 0 0 0 2px var(--tutorial-pill-active-pressed-background-color, #1a4abd); */
     transform: translateY(0px) scale(0.97); /* Slightly more pronounced press */
-    color: var(--tutorial-pill-active-text-color, #fff); /* Adjust if needed for pressed active */
+    color: var(
+        --tutorial-pill-active-text-color,
+        #fff
+    ); /* Adjust if needed for pressed active */
 }
 
 /* --- Tag Name Pill Styles (Greenish) --- */
 .tag-name-pills-container {
     /* Base layout (padding, text-size, etc.) now comes from utility classes in HTML */
     /* This class focuses on theming and interactive states */
-    
-
 }
 .tag-name-pill {
     /* Base layout (padding, text-size, etc.) now comes from utility classes in HTML */
     /* This class focuses on theming and interactive states */
-    
-    background-color: var(--tag-pill-background-color, #e7f5e9); /* Default very light green */
+
+    background-color: var(
+        --tag-pill-background-color,
+        #e7f5e9
+    ); /* Default very light green */
     color: var(--tag-pill-text-color, #1a531d); /* Default dark green text */
     border: 1px solid var(--tag-pill-border-color, transparent); /* Default border */
     padding: 0.5rem; /* Or use a variable: var(--tutorial-pill-padding, 0.5rem) */
@@ -189,20 +238,27 @@
     cursor: pointer;
     user-select: none;
     min-height: 0.75rem;
-    max-height: 0.75rem; 
-    overflow-y:hidden;
+    max-height: 0.75rem;
+    overflow-y: hidden;
     /* Transitions for hover, active, and click states */
-    transition: background-color 0.15s ease-in-out, 
-                color 0.15s ease-in-out, 
-                transform 0.15s ease-in-out,
-                border-color 0.15s ease-in-out,
-                font-weight 0.15s ease-in-out,
-                box-shadow 0.15s ease-in-out;
+    transition:
+        background-color 0.15s ease-in-out,
+        color 0.15s ease-in-out,
+        transform 0.15s ease-in-out,
+        border-color 0.15s ease-in-out,
+        font-weight 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
 }
 
 .tag-name-pill:hover {
-    background-color: var(--tag-pill-hover-background-color, #c8e6c9); /* Lighter green for hover */
-    color: var(--tag-pill-hover-text-color, #103e13); /* Darker green text for hover */
+    background-color: var(
+        --tag-pill-hover-background-color,
+        #c8e6c9
+    ); /* Lighter green for hover */
+    color: var(
+        --tag-pill-hover-text-color,
+        #103e13
+    ); /* Darker green text for hover */
     transform: translateY(-2px) scale(1.03); /* Subtle lift and scale */
 }
 
@@ -211,32 +267,45 @@
     transform: translateY(0px) scale(0.98); /* "Pressed down" effect */
 }
 .tag-name-pill:not(.active):active {
-    background-color: var(--tag-pill-pressed-background-color, #a5d6a7); /* Distinct press color for non-active */
+    background-color: var(
+        --tag-pill-pressed-background-color,
+        #a5d6a7
+    ); /* Distinct press color for non-active */
 }
 
 /* Keyframe animation for tag pills - uses success color for pulse */
 @keyframes tag-pill-click-animation {
     0% {
-        box-shadow: 0 0 0 3px var(--success-color, #16a34a), inset 0 0 0 1px var(--success-color, #16a34a);
+        box-shadow:
+            0 0 0 3px var(--success-color, #16a34a),
+            inset 0 0 0 1px var(--success-color, #16a34a);
         transform: scale(1.03);
     }
     50% {
-        box-shadow: 0 0 0 1px var(--success-color, #16a34a), inset 0 1px 2px rgba(0,0,0,0.1);
+        box-shadow:
+            0 0 0 1px var(--success-color, #16a34a),
+            inset 0 1px 2px rgba(0, 0, 0, 0.1);
         transform: scale(0.98);
     }
     100% {
-        box-shadow: 0 0 0 3px var(--success-color, #16a34a), inset 0 0 0 1px var(--success-color, #16a34a);
+        box-shadow:
+            0 0 0 3px var(--success-color, #16a34a),
+            inset 0 0 0 1px var(--success-color, #16a34a);
         transform: scale(1.03);
     }
 }
 
-.tag-name-pill.pill-was-clicked { /* Class added by JS for click animation */
+.tag-name-pill.pill-was-clicked {
+    /* Class added by JS for click animation */
     animation: tag-pill-click-animation 0.4s ease-in-out;
 }
 
 /* Active (selected) state for the tag pill */
 .tag-name-pill.active {
-    background-color: var(--tag-pill-active-background-color, #16a34a); /* Main success green */
+    background-color: var(
+        --tag-pill-active-background-color,
+        #16a34a
+    ); /* Main success green */
     color: var(--tag-pill-active-text-color, #fff); /* White text */
     font-weight: var(--tag-pill-active-font-weight, 700); /* Bolder text */
     border: 2px solid var(--tag-pill-active-border-color, #16a34a); /* Prominent border */
@@ -245,10 +314,14 @@
 
 /* Hover state for an ACTIVE tag pill */
 .tag-name-pill.active:hover {
-    background-color: var(--tag-pill-active-pressed-background-color, #117a37); /* Darker success green for hover on active */
+    background-color: var(
+        --tag-pill-active-pressed-background-color,
+        #117a37
+    ); /* Darker success green for hover on active */
     border-color: var(--tag-pill-active-pressed-background-color, #117a37);
-    box-shadow: 0 0 0 1px var(--tag-pill-active-pressed-background-color, #117a37);
-    color: var(--tag-pill-active-text-color, #fff); 
+    box-shadow: 0 0 0 1px
+        var(--tag-pill-active-pressed-background-color, #117a37);
+    color: var(--tag-pill-active-text-color, #fff);
     transform: translateY(-2px) scale(1.03); /* Consistent hover animation */
 }
 
@@ -262,8 +335,8 @@
 }
 
 .quiz-search-form label {
-   max-width:12rem;
-   text-indent: -1.25rem;
+    max-width: 12rem;
+    text-indent: -1.25rem;
 }
 
 /* --- Styles for Tags Displayed with a Question --- */
@@ -271,15 +344,17 @@
 .question-tag-container {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    
 }
 
 .question-tag {
     max-width: fit-content;
     margin-right: 0.2rem;
     /* Example: Add a transition for smoother hover effects */
-    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, transform 0.1s ease-in-out, border-color 0.15s ease-in-out;
-    
+    transition:
+        background-color 0.15s ease-in-out,
+        color 0.15s ease-in-out,
+        transform 0.1s ease-in-out,
+        border-color 0.15s ease-in-out;
 }
 
 .question-tag:hover {
@@ -295,16 +370,15 @@
 }
 
 .question-difficulty {
-    font-weight:700;
+    font-weight: 700;
     max-width: 50%;
-    min-width:6rem;
+    min-width: 6rem;
 }
-
 
 /* --- Styles for the Question Options Block and its Labels --- */
 
 .question-block-options {
-    /* This class is on the container holding the "Choose an answer:" heading 
+    /* This class is on the container holding the "Choose an answer:" heading
        and the div with the actual labels. */
     /* If you want the heading and the options list to stack vertically (default for divs): */
     /* No specific display property needed, or display: block; */
@@ -327,45 +401,160 @@
     align-items: center; /* sb-items-center */
     padding: 0.75rem 1rem; /* sb-p-3 or similar, adjust as needed from sb-p-2 */
     border: 1px solid var(--sb-border-color, #e5e7eb); /* Example: neutral-200/300 from spellbook */
-    border-radius: var(--sb-border-radius-md, 0.375rem); /* Consistent rounded corners */
-    background-color: var(--sb-background-color-light, #ffffff); /* Default white or light background */
+    border-radius: var(
+        --sb-border-radius-md,
+        0.375rem
+    ); /* Consistent rounded corners */
+    background-color: var(
+        --sb-background-color-light,
+        #ffffff
+    ); /* Default white or light background */
     cursor: pointer;
-    transition: transform 0.2s ease-out, 
-                background-color 0.2s ease-in-out, 
-                border-color 0.2s ease-in-out,
-                box-shadow 0.2s ease-in-out;
+    transition:
+        transform 0.2s ease-out,
+        background-color 0.2s ease-in-out,
+        border-color 0.2s ease-in-out,
+        box-shadow 0.2s ease-in-out;
     /* Ensure there's some margin if not handled by sb-space-y-2 effectively */
     /* margin-bottom: 0.5rem; */ /* sb-space-y-2 should handle this though */
 }
 
 .question-block-options label:hover {
-    background-color: var(--neutral-color-100, #f3f4f6); /* Lighter than sb-bg-neutral-50 perhaps, or your preferred hover */
-    border-color: var(--primary-color, #3b82f6);   /* Primary color border on hover */
-    transform: translateY(-2px) scale(1.01);       /* Subtle lift and slight grow */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);    /* Softer, slightly larger shadow on hover */
+    background-color: var(
+        --neutral-color-100,
+        #f3f4f6
+    ); /* Lighter than sb-bg-neutral-50 perhaps, or your preferred hover */
+    border-color: var(
+        --primary-color,
+        #3b82f6
+    ); /* Primary color border on hover */
+    transform: translateY(-2px) scale(1.01); /* Subtle lift and slight grow */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Softer, slightly larger shadow on hover */
 }
 
 /* Immediate feedback on click (mouse press down) for the label */
 .question-block-options label:active {
     transform: translateY(0px) scale(0.99); /* "Pressed in" effect */
-    background-color: var(--neutral-color-200, #e5e7eb); /* Darker background for press */
-    border-color: var(--primary-color-dark, #2563eb);   /* Darker primary border */
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.06);   /* Inner shadow for pressed depth */
+    background-color: var(
+        --neutral-color-200,
+        #e5e7eb
+    ); /* Darker background for press */
+    border-color: var(
+        --primary-color-dark,
+        #2563eb
+    ); /* Darker primary border */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.06); /* Inner shadow for pressed depth */
 }
-
-
 
 /* Optional: Styling for when the radio button inside the label is checked */
 /* This uses the :has pseudo-class to style the parent label */
 .question-block-options label:has(input[type="radio"]:checked) {
-    background-color: var(--primary-color-light, #e0e8fb); /* A light version of your primary color */
+    background-color: var(
+        --primary-color-light,
+        #e0e8fb
+    ); /* A light version of your primary color */
     border-color: var(--primary-color, #3b82f6);
     box-shadow: 0 0 0 2px var(--primary-color, #3b82f6); /* Creates an outer "glow" or thicker border */
     /* color: var(--primary-color-dark, #1e3a8a); */ /* Text color might need to change for contrast */
 }
 
 .question-block-options label:has(input[type="radio"]:checked):hover {
-    background-color: var(--primary-color-xlight, #d1d9fe); /* Slightly different hover for selected state */
+    background-color: var(
+        --primary-color-xlight,
+        #d1d9fe
+    ); /* Slightly different hover for selected state */
     border-color: var(--primary-color-dark, #2563eb);
     transform: translateY(-2px) scale(1.01); /* Keep hover transform */
+}
+
+/* Selected Filters Container */
+#selected-filters-container {
+    min-height: 60px;
+}
+
+#selected-filters-container .empty-state {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+}
+
+#selected-filters-container:not(.empty) .empty-state {
+    display: none;
+}
+
+/* Selected Pills in Container */
+.selected-pill {
+    background-color: var(--primary-color, #3b82f6) !important;
+    color: white !important;
+    border: 2px solid var(--primary-color, #3b82f6);
+    position: relative;
+}
+
+.selected-pill:hover {
+    background-color: var(--error-color, #dc2626) !important;
+    border-color: var(--error-color, #dc2626);
+}
+
+.selected-pill::after {
+    content: "×";
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: var(--error-color, #dc2626);
+    color: white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.selected-pill:hover::after {
+    opacity: 1;
+}
+
+/* Pill Selection Styles */
+.pill-selectable {
+    transition: all 0.2s ease-in-out;
+}
+
+.pill-selectable:hover {
+    transform: scale(1.05);
+}
+
+.pill-selectable.selected {
+    background-color: var(--success-color, #16a34a) !important;
+    color: white !important;
+    border: 2px solid var(--success-color, #16a34a);
+    box-shadow: 0 0 0 2px rgba(22, 163, 74, 0.2);
+}
+
+.selected-pill {
+    background-color: var(--info-color, #2563eb);
+    color: white;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid var(--info-color, #2563eb);
+}
+
+.selected-pill:hover {
+    background-color: var(--error-color, #dc2626);
+    border-color: var(--error-color, #dc2626);
+    transform: scale(1.05);
+}
+
+.selected-filters-section .empty-state {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3rem;
+}
+
+#selected-pills-list:not(.empty) .empty-state {
+    display: none;
 }
