@@ -54,8 +54,14 @@ class QuestionManagerTest(TestCase):
         questions = Question.objects.get_initial_questions(amount=3)
         self.assertEqual(len(questions), 3)
         self.assertIsInstance(questions, list)
-        # Check that at least one of the expected tuples is in the results
-        self.assertIn(("django-basics", "q1"), questions)
+        # Check that all expected tuples are in the results
+        expected_tuples = {
+            ("django-basics", "q1"),
+            ("python-advanced", "q2"),
+            ("python-advanced", "q3"),
+        }
+        actual_tuples = set(questions)
+        self.assertEqual(actual_tuples, expected_tuples)
 
     @patch("random.shuffle")
     def test_get_initial_questions_shuffles_results(self, mock_shuffle):
