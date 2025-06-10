@@ -4,9 +4,20 @@
 <div class="sb-card sb-mb-4 sb-p-4 sb-border sb-rounded-md sb-bg-white" id="question-block-{{ question.pk }}">
     {% include "questions/partials/question_block/parts/_question_text_htmx.html" with question=question %}
 
-    {% include "questions/partials/question_block/parts/_question_options_htmx.html" with question=question %}
-    
-    {% include "questions/partials/question_block/parts/_question_submit_htmx.html" with question=question %}
+    <form hx-post="{% url 'questions:htmx_check_answer' question.pk %}"
+          hx-target="#question-block-{{ question.pk }}"
+          hx-swap="outerHTML"
+          hx-indicator="#loading-indicator-q{{ question.pk }}">
+        {% csrf_token %}
+
+        {% include "questions/partials/question_block/parts/_question_options_htmx.html" with question=question %}
+
+        {% include "questions/partials/question_block/parts/_question_submit_htmx.html" with question=question %}
+
+        <div id="loading-indicator-q{{ question.pk }}" class="htmx-indicator sb-text-center sb-p-2">
+            <span class="sb-text-sm sb-black-50">Checking answer...</span>
+        </div>
+    </form>
 
     <p class="sb-text-xs sb-black-50 sb-mt-3">
         <small>ID: {{ question.question_id_slug }}</small>

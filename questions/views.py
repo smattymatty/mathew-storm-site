@@ -235,3 +235,178 @@ def htmx_search_tag_names(request: HttpRequest) -> TemplateResponse:
         template_name,
         context,
     )
+
+
+def htmx_check_answer(
+    request: HttpRequest, question_pk: int
+) -> TemplateResponse:
+    """
+    Handles HTMX POST requests to check user's answer submission.
+
+    Validates the submitted answer against the correct answer and returns
+    appropriate feedback HTML fragment.
+    """
+    # Ensure this is an HTMX request
+    if not getattr(request, "htmx", False):
+        logger.warning(
+            "Non-HTMX request received at htmx_check_answer endpoint."
+        )
+        return HttpResponseForbidden(
+            b"This endpoint is for HTMX requests only."
+        )
+
+    # Only accept POST requests
+    if request.method != "POST":
+        logger.warning(
+            f"Invalid method {request.method} received at htmx_check_answer endpoint."
+        )
+        return HttpResponseForbidden(
+            b"This endpoint only accepts POST requests."
+        )
+
+    try:
+        # Get the question
+        question = Question.objects.select_related("tutorial_title").get(
+            pk=question_pk
+        )
+
+        # Get submitted answer
+        submitted_answer = (
+            request.POST.get(f"answer_for_q{question_pk}", "").strip().lower()
+        )
+
+        if not submitted_answer:
+            logger.warning(f"No answer submitted for question {question_pk}")
+            context = {
+                "question": question,
+                "error_message": "Please select an answer before submitting.",
+            }
+            return TemplateResponse(
+                request,
+                "questions/partials/question_block/_question_block_htmx.html",
+                context,
+            )
+
+        # Check if answer is correct
+        is_correct = submitted_answer == question.correct_answer.lower()
+
+        # Get answer texts for display
+        answer_texts = {
+            "a": question.answer_a,
+            "b": question.answer_b,
+            "c": question.answer_c,
+            "d": question.answer_d,
+        }
+
+        submitted_answer_text = answer_texts.get(submitted_answer, "Unknown")
+        correct_answer_text = answer_texts.get(
+            question.correct_answer.lower(), "Unknown"
+        )
+
+        # Log the attempt
+        logger.info(
+            f"Answer attempt for question {question_pk}: "
+            f"submitted={submitted_answer}, correct={question.correct_answer}, "
+            f"is_correct={is_correct}"
+        )
+
+        # Prepare context for feedback templates
+        context = {
+            "question": question,
+            "submitted_answer": submitted_answer,
+            "submitted_answer_text": submitted_answer_text,
+            "correct_answer": question.correct_answer.lower(),
+            "correct_answer_text": correct_answer_text,
+            "is_correct": is_correct,
+            # Add explanation if you have one in your model, otherwise it will be None
+            "explanation": getattr(question, "explanation", None),
+        }
+
+        # Choose template based on correctness
+        if is_correct:
+            template_name = (
+                "questions/partials/feedback/_feedback_correct.html"
+            )
+        else:
+            template_name = (
+                "questions/partials/feedback/_feedback_incorrect.html"
+            )
+
+        return TemplateResponse(request, template_name, context)
+
+    except Question.DoesNotExist:
+        logger.error(f"Question with pk {question_pk} not found")
+        context = {
+            "error_message": "Question not found.",
+        }
+        return TemplateResponse(
+            request, "questions/partials/_question_list_htmx.html", context
+        )
+
+    except Exception as e:
+        logger.error(
+            f"Error checking answer for question {question_pk}: {e}",
+            exc_info=True,
+        )
+        context = {
+            "error_message": "An error occurred while checking your answer. Please try again.",
+        }
+        return TemplateResponse(
+            request, "questions/partials/_question_list_htmx.html", context
+        )
+
+
+def htmx_load_single_question(
+    request: HttpRequest, question_pk: int
+) -> TemplateResponse:
+    """
+    Handles HTMX GET requests to load a single question block.
+
+    Used for the "Try Again" functionality to reload the original question.
+    """
+    # Ensure this is an HTMX request
+    if not getattr(request, "htmx", False):
+        logger.warning(
+            "Non-HTMX request received at htmx_load_single_question endpoint."
+        )
+        return HttpResponseForbidden(
+            b"This endpoint is for HTMX requests only."
+        )
+
+    try:
+        # Get the question
+        question = Question.objects.select_related("tutorial_title").get(
+            pk=question_pk
+        )
+
+        context = {
+            "question": question,
+        }
+
+        logger.debug(f"Loading single question {question_pk} for retry")
+
+        return TemplateResponse(
+            request,
+            "questions/partials/question_block/_question_block_htmx.html",
+            context,
+        )
+
+    except Question.DoesNotExist:
+        logger.error(f"Question with pk {question_pk} not found")
+        context = {
+            "error_message": "Question not found.",
+        }
+        return TemplateResponse(
+            request, "questions/partials/_question_list_htmx.html", context
+        )
+
+    except Exception as e:
+        logger.error(
+            f"Error loading single question {question_pk}: {e}", exc_info=True
+        )
+        context = {
+            "error_message": "An error occurred while loading the question. Please try again.",
+        }
+        return TemplateResponse(
+            request, "questions/partials/_question_list_htmx.html", context
+        )
