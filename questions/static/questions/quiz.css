@@ -467,40 +467,6 @@
     transform: translateY(-2px) scale(1.01); /* Keep hover transform */
 }
 
-/* Pill Selection States */
-.pill-selectable {
-    transition: all 0.2s ease-in-out;
-    position: relative;
-}
-
-.pill-selectable:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-.pill-selectable.selected {
-    background-color: var(--success-color, #16a34a) !important;
-    color: white !important;
-    border: 2px solid var(--success-color, #16a34a);
-}
-
-.pill-selectable.selected::after {
-    content: "✓";
-    position: absolute;
-    top: -8px;
-    right: -8px;
-    background: var(--success-color, #16a34a);
-    color: white;
-    border-radius: 50%;
-    width: 18px;
-    height: 18px;
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid white;
-}
-
 /* Selected Filters Container */
 #selected-filters-container {
     min-height: 60px;
