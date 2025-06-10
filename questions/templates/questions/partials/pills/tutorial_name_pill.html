@@ -1,3 +1,6 @@
-<div class="tutorial-name-pill sb-bg-info-25 sb-white-50 sb-p-2 sb-rounded sb-text-xs sb-text-center hover:sb-bg-secondary-200 sb-cursor-pointer">
+<div class="tutorial-name-pill pill-selectable sb-bg-info-25 sb-white-50 sb-p-2 sb-rounded sb-text-xs sb-text-center hover:sb-bg-secondary-200 sb-cursor-pointer"
+     data-pill-type="tutorial"
+     data-pill-value="{{ tutorial_name|slugify }}"
+     data-pill-display="{{ tutorial_name }}">
     {{ tutorial_name }}
 </div>

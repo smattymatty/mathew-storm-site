@@ -1,17 +1,27 @@
 <div class="sb-flex sb-flex-col sb-md:flex-row">
-    <form class="quiz-search-form sb-flex-col sb-gap-2 sb-mb-4 sb-mr-4" role="search" aria-label="Search for Tutorial Names to Include">
+    <form class="quiz-search-form sb-flex-col sb-gap-2 sb-mb-4 sb-mr-4" role="search" aria-label="Search for Tag Names to Include">
         <div class="sb-flex sb-flex-grow sb-h-full"></div>
         <label for="quiz-tag-search-input" class="sb-text-sm sb-font-medium sb-white-50 sb-whitespace-nowrap">
             Search For Tag Names to Include:
         </label>
-        <input type="text" id="quiz-tag-search-input" name="q_tag_search" class="sb-input sb-input-primary sb-flex-grow" placeholder="Tag Name..." />
+        <input type="text"
+               id="quiz-tag-search-input"
+               name="q_tag_search"
+               class="sb-input sb-input-primary sb-flex-grow"
+               placeholder="Tag Name..."
+               hx-get="{% url 'questions:htmx_search_tag_names' %}"
+               hx-trigger="keyup changed delay:500ms"
+               hx-target="#tag-name-pills-container"
+               hx-swap="innerHTML"
+               hx-indicator="#tag-loading-indicator" />
         <div class="sb-flex sb-flex-grow sb-h-full"></div>
     </form>
-    <div id="tag-name-pills-container" class="sb-flex-grow sb-w-full sb-mb-2">
-        <div class="sb-grid sb-grid-cols-2 sb-md:grid-cols-3 sb-gap-2">
-            {% for tag in initial_tags %}
-                {% include 'questions/partials/pills/tag_name_pill.html' with tag_name=tag %}
-            {% endfor %}
+    <div class="sb-flex-grow sb-w-full sb-mb-2">
+        <div id="tag-loading-indicator" class="htmx-indicator sb-text-center sb-p-2">
+            <span class="sb-text-sm sb-black-50">Searching...</span>
+        </div>
+        <div id="tag-name-pills-container">
+            {% include 'questions/partials/pills/_tag_pills_container.html' with tag_names=initial_tags %}
         </div>
     </div>
 </div>

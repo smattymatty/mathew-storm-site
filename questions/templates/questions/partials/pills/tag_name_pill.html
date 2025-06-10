@@ -1,3 +1,6 @@
-<div class="tag-name-pill sb-bg-info-25 sb-white-50 sb-p-2 sb-rounded sb-text-xs sb-text-center hover:sb-bg-secondary-200 sb-cursor-pointer">
+<div class="tag-name-pill pill-selectable sb-bg-info-25 sb-white-50 sb-p-2 sb-rounded sb-text-xs sb-text-center hover:sb-bg-secondary-200 sb-cursor-pointer"
+     data-pill-type="tag"
+     data-pill-value="{{ tag_name|slugify }}"
+     data-pill-display="{{ tag_name }}">
     {{ tag_name }}
 </div>

@@ -1,0 +1,23 @@
+{% comment %} questions/templates/questions/partials/pills/_tutorial_pills_container.html {% endcomment %}
+
+{% if error_message %}
+    <div class="sb-alert sb-alert-danger sb-p-3 sb-rounded-md sb-text-center">
+        <p class="sb-text-sm">{{ error_message }}</p>
+    </div>
+{% elif tutorial_titles %}
+    <div class="sb-grid sb-grid-cols-1 sb-md:grid-cols-2 sb-gap-2">
+        {% for tutorial_name in tutorial_titles %}
+            {% include 'questions/partials/pills/tutorial_name_pill.html' with tutorial_name=tutorial_name %}
+        {% endfor %}
+    </div>
+{% else %}
+    <div class="sb-p-3 sb-text-center">
+        <p class="sb-text-sm sb-black-50">
+            {% if search_query %}
+                No tutorial titles found matching "{{ search_query }}".
+            {% else %}
+                No tutorial titles available.
+            {% endif %}
+        </p>
+    </div>
+{% endif %}
