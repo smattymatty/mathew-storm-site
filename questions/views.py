@@ -104,7 +104,7 @@ def htmx_load_questions(request: HttpRequest) -> TemplateResponse:
     return TemplateResponse(request, template_name, context)
 
 
-def question_page_view(request: HttpRequest) -> TemplateResponse:
+def questions_page_view(request: HttpRequest) -> TemplateResponse:
     """
     Renders the interactive quiz page with initial questions, tags, and tutorial titles.
 
@@ -149,7 +149,88 @@ def question_page_view(request: HttpRequest) -> TemplateResponse:
         "initial_title_ids": initial_title_ids,
         "initial_title_names": initial_title_names,
     }
-    template_name = "questions/quiz_page.html"
+    template_name = "questions/questions_page.html"
+    return TemplateResponse(request, template_name, context)
+
+
+def quiz_view(request: HttpRequest) -> TemplateResponse:
+    """
+    Renders the dedicated quiz-taking interface.
+
+    Processes URL parameters to configure the quiz based on selected filters
+    from the questions page. Supports parameters: tags, titles, difficulty.
+    """
+    # Extract filter parameters from URL
+    tags_param = request.GET.get("tags", "")
+    titles_param = request.GET.get("titles", "")
+    difficulty_param = request.GET.get("difficulty", "")
+
+    # Parse parameters
+    tag_names = (
+        [tag.strip() for tag in tags_param.split(",") if tag.strip()]
+        if tags_param
+        else []
+    )
+    title_id_slugs = (
+        [title.strip() for title in titles_param.split(",") if title.strip()]
+        if titles_param
+        else []
+    )
+    difficulty_levels = (
+        [
+            level.strip().lower()
+            for level in difficulty_param.split(",")
+            if level.strip()
+        ]
+        if difficulty_param
+        else []
+    )
+
+    logger.debug(
+        f"Quiz view params: tags={tag_names}, titles={title_id_slugs}, difficulty={difficulty_levels}"
+    )
+
+    try:
+        # Get quiz questions based on parameters
+        quiz_questions = (
+            Question.objects.get_queryset().get_interactive_quiz_questions(
+                title_id_slugs=title_id_slugs if title_id_slugs else None,
+                difficulty_levels=difficulty_levels
+                if difficulty_levels
+                else None,
+                tag_names=tag_names if tag_names else None,
+            )
+        )
+
+        # Get initial data for filter options (for display purposes)
+        initial_tags = Question.objects.get_initial_tags()
+        initial_title_ids = TutorialTitle.objects.get_initial_titles()
+
+        initial_title_names = []
+        for title_id in initial_title_ids:
+            initial_title_names.append(
+                generate_readable_name_from_slug(title_id)
+            )
+
+    except Exception as e:
+        logger.error(f"Error loading quiz data: {e}", exc_info=True)
+        quiz_questions = Question.objects.none()
+        initial_tags = []
+        initial_title_ids = []
+        initial_title_names = []
+
+    context = {
+        "quiz_questions": quiz_questions,
+        "quiz_question_count": quiz_questions.count(),
+        "selected_tags": tag_names,
+        "selected_titles": title_id_slugs,
+        "selected_difficulty": difficulty_levels,
+        "initial_tags": initial_tags,
+        "initial_title_ids": initial_title_ids,
+        "initial_title_names": initial_title_names,
+    }
+
+    template_name = "questions/quiz_interface.html"
     return TemplateResponse(request, template_name, context)
 
 

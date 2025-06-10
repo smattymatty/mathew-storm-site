@@ -5,12 +5,13 @@ from . import views
 app_name = "questions"
 
 urlpatterns = [
+    path("", views.questions_page_view, name="questions_page"),
+    path("quiz/", views.quiz_view, name="quiz"),
     path(
         "htmx/load-questions/",
         views.htmx_load_questions,
         name="htmx_load_questions",
     ),
-    path("", views.question_page_view, name="question_page"),
     path(
         "htmx/search-tutorial-titles/",
         views.htmx_search_tutorial_titles,
