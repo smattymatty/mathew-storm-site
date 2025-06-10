@@ -1,11 +1,10 @@
 # questions/views.py
 import logging
-from typing import List, Dict
+from typing import List, Dict, Any
 
 from django.db import models
-from django.shortcuts import render
 from django.template.response import TemplateResponse
-from django.http import HttpRequest, HttpResponse, HttpResponseForbidden
+from django.http import HttpRequest, HttpResponseForbidden
 from .models import Question, TutorialTitle
 
 from .utils import generate_readable_name_from_slug

@@ -1,4 +1,6 @@
 {% extends "A_base/sb_base.html" %} {% load spellbook_tags %} {% block page_title %}Interactive Quiz{% endblock page_title %} {% block content %}
+{% load static %}
+
 <div class="quiz-options-container sb-mt-2 sb-mb-6 sb-p-4 sb-border sb-rounded-md sb-bg-info-25">
     <h2 class="sb-text-xl sb-font-semibold sb-mb-4">Quiz Options</h2>
     <div class="sb-flex-col sb-justify-center">
@@ -13,6 +15,8 @@
         </div>
     </div>
     <div class="sb-border sb-border-white-25 sb-mb-2"></div>
+
+    {% include 'questions/partials/selected_filters.html' %}
 
     <div class="sb-flex-col sb-flex-wrap sb-gap-3 sb-mt-2">
         <div class="sb-flex sb-flex-wrap sb-gap-3 sb-my-4 sb-justify-center">
@@ -51,6 +55,8 @@
         <hr class="">
     {% endfor %}
 </div>
+<script src="{% static 'questions/js/pill-selection.js' %}"></script>
+
 <style>
     /* Base sb-btn styles - Using your CSS variables where applicable */
     .sb-btn {
