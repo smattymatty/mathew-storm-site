@@ -40,16 +40,7 @@ class PillSelectionManager {
   }
 
   addFilter(key, filter) {
-    // For tutorials, only allow one selection
-    if (filter.type === "tutorial") {
-      // Remove any existing tutorial filters
-      for (const [existingKey, existingFilter] of this.selectedFilters) {
-        if (existingFilter.type === "tutorial") {
-          this.selectedFilters.delete(existingKey);
-        }
-      }
-    }
-
+    // Allow multiple selections for both tutorials and tags
     this.selectedFilters.set(key, filter);
   }
 
