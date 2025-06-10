@@ -18,27 +18,53 @@
 
     {% include 'questions/partials/selected_filters.html' %}
 
+    <!-- Difficulty Selection Section -->
     <div class="sb-flex-col sb-flex-wrap sb-gap-3 sb-mt-2">
-        <div class="sb-flex sb-flex-wrap sb-gap-3 sb-my-4 sb-justify-center">
-            <button class="sb-btn sb-btn-black" hx-get="{% url 'questions:htmx_load_questions' %}" hx-target="#quiz-questions-container" hx-swap="innerHTML" hx-indicator="#loading-indicator" hx-vals='{"difficulty": "foundational"}'>
-                Load 'Foundational' Questions
-            </button>
-            <button class="sb-btn sb-btn-black" hx-get="{% url 'questions:htmx_load_questions' %}" hx-target="#quiz-questions-container" hx-swap="innerHTML" hx-indicator="#loading-indicator" hx-vals='{"difficulty": "easy"}'>
-                Load 'Easy' Questions
-            </button>
-            <button class="sb-btn sb-btn-black" hx-get="{% url 'questions:htmx_load_questions' %}" hx-target="#quiz-questions-container" hx-swap="innerHTML" hx-indicator="#loading-indicator" hx-vals='{"difficulty": "medium"}'>
-                Load 'Medium' Questions
-            </button>
-            <button class="sb-btn sb-btn-black" hx-get="{% url 'questions:htmx_load_questions' %}" hx-target="#quiz-questions-container" hx-swap="innerHTML" hx-indicator="#loading-indicator" hx-vals='{"difficulty": "hard"}'>
-                Load 'Hard' Questions
-            </button>
-            <button class="sb-btn sb-btn-black" hx-get="{% url 'questions:htmx_load_questions' %}" hx-target="#quiz-questions-container" hx-swap="innerHTML" hx-indicator="#loading-indicator" hx-vals='{"difficulty": "impossible"}'>
-                Load 'Impossible' Questions
-            </button>
+        <div class="sb-mb-3">
+            <h3 class="sb-text-sm sb-font-semibold sb-mb-2 sb-text-gray-700">Select Difficulty Levels:</h3>
+            <div class="sb-flex sb-flex-wrap sb-gap-3 sb-justify-center">
+                <div class="difficulty-selectable pill-selectable sb-btn sb-btn-black"
+                     data-pill-type="difficulty"
+                     data-pill-value="foundational"
+                     data-pill-display="Foundational">
+                    Foundational
+                </div>
+                <div class="difficulty-selectable pill-selectable sb-btn sb-btn-black"
+                     data-pill-type="difficulty"
+                     data-pill-value="easy"
+                     data-pill-display="Easy">
+                    Easy
+                </div>
+                <div class="difficulty-selectable pill-selectable sb-btn sb-btn-black"
+                     data-pill-type="difficulty"
+                     data-pill-value="medium"
+                     data-pill-display="Medium">
+                    Medium
+                </div>
+                <div class="difficulty-selectable pill-selectable sb-btn sb-btn-black"
+                     data-pill-type="difficulty"
+                     data-pill-value="hard"
+                     data-pill-display="Hard">
+                    Hard
+                </div>
+                <div class="difficulty-selectable pill-selectable sb-btn sb-btn-black"
+                     data-pill-type="difficulty"
+                     data-pill-value="impossible"
+                     data-pill-display="Impossible">
+                    Impossible
+                </div>
+            </div>
         </div>
+
+        <!-- Primary Action Button -->
         <div class="sb-flex-col sb-flex-wrap sb-gap-3">
-            <button class="sb-btn sb-btn-white sb-w-full" hx-get="{% url 'questions:htmx_load_questions' %}" hx-target="#quiz-questions-container" hx-swap="innerHTML" hx-indicator="#loading-indicator" hx-vals="">
-                Load All Questions
+            <button class="sb-btn sb-btn-white sb-w-full"
+                    hx-get="{% url 'questions:htmx_load_questions' %}"
+                    hx-target="#quiz-questions-container"
+                    hx-swap="innerHTML"
+                    hx-indicator="#loading-indicator"
+                    hx-vals="">
+                Load Questions
             </button>
         </div>
     </div>
@@ -56,6 +82,8 @@
     {% endfor %}
 </div>
 <script src="{% static 'questions/js/pill-section.js' %}"></script>
+<script type="module" src="{% static 'questions/mjs/main.mjs' %}"></script>
+
 
 <style>
     /* Base sb-btn styles - Using your CSS variables where applicable */

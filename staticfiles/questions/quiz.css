@@ -467,56 +467,58 @@
     transform: translateY(-2px) scale(1.01); /* Keep hover transform */
 }
 
-/* Selected Filters Container */
 #selected-filters-container {
-    min-height: 60px;
+    min-height: 4rem;
+    transition: all 0.2s ease-in-out;
+    overflow: visible; /* Allow content to extend beyond container */
 }
 
 #selected-filters-container .empty-state {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 40px;
+    min-height: 3rem;
+    opacity: 0.6;
+    font-style: italic;
 }
 
 #selected-filters-container:not(.empty) .empty-state {
     display: none;
 }
 
-/* Selected Pills in Container */
 .selected-pill {
-    background-color: var(--primary-color, #3b82f6) !important;
-    color: white !important;
-    border: 2px solid var(--primary-color, #3b82f6);
+    background-color: var(--info-color, #2563eb);
+    color: white;
+    transition: all 0.2s ease-in-out;
+    border: 2px solid var(--info-color, #2563eb);
+    box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);
+    padding-right: 1.5rem; /* Extra padding for X button */
     position: relative;
+    white-space: nowrap; /* Prevent text wrapping */
+    min-width: fit-content; /* Ensure pill is wide enough */
 }
 
 .selected-pill:hover {
-    background-color: var(--error-color, #dc2626) !important;
+    background-color: var(--error-color, #dc2626);
     border-color: var(--error-color, #dc2626);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(220, 38, 38, 0.3);
 }
 
 .selected-pill::after {
-    content: "×";
+    content: "✕";
     position: absolute;
-    top: -8px;
-    right: -8px;
-    background: var(--error-color, #dc2626);
-    color: white;
-    border-radius: 50%;
-    width: 18px;
-    height: 18px;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid white;
-    opacity: 0;
-    transition: opacity 0.2s ease-in-out;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.7;
+    font-weight: normal;
+    pointer-events: none; /* Ensure clicks go to parent */
 }
 
 .selected-pill:hover::after {
     opacity: 1;
+    font-weight: bold;
 }
 
 /* Pill Selection Styles */
@@ -528,24 +530,20 @@
     transform: scale(1.05);
 }
 
-.pill-selectable.selected {
+.tutorial-name-pill.pill-selectable.selected {
+    background-color: var(--info-color, #2563eb) !important;
+    color: white !important;
+    border: 2px solid var(--info-color, #2563eb);
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+    overflow: hidden;
+}
+
+.tag-name-pill.pill-selectable.selected {
     background-color: var(--success-color, #16a34a) !important;
     color: white !important;
     border: 2px solid var(--success-color, #16a34a);
     box-shadow: 0 0 0 2px rgba(22, 163, 74, 0.2);
-}
-
-.selected-pill {
-    background-color: var(--info-color, #2563eb);
-    color: white;
-    transition: all 0.2s ease-in-out;
-    border: 1px solid var(--info-color, #2563eb);
-}
-
-.selected-pill:hover {
-    background-color: var(--error-color, #dc2626);
-    border-color: var(--error-color, #dc2626);
-    transform: scale(1.05);
+    overflow: hidden;
 }
 
 .selected-filters-section .empty-state {
@@ -557,4 +555,34 @@
 
 #selected-pills-list:not(.empty) .empty-state {
     display: none;
+}
+/* Difficulty Selection Specific Styles */
+.difficulty-selectable {
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+
+.difficulty-selectable.selected {
+    background-color: var(--accent-color, #f59e0b) !important;
+    color: #000 !important;
+    border-color: var(--accent-color, #f59e0b) !important;
+    transform: scale(1.02);
+}
+
+.difficulty-selectable.selected::after {
+    content: "✓";
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: var(--success-color, #16a34a);
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
 }

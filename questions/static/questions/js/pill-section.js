@@ -15,6 +15,42 @@ class PillSelectionManager {
         this.handleSelectedPillClick(e.target);
       }
     });
+
+    // HTMX event listeners to restore selection states after content swaps
+    this.setupHtmxEventListeners();
+  }
+
+  setupHtmxEventListeners() {
+    // Listen for HTMX afterSwap events on pill containers
+    document.addEventListener("htmx:afterSwap", (event) => {
+      const target = event.target;
+
+      // Check if the swapped content contains pill containers
+      if (
+        target.id === "tutorial-name-pills-container" ||
+        target.id === "tag-name-pills-container" ||
+        target.querySelector("#tutorial-name-pills-container") ||
+        target.querySelector("#tag-name-pills-container")
+      ) {
+        // Small delay to ensure DOM is fully updated
+        setTimeout(() => {
+          this.updateSourcePills();
+        }, 10);
+      }
+    });
+
+    // Additional listener for when HTMX processes the response
+    document.addEventListener("htmx:afterSettle", (event) => {
+      const target = event.target;
+
+      // Double-check to ensure all pills have correct visual states
+      if (
+        target.id === "tutorial-name-pills-container" ||
+        target.id === "tag-name-pills-container"
+      ) {
+        this.updateSourcePills();
+      }
+    });
   }
 
   handlePillClick(pillElement) {
@@ -39,6 +75,24 @@ class PillSelectionManager {
     this.updateUI();
   }
 
+  getSelectedFilters() {
+    const tutorials = [];
+    const tags = [];
+    const difficulties = [];
+
+    for (const filter of this.selectedFilters.values()) {
+      if (filter.type === "tutorial") {
+        tutorials.push(filter.value);
+      } else if (filter.type === "tag") {
+        tags.push(filter.value);
+      } else if (filter.type === "difficulty") {
+        difficulties.push(filter.value);
+      }
+    }
+
+    return { tutorials, tags, difficulties };
+  }
+
   addFilter(key, filter) {
     // Allow multiple selections for both tutorials and tags
     this.selectedFilters.set(key, filter);
@@ -60,7 +114,12 @@ class PillSelectionManager {
       const value = pill.dataset.pillValue;
       const key = `${type}-${value}`;
 
-      pill.classList.toggle("selected", this.selectedFilters.has(key));
+      // Apply or remove the selected class based on internal state
+      if (this.selectedFilters.has(key)) {
+        pill.classList.add("selected");
+      } else {
+        pill.classList.remove("selected");
+      }
     });
   }
 
@@ -111,6 +170,11 @@ class PillSelectionManager {
     }
 
     return { tutorials, tags };
+  }
+
+  // Public method to manually restore selection states (for debugging)
+  restoreSelectionStates() {
+    this.updateSourcePills();
   }
 }
 
