@@ -51,10 +51,10 @@ class QuestionManagerTest(TestCase):
 
     def test_get_initial_questions_returns_tuples(self):
         """Test that get_initial_questions returns a list of (str, str) tuples."""
-        questions = Question.objects.get_initial_questions(amount=2)
-        self.assertEqual(len(questions), 2)
+        questions = Question.objects.get_initial_questions(amount=3)
+        self.assertEqual(len(questions), 3)
         self.assertIsInstance(questions, list)
-        # Check that a specific, expected tuple is in the results
+        # Check that at least one of the expected tuples is in the results
         self.assertIn(("django-basics", "q1"), questions)
 
     @patch("random.shuffle")

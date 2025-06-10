@@ -552,3 +552,43 @@
 .selected-pill:hover::after {
     opacity: 1;
 }
+
+/* Pill Selection Styles */
+.pill-selectable {
+    transition: all 0.2s ease-in-out;
+}
+
+.pill-selectable:hover {
+    transform: scale(1.05);
+}
+
+.pill-selectable.selected {
+    background-color: var(--success-color, #16a34a) !important;
+    color: white !important;
+    border: 2px solid var(--success-color, #16a34a);
+    box-shadow: 0 0 0 2px rgba(22, 163, 74, 0.2);
+}
+
+.selected-pill {
+    background-color: var(--info-color, #2563eb);
+    color: white;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid var(--info-color, #2563eb);
+}
+
+.selected-pill:hover {
+    background-color: var(--error-color, #dc2626);
+    border-color: var(--error-color, #dc2626);
+    transform: scale(1.05);
+}
+
+.selected-filters-section .empty-state {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3rem;
+}
+
+#selected-pills-list:not(.empty) .empty-state {
+    display: none;
+}
