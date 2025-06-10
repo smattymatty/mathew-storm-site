@@ -43,15 +43,25 @@ def htmx_load_questions(request: HttpRequest) -> TemplateResponse:
 
     try:
         # 2. Extract and process filter parameters from GET request
-        title_id_slug = request.GET.get("title-id", None)
+        title_id_slugs_str = request.GET.get("title-id", None)
         difficulty_levels_str: str = request.GET.get("difficulty", None)
         tag_names_str = request.GET.get("tags", None)
 
         logger.debug(
-            f"HTMX request received with params: title-id='{title_id_slug}', "
+            f"HTMX request received with params: title-id='{title_id_slugs_str}', "
             f"difficulty='{difficulty_levels_str}', tags='{tag_names_str}'"
         )
 
+        # Parse title slugs
+        title_id_slugs = []
+        if title_id_slugs_str:
+            title_id_slugs = [
+                slug.strip()
+                for slug in title_id_slugs_str.split(",")
+                if slug.strip()
+            ]
+
+        # Parse difficulty levels
         difficulty_levels = []
         if difficulty_levels_str:
             difficulty_levels = [
@@ -60,6 +70,7 @@ def htmx_load_questions(request: HttpRequest) -> TemplateResponse:
                 if level.strip()
             ]
 
+        # Parse tag names
         tag_names = []
         if tag_names_str:
             tag_names = [
@@ -69,13 +80,14 @@ def htmx_load_questions(request: HttpRequest) -> TemplateResponse:
         # 3. Call your querying logic
         questions_queryset = (
             Question.objects.get_queryset().get_interactive_quiz_questions(
-                title_id_slug=title_id_slug,
+                title_id_slugs=title_id_slugs if title_id_slugs else None,
                 difficulty_levels=difficulty_levels
                 if difficulty_levels
                 else None,
                 tag_names=tag_names if tag_names else None,
             )
         )
+
         context["questions"] = questions_queryset
 
     except Exception as e:

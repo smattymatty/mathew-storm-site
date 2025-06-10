@@ -42,15 +42,23 @@ class UniqueVisitor(models.Model):
         unique_together = ("ip_address", "user_agent")
 
     def most_common_url(self):
-        try:
-            return (
-                PageView.objects.filter(ip_address=self.ip_address)
-                .order_by("-timestamp")
-                .first()
-                .url
-            )
-        except:
-            return None
+        """
+        Returns the URL of the most recent PageView for this visitor,
+        or None if no page views are found.
+        """
+        # Get the most recent PageView object for this visitor
+        latest_page_view = (
+            PageView.objects.filter(ip_address=self.ip_address)
+            .order_by("-timestamp")
+            .first()
+        )
+
+        # Check if a page view was actually found before accessing its url
+        if latest_page_view:
+            return latest_page_view.url
+
+        # Return None or a default value if no page views exist for visitor
+        return None
 
     def __str__(self):
         return f"{self.ip_address} - Visits: {self.visit_count}"
