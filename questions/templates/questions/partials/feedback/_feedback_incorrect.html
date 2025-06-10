@@ -1,33 +1,33 @@
 {% comment %} questions/templates/questions/partials/feedback/_feedback_incorrect.html {% endcomment %}
 {% load spellbook_tags %}
 
-<div class="sb-card sb-mb-4 sb-p-4 sb-border sb-rounded-md sb-bg-error-25 sb-border-error-500" id="question-block-{{ question.pk }}">
+<div class="sb-card sb-mb-4 sb-p-4 sb-border sb-rounded-md sb-bg-error sb-border-error" id="question-block-{{ question.pk }}">
     {% include "questions/partials/question_block/parts/_question_text_htmx.html" with question=question %}
 
-    <div class="sb-mt-4 sb-p-4 sb-bg-error-100 sb-border sb-border-error-500 sb-rounded-md">
+    <div class="sb-mt-4 sb-p-4 sb-bg-error sb-border sb-border-error sb-rounded-md">
         <div class="sb-flex sb-items-center sb-mb-3">
             <div class="sb-text-error-700 sb-mr-3">
                 <svg class="sb-w-6 sb-h-6" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path>
                 </svg>
             </div>
-            <h4 class="sb-text-lg sb-font-semibold sb-text-error-800">Not Quite Right 🤔</h4>
+            <h4 class="sb-text-lg sb-font-semibold sb-white">Not Quite Right 🤔</h4>
         </div>
 
-        <p class="sb-text-error-700 sb-mb-3">
-            You selected <strong>{{ submitted_answer|upper }}</strong>: "{{ submitted_answer_text }}", but the correct answer is <strong>{{ correct_answer|upper }}</strong>: "{{ correct_answer_text }}".
+        <p class="sb-white sb-mb-3">
+            You selected <strong>{{ submitted_answer|upper }}</strong>: "{{ submitted_answer_text }}"
         </p>
 
         {% if explanation %}
             <div class="sb-bg-error-50 sb-p-3 sb-rounded sb-mb-3">
-                <p class="sb-text-sm sb-text-error-800">
+                <p class="sb-text-sm sb-white">
                     <strong>Explanation:</strong> {{ explanation }}
                 </p>
             </div>
         {% endif %}
 
         <div class="sb-bg-info-50 sb-p-3 sb-rounded">
-            <p class="sb-text-sm sb-text-info-800">
+            <p class="sb-text-sm sb-white">
                 💡 <strong>Tip:</strong> Take another look at the question and try again!
             </p>
         </div>

@@ -1,11 +1,56 @@
-{% comment %} questions/templates/questions/partials/_question_submit_htmx.html {% endcomment %}
+{% comment %} questions/templates/questions/partials/feedback/_feedback_correct.html {% endcomment %}
 {% load spellbook_tags %}
 
-<div class="sb-mt-4">
-    <button
-        type="submit"
-        class="sb-btn sb-btn-success sb-w-full md:sb-w-auto"
-        >
-        Submit Answer
-    </button>
+<div class="sb-card sb-mb-4 sb-p-4 sb-border sb-rounded-md sb-bg-success-25 sb-border-success" id="question-block-{{ question.pk }}">
+    {% include "questions/partials/question_block/parts/_question_text_htmx.html" with question=question %}
+
+    <div class="sb-mt-4 sb-p-4 sb-bg-success sb-border sb-border-success-50 sb-rounded-md">
+        <div class="sb-flex sb-items-center sb-mb-3">
+            <div class="sb-white sb-mr-3">
+                <svg class="sb-w-6 sb-h-6" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                </svg>
+            </div>
+            <h4 class="sb-text-lg sb-font-semibold sb-white">Excellent! 🎉</h4>
+        </div>
+
+        <p class="sb-white sb-mb-3">
+            You selected <strong>{{ submitted_answer|upper }}</strong>: "{{ submitted_answer_text }}" - That's correct!
+        </p>
+
+        {% if explanation %}
+            <div class="sb-bg-success-75 sb-p-3 sb-rounded sb-mb-3">
+                <p class="sb-text-sm sb-white">
+                    <strong>Explanation:</strong> {{ explanation }}
+                </p>
+            </div>
+        {% endif %}
+
+        <div class="sb-bg-info-75 sb-p-3 sb-rounded">
+            <p class="sb-text-sm sb-white">
+                🌟 <strong>Great job!</strong> Keep up the excellent work!
+            </p>
+        </div>
+    </div>
+
+    <div class="sb-mt-4 sb-flex sb-gap-3">
+        <button
+            type="button"
+            class="sb-btn sb-btn-primary"
+            hx-get="{% url 'questions:htmx_load_single_question' question.pk %}"
+            hx-target="#question-block-{{ question.pk }}"
+            hx-swap="outerHTML">
+            Try Again
+        </button>
+        <button
+            type="button"
+            class="sb-btn sb-btn-secondary"
+            onclick="document.querySelector('#question-block-{{ question.pk }}').scrollIntoView({behavior: 'smooth', block: 'nearest'})">
+            Continue Reading
+        </button>
+    </div>
+
+    <p class="sb-text-xs sb-black-50 sb-mt-3">
+        <small>ID: {{ question.question_id_slug }}</small>
+    </p>
 </div>
