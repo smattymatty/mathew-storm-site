@@ -2,17 +2,17 @@
 <div class="quiz-options-container sb-mt-2 sb-mb-6 sb-p-4 sb-border sb-rounded-md sb-bg-info-25">
     <h2 class="sb-text-xl sb-font-semibold sb-mb-4">Quiz Options</h2>
     <div class="sb-flex-col sb-justify-center">
-        <div class="sb-border sb-border-white-25 sb-mb-2"></div> 
+        <div class="sb-border sb-border-white-25 sb-mb-2"></div>
 
         <div class="">
             {% include 'questions/partials/tutorial_search.html' %}
         </div>
-        <div class="sb-border sb-border-white-25 sb-mb-2"></div> 
+        <div class="sb-border sb-border-white-25 sb-mb-2"></div>
         <div class="">
             {% include 'questions/partials/tag_search.html' %}
         </div>
     </div>
-    <div class="sb-border sb-border-white-25 sb-mb-2"></div> 
+    <div class="sb-border sb-border-white-25 sb-mb-2"></div>
 
     <div class="sb-flex-col sb-flex-wrap sb-gap-3 sb-mt-2">
         <div class="sb-flex sb-flex-wrap sb-gap-3 sb-my-4 sb-justify-center">
@@ -43,7 +43,7 @@
     Loading...
 </div>
 <div></div>
-<div id="quiz-questions-container" 
+<div id="quiz-questions-container"
     class="sb-p-3 sb-border sb-rounded-md sb-bg-neutral-25 sb-min-h-16"
     >
     {% for question in initial_questions %}
@@ -302,6 +302,9 @@
         font-size: 1rem;
         font-weight: var(--sb-font-semibold);
         font-family: var(--sb-font-sans);
+    }
+    .htmx-indicator {
+        display: none;
     }
 </style>
 <script>

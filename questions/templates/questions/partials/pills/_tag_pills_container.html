@@ -1,0 +1,23 @@
+{% comment %} questions/templates/questions/partials/pills/_tag_pills_container.html {% endcomment %}
+
+{% if error_message %}
+    <div class="sb-alert sb-alert-danger sb-p-3 sb-rounded-md sb-text-center">
+        <p class="sb-text-sm">{{ error_message }}</p>
+    </div>
+{% elif tag_names %}
+    <div class="sb-grid sb-grid-cols-2 sb-md:grid-cols-3 sb-gap-2">
+        {% for tag_name in tag_names %}
+            {% include 'questions/partials/pills/tag_name_pill.html' with tag_name=tag_name %}
+        {% endfor %}
+    </div>
+{% else %}
+    <div class="sb-p-3 sb-text-center">
+        <p class="sb-text-sm sb-black-50">
+            {% if search_query %}
+                No tags found matching "{{ search_query }}".
+            {% else %}
+                No tags available.
+            {% endif %}
+        </p>
+    </div>
+{% endif %}

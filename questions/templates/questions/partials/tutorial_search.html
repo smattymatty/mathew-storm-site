@@ -4,16 +4,24 @@
         <label for="quiz-search-input" class="sb-text-sm sb-font-medium sb-white-50 sb-whitespace-nowrap">
             Search For Tutorial Names to Include:
         </label>
-        <input type="text" id="quiz-search-input" name="q_search" class="sb-input sb-input-primary sb-flex-grow" placeholder="Tutorial Name..." />
+        <input type="text"
+               id="quiz-search-input"
+               name="q_search"
+               class="sb-input sb-input-primary sb-flex-grow"
+               placeholder="Tutorial Name..."
+               hx-get="{% url 'questions:htmx_search_tutorial_titles' %}"
+               hx-trigger="keyup changed delay:500ms"
+               hx-target="#tutorial-name-pills-container"
+               hx-swap="innerHTML"
+               hx-indicator="#tutorial-loading-indicator" />
         <div class="sb-flex sb-flex-grow sb-h-full"></div>
     </form>
-    <div id="tutorial-name-pills-container" class="sb-flex-grow sb-w-full sb-mb-2">
-        <div class="sb-grid sb-grid-cols-1 sb-md:grid-cols-2 sb-gap-2">
-{% for title in initial_title_names %}
-    {% include 'questions/partials/pills/tutorial_name_pill.html' with tutorial_name=title %}
-{% endfor %}
-
-
-</div>
+    <div class="sb-flex-grow sb-w-full sb-mb-2">
+        <div id="tutorial-loading-indicator" class="htmx-indicator sb-text-center sb-p-2">
+            <span class="sb-text-sm sb-black-50">Searching...</span>
+        </div>
+        <div id="tutorial-name-pills-container">
+            {% include 'questions/partials/pills/_tutorial_pills_container.html' with tutorial_titles=initial_title_names %}
+        </div>
     </div>
 </div>
