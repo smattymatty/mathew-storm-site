@@ -1,21 +1,18 @@
 {% comment %} questions/templates/questions/partials/question_block/_question_block_quiz.html {% endcomment %}
 {% load spellbook_tags %}
 
-<div class="quiz-question-item sb-card sb-mb-4 sb-p-4 sb-border sb-rounded-md sb-bg-white"
+<div class="quiz-question-item sb-card sb-px-4 sb-border sb-rounded-md sb-bg-white"
      id="question-block-{{ question.pk }}"
      data-question-index="{{ forloop.counter0 }}"
      data-question-id="{{ question.pk }}"
      style="{% if not forloop.first %}display: none;{% endif %}">
 
     <!-- Header with question number and difficulty -->
-    <div class="question-header sb-mb-4">
-        <div class="sb-flex sb-justify-between sb-items-start sb-mb-2">
-            <h3 class="sb-text-lg sb-font-semibold">
+    <div class="question-header">
+        <div class="sb-flex sb-justify-between sb-items-start">
+            <p class="sb-text-lg sb-w-full sb-text-center sb-bold sb-mb-0">
                 Question {{ forloop.counter }} of {{ quiz_questions|length }}
-            </h3>
-            <span class="difficulty-badge sb-px-2 sb-py-1 sb-text-xs sb-rounded sb-bg-{{ question.difficulty_level }}-100 sb-text-{{ question.difficulty_level }}-800">
-                {{ question.difficulty_level|title }}
-            </span>
+            </p>
         </div>
     </div>
 
@@ -26,7 +23,7 @@
     {% include "questions/partials/question_block/parts/_question_options_htmx.html" with question=question %}
 
     <!-- Quiz-specific actions (JavaScript-based instead of HTMX) -->
-    <div class="question-actions sb-flex sb-justify-center sb-mt-4">
+    <div class="question-actions sb-flex sb-justify-center">
         <button class="check-answer-btn sb-btn sb-btn-primary"
                 data-question-id="{{ question.pk }}"
                 data-correct-answer="{{ question.correct_answer|lower }}">

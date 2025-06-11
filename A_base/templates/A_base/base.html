@@ -26,12 +26,12 @@
     {% include 'A_base/partials/navbar.html' %}
 
     <main class="main-container">
+    {% if sidebar_header or metadata %}
       <aside class="first-zone">
         <section class="welcome-message" aria-label="Welcome Message">
           <!-- Your welcome message content -->
-           {% if sidebar_header %}
            {{ sidebar_header|safe }}
-           {% elif metadata.title %}
+           {% if metadata.title %}
            {{ metadata.title|title }}
            {% elif metadata.namespace %}
            {{ metadata.namespace|title }}
@@ -44,6 +44,7 @@
           {% endblock %}
         </section>
       </aside>
+    {% endif %}
 
       {% if toc %}
       <div class="sb-w-full sb-justify-start sb-border sb-bg-white" aria-label="">

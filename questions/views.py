@@ -143,7 +143,7 @@ def questions_page_view(request: HttpRequest) -> TemplateResponse:
     )
 
     context = {
-        "sidebar_header": "Interactive Quiz",
+        "sidebar_header": None,
         "initial_questions": initial_questions,
         "initial_tags": initial_tags,
         "initial_title_ids": initial_title_ids,

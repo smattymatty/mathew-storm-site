@@ -27,13 +27,15 @@
 .feedback-correct {
     background-color: var(--success-color, #d4edda);
     border-color: var(--success-color, #c3e6cb);
-    color: var(--success-text-color, #155724);
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .feedback-incorrect {
     background-color: var(--error-color, #f8d7da);
     border-color: var(--error-color, #f5c6cb);
-    color: var(--error-text-color, #721c24);
+    color: #ffffff;
+    font-weight: bold;
 }
 
 /* ===== ANSWER HIGHLIGHTING (extends question-block-options from quiz.css) ===== */

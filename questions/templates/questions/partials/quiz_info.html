@@ -1,0 +1,46 @@
+<div class="quiz-header sb-mt-2 sb-mb-2 sb-px-4 sb-py-2 sb-border sb-rounded-md sb-bg-primary">
+    <!-- Progress Bar -->
+    <div class="progress-container sb-mb-2">
+        <div class="sb-w-full sb-bg-white-50 sb-rounded-full sb-h-2">
+            <div id="progress-bar" class="sb-bg-success sb-h-2 sb-rounded-full sb-transition-all sb-duration-300" style="width: 0%"></div>
+        </div>
+    </div>
+
+    <div class="quiz-stat sb-text-center sb-mb-2 sb-p-3 sb-bg-white sb-rounded-md sb-border">
+        <div class="sb-text-2xl sb-font-bold sb-info" id="score-display">0</div>
+        <div class="sb-text-sm sb-black-75">Score</div>
+    </div>
+
+    <div class="quiz-info sb-grid sb-grid-cols-1 sb-md:grid-cols-2 sb-gap-2 sb-mb-2">
+        <div class="quiz-stat sb-text-center sb-p-3 sb-bg-white sb-rounded-md sb-border">
+            <div class="sb-text-2xl sb-font-bold sb-info" id="current-question-num">1</div>
+            <div class="sb-text-sm sb-black-75">Current</div>
+        </div>
+        <div class="quiz-stat sb-text-center sb-p-3 sb-bg-white sb-rounded-md sb-border">
+            <div class="sb-text-2xl sb-font-bold sb-info">{{ quiz_question_count }}</div>
+            <div class="sb-text-sm sb-black-75">Questions</div>
+        </div>
+    </div>
+
+
+    {% if selected_tags or selected_titles or selected_difficulty %}
+    <div class="quiz-filters sb-text-sm sb-white-50">
+        <strong>Quiz Parameters:</strong>
+        {% if selected_tags %}
+            Tags: {{ selected_tags|join:", " }}
+        {% endif %}
+        {% if selected_titles %}
+            Titles: {{ selected_titles|join:", " }}
+        {% endif %}
+        {% if selected_difficulty %}
+            Difficulty: {{ selected_difficulty|join:", " }}
+        {% endif %}
+    </div>
+    {% endif %}
+    <div class="sb-flex sb-justify-between sb-items-center">
+        <div class=""></div>
+        <a href="{% url 'questions:questions_page' %}" class="sb-btn sb-btn-secondary">
+            ← Back to Questions
+        </a>
+    </div>
+</div>
