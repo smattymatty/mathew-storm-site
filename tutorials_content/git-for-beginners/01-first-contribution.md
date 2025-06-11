@@ -22,7 +22,6 @@ We specifically cover the **EduLite** project, which is a great example of a pro
 
 You can use this information to learn more about Git and GitHub, and to contribute to open source projects in general.
 
-
 {~~}
 
 {~ alert type="success" ~}
@@ -58,12 +57,11 @@ Ready to get hands-on? Jump directly to the **[Practical Exercise: Your First Co
 If these requirements are too steep, perhaps I can create a '0' level tutorial for you.
 {~~}
 
-
 ---
 
 ### Understanding Git Basics 🛠️
 
-* **What Git is:** A tool that tracks changes to your project, lets you go back to earlier versions, and allows multiple people to work on different parts at once.
+* **What Git is:** A Version Constrol Software (VCS) that tracks changes to your project, lets you go back to earlier versions, and allows multiple people to work on different parts at once.
 
 {~ card title="Key terms" footer="Learning these terms will help you understand the fundamentals of Git." ~}
 
@@ -95,15 +93,39 @@ If these requirements are too steep, perhaps I can create a '0' level tutorial f
 
 ---
 
-### Making Your First Pull Request (PR) 🎉
+# Git Across Different Operating Systems
 
-* **What a Pull Request is:** Your formal way to ask the project owners to include your improvements.
-
-{~ card title="Why it's a big deal"  footer="This process provides a clear discussion, code review, and organized contributions, especially for remote teams." ~}
-It shows you can use Git and GitHub and is your first step into open source.
+{~ alert type="warning" ~}
+**Git installation varies by OS:**
+Getting Git onto your computer is the first hands-on step, and the method differs slightly based on your operating system. Here's a brief rundown of the most common ways:
 {~~}
 
-* **What you'll learn here:** How to find suitable tasks (like "good first issues"), make your changes, and confidently submit your first contribution to projects like EduLite.
+* **Windows:** The most straightforward method is typically to download the official installer directly from the [Git SCM website (https://git-scm.com/downloads/win)](https://git-scm.com/downloads/win). This installer often includes "Git Bash," a terminal environment that provides a Linux-like command-line experience for using Git on Windows.
+* **Mac:** If you use Homebrew (a popular package manager for macOS), installing Git can be as simple as running the command `brew install git`. Alternatively, installers are also available, sometimes bundled with Xcode developer tools or directly from the [Git SCM website (https://git-scm.com/downloads/mac)](https://git-scm.com/downloads/mac).
+* **Linux:** Installation is typically handled through your distribution's built-in package manager. For example:
+    * On **Ubuntu/Debian** based systems, you'll use `sudo apt install git`.
+    * On **Fedora**, the command is `sudo dnf install git`.
+    * On **Arch Linux**, you would use `sudo pacman -S git`.
+
+{~ alert type="success" ~}
+**Good news: Once installed, Git commands are identical across all platforms:**
+
+This is a fantastic aspect of Git! While the initial setup might differ, the core Git commands you will learn and use (`git commit`, `git branch`, `git checkout`, `git push`, `git pull`, etc.) are exactly the same whether you're on Windows, macOS, or any Linux distribution.
+
+This universality means the skills you develop are highly transferable, and you can collaborate seamlessly with others who might be using different operating systems.
+{~~}
+
+* **All terminal commands in this course work the same on Windows, Mac, and Linux:**
+    * To ensure a consistent learning experience, this course will focus on these universal Git commands as executed in a terminal or command-line interface.
+    * While the terminal application itself might have a different name or appearance (e.g., Git Bash or PowerShell on Windows, Terminal on macOS, various terminal emulators on Linux), the underlying Git commands you type and their behavior will be consistent with what's taught.
+
+{~ alert type="info" ~}
+**GUI clients available for all platforms if preferred:**
+
+If you're not entirely comfortable with the command line, or if you prefer a more visual way to interact with Git, there's good news: numerous Graphical User Interface (GUI) clients are available for all major operating systems. These tools provide a visual interface for Git operations.
+
+While these GUI clients can be helpful, especially for visualizing branches and history, this course will primarily focus on the command-line interface to ensure you build a fundamental understanding of Git's operations, which are consistent everywhere.
+{~~}
 
 ---
 
@@ -193,53 +215,6 @@ Here’s a summary of the topics we will go through:
 While the **EduLite** community appreciates any contributions, the material in this tutorial can be used as a foundation for any projects.
 {~~}
 
----
-
-# Git: A Distributed Version Control System
-
-Git is a powerful version control tool. Its key functions include:
-
-* **Distributed VCS:** Tracks all file changes, supporting parallel work. Full local copies offer speed and offline use.
-* **Change Tracking:** Saves all modifications as **commits** (project snapshots) for easy history review and rollbacks.
-* **Team Collaboration:** Employs **branching** for isolated development and **merging** to integrate changes, managing conflicts.
-* **Comprehensive History:** Logs detailed information for every commit (who, when, why), vital for audits and debugging.
-* **Offline Functionality:** Most operations are performed **locally and quickly**; internet is only needed to share or fetch updates (push/pull).
-
----
-
-# Git Across Different Operating Systems
-
-{~ alert type="warning" ~}
-**Git installation varies by OS:**
-Getting Git onto your computer is the first hands-on step, and the method differs slightly based on your operating system. Here's a brief rundown of the most common ways:
-{~~}
-
-* **Windows:** The most straightforward method is typically to download the official installer directly from the [Git SCM website (https://git-scm.com/downloads/win)](https://git-scm.com/downloads/win). This installer often includes "Git Bash," a terminal environment that provides a Linux-like command-line experience for using Git on Windows.
-* **Mac:** If you use Homebrew (a popular package manager for macOS), installing Git can be as simple as running the command `brew install git`. Alternatively, installers are also available, sometimes bundled with Xcode developer tools or directly from the [Git SCM website (https://git-scm.com/downloads/mac)](https://git-scm.com/downloads/mac).
-* **Linux:** Installation is typically handled through your distribution's built-in package manager. For example:
-    * On **Ubuntu/Debian** based systems, you'll use `sudo apt install git`.
-    * On **Fedora**, the command is `sudo dnf install git`.
-    * On **Arch Linux**, you would use `sudo pacman -S git`.
-
-{~ alert type="success" ~}
-**Good news: Once installed, Git commands are identical across all platforms:**
-
-This is a fantastic aspect of Git! While the initial setup might differ, the core Git commands you will learn and use (`git commit`, `git branch`, `git checkout`, `git push`, `git pull`, etc.) are exactly the same whether you're on Windows, macOS, or any Linux distribution.
-
-This universality means the skills you develop are highly transferable, and you can collaborate seamlessly with others who might be using different operating systems.
-{~~}
-
-* **All terminal commands in this course work the same on Windows, Mac, and Linux:**
-    * To ensure a consistent learning experience, this course will focus on these universal Git commands as executed in a terminal or command-line interface.
-    * While the terminal application itself might have a different name or appearance (e.g., Git Bash or PowerShell on Windows, Terminal on macOS, various terminal emulators on Linux), the underlying Git commands you type and their behavior will be consistent with what's taught.
-
-{~ alert type="info" ~}
-**GUI clients available for all platforms if preferred:**
-
-If you're not entirely comfortable with the command line, or if you prefer a more visual way to interact with Git, there's good news: numerous Graphical User Interface (GUI) clients are available for all major operating systems. These tools provide a visual interface for Git operations.
-
-While these GUI clients can be helpful, especially for visualizing branches and history, this course will primarily focus on the command-line interface to ensure you build a fundamental understanding of Git's operations, which are consistent everywhere.
-{~~}
 
 ---
 
