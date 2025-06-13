@@ -32,4 +32,9 @@ urlpatterns = [
         views.htmx_load_single_question,
         name="htmx_load_single_question",
     ),
+    path(
+        "htmx/skip-question/<int:question_pk>/",
+        views.htmx_skip_question,
+        name="htmx_skip_question",
+    ),
 ]

@@ -1,0 +1,17 @@
+<!-- questions/partials/feedback/_feedback_skipped.html -->
+<div class="question-feedback skipped-feedback">
+    <div class="feedback-header">
+        <h3>Question Skipped</h3>
+    </div>
+    <div class="feedback-content">
+        <p>You skipped this question. No worries!</p>
+        {% if skip_count %}
+            <p class="skip-stats">This question has been skipped {{ skip_count }} time{{ skip_count|pluralize }}.</p>
+        {% endif %}
+        <button hx-get="{% url 'htmx_load_single_question' question.pk %}"
+                hx-target="#question-{{ question.pk }}"
+                class="btn btn-secondary">
+            Try This Question
+        </button>
+    </div>
+</div>
