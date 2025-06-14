@@ -1,18 +1,36 @@
 {% comment %} questions/templates/questions/partials/question_block/_question_block_quiz.html {% endcomment %}
 {% load spellbook_tags %}
+{% load question_tags %}
 
 <div class="quiz-question-item sb-card sb-px-4 sb-border sb-rounded-md sb-bg-white"
      id="question-block-{{ question.pk }}"
      data-question-index="{{ forloop.counter0 }}"
      data-question-id="{{ question.pk }}"
+     data-correct-answer="{{ question.correct_answer|lower }}"
      style="{% if not forloop.first %}display: none;{% endif %}">
 
-    <!-- Header with question number and difficulty -->
+    <!-- Header with question number and tutorial link -->
     <div class="question-header">
-        <div class="sb-flex sb-justify-between sb-items-start">
+        <div class="sb-flex sb-justify-between sb-items-start sb-mb-3">
             <p class="sb-text-lg sb-w-full sb-text-center sb-bold sb-mb-0">
                 Question {{ forloop.counter }} of {{ quiz_questions|length }}
             </p>
+        </div>
+
+        <!-- Tutorial Link -->
+        <div class="tutorial-link-container sb-text-center sb-mb-3">
+            <a href="{% question_tut_url question %}"
+               class="tutorial-link sb-inline-flex sb-items-center sb-gap-2 sb-text-sm sb-text-info sb-hover-text-info-700 sb-transition-colors"
+               target="_blank"
+               rel="noopener noreferrer">
+                <svg class="sb-w-4 sb-h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                </svg>
+                Read Tutorial: {% question_tut_name question %}
+                <svg class="sb-w-3 sb-h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                </svg>
+            </a>
         </div>
     </div>
 
@@ -21,15 +39,6 @@
 
     <!-- Reuse existing question options partial -->
     {% include "questions/partials/question_block/parts/_question_options_htmx.html" with question=question %}
-
-    <!-- Quiz-specific actions (JavaScript-based instead of HTMX) -->
-    <div class="question-actions sb-flex sb-justify-center">
-        <button class="check-answer-btn sb-btn sb-btn-primary"
-                data-question-id="{{ question.pk }}"
-                data-correct-answer="{{ question.correct_answer|lower }}">
-            Check Answer
-        </button>
-    </div>
 
     <!-- Feedback area -->
     <div class="answer-feedback sb-mt-4" style="display: none;">

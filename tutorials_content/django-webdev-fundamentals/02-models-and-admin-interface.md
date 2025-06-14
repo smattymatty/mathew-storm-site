@@ -28,11 +28,11 @@ class TeamMember(models.Model):
     bio = models.TextField()
     # DateField - Stores a date
     join_date = models.DateField(auto_now_add=True)
-    
+
     # __str__ - How to display the object in the admin
     def __str__(self):
         return f"{self.name} - {self.role}"
-    
+
     # Meta - Other information about the model
     class Meta:
         ordering = ['join_date']
@@ -146,6 +146,7 @@ urlpatterns = [
 A_base/templates/A_base/about.html:
 
 ```django
+{% verbatim %}
 {% extends "A_base/base.html" %}
 
 {% block content %}
@@ -158,18 +159,19 @@ A_base/templates/A_base/about.html:
     <p style="text-indent: 16px;">{{ member.bio }}</p>
 {% endfor %}
 {% endblock %}
+{% endverbatim %}
 ```
 
-### {% extends "A_base/base.html" %}
+### % extends "A_base/base.html" %
 The base html file this extends from. The {% block content %} part of this template will alter the same-named block of the extended base template.
 
-### {% for member in team_members %}
+### % for member in team_members %
 Accesses the 'team_members' variable from the view's context. The for loop will create the paragraph & strong element for each member in this list.
 
-### {{ member.name/.role/.bio }}
+### { member.name/.role/.bio }
 Accesses and shows the 'name', 'role', and 'bio' fields of each member in the 'team_members' list.
 
-### {% endfor %} and {% endblock %}
+### % endfor %} and {% endblock %
 Be sure to end your for loops and blocks, or else you will get an error when you try to load this page.
 
 ### style="opacity: 0.5;" and "text-indent: 16px;"
@@ -181,12 +183,14 @@ A little taste of CSS. Take note of the syntax, the variable name followed by a 
 Update the nav links in A_base/base.html
 
 ```html
+{% verbatim %}
 <nav>
     <ul>
         <li><a href="{% url 'base' %}">Home</a></li>
         <li><a href="{% url 'about' %}">About</a></li>
     </ul>
 </nav>
+{% endverbatim %}
 ```
 
 ### {% url 'base' %} and {% url 'about' %}
@@ -252,14 +256,14 @@ class Project(models.Model):
     start_date = models.DateField(auto_now_add=True)
     # SlugField - Used to create a URL
     slug = models.SlugField(max_length=100, unique=True, blank=True)
-    
+
     # this function is called when the object is saved
     def save(self, *args, **kwargs):
         # ensures that there is a slug
         if not self.slug:
             self.slug = slugify(self.name)
         super().save(*args, **kwargs)
-        
+
     class Meta:
         ordering = ['start_date']
 ```
@@ -309,6 +313,7 @@ Hold down "Control", or "Command" on a Mac, to select more than one.
 
 Update A_base/templates/A_base/about.html inside the members loop, below the bio
 ```django
+{% verbatim %}
 <p style="text-indent: 16px;">{{ member.bio }}</p>
 
 {% if member.projects.all.count == 1 %}
@@ -324,6 +329,7 @@ Update A_base/templates/A_base/about.html inside the members loop, below the bio
       <a href="#">{{ project.name }}</a>
    </p>
 {% endfor %}
+{% endverbatim %}
 ```
 
 ### {% if %} and {% elif %} and {% else %}
@@ -386,6 +392,7 @@ If that project is not found, get_object_or_404 will automatically return an err
 
 Create A_base/templates/A_base/project_detail.html
 ```django
+{% verbatim %}
 {% extends "A_base/base.html" %}
 
 {% block content %}
@@ -398,15 +405,18 @@ Create A_base/templates/A_base/project_detail.html
     <p style="text-indent: 16px;">{{ member.bio }}</p>
 {% endfor %}
 {% endblock %}
+{% endverbatim %}
 ```
 
 Update the url in the projects for loop on about.html
 ```django
+{% verbatim %}
 {% for project in member.projects.all %}
 <p>
     <a href="{% url 'project_detail' project.slug %}">{{ project.name }}</a>
 </p>
 {% endfor %}
+{% endverbatim %}
 ```
 
 This will automatically populate the href with the correct project's full URL based on the slug
@@ -418,18 +428,22 @@ This will automatically populate the href with the correct project's full URL ba
 A new folder in your templates called "snippets"
 Create templates/A_base/snippets/member_info.html:
 ```html
+{% verbatim %}
 <strong>{{ member.name }}</strong>
 <span style="opacity: 0.5;">{{ member.role }}</span>
 <p style="text-indent: 16px;">{{ member.bio }}</p>
+{% endverbatim %}
 ```
 
 Now instead of rewriting this every time we want to show member info, we can use the {% include %} tag
 
 A_base/about.html:
 ```django
+{% verbatim %}
 {% for member in team_members %}
     {% include "A_base/snippets/member_info.html" %}
 {% endfor %}
+{% endverbatim %}
 ```
 
 A_projects/project_detail.html:
@@ -484,6 +498,7 @@ Next, we will create the template
 
 Create A_base/templates/A_base/project_list.html
 ```django
+{% verbatim %}
 {% extends "A_base/base.html" %}
 
 {% block content %}
@@ -496,6 +511,7 @@ Create A_base/templates/A_base/project_list.html
     <p>{{ project.members.all.count }} members</p>
 {% endfor %}
 {% endblock %}
+{% endverbatim %}
 ```
 
 Add a new link to the nav bar in base.html
@@ -528,7 +544,7 @@ class Task(models.Model):
     description = models.TextField(blank=True)
     # ForeignKey - Creates a One-to-Many relationship
     project = models.ForeignKey(
-        Project, 
+        Project,
         on_delete=models.CASCADE,  # If project is deleted, delete related tasks
         related_name='tasks'       # Access via project.tasks.all()
     )
@@ -539,10 +555,10 @@ class Task(models.Model):
         default='PENDING'
     )
     due_date = models.DateField(null=True, blank=True)
-    
+
     class Meta:
         ordering = ['due_date']
-        
+
     def __str__(self):
         return f"{self.name} - {self.project.name}"
 ```
@@ -573,19 +589,19 @@ class TeamMember(models.Model):
     # Link to Django's User model using best practice
     user = models.OneToOneField(
         User,
-        on_delete=models.CASCADE,      
-        related_name='team_profile',   
-        null=True,                     
-        blank=True,                    
+        on_delete=models.CASCADE,
+        related_name='team_profile',
+        null=True,
+        blank=True,
     )
     name = models.CharField(max_length=100)
     role = models.CharField(max_length=100)
     bio = models.TextField()
     join_date = models.DateField(auto_now_add=True)
-    
+
     def __str__(self):
         return f"{self.name} - {self.role}"
-    
+
     class Meta:
         ordering = ['join_date']
 ```
@@ -614,14 +630,14 @@ class TeamMemberAdmin(admin.ModelAdmin):
     list_display = ('name', 'role', 'join_date', 'linked_user')
     list_filter = ('role', 'join_date')
     search_fields = ('name', 'role', 'user__username')
-    
+
     # Custom field to display in list view
     def linked_user(self, obj):
         if obj.user:
             return obj.user.username
         return '(No user linked)'
     linked_user.short_description = 'User Account'
-    
+
     # Customize fields shown during editing
     fieldsets = (
         ('Basic Information', {
@@ -632,7 +648,7 @@ class TeamMemberAdmin(admin.ModelAdmin):
             'description': 'Link this team member to a Django user account'
         }),
     )
-    
+
     # Add autocomplete for User field
     autocomplete_fields = ['user']
 
@@ -676,7 +692,7 @@ class TaskInline(admin.TabularInline):
     model = Task
     extra = 1  # How many empty forms to show
     fields = ('name', 'status', 'due_date')
-    
+
 @admin.register(Project)
 class ProjectAdmin(admin.ModelAdmin):
     list_display = ("name", "start_date")
@@ -684,11 +700,11 @@ class ProjectAdmin(admin.ModelAdmin):
     prepopulated_fields = {"slug": ("name",)}
     search_fields = ("name",)
     readonly_fields = ("start_date",)
-    
+
     # Add the inline to the Project admin
     inlines = [TaskInline]
 
-# No need to register Task separately if we only want to edit it 
+# No need to register Task separately if we only want to edit it
 # within the context of a Project
 ```
 

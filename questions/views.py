@@ -12,7 +12,7 @@ from .logic.views_logic import (
     search_tag_names_logic,
     check_answer_logic,
     load_single_question_logic,
-    skip_question_logic
+    skip_question_logic,
 )
 
 logger = logging.getLogger(__name__)

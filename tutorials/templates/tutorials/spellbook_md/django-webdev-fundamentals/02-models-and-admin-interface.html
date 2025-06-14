@@ -104,7 +104,8 @@ def about_view(request):
 <hr />
 <h2 id="new-template-to-show-team-members">New Template to show Team Members</h2>
 <p>A_base/templates/A_base/about.html:</p>
-<pre><code class="language-django">{% extends &quot;A_base/base.html&quot; %}
+<pre><code class="language-django">{% verbatim %}
+{% extends &quot;A_base/base.html&quot; %}
 
 {% block content %}
 &lt;h1&gt;About&lt;/h1&gt;
@@ -116,28 +117,29 @@ def about_view(request):
     &lt;p style=&quot;text-indent: 16px;&quot;&gt;{{ member.bio }}&lt;/p&gt;
 {% endfor %}
 {% endblock %}
+{% endverbatim %}
 </code></pre>
-<h3 id="_1"></h3>
-<django-tag>{% extends "A_base/base.html" %}</django-tag><p>The base html file this extends from. The </p>
+<h3 id="extends-a_basebasehtml">% extends "A_base/base.html" %</h3>
+<p>The base html file this extends from. The </p>
 <django-tag>{% block content %}</django-tag><p>part of this template will alter the same-named block of the extended base template.</p>
-<h3 id="_2"></h3>
-<django-tag>{% for member in team_members %}</django-tag><p>Accesses the 'team_members' variable from the view's context. The for loop will create the paragraph &amp; strong element for each member in this list.</p>
-<h3 id="membernamerolebio">{{ member.name/.role/.bio }}</h3>
+<h3 id="for-member-in-team_members">% for member in team_members %</h3>
+<p>Accesses the 'team_members' variable from the view's context. The for loop will create the paragraph &amp; strong element for each member in this list.</p>
+<h3 id="membernamerolebio">{ member.name/.role/.bio }</h3>
 <p>Accesses and shows the 'name', 'role', and 'bio' fields of each member in the 'team_members' list.</p>
-<h3 id="_3"></h3>
-<django-tag>{% endfor %}</django-tag><p>and</p>
-<django-tag>{% endblock %}</django-tag><p>Be sure to end your for loops and blocks, or else you will get an error when you try to load this page.</p>
+<h3 id="endfor-and-endblock">% endfor %} and {% endblock %</h3>
+<p>Be sure to end your for loops and blocks, or else you will get an error when you try to load this page.</p>
 <h3 id="styleopacity-05-and-text-indent-16px">style="opacity: 0.5;" and "text-indent: 16px;"</h3>
-<p>A little taste of CSS. Take note of the syntax, the variable name followed by a colon(:) then the value then a semicolon (;)</p>
-<hr />
+<h2 id="a-little-taste-of-css-take-note-of-the-syntax-the-variable-name-followed-by-a-colon-then-the-value-then-a-semicolon">A little taste of CSS. Take note of the syntax, the variable name followed by a colon(:) then the value then a semicolon (;)</h2>
 <h2 id="preview-of-our-mostly-unstyled-website">Preview of our (mostly unstyled) website</h2>
 <p>Update the nav links in A_base/base.html</p>
-<pre><code class="language-html">&lt;nav&gt;
+<pre><code class="language-html">{% verbatim %}
+&lt;nav&gt;
     &lt;ul&gt;
         &lt;li&gt;&lt;a href=&quot;{% url 'base' %}&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;{% url 'about' %}&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/nav&gt;
+{% endverbatim %}
 </code></pre>
 <h3 id="url-base-and-url-about"><django-tag>{% url 'base' %}</django-tag> and <django-tag>{% url 'about' %}</django-tag></h3>
 <p>The 'url' tag will search for the urlpatterns we have defined in A_base/urls.py by their 'name' attribute:</p>
@@ -146,31 +148,30 @@ def about_view(request):
     path(&quot;about/&quot;, views.about_view, name=&quot;about&quot;),
 ]
 </code></pre>
-<p>Notice how the <strong>Nav</strong> and the <strong>Footer</strong> are still there, even though it's a new html file? That's because A_base/about.html has <strong>extended</strong> from A_base/base.html!</p>
-<hr />
+<h2 id="notice-how-the-nav-and-the-footer-are-still-there-even-though-its-a-new-html-file-thats-because-a_baseabouthtml-has-extended-from-a_basebasehtml">Notice how the <strong>Nav</strong> and the <strong>Footer</strong> are still there, even though it's a new html file? That's because A_base/about.html has <strong>extended</strong> from A_base/base.html!</h2>
 <h2 id="create-a-new-app">Create a New App</h2>
-<p>Apps are <strong>Modular.</strong> Lets create a new app for new models.</p>
-<p>Type this into your terminal:</p>
+<p>Apps are <strong>Modular.</strong> Lets create a new app for new models.<br />
+Type this into your terminal:<br />
 <pre><code>python manage.py startapp A_projects
-</code></pre>
-<p>Remember to add to <code>_core/settings.py</code></p>
+</code></pre></p>
+<p>Remember to add to <code>_core/settings.py</code><br />
 <pre><code class="language-python">#_core/settings.py
 INSTALLED_APPS = [
     &quot;A_projects&quot;,
 ]
-</code></pre>
-<p>Update <code>_core/urls.py</code></p>
+</code></pre></p>
+<p>Update <code>_core/urls.py</code><br />
 <pre><code class="language-python">#_core/urls.py
 urlpatterns = [
     path(&quot;admin/&quot;, admin.site.urls),
     path(&quot;&quot;, include(&quot;A_base.urls&quot;)),
     path(&quot;projects/&quot;, include(&quot;A_projects.urls&quot;)),
 ]
-</code></pre>
+</code></pre></p>
 <hr />
 <h2 id="model-relationships">Model Relationships</h2>
 <h3 id="team-members-projects-many-to-many-relationships">Team Members &amp; Projects: Many-to-Many Relationships</h3>
-<p>Add a new model to A_projects/models.py</p>
+<p>Add a new model to A_projects/models.py<br />
 <pre><code class="language-python">from django.template.defaultfilters import slugify
 
 from A_base.models import TeamMember
@@ -197,7 +198,7 @@ class Project(models.Model):
 
     class Meta:
         ordering = ['start_date']
-</code></pre>
+</code></pre></p>
 <h3 id="def-saveself-args-kwargs">def save(self, args, kwargs):</h3>
 <p>This function will be called whenever an instance of this model gets saves to a database. In this case, we ensure that the instance has a slug based on the name.</p>
 <h3 id="supersaveargs-kwargs">super().save(args, kwargs)</h3>
@@ -205,11 +206,10 @@ class Project(models.Model):
 <h3 id="related_nameprojects">related_name='projects'</h3>
 <p>Allows team_member.projects.all() to get all projects for a member.</p>
 <h3 id="slugfield-and-slugify">SlugField and slugify</h3>
-<p>A slug is a string that is URL-friendly, instead of "This is my Title", slugify transforms it to "this-is-my-title"</p>
-<hr />
+<h2 id="a-slug-is-a-string-that-is-url-friendly-instead-of-this-is-my-title-slugify-transforms-it-to-this-is-my-title">A slug is a string that is URL-friendly, instead of "This is my Title", slugify transforms it to "this-is-my-title"</h2>
 <h2 id="admin-integration">Admin Integration</h2>
 <h3 id="managing-relationships-in-django-admin">Managing Relationships in Django Admin</h3>
-<p>Update A_projects/admin.py</p>
+<p>Update A_projects/admin.py<br />
 <pre><code class="language-python">from .models import Project
 
 class ProjectAdmin(admin.ModelAdmin):
@@ -220,17 +220,18 @@ class ProjectAdmin(admin.ModelAdmin):
     readonly_fields = (&quot;start_date&quot;,)
 
 admin.site.register(Project, ProjectAdmin)
-</code></pre>
+</code></pre></p>
 <h3 id="prepopulated_fields">prepopulated_fields</h3>
 <p>makes a slug auto-generate as you type a name</p>
 <h3 id="filter_horizontal">filter_horizontal</h3>
-<p>makes the creation UI for handling relationships much better:</p>
-<p>![Admin interface showing horizontal filter with two columns - Available members and Chosen members with arrow controls between them]</p>
-<p>Hold down "Control", or "Command" on a Mac, to select more than one.</p>
+<p>makes the creation UI for handling relationships much better:<br />
+![Admin interface showing horizontal filter with two columns - Available members and Chosen members with arrow controls between them]<br />
+Hold down "Control", or "Command" on a Mac, to select more than one.</p>
 <hr />
 <h2 id="querying-relationships">Querying Relationships</h2>
-<p>Update A_base/templates/A_base/about.html inside the members loop, below the bio</p>
-<pre><code class="language-django">&lt;p style=&quot;text-indent: 16px;&quot;&gt;{{ member.bio }}&lt;/p&gt;
+<p>Update A_base/templates/A_base/about.html inside the members loop, below the bio<br />
+<pre><code class="language-django">{% verbatim %}
+&lt;p style=&quot;text-indent: 16px;&quot;&gt;{{ member.bio }}&lt;/p&gt;
 
 {% if member.projects.all.count == 1 %}
    &lt;p&gt;{{ member.projects.all.count }} project&lt;/p&gt;
@@ -245,8 +246,9 @@ admin.site.register(Project, ProjectAdmin)
       &lt;a href=&quot;#&quot;&gt;{{ project.name }}&lt;/a&gt;
    &lt;/p&gt;
 {% endfor %}
-</code></pre>
-<h3 id="_4"></h3>
+{% endverbatim %}
+</code></pre></p>
+<h3 id="_1"></h3>
 <django-tag>{% if %}</django-tag><p>and </p>
 <django-tag>{% elif %}</django-tag><p>and </p>
 <django-tag>{% else %}</django-tag><p>Just like Python, you can use comparison operators like == or &gt; to check conditions!</p>
@@ -287,14 +289,15 @@ def project_detail_view(request, slug):
         template,
         context
     )
-</code></pre></p>
-<p>This view takes the slug from the URL parameter. It then uses this slug to find the corresponding project.<br />
+</code></pre><br />
+This view takes the slug from the URL parameter. It then uses this slug to find the corresponding project.<br />
 If that project is not found, get_object_or_404 will automatically return an error page.</p>
 <hr />
 <h2 id="project-detail-template">Project Detail Template</h2>
 <h3 id="building-the-project-page">Building the Project Page</h3>
 <p>Create A_base/templates/A_base/project_detail.html<br />
-<pre><code class="language-django">{% extends &quot;A_base/base.html&quot; %}
+<pre><code class="language-django">{% verbatim %}
+{% extends &quot;A_base/base.html&quot; %}
 
 {% block content %}
 &lt;h1&gt;{{ project.name }}&lt;/h1&gt;
@@ -306,35 +309,43 @@ If that project is not found, get_object_or_404 will automatically return an err
     &lt;p style=&quot;text-indent: 16px;&quot;&gt;{{ member.bio }}&lt;/p&gt;
 {% endfor %}
 {% endblock %}
-</code></pre></p>
-<p>Update the url in the projects for loop on about.html<br />
-<pre><code class="language-django">{% for project in member.projects.all %}
+{% endverbatim %}
+</code></pre><br />
+Update the url in the projects for loop on about.html<br />
+<pre><code class="language-django">{% verbatim %}
+{% for project in member.projects.all %}
 &lt;p&gt;
     &lt;a href=&quot;{% url 'project_detail' project.slug %}&quot;&gt;{{ project.name }}&lt;/a&gt;
 &lt;/p&gt;
 {% endfor %}
-</code></pre></p>
-<h2 id="this-will-automatically-populate-the-href-with-the-correct-projects-full-url-based-on-the-slug">This will automatically populate the href with the correct project's full URL based on the slug</h2>
+{% endverbatim %}
+</code></pre><br />
+This will automatically populate the href with the correct project's full URL based on the slug</p>
+<hr />
 <h2 id="splitting-up-the-templates">Splitting up the templates</h2>
 <h3 id="notice-we-had-to-write-the-member-info-twice-lets-fix-that">Notice we had to write the member info twice? Let's fix that!</h3>
 <p>A new folder in your templates called "snippets"<br />
 Create templates/A_base/snippets/member_info.html:<br />
-<pre><code class="language-html">&lt;strong&gt;{{ member.name }}&lt;/strong&gt;
+<pre><code class="language-html">{% verbatim %}
+&lt;strong&gt;{{ member.name }}&lt;/strong&gt;
 &lt;span style=&quot;opacity: 0.5;&quot;&gt;{{ member.role }}&lt;/span&gt;
 &lt;p style=&quot;text-indent: 16px;&quot;&gt;{{ member.bio }}&lt;/p&gt;
-</code></pre></p>
-<p>Now instead of rewriting this every time we want to show member info, we can use the <django-tag>{% include %}</django-tag> tag<br />
+{% endverbatim %}
+</code></pre><br />
+Now instead of rewriting this every time we want to show member info, we can use the <django-tag>{% include %}</django-tag> tag<br />
 A_base/about.html:<br />
-<pre><code class="language-django">{% for member in team_members %}
+<pre><code class="language-django">{% verbatim %}
+{% for member in team_members %}
     {% include &quot;A_base/snippets/member_info.html&quot; %}
 {% endfor %}
-</code></pre></p>
-<p>A_projects/project_detail.html:<br />
+{% endverbatim %}
+</code></pre><br />
+A_projects/project_detail.html:<br />
 <pre><code class="language-django">{% for member in project.members.all %}
     {% include &quot;A_base/snippets/member_info.html&quot; %}
 {% endfor %}
-</code></pre></p>
-<p><strong>Splitting your templates</strong> up like this is a good habit to get into.<br />
+</code></pre><br />
+<strong>Splitting your templates</strong> up like this is a good habit to get into.<br />
 Not only do you no longer have to rewrite the same code, if you ever want to edit how the members are displayed, you now only have to edit one single file rather than two.</p>
 <hr />
 <h2 id="create-a-list-view">Create a list view</h2>
@@ -348,8 +359,8 @@ Not only do you no longer have to rewrite the same code, if you ever want to edi
         name=&quot;project_detail&quot;
     ),
 ]
-</code></pre></p>
-<p>In A_projects/views.py, create a project_list_view<br />
+</code></pre><br />
+In A_projects/views.py, create a project_list_view<br />
 <pre><code class="language-python">def project_list_view(request):
     projects = Project.objects.all()
     context = {'projects': projects}
@@ -367,7 +378,8 @@ Next, we will create the template</p>
 <h2 id="create-a-list-view-2">Create a list view - 2</h2>
 <h3 id="a-view-to-list-all-the-projects_1">A view to list all the projects</h3>
 <p>Create A_base/templates/A_base/project_list.html<br />
-<pre><code class="language-django">{% extends &quot;A_base/base.html&quot; %}
+<pre><code class="language-django">{% verbatim %}
+{% extends &quot;A_base/base.html&quot; %}
 
 {% block content %}
 &lt;h1&gt;Projects&lt;/h1&gt;
@@ -379,8 +391,9 @@ Next, we will create the template</p>
     &lt;p&gt;{{ project.members.all.count }} members&lt;/p&gt;
 {% endfor %}
 {% endblock %}
-</code></pre></p>
-<p>Add a new link to the nav bar in base.html<br />
+{% endverbatim %}
+</code></pre><br />
+Add a new link to the nav bar in base.html<br />
 <pre><code class="language-html">&lt;nav&gt;
     &lt;ul&gt;
         &lt;li&gt;&lt;a href=&quot;{% url 'base' %}&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
@@ -388,8 +401,9 @@ Next, we will create the template</p>
         &lt;li&gt;&lt;a href=&quot;{% url 'project_list' %}&quot;&gt;Projects&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/nav&gt;
-</code></pre></p>
-<h2 id="now-our-navigation-includes-links-to-all-main-sections-of-our-site">Now our navigation includes links to all main sections of our site.</h2>
+</code></pre><br />
+Now our navigation includes links to all main sections of our site.</p>
+<hr />
 <h2 id="model-relationships-foreignkey">Model Relationships: ForeignKey</h2>
 <h3 id="tasks-projects-one-to-many-relationships">Tasks &amp; Projects: One-to-Many Relationships</h3>
 <p>Add a new model to A_base/models.py<br />
@@ -404,7 +418,7 @@ Next, we will create the template</p>
     description = models.TextField(blank=True)
     # ForeignKey - Creates a One-to-Many relationship
     project = models.ForeignKey(
-        Project, 
+        Project,
         on_delete=models.CASCADE,  # If project is deleted, delete related tasks
         related_name='tasks'       # Access via project.tasks.all()
     )
@@ -433,7 +447,7 @@ python manage.py migrate
 </ul>
 <h2 id="model-relationships-onetoonefield">Model Relationships: OneToOneField</h2>
 <h3 id="extending-djangos-user-model">Extending Django's User Model</h3>
-<p>Modify the TeamMember model in A_base/models.py to link with Django's built-in User model:</p>
+<p>Modify the TeamMember model in A_base/models.py to link with Django's built-in User model:<br />
 <pre><code class="language-python">from django.db import models
 from django.contrib.auth import get_user_model
 
@@ -444,10 +458,10 @@ class TeamMember(models.Model):
     # Link to Django's User model using best practice
     user = models.OneToOneField(
         User,
-        on_delete=models.CASCADE,      
-        related_name='team_profile',   
-        null=True,                     
-        blank=True,                    
+        on_delete=models.CASCADE,
+        related_name='team_profile',
+        null=True,
+        blank=True,
     )
     name = models.CharField(max_length=100)
     role = models.CharField(max_length=100)
@@ -459,7 +473,7 @@ class TeamMember(models.Model):
 
     class Meta:
         ordering = ['join_date']
-</code></pre>
+</code></pre></p>
 <h3 id="onetoonefield-vs-foreignkey">OneToOneField vs. ForeignKey</h3>
 <ul>
 <li><strong>OneToOneField</strong>: Exactly one related object in each direction</li>
@@ -472,7 +486,7 @@ python manage.py migrate
 <hr />
 <h2 id="enhanced-admin-for-onetoone-relationship">Enhanced Admin for OneToOne Relationship</h2>
 <h3 id="editing-the-teammember-a_baseadmin-interface">Editing the TeamMember A_Base/Admin Interface</h3>
-<pre><code class="language-python">from django.contrib import admin
+<p><pre><code class="language-python">from django.contrib import admin
 
 from .models import TeamMember
 
@@ -503,31 +517,29 @@ class TeamMemberAdmin(admin.ModelAdmin):
     # Add autocomplete for User field
     autocomplete_fields = ['user']
 
-</code></pre>
-<ol>
-<li><strong>Decorator Registration</strong> (<code>@admin.register(TeamMember)</code>):<br />
+</code></pre><br />
+1. <strong>Decorator Registration</strong> (<code>@admin.register(TeamMember)</code>):<br />
    - Alternative to <code>admin.site.register()</code> that allows cleaner code<br />
-   - Registers the model and its admin class in one step</li>
-<li><strong>Custom Methods for Display</strong> (<code>linked_user</code>):<br />
+   - Registers the model and its admin class in one step<br />
+2. <strong>Custom Methods for Display</strong> (<code>linked_user</code>):<br />
    - Create methods inside admin classes to format or process data<br />
    - Use <code>short_description</code> to set column header text<br />
-   - Ideal for derived fields or formatting complex data</li>
-<li><strong>Related Lookups</strong> (<code>search_fields = ('user__username',)</code>):<br />
+   - Ideal for derived fields or formatting complex data<br />
+3. <strong>Related Lookups</strong> (<code>search_fields = ('user__username',)</code>):<br />
    - The double-underscore syntax accesses fields in related models<br />
-   - Enable searching across relationships without extra code</li>
-<li><strong>Fieldsets for Organized Forms</strong>:<br />
+   - Enable searching across relationships without extra code<br />
+4. <strong>Fieldsets for Organized Forms</strong>:<br />
    - Group related fields under logical headings<br />
    - Add descriptions to provide context for editors<br />
-   - Create a more structured editing experience</li>
-<li><strong>Autocomplete for Better UX</strong> (<code>autocomplete_fields</code>):<br />
+   - Create a more structured editing experience<br />
+5. <strong>Autocomplete for Better UX</strong> (<code>autocomplete_fields</code>):<br />
    - Converts select fields to searchable dropdowns<br />
    - Critical for models with many possible relations<br />
-   - Prevents overwhelming admins with too many choices</li>
-</ol>
+   - Prevents overwhelming admins with too many choices</p>
 <hr />
 <h2 id="admin-inline-models">Admin Inline Models</h2>
 <h3 id="edit-related-tasks-within-projects">Edit Related Tasks Within Projects</h3>
-<p>Update A_projects/admin.py to add inline task editing to projects:</p>
+<p>Update A_projects/admin.py to add inline task editing to projects:<br />
 <pre><code class="language-python">from django.contrib import admin
 from .models import Project, Task
 
@@ -548,18 +560,16 @@ class ProjectAdmin(admin.ModelAdmin):
     # Add the inline to the Project admin
     inlines = [TaskInline]
 
-# No need to register Task separately if we only want to edit it 
+# No need to register Task separately if we only want to edit it
 # within the context of a Project
-</code></pre>
-<ol>
-<li><strong>TabularInline vs StackedInline</strong>:<br />
+</code></pre><br />
+1. <strong>TabularInline vs StackedInline</strong>:<br />
    - <code>TabularInline</code>: Compact, table-like format (good for many items)<br />
-   - <code>StackedInline</code>: Each related object gets a full form layout (more space)</li>
-<li><strong>Parent-Child Editing</strong>:<br />
+   - <code>StackedInline</code>: Each related object gets a full form layout (more space)<br />
+2. <strong>Parent-Child Editing</strong>:<br />
    - The foreign key relationship is automatically handled<br />
-   - Tasks are always associated with the correct project</li>
-<li><strong>No Need for Separate Registration</strong>:<br />
+   - Tasks are always associated with the correct project<br />
+3. <strong>No Need for Separate Registration</strong>:<br />
    - You don't need to register Task with <code>admin.site.register()</code><br />
-   - This prevents cluttering the admin index with models better edited inline</li>
-</ol>
+   - This prevents cluttering the admin index with models better edited inline</p>
 {% endblock %}

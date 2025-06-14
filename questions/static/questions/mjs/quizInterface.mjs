@@ -36,8 +36,8 @@ class QuizInterface {
     // Setup navigation buttons
     this.setupNavigationButtons();
 
-    // Setup answer checking
-    this.setupAnswerChecking();
+    // Setup automatic answer checking on radio button selection
+    this.setupRadioButtonListeners();
 
     // Setup quiz controls
     this.setupQuizControls();
@@ -54,9 +54,9 @@ class QuizInterface {
 
   setupNavigationButtons() {
     const prevBtn = document.getElementById("prev-question-btn");
-    const nextBtn = document.getElementById("next-question-btn");
+    const skipBtn = document.getElementById("skip-question-btn");
 
-    console.log("🔍 Navigation buttons:", { prevBtn, nextBtn });
+    console.log("🔍 Navigation buttons:", { prevBtn, skipBtn });
 
     if (prevBtn) {
       prevBtn.addEventListener("click", () => {
@@ -65,26 +65,37 @@ class QuizInterface {
       });
     }
 
-    if (nextBtn) {
-      nextBtn.addEventListener("click", () => {
-        console.log("➡️ Next button clicked");
-        this.nextQuestion();
+    if (skipBtn) {
+      skipBtn.addEventListener("click", () => {
+        console.log("⏭️ Skip button clicked");
+        this.skipCurrentQuestion();
       });
     }
   }
 
-  setupAnswerChecking() {
-    const checkBtns = document.querySelectorAll(".check-answer-btn");
+  setupRadioButtonListeners() {
+    this.questionElements.forEach((questionElement, index) => {
+      const radioButtons = questionElement.querySelectorAll(
+        "input[type='radio']",
+      );
+      const questionId = questionElement.dataset.questionId;
+      const correctAnswer = questionElement.dataset.correctAnswer;
 
-    console.log("🔍 Found", checkBtns.length, "check answer buttons");
-
-    checkBtns.forEach((btn, index) => {
-      console.log(`Setting up check button ${index + 1}:`, btn);
-      btn.addEventListener("click", (e) => {
-        console.log("✅ Check answer button clicked", e.target);
-        const questionId = e.target.dataset.questionId;
-        const correctAnswer = e.target.dataset.correctAnswer;
-        this.checkAnswer(questionId, correctAnswer, e.target);
+      radioButtons.forEach((radio) => {
+        radio.addEventListener("change", () => {
+          if (radio.checked) {
+            console.log(
+              `📝 Answer selected for question ${questionId}:`,
+              radio.value,
+            );
+            this.checkAnswer(
+              questionId,
+              correctAnswer,
+              radio.value,
+              questionElement,
+            );
+          }
+        });
       });
     });
   }
@@ -122,26 +133,16 @@ class QuizInterface {
     }
   }
 
-  checkAnswer(questionId, correctAnswer, buttonElement) {
+  checkAnswer(questionId, correctAnswer, userAnswer, questionElement) {
     console.log(
       "🧐 Checking answer for question:",
       questionId,
       "correct:",
       correctAnswer,
+      "user:",
+      userAnswer,
     );
 
-    const questionElement = buttonElement.closest(".quiz-question-item");
-    const selectedAnswer = questionElement.querySelector(
-      `input[name="answer_for_q${questionId}"]:checked`,
-    );
-
-    if (!selectedAnswer) {
-      console.warn("❌ No answer selected");
-      alert("Please select an answer before checking.");
-      return;
-    }
-
-    const userAnswer = selectedAnswer.value;
     const isCorrect = userAnswer === correctAnswer;
 
     console.log("📝 Answer check result:", {
@@ -173,7 +174,7 @@ class QuizInterface {
       correctAnswer,
     );
 
-    // Disable answer options and check button
+    // Disable answer options for this question
     this.disableQuestionAnswers(questionElement);
 
     // Update display
@@ -195,11 +196,26 @@ class QuizInterface {
       ? "Correct!"
       : `Incorrect. The correct answer is ${correctAnswer.toUpperCase()}.`;
 
+    // Check if this is the last question
+    const isLastQuestion =
+      this.currentQuestionIndex === this.totalQuestions - 1;
+    const nextButtonHtml = isLastQuestion
+      ? ""
+      : `<button class="feedback-next-btn sb-btn sb-btn-primary sb-btn-sm"
+                 onclick="quizInterface.nextQuestion()">
+           Next Question →
+         </button>`;
+
     feedbackDiv.innerHTML = `
             <div class="feedback-message sb-p-3 sb-rounded-md sb-border feedback-${feedbackClass}">
-                <div class="sb-flex sb-items-center sb-mb-2">
-                    <span class="sb-text-xl sb-mr-2">${feedbackIcon}</span>
-                    <span class="sb-font-semibold">${feedbackText}</span>
+                <div class="sb-flex sb-items-center sb-justify-between">
+                    <div class="sb-flex sb-items-center sb-gap-2">
+                        <span class="sb-text-xl">${feedbackIcon}</span>
+                        <span class="sb-font-semibold">${feedbackText}</span>
+                    </div>
+                    <div class="feedback-actions">
+                        ${nextButtonHtml}
+                    </div>
                 </div>
             </div>
         `;
@@ -228,17 +244,104 @@ class QuizInterface {
     });
   }
 
+  skipCurrentQuestion() {
+    console.log("⏭️ Skipping question", this.currentQuestionIndex + 1);
+
+    const currentQuestion = this.questionElements[this.currentQuestionIndex];
+    const questionId = currentQuestion.dataset.questionId;
+
+    // Use HTMX to call your existing skip endpoint
+    htmx
+      .ajax("POST", `/questions/htmx/skip-question/${questionId}/`, {
+        target: "#skip-feedback",
+        swap: "innerHTML",
+      })
+      .then(() => {
+        // After successful skip, show the feedback and disable the question
+        this.handleSkipResponse(currentQuestion);
+      })
+      .catch((error) => {
+        console.error("Skip request failed:", error);
+        // Show fallback feedback
+        this.showSkipFallback(currentQuestion);
+      });
+  }
+
+  handleSkipResponse(questionElement) {
+    // The HTMX response will populate #skip-feedback
+    // We need to move that content to the question's feedback area
+    const skipFeedback = document.getElementById("skip-feedback");
+    const questionFeedback = questionElement.querySelector(".answer-feedback");
+
+    if (skipFeedback.innerHTML.trim()) {
+      questionFeedback.innerHTML = skipFeedback.innerHTML;
+      questionFeedback.style.display = "block";
+      skipFeedback.innerHTML = ""; // Clear the temp feedback area
+    } else {
+      // Fallback if no response
+      this.showSkipFallback(questionElement);
+    }
+
+    // Disable the question
+    this.disableQuestionAnswers(questionElement);
+
+    // Update navigation buttons
+    this.updateDisplay();
+  }
+
+  showSkipFallback(questionElement) {
+    const feedbackDiv = questionElement.querySelector(".answer-feedback");
+    feedbackDiv.innerHTML = `
+        <div class="feedback-message sb-p-3 sb-rounded-md sb-border sb-bg-gray-100 sb-border-secondary-50">
+            <div class="sb-flex sb-items-center sb-justify-between">
+                <div class="sb-flex sb-items-center sb-gap-2">
+                    <span class="sb-text-xl">⏭️</span>
+                    <span class="sb-font-semibold sb-text-gray-700">Question skipped</span>
+                </div>
+                <div class="feedback-actions">
+                    ${
+                      this.currentQuestionIndex < this.totalQuestions - 1
+                        ? `<button class="feedback-next-btn sb-btn sb-btn-primary sb-btn-sm"
+                               onclick="quizInterface.nextQuestion()">
+                         Next Question →
+                       </button>`
+                        : ""
+                    }
+                </div>
+            </div>
+        </div>
+    `;
+    feedbackDiv.style.display = "block";
+  }
+
   disableQuestionAnswers(questionElement) {
     const inputs = questionElement.querySelectorAll("input[type='radio']");
-    const checkBtn = questionElement.querySelector(".check-answer-btn");
 
     inputs.forEach((input) => {
       input.disabled = true;
     });
+  }
 
-    if (checkBtn) {
-      checkBtn.disabled = true;
-      checkBtn.textContent = "Answered";
+  scrollToCurrentQuestion() {
+    if (this.questionElements[this.currentQuestionIndex]) {
+      const currentQuestion = this.questionElements[this.currentQuestionIndex];
+
+      // Scroll to the top of the current question with smooth behavior
+      currentQuestion.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest",
+      });
+
+      // Alternative: scroll to a bit above the question for better visibility
+      setTimeout(() => {
+        const rect = currentQuestion.getBoundingClientRect();
+        const offset = 20; // 20px above the question
+        window.scrollBy({
+          top: rect.top - offset,
+          behavior: "smooth",
+        });
+      }, 100);
     }
   }
 
@@ -248,6 +351,7 @@ class QuizInterface {
       console.log("⬅️ Moving to question", this.currentQuestionIndex + 1);
       this.showCurrentQuestion();
       this.updateDisplay();
+      this.scrollToCurrentQuestion();
     }
   }
 
@@ -257,6 +361,7 @@ class QuizInterface {
       console.log("➡️ Moving to question", this.currentQuestionIndex + 1);
       this.showCurrentQuestion();
       this.updateDisplay();
+      this.scrollToCurrentQuestion();
     }
   }
 
@@ -295,14 +400,22 @@ class QuizInterface {
 
   updateNavigationButtons() {
     const prevBtn = document.getElementById("prev-question-btn");
-    const nextBtn = document.getElementById("next-question-btn");
+    const skipBtn = document.getElementById("skip-question-btn");
 
     if (prevBtn) {
       prevBtn.disabled = this.currentQuestionIndex === 0;
     }
 
-    if (nextBtn) {
-      nextBtn.disabled = this.currentQuestionIndex === this.totalQuestions - 1;
+    if (skipBtn) {
+      // Disable skip button if question is already answered or skipped
+      const currentQuestion = this.questionElements[this.currentQuestionIndex];
+      const questionId = currentQuestion.dataset.questionId;
+      const isAnswered = this.userAnswers.hasOwnProperty(questionId);
+      const feedbackVisible =
+        currentQuestion.querySelector(".answer-feedback").style.display !==
+        "none";
+
+      skipBtn.disabled = isAnswered || feedbackVisible;
     }
   }
 
@@ -370,13 +483,6 @@ class QuizInterface {
         input.checked = false;
       });
 
-      // Reset check button
-      const checkBtn = questionElement.querySelector(".check-answer-btn");
-      if (checkBtn) {
-        checkBtn.disabled = false;
-        checkBtn.textContent = "Check Answer";
-      }
-
       // Hide feedback
       const feedbackDiv = questionElement.querySelector(".answer-feedback");
       if (feedbackDiv) {
@@ -399,9 +505,20 @@ class QuizInterface {
     // Update display
     this.updateDisplay();
 
+    // Scroll to first question
+    this.scrollToCurrentQuestion();
+
     console.log("🔄 Quiz restarted");
   }
 }
 
 // Initialize the quiz interface
-export const quizInterface = new QuizInterface();
+//export const quizInterface = new QuizInterface();
+
+// Initialize the quiz interface and make it globally accessible
+const quizInterface = new QuizInterface();
+
+// Make it available globally for button onclick handlers
+window.quizInterface = quizInterface;
+
+export { quizInterface };

@@ -21,23 +21,28 @@
     {% endif %}
 </div>
 
-<!-- Quiz Controls -->
-<div class="quiz-controls sb-mb-2 sb-flex sb-justify-between sb-items-center">
+<!-- Quiz Navigation Controls -->
+<div class="quiz-navigation sb-mb-3 sb-flex sb-justify-between sb-items-center">
     <button id="prev-question-btn" class="sb-btn sb-btn-secondary" disabled>
         ← Previous
     </button>
 
-    <div class="quiz-control-center sb-flex sb-gap-3">
-        <button id="restart-quiz-btn" class="sb-btn sb-btn-warning">
-            🔄 Restart Quiz
-        </button>
-        <button id="finish-quiz-btn" class="sb-btn sb-btn-success" style="display: none;">
-            ✅ Finish Quiz
-        </button>
-    </div>
+    <button id="skip-question-btn" class="sb-btn sb-btn-warning">
+        ⏭️ Skip Question
+    </button>
+</div>
 
-    <button id="next-question-btn" class="sb-btn sb-btn-primary">
-        Next →
+<!-- Skip feedback area (for HTMX response) -->
+<div id="skip-feedback"></div>
+
+
+<!-- Quiz Action Controls -->
+<div class="quiz-actions sb-mb-2 sb-flex sb-justify-center sb-gap-3">
+    <button id="restart-quiz-btn" class="sb-btn sb-btn-warning" style="display: none;">
+        🔄 Restart Quiz
+    </button>
+    <button id="finish-quiz-btn" class="sb-btn sb-btn-success" style="display: none;">
+        ✅ Finish Quiz
     </button>
 </div>
 
@@ -315,6 +320,27 @@
     }
     .htmx-indicator {
         display: none;
+    }
+
+    /* Question Radio Button Styling with Max Width and Overflow */
+    .question-block-options label {
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: flex;
+        align-items: flex-start;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .question-block-options label span {
+        flex: 1;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3; /* Limit to 3 lines */
+        -webkit-box-orient: vertical;
+        line-height: 1.4;
+        max-height: calc(1.4em * 3); /* 3 lines * line-height */
     }
 </style>
 <script type="module" src="{% static 'questions/mjs/quizInterface.mjs' %}"></script>

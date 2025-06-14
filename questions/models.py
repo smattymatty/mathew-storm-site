@@ -155,6 +155,41 @@ class Question(models.Model):
         )
         return f"{self.tutorial_title.title_id_slug} | {self.question_id_slug} | {display_text}"
 
+    def get_tutorial_url(self) -> str:
+        """
+        Generate the URL to the tutorial content for this question.
+
+        Based on the django-spellbook URL structure and the tutorial organization,
+        this constructs URLs like: /tuts/django-webdev-fundamentals/01-creating-a-project-base/
+
+        Returns:
+            str: The URL path to the tutorial content
+        """
+        # Extract the tutorial series from the tutorial title
+        # The tutorial_title.title_id_slug contains the full tutorial path like "creating-a-project-base"
+        # We need to construct the full path by inferring the series from the content structure
+
+        # For now, we'll use a mapping approach based on common patterns
+        # This could be made more dynamic by adding a tutorial_series field to TutorialTitle
+
+        tutorial_slug = self.tutorial_title.title_id_slug
+
+        # Map tutorial slugs to their series - this could be made more dynamic
+        tutorial_series_mapping = {
+            "creating-a-project-base": "django-webdev-fundamentals/01-creating-a-project-base",
+            "models-and-admin-interface": "django-webdev-fundamentals/02-models-and-admin-interface",
+            "forms": "django-webdev-fundamentals/03-forms",
+            "first-contribution": "git-for-beginners/01-first-contribution",
+        }
+
+        # Get the full tutorial path
+        tutorial_path = tutorial_series_mapping.get(
+            tutorial_slug, tutorial_slug
+        )
+
+        # Construct the URL using the spellbook URL structure
+        return f"/tuts/{tutorial_path}/"
+
     def retrieve_answer(
         self,
         selected_answer: str,

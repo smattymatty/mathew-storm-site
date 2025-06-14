@@ -79,7 +79,7 @@ If these requirements are too steep, perhaps I can create a '0' level tutorial f
 <hr />
 <h3 id="understanding-git-basics">Understanding Git Basics 🛠️</h3>
 <ul>
-<li><strong>What Git is:</strong> A tool that tracks changes to your project, lets you go back to earlier versions, and allows multiple people to work on different parts at once.</li>
+<li><strong>What Git is:</strong> A Version Constrol Software (VCS) that tracks changes to your project, lets you go back to earlier versions, and allows multiple people to work on different parts at once.</li>
 </ul>
 <div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
 
@@ -137,29 +137,62 @@ If these requirements are too steep, perhaps I can create a '0' level tutorial f
 <li><strong>Benefits:</strong> This process allows for clear discussion, code review, and organized contributions, especially for remote teams.</li>
 </ul>
 <hr />
-<h3 id="making-your-first-pull-request-pr">Making Your First Pull Request (PR) 🎉</h3>
-<ul>
-<li><strong>What a Pull Request is:</strong> Your formal way to ask the project owners to include your improvements.</li>
-</ul>
-<div class="sb-card sb-border sb-border-radius-lg sb-shadow-sm sb-transition sb-mb-3 sb-bg-light ">
+<h1 id="git-across-different-operating-systems">Git Across Different Operating Systems</h1>
+<div class="sb-alert sb-alert-warning sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
 
-        <div class="sb-card-header sb-p-2 sb-bold">
-            <h5 class="sb-card-title">Why it&#x27;s a big deal</h5>
-        </div>
+            ⚠️
 
-    <div class="sb-card-body sb-p-3">
-        <p>It shows you can use Git and GitHub and is your first step into open source.</p>
-    </div>
-
-        <div class="sb-card-footer sb-p-2">
-            This process provides a clear discussion, code review, and organized contributions, especially for remote teams.
-        </div>
-
+    </span>
+    <span class="sb-alert-content">
+        <p><strong>Git installation varies by OS:</strong><br />
+Getting Git onto your computer is the first hands-on step, and the method differs slightly based on your operating system. Here's a brief rundown of the most common ways:</p>
+    </span>
 </div>
 
 <ul>
-<li><strong>What you'll learn here:</strong> How to find suitable tasks (like "good first issues"), make your changes, and confidently submit your first contribution to projects like EduLite.</li>
+<li><strong>Windows:</strong> The most straightforward method is typically to download the official installer directly from the <a href="https://git-scm.com/downloads/win">Git SCM website (https://git-scm.com/downloads/win)</a>. This installer often includes "Git Bash," a terminal environment that provides a Linux-like command-line experience for using Git on Windows.</li>
+<li><strong>Mac:</strong> If you use Homebrew (a popular package manager for macOS), installing Git can be as simple as running the command <code>brew install git</code>. Alternatively, installers are also available, sometimes bundled with Xcode developer tools or directly from the <a href="https://git-scm.com/downloads/mac">Git SCM website (https://git-scm.com/downloads/mac)</a>.</li>
+<li><strong>Linux:</strong> Installation is typically handled through your distribution's built-in package manager. For example:<ul>
+<li>On <strong>Ubuntu/Debian</strong> based systems, you'll use <code>sudo apt install git</code>.</li>
+<li>On <strong>Fedora</strong>, the command is <code>sudo dnf install git</code>.</li>
+<li>On <strong>Arch Linux</strong>, you would use <code>sudo pacman -S git</code>.</li>
 </ul>
+</li>
+</ul>
+<div class="sb-alert sb-alert-success sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ✅
+
+    </span>
+    <span class="sb-alert-content">
+        <p><strong>Good news: Once installed, Git commands are identical across all platforms:</strong></p>
+<p>This is a fantastic aspect of Git! While the initial setup might differ, the core Git commands you will learn and use (<code>git commit</code>, <code>git branch</code>, <code>git checkout</code>, <code>git push</code>, <code>git pull</code>, etc.) are exactly the same whether you're on Windows, macOS, or any Linux distribution.</p>
+<p>This universality means the skills you develop are highly transferable, and you can collaborate seamlessly with others who might be using different operating systems.</p>
+    </span>
+</div>
+
+<ul>
+<li><strong>All terminal commands in this course work the same on Windows, Mac, and Linux:</strong><ul>
+<li>To ensure a consistent learning experience, this course will focus on these universal Git commands as executed in a terminal or command-line interface.</li>
+<li>While the terminal application itself might have a different name or appearance (e.g., Git Bash or PowerShell on Windows, Terminal on macOS, various terminal emulators on Linux), the underlying Git commands you type and their behavior will be consistent with what's taught.</li>
+</ul>
+</li>
+</ul>
+<div class="sb-alert sb-alert-info sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
+    <span class="sb-alert-icon">
+
+            ℹ️
+
+    </span>
+    <span class="sb-alert-content">
+        <p><strong>GUI clients available for all platforms if preferred:</strong></p>
+<p>If you're not entirely comfortable with the command line, or if you prefer a more visual way to interact with Git, there's good news: numerous Graphical User Interface (GUI) clients are available for all major operating systems. These tools provide a visual interface for Git operations.</p>
+<p>While these GUI clients can be helpful, especially for visualizing branches and history, this course will primarily focus on the command-line interface to ensure you build a fundamental understanding of Git's operations, which are consistent everywhere.</p>
+    </span>
+</div>
+
 <hr />
 <h2 id="why-learn-git-github">Why Learn Git &amp; GitHub?</h2>
 <p>Understanding Git and GitHub is crucial for anyone involved in software development. Here's why:</p>
@@ -300,73 +333,6 @@ If these requirements are too steep, perhaps I can create a '0' level tutorial f
     </span>
     <span class="sb-alert-content">
         <p>While the <strong>EduLite</strong> community appreciates any contributions, the material in this tutorial can be used as a foundation for any projects.</p>
-    </span>
-</div>
-
-<hr />
-<h1 id="git-a-distributed-version-control-system">Git: A Distributed Version Control System</h1>
-<p>Git is a powerful version control tool. Its key functions include:</p>
-<ul>
-<li><strong>Distributed VCS:</strong> Tracks all file changes, supporting parallel work. Full local copies offer speed and offline use.</li>
-<li><strong>Change Tracking:</strong> Saves all modifications as <strong>commits</strong> (project snapshots) for easy history review and rollbacks.</li>
-<li><strong>Team Collaboration:</strong> Employs <strong>branching</strong> for isolated development and <strong>merging</strong> to integrate changes, managing conflicts.</li>
-<li><strong>Comprehensive History:</strong> Logs detailed information for every commit (who, when, why), vital for audits and debugging.</li>
-<li><strong>Offline Functionality:</strong> Most operations are performed <strong>locally and quickly</strong>; internet is only needed to share or fetch updates (push/pull).</li>
-</ul>
-<hr />
-<h1 id="git-across-different-operating-systems">Git Across Different Operating Systems</h1>
-<div class="sb-alert sb-alert-warning sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
-    <span class="sb-alert-icon">
-
-            ⚠️
-
-    </span>
-    <span class="sb-alert-content">
-        <p><strong>Git installation varies by OS:</strong><br />
-Getting Git onto your computer is the first hands-on step, and the method differs slightly based on your operating system. Here's a brief rundown of the most common ways:</p>
-    </span>
-</div>
-
-<ul>
-<li><strong>Windows:</strong> The most straightforward method is typically to download the official installer directly from the <a href="https://git-scm.com/downloads/win">Git SCM website (https://git-scm.com/downloads/win)</a>. This installer often includes "Git Bash," a terminal environment that provides a Linux-like command-line experience for using Git on Windows.</li>
-<li><strong>Mac:</strong> If you use Homebrew (a popular package manager for macOS), installing Git can be as simple as running the command <code>brew install git</code>. Alternatively, installers are also available, sometimes bundled with Xcode developer tools or directly from the <a href="https://git-scm.com/downloads/mac">Git SCM website (https://git-scm.com/downloads/mac)</a>.</li>
-<li><strong>Linux:</strong> Installation is typically handled through your distribution's built-in package manager. For example:<ul>
-<li>On <strong>Ubuntu/Debian</strong> based systems, you'll use <code>sudo apt install git</code>.</li>
-<li>On <strong>Fedora</strong>, the command is <code>sudo dnf install git</code>.</li>
-<li>On <strong>Arch Linux</strong>, you would use <code>sudo pacman -S git</code>.</li>
-</ul>
-</li>
-</ul>
-<div class="sb-alert sb-alert-success sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
-    <span class="sb-alert-icon">
-
-            ✅
-
-    </span>
-    <span class="sb-alert-content">
-        <p><strong>Good news: Once installed, Git commands are identical across all platforms:</strong></p>
-<p>This is a fantastic aspect of Git! While the initial setup might differ, the core Git commands you will learn and use (<code>git commit</code>, <code>git branch</code>, <code>git checkout</code>, <code>git push</code>, <code>git pull</code>, etc.) are exactly the same whether you're on Windows, macOS, or any Linux distribution.</p>
-<p>This universality means the skills you develop are highly transferable, and you can collaborate seamlessly with others who might be using different operating systems.</p>
-    </span>
-</div>
-
-<ul>
-<li><strong>All terminal commands in this course work the same on Windows, Mac, and Linux:</strong><ul>
-<li>To ensure a consistent learning experience, this course will focus on these universal Git commands as executed in a terminal or command-line interface.</li>
-<li>While the terminal application itself might have a different name or appearance (e.g., Git Bash or PowerShell on Windows, Terminal on macOS, various terminal emulators on Linux), the underlying Git commands you type and their behavior will be consistent with what's taught.</li>
-</ul>
-</li>
-</ul>
-<div class="sb-alert sb-alert-info sb-p-3 sb-border-radius-lg sb-mb-3 sb-shadow-sm ">
-    <span class="sb-alert-icon">
-
-            ℹ️
-
-    </span>
-    <span class="sb-alert-content">
-        <p><strong>GUI clients available for all platforms if preferred:</strong></p>
-<p>If you're not entirely comfortable with the command line, or if you prefer a more visual way to interact with Git, there's good news: numerous Graphical User Interface (GUI) clients are available for all major operating systems. These tools provide a visual interface for Git operations.</p>
-<p>While these GUI clients can be helpful, especially for visualizing branches and history, this course will primarily focus on the command-line interface to ensure you build a fundamental understanding of Git's operations, which are consistent everywhere.</p>
     </span>
 </div>
 
