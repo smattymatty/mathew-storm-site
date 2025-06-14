@@ -163,7 +163,7 @@ A_base/templates/A_base/about.html:
 ```
 
 ### % extends "A_base/base.html" %
-The base html file this extends from. The {% block content %} part of this template will alter the same-named block of the extended base template.
+The base html file this extends from. The % block content %} part of this template will alter the same-named block of the extended base template.
 
 ### % for member in team_members %
 Accesses the 'team_members' variable from the view's context. The for loop will create the paragraph & strong element for each member in this list.
@@ -171,7 +171,7 @@ Accesses the 'team_members' variable from the view's context. The for loop will 
 ### { member.name/.role/.bio }
 Accesses and shows the 'name', 'role', and 'bio' fields of each member in the 'team_members' list.
 
-### % endfor %} and {% endblock %
+### % endfor % and % endblock %
 Be sure to end your for loops and blocks, or else you will get an error when you try to load this page.
 
 ### style="opacity: 0.5;" and "text-indent: 16px;"
@@ -183,17 +183,17 @@ A little taste of CSS. Take note of the syntax, the variable name followed by a 
 Update the nav links in A_base/base.html
 
 ```html
-{% verbatim %}
+% verbatim %}
 <nav>
     <ul>
-        <li><a href="{% url 'base' %}">Home</a></li>
-        <li><a href="{% url 'about' %}">About</a></li>
+        <li><a href="% url 'base' %}">Home</a></li>
+        <li><a href="% url 'about' %}">About</a></li>
     </ul>
 </nav>
-{% endverbatim %}
+% endverbatim %}
 ```
 
-### {% url 'base' %} and {% url 'about' %}
+### % url 'base' % and % url 'about' %
 
 The 'url' tag will search for the urlpatterns we have defined in A_base/urls.py by their 'name' attribute:
 
@@ -313,26 +313,25 @@ Hold down "Control", or "Command" on a Mac, to select more than one.
 
 Update A_base/templates/A_base/about.html inside the members loop, below the bio
 ```django
-{% verbatim %}
+% verbatim %}
 <p style="text-indent: 16px;">{{ member.bio }}</p>
-
-{% if member.projects.all.count == 1 %}
+% if member.projects.all.count == 1 %}
    <p>{{ member.projects.all.count }} project</p>
-{% elif member.projects.all.count > 1 %}
+% elif member.projects.all.count > 1 %}
    <p>{{ member.projects.all.count }} projects</p>
-{% else %}
+% else %}
    <p>No projects</p>
-{% endif %}
+% endif %}
 
-{% for project in member.projects.all %}
+% for project in member.projects.all %}
    <p>
       <a href="#">{{ project.name }}</a>
    </p>
-{% endfor %}
-{% endverbatim %}
+% endfor %}
+% endverbatim %}
 ```
 
-### {% if %} and {% elif %} and {% else %}
+### % if % and % elif % and % else %
 Just like Python, you can use comparison operators like == or > to check conditions!
 
 ### .projects.all.count
@@ -392,31 +391,33 @@ If that project is not found, get_object_or_404 will automatically return an err
 
 Create A_base/templates/A_base/project_detail.html
 ```django
-{% verbatim %}
-{% extends "A_base/base.html" %}
+% verbatim %}
+% extends "A_base/base.html" %}
+% endverbatim %}
 
-{% block content %}
+% verbatim %}
+% block content %}
 <h1>{{ project.name }}</h1>
 <p>{{ project.description }}</p>
 <h2>Members</h2>
-{% for member in project.members.all %}
+% for member in project.members.all %}
     <strong>{{ member.name }}</strong>
     <span style="opacity: 0.5;">{{ member.role }}</span>
     <p style="text-indent: 16px;">{{ member.bio }}</p>
-{% endfor %}
-{% endblock %}
-{% endverbatim %}
+% endfor %}
+% endblock %}
+% endverbatim %}
 ```
 
 Update the url in the projects for loop on about.html
 ```django
-{% verbatim %}
-{% for project in member.projects.all %}
+% verbatim %}
+% for project in member.projects.all %}
 <p>
-    <a href="{% url 'project_detail' project.slug %}">{{ project.name }}</a>
+    <a href="% url 'project_detail' project.slug %}">{{ project.name }}</a>
 </p>
-{% endfor %}
-{% endverbatim %}
+% endfor %}
+% endverbatim %}
 ```
 
 This will automatically populate the href with the correct project's full URL based on the slug
@@ -424,33 +425,35 @@ This will automatically populate the href with the correct project's full URL ba
 ---
 ## Splitting up the templates
 ### Notice we had to write the member info twice? Let's fix that!
-
+A_projects/project_detail.html
 A new folder in your templates called "snippets"
 Create templates/A_base/snippets/member_info.html:
 ```html
-{% verbatim %}
+% verbatim %}
 <strong>{{ member.name }}</strong>
 <span style="opacity: 0.5;">{{ member.role }}</span>
 <p style="text-indent: 16px;">{{ member.bio }}</p>
-{% endverbatim %}
+% endverbatim %}
 ```
 
-Now instead of rewriting this every time we want to show member info, we can use the {% include %} tag
+Now instead of rewriting this every time we want to show member info, we can use the % include % tag
 
 A_base/about.html:
 ```django
-{% verbatim %}
-{% for member in team_members %}
-    {% include "A_base/snippets/member_info.html" %}
-{% endfor %}
-{% endverbatim %}
+% verbatim %}
+% for member in team_members %}
+    % include "A_base/snippets/member_info.html" %}
+% endfor %}
+% endverbatim %}
 ```
 
 A_projects/project_detail.html:
 ```django
-{% for member in project.members.all %}
-    {% include "A_base/snippets/member_info.html" %}
-{% endfor %}
+% verbatim %}
+% for member in project.members.all %}
+    % include "A_base/snippets/member_info.html" %}
+% endfor %}
+% endverbatim %}
 ```
 
 **Splitting your templates** up like this is a good habit to get into.
@@ -498,29 +501,29 @@ Next, we will create the template
 
 Create A_base/templates/A_base/project_list.html
 ```django
-{% verbatim %}
-{% extends "A_base/base.html" %}
+% verbatim %}
+% extends "A_base/base.html" %}
 
-{% block content %}
+% block content %}
 <h1>Projects</h1>
-{% for project in projects %}
-    <h2><a href="{% url 'project_detail' project.slug %}">
+% for project in projects %}
+    <h2><a href="% url 'project_detail' project.slug %}">
         {{ project.name }}
     </a></h2>
     <p>{{ project.start_date }}</p>
     <p>{{ project.members.all.count }} members</p>
-{% endfor %}
-{% endblock %}
-{% endverbatim %}
+% endfor %}
+% endblock %}
+% endverbatim %}
 ```
 
 Add a new link to the nav bar in base.html
 ```html
 <nav>
     <ul>
-        <li><a href="{% url 'base' %}">Home</a></li>
-        <li><a href="{% url 'about' %}">About</a></li>
-        <li><a href="{% url 'project_list' %}">Projects</a></li>
+        <li><a href="% url 'base' %}">Home</a></li>
+        <li><a href="% url 'about' %}">About</a></li>
+        <li><a href="% url 'project_list' %}">Projects</a></li>
     </ul>
 </nav>
 ```
