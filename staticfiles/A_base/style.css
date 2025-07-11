@@ -1,14 +1,14 @@
 :root {
-    --main-bg-color: rgb(250, 250, 250);
-    --seconday-bg-color: rgb(240, 249, 252);
-    --primary-color: rgb(6, 6, 22);
-    --text-color: rgb(0, 0, 0);
-    --link-hover-color: rgb(24, 24, 88);
-    --text-primary-color: rgb(255, 255, 255);
-    --accent-color: rgba(133, 211, 207, 0.596);
-    --content-heading-color: rgb(34, 56, 68);
-    --content-text-color: rgba(12, 25, 32, 0.911);
-    --spellbook-background-color: rgb(240, 249, 252);
+    --main-bg-color: #ebede9;
+    --seconday-bg-color: #c7cfcc;
+    --primary-color: #10141f;
+    --text-color: #090a14;
+    --link-hover-color: #1e1d39;
+    --text-primary-color: #ebede9;
+    --accent-color: #3c5e8b;
+    --content-heading-color: #172038;
+    --content-text-color: #151d28;
+    --spellbook-background-color: #ebede9;
   }
   
   * {
