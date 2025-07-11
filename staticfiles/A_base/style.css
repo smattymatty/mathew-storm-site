@@ -1,6 +1,6 @@
 :root {
     --main-bg-color: #ebede9;
-    --seconday-bg-color: #c7cfcc;
+    --seconday-bg-color: #ebede9;
     --primary-color: #10141f;
     --text-color: #090a14;
     --link-hover-color: #1e1d39;
@@ -8,7 +8,7 @@
     --accent-color: #3c5e8b;
     --content-heading-color: #172038;
     --content-text-color: #151d28;
-    --spellbook-background-color: #ebede9;
+    --spellbook-background-color: #577277;
   }
   
   * {
@@ -68,7 +68,7 @@
     padding-left: 0.2rem;
     border-bottom: 1px solid var(--primary-color);
     transition: all 0.2s ease-in-out;
-    background-color: var(--seconday-bg-color);
+    background-color: var(--main-bg-color);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   }
   
@@ -98,7 +98,6 @@
   .social-logos a img {
     width: 2rem;
     height: 2rem;
-  
     transition: all 0.2s ease-in-out;
     border-radius: 70%;
     padding: 0.2rem;
@@ -140,32 +139,32 @@ a:hover {
   font-weight: 500;
 }
 
-  .nav-links button,
-  .nav-links a,
-  .nav-title {
-    font-size: 1rem;
-    border: 2px solid rgba(0, 0, 0, 0.37);
-    border-right: 1px solid rgba(0, 0, 0, 0.075);
-    border-top: 1px solid rgba(0, 0, 0, 0.075);
-    padding-bottom: 0.5rem;
-    margin-top: 1rem;
-    transition: all 0.2s ease-in-out;
-    background-color: white;
-    color: var(--primary-color);
-    border-radius: 0.5rem;
-    margin-bottom: 0.5rem;
-    padding: 1rem;
-    transition: all 0.2s ease-in-out;
-    width: 100%;
-    margin-left: 0.5rem;
-    font-family: "Newsreader", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    user-select: none;
-    margin-right: 1rem;
-    max-width: 32rem;
-  }
+.nav-links button,
+.nav-links a,
+.nav-title {
+  font-size: 1rem;
+  border: 2px solid rgba(0, 0, 0, 0.37);
+  border-right: 1px solid rgba(0, 0, 0, 0.075);
+  border-top: 1px solid rgba(0, 0, 0, 0.075);
+  padding-bottom: 0.5rem;
+  margin-top: 1rem;
+  transition: all 0.2s ease-in-out;
+  background-color: #a4dddb77;
+  color: #172038 ;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  margin-left: 0.5rem;
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  user-select: none;
+  margin-right: 1rem;
+  max-width: 32rem;
+}
   
   pre {
     text-align: left;
@@ -202,15 +201,27 @@ a:hover {
   .click-animation {
     animation: click-animation 0.5s ease-in-out;
   }
+.toc-wrapper {
+  background-color: var(--primary-color) !important;
+  padding: 1rem;
+}
+
+.toc-link,
+.toc-toggle {
+  color: var(--text-primary-color) !important;
+}
+
   
   .nav-links button.active,
   .nav-links a.active,
   .nav-title.active {
-    background-color: var(--primary-color);
+    background-color: var(--primary-color) !important;
     color: var(--text-primary-color);
     font-weight: bold;
     scale: 1.05;
     z-index: 2;
+    border: 2px solid #a4dddb;
+    box-shadow: 0px 0px 6px #a4dddb;
   }
   
   .first-nav-container {
@@ -272,6 +283,8 @@ a:hover {
   
     .welcome-message {
       font-size: 2rem !important;
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
     }
   
     pre {
@@ -293,7 +306,7 @@ a:hover {
     max-height: 4rem;
     background-color: var(--main-bg-color);
     padding: 1rem;
-    border-right: 4vw solid var(--primary-color);
+    border-right: 0.5rem solid var(--primary-color);
     border-top: 1px solid var(--primary-color);
     overflow-x: hidden;
   }
@@ -343,11 +356,10 @@ a:hover {
     display: flex;
     flex-direction: row;
     flex-grow: 22;
-    justify-content: space-between;
+    justify-content: flex-end;
     /* position: sticky; */
     align-items: center;
     width: 100vw;
-    border-left: 2vw solid white;
     background-color: var(--primary-color);
     border-bottom: 1px solid var(--primary-color);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -361,6 +373,10 @@ a:hover {
     font-size: 3rem;
     font-weight: bold;
     color: var(--text-primary-color);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   
   .spellbook-md {
@@ -605,9 +621,18 @@ a:hover {
   }
 
   .spellbook-content {
-    width: clamp(420px, 99%, 888px); /* min, preferred, max */
+    width: clamp(400px, 85%, 910px); /* min, preferred, max */
+    margin-top:2px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #ebede9 !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    box-shadow:#1e1d39 1px 4px 10px;
+    border-left: 2px solid #172038aa !important;
+    border-right: 2px solid #253a5eaa !important;
   }
 
 @media (max-width: 764px) {
