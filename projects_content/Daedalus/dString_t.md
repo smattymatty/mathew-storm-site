@@ -29,6 +29,18 @@ typedef struct {
 } dString_t;
 ```
 
+{~ parameter_v1 name="str" type="char*" ~}
+A pointer to the dynamically allocated character array that holds the string data.
+{~~}
+
+{~ parameter_v1 name="alloced" type="size_t" ~}
+The total number of bytes currently allocated for the `str` buffer.
+{~~}
+
+{~ parameter_v1 name="len" type="size_t" ~}
+The current length of the string stored in `str`, *excluding* the null terminator.
+{~~}
+
 * **`str`**: A pointer to the dynamically allocated character array that holds the string data.
 * **`alloced`**: The total number of bytes currently allocated for the `str` buffer. This represents the capacity.
 * **`len`**: The current length of the string stored in `str`, *excluding* the null terminator.

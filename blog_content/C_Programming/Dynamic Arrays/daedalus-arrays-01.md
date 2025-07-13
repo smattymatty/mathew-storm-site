@@ -18,26 +18,8 @@ This code is a part of the [Daedalus](https://github.com/McCoy1701/Daedalus) lib
 The content of this tutorial is designed to help you understand how to create efficient dynamic arrays for your own projects.
 
 **[Part 1: The Challenge of Fixed-Size Arrays](#part-1-the-challenge-of-fixed-size-arrays)**
-- [Part 1: The Challenge of Fixed-Size Arrays](#part-1-the-challenge-of-fixed-size-arrays)
-  - [The Fixed-Size Constraint: A Double-Edged Sword](#the-fixed-size-constraint-a-double-edged-sword)
-  - [The Burden of Manual Resizing and Manipulation](#the-burden-of-manual-resizing-and-manipulation)
-- [Part 2: The Daedalus Dynamic Array Solution](#part-2-the-daedalus-dynamic-array-solution)
-  - [Introducing the Dynamic Array Pattern](#introducing-the-dynamic-array-pattern)
-  - [Setting Up Your Workspace: The Daedalus.h Header](#setting-up-your-workspace-the-daedalush-header)
-  - [Core `dArray_t` Function Implementations](#core-darray_t-function-implementations)
-    - [1. Core Initialization and Destruction](#1-core-initialization-and-destruction)
-    - [2. Dynamic Memory Management](#2-dynamic-memory-management)
-    - [3. Element Management: Adding and Accessing Data](#3-element-management-adding-and-accessing-data)
-    - [4. Insertion and Removal at Arbitrary Indices](#4-insertion-and-removal-at-arbitrary-indices)
-- [Part 3: The Impact - What Flexible Arrays Enable](#part-3-the-impact---what-flexible-arrays-enable)
-  - [Cleaner Code: Focus on Logic, Not Low-Level Memory](#cleaner-code-focus-on-logic-not-low-level-memory)
-  - [Safer Code: Preventing Common Array Pitfalls](#safer-code-preventing-common-array-pitfalls)
-  - [Faster Code: Optimized for Dynamic Workloads](#faster-code-optimized-for-dynamic-workloads)
-  - [Conclusion: The Ever-Evolving Library](#conclusion-the-ever-evolving-library)
-
 **[Part 2: The Daedalus Dynamic Array Solution](#part-2-the-daedalus-dynamic-array-solution)**
-
-**[Part 3: The Impact - What Flexible Arrays Enable](#part-3-the-impact---what-flexible-arrays-enable)**
+**[Part 3: The Impact - What Flexible Arrays Enable](#part-3-the-impact-what-flexible-arrays-enable)**
 {~~}
 
 ---

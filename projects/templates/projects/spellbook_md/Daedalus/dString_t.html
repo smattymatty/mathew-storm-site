@@ -14,6 +14,30 @@
     size_t  len;      /**&lt; Current string length, excluding null terminator */
 } dString_t;
 </code></pre>
+<div>
+    <strong>str</strong>: char*
+
+    <div>
+        <p>A pointer to the dynamically allocated character array that holds the string data.</p>
+    </div>
+</div>
+
+<div>
+    <strong>alloced</strong>: size_t
+
+    <div>
+        <p>The total number of bytes currently allocated for the <code>str</code> buffer.</p>
+    </div>
+</div>
+
+<div>
+    <strong>len</strong>: size_t
+
+    <div>
+        <p>The current length of the string stored in <code>str</code>, <em>excluding</em> the null terminator.</p>
+    </div>
+</div>
+
 <ul>
 <li><strong><code>str</code></strong>: A pointer to the dynamically allocated character array that holds the string data.</li>
 <li><strong><code>alloced</code></strong>: The total number of bytes currently allocated for the <code>str</code> buffer. This represents the capacity.</li>

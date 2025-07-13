@@ -3,6 +3,21 @@ import logging # For potential warnings/errors
 
 logger = logging.getLogger(__name__) # Or a more specific logger
 
+@SpellBlockRegistry.register()
+class ParamaterSpellBlock(BasicSpellBlock):
+    name = "parameter_v1"
+    template = "A_base/blocks/parameter_v1.html" # Main template for the hero block
+    
+    def get_context(self):
+        """
+        Get the name, type, and description of the parameter.
+        """
+        context = super().get_context() # Gets basic context like 'content', 'kwargs'
+        
+        context["name"] = self.kwargs.get("name")
+        context["type"] = self.kwargs.get("type")
+        
+        return context
 
 @SpellBlockRegistry.register()
 class LabelSeperatorSpellBlock(BasicSpellBlock):

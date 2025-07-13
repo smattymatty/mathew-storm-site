@@ -1,7 +1,7 @@
 {% div .sb-mb-n4 %}
 {% enddiv %}
 
-{~ hero layout="text_left_image_right" text_color="black-75" bg_color="secondary-25" text_bg_color="white-75" image_alt="My Mastodon Profile Picture" image_src="https://files.techhub.social/accounts/avatars/112/618/249/566/505/608/original/b2f279867a4f8e00.jpg" ~}
+{~ hero layout="text_left_image_right" text_color="black-75" bg_color="secondary-25" text_bg_color="white-75" image_alt="My Mastodon Profile Picture" image_src="https://files.techhub.social/accounts/avatars/112/618/249/566/505/608/original/f1e13d4a012d75a5.jpg" ~}
 
 *My name is Mathew Storm, but I go by 'smattymatty' online.*
 
