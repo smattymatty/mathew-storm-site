@@ -1,0 +1,194 @@
+{% extends "A_base/base.html" %}
+{% load static storm_filters %}
+
+{% block content %}
+<!-- Hero Section with Storm Animations -->
+<section class="hero" style="padding: 4rem 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center;">
+    <h1 data-storm="hero-title" style="font-size: 3rem; margin-bottom: 1rem;">
+        Welcome to Storm System
+    </h1>
+    
+    <h2 data-storm="hero-subtitle" data-storm-delay="300" style="font-size: 1.5rem; margin-bottom: 1rem; opacity: 0.9;">
+        Professional Animations with HTML Attributes Only
+    </h2>
+    
+    <p data-storm="hero-description" data-storm-delay="600" style="font-size: 1.1rem; max-width: 600px; margin: 0 auto 2rem;">
+        Create stunning, animated Django websites without writing a single line of JavaScript or CSS. 
+        Just add data-storm attributes to your HTML elements.
+    </p>
+    
+    <button data-storm="fade-in" data-storm-delay="900" data-storm-hover="lift" data-storm-click="pulse sparkles" 
+            style="padding: 1rem 2rem; font-size: 1.1rem; background: white; color: #764ba2; border: none; border-radius: 50px; cursor: pointer; font-weight: bold;">
+        Get Started
+    </button>
+</section>
+
+<!-- Features Section with Staggered Animations -->
+<section class="features" style="padding: 4rem 2rem; background: #f7f7f7;">
+    <h2 data-storm="fade-in" style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem;">
+        Key Features
+    </h2>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto;">
+        {% for i in "123" %}
+        <div data-storm="slide-up" data-storm-delay="{{ forloop.counter0|multiply:200 }}" data-storm-hover="scale"
+             style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+            <div data-storm-click="bounce" style="font-size: 3rem; margin-bottom: 1rem; cursor: pointer;">
+                {% if forloop.counter == 1 %}⚡{% elif forloop.counter == 2 %}🎨{% else %}🚀{% endif %}
+            </div>
+            <h3 style="margin-bottom: 1rem;">
+                {% if forloop.counter == 1 %}
+                    Lightning Fast
+                {% elif forloop.counter == 2 %}
+                    Beautiful Effects
+                {% else %}
+                    Easy to Use
+                {% endif %}
+            </h3>
+            <p style="color: #666;">
+                {% if forloop.counter == 1 %}
+                    Optimized for performance with automatic viewport detection and lazy loading.
+                {% elif forloop.counter == 2 %}
+                    20+ built-in animations including fade, slide, zoom, bounce, and blur effects.
+                {% else %}
+                    Just add HTML attributes. No JavaScript or CSS knowledge required.
+                {% endif %}
+            </p>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Interactive Elements Demo -->
+<section style="padding: 4rem 2rem;">
+    <h2 data-storm="fade-in" style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem;">
+        Interactive Effects
+    </h2>
+    
+    <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+        <p data-storm="slide-up" style="margin-bottom: 2rem; font-size: 1.1rem;">
+            Try hovering and clicking on these elements:
+        </p>
+        
+        <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+            <button data-storm="fade-in" data-storm-delay="200" data-storm-hover="lift" 
+                    style="padding: 0.75rem 1.5rem; background: #667eea; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                Hover Lift
+            </button>
+            
+            <button data-storm="fade-in" data-storm-delay="400" data-storm-hover="scale"
+                    style="padding: 0.75rem 1.5rem; background: #764ba2; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                Hover Scale
+            </button>
+            
+            <button data-storm="fade-in" data-storm-delay="600" data-storm-hover="glow"
+                    style="padding: 0.75rem 1.5rem; background: #f093fb; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                Hover Glow
+            </button>
+            
+            <button data-storm="fade-in" data-storm-delay="800" data-storm-click="bounce"
+                    style="padding: 0.75rem 1.5rem; background: #4facfe; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                Click Bounce
+            </button>
+            
+            <button data-storm="fade-in" data-storm-delay="1000" data-storm-click="shake"
+                    style="padding: 0.75rem 1.5rem; background: #00f2fe; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                Click Shake
+            </button>
+            
+            <button data-storm="fade-in" data-storm-delay="1200" data-storm-click="sparkles"
+                    style="padding: 0.75rem 1.5rem; background: #fa709a; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                Click Sparkles
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Form Example -->
+<section style="padding: 4rem 2rem; background: #f7f7f7;">
+    <div style="max-width: 600px; margin: 0 auto;">
+        <h2 data-storm="fade-in" style="text-align: center; font-size: 2rem; margin-bottom: 2rem;">
+            Contact Form Example
+        </h2>
+        
+        <form data-storm="slide-up" style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+            <div data-storm="fade-in" data-storm-delay="200" style="margin-bottom: 1.5rem;">
+                <label style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Name</label>
+                <input type="text" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px;">
+            </div>
+            
+            <div data-storm="fade-in" data-storm-delay="400" style="margin-bottom: 1.5rem;">
+                <label style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Email</label>
+                <input type="email" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px;">
+            </div>
+            
+            <div data-storm="fade-in" data-storm-delay="600" style="margin-bottom: 1.5rem;">
+                <label style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Message</label>
+                <textarea style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 5px; min-height: 120px;"></textarea>
+            </div>
+            
+            <button type="submit" data-storm="fade-in" data-storm-delay="800" data-storm-hover="lift" data-storm-click="pulse"
+                    style="width: 100%; padding: 1rem; background: #667eea; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 1.1rem; font-weight: bold;">
+                Send Message
+            </button>
+        </form>
+    </div>
+</section>
+
+<!-- Animation Types Showcase -->
+<section style="padding: 4rem 2rem;">
+    <h2 data-storm="fade-in" style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem;">
+        All Animation Types
+    </h2>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; max-width: 1200px; margin: 0 auto;">
+        <div data-storm="fade-in" data-storm-delay="0" style="padding: 1rem; background: #f0f0f0; border-radius: 5px; text-align: center;">
+            Fade In
+        </div>
+        <div data-storm="slide-up" data-storm-delay="100" style="padding: 1rem; background: #f0f0f0; border-radius: 5px; text-align: center;">
+            Slide Up
+        </div>
+        <div data-storm="slide-down" data-storm-delay="200" style="padding: 1rem; background: #f0f0f0; border-radius: 5px; text-align: center;">
+            Slide Down
+        </div>
+        <div data-storm="slide-left" data-storm-delay="300" style="padding: 1rem; background: #f0f0f0; border-radius: 5px; text-align: center;">
+            Slide Left
+        </div>
+        <div data-storm="slide-right" data-storm-delay="400" style="padding: 1rem; background: #f0f0f0; border-radius: 5px; text-align: center;">
+            Slide Right
+        </div>
+        <div data-storm="zoom-in" data-storm-delay="500" style="padding: 1rem; background: #f0f0f0; border-radius: 5px; text-align: center;">
+            Zoom In
+        </div>
+        <div data-storm="scale-up" data-storm-delay="600" style="padding: 1rem; background: #f0f0f0; border-radius: 5px; text-align: center;">
+            Scale Up
+        </div>
+        <div data-storm="blur-in" data-storm-delay="700" style="padding: 1rem; background: #f0f0f0; border-radius: 5px; text-align: center;">
+            Blur In
+        </div>
+        <div data-storm="rotate-in" data-storm-delay="800" style="padding: 1rem; background: #f0f0f0; border-radius: 5px; text-align: center;">
+            Rotate In
+        </div>
+        <div data-storm="bounce-in" data-storm-delay="900" style="padding: 1rem; background: #f0f0f0; border-radius: 5px; text-align: center;">
+            Bounce In
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section style="padding: 4rem 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center;">
+    <h2 data-storm="fade-in" style="font-size: 2.5rem; margin-bottom: 1rem;">
+        Ready to Build Amazing Websites?
+    </h2>
+    
+    <p data-storm="fade-in" data-storm-delay="300" style="font-size: 1.2rem; margin-bottom: 2rem; max-width: 600px; margin: 0 auto 2rem;">
+        Start using Storm System in your Django projects today. No configuration needed.
+    </p>
+    
+    <button data-storm="fade-in" data-storm-delay="600" data-storm-hover="lift" data-storm-click="sparkles"
+            style="padding: 1rem 2rem; font-size: 1.1rem; background: white; color: #764ba2; border: none; border-radius: 50px; cursor: pointer; font-weight: bold;">
+        Start Building
+    </button>
+</section>
+
+{% endblock %}

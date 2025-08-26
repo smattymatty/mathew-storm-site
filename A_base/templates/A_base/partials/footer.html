@@ -1,110 +1,346 @@
-<footer>
+<footer class="modern-footer" data-storm="fade-in" data-storm-delay="700">
+    <div class="footer-gradient-bg"></div>
     <div class="footer-container">
       <div class="footer-content">
-        <div class="footer-section">
-          <h3>Quick Links</h3>
-          <ul>
-            <li><a href="{% url 'base:index' %}">Home</a></li>
-            <li><a href="{% url 'notes:intro' %}">Notes</a></li>
+        <div class="footer-section" data-storm="slide-up" data-storm-delay="800">
+          <h3 class="footer-title">
+            <span class="sb-text-primary">Quick Links</span>
+          </h3>
+          <ul class="footer-links">
+            <li><a href="{% url 'base:index' %}" data-storm-hover="scale">Home</a></li>
+            <li><a href="{% url 'projects:intro' %}" data-storm-hover="scale">Projects</a></li>
+            <li><a href="{% url 'tutorials:intro' %}" data-storm-hover="scale">Tutorials</a></li>
+            <li><a href="{% url 'blog:intro' %}" data-storm-hover="scale">Blog</a></li>
+            <li><a href="{% url 'notes:intro' %}" data-storm-hover="scale">Notes</a></li>
           </ul>
         </div>
 
-        <div class="footer-section">
-          <h3>Connect</h3>
-          <ul>
-            <li><a href="https://github.com/smattymatty">GitHub</a></li>
+        <div class="footer-section" data-storm="slide-up" data-storm-delay="900">
+          <h3 class="footer-title">
+            <span class="sb-text-secondary">Connect</span>
+          </h3>
+          <ul class="footer-links social-links">
             <li>
-              <a href="https://techhub.social/@smattymatty">Mastodon</a>
+              <a href="https://github.com/smattymatty" 
+                 data-storm-hover="lift" 
+                 data-storm-click="bounce"
+                 class="social-link github">
+                <svg class="social-icon" viewBox="0 0 24 24" width="20" height="20">
+                  <path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.44 9.82 8.21 11.41.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.49.99.11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23.96-.27 1.98-.4 3-.4s2.04.13 3 .4c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.69.82.57A12 12 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+                GitHub
+              </a>
             </li>
             <li>
-              <a href="https://www.youtube.com/@MatHEWStorm">YouTube</a>
+              <a href="https://techhub.social/@smattymatty" 
+                 data-storm-hover="lift"
+                 data-storm-click="bounce"
+                 class="social-link mastodon">
+                <svg class="social-icon" viewBox="0 0 24 24" width="20" height="20">
+                  <path fill="currentColor" d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/>
+                </svg>
+                Mastodon
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@MatHEWStorm" 
+                 data-storm-hover="lift"
+                 data-storm-click="bounce"
+                 class="social-link youtube">
+                <svg class="social-icon" viewBox="0 0 24 24" width="20" height="20">
+                  <path fill="currentColor" d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+                YouTube
+              </a>
             </li>
           </ul>
         </div>
 
-        <div class="footer-section">
-          <h3>Contact Info</h3>
-          <address>
-            <p>
-              Email:
-              <a href="mailto:MathewStormDev@gmail.com"
-                >MathewStormDev@gmail.com</a
-              >
-            </p>
+        <div class="footer-section" data-storm="slide-up" data-storm-delay="1000">
+          <h3 class="footer-title">
+            <span class="sb-text-accent">Contact</span>
+          </h3>
+          <address class="footer-contact">
+            <a href="mailto:MathewStormDev@gmail.com" 
+               class="email-link"
+               data-storm-hover="glow"
+               data-storm-click="sparkles">
+              <svg class="email-icon" viewBox="0 0 24 24" width="20" height="20">
+                <path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+              </svg>
+              MathewStormDev@gmail.com
+            </a>
           </address>
+          <div class="powered-by" data-storm="fade-in" data-storm-delay="1100">
+            <p>Powered by</p>
+            <a href="https://django-spellbook.org" 
+               class="spellbook-link"
+               data-storm-hover="scale"
+               data-storm-click="sparkles">
+              ✨ Django Spellbook
+            </a>
+          </div>
         </div>
       </div>
 
-      <div class="footer-bottom">
-
-      <div class="sb-flex sb-justify-center sb-items-center sb-gap-2">
-          <p class="sb-mt-4 sb-text-sm">
-              <a href="https://github.com/smattymatty/mathew-storm-site" class="in-code-link"
-              target="_blank">
-              This Website</a>
-              is powered by
-              <a href="https://django-spellbook.org" class="in-code-link"
-              target="_blank">
-                  Django Spellbook</a>
-          </p>
-      </div>
-
-
-      <!-- Copyright section -->
-      <div class="sb-mt-2 sb-text-xs sb-text-gray-600">
+      <div class="footer-bottom" data-storm="fade-in" data-storm-delay="1200">
+        <div class="copyright">
           <p>© {% now "Y" %} Mathew Storm. All rights reserved.</p>
-          <p class="sb-mt-1">Created with ❤️ in 🇨🇦</p>
-      </div>
-
-      <!-- Analytics Button for Toggle -->
-       <button onclick="toggleAnalytics()" class="sb-hidden sb-cursor-pointer sb-text-xs sb-px-4 sb-py-2">
-           Show Analytics
-       </button>
-
-      <!-- Analytics Section (hidden by default) -->
-      <div id="analytics-section sb"
-      class="sb-mt-3 sb-text-sm sb-border-t sb-pt-3 sb-w-full"
-      style="display: none;">
-          <h4 class="sb-black-75 sb-opacity-50">Page Analytics</h4>
-          <div class="sb-grid sb-grid-cols-2 sb-gap-2 sb-mt-2 sb-opacity-50">
-              <div>
-                  <p><span class="sb-font-sm">This page:</span> {{ page_views_count }} views</p>
-                  <p><span class="sb-font-sm">Today:</span> {{ today_page_views }} views</p>
-              </div>
-              <div>
-                  <p><span class="sb-font-sm">Site total:</span> {{ total_views }} views</p>
-                  <p><span class="sb-font-sm">Unique visitors:</span> {{ unique_visitors }}</p>
-              </div>
-          </div>
-
-          {% if popular_pages %}
-          <div class="sb-mt-2 sb-white sb-opacity-50">
-              <h5 class="sb-font-medium">Popular Pages:</h5>
-              <ul class="sb-mt-1 sb-text-xs sb-list-disc sb-list-inside popular-page-list">
-                  {% for page in popular_pages %}
-                  <li><a href="{{ page.url }}">{{ page.url|truncatechars:30 }}</a> - {{ page.total_views }} views</li>
-                  {% endfor %}
-              </ul>
-          </div>
-          {% endif %}
+          <p class="made-with">Made with <span class="heart" data-storm-hover="pulse">❤️</span> in <span class="flag">🇨🇦</span></p>
+        </div>
+        
+        <!-- Analytics Toggle (hidden by default) -->
+        <button onclick="toggleAnalytics()" 
+                class="analytics-toggle sb-hidden"
+                data-storm-hover="lift"
+                data-storm-click="bounce">
+          <svg viewBox="0 0 24 24" width="16" height="16">
+            <path fill="currentColor" d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+          </svg>
+          Show Analytics
+        </button>
       </div>
     </div>
-  </div>
-
   </footer>
-  <script>
-    function toggleAnalytics() {
-        const section = document.getElementById('analytics-section');
-        const button = document.querySelector('button[onclick="toggleAnalytics()"]');
 
-        if (section.style.display === 'none') {
-            section.style.display = 'block';
-            // scroll down to the section
-            window.scrollTo(0, section.offsetTop);
-            button.textContent = 'Hide Analytics';
-        } else {
-            section.style.display = 'none';
-            button.textContent = 'Show Analytics';
-        }
-    }
+<style>
+.modern-footer {
+  position: relative;
+  margin-top: 4rem;
+  padding: 3rem 0 2rem;
+  background: linear-gradient(180deg, var(--surface-color), var(--background-color));
+  border-top: 1px solid rgba(125, 211, 252, 0.2);
+  overflow: hidden;
+}
+
+.footer-gradient-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--gradient-primary);
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0%, 100% { opacity: 0.5; transform: translateX(-100%); }
+  50% { opacity: 1; transform: translateX(100%); }
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.footer-section {
+  text-align: center;
+}
+
+.footer-title {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Removed gradient-text - anti-pattern */
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin: 0.75rem 0;
+}
+
+.footer-links a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.footer-links a:hover {
+  color: var(--primary-color);
+  background: rgba(125, 211, 252, 0.1);
+  transform: translateX(5px);
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem !important;
+  background: var(--primary-color-25);
+  color: var(--text-color);
+  border: 2px solid var(--text-color);
+  border-radius: 2rem;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  background: var(--primary-color) !important;
+  color: var(--surface-color) !important;
+  border-color: var(--primary-color);
+  box-shadow: 0 5px 15px var(--primary-color-50);
+}
+
+.social-icon {
+  transition: transform 0.3s ease;
+}
+
+.social-link:hover .social-icon {
+  transform: scale(1.2);
+}
+
+.email-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--accent-color);
+  color: var(--text-color);
+  text-decoration: none;
+  border-radius: 2rem;
+  border: 2px solid var(--text-color);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.email-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(254, 240, 138, 0.4);
+  filter: brightness(1.1);
+}
+
+.powered-by {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(125, 211, 252, 0.1);
+}
+
+.powered-by p {
+  color: var(--text-secondary-color);
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.spellbook-link {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  background: var(--primary-color);
+  color: var(--text-color);
+  text-decoration: none;
+  border-radius: 2rem;
+  border: 2px solid var(--text-color);
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.spellbook-link:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(125, 211, 252, 0.5);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(125, 211, 252, 0.1);
+}
+
+.copyright {
+  color: var(--text-secondary-color);
+  font-size: 0.9rem;
+}
+
+.made-with {
+  margin-top: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.heart {
+  display: inline-block;
+  animation: heartbeat 1.5s ease-in-out infinite;
+  cursor: pointer;
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  10%, 30% { transform: scale(1.1); }
+  20% { transform: scale(0.9); }
+}
+
+.flag {
+  font-size: 1.2rem;
+}
+
+.analytics-toggle {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: rgba(125, 211, 252, 0.1);
+  border: 1px solid rgba(125, 211, 252, 0.2);
+  color: var(--text-color);
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.analytics-toggle:hover {
+  background: rgba(125, 211, 252, 0.2);
+  border-color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+  
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-link {
+    width: 200px;
+    justify-content: center;
+  }
+}
+</style>
+
+<script>
+  function toggleAnalytics() {
+      const section = document.getElementById('analytics-section');
+      const button = document.querySelector('button[onclick="toggleAnalytics()"]');
+
+      if (section && section.style.display === 'none') {
+          section.style.display = 'block';
+          window.scrollTo(0, section.offsetTop);
+          if (button) button.textContent = 'Hide Analytics';
+      } else if (section) {
+          section.style.display = 'none';
+          if (button) button.textContent = 'Show Analytics';
+      }
+  }
 </script>

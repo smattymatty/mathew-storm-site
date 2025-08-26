@@ -1,15 +1,5 @@
-:root {
-    --main-bg-color: #ebede9;
-    --seconday-bg-color: #ebede9;
-    --primary-color: #10141f;
-    --text-color: #090a14;
-    --link-hover-color: #1e1d39;
-    --text-primary-color: #ebede9;
-    --accent-color: #3c5e8b;
-    --content-heading-color: #172038;
-    --content-text-color: #151d28;
-    --spellbook-background-color: #577277;
-  }
+/* Bob Ross Theme Enhancement */
+/* Happy little accidents with beautiful colors */
   
   * {
     font-family: "Newsreader", serif;
@@ -18,6 +8,8 @@
   body {
     margin: 0;
     overflow-x: hidden;
+    background: var(--background-color);
+    color: var(--text-color);
   }
   
   nav {
@@ -25,16 +17,7 @@
     margin-top: 6px;
   }
   
-  .main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 3rem;
-    align-items: center;
-    height: auto;
-    width: auto;
-    background-color: var(--spellbook-background-color);
-  }
+  /* Removed old main-container - using Spellbook grid instead */
   
   @media (max-width: 764px) {
     .main-container {
@@ -46,31 +29,13 @@
     }
   }
   
-  body {
-    background-color: var(--main-bg-color);
-  }
+  /* Removed duplicate body rule */
   
   h2 {
     text-align: center;
   }
   
-  .nav-container {
-    position: relative;
-    z-index: 20;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 102%;
-    right: 7px;
-    bottom: 5px;
-    margin-bottom: -0.4rem;
-    padding-left: 0.2rem;
-    border-bottom: 1px solid var(--primary-color);
-    transition: all 0.2s ease-in-out;
-    background-color: var(--main-bg-color);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  }
+  /* Removed old nav-container styles - using Spellbook classes in navbar */
   
   .nav-container a {
     text-decoration: none;
@@ -143,18 +108,15 @@ a:hover {
 .nav-links a,
 .nav-title {
   font-size: 1rem;
-  border: 2px solid rgba(0, 0, 0, 0.37);
-  border-right: 1px solid rgba(0, 0, 0, 0.075);
-  border-top: 1px solid rgba(0, 0, 0, 0.075);
+  border: 2px solid var(--primary-color-25);
   padding-bottom: 0.5rem;
   margin-top: 1rem;
   transition: all 0.2s ease-in-out;
-  background-color: #a4dddb77;
-  color: #172038 ;
-  border-radius: 0.5rem;
+  background-color: var(--primary-color-25);
+  color: var(--text-color);
+  border-radius: var(--sb-border-radius-lg);
   margin-bottom: 0.5rem;
   padding: 1rem;
-  transition: all 0.2s ease-in-out;
   width: 100%;
   margin-left: 0.5rem;
   font-family: "Newsreader", serif;
@@ -182,6 +144,71 @@ a:hover {
   .nav-title.active:hover {
     cursor: pointer;
     transform: scale(1.01);
+  }
+  
+  /* Bob Ross inspired buttons */
+.sb-btn {
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.sb-btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.sb-btn:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+/* Theme Toggle Button */
+  .theme-toggle-btn {
+    background: var(--primary-color);
+    border: 2px solid var(--accent-color);
+    border-radius: 0.5rem;
+    color: var(--text-primary-color);
+    cursor: pointer;
+    padding: 0.4rem 0.6rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    height: 2.5rem;
+    min-width: 2.5rem;
+  }
+
+  .theme-toggle-btn:hover {
+    background-color: var(--accent-color);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 6px var(--accent-color);
+  }
+
+  .theme-toggle-btn:active {
+    transform: scale(0.95);
+  }
+
+  .theme-toggle-btn svg {
+    width: 20px;
+    height: 20px;
+    stroke: currentColor;
+    transition: transform 0.3s ease;
+  }
+
+  .theme-toggle-btn:hover svg {
+    transform: rotate(20deg);
   }
   
   @keyframes click-animation {
@@ -216,12 +243,12 @@ a:hover {
   .nav-links a.active,
   .nav-title.active {
     background-color: var(--primary-color) !important;
-    color: var(--text-primary-color);
+    color: var(--surface-color);
     font-weight: bold;
     scale: 1.05;
     z-index: 2;
-    border: 2px solid #a4dddb;
-    box-shadow: 0px 0px 6px #a4dddb;
+    border: 2px solid var(--primary-color-50);
+    box-shadow: 0px 0px 6px var(--primary-color-50);
   }
   
   .first-nav-container {
@@ -239,57 +266,61 @@ a:hover {
     }
   }
   
-  @media (max-width: 764px) {
+  /* Mobile Responsive Design */
+  @media (max-width: 768px) {
     .nav-container {
       flex-direction: column;
       align-items: center;
-      width: 103%;
-      margin-top: -1rem;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      transition: all 0.2s ease-in-out;
-  
+      width: 100%;
+      padding: 0.5rem;
+    }
+    
+    .nav-links {
+      flex-direction: column;
+      width: 100%;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+    }
+    
+    .nav-links a,
+    .nav-links button {
+      width: 100%;
+      margin: 0;
+      text-align: center;
+    }
+    
+    .social-logos {
       justify-content: center;
-  
-      height: 100%;
+      margin-top: 0.5rem;
     }
-  
-    .first-zone {
-      width: 100vw !important;
+    
+    /* Hero adjustments */
+    .sb-text-6xl {
+      font-size: 2.5rem !important;
     }
-  
-    .spellbook-md {
-      padding-left: 1rem !important;
-      padding-right: 1rem !important;
-      max-width: 95%;
-    }
-  
-    .spellbook-md p {
-      font-size: 1rem;
-      margin-left: 1rem !important;
-      padding-right: 0.2rem !important;
-    }
-  
-    .spellbook-md h1 {
-      font-size: 1.8rem !important;
-    }
-    .spellbook-md h2 {
-      font-size: 1.6rem !important;
-    }
-  
-    .spellbook-md h3 {
-      font-size: 1.4rem !important;
-    }
-  
-    .welcome-message {
+    
+    .sb-text-5xl {
       font-size: 2rem !important;
-      padding-top: 0.25rem;
-      padding-bottom: 0.25rem;
     }
-  
+    
+    /* Stack sidebar below content on mobile */
+    .sb-lg\\:col-span-2 {
+      grid-column: span 1 !important;
+    }
+    
+    .sb-lg\\:col-span-1 {
+      grid-column: span 1 !important;
+    }
+    
+    /* Sticky sidebar becomes static on mobile */
+    .sb-sticky {
+      position: static !important;
+    }
+    
     pre {
-      font-size: 0.9rem !important;
-      max-width: 95%;
+      font-size: 0.875rem !important;
+      max-width: 100%;
+      overflow-x: auto;
     }
   }
   
@@ -297,19 +328,7 @@ a:hover {
     display: none;
   }
   
-  .sidebar {
-    display: flex;
-    flex-direction: column;
-    overflow-y: scroll;
-    width: 20rem;
-    min-height: 2rem;
-    max-height: 4rem;
-    background-color: var(--main-bg-color);
-    padding: 1rem;
-    border-right: 0.5rem solid var(--primary-color);
-    border-top: 1px solid var(--primary-color);
-    overflow-x: hidden;
-  }
+  /* Removed old sidebar - using Spellbook grid sidebar */
   
   .sidebar a {
     text-decoration: underline;
@@ -352,32 +371,9 @@ a:hover {
     display: none;
   }
   
-  .first-zone {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 22;
-    justify-content: flex-end;
-    /* position: sticky; */
-    align-items: center;
-    width: 100vw;
-    background-color: var(--primary-color);
-    border-bottom: 1px solid var(--primary-color);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    top: 0;
-    z-index: 10;
-  }
+  /* Removed first-zone - replaced with hero section */
   
-  .welcome-message {
-    width: 100%;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: bold;
-    color: var(--text-primary-color);
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
+  /* Removed welcome-message - using hero section */
   
   .spellbook-md {
     display: flex;
@@ -620,20 +616,33 @@ a:hover {
     background: #c53030;
   }
 
-  .spellbook-content {
-    width: clamp(400px, 85%, 910px); /* min, preferred, max */
-    margin-top:2px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #ebede9 !important;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 3rem;
-    box-shadow:#1e1d39 1px 4px 10px;
-    border-left: 2px solid #172038aa !important;
-    border-right: 2px solid #253a5eaa !important;
-  }
+  /* Enhanced Spellbook classes with Bob Ross theme */
+
+/* Make cards feel like painted canvases */
+.sb-card {
+  border-top: 3px solid var(--accent-color) !important;
+  background: var(--surface-color) !important;
+}
+
+.sb-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px var(--background-color-50) !important;
+}
+
+/* Hero section background gradient */
+.sb-bg-primary-25 {
+  background: linear-gradient(135deg, var(--primary-color-25), var(--secondary-color-25)) !important;
+}
+
+/* Profile image enhancements */
+img.sb-rounded-full {
+  transition: all 0.3s ease;
+}
+
+img.sb-rounded-full:hover {
+  transform: scale(1.05) rotate(2deg);
+  box-shadow: 0 12px 24px var(--accent-color-50);
+}
 
 @media (max-width: 764px) {
   .spellbook-content {
