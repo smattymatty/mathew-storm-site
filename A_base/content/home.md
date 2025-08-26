@@ -21,10 +21,10 @@
       {% enddiv %}
       
       {% div .sb-flex .sb-flex-wrap .sb-gap-3 data-storm="fade-in" data-storm-delay="600" %}
-        {% span .sb-bg-primary .sb-text-white .sb-rounded-full .sb-px-3 .sb-py-1 .sb-inline-block .sb-text-sm .sb-font-semibold %}CEO & Co-Founder{% endspan %}
-        {% span .sb-bg-accent .sb-text-white .sb-rounded-full .sb-px-3 .sb-py-1 .sb-inline-block .sb-text-sm .sb-font-semibold %}Movement Leader{% endspan %}
-        {% span .sb-bg-secondary .sb-text-white .sb-rounded-full .sb-px-3 .sb-py-1 .sb-inline-block .sb-text-sm .sb-font-semibold %}Tech Philosopher{% endspan %}
-        {% span .sb-bg-warning .sb-text-white .sb-rounded-full .sb-px-3 .sb-py-1 .sb-inline-block .sb-text-sm .sb-font-semibold %}Absurdist Author{% endspan %}
+        {% span .sb-bg-primary .sb-text-background .sb-rounded-full .sb-px-3 .sb-py-1 .sb-inline-block .sb-text-sm .sb-font-bold %}CEO & Co-Founder{% endspan %}
+        {% span .sb-bg-accent .sb-text-background .sb-rounded-full .sb-px-3 .sb-py-1 .sb-inline-block .sb-text-sm .sb-font-bold %}Movement Leader{% endspan %}
+        {% span .sb-bg-secondary .sb-text-background .sb-rounded-full .sb-px-3 .sb-py-1 .sb-inline-block .sb-text-sm .sb-font-bold %}Tech Philosopher{% endspan %}
+        {% span .sb-bg-warning .sb-text-background .sb-rounded-full .sb-px-3 .sb-py-1 .sb-inline-block .sb-text-sm .sb-font-bold %}Absurdist Author{% endspan %}
       {% enddiv %}
     {% enddiv %}
     

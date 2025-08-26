@@ -1,9 +1,76 @@
 {% extends 'A_base/base.html' %}
 
 {% block content %}
-<div class="spellbook-content sb-px-2">
-{% block spellbook_md %}
-{% endblock %}
-</div>
+<article class="spellbook-content sb-prose sb-max-w-none" style="font-family: 'Inter', system-ui, -apple-system, sans-serif;">
+  <div class="sb-bg-surface sb-rounded-xl sb-shadow-xl sb-p-8 sb-border sb-border-subtle">
+    {% block spellbook_md %}
+    {% endblock %}
+  </div>
+</article>
 
+<style>
+  /* Professional typography for Spellbook content */
+  .spellbook-content h1 {
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .spellbook-content h2 {
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin-top: 1.75rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .spellbook-content h3 {
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .spellbook-content p {
+    line-height: 1.7;
+    margin-bottom: 1.25rem;
+  }
+  
+  .spellbook-content code {
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-weight: 500;
+  }
+  
+  .spellbook-content pre {
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .spellbook-content blockquote {
+    border-left-width: 4px;
+    font-style: italic;
+    margin: 1.5rem 0;
+    padding-left: 1.5rem;
+  }
+  
+  .spellbook-content a {
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: all 0.2s;
+  }
+  
+  .spellbook-content a:hover {
+    text-decoration-thickness: 2px;
+  }
+  
+  .spellbook-content ul, .spellbook-content ol {
+    margin-bottom: 1.25rem;
+  }
+  
+  .spellbook-content li {
+    margin-bottom: 0.5rem;
+  }
+</style>
 {% endblock %}

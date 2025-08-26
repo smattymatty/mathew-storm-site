@@ -25,3 +25,10 @@ Visit my [Interactive Questions Page](/questions/) (WORK IN PROGRESS!) to test y
   *Learn the basics of C programming*
 
 {~~}
+
+{~ accordion title="Digital Sovereignty & The Open Web" ~}
+
+[Is the Fediverse the Key to Canadian Digital Sovereignty?](/blog/Digital_Sovereignty/fediverse-canadian-sovereignty/)
+  *Exploring how decentralized networks could secure Canada's digital future*
+
+{~~}

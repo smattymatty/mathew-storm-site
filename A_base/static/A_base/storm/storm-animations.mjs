@@ -844,8 +844,11 @@ class StormAnimationSystem {
                         const inViewport = rect.top < window.innerHeight && rect.bottom > 0;
                         
                         if (inViewport && !element.classList.contains('storm-animate')) {
-                            // Element is already visible, animate immediately
-                            this.safeTriggerAnimation(element);
+                            // Element is already visible, animate immediately with slight delay
+                            // This ensures content has rendered properly, especially on mobile
+                            setTimeout(() => {
+                                this.safeTriggerAnimation(element);
+                            }, 50);
                         } else {
                             // Start observing for scroll-triggered animation
                             this.observer.observe(element);
@@ -1532,18 +1535,24 @@ const storm = new StormAnimationSystem();
 // Auto-initialize when DOM is ready with multiple failsafes
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
-        storm.init();
+        // Small delay to ensure all content is rendered, especially on mobile
         setTimeout(() => {
-            // Failsafe - reinitialize if elements weren't caught
-            if (!storm.initialized) {
-                console.warn('⚠️ Storm Animation System failed to initialize, retrying...');
-                storm.init();
-            }
+            storm.init();
+            // Additional check for late-loading content
+            setTimeout(() => {
+                storm.observeElements();
+            }, 200);
         }, 100);
     });
 } else {
-    // DOM is already ready
-    storm.init();
+    // DOM is already ready, but still add small delay for mobile
+    setTimeout(() => {
+        storm.init();
+        // Additional check for late-loading content
+        setTimeout(() => {
+            storm.observeElements();
+        }, 200);
+    }, 100);
 
     // Failsafe for immediate initialization
     setTimeout(() => {
