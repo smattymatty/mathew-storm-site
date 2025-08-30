@@ -2,7 +2,7 @@
 
 {% block content %}
 <article class="spellbook-content sb-prose sb-max-w-none" style="font-family: 'Inter', system-ui, -apple-system, sans-serif;">
-  <div class="sb-bg-surface sb-rounded-xl sb-shadow-xl sb-p-8 sb-border sb-border-subtle">
+  <div class="sb-p-2 sb-md:p-3 sb-lg:p-4" style="background-color: rgba(0, 0, 0, 0.25);">
     {% block spellbook_md %}
     {% endblock %}
   </div>
@@ -72,5 +72,123 @@
   .spellbook-content li {
     margin-bottom: 0.5rem;
   }
+  
+  /* Clickable header styles */
+  .spellbook-content h2[id],
+  .spellbook-content h3[id],
+  .spellbook-content h4[id] {
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease;
+  }
+  
+  .spellbook-content h2[id]:hover,
+  .spellbook-content h3[id]:hover,
+  .spellbook-content h4[id]:hover {
+    padding-left: 0.5rem;
+  }
+  
+  /* Add link icon on hover */
+  .spellbook-content h2[id]:hover::before,
+  .spellbook-content h3[id]:hover::before,
+  .spellbook-content h4[id]:hover::before {
+    content: '#';
+    position: absolute;
+    left: -1.25rem;
+    color: var(--accent-color);
+    opacity: 0.6;
+    font-weight: normal;
+  }
+  
+  /* Highlight target header */
+  .spellbook-content :target {
+    animation: highlight 2s ease;
+  }
+  
+  @keyframes highlight {
+    0% { background-color: rgba(var(--accent-color-rgb, 255, 193, 7), 0.3); }
+    100% { background-color: transparent; }
+  }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Get all headers with IDs
+  const headers = document.querySelectorAll('.spellbook-content h2[id], .spellbook-content h3[id], .spellbook-content h4[id]');
+  
+  // Calculate navbar height (including any fixed elements)
+  function getNavbarHeight() {
+    const navbar = document.querySelector('nav');
+    const mastodonBanner = document.querySelector('.mastodon-banner');
+    let totalHeight = 0;
+    
+    if (navbar) {
+      totalHeight += navbar.offsetHeight;
+    }
+    if (mastodonBanner) {
+      totalHeight += mastodonBanner.offsetHeight;
+    }
+    
+    // Add a little extra padding
+    return totalHeight + 20;
+  }
+  
+  // Smooth scroll to element with offset
+  function scrollToElement(element) {
+    const offset = getNavbarHeight();
+    const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+    const offsetPosition = elementPosition - offset;
+    
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    });
+  }
+  
+  // Add click handlers to headers
+  headers.forEach(header => {
+    header.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      // Update URL with the header ID
+      const id = this.id;
+      if (id) {
+        // Update URL without triggering scroll
+        history.pushState(null, null, '#' + id);
+        
+        // Smooth scroll to the header
+        scrollToElement(this);
+      }
+    });
+    
+    // Add title attribute for better UX
+    header.title = 'Click to link to this section';
+  });
+  
+  // Handle initial page load with hash
+  if (window.location.hash) {
+    // Wait for page to fully load
+    setTimeout(() => {
+      const targetId = window.location.hash.substring(1);
+      const targetElement = document.getElementById(targetId);
+      
+      if (targetElement) {
+        scrollToElement(targetElement);
+      }
+    }, 100);
+  }
+  
+  // Handle browser back/forward with hash changes
+  window.addEventListener('hashchange', function() {
+    if (window.location.hash) {
+      const targetId = window.location.hash.substring(1);
+      const targetElement = document.getElementById(targetId);
+      
+      if (targetElement) {
+        scrollToElement(targetElement);
+      }
+    }
+  });
+});
+</script>
 {% endblock %}

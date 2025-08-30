@@ -1,22 +1,42 @@
-{% load spellbook_tags %}
+{% load spellbook_tags storm_filters %}
 {% if metadata %}
-<div class="sb-flex sb-flex-col sb-gap-2 sb-md:flex-row sb-md:gap-0 sb-mt-n4 sb-mb-n4">
-    <p class="sb-text-sm sb-border-r-2 sb-border-0 sb-border-black-50 sb-pr-2">
-        <strong>Date Published:</strong> {{ metadata.published|date:"F j, Y" }}
-    </p>
-    <p class="sb-text-sm sb-border-r-2 sb-border-0 sb-border-black-50 sb-pr-2">
-        <strong>Word Count:</strong> {{ metadata.word_count }}
-    </p>
-    <p class="sb-text-sm sb-border-r-2 sb-border-0 sb-border-black-50 sb-pr-2">
-        <strong>Reading Time:</strong> {{ metadata.reading_time_minutes }}
-    </p>
+<!-- Clean metadata display with icons -->
+<div class="sb-flex sb-flex-wrap sb-items-center sb-gap-4 sb-text-sm sb-text-secondary">
+    <!-- Date -->
+    <div class="sb-flex sb-items-center sb-gap-1.5">
+        <svg class="sb-w-4 sb-h-4 sb-text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+        </svg>
+        <span>{{ metadata.published|date:"M j, Y" }}</span>
+    </div>
+    
+    <!-- Reading time -->
+    <div class="sb-flex sb-items-center sb-gap-1.5">
+        <svg class="sb-w-4 sb-h-4 sb-text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+        <span>{{ metadata.reading_time_minutes }} min read</span>
+    </div>
+    
+    <!-- Word count -->
+    <div class="sb-flex sb-items-center sb-gap-1.5">
+        <svg class="sb-w-4 sb-h-4 sb-text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+        </svg>
+        <span>{{ metadata.word_count|floatformat:"0" }} words</span>
+    </div>
 </div>
-<p class="sb-text-sm sb-border-t-2 sb-border-0 sb-border-black-50 sb-pt-2">
-    <strong>Tags:</strong>
+
+<!-- Tags with better styling -->
+{% if metadata.tags %}
+<div class="sb-flex sb-flex-wrap sb-gap-2 sb-mt-4">
     {% for tag in metadata.tags %}
-    {{ tag }}{% if not forloop.last %}, {% endif %}
+    <span class="sb-inline-flex sb-items-center sb-px-2.5 sb-py-0.5 sb-rounded-full sb-text-xs sb-font-medium sb-bg-primary-10 sb-text-primary sb-border sb-border-primary-25" data-storm="fade-in" data-storm-delay="{{ forloop.counter0|multiply:50|add:100 }}">
+        #{{ tag }}
+    </span>
     {% endfor %}
-    </p>
+</div>
+{% endif %}
 {% else %}
 <a href="https://github.com/smattymatty">GitHub</a>
 <a href="https://techhub.social/@smattymatty">Mastodon</a>

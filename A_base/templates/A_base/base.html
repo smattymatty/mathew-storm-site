@@ -36,16 +36,16 @@
     {% endif %}
 
     <main class="sb-flex-grow sb-w-full" data-storm="fade-in">
-      <div class="sb-container sb-mx-auto sb-px-4 sb-py-8 sb-lg:px-8">
+      <div class="sb-container sb-mx-auto sb-py-4 sb-md:py-6 sb-lg:py-8">
 
-        <div class="sb-grid sb-grid-cols-1 sb-lg:grid-cols-12 sb-gap-6 sb-lg:gap-8">
+        <div class="sb-lg:grid sb-lg:grid-cols-12 sb-lg:gap-8">
         
           {# Main Content Area - Professional Layout #}
-          <section id="home-content" class="sb-lg:col-span-8" data-storm="slide-up" data-storm-delay="200">
+          <section id="home-content" class="sb-px-2 sb-md:px-4 sb-lg:px-6 sb-lg:col-span-8" data-storm="slide-up" data-storm-delay="200">
           {% if metadata %}
             {# Page with metadata - show title and metadata #}
-            <div class="sb-bg-surface sb-rounded-xl sb-shadow-xl sb-p-8 sb-mb-6 sb-border sb-border-subtle" data-storm="fade-in" data-storm-delay="300">
-              <h1 class="sb-text-5xl sb-font-bold sb-text-primary sb-mb-6 sb-tracking-tight" style="font-weight: 800;">
+            <div class="sb-mb-8" data-storm="fade-in" data-storm-delay="300">
+              <h1 class="sb-text-3xl sb-md:text-4xl sb-lg:text-5xl sb-font-bold sb-text-primary sb-mb-4 sb-tracking-tight" style="font-weight: 800; line-height: 1.2;">
                 {% if metadata.title %}
                   {{ metadata.title|title }}
                 {% elif metadata.namespace %}
@@ -56,7 +56,7 @@
             </div>
           {% endif %}
           
-          <div class="sb-bg-surface sb-rounded-xl sb-shadow-xl sb-p-8 sb-border sb-border-subtle" data-storm="fade-in" data-storm-delay="400">
+          <div class="sb-p-2 sb-md:p-3 sb-lg:p-4" style="background-color: rgba(0, 0, 0, 0.25);" data-storm="fade-in" data-storm-delay="400">
             {% block content %}
             {{ content|safe }}
             {% endblock %}
@@ -64,7 +64,7 @@
         </section>
         
           {# Professional Sidebar #}
-          <aside class="sb-lg:col-span-4" data-storm="slide-left" data-storm-delay="300">
+          <aside class="sb-px-2 sb-md:px-4 sb-lg:px-6 sb-lg:col-span-4 sb-mt-6 sb-lg:mt-0" data-storm="slide-left" data-storm-delay="300">
           {% if toc %}
             <div class="sb-bg-surface sb-rounded-xl sb-shadow-lg sb-p-6 sb-mb-6 sb-sticky sb-top-4 sb-border sb-border-subtle" data-storm="fade-in" data-storm-delay="500">
               <h3 class="sb-text-lg sb-font-semibold sb-text-secondary sb-mb-4 sb-uppercase sb-tracking-wider" style="font-size: 0.875rem; letter-spacing: 0.05em;">Table of Contents</h3>

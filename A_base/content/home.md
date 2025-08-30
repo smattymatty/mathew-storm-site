@@ -5,7 +5,7 @@
   {% div .sb-relative .sb-z-10 .sb-grid .sb-grid-cols-1 .sb-lg:grid-cols-2 .sb-gap-4 .sb-items-center %}
     {% div .sb-order-2 .sb-lg:order-1 data-storm="slide-right" data-storm-delay="200" %}
       {% p .sb-text-xl .sb-italic .sb-text-accent .sb-mb-4 .sb-font-semibold .sb-text-center %}
-      🇨🇦 Canadian by birth and choice, defending the values of openness, inclusion, and justice for all my people. 🇨🇦
+      🇨🇦 Canadian by birth and choice. 🇨🇦
       {% endp %}
       
       {% div .sb-border-l-4 .sb-border-accent .sb-pl-6 .sb-mb-6 data-storm="slide-up" data-storm-delay="400" %}
@@ -13,10 +13,10 @@
         🌩️ Leading the Storm
         {% endh2 %}
         {% p .sb-text-secondary .sb-italic .sb-text-center %}
-        When those in power are incompetent, cruel, or otherwise complicit, we must take matters into our own hands.
+        Rather than waiting, we're building the tools and communities we want to see in tech.
         {% endp %}
         {% p .sb-text-secondary .sb-italic .sb-text-center %}
-        We must lead the storm, every action we take, every tool we build, every connection we make is a vote towards the future we want to live in.
+        Every action we take, every tool we build, every connection we make is a vote towards the future we want to live in.
         {% endp %}
       {% enddiv %}
       
@@ -24,7 +24,7 @@
         {% span .sb-bg-primary .sb-text-background .sb-rounded-full .sb-px-3 .sb-py-1 .sb-inline-block .sb-text-sm .sb-font-bold %}CEO & Co-Founder{% endspan %}
         {% span .sb-bg-accent .sb-text-background .sb-rounded-full .sb-px-3 .sb-py-1 .sb-inline-block .sb-text-sm .sb-font-bold %}Movement Leader{% endspan %}
         {% span .sb-bg-secondary .sb-text-background .sb-rounded-full .sb-px-3 .sb-py-1 .sb-inline-block .sb-text-sm .sb-font-bold %}Tech Philosopher{% endspan %}
-        {% span .sb-bg-warning .sb-text-background .sb-rounded-full .sb-px-3 .sb-py-1 .sb-inline-block .sb-text-sm .sb-font-bold %}Absurdist Author{% endspan %}
+        {% span .sb-black .sb-bg-warning .sb-text-background .sb-rounded-full .sb-px-3 .sb-py-1 .sb-inline-block .sb-text-sm .sb-font-bold %}Absurdist Author{% endspan %}
       {% enddiv %}
     {% enddiv %}
     
@@ -63,6 +63,7 @@
 ## 🚀 My Mission: Change the World
 
 I'm not just building software - I'm building a future where:
+
 - **Technology empowers humans**, not replaces them
 - **Canada leads in digital sovereignty** and ethical AI
 - **Every person has tech literacy** as a fundamental right
@@ -71,7 +72,9 @@ I'm not just building software - I'm building a future where:
 ## 🛠️ What I'm Building
 
 ### Storm Development Trinity
+
 Founded with **Jacob Kellum** and **Ellyanna Roseboom**, we're creating:
+
 - **Digital transformation** for small businesses
 - **Human-centered AI tools** that teach while they automate
 - **MIDAS toolchain** for rapid, ethical development
@@ -111,18 +114,19 @@ Django isn't just a framework - it's a tool for digital independence. Open sourc
 Advocating for a Canadian DjangoCon that reflects our values of safety, inclusion, and openness. A conference where ALL developers can participate without fear.
 
 **Core Fights:**
+
 - **Tech literacy** as a human right for all Canadians
 - **Decentralized networks** replacing corporate social media
 - **Open source adoption** in government and education
-- **Safe spaces** for tech communities to gather and grow
+- **Public spaces** for tech communities to gather and grow
 
 ## 📖 The Author & Philosopher
 
 Heavily inspired by Camus, I'm developing **Humanist Absurdism** - a philosophy for the age of artificial intelligence. My fictional opus, **"The Labyrinth of Sisyphus,"** reimagines the absurd hero as a coder eternally debugging the universe.
 
-*"In an age of algorithmic cruelty, our most radical act is choosing to remain human."*
+*"In an age of algorithms and artificial intelligence, our most radical act is choosing to remain human."*
 
-Technology represents an existential threat that philosophers of old would have quivered at. Today, we must face this. The machine learns from our data, but we must learn from our compassion.
+AI presents unprecedented philosophical questions about knowledge, creativity, and human value. I explore these through code, community, and fiction.
 
 **[→ Explore My Philosophical Musings](/philo/intro/)**  
 Dive into Humanist Absurdism, Techno-Absurdism, and Neo-Absurdism through the lens of "The Labyrinth of Sisyphus."
@@ -130,6 +134,7 @@ Dive into Humanist Absurdism, Techno-Absurdism, and Neo-Absurdism through the le
 ## 💡 The Philosophy
 
 As leader of the 80-20 Human-In-The-Loop community, I believe in:
+
 - **80% AI Automation** - Let machines handle repetitive work
 - **20% Human Oversight** - Humans make critical decisions
 - **100% Human Responsibility** - We own the outcomes
@@ -141,6 +146,7 @@ As leader of the 80-20 Human-In-The-Loop community, I believe in:
 ## 📚 Current Learning & Teaching
 
 I'm often:
+
 - **Teaching** creating educational content and mentoring students
 - **Studying** C & Linux at Seneca Polytechnic (because fundamentals matter)
 - **Building** the next generation of tech philosophers
@@ -152,7 +158,7 @@ I'm often:
 {~ card title="Why Sisyphus?" footer="The Eternal Struggle of Progress" ~}
 Like Sisyphus pushing his boulder up the mountain, I push code, ideas, and humanity forward every day. But unlike Sisyphus, I'm not condemned to this task - I've chosen it.
 
-Every line of code is a moral choice. Every algorithm encodes values. Every AI deployment affects human lives. This is the boulder I push: ensuring technology serves human flourishing.
+Writing code means making countless small decisions that add up to big impacts. This is the boulder I've chosen to push: building technology that serves rather than subjugates.
 
 The struggle isn't punishment - it's purpose. And I wouldn't have it any other way.
 {~~}
@@ -307,11 +313,11 @@ The novel serves as a metaphor for modern tech workers: eternally maintaining sy
   {% endblockquote %}
   
   {% blockquote .sb-border-l-4 .sb-border-primary .sb-pl-4 .sb-italic %}
-  "In an age of algorithmic cruelty, our most radical act is choosing to remain human."
+  "As algorithms shape more of our daily experience, staying intentionally human becomes both a choice and a practice."
   {% endblockquote %}
   
   {% blockquote .sb-border-l-4 .sb-border-secondary .sb-pl-4 .sb-italic %}
-  "Technology represents an existential threat that the philosophers of old would have quivered at."
+  "We're witnessing the most significant shift in human capability since the printing press. The challenge isn't the technology itself - it's ensuring we shape it before it shapes us."
   {% endblockquote %}
 {% enddiv %}
 {~~}

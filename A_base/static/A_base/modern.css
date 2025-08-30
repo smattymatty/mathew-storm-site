@@ -432,9 +432,7 @@ code {
   gap: clamp(1rem, 2vw, 2rem);
 }
 
-.sb-container {
-  padding-inline: clamp(1rem, 4vw, 3rem);
-}
+/* Container padding removed - handled by utility classes in HTML */
 
 /* ========================
    Performance Optimizations
