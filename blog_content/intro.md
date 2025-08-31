@@ -28,7 +28,7 @@ Visit my [Interactive Questions Page](/questions/) (WORK IN PROGRESS!) to test y
 
 {~ accordion title="Digital Sovereignty & The Open Web" ~}
 
-[Is the Fediverse the Key to Canadian Digital Sovereignty?](/blog/Digital_Sovereignty/fediverse-canadian-sovereignty/)
+[Is the Fediverse the Key to Canadian Digital Sovereignty?](/blog/Digital_Sovereignty/fediverse-sovereignty-journalistic/)
   *Exploring how decentralized networks could secure Canada's digital future*
 
 {~~}
