@@ -138,6 +138,24 @@
     <script type="module">
         import StormAnimations from '{% static "A_base/storm/storm-animations.mjs" %}';
         import StormEvents from '{% static "A_base/storm/storm-events.mjs" %}';
+        import StormHeroLightningPlugin from '{% static "A_base/storm/plugins/storm-hero-lightning.mjs" %}';
+        import StormCloudBorderPlugin from '{% static "A_base/storm/plugins/storm-cloud-border.mjs" %}';
+        import StormTOCPlugin from '{% static "A_base/storm/plugins/storm-toc.mjs" %}';
+        
+        // Initialize Hero Lightning Plugin
+        if (StormHeroLightningPlugin && StormEvents) {
+            StormHeroLightningPlugin.init(StormEvents);
+        }
+        
+        // Initialize Storm Cloud Border Plugin
+        if (StormCloudBorderPlugin && StormEvents) {
+            StormCloudBorderPlugin.init(StormEvents);
+        }
+        
+        // Initialize Storm TOC Plugin
+        if (StormTOCPlugin && StormEvents) {
+            StormTOCPlugin.init(StormEvents);
+        }
         
         // Mobile-specific animation fix
         if ('ontouchstart' in window || navigator.maxTouchPoints > 0) {

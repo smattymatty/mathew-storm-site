@@ -228,15 +228,7 @@ a:hover {
   .click-animation {
     animation: click-animation 0.5s ease-in-out;
   }
-.toc-wrapper {
-  background-color: var(--primary-color) !important;
-  padding: 1rem;
-}
-
-.toc-link,
-.toc-toggle {
-  color: var(--text-primary-color) !important;
-}
+/* TOC styles are now handled by storm-toc.mjs plugin for epic storm theme */
 
   
   .nav-links button.active,
