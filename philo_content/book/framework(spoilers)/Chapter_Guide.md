@@ -6,7 +6,7 @@
 
 ## Chapter 1 - The Arrival ✓ WRITTEN
 **Setting:** Palace tower workshop, pre-dawn  
-**Word Count:** 2849 words  
+**Word Count:** ~3200 words  
 **Plot Summary:** Sisyphus meets Daedalus and learns of his new eternal task building the labyrinth.  
 **Characters:** Sisyphus, Daedalus, Guard Captain 
 **Plot Points:**
@@ -17,109 +17,115 @@
 - Introduction to the Minotaur as "the beast below"
 - Three-hour deadline to present progress to King Minos
 
-## Chapter 2 - The King's Command ✓ WRITTEN  
+## Chapter 2 - The First Stones ✓ WRITTEN  
 **Setting:** Throne room → Cretan countryside → Labyrinth construction site  
-**Word Count:** 3819 words 
+**Word Count:** ~3800 words 
 **Plot Summary:** Meeting with Minos, journey to construction site, first work with impossible masonry.  
-
-**Characters:** King Minos, Sisyphus, Daedalus, guards, stone masons, Cretan horses  
+**Characters:** King Minos, Sisyphus, Daedalus, Nikias, Alexios, stone masons  
 **Plot Points:**
 - Throne room presentation of architectural modifications
 - Minos's artistic appreciation of systematic horror
 - Sisyphus's first moral compromise (designing hope as weapon)
-- Journey through Crete on Messara horses
+- Journey through Crete on Messara horses with Aravani gait
 - Discovery of massive quarry operations
 - Learning to work impossible geometry stone
 - First descent into labyrinth depths
 - Hearing the Minotaur's intelligent howl
 
-## Chapter 3 - The Palace Games - In Progress
+## Chapter 3 - The Palace Games ✓ WRITTEN
 **Setting:** Palace chambers and corridors, council chamber  
-**Word Count:** 1600 words  
-**Plot Summary:** Palace intrigue as Lieutenant Theron begins investigating Sisyphus.  
-
-**Characters:** Queen Pasiphaë, Lysippe, Lieutenant Theron, Council members  
+**Word Count:** ~3400 words  
+**Plot Summary:** Palace intrigue as Lieutenant Theron asserts control while the royal family fractures.  
+**Characters:** Queen Pasiphaë, Lysippe, Lieutenant Theron, Kleomenes, Asterion, Polyidus  
 **Plot Points:**
-- Queen Pasiphaë observing construction from her window
-- Servant gossip about Sisyphus's "unnatural" qualities
-- Council session in King's absence showing political tensions
-- Lieutenant Theron's assertion of authority and suspicions
-- Queen's private meeting with Lieutenant about investigation
-- Queen's warnings about forces beyond royal control
-- Establishment of Lieutenant as antagonist/threat
+- Queen observing quarry while counting supply wagons and planning escape
+- Lieutenant Theron's brutal intimidation tactics in council
+- Council members' terror and escape preparations exposed
+- Theron taking direct control of palace security
+- Queen's specific escape plan: "I won't be here when the servants learn we've been feeding them to a monster"
+- Reference to Thalia the scullery maid's disappearance
+- The Queen's revelation that they're all "food" eventually
 
-## Chapter 4 - Deeper Into the Dark
-**Setting:** Labyrinth lower levels, testing chambers, feeding areas  
-**Plot Summary:** Extended exploration of labyrinth construction, first evidence of tribute processing system.  
-**Characters:** Sisyphus, Daedalus, construction workers, guards  
+## Chapter 4 - Deeper Into the Dark ✓ WRITTEN
+**Setting:** Tower workshop → Quarry → Labyrinth depths  
+**Word Count:** ~4000 words  
+**Plot Summary:** Discovery that the Minotaur is building its own passages, learning architecture from its captors.  
+**Characters:** Sisyphus, Daedalus, Nikias, Alexios, Keras (foreman)  
 **Plot Points:**
-- Detailed work in impossible architecture chambers
-- Discovery of feeding/tribute processing areas and their grisly purpose
-- Sisyphus's growing horror at what they're really building
-- First hints of tribute victims through bloodstains, scratched messages
-- Daedalus's increasing nervousness about Lieutenant's surveillance
-- Sisyphus begins questioning the moral implications of their work
+- Blueprint fighting back, labyrinth having "preferences"
+- Tribute arrival from Athens (14 youths) 
+- Emergency summons to quarry - stone dust falling upward
+- Discovery of human skeleton with message "It learns our—"
+- Daedalus's pride comparing himself to Archimedes
+- THE MINOTAUR'S CRUDE PASSAGE - copying their architecture
+- Escape using Daedalus's knowledge of his own deceptions
+- Realization: "Soon I won't know which deceptions are mine and which are its"
 
 ## Chapter 5 - The Weight of Chains
-**Setting:** Tower workshop, evening after long construction day  
-**Plot Summary:** Sisyphus grapples with intellectual vs. physical punishment while Daedalus remains distant.  
+**Setting:** Tower workshop, evening after the quarry incident  
+**Plot Summary:** Daedalus grapples with his creation outgrowing him (peak Techno-Absurdism) while maintaining distance from Sisyphus.  
 **Characters:** Sisyphus, Daedalus  
 **Plot Points:**
-- Sisyphus's realization that mental labor carries same existential weight as boulder
-- His attempts at philosophical discussion met with Daedalus's cold deflection
-- Daedalus focused solely on technical problems, avoiding personal connection
-- Sisyphus's growing frustration with his partner's emotional walls
-- Brief glimpses of Daedalus's pain when he thinks he's unobserved
-- Establishment of their working dynamic—professional but not trusting
+- Both men processing the morning's horror in different ways
+- Daedalus's realization that the labyrinth no longer needs its architect
+- His hands trembling not from guilt but from fear of obsolescence
+- Sisyphus recognizing this as mental equivalent of his boulder
+- Daedalus's bitter observation: "Archimedes would run screaming from what we've built"
+- Discussion of the Minotaur as "client providing feedback"
+- Growing dread that they're debugging for something that learns faster than they do
 
 ## Chapter 6 - The Queen's Court  
-**Setting:** Palace chambers, formal court sessions, private meetings  
-**Plot Summary:** Political intrigue as Queen Pasiphaë navigates court dynamics while harboring her secret burden.  
-**Characters:** Queen Pasiphaë, Lysippe, King Minos, council members  
+**Setting:** Palace throne room, formal court session  
+**Plot Summary:** King Minos returns for theatrical court session while everyone knows something is deeply wrong.  
+**Characters:** King Minos, Queen Pasiphaë, Lieutenant Theron, Council members, Lysippe  
 **Plot Points:**
-- Formal court session showing the Queen's political acumen
-- Subtle tensions between Minos and Pasiphaë regarding the "construction project"
-- Council members (Kleomenes, Asterion, Polyidus) each pursuing their own agendas
-- Queen's careful maneuvering to protect her interests without revealing secrets
-- Hints of her deeper connection to the project through careful word choices
-- Lysippe's protective vigilance and unspoken understanding
-- Political undercurrents suggesting not everyone is fully informed
+- Minos's strange behavior - distracted, speaking to shadows
+- The court session as elaborate charade, everyone playing roles
+- Council members exchanging worried glances at King's deterioration
+- Whispers that Minos visits "it" at night, speaking to the darkness
+- Queen maintaining perfect composure while finalizing escape plans
+- Lieutenant Theron watching everyone, documenting irregularities
+- Political theater masking existential dread about Crete's coming fall
+- First hints that Minos might be going mad from proximity to his "solution"
 
 ## Chapter 7 - The Architect's Burden  
-**Setting:** Construction sites, stone workshops, labyrinth upper levels  
-**Plot Summary:** Daedalus's expertise with impossible architecture while maintaining emotional distance.  
-**Characters:** Daedalus, Sisyphus, stone masons, guards  
+**Setting:** Construction sites during increasingly strange phenomena  
+**Plot Summary:** Daedalus struggles with losing control as the labyrinth develops its own architectural preferences.  
+**Characters:** Daedalus, Sisyphus, Keras, terrified workers  
 **Plot Points:**
-- Daedalus demonstrating his genius with increasingly complex architectural problems
-- His obsessive perfectionism hiding deeper psychological needs
-- Sisyphus learning advanced techniques while being kept at arm's length
-- Workers' growing unease with the unnatural properties of their construction
-- First hints of the labyrinth's organic, learning qualities
-- Daedalus's occasional slips revealing his own imprisonment isn't voluntary
+- Workers reporting tools moving overnight to "better" positions
+- Passages that complete themselves while no one watches
+- Daedalus finding his blueprints modified in his own handwriting (but he didn't do it)
+- Stone masons quitting en masse after finding their names carved in walls
+- The Minotaur's improvements becoming more sophisticated
+- Sisyphus suggesting they're not building a prison but teaching architecture
+- Daedalus's breakdown: "I'm not the architect anymore—I'm the scribe"
 
 ## Chapter 8 - The Lieutenant's Method  
-**Setting:** Palace corridors, guard barracks, surveillance points  
-**Plot Summary:** Lieutenant Theron begins systematic investigation of the architects' activities.  
-**Characters:** Lieutenant Theron, palace guards, informants, briefly Sisyphus and Daedalus  
+**Setting:** Palace at night, following Theron's investigation  
+**Plot Summary:** Lieutenant Theron's investigation leads him dangerously close to truths that shouldn't be known.  
+**Characters:** Lieutenant Theron, Nikias, Alexios, terrified informant  
 **Plot Points:**
-- Theron's methodical approach to intelligence gathering
-- His growing network of palace informants and surveillance
-- Documentation of small irregularities in the architects' behavior
-- His frustration with being excluded from the project's true nature
-- Professional rivalry with other palace officials who know more than he does
-- First direct observation of Sisyphus's unusual capabilities
+- Theron interrogating workers who've fled the construction site
+- Alexios's conflicted loyalty between duty and growing friendship with architects
+- Discovery of impossible stone samples that shouldn't exist
+- An informant's warning: "The King talks to it. It talks back."
+- Theron's first glimpse of King Minos entering the labyrinth at midnight
+- Nikias's advice: "Some investigations end with the investigator disappearing"
+- Decision to follow the King into the depths
 
 ## Chapter 9 - The Deeper Chambers  
-**Setting:** Lower labyrinth levels, construction of feeding areas  
-**Plot Summary:** Sisyphus discovers the true purpose of their work through evidence of tribute processing.  
-**Characters:** Sisyphus, Daedalus, construction workers  
+**Setting:** Following the tribute procession into the labyrinth  
+**Plot Summary:** The tribute feeding reveals the full horror as Sisyphus witnesses the system in action.  
+**Characters:** Sisyphus, Daedalus, Athenian tributes, guards, distant Minotaur  
 **Plot Points:**
-- Discovery of chambers designed specifically for human occupancy and terror
-- Evidence of previous victims—scratched messages, bloodstains, personal effects
-- Sisyphus's growing horror at understanding what they're really building
-- Daedalus's matter-of-fact explanation of the "feeding schedule"
-- Workers' superstitious fear of the deeper levels
-- First distant sounds that might be the Minotaur itself
+- Forced to watch as the 14 tributes are prepared for processing
+- The tributes' realization of their fate - some brave, some broken
+- Sisyphus recognizing one tribute resembles someone from his past life
+- The mechanical efficiency of the feeding system Daedalus designed
+- Sound of the Minotaur's anticipation - almost... grateful?
+- Daedalus's observation: "It's learning to savor anticipation. We taught it that."
+- Sisyphus's first active sabotage - subtly altering a passage to give them a chance
 
 ## Chapter 10 - The Council's Doubt  
 **Setting:** Council chambers, private palace meetings  
@@ -187,24 +193,30 @@
 - Sisyphus's moral struggle with trusting a child-killer
 
 ## Chapter 16 - The Living Stone
-**Setting:** Completed labyrinth section, testing new passages  
-**Plot Summary:** The labyrinth reveals its organic nature, becoming almost a character itself.  
-**Characters:** Sisyphus, Daedalus  
+**Setting:** Completed labyrinth section during "communication attempt"  
+**Plot Summary:** The labyrinth actively communicates with its builders through architectural modifications.  
+**Characters:** Sisyphus, Daedalus, fleeing workers  
 **Plot Points:**
-- Discovery that the maze absorbs emotions and learns
-- Understanding they're creating something beyond architecture
-- The labyrinth's growing intelligence and autonomy
-- Realization of what they've unleashed
+- Walls rearranging to spell words in ancient scripts
+- The message: "HUNGRY" appearing in multiple languages
+- Passages forming a crude map pointing to the feeding chamber
+- Daedalus's realization: "It's not just alive—it's trying to talk to us"
+- Workers fleeing after stones whisper their names
+- The labyrinth creating a perfect model of itself in miniature
+- Sisyphus understanding they've created a thinking structure
 
 ## Chapter 17 - The Beast Grows Restless
-**Setting:** Deep labyrinth levels, near Minotaur territory  
-**Plot Summary:** Mathematical patterns in the Minotaur's roars reveal terrifying intelligence growth.  
-**Characters:** Sisyphus, Daedalus, Guards  
+**Setting:** Observation post above Minotaur's domain  
+**Plot Summary:** The Minotaur demonstrates mathematical intelligence and begins leaving its own messages.  
+**Characters:** Sisyphus, Daedalus, Nikias, Alexios  
 **Plot Points:**
-- Discovery that the beast is counting, learning patterns
-- Realization their construction is educating the monster
-- Growing danger of what they're containing
-- First evidence that tributes are being processed
+- Minotaur arranging bones in geometric patterns - fractals, spirals
+- Its roars following the Fibonacci sequence
+- Discovery of wall carvings showing the labyrinth from impossible perspectives
+- The beast creating its own architectural blueprints in blood
+- Alexios's observation: "It's not trying to escape—it's redesigning"
+- Nikias's growing respect/terror: "We're not containing an animal"
+- First direct eye contact with the Minotaur—it smiles
 
 ## Chapter 18 - The First Mercy
 **Setting:** Labyrinth testing areas, tribute processing chambers  
@@ -318,26 +330,30 @@
 - Building toward the beast's escape
 
 ## Chapter 28 - The Beast Breaks Free
-**Setting:** Throughout palace during Minotaur's initial escape  
-**Plot Summary:** Containment fails catastrophically—the Minotaur breaks out.  
-**Characters:** The Minotaur, Daedalus, Lieutenant, guards, palace staff  
+**Setting:** The labyrinth's core during catastrophic failure  
+**Plot Summary:** The Minotaur doesn't break out—it BUILDS its way out with impossible architecture.  
+**Characters:** The Minotaur, Daedalus, Lieutenant Theron, guards, Nikias, Alexios  
 **Plot Points:**
-- Labyrinth's final containment failure
-- Minotaur's violent emergence into palace levels
-- Daedalus's cry: "The rage is evolving faster than our prison!"
-- Lieutenant's realization his investigation caused this disaster
-- Palace-wide panic and initial destruction
+- The labyrinth helping its prisoner by opening new passages
+- Minotaur emerging through geometry that shouldn't exist
+- It speaks its first word: "ARCHITECT" while looking at Daedalus
+- Daedalus's horrified recognition: "It thinks I'm its teacher"
+- Lieutenant Theron's investigation notes used by the beast as an escape map
+- Nikias and Alexios's loyalty tested—protect the architects or follow orders?
+- The Minotaur building impossible stairs straight up through solid stone
 
 ## Chapter 29 - The Rampage
-**Setting:** Palace halls, courtyards during destruction  
-**Plot Summary:** The Minotaur rampages through the palace, unstoppable force of rage.  
-**Characters:** Minotaur, palace staff, guards, all major characters  
+**Setting:** Palace transformed into a new labyrinth during destruction  
+**Plot Summary:** The Minotaur doesn't just destroy—it redesigns the palace into its own maze.  
+**Characters:** Minotaur, all major characters, terrified court  
 **Plot Points:**
-- Systematic destruction as the beast seeks... something
-- Failed attempts to stop or contain it
-- Growing understanding that conventional weapons are useless
-- The beast's intelligence making it more dangerous
-- Building toward someone who CAN stop it
+- Palace corridors reshaping into non-Euclidean passages
+- The Minotaur hunting specific people—those who built its prison
+- It corners Daedalus but doesn't kill him—it shows him blueprints drawn in blood
+- Lieutenant Theron trapped in passages that respond to his fear
+- The beast demonstrating it learned cruelty from its creators
+- Alexios making a choice—helping people escape against orders
+- The Minotaur heading purposefully toward the Queen's chambers
 
 ## Chapter 30 - The Mother's Lullaby
 **Setting:** Palace ruins after rampage, moment of maternal intervention  
@@ -555,26 +571,30 @@
 **Sub-plots:** Success and failure rates, the evolution of his methods
 
 ## Chapter 49 - The Happy Sisyphus
-**Setting:** Workshop, years later, moment of profound realization  
-**Plot Summary:** Sisyphus achieves the ultimate absurdist victory - finding genuine joy in his eternal task.  
-**Characters:** Sisyphus  
+**Setting:** Workshop filled with new labyrinth modifications  
+**Plot Summary:** Sisyphus achieves the ultimate absurdist victory—finding genuine joy in eternal debugging.  
+**Characters:** Sisyphus, the ghost of Daedalus (memory/hallucination), young hero he's guiding  
 **Plot Points:**
-- His real, deep laughter at the cosmic irony
-- Recognition that the gods intended to break him but made him unbreakable
-- The boulder rolls down, he prepares to push again
-- His enthusiastic "Again!" and meaning it completely
-**Sub-plots:** The long-term psychological evolution, stories spreading about the helpful labyrinth
+- Sisyphus laughing at finding the same bug he fixed centuries ago
+- His realization: "The boulder was just the tutorial level"
+- Teaching a young hero the maze while explaining Neo-Absurdism
+- The Minotaur sending him architectural suggestions through wall modifications
+- His genuine excitement: "Again! But better this time!"
+- Recognition that he's become the optimizing algorithm he once feared
+**Sub-plots:** Heroes now seek him out, knowing the "Ghost in the Maze" helps those who help themselves
 
 ## Chapter 50 - The Eternal Code
-**Setting:** Workshop at sunset, the cycle continuing  
-**Plot Summary:** The final philosophical synthesis - finding perfect freedom in the space between problem and solution.  
-**Characters:** Sisyphus  
+**Setting:** The labyrinth has grown beyond the palace, becoming part of reality itself  
+**Plot Summary:** The final synthesis—Sisyphus realizes he's debugging existence itself, and he loves it.  
+**Characters:** Sisyphus, the evolved Minotaur (now co-architect), the labyrinth (now sentient)  
 **Plot Points:**
-- The eternal cycle of problems appearing and being solved
-- His discovery of freedom in the moment of problem-solving
-- Recognition that this is exactly how he'd choose to spend eternity
-- The complete transformation from victim to willing participant
-**Sub-plots:** The lasting impact of his work, heroes saved by his hidden architecture, the myth that grows around him
+- The labyrinth has spread through dimensions, becoming a universal structure
+- Sisyphus and the Minotaur work together, prisoner and guard united in purpose
+- Every hero's journey through adds new data to optimize compassion
+- Sisyphus's final insight: "We're all pushing boulders. I just got the honest one."
+- The three branches of absurdism united: Humanist (saving heroes), Techno (building beyond comprehension), Neo (recursive improvement)
+- His last words: "One must imagine Sisyphus happy. I don't have to imagine."
+**Sub-plots:** The myth spreading across cultures—every labyrinth now has a helpful ghost, every impossible task has hidden mercy
 
 ---
 

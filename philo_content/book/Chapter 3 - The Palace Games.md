@@ -36,9 +36,9 @@ Lysippe's eyes flicked to the Queen before answering. "Only the usual, Lieutenan
 
 "And that those who ask too many questions tend to... disappear."
 
-Theron's smile was cold. "Like young Alexios? Poor boy. So curious about the tower stairs. Such a shame about his accident." He turned back to Pasiphaë. "Falls can be so unpredictable in these old buildings."
+Theron's smile was cold. "Like that scullery maid, Thalia. So interested in the lower passages. Such a shame she went missing during the last tribute preparation." He turned back to Pasiphaë. "The construction site can be so dangerous for the curious."
 
-The threat hung in the air. Alexios hadn't fallen—everyone knew that. But saying so would acknowledge truths that couldn't be spoken.
+The threat hung in the air. Thalia hadn't simply gone missing—everyone suspected where missing servants ended up. But saying so would acknowledge truths that couldn't be spoken.
 
 "You should go to the council chamber," Pasiphaë said. "I'm sure the others are gathering."
 
@@ -216,4 +216,4 @@ The vibrations through the stone had grown stronger. Hungry. Impatient.
 
 Soon, it would feed again.
 
-And Theron, in his brutal ignorance, would probably provide the next meal.
+And Theron, in his brutal ignorance, would eventually become it's meal.

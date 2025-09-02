@@ -216,28 +216,6 @@ Three realistic paths forward:
 □ Tell one person who understands
 ```
 
-## Community Voices: The Builders Choosing Ethics
-
-The Canadian tech community isn't waiting for permission. They're building ethical alternatives while grappling with the philosophical weight of their choices.
-
-[Alireza Alavi (@alavi@techhub.social)](https://techhub.social/@alavi), an engineer who writes about ethics in technology, cuts through the techno-optimism with a sharp question: "Technology must be solving problems and improving life quality, not creating more problems to sell more solutions." In his essay [Ethics & Engineering](https://alavi.me/blog/ethics-and-engineering/), he argues that engineers face the same moral responsibilities as doctors—but with broader societal impact.
-
-"Think about the engineers who are implementing forced telemetry and surveillance into software like Google Search or your phone's OS," Alavi writes. "This is no different from the military leader ordering genocide and the soldiers that execute the order. Both are guilty and immoral."
-
-His challenge to fellow engineers resonates through the Canadian tech community: "Are you currently doing anything unethical or immoral? If yes, how can you stop it? How can you actually make the world a better place?"
-
-This isn't abstract philosophy. Canadian developers are living these choices daily. Some articulate it through frameworks like Humanist Absurdism—"the radical act of choosing compassion in systems designed for cruelty." Every line of code becomes a moral choice. Every error message either frustrates or teaches. Every interface decision affects real humans.
-
-The community recognizes what they call Techno-Absurdism: building frameworks on frameworks, debugging processes that debug themselves, creating tools to manage complexity that only add more complexity. Yet they persist, choosing transparency over black boxes, documenting not just what but why.
-
-Most sobering is their acknowledgment of Neo-Absurdism—how we become complicit in perfecting our own containment. We optimize surveillance systems, gamify engagement metrics, teach AI to replace us. As one developer puts it: "We don't just push boulders—we optimize boulder-pushing, gamify it, monetize it, and teach others to do the same."
-
-But here's the crucial difference: awareness breeds resistance. Canadian developers are choosing federation over fat paychecks, building tools like [Django Spellbook](https://github.com/smattymatty/django_spellbook) as open source, teaching clients independence rather than dependence. The [80-20 Human-In-The-Loop movement](https://github.com/80-20-Human-In-The-Loop/Community) keeps humans in AI systems not for efficiency, but because human judgment matters.
-
-As Alavi notes, this takes "the courage to turn down a big paycheck for a more modest paycheck with a better cause." That courage manifests in mstdn.ca's volunteers maintaining servers at 3 AM, developers contributing to ActivityPub instead of joining Meta, engineers refusing to implement dark patterns despite management pressure.
-
-This is sovereignty in practice—not waiting for government policy but building alternatives now. Not perfect alternatives, but ones we control. Where privacy isn't an afterthought but architecture. Where community governance replaces algorithmic manipulation. Where local needs matter more than global engagement metrics.
-
 The #cdnpoli hashtag thrives on Mastodon with 621 posts and 180 participants daily, discussing everything from Alberta's education policies to Atlantic current collapse. Real political discourse, happening on infrastructure we control. The revolution isn't coming—it's compiling.
 
 **For Organizations:**
