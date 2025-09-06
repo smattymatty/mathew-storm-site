@@ -42,9 +42,7 @@ He gestured toward the northwestern section they'd just been discussing.
 
 "It nearly broke through sector seven. We found claw marks in stone that should be impervious to physical damage. Another day and it would have..." He shuddered. "The feeding keeps it manageable. Predictable."
 
-Sisyphus watched the young Athenians stumbling up the path, saw one fall and get dragged upright by guards. Without thinking, he grabbed a water jug from their table. "I need air," he said, already moving toward the door. Daedalus barely noticed, lost in his relief. 
-
-Outside, Sisyphus intercepted the procession at the courtyard well, timing it perfectly. As he "accidentally" knocked over the water jug near the tributes, the guards cursed and stopped to avoid slipping. In that moment of confusion, Sisyphus pressed a piece of bread into the fallen youth's hand, whispering, "Courage. Even monsters can learn mercy." The boy's eyes widened, but Sisyphus was already moving away, apologizing loudly to the guards for his clumsiness. A small defiance, invisible to authority, everything to one terrified child.
+Sisyphus watched the young Athenians stumbling up the path, saw one fall and get dragged upright by guards. Without thought he muttered "But,", with cold realization, "Those are children.". 
 
 "Those are political necessities." Daedalus's voice held no emotion, as if he'd burned through his capacity for horror long ago. "Athens sends them to prevent invasion. Minos accepts them to prevent... worse things."
 

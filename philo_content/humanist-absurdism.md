@@ -13,9 +13,9 @@ These are observations about reality, diagnoses of our condition. But diagnosis 
 **The philosophy begins with acceptance of harsh truths:**
 
 - Yes, the algorithms we write today will control us tomorrow.
-- Yes, every attempt at solving a problem leads to more problems to be solved.
+- Yes, our solutions become our problems.
 - Yes, we are complicit in building our own cages.
-- Yes, systems designed to liberate often becomes a new form of constraint.
+- Yes, systems designed to liberate often become a new form of tyranny.
 - Yes, our kindnesses will be weaponized, our mercies will be exploited.
 
 **Acceptance is not surrender.** 
