@@ -2,13 +2,13 @@ The throne room of King Minos stretched before them like the maw of some colossa
 
 Beside him, Sisyphus walked with unnerving steadiness, as if approaching thrones was merely another form of repetitive labor. The man's calm made Daedalus's own terror more acute. In his arms, the leather portfolio grew heavier with each step—three hours of desperate creativity that would either satisfy the monster who ruled Crete or provide fresh entertainment through their deaths.
 
-_Icarus would be fourteen now._ The thought struck without warning, as it always did in moments of stress. _Old enough to appreciate architectural beauty, young enough to still believe his father creates wonders._
+*Icarus would be fourteen now*. The thought struck without warning, as it always did in moments of stress. *Old enough to appreciate architectural beauty, young enough to still believe his father still creates wonders*. Daedalus's hand moved unconsciously to his chest, where he kept a small bronze compass Icarus had made, its weight both a comfort and torment.
 
-The throne itself sat on a raised dais at the chamber's far end, carved from a single block of black marble that seemed to swallow light. Upon it sat Minos, motionless as the stone itself but infinitely more dangerous. He didn't acknowledge their approach, his attention fixed on a scroll that Daedalus recognized with sinking certainty—reports from Athens, perhaps, or intelligence about tribute preparations. The silence stretched until Daedalus's hands began their telltale tremor.
+The throne itself sat on a raised plate at the chamber's far end, carved from a single block of black marble. Upon it sat Minos, motionless as the stone itself but infinitely more dangerous. He didn't acknowledge their approach, his attention fixed on a scroll that Daedalus recognized with sinking certainty—reports from Athens, perhaps, or intelligence about tribute preparations. The silence stretched until Daedalus's hands began their telltale tremor.
 
 "Your Majesty," Daedalus forced out, willing his voice to steadiness his hands couldn't achieve, "we bring initial modifications to the labyrinth design, accounting for the recent... developments."
 
-Minos raised his head with the deliberate slowness that Daedalus had learned preceded either brilliance or brutality. Those dark eyes fixed first on him with familiar contempt, then shifted to Sisyphus with the calculating assessment of someone evaluating a new blade's sharpness.
+Minos raised his head with the deliberate slowness. Those dark eyes fixed first on him with familiar contempt, then shifted to Sisyphus with the calculating assessment of someone evaluating a new blade's sharpness.
 
 "Show me," the King commanded.
 
@@ -28,15 +28,15 @@ The smile that spread across Minos's face made Daedalus's stomach turn to ice. H
 
 "Yes. Precisely." Minos rolled up the plans with satisfaction that felt like hooks in Daedalus's chest. "You understand the philosophy of the project. Excellence."
 
-_Philosophy._ Daedalus tasted bile. They called it philosophy, this systematic transformation of lives into meat. He'd built temples once, structures that lifted human spirits toward divinity. Now he built machines that ground those same spirits into fodder for a monster that should never have existed.
+Philosophy. Daedalus tasted bile. They called it philosophy, this systematic transformation of lives into meat. He'd built temples once, structures that lifted human spirits toward divinity. Now he built machines that ground those same spirits into fodder for a monster that should never have existed. His hands—the same hands that had pushed Perdix—now served only destruction.
 
 The King rose from his throne with the fluid grace of a predator sated but not satisfied. "Work begins immediately. I want to see structural progress by week's end, and full implementation of these modifications within the month." His gaze shifted between them like a blade testing edges. "Failure to meet these deadlines will result in... personal testing of the labyrinth's effectiveness."
 
 As guards escorted them from the throne room, Sisyphus walked beside him in contemplative silence, his gaze fixed on something distant. Daedalus wanted to warn him that it only got worse, that each compromise carved away another piece of whatever soul remained. But what was the point? They would both learn soon enough that some prisons were built from the inside out, bar by bar, choice by terrible choice.
 
-The weight of the portfolio in his arms felt heavier now, filled with future horrors he would design with the same precision he'd once used for beauty. Perdix would have solved this differently, found some clever trick to satisfy Minos without enabling slaughter. But Perdix was dead, pushed from a tower by hands that now served cruelty itself.
+The weight of the portfolio in his arms felt heavier now, filled with future horrors he would design with the same precision he'd once used for beauty. Perdix would have—no. He crushed that thought before it could form completely. The memory of his nephew's eyes, wide with surprise as he fell, threatened to surface. Daedalus forced it down with practiced efficiency. Some guilts were too dangerous to examine in daylight.
 
-_Everyone serves something,_ he'd told Sisyphus. The truth was simpler and worse: Daedalus served his own cowardice, disguised as paternal love. Every modification, every improvement, every elegant solution—all to keep himself alive long enough to see Icarus again. Even if that meant Icarus would eventually learn his father was not a creator of wonders but an architect of nightmares.
+Everyone serves something, he'd told Sisyphus. The truth was simpler and worse: Daedalus served his own cowardice, disguised as paternal love. Every modification, every improvement, every elegant solution—all to keep himself alive long enough to see Icarus again. Even if that meant Icarus would eventually learn his father was not a creator of wonders but an architect of nightmares.
 
 ---
 
@@ -64,7 +64,9 @@ They emerged into sunlight where horses waited. Daedalus recognized the breed im
 
 "Aravani," young Alexios interrupted eagerly. "The Turks named it. Like a traveling song, because of the rhythm."
 
-Daedalus felt his jaw tighten. Of course the boy would know that. Everyone on Crete knew about their horses. But Daedalus had studied the breeding programs, understood the genetics, the careful selection that—
+Daedalus felt his jaw tighten. Of course the boy would know that. Everyone on Crete knew about their horses. But Daedalus had studied the breeding programs, understood the genetics, the careful selection that—just as he'd once studied with Perdix, before his nephew's brilliance began to eclipse his own. Before jealousy had made him—
+
+He gripped the reins tighter, knuckles white.
 
 "We ride for the quarries," Sergeant Nikias announced, mounting with easy grace. "His Majesty expects you there before sunset."
 
@@ -72,7 +74,7 @@ They set out along paths that wound up into the mountains. The horses fell into 
 
 "Tell me about these quarries," Sisyphus said, pulling alongside him.
 
-Daedalus considered his words carefully. "The Damastas quarry has operated for generations. But recently, the scale has... expanded."
+Daedalus considered his words carefully, his fingers finding the compass in his pocket—a nervous habit now. "The Damastas quarry has operated for generations. But recently, the scale has... expanded."
 
 "Since the beast?"
 
@@ -86,7 +88,7 @@ They passed through olive groves where workers moved with practiced efficiency. 
 
 "Mass that shifts with intention," Sisyphus observed quietly.
 
-Daedalus felt both pleased and irritated that Sisyphus grasped it so quickly. "The labyrinth requires materials that exist in flexible relationships with physical law. The stone learns its purpose."
+Daedalus felt both pleased and irritated that Sisyphus grasped it so quickly. The same quick understanding Perdix had shown, the same intuitive leap that had once filled him with pride before it curdled into something darker. "The labyrinth requires materials that exist in flexible relationships with physical law. The stone learns its purpose."
 
 The horses grew nervous as they climbed higher, ears flattening, the smooth gait becoming irregular. Even these sure-footed animals sensed the wrongness ahead.
 
@@ -138,7 +140,7 @@ Daedalus gestured to Keras with mixed feelings—pride at having someone finally
 
 The sun had climbed to its zenith by the time Daedalus called a halt. He watched Sisyphus set down his tools with those deliberate movements that suggested the man could have continued indefinitely. The former king's hands were raw, bleeding in places where the impossible stone had fought back, yet he showed no sign of fatigue. Only that patient assessment, as if he were cataloguing each new skill for future use.
 
-Daedalus watched Sisyphus successfully position a keystone that defied three separate laws of physics. What had taken Daedalus weeks of calculation, Sisyphus grasped through mere repetition. The man approached impossible masonry like his eternal boulder—with the confidence that persistence would eventually reveal all secrets. Daedalus found himself already moving toward the next task, needing to maintain some advantage.
+Daedalus watched Sisyphus successfully position a keystone that defied three separate laws of physics. What had taken Daedalus weeks of calculation, Sisyphus grasped through mere repetition. The man approached impossible masonry like his eternal boulder—with the confidence that persistence would eventually reveal all secrets. Just like Perdix with his damned saw, understanding through instinct what Daedalus needed formulas to grasp. His hand twitched toward his pocket, toward the compass, then pulled back. Daedalus found himself already moving toward the next task, needing to maintain some advantage.
 
 "Enough surface work," Daedalus announced, partly to reassert control, partly because the real test awaited below. "Time you saw where your efforts lead."
 

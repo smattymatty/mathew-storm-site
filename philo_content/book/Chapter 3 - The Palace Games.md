@@ -2,7 +2,7 @@
 
 Queen Pasiphaë stood at her chamber window, watching the distant quarry where men moved like insects across the wounded earth. She counted the supply wagons—only eleven today, down from seventeen the week before. The workers' movements had changed too, no longer the confident patterns of builders but the furtive scurrying of men who knew they fed something that should not exist.
 
-She pressed her palm against the cool stone, feeling the vibrations that traveled up from below. Not settling. Not construction. Breathing. The rhythm had grown stronger these past months, as if the thing below was getting impatient. As if it knew its food was coming.
+She pressed her palm against the cool stone, feeling the vibrations that traveled up from below. Not settling. Not construction. Breathing. The rhythm had grown stronger these past months, as if the thing below was getting impatient. As if it knew its food was coming. Her body remembered what her mind refused—the weight of it inside her, the way it had moved before birth with intelligence that shouldn't exist in a womb. She pulled her hand back, but the tremor followed, traveling up her arm like recognition.
 
 Her reflection in the window glass showed a woman maintaining perfect composure, but she could see the truth beneath—the exhaustion, the revulsion, the careful calculations of a woman planning which servants to sacrifice and which to save when everything finally collapsed. Because it would collapse. Minos's obsession guaranteed it.
 
@@ -30,13 +30,13 @@ Lysippe's eyes flicked to the Queen before answering. "Only the usual, Lieutenan
 
 "Lies." The word cracked like a whip. Theron circled her slowly. "Three kitchen staff fled last night. The stable master's family departed for the mainland yesterday. Even the harbor master has been making inquiries about positions in Athens." He stopped directly in front of Lysippe, forcing her to look up at him. "So I ask again—what do the servants say?"
 
-"They say..." Lysippe's voice trembled slightly. "They say the construction disturbs their sleep. That there are sounds from below that... that shouldn't exist."
+"They say..." Lysippe's voice trembled slightly. "They say the construction disturbs their sleep. That there are sounds from below that... that shouldn't exist. And they whisper about the foreign architect—how he works without rest, without fear. They've seen him carry stones that should break a man's back, work through the night without fatigue. They say he's not natural."
 
 "And?"
 
 "And that those who ask too many questions tend to... disappear."
 
-Theron's smile was cold. "Like that scullery maid, Thalia. So interested in the lower passages. Such a shame she went missing during the last tribute preparation." He turned back to Pasiphaë. "The construction site can be so dangerous for the curious."
+Theron's smile turned calculating rather than cold. "Like that scullery maid, Thalia. So interested in the lower passages. Such unfortunate timing, her disappearance." He paused, watching Pasiphaë's reaction with the patience of a man who knew exactly which wounds to probe. "Though I wonder—was it curiosity that killed her, or did she see something she shouldn't have? Something about our... special guest below?"
 
 The threat hung in the air. Thalia hadn't simply gone missing—everyone suspected where missing servants ended up. But saying so would acknowledge truths that couldn't be spoken.
 
@@ -60,13 +60,13 @@ After he left, Lysippe's composure crumbled slightly. "He grows bolder."
 
 "He smells blood in the water." Pasiphaë moved back to the window. "Tell me what the servants really say."
 
-"They say the King hasn't been seen in his own bed for weeks. That he spends his nights in the lower chambers, talking to... to it. That sometimes they hear him crying." Lysippe's voice dropped. "They say the tributes from Athens have been delayed again, and everyone knows what happens when it doesn't feed."
+"They say the King hasn't slept properly in weeks. That he dismisses even his most trusted guards for hours at a time, locked in his study with documents no scribe is permitted to copy. The servants who clean his chambers find stone dust on his robes—the gray-green kind from deep construction, not the white limestone from the upper works." 
 
 "And the architect?"
 
 "They say he works without rest, without fear. That Daedalus looks more haunted each day, but the foreign one just... continues. As if he's done this before." Lysippe paused. "They say he's not natural. That no normal man could bear what he's building."
 
-Pasiphaë absorbed this. An immortal architect building an impossible prison for an impossible creature. And Theron, stupid brutal Theron, blundering toward truths that would destroy him.
+Pasiphaë absorbed this. An immortal architect building an impossible prison for an impossible creature. And Theron, not as stupid as he seemed, circling truths that would destroy them all. She could feel it in her bones—the same bones that had carried the monster for nine months—that time was running short.
 
 "Double the guard on my chambers," she said quietly. "And prepare food for travel."
 
@@ -86,7 +86,7 @@ He didn't take a seat. Instead, he stood behind Kleomenes, close enough that the
 
 "I... the figures are complex, Lieutenant. Various obligations and—"
 
-Theron's hand slammed down on the table, making everyone jump. "I asked for a number, not excuses."
+Theron's hand came down on the table with calculated force—not rage, but precision, making everyone jump exactly as he'd intended. "I asked for a number, not excuses. Unless you'd prefer I investigate where the missing funds actually went? I'm sure the King would be fascinated to learn about certain... redirections."
 
 "Forty thousand talents," Kleomenes whispered. "Down from seventy thousand last quarter."
 
@@ -108,7 +108,7 @@ Asterion's jaw tightened. "Military movements are classified—"
 
 "Seven." Theron cut him off. "Seven offerings, compared to the usual hundred. Even the gods are abandoning Crete."
 
-He finally took the King's seat—a gesture so bold it made Kleomenes gasp audibly. "The King is indisposed. Again. The Queen pretends illness to avoid court. The treasury bleeds gold. The military hemorrhages men. The temples echo with absence." He leaned back in the stolen throne. "And you all sit here, playing at governance while the kingdom rots."
+He moved toward the King's seat, then paused—not taking it, but standing behind it, hands resting on its back. The threat was clearer than if he'd sat: I could take this whenever I choose. "The King is indisposed. Again. Speaking to shadows in the deep. The Queen hoards supplies—yes, Majesty, I know about the grain shipments redirected to your private stores. The treasury bleeds gold into secret accounts—each of you has one, don't you? The military hemorrhages men who've heard the stories." His fingers drummed on the throne's back. "And you all sit here, pretending normalcy while the kingdom prepares to devour itself."
 
 "What would you have us do?" Polyidus asked carefully.
 
@@ -128,7 +128,7 @@ Asterion went pale. They all had secrets, all had contingency plans, all were pr
 
 Theron smiled. "Then you'll explain to the King why you're obstructing investigation into potential threats. I'm sure he'll be very understanding. He's been so... reasonable lately."
 
-They all knew what Minos had become—paranoid, obsessed, cruel beyond even his usual nature. To be brought before him now was tantamount to a death sentence.
+They all knew what Minos had become—paranoid, obsessed, cruel beyond even his usual nature. But worse were the whispers that he'd been seen entering the labyrinth's lower chambers alone, emerging hours later with blood on his robes that wasn't his own. To be brought before him now meant risking more than death.
 
 "I thought so." Theron moved toward the door. "Oh, and gentlemen? Anyone thinking of following our harbor master's example and seeking employment elsewhere should remember—I have men at every port. Every road. Every path off this island." He paused at the threshold. "Loyalty isn't optional anymore. It's mandatory. And I define what loyalty means."
 

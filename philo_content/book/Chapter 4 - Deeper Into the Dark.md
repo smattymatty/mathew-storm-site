@@ -26,7 +26,7 @@ The new design emerged under his stylus, organic and wrong, passages that flowed
 
 "In my experience, they're often the same thing."
 
-A sound from outside made them both look up—distant shouting from the harbor. Sisyphus moved to the window, squinting against the morning sun reflecting off the sea. A ship had arrived, black-sailed and riding low in the water. Armed guards surrounded the dock as figures were herded off the vessel. Even from this distance, he could see they were young, some barely more than children.
+A sound from outside made them both look up—distant shouting from the harbor. Sisyphus moved to the window, squinting against the morning sun reflecting off the sea. A ship had arrived, black-sailed and riding low in the water. Armed guards surrounded the dock as figures were herded off the vessel. Even from this distance, he could see they were young, some barely more than children. One stumbled, and Sisyphus noticed how the others helped them up before the guards could intervene—that instinct for compassion even in terror. He'd seen it across ten thousand years. It never died, no matter how systems tried to crush it.
 
 "What manner of supplies arrive under such guard?" Sisyphus asked.
 
@@ -42,13 +42,17 @@ He gestured toward the northwestern section they'd just been discussing.
 
 "It nearly broke through sector seven. We found claw marks in stone that should be impervious to physical damage. Another day and it would have..." He shuddered. "The feeding keeps it manageable. Predictable."
 
-Sisyphus watched the young Athenians stumbling up the path, saw one fall and get dragged upright by guards. His stomach turned to ice. "Those are children."
+Sisyphus watched the young Athenians stumbling up the path, saw one fall and get dragged upright by guards. Without thinking, he grabbed a water jug from their table. "I need air," he said, already moving toward the door. Daedalus barely noticed, lost in his relief. 
+
+Outside, Sisyphus intercepted the procession at the courtyard well, timing it perfectly. As he "accidentally" knocked over the water jug near the tributes, the guards cursed and stopped to avoid slipping. In that moment of confusion, Sisyphus pressed a piece of bread into the fallen youth's hand, whispering, "Courage. Even monsters can learn mercy." The boy's eyes widened, but Sisyphus was already moving away, apologizing loudly to the guards for his clumsiness. A small defiance, invisible to authority, everything to one terrified child.
 
 "Those are political necessities." Daedalus's voice held no emotion, as if he'd burned through his capacity for horror long ago. "Athens sends them to prevent invasion. Minos accepts them to prevent... worse things."
 
 "And we build the machine that processes them."
 
 "We build the cage that contains what processes them." Daedalus turned from the window. "Don't look at me like that. You think I don't know what we are? But the alternative—"
+
+"There's always an alternative," Sisyphus said quietly, still tasting the satisfaction of his small rebellion. "We just have to be patient enough to find it."
 
 The door slammed open with such force it cracked against the wall. Alexios burst in, the young guard's face flushed with exertion and fear. Behind him, Sergeant Nikias filled the doorway, his weathered face grim.
 
@@ -147,6 +151,8 @@ They lit their torches and began the descent. Behind them, the foreman called ou
 Daedalus paused at the edge of darkness. "Tell them to stay away from sector nine. All of them. Until we understand what we're dealing with."
 
 "And if you don't come back?"
+
+Sisyphus turned, and for a moment the foreman saw something in his eyes—an ancient amusement, as if death was an old friend he'd already tricked twice. "Then tell them we're having a conversation with something that's learning to think. Whether it learns fear or curiosity from us... well, that's what we're about to find out." He smiled slightly, the same smile he'd worn pushing the boulder on good days, finding joy in the defiance of going down to meet a monster not with weapons, but with patience.
 
 "Then seal it," Daedalus said simply. "Seal it and inform the King that the labyrinth has begun to dream."
 

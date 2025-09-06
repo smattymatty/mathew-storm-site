@@ -571,30 +571,35 @@
 **Sub-plots:** Success and failure rates, the evolution of his methods
 
 ## Chapter 49 - The Happy Sisyphus
-**Setting:** Workshop filled with new labyrinth modifications  
+**Setting:** Deep in the labyrinth, centuries later, during routine maintenance  
 **Plot Summary:** Sisyphus achieves the ultimate absurdist victory—finding genuine joy in eternal debugging.  
-**Characters:** Sisyphus, the ghost of Daedalus (memory/hallucination), young hero he's guiding  
+**Characters:** Sisyphus (ancient but vigorous), young tribute he's guiding, memories of the dead  
 **Plot Points:**
-- Sisyphus laughing at finding the same bug he fixed centuries ago
-- His realization: "The boulder was just the tutorial level"
-- Teaching a young hero the maze while explaining Neo-Absurdism
-- The Minotaur sending him architectural suggestions through wall modifications
-- His genuine excitement: "Again! But better this time!"
-- Recognition that he's become the optimizing algorithm he once feared
-**Sub-plots:** Heroes now seek him out, knowing the "Ghost in the Maze" helps those who help themselves
+- Sisyphus discovers the same structural flaw he's fixed 10,000 times before
+- Laughs with genuine delight: "Hello, old friend. Miss me?"
+- Teaching a tribute the escape route while explaining why it will fail tomorrow
+- Finding crude architectural suggestions carved by the Minotaur: "BORING. TRY HARDER."
+- Sisyphus's response carved back: "TOMORROW. BETTER TRAP. PROMISE."
+- The tribute asks why he helps if it's hopeless
+- "The boulder was just the tutorial level. This? This is the real game."
+- His genuine excitement when the Minotaur destroys his best work: "Finally! A worthy critique!"
+**Sub-plots:** Tributes carry stories of the Ghost—half myth, half prayer, entirely true
 
 ## Chapter 50 - The Eternal Code
-**Setting:** The labyrinth has grown beyond the palace, becoming part of reality itself  
-**Plot Summary:** The final synthesis—Sisyphus realizes he's debugging existence itself, and he loves it.  
-**Characters:** Sisyphus, the evolved Minotaur (now co-architect), the labyrinth (now sentient)  
+**Setting:** Sisyphus's hidden workshop in the labyrinth's heart, millennia later  
+**Plot Summary:** The final synthesis—Sisyphus has become the labyrinth's conscience, and he's content.  
+**Characters:** Sisyphus, the Minotaur (now ancient, almost conversational), new tribute group  
 **Plot Points:**
-- The labyrinth has spread through dimensions, becoming a universal structure
-- Sisyphus and the Minotaur work together, prisoner and guard united in purpose
-- Every hero's journey through adds new data to optimize compassion
-- Sisyphus's final insight: "We're all pushing boulders. I just got the honest one."
-- The three branches of absurdism united: Humanist (saving heroes), Techno (building beyond comprehension), Neo (recursive improvement)
-- His last words: "One must imagine Sisyphus happy. I don't have to imagine."
-**Sub-plots:** The myth spreading across cultures—every labyrinth now has a helpful ghost, every impossible task has hidden mercy
+- Sisyphus has outlived civilizations; Crete is dust, but the labyrinth endures
+- The Minotaur now leaves helpful modifications too—it's learned loneliness is worse than hunger
+- They communicate through architecture: arguments in stone, jokes in deliberately bad engineering
+- New tributes arrive from some culture Sisyphus doesn't recognize—the labyrinth transcends its origins
+- He begins modification #40,000 on the same passage, humming while he works
+- A tribute finds his old mark: "PUSH FORWARD, NEVER UP"—advice that still saves lives
+- Final realization: "We're all pushing boulders. I just got the honest one."
+- Last image: Sisyphus cheerfully planning tomorrow's improvements, genuinely happy
+- "One must imagine Sisyphus happy. I don't have to imagine—I have work to do."
+**Sub-plots:** The labyrinth has become every maze, every impossible task, with hidden mercy encoded by an eternal debugger
 
 ---
 

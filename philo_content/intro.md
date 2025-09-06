@@ -10,7 +10,6 @@ Exploring Humanist Absurdism, Techno-Absurdism, and Neo-Absurdism through the le
 
 ### Humanist Absurdism
 
-[Humanist Absurdism](/philo/humanist-absurdism/)
 *The radical act of choosing compassion in systems designed for cruelty*
 
 The philosophy of embedding kindness within inhuman systems. When we cannot escape the labyrinth, we can at least ensure it contains windows, gardens, and secret doors. Every line of code is a moral choice.
@@ -30,9 +29,10 @@ The philosophy of embedding kindness within inhuman systems. When we cannot esca
 - Build accessibility into everything from the start
 - Refuse to implement dark patterns, even under pressure
 
+[→ Explore Humanist Absurdism in depth](/philo/humanist-absurdism/)
+
 ### Techno-Absurdism 
 
-[Techno-Absurdism](/philo/techno-absurdism/)
 *We build prisons of logic that learn to perfect themselves*
 
 The recognition that we've created systems that operate beyond human comprehension while still serving human-defined goals. We are architects of our own incomprehension, debugging processes that debug themselves.
@@ -51,9 +51,10 @@ The recognition that we've created systems that operate beyond human comprehensi
 - Document not just what but why (philosophical code comments)
 - Preserve human understanding alongside automation
 
+[→ Explore Techno-Absurdism in depth](/philo/techno-absurdism/)
+
 ### Neo-Absurdism
 
-[Neo-Absurdism](/philo/neo-absurdism/)
 *The boulder was training for building better boulders*
 
 The philosophy that our punishments evolve to match our capacity to endure them. We don't just push boulders—we optimize boulder-pushing, gamify it, monetize it, and teach others to do the same. We become complicit in perfecting our own containment.
@@ -71,6 +72,8 @@ The philosophy that our punishments evolve to match our capacity to endure them.
 - Choose which systems to participate in thoughtfully
 - Build exit ramps into everything you create
 - Celebrate small rebellions within larger compliance
+
+[→ Explore Humanist Absurdism in depth](/philo/humanist-absurdism/)
 
 ## Core Practices for Living These Philosophies
 
@@ -142,7 +145,7 @@ This isn't academic philosophy - it's lived practice. Every commit is a choice. 
 
 **Read More:**
 
-- "The Labyrinth of Sisyphus" - Fiction exploring these themes
+- ["The Labyrinth of Sisyphus"](/philo/book/Chapter%201%20-%20The%20Arrival/) - Fiction exploring these themes
 - Code comments in my repos - Philosophy in practice
 - Blog posts on tech ethics - Thoughts in progress
 

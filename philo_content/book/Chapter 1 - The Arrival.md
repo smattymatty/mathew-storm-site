@@ -58,7 +58,7 @@ He let that sink in before continuing, his voice taking on the flat tone of some
 
 The Captain's fingers drummed against his pommel in a slow, deliberate rhythm. "The kind that shows initiative beyond your instructions." His flint-gray eyes fixed on Sisyphus. "And questions. His Majesty dislikes questions."
 
-Sisyphus kept his expression neutral, but something in his chest loosened—not hope exactly, but recognition. Every punishment contained its own permissions. 'No unauthorized creativity' meant authorized creativity was expected. 'No questions' meant someone anticipated questions would arise. The guard had just outlined the exact boundaries of his cage, and Sisyphus had spent eternity learning that knowing your boundaries was the first step to transcending them.
+Sisyphus kept his expression neutral, but something in his chest loosened—not hope exactly, but recognition. The tenth guard to threaten him? The hundredth? After ten thousand years, he'd heard every variation of this speech. Every punishment contained its own permissions. 'No unauthorized creativity' meant authorized creativity was expected. 'No questions' meant someone anticipated questions would arise. The guard had just outlined the exact boundaries of his cage, and Sisyphus had spent eternity learning that knowing your boundaries was the first step to transcending them. A familiar joy flickered—another system to subvert, another boulder to push in his own direction.
 
 The guard stepped closer, close enough that Sisyphus could smell leather oil and old metal. "This project remains within these walls. No discussions in the courtyards, no casual mentions to servants." The Captain's voice dropped to barely above a whisper. "The King values discretion. Those who forget this discover that our previous architects make excellent test subjects."
 
@@ -70,7 +70,7 @@ After the Captain's bootfalls had faded down the spiral stairs, Daedalus collaps
 
 "Charming fellow," Sisyphus observed, rolling his shoulders to work out the perpetual knots.
 
-"He's executed three architects before us," Daedalus said casually as discussing the weather. "Minos values results over lives."
+"He's executed three architects before us," Daedalus said with forced casualness. "Minos values results over lives."
 
 He reached for his wine cup as the first light of dawn crept through the eastern window, lifting it with desperate hands in what seemed like ritual. The wine was sour, but he drank deeply anyway, as if the bitterness helped him remember something he'd rather forget.
 
@@ -90,11 +90,11 @@ Daedalus's stylus stopped mid-scratch. "What do you mean?"
 
 "The question," Daedalus interrupted, his voice sharp as a blade drawn from its sheath, "is what you did." The stylus in his fingers went perfectly still—too still. "What manner of crime earns a king eternal servitude to Minos?"
 
-The deflection was skillful, Sisyphus had to admit. But the evasion itself revealed more than any confession might have. He recognized the maneuver from his own days as king—when pressed about guilt, redirect to someone else's shame.
+The deflection was skillful, Sisyphus had to admit. But the evasion itself revealed more than any confession might have. He recognized the maneuver from his own days as king—when pressed about guilt, redirect to someone else's shame. He'd seen this pattern in every guilty man across millennia. But where others might judge, Sisyphus felt only compassion. Whatever weight Daedalus carried had already crushed him; adding more would be cruelty.
 
 "You want honesty?" Sisyphus asked, rolling his shoulders until the joints cracked. "I cheated death. Twice." He watched Daedalus's reaction carefully. "Chained Thanatos himself when he came for me, kept death from taking anyone in the world until the gods forced my hand. Then, when I finally died, I tricked Persephone into letting me return to the living."
 
-Daedalus had gone very still, stylus frozen in his grip.
+Daedalus had gone very still, his stylus hovering mid-stroke.
 
 "I thought I was more clever than fate itself," Sisyphus continued, his voice carrying the weight of countless years. "Spent decades as a living man who should have been dead, until the gods finally dragged me to Tartarus. My punishment was simple—push a boulder up a mountain for eternity, watch it roll back down, push it up again." He spread his scarred hands, palms up. "At least it was honest work."
 
@@ -104,7 +104,7 @@ The silence stretched between them like a taut rope. Finally, Daedalus set down 
 
 "And if they discover it anyway?"
 
-"Then we both die. But you'll die first, and slower." Daedalus picked up his stylus again, then paused. "Broken men build the best prisons—who better to trap hope than those who've watched their own die?" His laugh was dry as papyrus. "Keep your past buried, Sisyphus. Mine's staying exactly where I left it."
+"Then we both die. But you'll die first, and slower." Daedalus picked up his stylus again, then paused. "Broken men build the best prisons—who better to trap hope than those who've watched their own die?" His laugh was hollow, brittle. "Keep your past buried, Sisyphus. Mine's staying exactly where I left it."
 
 The dismissal was clear, but Sisyphus felt the sting of it. He'd offered genuine confession—the kind of brutal honesty that had cost him everything—and received only pragmatic calculation in return. This man would use him, certainly, but trust? That was another matter entirely.
 
@@ -124,11 +124,11 @@ Sisyphus felt something cold settle in his stomach. "You're building an elaborat
 
 "I'm building a containment system," Daedalus corrected, but his voice lacked conviction. "The beast cannot be destroyed, cannot be reasoned with. It must be fed, or it will break free. The labyrinth serves two purposes—it contains the monster, and it ensures the tributes reach their destination... efficiently."
 
-"Efficiently." Sisyphus tasted the word like poison, his scarred hands unconsciously clenching as if gripping invisible stone. "You mean it ensures they can't escape."
+"Efficiently." Sisyphus let the word sit in his mouth, his hands unconsciously clenching as if gripping invisible stone. "You mean it ensures they can't escape."
 
 "Precisely." Daedalus rolled up the smaller scroll with practiced efficiency, as if rolling up his own conscience. "King Minos desires a system where hope becomes the instrument of its own destruction. The tributes must believe escape is possible—not from kindness, but because despair without hope is merely suffering. With hope, it becomes education. Each death teaches the next group what not to try, and the labyrinth grows more perfect through their accumulated failures."
 
-Sisyphus studied the blueprints with new understanding. Here was a boulder that learned, that grew heavier with each push. But if the maze could learn from death, could it also learn from survival? Could someone patient enough, persistent enough, teach it mercy through repetition? The thought flickered and died—such speculation was premature. First, he needed to understand what they were building. Then, perhaps, he could discover what else it might become.
+Sisyphus studied the blueprints with new understanding. Here was a boulder that learned, that grew heavier with each push. But if the maze could learn from death, could it also learn from survival? Could someone patient enough, persistent enough, teach it mercy through repetition? The thought made him smile slightly—the same smile he'd worn the day he'd chained Death itself. Such speculation was premature, but the possibility of teaching mercy to a machine of cruelty? That was a defiance worth eternal labor. First, he needed to understand what they were building. Then, perhaps, he could discover what else it might become.
 
 The lamp flame guttered in a draft from the window, casting dancing shadows across the walls. In that flickering light, Sisyphus saw Daedalus clearly for the first time—not as a fellow prisoner, but as an architect of sophisticated cruelty. This was a man who could design hope itself as a weapon.
 
@@ -184,7 +184,7 @@ Everyone serves something. Daedalus served his guilt. Minos served his cruelty. 
 
 It wasn't redemption, but it was a direction.
 
-He reached for the bread, noting how the liquid in his cup trembled with each distant vibration through the stone—rhythmic and wrong, like a fortress learning to breath in harmony with the thing it contained.
+He reached for the bread, noting how the liquid in his cup trembled with each distant vibration through the stone—rhythmic and wrong, like a pulse through veins that shouldn't exist. The fortress itself was becoming alive, learning to breathe in harmony with the thing it held.
 
 In three hours, they would face a king who treated human lives like architectural materials. Below their feet, something born from divine cruelty was learning to be crueler still.
 
