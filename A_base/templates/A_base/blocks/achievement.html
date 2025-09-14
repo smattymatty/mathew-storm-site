@@ -1,0 +1,71 @@
+{# Achievement Block #}
+<div class="sb-card sb-p-6 {% if is_featured %}sb-border-2 sb-border-{{ color_theme }}{% endif %}"
+     data-storm="fade-in"
+     data-storm-delay="200"
+     id="{{ achievement_id }}">
+
+  {# Header with Icon and Title #}
+  <div class="sb-flex sb-items-center sb-mb-4">
+    {# Icon #}
+    <div class="sb-w-10 sb-h-10 sb-rounded-full sb-bg-{{ color_theme }}-25 sb-flex sb-items-center sb-justify-center sb-mr-3"
+         data-storm-hover="rotate">
+      {% if icon == "code" %}
+        <svg class="sb-w-6 sb-h-6 sb-text-{{ color_theme }}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+        </svg>
+      {% elif icon == "lightbulb" %}
+        <svg class="sb-w-6 sb-h-6 sb-text-{{ color_theme }}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+        </svg>
+      {% elif icon == "users" %}
+        <svg class="sb-w-6 sb-h-6 sb-text-{{ color_theme }}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+        </svg>
+      {% elif icon == "book" %}
+        <svg class="sb-w-6 sb-h-6 sb-text-{{ color_theme }}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+        </svg>
+      {% elif icon == "chart" %}
+        <svg class="sb-w-6 sb-h-6 sb-text-{{ color_theme }}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+        </svg>
+      {% elif icon == "trophy" %}
+        <svg class="sb-w-6 sb-h-6 sb-text-{{ color_theme }}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+        </svg>
+      {% else %}
+        {# Default star icon #}
+        <svg class="sb-w-6 sb-h-6 sb-text-{{ color_theme }}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+        </svg>
+      {% endif %}
+    </div>
+
+    {# Title #}
+    <h3 class="sb-text-lg sb-font-bold sb-text-text">{{ title }}</h3>
+  </div>
+
+  {# Achievement List #}
+  <ul class="sb-space-y-2">
+    {% for achievement in achievements %}
+      <li class="sb-flex sb-items-start" data-storm-hover="slide-right">
+        {# Custom bullet point #}
+        <span class="sb-text-{{ color_theme }} sb-mr-2 sb-mt-0.5">▸</span>
+
+        {# Achievement content #}
+        <div class="sb-flex-1">
+          {% if achievement.has_metric %}
+            <span class="sb-inline-flex sb-items-center sb-mr-2">
+              <span class="sb-text-sm sb-font-bold sb-text-{{ color_theme }} sb-bg-{{ color_theme }}-25 sb-px-2 sb-py-0.5 sb-rounded">
+                {{ achievement.metric }}
+              </span>
+            </span>
+            <span class="sb-text-sm sb-text-secondary">{{ achievement.text }}</span>
+          {% else %}
+            <span class="sb-text-sm sb-text-secondary">{{ achievement.text }}</span>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

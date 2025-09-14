@@ -1,0 +1,39 @@
+{% if images %}
+<div class="carousel-wrapper sb-my-6" id="{{ carousel_id }}-wrapper">
+  <div class="carousel sb-card" id="{{ carousel_id }}">
+    {% for image in images %}
+    <div class="carousel__slide {% if forloop.first %}initial active{% endif %}" data-index="{{ image.index }}">
+      {% if image.link %}
+      <a href="{{ image.link }}" class="carousel__link" target="_blank" rel="noopener">
+        <img class="carousel__photo sb-rounded" src="{{ image.url }}" alt="{{ image.description }}">
+      </a>
+      {% else %}
+      <img class="carousel__photo sb-rounded" src="{{ image.url }}" alt="{{ image.description }}">
+      {% endif %}
+      <div class="carousel__caption">
+        <p class="sb-text-sm sb-text-center sb-text-secondary">{{ image.description }}</p>
+      </div>
+    </div>
+    {% endfor %}
+
+    <!-- Navigation buttons -->
+    <button class="carousel__button carousel__button--prev sb-transition-all" aria-label="Previous image">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="15 18 9 12 15 6"></polyline>
+      </svg>
+    </button>
+    <button class="carousel__button carousel__button--next sb-transition-all" aria-label="Next image">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Dots indicator as separate card element -->
+  <div class="carousel__dots">
+    {% for image in images %}
+    <button class="carousel__dot sb-transition-all {% if forloop.first %}active{% endif %}" data-index="{{ image.index }}" aria-label="Go to image {{ forloop.counter }}"></button>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

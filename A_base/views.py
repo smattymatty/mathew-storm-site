@@ -5,6 +5,8 @@ from django.http import HttpResponse
 from django.views.decorators.http import require_POST
 
 from django_spellbook.parsers import render_spellbook_markdown_to_html
+# Import spellblocks to ensure they're registered
+from . import spellblocks
 
 content_folder = Path(__file__).resolve().parent / 'content'
 

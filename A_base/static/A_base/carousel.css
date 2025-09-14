@@ -1,0 +1,191 @@
+/* Django Spellbook Carousel Component */
+.carousel-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+/* All slides positioned absolutely */
+.carousel__slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 1;
+}
+
+/* Active slide is visible */
+.carousel__slide.active,
+.carousel__slide.initial {
+  opacity: 1;
+  z-index: 10;
+}
+
+/* Images */
+.carousel__photo {
+  max-width: 100%;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Image Links */
+.carousel__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.carousel__link:hover .carousel__photo {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+/* Caption */
+.carousel__caption {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
+}
+
+/* Navigation Buttons - Spellbook Style */
+.carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+  color: var(--text-secondary-color);
+}
+
+.carousel__button:hover {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--background-color);
+  transform: translateY(-50%) scale(1.05);
+}
+
+.carousel__button:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+.carousel__button--prev {
+  left: 20px;
+}
+
+.carousel__button--next {
+  right: 20px;
+}
+
+/* Dots Indicator - Spellbook Style */
+.carousel__dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-top: none;
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+.carousel__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid var(--border-color);
+  background: var(--background-color);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.carousel__dot:hover {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  opacity: 0.7;
+  transform: scale(1.2);
+}
+
+.carousel__dot.active {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  width: 20px;
+  border-radius: 4px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .carousel {
+    min-height: 400px;
+  }
+
+  .carousel__slide {
+    padding: 1rem;
+  }
+
+  .carousel__photo {
+    max-height: 300px;
+  }
+
+  .carousel__button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .carousel__button--prev {
+    left: 10px;
+  }
+
+  .carousel__button--next {
+    right: 10px;
+  }
+
+  .carousel__button svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Touch Device Enhancements */
+@media (hover: none) and (pointer: coarse) {
+  .carousel__button {
+    width: 56px;
+    height: 56px;
+    background: rgba(255, 255, 255, 0.95);
+  }
+}
+
+/* Dark mode handled automatically by Spellbook theme variables */

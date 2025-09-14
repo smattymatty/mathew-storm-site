@@ -16,6 +16,7 @@
     {% spellbook_styles %}
     <link rel="stylesheet" type="text/css" href="{% static 'A_base/style.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'A_base/modern.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'A_base/carousel.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'questions/quiz.css' %}" />
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,6 +27,8 @@
     />
     <!-- HTMX -->
      <script src="{% static 'A_base/htmx.min.js' %}"></script>
+     <!-- Carousel -->
+     <script src="{% static 'A_base/carousel.js' %}" defer></script>
   </head>
 
   <body class="sb-bg-background sb-min-h-screen sb-flex sb-flex-col" style="font-family: 'Inter', system-ui, -apple-system, sans-serif;">
@@ -64,16 +67,16 @@
         </section>
         
           {# Professional Sidebar #}
-          <aside class="sb-px-2 sb-md:px-4 sb-lg:px-6 sb-lg:col-span-4 sb-mt-6 sb-lg:mt-0" data-storm="slide-left" data-storm-delay="300">
+          <aside class="sb-px-2 sb-md:px-4 sb-lg:px-6 sb-lg:col-span-4 sb-mt-6 sb-lg:mt-0">
           {% if toc %}
-            <div class="sb-bg-surface sb-rounded-xl sb-shadow-lg sb-p-6 sb-mb-6 sb-sticky sb-top-4 sb-border sb-border-subtle" data-storm="fade-in" data-storm-delay="500">
+            <div class="sb-bg-surface sb-rounded-xl sb-shadow-lg sb-p-6 sb-mb-6 sb-sticky sb-top-4 sb-border sb-border-subtle">
               <h3 class="sb-text-lg sb-font-semibold sb-text-secondary sb-mb-4 sb-uppercase sb-tracking-wider" style="font-size: 0.875rem; letter-spacing: 0.05em;">Table of Contents</h3>
               {% sidebar_toc %}
             </div>
           {% endif %}
           
           {# Professional Quick Links #}
-          <div class="sb-bg-surface sb-rounded-xl sb-shadow-lg sb-p-6 sb-mb-6 sb-border sb-border-subtle" data-storm="fade-in" data-storm-delay="600">
+          <div class="sb-bg-surface sb-rounded-xl sb-shadow-lg sb-p-6 sb-mb-6 sb-border sb-border-subtle">
             <h3 class="sb-text-lg sb-font-semibold sb-text-accent sb-mb-4 sb-uppercase sb-tracking-wider" style="font-size: 0.875rem; letter-spacing: 0.05em;">Navigation</h3>
             <ul class="sb-space-y-3">
               <li><a href="{% url 'projects:intro' %}" class="sb-flex sb-items-center sb-gap-3 sb-p-2 sb-rounded-lg sb-hover:bg-primary-10 sb-transition-all" data-storm-hover="scale">
@@ -100,7 +103,7 @@
           </div>
           
           {# Professional Status Widget #}
-          <div class="sb-bg-gradient-to-br sb-from-accent-25 sb-to-primary-25 sb-rounded-xl sb-shadow-lg sb-p-6 sb-border sb-border-accent-50" data-storm="fade-in" data-storm-delay="700">
+          <div class="sb-bg-gradient-to-br sb-from-accent-25 sb-to-primary-25 sb-rounded-xl sb-shadow-lg sb-p-6 sb-border sb-border-accent-50">
             <h3 class="sb-text-lg sb-font-semibold sb-text-emphasis sb-mb-4 sb-uppercase sb-tracking-wider" style="font-size: 0.875rem; letter-spacing: 0.05em;">Current Focus</h3>
             <ul class="sb-space-y-3">
               <li class="sb-flex sb-items-center sb-gap-3 sb-p-2 sb-rounded-lg sb-bg-background-50">
@@ -111,10 +114,10 @@
                 </div>
               </li>
               <li class="sb-flex sb-items-center sb-gap-3 sb-p-2 sb-rounded-lg sb-bg-background-50">
-                <span class="sb-text-xl">🎓</span>
+                <span class="sb-text-xl">🤖</span>
                 <div>
-                  <p class="sb-font-medium sb-text-sm">C Programming</p>
-                  <p class="sb-text-xs sb-text-secondary">Seneca Polytechnic</p>
+                  <p class="sb-font-medium sb-text-sm">AI Integration</p>
+                  <p class="sb-text-xs sb-text-secondary">Claude, GPT, Gemini APIs</p>
                 </div>
               </li>
               <li class="sb-flex sb-items-center sb-gap-3 sb-p-2 sb-rounded-lg sb-bg-background-50">
