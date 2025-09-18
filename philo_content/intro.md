@@ -2,7 +2,7 @@
 
 Welcome to my philosophical explorations, where absurdism meets algorithms and humanity grapples with the machines we've built.
 
-[Philosophical Musings on Modern Absurdism](/philo/musings/)
+[Philosophical Musings on Modern Absurdism](/philo/the-recursive-absurd/)
 
 Exploring Humanist Absurdism, Techno-Absurdism, and Neo-Absurdism through the lens of "The Labyrinth of Sisyphus" and real-world implementation in code, community, and commerce.
 
