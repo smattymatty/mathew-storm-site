@@ -10,6 +10,10 @@ This essay about recursive absurdity was posted using Django Spellbook, shared o
 The loop is complete.
 {~~}
 
+{~ accordion title="Theme" ~}
+**In simpler terms:** We built technology to solve meaningless problems, then forgot the problems were meaningless. Now we spend our lives maintaining the solutions. This essay explores how we became prisoners of our own code.
+{~~}
+
 **Terminology:**
 
 {~ accordion title="Recursive" ~}
