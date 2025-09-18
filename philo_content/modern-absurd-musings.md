@@ -4,7 +4,7 @@
 
 Camus asked us to imagine Sisyphus happy. He could not have imagined that the boulder would eventually develop machine learning capabilities.
 
-The absurd man of 1942 pushed a rock up a mountain, watched it roll down, pushed it up again. The clarity of his punishment was almost beautiful—pure repetition, pure futility, pure defiance. Today's Sisyphus writes code that writes code that obsoletes the coder. The boulder now records his pushing technique, analyzes his inefficiencies, and sends him performance reviews.
+The absurd hero of 1942 pushed a rock up a mountain, watched it roll down, pushed it up again. The clarity of his punishment was almost beautiful; pure repetition, pure futility, pure defiance. Today's Sisyphus writes code that writes code that obsoletes the coder. The boulder now records his pushing technique, analyzes his inefficiencies, and sends him performance reviews.
 
 We have graduated from the absurd to the recursively absurd. Not content with meaningless labor, we optimize it. Not satisfied with futile tasks, we gamify them. The modern condition isn't just that life lacks inherent meaning—it's that we've built systems to manufacture false meaning at scale, then lost the ability to distinguish the manufactured from the real.
 
@@ -12,7 +12,7 @@ We have graduated from the absurd to the recursively absurd. Not content with me
 
 Consider the software developer's daily stand-up meeting. We gather to report what we did yesterday, what we'll do today, what blocks us. The ritual itself blocks us for thirty minutes. We track our tracking of tasks. We estimate the time to estimate time. We have retrospectives about our retrospectives, improving our process for improving our process.
 
-The boulder at least stayed a boulder. Our work multiplies into dashboards, KPIs, velocity charts, burndown graphs—each one measuring something that measures something that once, perhaps, measured something real. We've replaced Sisyphus's simple futility with complex futility. The mountain is now a spreadsheet, infinite rows and columns, each cell containing a formula referring to other cells, circular references everywhere, #REF! errors that no one fixes because the error itself has become the expected output.
+The boulder at least stayed a boulder. Our work multiplies into dashboards, KPIs, velocity charts, burndown graphs; each one measuring something that measures something that once, perhaps, measured something real. We've replaced Sisyphus's simple futility with complex futility. The mountain is now a spreadsheet, infinite rows and columns, each cell containing a formula referring to other cells, circular references everywhere, #REF! errors that no one fixes because the error itself has become the expected output.
 
 ### The Algorithm as Taskmaster
 
