@@ -73,7 +73,7 @@ The philosophy that our punishments evolve to match our capacity to endure them.
 - Build exit ramps into everything you create
 - Celebrate small rebellions within larger compliance
 
-[→ Explore Humanist Absurdism in depth](/philo/humanist-absurdism/)
+[→ Explore Humanist Absurdism in depth](/philo/neo-absurdism/)
 
 ## Core Practices for Living These Philosophies
 
