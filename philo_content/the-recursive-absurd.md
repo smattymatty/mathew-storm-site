@@ -119,6 +119,10 @@ This is neither Camus's heroic defiance nor his joyful acceptance. It is somethi
 
 One must imagine Sisyphus happy, Camus said. One must imagine the developer happy, I say - maintaining what Camus called 'lucid indifference' through recognition of the cosmic joke.
 
+{~ accordion title="Han on the Burnout Society" ~}
+In The Burnout Society, Byung-Chul Han argues that contemporary exhaustion stems not from external oppression but from self-exploitation. We've internalized the demand for productivity so completely that we become our own harshest taskmasters. Han describes the "achievement subject" who "exploits itself voluntarily without external constraints."
+{~~}
+
 The laughter isn't bitter. It's the laughter of someone who adds a comment saying "I have no idea why this works" and knows that in five years, another developer will find it, laugh the same laugh, and add their own comment: "Still don't know, still works."
 
 ## VII. The Final Recursion
