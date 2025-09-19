@@ -19,10 +19,10 @@ Visit my [Interactive Questions Page](/questions/) (WORK IN PROGRESS!) to test y
 
 ## Topics
 
-{~ accordion title="Conquering the Chaos of Coding with C" open=true ~}
+{~ accordion title="Artificial Intelligence" ~}
 
-[01 - Introduction to C](/blog/C_Programming/Strings/daedalus-strings-01/)
-  *Learn the basics of C programming*
+[The Architecture of our Agency - Vibe Coding vs. AI-assisted Engineering](/blog/Artificial_Intelligence/vibe%20Coding%20vs%20AI%20Assisted%20Engineering/)
+  *Exploring how decentralized networks could secure Canada's digital future*
 
 {~~}
 
