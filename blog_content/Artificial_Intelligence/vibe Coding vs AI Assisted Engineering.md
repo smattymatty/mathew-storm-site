@@ -40,7 +40,11 @@ We are building software we don't understand, and calling it progress.
 
 This is vibe coding.
 
-The appeal is obvious: instant gratification without the learning curve. No need to understand React hooks, state management, or component lifecycles. No wrestling with webpack configs or dependency hell. Just describe what you want in plain English and watch it appear. It's like having a senior developer who never gets tired, never judges your ignorance, and works for free.
+The appeal is intoxicating. No more wrestling with webpack configs or dependency hell. No more imposter syndrome when faced with complex codebases. Just describe what you want in plain English and watch it appear. It's like having a senior developer who never gets tired, never judges your ignorance, and works for free.
+
+The results are impressive. Junior developers shipping features in hours that used to take weeks. Startups launching MVPs over weekends. That dashboard you've been putting off? Done before lunch. The future of development seemed bright; accessibility democratized, productivity unleashed, everyone able to build anything.
+
+For a few glorious months, it feels like we've solved software development.
 
 But this magic is a trap disguised as liberation.
 
@@ -202,7 +206,7 @@ This markdown becomes the prompt. The AI implements YOUR architecture, not its s
 
 ### Values-Driven Development
 
-Before any technical decision, should come a values check. The [80-20 Human in the Loop community](https://github.com/80-20-Human-In-The-Loop/Community/wiki/Community-Values) calls this the "values filter": every AI suggestion passes through your core principles before acceptance.
+Before any technical decision, there should be a values check. The [80-20 Human in the Loop community](https://github.com/80-20-Human-In-The-Loop/Community/wiki/Community-Values) calls this the "values filter": every AI suggestion passes through your core principles before acceptance.
 
 Their triangle of wisdom, integrity, and compassion isn't abstract philosophy. It's a practical framework: Does this preserve understanding (wisdom)? Can we own the outcomes (integrity)? Does this respect users' humanity (compassion)?
 
