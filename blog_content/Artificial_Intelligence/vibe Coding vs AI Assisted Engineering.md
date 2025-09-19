@@ -90,7 +90,7 @@ Source: "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI 
 "But anyone can do it," they say, until nobody can fix it.
 "But the AI understands it," they say, not realizing the AI has no memory of writing it.
 
-The vibe coder is Sisyphus, but worse—they've forgotten they're pushing a boulder at all. They think they're riding in a Tesla on autopilot, not realizing they're actually tied to the roof.
+The vibe coder is Sisyphus, but worse; they've forgotten they're pushing a boulder at all. They think they're riding in a car on autopilot, not realizing they're actually tied to the roof, and losing the ability to choose where they're going.
 
 ### The Compound Interest of Ignorance
 
@@ -104,7 +104,7 @@ Each vibe-coded feature adds to a growing debt of understanding. Like financial 
 
 But the real cost isn't technical; it's human. Every line of code you don't understand is a piece of your professional capability you've outsourced. Every system you can't explain is a part of your expertise that doesn't exist. You're not becoming a better developer; you're becoming a better prompter. And prompters, unlike developers, have no fundamental understanding to fall back on when the magic stops working.
 
-This is [The recursive absurd](/phlo/the-recursive-absurd/) in its purest form: we've automated ourselves into incompetence. The boulder doesn't just learn—it teaches us to forget how to push. We're not standing on the shoulders of giants; we're standing on a black box, hoping it doesn't collapse, having forgotten that we're the ones who were supposed to understand how to build boxes in the first place.
+This is [The recursive absurd](/philo/the-recursive-absurd/) in its purest form: we've automated ourselves into incompetence. The boulder doesn't just learn—it teaches us to forget how to push. We're not standing on the shoulders of giants; we're standing on a black box, hoping it doesn't collapse, having forgotten that we're the ones who were supposed to understand how to build boxes in the first place.
 
 ## II. The Architecture of Intention
 
@@ -308,7 +308,7 @@ This isn't Luddism; though yes, they did have better fashion sense.
 
 The humor matters because the situation is absurd: we're using essays to fight the automation of thought, knowing these very essays will train the next generation of thought-automating machines. If we can't laugh at this recursion, we'll go mad from it.
 
-We're not rejecting AI; we're rejecting [The recursive absurd](/phlo/the-recursive-absurd/) where each generation knows less than the last. AI-Assisted Engineering is the minimum viable resistance.
+We're not rejecting AI; we're rejecting [The recursive absurd](/philo/the-recursive-absurd/) where each generation knows less than the last. AI-Assisted Engineering is the minimum viable resistance.
 
 Every markdown document is a small rebellion: "I designed this."
 Every code review is an act of defiance: "I understand this."
@@ -336,7 +336,7 @@ This is what resistance looks like: not grand declarations, but deliberate pract
 
 ## VIII. The Final Recursion
 
-Some model will ingest this essay, learn the phrase "vibe coding," and generate responses about AI-Assisted Engineering. [The recursive absurd](/phlo/the-recursive-absurd/) consumes even its own critique.
+Some model will ingest this essay, learn the phrase "vibe coding," and generate responses about AI-Assisted Engineering. [The recursive absurd](/philo/the-recursive-absurd/) consumes even its own critique.
 
 But here's the thing: by explicitly documenting our approach, by maintaining our understanding, by insisting on architecture before implementation, we shape how these systems evolve. We're not avoiding the recursion; we're trying to steer it somewhere less stupid.
 
@@ -385,7 +385,7 @@ Open a markdown file. Write what you're about to build. Not code; intentions. No
 
 Then, and only then, let AI help you build it. Stop being a Vibe Coder. Become an Engineer, before it's too late.
 
-[The recursive absurd](/phlo/the-recursive-absurd/) thrives on thoughtlessness. We resist through deliberate practice, documented decisions, and the stubborn insistence on understanding what we ship.
+[The recursive absurd](/philo/the-recursive-absurd/) thrives on thoughtlessness. We resist through deliberate practice, documented decisions, and the stubborn insistence on understanding what we ship.
 
 Build with AI. Build with intention. Build with the knowledge that when everything breaks—and it will—you'll know why.
 
