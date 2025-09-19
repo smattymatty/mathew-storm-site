@@ -108,7 +108,7 @@ This is [The recursive absurd](/philo/the-recursive-absurd/) in its purest form:
 
 ## II. The Architecture of Intention
 
-AI-Assisted Engineering begins with a simple inversion: humans define the "why" and "what," AI executes the "how."
+AI-Assisted Engineering isn't about rejecting AI. It's about refusing to become its cargo. You define the destination and the route. AI just drives faster.
 
 **The 20% that remains human:**
 - Problem definition in clear, architectural terms
@@ -138,10 +138,15 @@ Source: "GitHub Copilot AI pair programmer: Asset or Liability?" - Journal of Sy
 
 ### The Engineer's Manifesto
 
-Write your solution in markdown before code.
-Draw your system before prompting.
-Understand your problem before describing it.
-Own your decisions, especially the automated ones.
+Write your solution in markdown before code—not because it's virtuous, but because explaining forces understanding. If you can't write it, you can't own it.
+
+Draw your system before prompting. Boxes and arrows aren't outdated; they're how humans think about relationships. AI thinks in token probabilities. Who do you want designing your architecture?
+
+Understand your problem before describing it. The difference between "make me a login system" and "I need JWT-based auth with 15-minute refresh tokens for a financial app" is the difference between gambling and engineering. One hopes the AI guesses right. The other ensures it builds what you actually need.
+
+Own your decisions, especially the automated ones. When AI suggests using MongoDB for your financial transactions, you need to know why that's insane. When it generates a recursive function that'll blow the stack, you need to catch it. The AI is your intern with infinite speed but zero judgment. You wouldn't let an intern deploy to production without review—why let AI?
+
+Every decision you delegate without understanding is a piece of your expertise you'll never get back. The AI doesn't learn from its mistakes. You're supposed to.
 
 ## III. The Wisdom Gap
 
