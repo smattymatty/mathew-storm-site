@@ -8,10 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{% block page_title %}Mathew Storm{% endblock %}</title>
-    <meta name="description" content="{% block meta_description %}CEO of Storm Development, leader of the 80-20 Human-In-The-Loop movement, and philosophical author exploring humanity in the age of AI.{% endblock %}">
+    <meta name="description" content="{% block meta_description %}Founder of 80-20 Human-in-the-Loop community, Django tooling architect, unraveling the recursive absurd. Where philosophy meets engineering.{% endblock %}">
     <meta name="author" content="Mathew Storm">
+    <meta name="keywords" content="Mathew Storm, recursive absurd, 80-20 human in the loop, Django developer tools, AI assisted engineering, techno-absurdism, philosophy of technology, neo-absudism, humanist absurdism">
     <meta property="og:title" content="Mathew Storm - Personal Website">
-    <meta property="og:description" content="Building the future where humans lead and tech amplifies.">
+    <meta property="og:description" content="Founder of 80-20 Human-in-the-Loop community. Unraveling the recursive absurd where philosophy meets engineering.">
     <meta property="og:type" content="website">
     {% spellbook_styles %}
     <link rel="stylesheet" type="text/css" href="{% static 'A_base/style.css' %}" />
@@ -29,6 +30,45 @@
      <script src="{% static 'A_base/htmx.min.js' %}"></script>
      <!-- Carousel -->
      <script src="{% static 'A_base/carousel.js' %}" defer></script>
+
+     <!-- Structured Data for Person (Mathew Storm) -->
+     <script type="application/ld+json">
+     {
+       "@context": "https://schema.org",
+       "@type": "Person",
+       "name": "Mathew Storm",
+       "alternateName": "smattymatty",
+       "url": "https://mathewstorm.ca",
+       "image": "https://mathewstorm.ca/static/images/mathew-storm.jpg",
+       "sameAs": [
+         "https://github.com/smattymatty",
+         "https://www.linkedin.com/in/mathew-storm-70b671384/",
+         "https://techhub.social/@smattymatty",
+         "https://www.youtube.com/@Mathew-Storm"
+       ],
+       "jobTitle": ["Software Developer", "Django Architect", "Philosophical Author"],
+       "worksFor": {
+         "@type": "Organization",
+         "name": "Storm Development"
+       },
+       "description": "Founder of the 80-20 Human-in-the-Loop community, creator of recursive absurdism, and Django Spellbook author. Not the basketball player.",
+       "knowsAbout": [
+         "Django Framework",
+         "Python Development",
+         "Recursive Absurdism",
+         "AI-Assisted Engineering",
+         "80-20 Human-in-the-Loop",
+         "Philosophy of Technology",
+         "Techno-Absurdism",
+         "Humanist Absurdism",
+         "Neo-Absurdism"
+       ],
+       "nationality": {
+         "@type": "Country",
+         "name": "Canada"
+       }
+     }
+     </script>
   </head>
 
   <body class="sb-bg-background sb-min-h-screen sb-flex sb-flex-col" style="font-family: 'Inter', system-ui, -apple-system, sans-serif;">

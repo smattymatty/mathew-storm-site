@@ -30,7 +30,7 @@ A group of servants passed them on the path, carrying amphorae of oil from the p
 
 They passed through the palace gates where guards saluted Nikias with practiced efficiency. The familiar rhythms of palace life continued around them—servants carrying water jars, nobles discussing trade agreements, a group of scribes hurrying to afternoon sessions. All of it felt like a dream after the nightmare reality below.
 
-"Three months since the first signs," Daedalus continued, his voice steadier now that they were back in the world of normal architecture. "Passages appearing where none were planned. I told myself they were survey errors. Miscommunications between work crews." His bitter laugh echoed off the palace walls. "Easier than admitting what I really expected."
+"Three months since the first signs," Daedalus continued, his voice steadier now that they were back in the world of normal architecture.
 
 The tower rose before them, its solid stones a comfort after the fluid impossibilities they'd witnessed. But even its familiar shape felt different now—less refuge, more cage.
 

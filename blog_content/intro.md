@@ -22,7 +22,14 @@ Visit my [Interactive Questions Page](/questions/) (WORK IN PROGRESS!) to test y
 {~ accordion title="Artificial Intelligence" ~}
 
 [The Architecture of our Agency - Vibe Coding vs. AI-assisted Engineering](/blog/Artificial_Intelligence/vibe%20Coding%20vs%20AI%20Assisted%20Engineering/)
-  *Exploring how decentralized networks could secure Canada's digital future*
+  *Advocating for Vibe Coders to become Engineers, before it's too late*
+
+{~~}
+
+{~ accordion title="Governance" ~}
+
+[Fuck the Facade: Why Authentic Language Anchors Real Governance](/blog/Governance/fuck-the-facade/)
+  *Human Language is important and Corporate-Speak is bullshit*
 
 {~~}
 
