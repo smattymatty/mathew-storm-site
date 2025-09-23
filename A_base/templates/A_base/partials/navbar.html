@@ -82,7 +82,7 @@
             <button 
               id="theme-toggle"
               class="sb-p-2.5 sb-rounded-full sb-bg-accent sb-text-white sb-hover:bg-warning sb-transition-all sb-shadow-md sb-hover:shadow-lg"
-              hx-post="{% url 'base:toggle_theme' %}"
+              hx-post="{% url 'A_base:toggle_theme' %}"
               hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'
               hx-swap="none"
               hx-trigger="click"
