@@ -70,7 +70,7 @@ const ErrorCategory = { ANIMATION: 'animation', SYSTEM: 'system' };
  * });
  *
  * @version 1.0.0
- * @since 2024
+ * @since 2025
  */
 
 /**

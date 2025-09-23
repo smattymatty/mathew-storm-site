@@ -62,7 +62,7 @@ const ErrorCategory = {
  * console.log('System performance:', metrics.performance);
  *
  * @version 1.0.0
- * @since 2024
+ * @since 2025
  */
 
 /**

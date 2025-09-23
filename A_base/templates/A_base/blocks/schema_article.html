@@ -1,0 +1,31 @@
+{% comment %}
+Schema Article Block - Structured data for articles
+Usage: {~ schema type="Article" headline="Article Title" date="2025-01-01" author="Mathew Storm" description="Article description" ~}
+{% endcomment %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{ schema_type|default:'Article' }}",
+  {% if headline %}"headline": "{{ headline }}",{% endif %}
+  {% if date_published %}"datePublished": "{{ date_published }}",{% endif %}
+  {% if date_published %}"dateModified": "{{ date_published }}",{% endif %}
+  {% if author %}
+  "author": {
+    "@type": "Person",
+    "name": "{{ author }}",
+    "url": "https://mathewstorm.ca"
+  },
+  {% endif %}
+  {% if description %}"description": "{{ description }}",{% endif %}
+  "publisher": {
+    "@type": "Person",
+    "name": "Mathew Storm",
+    "url": "https://mathewstorm.ca"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ request.build_absolute_uri }}"
+  }
+}
+</script>

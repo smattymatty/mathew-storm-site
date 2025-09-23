@@ -297,7 +297,7 @@ Update your existing `philo_content/the-recursive-absurd.md`:
 {~ schema
    type="Article"
    headline="The Recursive Absurd: A Digital Addendum to Sisyphus"
-   date="2024-01-01"
+   date="2025-01-01"
 ~}
 
 # The Recursive Absurd: A Digital Addendum to Sisyphus

@@ -239,3 +239,49 @@ class AchievementBlock(BasicSpellBlock):
         context['achievement_id'] = f"achievement-{id(self)}"
 
         return context
+
+
+@SpellBlockRegistry.register()
+class SEOBlock(BasicSpellBlock):
+    """SEO metadata SpellBlock for embedding meta tags in content"""
+    name = 'seo'
+    template = 'A_base/blocks/seo_metadata.html'
+
+    def get_context(self):
+        context = super().get_context()
+        context['title'] = self.kwargs.get('title', '')
+        context['description'] = self.kwargs.get('description', '')
+        context['keywords'] = self.kwargs.get('keywords', '')
+        context['author'] = self.kwargs.get('author', 'Mathew Storm')
+        context['og_image'] = self.kwargs.get('image', '')
+        context['og_type'] = self.kwargs.get('type', 'article')
+        return context
+
+
+@SpellBlockRegistry.register()
+class MetaBlock(BasicSpellBlock):
+    """Quick meta description block"""
+    name = 'meta'
+    template = 'A_base/blocks/meta_description.html'
+
+    def get_context(self):
+        context = super().get_context()
+        # If description is provided as param, use it. Otherwise use content
+        context['description'] = self.kwargs.get('description', self.content[:155] if self.content else '')
+        return context
+
+
+@SpellBlockRegistry.register()
+class SchemaBlock(BasicSpellBlock):
+    """Structured data block for articles and other content types"""
+    name = 'schema'
+    template = 'A_base/blocks/schema_article.html'
+
+    def get_context(self):
+        context = super().get_context()
+        context['schema_type'] = self.kwargs.get('type', 'Article')
+        context['headline'] = self.kwargs.get('headline', '')
+        context['date_published'] = self.kwargs.get('date', '')
+        context['author'] = self.kwargs.get('author', 'Mathew Storm')
+        context['description'] = self.kwargs.get('description', '')
+        return context

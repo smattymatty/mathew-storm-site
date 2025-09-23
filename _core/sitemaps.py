@@ -4,7 +4,25 @@ from pathlib import Path
 from django.conf import settings
 
 
-class SpellbookContentSitemap(Sitemap):
+class BaseSitemap(Sitemap):
+    """Base sitemap with production URL handling"""
+    protocol = 'https'  # Force HTTPS for production
+
+    def get_urls(self, page=1, site=None, protocol=None):
+        """Override to use production domain"""
+        # Force the domain to be mathewstorm.ca in production
+        if not settings.DEBUG:
+            from django.contrib.sites.models import Site
+            # Create a fake Site object with the correct domain
+            class ProductionSite:
+                domain = 'mathewstorm.ca'
+                name = 'mathewstorm.ca'
+            site = ProductionSite()
+
+        return super().get_urls(page, site, protocol)
+
+
+class SpellbookContentSitemap(BaseSitemap):
     """Sitemap for Django Spellbook markdown content"""
     changefreq = "weekly"
     priority = 0.8
@@ -45,7 +63,7 @@ class SpellbookContentSitemap(Sitemap):
             return '/'
 
 
-class StaticViewSitemap(Sitemap):
+class StaticViewSitemap(BaseSitemap):
     """Sitemap for static views"""
     priority = 1.0
     changefreq = 'daily'

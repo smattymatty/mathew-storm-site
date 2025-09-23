@@ -1,95 +1,108 @@
-# Unraveling the Recursive Absurd: When Markdown Files Become Functions
+{% extends 'A_base/sb_base.html' %}
 
-{~ accordion title="Summary" ~}
-We built walls between modules, templates, and functions. Then we built tools to manage those walls. Then tools to manage the tools. Each layer justified by "foundational wisdom" nobody questions anymore.
+{% block spellbook_md %}
+<h1 id="unraveling-the-recursive-absurd-when-markdown-files-become-functions">Unraveling the Recursive Absurd: When Markdown Files Become Functions</h1>
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Summary</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>We built walls between modules, templates, and functions. Then we built tools to manage those walls. Then tools to manage the tools. Each layer justified by "foundational wisdom" nobody questions anymore.</p>
+<p>But authentic experimentation breaks the loop. Build something real, refactor until it feels right, and watch the walls collapse.</p>
+<p>Django-Spellbook accidentally proved it: markdown files ARE Python functions.<br />
+Other projects prove it: templates ARE functions, components ARE functions.<br />
+Different doors, same discovery.</p>
+<p>The recursive absurd thrives on false complexity. Unraveling it means finding the base case that was always there, just buried under patterns we inherited.</p>
+        </div>
+    </div>
+</div>
 
-But authentic experimentation breaks the loop. Build something real, refactor until it feels right, and watch the walls collapse.
+<p><strong>Terminology:</strong></p>
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">The Recursive Absurd</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>Systems that build systems that build us. No base case, no unwinding, just deeper loops of manufactured complexity.</p>
+<p>We maintain distinctions because they exist, not because they're real. We defend complexity as "necessary architecture" while forgetting why we separated things in the first place.</p>
+<p>The recursive absurd feeds on unexamined inheritance - accepting how things are done because that's how they're done.</p>
+        </div>
+    </div>
+</div>
 
-Django-Spellbook accidentally proved it: markdown files ARE Python functions.
-Other projects prove it: templates ARE functions, components ARE functions.
-Different doors, same discovery.
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Authentic Experimentation</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>Building real things and discovering real patterns, not prescribed ones. Refactoring until your brain stops fighting the design. Finding what actually IS rather than what you were told SHOULD BE.</p>
+<p>The opposite of top-down architecture astronomy. You build, you notice patterns, you simplify to base case, you rebuild from truth.</p>
+<p>This is how modules become functions - not through theory but through doing.</p>
+        </div>
+    </div>
+</div>
 
-The recursive absurd thrives on false complexity. Unraveling it means finding the base case that was always there, just buried under patterns we inherited.
-{~~}
-
-**Terminology:**
-
-{~ accordion title="The Recursive Absurd" ~}
-Systems that build systems that build us. No base case, no unwinding, just deeper loops of manufactured complexity.
-
-We maintain distinctions because they exist, not because they're real. We defend complexity as "necessary architecture" while forgetting why we separated things in the first place.
-
-The recursive absurd feeds on unexamined inheritance - accepting how things are done because that's how they're done.
-{~~}
-
-{~ accordion title="Authentic Experimentation" ~}
-Building real things and discovering real patterns, not prescribed ones. Refactoring until your brain stops fighting the design. Finding what actually IS rather than what you were told SHOULD BE.
-
-The opposite of top-down architecture astronomy. You build, you notice patterns, you simplify to base case, you rebuild from truth.
-
-This is how modules become functions - not through theory but through doing.
-{~~}
-
-## I. The Accidental Discovery
-
-Django-Spellbook started with frustration, not philosophy. 
-
-"Why do I need three files just to show some markdown content?" 
-- A view to fetch the markdown
-- A template to wrap it
-- URL configuration to wire it up
-
-Just to display documentation that was already written. The same boilerplate, over and over, for what should be the simplest thing in web development: showing words on a screen.
-
-{~ accordion title="Django-Spellbook: The Technical Journey" ~}
-The Django-Spellbook team made several key discoveries through pure trial and error:
-
-**First Attempt:** We tried treating markdown as static templates. Failed immediately - no dynamic content, no context passing, just dead HTML.
-
-**Second Attempt:** Pre-process markdown into Django templates. Better, but now we had two compilation steps and debugging was hell.
-
-**The Revelation:** What if markdown files just... were Python functions? Not metaphorically, but literally. The `spellbook_md` command transforms each `.md` file into a Python function that returns HttpResponse.
-
-**The Architecture:**
-- Each markdown file gets parsed for frontmatter (metadata) and content
-- The parser generates a corresponding Python view function
-- URL patterns are auto-generated from the file structure
-- SpellBlocks (`{~ component ~}`) become function calls within the markdown
-
-We didn't set out to prove that content and code are the same thing. We just wanted to stop writing boilerplate. But once you see markdown files compiling to Python functions, you can't unsee the truth: the separation was always artificial.
-
-[Explore the technical details at django-spellbook.org →](https://django-spellbook.org)
-{~~}
-
-The solution was so obvious it felt like cheating: What if markdown files just... were Python functions?
-
-Not wrapped in functions. Not processed by functions. Actually compiled into Python functions that return HttpResponse objects. Your `about.md` becomes `about()`. Your documentation becomes your application.
-
-This wasn't some grand architectural vision. We stumbled into it trying to eliminate boilerplate. But once you see markdown files compiling to Python functions, you realize you've been maintaining a false boundary. Content and code were never different things - we just insisted on treating them differently.
-
-And here's the thing: we're not unique. Across the ecosystem, developers keep "discovering" the same pattern:
-- React components? Functions that return UI
-- Template engines? Functions that return strings  
-- Infrastructure as Code? Functions that return infrastructure
-- CSS-in-JS? Functions that return styles
-
-Everyone's accidentally discovering the same truth from different angles. The walls we inherited weren't load-bearing. They were just habits we forgot to question.
-
-## II. Learning Your Boundaries First (But Actually Understanding Them)
-
-Before you can break the rules, you need to know why they existed - otherwise you're not innovating, you're just making the same mistakes that created the rules in the first place.
-
-{~ accordion title="The Labyrinth of Sisyphus - Chapter 1" ~}
-In Chapter 1 of The Labyrinth of Sisyphus, our eternal boulder-pusher receives new orders. After millennia of predictable punishment, he's reassigned to help build the Cretan labyrinth.
-
-The Guard Captain threatens him with typical authoritarian theater: "No unauthorized creativity. No questions." But Sisyphus, after ten thousand years of threats, hears what's really being said. Every boundary explicitly stated is a glimpse of transcendance.
-
-The experienced know: rules reveal more than they restrict. "Don't touch that button" tells you exactly which button matters. "No unauthorized creativity" announces that creativity itself is expected, even required - they're just trying to control its direction.
-
-This is the lesson for developers learning their craft: master the conventional boundaries not to obey them forever, but to understand their shape. Once you know why the walls exist, you can find where they're load-bearing and where they're just habit dressed up as architecture.
-
-[Read Chapter 1: The Arrival →](https://mathewstorm.ca/philo/book/Chapter%201%20-%20The%20Arrival/)
-{~~}
+<h2 id="i-the-accidental-discovery">I. The Accidental Discovery</h2>
+<p>Django-Spellbook started with frustration, not philosophy. </p>
+<p>"Why do I need three files just to show some markdown content?" <br />
+- A view to fetch the markdown<br />
+- A template to wrap it<br />
+- URL configuration to wire it up</p>
+<p>Just to display documentation that was already written. The same boilerplate, over and over, for what should be the simplest thing in web development: showing words on a screen.</p>
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Django-Spellbook: The Technical Journey</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>The Django-Spellbook team made several key discoveries through pure trial and error:</p>
+<p><strong>First Attempt:</strong> We tried treating markdown as static templates. Failed immediately - no dynamic content, no context passing, just dead HTML.</p>
+<p><strong>Second Attempt:</strong> Pre-process markdown into Django templates. Better, but now we had two compilation steps and debugging was hell.</p>
+<p><strong>The Revelation:</strong> What if markdown files just... were Python functions? Not metaphorically, but literally. The <code>spellbook_md</code> command transforms each <code>.md</code> file into a Python function that returns HttpResponse.</p>
+<p><strong>The Architecture:</strong><br />
+- Each markdown file gets parsed for frontmatter (metadata) and content<br />
+- The parser generates a corresponding Python view function<br />
+- URL patterns are auto-generated from the file structure<br />
+- SpellBlocks (<code><!-- Block 'component' not found -->
 
 ### Why These Walls Were Built (The History Nobody Teaches)
 
@@ -155,17 +168,29 @@ The recursive absurd convinced us these were fundamentally different, requiring 
 
 But authentic experimentation reveals the truth. When you actually build something and keep refactoring until it feels right, everything collapses into the same pattern: thing takes input, returns output. The rest is costume.
 
-{~ accordion title="When Everything Collapses to Input→Output" ~}
-This isn't abstract philosophy - it's what you discover when you actually trace through what happens in any system. A Python module gets imported and returns a collection of capabilities. A template receives context and returns formatted text. A React component accepts properties and returns a description of UI elements. Django-Spellbook's markdown files take HTTP requests and return HTTP responses.
-
-The tools try to hide this truth behind specialized vocabulary. Modules have "imports" and "exports." Templates have "inheritance" and "blocks." Components have "props" and "state." But strip away the jargon and it's all the same pattern: receive something, transform it, return something else.
-
-Even more revealing is what happens with [AI-Assisted Engineering](https://mathewstorm.ca/blog/Artificial_Intelligence/vibe%20Coding%20vs%20AI%20Assisted%20Engineering/). When you write documentation first - "this system should validate user input and return appropriate errors" - you're already describing a function in plain language. The boundary between documentation and implementation starts to dissolve because they're both describing the same transformation, just at different levels of detail.
-
-This is why Django-Spellbook feels like cheating - it's not doing something magical, it's just refusing to pretend that markdown content and Python views are fundamentally different things. Both take requests and return responses. The artificial separation was purely conventional, not architectural.
-
-The recursive absurd thrives on these false distinctions. We build entire tool chains, educational curricula, and career paths around boundaries that don't actually exist in the underlying computation.
-{~~}
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">When Everything Collapses to Input→Output</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>This isn't abstract philosophy - it's what you discover when you actually trace through what happens in any system. A Python module gets imported and returns a collection of capabilities. A template receives context and returns formatted text. A React component accepts properties and returns a description of UI elements. Django-Spellbook's markdown files take HTTP requests and return HTTP responses.</p>
+<p>The tools try to hide this truth behind specialized vocabulary. Modules have "imports" and "exports." Templates have "inheritance" and "blocks." Components have "props" and "state." But strip away the jargon and it's all the same pattern: receive something, transform it, return something else.</p>
+<p>Even more revealing is what happens with <a href="https://mathewstorm.ca/blog/Artificial_Intelligence/vibe%20Coding%20vs%20AI%20Assisted%20Engineering/">AI-Assisted Engineering</a>. When you write documentation first - "this system should validate user input and return appropriate errors" - you're already describing a function in plain language. The boundary between documentation and implementation starts to dissolve because they're both describing the same transformation, just at different levels of detail.</p>
+<p>This is why Django-Spellbook feels like cheating - it's not doing something magical, it's just refusing to pretend that markdown content and Python views are fundamentally different things. Both take requests and return responses. The artificial separation was purely conventional, not architectural.</p>
+<p>The recursive absurd thrives on these false distinctions. We build entire tool chains, educational curricula, and career paths around boundaries that don't actually exist in the underlying computation.</p>
+        </div>
+    </div>
+</div>
 
 ### The Compiler Was Inside You All Along
 
@@ -207,7 +232,7 @@ How do you unravel the recursive absurd? Not through theory but through practice
 
 **Find the base case.** Under all the abstraction, what's actually happening? Input → transformation → output. That's it. That's all it ever was.
 
-**Rebuild from truth.** Once you see the base case, you can't unsee it. Now build what you actually need, not what the recursive absurd told you to.
+**Rebuild from truth.** Once you see the base case, you can't unsee it. Now build what you actually need, not what the recursive absurd told you to need.
 
 ## V. The Convergent Discovery
 
@@ -269,3 +294,4 @@ Once you see it, you can't unsee it. And once enough of us see it, we can stop p
 But first, we must learn the walls. Map the maze. Understand the boundaries.
 
 Then transcend them.
+{% endblock %}

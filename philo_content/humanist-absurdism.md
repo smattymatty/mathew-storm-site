@@ -1,3 +1,7 @@
+{~ seo title="Humanist Absurdism: Choosing Humanity Within Dehumanizing Systems" description="A philosophy of embedded kindness and radical humanity. The lived response to techno-absurdism, finding space between compliance and resistance." keywords="humanist absurdism, mathew storm, embedded kindness, dehumanizing systems, techno-absurdism, neo-absurdism, radical humanity, digital resistance" author="Mathew Storm" type="article" ~}
+
+{~ schema type="Article" headline="Humanist Absurdism" date="2024-09-18" author="Mathew Storm" description="The radical act of choosing humanity within dehumanizing systems. A philosophy of embedded kindness as response to technological absurdity." ~}
+
 # Humanist Absurdism
 *The radical act of choosing humanity in within dehumanizing systems*
 

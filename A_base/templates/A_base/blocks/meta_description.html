@@ -1,0 +1,9 @@
+{% comment %}
+Meta Description Block - Quick meta description for SEO
+Usage: {~ meta description="Your page description here" ~}
+Or just: {~ meta ~}Your description content here{~ /meta ~}
+{% endcomment %}
+
+{% if description %}
+<meta name="description" content="{{ description }}">
+{% endif %}
