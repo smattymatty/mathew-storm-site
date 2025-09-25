@@ -40,6 +40,8 @@ Key characteristic: Creates immediate mental pictures of human impact. When some
 
 **Related Piece**:
 
+[Bill C-2: The Recursive Absurd in Legislative Form](/blog/Digital_Sovereignty/stop-bill-c-2/) - The exact kind of bullshit language that can obfuscate authoritarian legislation.
+
 [The recursive absurd](/philo/the-recursive-absurd/) - What we aim to reject by the use of authentic, human language.
 
 ---
