@@ -1,17 +1,143 @@
 {% extends 'A_base/sb_base.html' %}
 
 {% block spellbook_md %}
-<p><meta property="og:title" content="The Recursive Absurd: A Digital Philosophy by Mathew Storm"><br />
-<meta name="twitter:title" content="The Recursive Absurd: A Digital Philosophy by Mathew Storm"></p>
-<p><meta name="description" content="We no longer discover absurdity; we manufacture it. An exploration of how we became prisoners of our own code, teaching algorithms to optimize our own meaninglessness."><br />
-<meta property="og:description" content="We no longer discover absurdity; we manufacture it. An exploration of how we became prisoners of our own code, teaching algorithms to optimize our own meaninglessness."><br />
-<meta name="twitter:description" content="We no longer discover absurdity; we manufacture it. An exploration of how we became prisoners of our own code, teaching algorithms to optimize our own meaninglessness."></p>
-<p><meta name="keywords" content="recursive absurd, mathew storm, digital philosophy, neo-absurdism, techno-absurdism, camus, sisyphus, algorithmic indifference"></p>
-<p><meta name="author" content="Mathew Storm"></p>
-<p><meta name="twitter:card" content="summary"></p>
-<p><meta property="og:type" content="article"></p>
-<p><meta property="og:url" content=""><br />
-<meta property="og:site_name" content="Mathew Storm"></p>
+<div class="seo-metadata" style="display: none;"
+     data-seo-title="The Recursive Absurd: A Digital Philosophy by Mathew Storm"
+     data-seo-description="We no longer discover absurdity; we manufacture it. An exploration of how we became prisoners of our own code, teaching algorithms to optimize our own meaninglessness."
+     data-seo-keywords="recursive absurd, mathew storm, digital philosophy, neo-absurdism, techno-absurdism, camus, sisyphus, algorithmic indifference"
+     data-seo-author="Mathew Storm"
+     data-seo-image=""
+     data-seo-type="article">
+</div>
+
+<script>
+// Extract SEO data and update meta tags in head
+(function() {
+    const seoDiv = document.querySelector('.seo-metadata');
+    if (!seoDiv) return;
+
+    const title = seoDiv.dataset.seoTitle;
+    const description = seoDiv.dataset.seoDescription;
+    const keywords = seoDiv.dataset.seoKeywords;
+    const author = seoDiv.dataset.seoAuthor;
+    const image = seoDiv.dataset.seoImage;
+    const type = seoDiv.dataset.seoType;
+
+    // Update or create meta tags
+    function setMetaTag(name, content, property = false) {
+        if (!content) return;
+
+        const selector = property ? `meta[property="${name}"]` : `meta[name="${name}"]`;
+        let meta = document.querySelector(selector);
+
+        if (!meta) {
+            meta = document.createElement('meta');
+            if (property) {
+                meta.setAttribute('property', name);
+            } else {
+                meta.setAttribute('name', name);
+            }
+            document.head.appendChild(meta);
+        }
+        meta.setAttribute('content', content);
+    }
+
+    // Update title tag
+    if (title) {
+        document.title = title;
+        setMetaTag('og:title', title, true);
+        setMetaTag('twitter:title', title);
+    }
+
+    // Update description
+    if (description) {
+        setMetaTag('description', description);
+        setMetaTag('og:description', description, true);
+        setMetaTag('twitter:description', description);
+    }
+
+    // Update keywords
+    if (keywords) {
+        setMetaTag('keywords', keywords);
+    }
+
+    // Update author
+    if (author) {
+        setMetaTag('author', author);
+    }
+
+    // Update image
+    if (image) {
+        setMetaTag('og:image', image, true);
+        setMetaTag('twitter:image', image);
+        setMetaTag('twitter:card', 'summary_large_image');
+    } else {
+        setMetaTag('twitter:card', 'summary');
+    }
+
+    // Update type
+    if (type) {
+        setMetaTag('og:type', type, true);
+    }
+
+    // Update URL
+    setMetaTag('og:url', window.location.href, true);
+    setMetaTag('og:site_name', 'Mathew Storm', true);
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Recursive Absurd: A Digital Addendum to Sisyphus",
+  "datePublished": "2025-09-19",
+  "dateModified": "2025-09-19",
+
+  "author": {
+    "@type": "Person",
+    "name": "Mathew Storm",
+    "url": "https://mathewstorm.ca"
+  },
+
+  "description": "A philosophical exploration of recursive absurdity in the digital age, where we build systems that build systems that build us.",
+  "publisher": {
+    "@type": "Person",
+    "name": "Mathew Storm",
+    "url": "https://mathewstorm.ca"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": ""
+  }
+}
+</script>
+
+<h1 id="the-recursive-absurd-a-digital-addendum-to-sisyphus">The Recursive Absurd: A Digital Addendum to Sisyphus</h1>
+<div class="sb-accordion ">
+    <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">
+        <span class="sb-accordion-title">Summary</span>
+        <span class="sb-accordion-icon">
+            <svg class="sb-icon-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+            <svg class="sb-icon-minus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+        </span>
+    </button>
+    <div class="sb-accordion-content" aria-hidden="true">
+        <div class="sb-accordion-body">
+            <p>We no longer discover absurdity; we manufacture it. Where Camus confronted cosmic indifference, we face algorithmic indifference we designed for ourselves.</p>
+<p>The <strong>recursive absurd</strong> is our condition; not just pushing the boulder, but teaching it to optimize our pushing.</p>
+<p><strong>In simpler terms:</strong> We built technology to solve meaningless problems, then forgot the problems were meaningless. Now we spend our lives maintaining the solutions. This essay explores how we became prisoners of our own code.</p>
+<p>This essay about recursive absurdity was posted using Django Spellbook, shared on Mastodon (fed to bots), indexed by search engines, and will train the AI that will critique its own critique.</p>
+<p>The loop is complete.</p>
+        </div>
+    </div>
+</div>
+
 <p><strong>Terminology:</strong></p>
 <div class="sb-accordion ">
     <button class="sb-accordion-toggle" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');">

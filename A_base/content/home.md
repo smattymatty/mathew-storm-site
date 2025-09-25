@@ -1,3 +1,9 @@
+{~ seo title="Mathew Storm - Full-Stack Django Developer & Philosophical Author" description="Python/Django specialist, founder of 80-20 Human-in-the-Loop community, creator of Django Spellbook. Where recursive absurdism meets practical engineering." keywords="mathew storm, django developer, python programmer, recursive absurd, 80-20 human-in-the-loop, django spellbook, techno-absurdism, neo-absurdism, humanist absurdism, full-stack developer" author="Mathew Storm" type="website" ~}
+{~~}
+
+{~ schema type="Person" name="Mathew Storm" headline="Full-Stack Developer & Philosophical Author" date="2025-09-25" author="Mathew Storm" description="Python/Django specialist with 5+ years experience, founder of 80-20 Human-in-the-Loop community, exploring the recursive absurd where philosophy meets engineering." ~}
+{~~}
+
 {% div .storm-hero-gradient .sb-py-12 .sb-px-4 .sb-mb-8 .sb-relative .sb-min-h-[80vh] .sb-flex .sb-items-center .sb-justify-center %}
   {% div .sb-text-center .sb-relative .sb-z-10 %}
     {% h1 .sb-text-6xl .sb-md:text-7xl .sb-font-bold .storm-text-lightning .sb-mb-6 data-storm-hero="title" %}

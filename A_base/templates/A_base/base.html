@@ -8,12 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{% block page_title %}Mathew Storm{% endblock %}</title>
+    <link rel="icon" type="image/png" href="{% static 'A_base/favicon.png' %}">
+    <link rel="shortcut icon" type="image/png" href="{% static 'A_base/favicon.png' %}">
     <meta name="description" content="{% block meta_description %}Founder of 80-20 Human-in-the-Loop community, Django tooling architect, unraveling the recursive absurd. Where philosophy meets engineering.{% endblock %}">
     <meta name="author" content="Mathew Storm">
     <meta name="keywords" content="Mathew Storm, recursive absurd, 80-20 human in the loop, Django developer tools, AI assisted engineering, techno-absurdism, philosophy of technology, neo-absudism, humanist absurdism">
     <meta property="og:title" content="Mathew Storm - Personal Website">
     <meta property="og:description" content="Founder of 80-20 Human-in-the-Loop community. Unraveling the recursive absurd where philosophy meets engineering.">
     <meta property="og:type" content="website">
+    {% block extra_head %}{% endblock %}
     {% spellbook_styles %}
     <link rel="stylesheet" type="text/css" href="{% static 'A_base/style.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'A_base/modern.css' %}" />

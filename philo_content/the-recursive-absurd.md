@@ -1,6 +1,7 @@
 {~ seo title="The Recursive Absurd: A Digital Philosophy by Mathew Storm" description="We no longer discover absurdity; we manufacture it. An exploration of how we became prisoners of our own code, teaching algorithms to optimize our own meaninglessness." keywords="recursive absurd, mathew storm, digital philosophy, neo-absurdism, techno-absurdism, camus, sisyphus, algorithmic indifference" author="Mathew Storm" type="article" ~}
-
+{~~}
 {~ schema type="Article" headline="The Recursive Absurd: A Digital Addendum to Sisyphus" date="2025-09-19" author="Mathew Storm" description="A philosophical exploration of recursive absurdity in the digital age, where we build systems that build systems that build us." ~}
+{~~}
 
 # The Recursive Absurd: A Digital Addendum to Sisyphus
 

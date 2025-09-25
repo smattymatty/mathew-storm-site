@@ -1,3 +1,9 @@
+{~ seo title="Fuck the Facade: Why Authentic Language Anchors Real Governance" description="Corporate language isn't just boring; it's a technique of control. How authentic language (including profanity) threatens power structures by naming uncomfortable truths." keywords="authentic language, corporate speak, governance, open source, profanity in governance, anti-bullshit, mathew storm, recursive absurd, democracy, power structures" author="Mathew Storm" type="article" ~}
+{~~}
+
+{~ schema type="Article" headline="Fuck the Facade: Why Authentic Language Anchors Real Governance" date="2025-09-25" author="Mathew Storm" description="An examination of how sanitized institutional language maintains power structures while authentic language threatens those structures by naming uncomfortable truths." ~}
+{~~}
+
 # Fuck the Facade: Why Authentic Language Anchors Real Governance
 
 {~ accordion title="Summary" ~}
@@ -50,7 +56,7 @@ Authenticity is not an excuse for cruelty. Assholes should be called out.
 
 ## I. The Distance Between "Strategic Options" and "Absolutely Fucking Not"
 
-Picture two responses to a tech giant's acquisition offer for your open source project:
+Picture two responses to any unwanted proposal - a tech acquisition, a policy change, a constitutional amendment:
 
 **Response A:** "The governance committee will evaluate all strategic options to maximize stakeholder value while maintaining alignment with our core mission and values framework. We appreciate this opportunity for dialogue and will conduct appropriate due diligence to assess synergies and potential optimization of resource allocation."
 
@@ -72,31 +78,25 @@ His most damning observation: "Political language—and with variations this is 
 The translation exercise proves his point. Ecclesiastes in plain English: "I returned and saw under the sun, that the race is not to the swift" (49 words). In modern bureaucratese: "Objective consideration of contemporary phenomena compels the conclusion that success or failure in competitive activities exhibits no tendency to be commensurate with innate capacity" (38 unnecessary syllables of Latin abstraction).
 {~~}
 
-Both progressive "strategic dialogue" and conservative "traditional values alignment" are equally dishonest here. Whether you're "centering stakeholder voices" or "preserving institutional integrity," you're still avoiding saying what you actually mean: no. The left wraps rejection in inclusivity theater; the right wraps it in stability theater. Both are lying.
+Whether it's "centering stakeholder voices" or "preserving institutional integrity," corporate speak avoids saying what you actually mean: no. 
+
+It's all theater - inclusivity theater or stability theater - but the dishonesty is the same.
 
 ### How Corporate Speak Invaded Open Source
 
-In the early days, open source communication was brutally direct. Linus Torvalds famously told a contributor: "Stop this brain-damage right now!" The Linux Kernel Mailing List was full of "this is stupid," "that's broken," and "what the fuck were you thinking?" 
+Early open source communication was direct - sometimes harsh, but always clear. Contributors knew exactly where they stood, what was broken, and what needed fixing.
 
-Was it always appropriate? No. Was it sometimes harsh? Absolutely. But everyone knew exactly where they stood.
+But as projects grew and sought corporate funding, the language shifted. Direct criticism became "diplomatic feedback." Clear rejections became "ongoing evaluations." The pendulum swung from brutal honesty to suffocating politeness.
 
-Torvalds may have taken this approach too far; personal attacks and public humiliation aren't what we're advocating. We're not telling you to be mean or abusive. We're telling you to be authentic and to reject a culture of toxic positivity where "this approach has critical flaws that will cause production failures" becomes "I wonder if we might consider alternative implementations that could potentially enhance system reliability."
-
-The pendulum swung too far in the opposite direction. Now major open source projects wrap every interaction in HR-approved cushioning. Technical criticism gets buried under layers of diplomatic language until nobody remembers what the actual problem was. "Your code doesn't handle edge cases" becomes "I appreciate your contribution and wonder if we might explore additional test coverage for certain scenarios."
-
-Each translation adds distance between what we mean and what we say. "The committee shall evaluate proposals based on alignment with strategic objectives" instead of "we vote on whether it helps users." "Resources will be allocated to maximize impact" instead of "we fund what the community needs."
-
-This distance protects those in power by making criticism require translation. When governance documents say "adjustments to contributor expectations may be necessary," contributors don't realize they're about to get screwed until it's too late. When they say "we're cutting contributor benefits because we overspent on executive travel," everyone knows exactly what's happening and can respond accordingly.
+Now "your code doesn't handle edge cases" becomes "I appreciate your contribution and wonder if we might explore additional test coverage for certain scenarios." Technical criticism drowns in diplomatic cushioning until the actual problem disappears.
 
 Authentic language in governance isn't about being edgy. It's about preserving the feedback loops democracy requires. When people understand what's actually being decided, they can participate. When everything's wrapped in corporate speak, only those fluent in bullshit can play.
 
 ## II. The Bullshit Jobs Born from Bullshit Language
 
-Open source governance documents are breeding grounds for meaningless complexity. Consider this actual role from a major project: "The Steering Committee delegates operational management of the project to the Technical Oversight Committee, which reports to the Governing Board via the Advisory Council liaison."
+Governance documents - from open source to city councils to national constitutions - breed meaningless complexity. "The Steering Committee delegates operational management to the Technical Oversight Committee, which reports to the Governing Board via the Advisory Council liaison."
 
-What the fuck does any of that mean? Who's actually in charge? Who makes decisions? After reading that three times, could you explain who to talk to about getting a feature merged?
-
-This is what happens when language loses its connection to reality: it creates governance structures that have no connection to reality either.
+What the fuck does that mean? Who decides? Whether it's merging code or passing laws, this is what happens when language loses its connection to reality: it creates governance with no connection to reality either.
 
 {~ accordion title="Graeber on Bullshit Jobs and Managerial Feudalism" ~}
 David Graeber's "Bullshit Jobs" (2018) reveals how bureaucratic language creates and maintains meaningless work. A bullshit job, he defines, is "a form of employment that is so completely pointless, unnecessary, or pernicious that even the employee cannot justify its existence even though, as part of the conditions of employment, the employee feels obligated to pretend that this isn't the case."
@@ -130,9 +130,9 @@ Every hour spent decoding governance documents is an hour not spent writing code
 
 But the real cost isn't time; it's human exhaustion. Contributors burn out not from coding but from navigating bureaucracy. They quit not because the technical challenges are too hard but because figuring out how to contribute is too hard. They leave not because they disagree with decisions but because they can't figure out how decisions get made.
 
-One maintainer told me: "I spent three months trying to get a simple governance change approved. It went through four committees, two working groups, and a 'constitutional review.' The change? We wanted to meet monthly instead of weekly. I gave up. Now we just meet whenever and pretend it's weekly in the minutes."
+One maintainer spent three months trying to change meeting frequency from weekly to monthly. Four committees, two working groups, and a "constitutional review" later, they gave up. Now they meet whenever and lie in the minutes.
 
-That's [The Recursive Absurd](/philo/the-recursive-absurd/) in action: elaborate governance structures that don't govern, complex processes that prevent processing, institutional language that blocks institutions from functioning. We've created the appearance of democracy while preventing its practice.
+That's [The Recursive Absurd](/philo/the-recursive-absurd/) in action: governance that doesn't govern, processes that prevent processing. The appearance of democracy preventing its practice.
 
 When your governance requires a translator, only translators have power. When your processes require a guide, only guides can participate. When your language excludes clarity, clarity becomes rebellion.
 
@@ -160,17 +160,13 @@ In real open source communities, the vast majority of work is gathering, not hun
 
 Try writing about this in corporate speak. "Developer optimizes stakeholder value through strategic dependency management." It sounds like bullshit because corporate language turns everything into conquest. "Fixed the build" becomes "revolutionized the deployment pipeline." "Helped a confused user" becomes "enhanced customer success metrics."
 
-The Linux kernel has around 13,000 contributors. Maybe five are "heroes" whose names you'd recognize. The other 12,995 are doing the actual work: fixing bugs, improving drivers, handling edge cases. But the story we tell is about Linus, maybe Greg KH, perhaps a few subsystem maintainers. The thousands of humans collectively maintaining one of the most important pieces of software in existence? Invisible.
+The Linux kernel has 13,000 contributors; maybe five are "heroes." City councils have hundreds of staffers; we know the mayor. Democracies run on millions of poll workers, civil servants, and local organizers; we see only elected officials. The thousands maintaining critical infrastructure - digital or civic - remain invisible because their work doesn't fit the hero narrative.
 
 ### What Happens When We Reject Hero Stories
 
 Imagine a governance document that said: "This project exists because 47 people fix small things every week. Everyone maintains. Some weeks Sarah does more. Some weeks Ahmad does more. Together, shit gets done."
 
 You can't IPO that story. You can't venture-fund it. You can't give it a TED talk. But you can build sustainable software with it.
-
-When our [80-20 Human in the Loop community](https://github.com/80-20-Human-In-The-Loop/Community/tree/main) structures governance around three equal committees, we're rejecting the narrative that corporate speak demands. Yes, we have a leader with 20% voting weight, but they're not the protagonist. They're more like a referee who only matters when the game needs someone to call a foul. The story isn't about them; it's about the framework, the collective, the three committees that actually get shit done.
-
-Our leader exists to break deadlocks and prevent disasters, not to be celebrated. When they work well, you barely notice them. That's the point. We don't need a visionary founder to profile. No disruptive innovation to pitch. Just humans collectively deciding how to build tools that preserve human agency.
 
 Corporate speak literally cannot describe this without making it sound like failure. "Lack of clear leadership." "Absence of strategic vision." "Failure to scale." These aren't descriptions; they're indictments from a language that only recognizes conquest.
 
@@ -180,9 +176,7 @@ That's not a hero story. It's a human story. And it's the only story that ends w
 
 ### The Comfortable Slide into Corporate Capture
 
-Watch any open source project grow and you'll see the pattern: early discussions are raw, honest, sometimes harsh but always clear. Then comes the first corporate sponsor. Now "I disagree" needs three paragraphs of cushioning. A few years later, the governance docs require a law degree, and nobody remembers why they started the project in the first place.
-
-This isn't evolution; it's decay. Each layer of corporate language is another step away from the humans the community is supposedly serves.
+Watch any democratic institution age: early town halls were messy but clear. Now city council meetings require lawyers. Open source projects that started with "this sucks, fix it" now need three committees to change a variable name. This isn't evolution; it's decay.
 
 ## IV. The Cost of Comfortable Lies vs Uncomfortable Truths
 
@@ -210,13 +204,11 @@ The alternative isn't just simpler language but fundamentally different language
 
 ### Why Authenticity Threatens Everyone
 
-Let's acknowledge why communities choose corporate speak: fear. But the fear comes from different directions depending on your politics.
+Let's acknowledge why communities choose corporate speak: fear. But the fear comes from different directions depending on the politics of the system.
 
-Progressives fear being seen as exclusionary or harmful. They've built elaborate linguistic structures to avoid giving offense, not realizing their indirect communication systematically excludes neurodivergent people who can't decode "we have concerns" into its actual meaning. They're so afraid of causing harm that they create opacity that protects actual bad actors.
+The fear driving corporate speak isn't partisan - it's institutional. Progressive institutions fear appearing exclusionary, so they build linguistic mazes that ironically exclude neurodivergent people who can't decode "we have concerns" into its actual meaning. Conservative institutions fear losing control, so they wrap everything in "professional standards" that prevent genuine human connection.
 
-Conservatives fear losing authority and tradition. They wrap everything in "professional standards" and "established procedures" to maintain hierarchies. They're so afraid of chaos that they create bureaucracies that prevent any genuine human connection or innovation.
-
-Both sides converge on the same corporate speak for opposite reasons. The left thinks sanitized language protects vulnerable people; the right thinks it preserves order. They're both wrong. It protects power and preserves nothing but confusion.
+Different fears, same result: language that protects power while claiming to protect people. The opacity helps bad actors thrive regardless of their politics.
 
 ### The Insincere Inclusivity of Corporate-speak
 
@@ -224,48 +216,30 @@ Here's what corporate speak advocates never acknowledge: their "inclusive" langu
 
 Authentic language is actually more inclusive. "This is broken" translates perfectly. "I don't understand" needs no cultural context. "This will crash production" carries the same urgency in any dialect. When we say what we mean, everyone can participate. When we bury meaning under layers of abstraction, we create an insider's club of people who've learned the secret code. That's not inclusion; it's gatekeeping with a smile.
 
-Here's the bipartisan failure: Progressive "inclusive language" excludes anyone who hasn't learned to decode their euphemisms. Conservative "professional standards" exclude anyone who doesn't already have institutional power. Both create insider clubs while claiming to serve everyone.
-
-The progressive says "let's unpack that" when they mean "I think you're wrong." The conservative says "that's not how we've traditionally done things" when they mean "I don't like change. I like power." Neither is being honest. Neither is being inclusive. Both are maintaining systems that serve their own comfort rather than human flourishing.
-
-### The Framework We're Building Instead
-
-[80-20 Human in the Loop community](https://github.com/80-20-Human-In-The-Loop/Community/tree/main) constitution deliberately includes profanity not as performance but as principle. When we write "lol absolutely fucking not" to acquisition offers, we're making clear that some things aren't negotiable in any language. When we acknowledge "I fucked up," we're preserving accountability that "mistakes were made" erases.
-
-We're not trying to shock or offend. We're trying to maintain the cognitive friction that authentic communication requires. Every "fuck" in our governance document is a small rebellion against the smoothness that lets bad decisions slide through unchallenged.
-
-This isn't about being edgy teenagers. Most of us are exhausted adults who've spent too many years translating between what we mean and what we're allowed to say. We're tired of meetings where everyone knows the project is failing but we talk about "challenges" and "opportunities." We're done pretending that bureaucratic language makes organizations more democratic when it actually just obscures power.
-
 ### Choose Your Discomfort
 
-You have two choices, and both are uncomfortable:
+Two choices: authentic language (deal with pearl-clutching, lose sponsors, have hard conversations) or corporate speak (watch meaning erode while bureaucrats rule through linguistic mastery).
 
-**Option 1**: Use authentic language. Deal with people clutching pearls over profanity in governance documents. Accept that some corporate sponsors will run away. Have difficult conversations where people say exactly what they mean and sometimes it hurts.
+We chose authenticity. When language becomes too sanitized to carry meaning, democracy dies. When criticism requires translation, only translators have power.
 
-**Option 2**: Use corporate speak. Deal with the slow erosion of meaning. Accept that decisions will be made by those who speak bureaucrat best. Have endless conversations where no one says what they mean and everyone knows it's bullshit but pretends otherwise.
-
-We've chosen option 1. Not because it's easier (it's not) but because it's the only path that preserves the ability to govern ourselves. When language becomes too sanitized to carry meaning, democracy becomes impossible. When criticism requires translation, only translators have power. When everything is "strategic optimization," nothing is human.
-
-The facade feels safe. It protects us from judgment, from conflict, from the messiness of actual democracy. But facades don't just hide ugliness; they hide truth. And communities built on hidden truths inevitably collapse when reality breaks through.
-
-Fuck the facade. Say what you mean. Build governance that humans can understand. Accept that authenticity is uncomfortable. Recognize that discomfort is the price of democracy.
-
-The alternative isn't just corporate capture of open source. It's [The recursive absurd](/philo/the-recursive-absurd/) where we build systems we don't understand, using language that doesn't mean anything, solving problems that don't exist, for people who've forgotten what they needed in the first place.
+The facade feels safe but hides truth. Communities built on hidden truths collapse when reality breaks through. The alternative is [The recursive absurd](/philo/the-recursive-absurd/) - building systems we don't understand, using meaningless language, for people who've forgotten what they needed.
 
 ## V. The Boundaries of Brutal Honesty
 
 Even this essay advocating for authentic language has its limits. I won't use racial or homophobic slurs. Not because I fear judgment, but because authentic language serves clarity and inclusion, while slurs serve violence and exclusion. There's a difference between breaking corporate taboos and perpetuating actual harm.
 
 {~ accordion title="On Terry Davis and the Danger of Confusing Illness with Authenticity" ~}
-Terry Davis, creator of TempleOS, defended his use of racial slurs with: "When I have to fight Satan, I pick my strongest knives." He believed offensive language was necessary to provoke emotional reactions that would wake people from their complacency.
+Terry Davis, creator of TempleOS, defended his use of racial slurs with: "When I have to fight Satan, I pick my strongest knives." He believed offensive language was necessary to wake people from complacency.
 
-Some call him a genius. Others focus on his mental illness. The truth is in between: he was a brilliant programmer whose schizophrenia manifested in paranoid delusions about CIA persecution and divine missions. His use of hateful language wasn't authenticity; it was illness expressing itself through paranoia and aggression.
+Davis was both a brilliant programmer and someone suffering from schizophrenia. TempleOS remains an impressive feat of single-person operating system development - a genuinely remarkable technical achievement. But his use of slurs wasn't "authentic truth-telling"; it was mental illness manifesting as paranoid delusions about CIA persecution and divine missions.
 
-Davis's story is a cautionary tale about confusing mental illness with truth-telling. His technical brilliance was real; TempleOS remains an impressive feat of single-person operating system development. But his language wasn't "keeping it real"; it was symptomatic of untreated schizophrenia that ultimately contributed to his isolation and death.
+This distinction matters. His racist language didn't make his ideas stronger; it made them radioactive. People who might have learned from his technical insights dismissed him instead. His "strongest knives" cut him off from the community that might have helped him.
 
-He died in 2018, struck by a train, homeless and alone. His offensive language didn't make his ideas stronger; it made them radioactive. People who might have learned from his technical insights instead dismissed him as a racist. His "strongest knives" cut him off from the community that might have helped him.
+He died in 2018, struck by a train, homeless and alone.
 
-R.I.P. Terry Davis (1969-2018). May this controversial figure remind us that authentic language isn't about having no boundaries; it's about having human boundaries rather than corporate ones.
+Davis's story isn't about condemning mental illness or dismissing his real contributions. It's about recognizing that authentic language means having human boundaries, not no boundaries. Breaking corporate taboos isn't the same as breaking human dignity. There's a difference between saying "this is fucked" about a situation and using slurs against people.
+
+R.I.P. Terry Davis (1969-2018). May his complex legacy remind us that brilliance and illness can coexist, and that true authenticity includes knowing which boundaries serve humanity and which serve power.
 
 [Watch: "The Internet's Most Enigmatic Programmer" - GoldenBoy Documentary](https://youtu.be/3HD43lvNvCA?si=k94fwfxLDldiQW5M)
 {~~}
@@ -286,21 +260,19 @@ Authentic language harms when it:
 - Mistakes mental illness for authenticity (paranoia isn't truth)
 - Values shock over communication (edge for edge's sake)
 
-[80-20 Human in the Loop community](https://github.com/80-20-Human-In-The-Loop/Community/tree/main) constitution uses strategic profanity to maintain friction against corporate smoothness. Each "fuck" is a small speed bump that makes readers pause and think. But we're not trying to hurt people; we're trying to keep people awake.
-
 ## VI. Beyond the Political Theater
 
 ### The Choice Beyond Politics
 
 Every open source community faces this choice, but it's not a political choice - it's a human one.
 
-Choose progressive corporate speak and you'll get diversity statements nobody reads, codes of conduct that protect predators who master the language, and communities where everyone implies inclusion while practicing exclusion.
+Corporate speak fails everyone through performance rather than practice. Progressive institutions often perform diversity through elaborate language protocols while actual inclusion remains absent - creating unreadable documents that fail to address real problems. Conservative institutions perform stability through "professional standards" that exclude anyone who doesn't already hold power.
 
-Choose conservative corporate speak and you'll get governance hierarchies nobody understands, "professional standards" that exclude anyone different, and communities where everyone performs while everything stagnates.
+The tragedy is that genuine progressive values (actual inclusion, real diversity) get buried under progressive theater. The same way conservative claims about "merit" get buried under the maintainence of current power structures. Both sides have goals - inclusion, tradition - but corporate speak turns these goals into performances that achieve neither.
 
-Choose authentic language and both sides will hate you. Progressives will call you harmful. Conservatives will call you unprofessional. But you'll have real conversations about real problems. Your community will include the neurodivergent person who needs clarity, the non-native speaker who needs directness, AND the human who just needs to know what the fuck is actually happening.
+Choose authentic language and you'll frustrate both the performers. Progressive theater will call you harmful (while ignoring actual harm). Conservative theater will call you unprofessional (while protecting incompetence). But you'll have real conversations including the neurodivergent person who needs clarity, the non-native speaker who needs directness, and humans who need to know what the fuck is happening.
 
-### Beyond the Political Binary
+### Beyond the Binary
 
 We're not advocating for a centrist position - centrism just combines both forms of dishonesty. We're advocating for a position outside the traditional spectrum: human authenticity in service of human flourishing.
 
@@ -328,13 +300,11 @@ We're trying to find the sweet spot: language authentic enough to carry real mea
 
 ### The Choice Ahead
 
-Every open source community faces this choice: adopt corporate speak and slowly lose your soul, or maintain authentic language and accept the friction that comes with it.
+Every democratic institution - from your local PTA to open source projects to national governments - faces this choice: adopt corporate speak and slowly lose your soul, or maintain authentic language and accept the friction that comes with it.
 
-If you choose corporate speak, you'll get funding easier. Conferences will invite you. Enterprise will adopt you. But you'll also get documents nobody reads, meetings where nothing gets said, and governance by whoever speaks bureaucrat best. Eventually, you'll become indistinguishable from the corporations you were trying to provide an alternative to.
+The trade-off is clear: corporate speak gets you funding and conferences but kills your soul. Authentic language costs you sponsors but preserves actual democracy.
 
-If you choose authentic language, you'll face criticism. Some sponsors will run away. Pearl-clutchers will write think pieces about your "unprofessionalism." But you'll also have real conversations about real problems. Your community will understand what's being decided and why. When crises hit, you'll be able to respond honestly instead of through lawyers.
-
-We've made our choice. Our constitution includes profanity because profanity is human, and humans are what we're trying to preserve in the age of AI. We're not perfect. We're not trying to be. We're trying to build sustainable open source governance that doesn't require a PhD in corporate linguistics to understand.
+We've made our choice. Our constitution includes profanity not to shock but to stay human. We're building governance that doesn't require a PhD in corporate linguistics to understand. It's messy, it's imperfect, and it actually works.
 
 ### Fuck the Facade, Build the Future
 
@@ -353,7 +323,7 @@ This is how we keep humans in the loop: by speaking like humans, governing like 
 ## References
 
 - Graeber, David. *Bullshit Jobs: A Theory*. New York: Simon & Schuster, 2018.
-- GoldenBoy. "The Internet's Most Enigmatic Programmer." YouTube documentary on Terry Davis, 2023. https://youtu.be/3HD43lvNvCA?si=k94fwfxLDldiQW5M
+- GoldenBoy. "The Internet's Most Enigmatic Programmer." YouTube documentary on Terry Davis, 2025. https://youtu.be/3HD43lvNvCA?si=k94fwfxLDldiQW5M
 - Le Guin, Ursula K. "The Carrier Bag Theory of Fiction." 1986. Reprinted in *Dancing at the Edge of the World: Thoughts on Words, Women, Places*. New York: Grove Press, 1989.
 - Orwell, George. *1984*. London: Secker & Warburg, 1949.
 - Orwell, George. "Politics and the English Language." *Horizon*, April 1946.

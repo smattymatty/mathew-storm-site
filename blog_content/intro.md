@@ -38,4 +38,7 @@ Visit my [Interactive Questions Page](/questions/) (WORK IN PROGRESS!) to test y
 [Is the Fediverse the Key to Canadian Digital Sovereignty?](/blog/Digital_Sovereignty/fediverse-sovereignty-journalistic/)
   *Exploring how decentralized networks could secure Canada's digital future*
 
+[Bill C-2: The Recursive Absurd in Legislative Form](/blog/Digital_Sovereignty/stop-bill-c-2/) 
+  *Shining Light on this bill that claims to liberate us while taking away our rights*
+
 {~~}
