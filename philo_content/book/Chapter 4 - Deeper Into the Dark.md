@@ -2,23 +2,21 @@
 
 The blueprint fought back.
 
-Sisyphus traced the passage configuration for the third time, watching the ink seem to writhe away from his stylus. The labyrinth's northwestern section had collapsed twice during construction, crushing three workers despite following Daedalus's specifications perfectly. Now, studying the plans by morning light, Sisyphus understood why—the structure wasn't failing. It was refusing.
+Sisyphus traced the passage configuration for the third time, watching ink seem to recoil from his stylus. The labyrinth's northwestern section had collapsed twice during construction, crushing three workers despite following Daedalus's specifications perfectly. Now, studying the plans by morning light, Sisyphus understood why—the structure wasn't failing. It was refusing.
 
 "It doesn't want to be contained there," he said quietly.
 
-Daedalus looked up from his own calculations, his eyes sharp despite three sleepless nights. "So you've finally noticed. The structure has... preferences."
+Daedalus looked up from his own calculations, eyes sharp despite three sleepless nights. "So you've finally noticed. The structure has... preferences."
 
 "It's fighting us." Sisyphus pointed to where passages intersected at angles that hurt to perceive. "Look at the stress patterns. Every time we reinforce this section, the surrounding stone weakens."
 
-"Not fighting," Daedalus corrected with cold precision. "Negotiating. It knows what it wants to become." He moved to examine the plans, his movements deliberate and controlled. Together they bent over the impossible geometries, master and assistant united in solving puzzles that shouldn't exist.
+"Not fighting," Daedalus corrected. "Negotiating. It knows what it wants to become." He moved to examine the plans. "If we redirect through here—"
 
-"If we redirect through here," Daedalus suggested, sketching a new configuration, "bypass the resistance point entirely—"
-
-"No." Sisyphus saw it clearly, the way he'd once seen the perfect angle to push his boulder. "We don't fight it. We let it flow the way it wants, then use that flow to strengthen the containment. Like redirecting a river instead of damming it."
+"No." Sisyphus saw it clearly, the way he'd once seen the perfect angle to push his boulder. "We don't fight it. We let it flow where it wants, then use that flow to strengthen containment. Like redirecting a river instead of damming it."
 
 Daedalus stared at him. "You're suggesting we let the labyrinth design itself?"
 
-"I'm suggesting we listen to what it's trying to tell us." Sisyphus picked up fresh papyrus, his scarred hands moving with practiced certainty. "Here—if we curve the passages like this, following the natural stress lines instead of imposing our own..."
+"I'm suggesting we listen to what it's trying to tell us." Sisyphus picked up fresh papyrus. "Here—if we curve the passages like this, following the natural stress lines..."
 
 The new design emerged under his stylus, organic and wrong, passages that flowed like water finding its level. Daedalus watched with an expression caught between admiration and fear.
 
@@ -26,131 +24,169 @@ The new design emerged under his stylus, organic and wrong, passages that flowed
 
 "In my experience, they're often the same thing."
 
-A sound from outside made them both look up—distant shouting from the harbor. Sisyphus moved to the window, squinting against the morning sun reflecting off the sea. A ship had arrived, black-sailed and riding low in the water. Armed guards surrounded the dock as figures were herded off the vessel. Even from this distance, he could see they were young, some barely more than children. One stumbled, and Sisyphus noticed how the others helped them up before the guards could intervene—that instinct for compassion even in terror. He'd seen it across ten thousand years. It never died, no matter how systems tried to crush it.
+A sound from outside made them both look up—distant shouting from the harbor. Sisyphus moved to the window, squinting against morning sun reflecting off the sea. A ship had arrived, black-sailed and riding low in the water. Armed guards surrounded the dock as figures were herded off the vessel.
+
+Young figures. Children, some of them.
 
 "What manner of supplies arrive under such guard?" Sisyphus asked.
 
-Behind him, he heard Daedalus's sharp exhale of relief.
+Behind him, he heard Daedalus's sharp exhale.
 
-"Finally," Daedalus said, his voice carrying grim satisfaction. "I was beginning to calculate how many workers we'd lose if they delayed another day."
+"Finally," Daedalus said. "Two weeks late. I was calculating worker losses if they delayed another day."
 
-Sisyphus turned to find the architect pale and shaking, but with desperate relief in his eyes. "Daedalus?"
+Sisyphus turned. "Daedalus?"
 
-"The tribute." Daedalus's voice was matter-of-fact. "Fourteen youths from Athens. Seven maidens, seven men. Payment for an old debt, renewed every seven years." He moved to the window, watching the distant figures being marched toward the palace with clinical interest. "They were two weeks late. When it doesn't feed regularly, it tests the walls. Three days without food last time..."
+"The tribute. Fourteen youths from Athens. Payment for an old debt." He moved to the window, watching the distant figures with clinical interest. "When it doesn't feed regularly, it tests the walls. Three days without food last time, it broke through the eastern support beam in sector seven—took sixteen workers and a full week to repair. We found claw marks in stone that shouldn't show damage from anything short of divine intervention. Another day and it would have reached the palace sub-levels." He paused. "The feeding keeps it manageable. Predictable."
 
-He gestured toward the northwestern section they'd just been discussing.
+Sisyphus watched the young Athenians stumbling up the path. Without thought he said, "Those are children."
 
-"It nearly broke through sector seven. We found claw marks in stone that should be impervious to physical damage. Another day and it would have..." He shuddered. "The feeding keeps it manageable. Predictable."
-
-Sisyphus watched the young Athenians stumbling up the path, saw one fall and get dragged upright by guards. Without thought he muttered "But,", with cold realization, "Those are children.". 
-
-"Those are political necessities." Daedalus's voice held no emotion, as if he'd burned through his capacity for horror long ago. "Athens sends them to prevent invasion. Minos accepts them to prevent... worse things."
+"Those are political necessities." Daedalus's voice held no emotion. "Athens sends them to prevent invasion. Minos accepts them to prevent worse things."
 
 "And we build the machine that processes them."
 
-"We build the cage that contains what processes them." Daedalus turned from the window. "Don't look at me like that. You think I don't know what we are? But the alternative—"
+"We build the cage that contains what processes them." Daedalus turned from the window. "Don't look at me like that. You think I don't know what we are?"
 
-"There's always an alternative," Sisyphus said quietly, still tasting the satisfaction of his small rebellion. "We just have to be patient enough to find it."
+Sisyphus said nothing. But he was thinking of the harbor, of guards and manifests and casual cruelty. 
 
-The door slammed open with such force it cracked against the wall. Alexios burst in, the young guard's face flushed with exertion and fear. Behind him, Sergeant Nikias filled the doorway, his weathered face grim.
+"I need air," Sisyphus said.
 
-"Master Daedalus!" Alexios gasped, barely able to catch his breath. "You must come immediately!"
+"We have work—"
 
-Daedalus straightened, the exhaustion vanishing behind professional focus. "What's happened?"
+"Five minutes. The calculations can wait five minutes."
 
-"The quarry—there's been an incident." Nikias's tone brooked no argument. "Both of you. Now."
+Before Daedalus could object, Sisyphus was moving down the tower stairs, taking them two at a time. The morning was bright, the palace grounds busy with the mundane tasks of empire. No one noticed one more worker moving with purpose through the olive groves.
 
-"What kind of incident?" Sisyphus asked, already moving to gather essential tools.
+He found a vantage point above the harbor—a collapsed section of old wall, overgrown with vines, perfect for watching without being seen. Below, the black-sailed ship rocked gently at anchor. The tributes stood in a line on the dock, fourteen of them, guarded by men with spears.
+
+A harbor official held a papyrus manifest, calling names. "Philippa of Marathon. Nikodemos of Athens. Kallisto of—"
+
+Each name was met with a trembling voice acknowledging. Some of the tributes were crying. Most looked terrified. But one stood apart from the others—a boy, maybe sixteen, with the bearing of someone who'd trained for combat. He watched everything with careful attention, noting guard positions, exit routes, the layout of the dock.
+
+"Theseus," the official called. "Son of Aegeus."
+
+"Here," the boy said calmly.
+
+The guard nearest him noticed something in the boy's hand—a ball of red yarn, bright against the dark wood of the dock. "What's this?" The guard snatched it, examining it with mild curiosity. "Planning to knit while you wait for the beast?"
+
+He laughed and tossed it into the harbor. It hit the water and sank immediately, pulled down by its own weight.
+
+Theseus's face went blank. His hands clenched into fists, then slowly relaxed. He said nothing. Did nothing. Just watched the spot where the yarn had disappeared, as if memorizing the exact location.
+
+The other tributes were crying harder now, but Theseus just stood there, perfectly still, perfectly composed, while his plan was casually destroyed by a guard who didn't even know what he'd done.
+
+Sisyphus pressed against the wall, barely breathing. A patrol passed nearby—two guards making their rounds. One paused, looking directly at the vines where Sisyphus hid. Sisyphus didn't move. Didn't breathe. Ten thousand years of patience, of waiting for the boulder to settle before pushing again.
+
+The guard shrugged. "Thought I saw something."
+
+"It's just birds," his companion said.
+
+They moved on. Sisyphus waited until they were gone, then watched the tributes being led away. Theseus walked last, still watching everything, still planning even though his yarn had just sunk.
+
+*That boy deserves a chance,* Sisyphus thought.
+
+He slipped back through the olive groves, returning to the tower before Daedalus noticed his absence. The architect was still bent over calculations, muttering about stress points and load-bearing impossibilities.
+
+"Where were you?"
+
+"Thinking," Sisyphus said. Which was true. He'd been thinking about a boy with yarn. About modifications he could make to passages. About small mercies hidden in architectural precision.
+
+Before Daedalus could press further, the door slammed open. Alexios burst in, face flushed with exertion. Sergeant Nikias filled the doorway behind him, weathered face grim.
+
+"Master Daedalus!" Alexios gasped. "You must come immediately!"
+
+Daedalus straightened. "What's happened?"
+
+"The quarry. There's been an incident." Nikias's tone brooked no argument. "Both of you. Now."
+
+"What kind of incident?" Sisyphus asked, already gathering tools.
 
 The guards exchanged glances. Alexios opened his mouth, but Nikias cut him off with a sharp gesture.
 
-"The quarry foreman sent us," the sergeant said. "Said it was urgent—you specifically, Master Daedalus. The workers..." He paused, choosing his words carefully. "They've stopped working. Won't say why."
+"The foreman sent us. Said it was urgent. The workers..." He paused. "They've stopped working. Won't say why."
 
-Daedalus was already filling a leather satchel with specialized instruments—tools Sisyphus recognized for measuring impossible angles, for detecting stress in non-Euclidean structures. His movements had taken on a particular urgency.
+Daedalus was already filling his satchel with specialized instruments—tools for measuring impossible angles, for detecting stress in non-Euclidean structures. His movements had particular urgency.
 
 "How many casualties?" Daedalus asked.
 
-"None reported," Nikias said, clearly puzzled by the question. "The foreman just said to bring you immediately. Both of you. He was... agitated."
+"None reported," Nikias said, clearly puzzled. "The foreman just said to bring you immediately. Both of you. He was... agitated."
 
-Daedalus's jaw tightened. He reached for a specific pouch, one Sisyphus had seen him handle with unusual care—chalk blessed by priests, though why an architect would need such a thing remained unclear.
+Daedalus's jaw tightened. He reached for a specific pouch—chalk blessed by priests.
 
 "Tell me," Daedalus said quietly, "did the foreman mention anything about the stone itself?"
 
-"Only that the workers refuse to go near the new excavation. Superstitious fools are calling it cursed." Nikias shrugged. "But that's why we need you—to tell them it's just stone."
+"Only that the workers refuse to go near the new excavation. Superstitious fools calling it cursed." Nikias shrugged. "That's why we need you—to tell them it's just stone."
 
-They grabbed their tools and followed the guards at a near-run. As they descended the tower stairs, Sisyphus could hear it—a sound like breathing, but not from lungs. From stone itself. The vibration that had been growing stronger for days had changed, become rhythmic, almost eager.
+They grabbed their tools and followed at a near-run. As they descended the tower stairs, Sisyphus heard it—a sound like breathing, but not from lungs. From stone itself. The vibration that had been growing stronger for days had changed, become rhythmic.
 
 Below them, in chambers that shouldn't exist, something that shouldn't exist knew its food had arrived.
 
-And the stone it lived in was celebrating.
+And the stone was celebrating.
 
 ---
 
-The quarry sprawled below them, vast and wrong—too quiet, no ring of hammers on stone, no shouted instructions. Workers clustered near the supply sheds, far from the excavation sites, their faces turned toward Daedalus with desperate hope.
+The quarry sprawled below them, vast and silent. No ring of hammers on stone. No shouted instructions. Workers clustered near the supply sheds, far from the excavation sites, faces turned toward Daedalus with desperate hope.
 
-Keras, the quarry foreman, met them as they dismounted. The man who'd worked impossible stone without flinching for three years looked rattled, his weathered hands clenching and unclenching as if grasping for explanations that kept slipping away.
+Keras, the quarry foreman, met them as they dismounted. The man who'd worked impossible stone without flinching for three years looked rattled, weathered hands clenching and unclenching.
 
-"Master Daedalus," he began without preamble. "We've got a problem."
+"Master Daedalus," he began. "We've got a problem."
 
-"Tell me." Daedalus's voice was steady, but Sisyphus saw how his fingers had already found the pouch of blessed chalk.
+"Tell me." Daedalus's fingers had already found the pouch of blessed chalk.
 
-"Started two days ago. Workers in the lower sections heard... sounds. Not construction sounds—we know every sound stone makes when it's worked. This was different." Keras gestured toward the main excavation. "Then yesterday morning, we found stone dust in the upper passages. Falling up."
+"Started two days ago. Workers in the lower sections heard sounds. Not construction sounds—we know every sound stone makes when it's worked. This was different." Keras gestured toward the main excavation. "Then yesterday morning, we found stone dust in the upper passages. Falling up."
 
 Nikias snorted. "Dust doesn't fall up."
 
 "That's what I said." Keras's jaw tightened. "Until I saw it myself. And there's more. Tools moved overnight. Fresh stone chips where no crew was working. And Petros—reliable man, not given to fancy—swears he saw passages that aren't on any blueprint."
 
-Daedalus and Sisyphus exchanged glances. Sisyphus saw recognition in the architect's eyes, quickly hidden.
+Daedalus and Sisyphus exchanged glances.
 
-"Show me the affected areas," Daedalus said.
+"Show me," Daedalus said.
 
-Keras led them to the excavation's edge, pointing down into the layered depths. "Sector nine, mainly. But here's the strangest thing—there's a draft down there. Cold air moving where there shouldn't be any airflow. And the echo..." He picked up a stone, dropped it into the depths. The sound that returned was wrong, taking too long, coming from the wrong direction.
+Keras led them to the excavation's edge, pointing into layered depths. "Sector nine. But here's the strangest thing—there's a draft down there. Cold air moving where there shouldn't be airflow. And the echo..." He picked up a stone, dropped it into the depths. The sound that returned was wrong, taking too long, coming from the wrong direction.
 
-"The echo's been wrong for three days," Keras continued. "Like the space down there has... changed."
+"The echo's been wrong for three days," Keras continued. "Like the space down there has changed."
 
-"Changed how?" Sisyphus asked, though he suspected he knew.
+"Changed how?" Sisyphus asked.
 
-"Bigger. Or maybe just different. And Master Daedalus, I've worked stone for thirty years. Stone doesn't cut itself." Keras's voice dropped. "But down there... there are fresh cuts. Clean ones. Made from the inside. The angles don't match any of your plans."
+"Bigger. Or maybe just different. And Master Daedalus—" Keras's voice dropped. "I've worked stone for thirty years. Stone doesn't cut itself. But down there... there are fresh cuts. Clean ones. Made from the inside. The angles don't match any of your plans."
 
-Alexios, who'd been listening with growing fascination, stepped forward. "Maybe it's just the mountain settling? The weight—"
+Alexios stepped forward. "Maybe it's just the mountain settling?"
 
-"Shut up, boy," Nikias cut him off. "Mountains don't settle in straight lines. And they don't use tools."
+"Shut up, boy," Nikias cut him off. "Mountains don't settle in straight lines."
 
-"We need to go down," Daedalus said quietly. "See for ourselves."
+"We need to go down," Daedalus said quietly.
 
-The foreman stepped back immediately. "I'll not go down there again. I've got a family. Three daughters who need their father coming home at night." He looked at the guards. "You're taking armed men?"
+The foreman stepped back immediately. "I'll not go down there again. I've got a family. Three daughters who need their father."
 
 "We're going," Nikias said, though his face suggested he'd rather be anywhere else. "Orders are orders."
 
-"I want to see," Alexios added, trying to hide his excitement behind professionalism. "I mean, for security purposes. To assess the threat."
+"I want to see," Alexios added, trying to hide excitement behind professionalism.
 
 Nikias glared at him. "You want to see what kills curious boys in the dark."
 
-"We'll need light," Daedalus said, already moving toward the equipment shed. "Lots of it. And rope. If the passages have... changed... we might need to find our own way back."
+"We'll need light," Daedalus said. "Lots of it. And rope."
 
-As they gathered supplies, Sisyphus moved close to Daedalus. "It's building, isn't it? Creating its own passages?"
+As they gathered supplies, Sisyphus moved close to Daedalus. "It's building, isn't it?"
 
-Daedalus's response was barely audible. "It's learning. Not just the passages we built, but how to build its own. The question is whether it's conscious architecture or just... instinct."
+Daedalus's response was barely audible. "It's learning. Not just the passages we built, but how to build its own."
 
 "Does it matter?"
 
-"If it's conscious, then it's not just escaping. It's redesigning its prison from the inside." Daedalus's face was grim. "And if it can build, what else can it do?"
+"If it's conscious, it's not just escaping. It's redesigning its prison from the inside." Daedalus's face was grim. "And if it can build, what else can it do?"
 
-They approached the descent point, where carved steps led down into darkness. The workers watched from a safe distance, some making signs against evil. The morning sunlight seemed to stop at the excavation's edge, as if reluctant to go deeper.
+They approached the descent point—carved steps leading down into darkness. Morning sunlight seemed to stop at the excavation's edge.
 
-"Stay close," Daedalus instructed. "Touch nothing unless I say. And if you hear anything—anything—that sounds like breathing but isn't coming from us, we leave immediately."
+"Stay close," Daedalus instructed. "Touch nothing unless I say. And if you hear anything that sounds like breathing but isn't coming from us, we leave immediately."
 
 "Breathing?" Alexios asked nervously.
 
 "The mountain doesn't breathe, boy," Nikias said. "So if you hear it, run."
 
-They lit their torches and began the descent. Behind them, the foreman called out, "Master Daedalus? What should I tell the workers?"
+They lit torches and began the descent. Behind them, the foreman called out, "Master Daedalus? What should I tell the workers?"
 
-Daedalus paused at the edge of darkness. "Tell them to stay away from sector nine. All of them. Until we understand what we're dealing with."
+Daedalus paused at the edge of darkness. "Tell them to stay away from sector nine. All of them."
 
 "And if you don't come back?"
-
-Sisyphus turned, and for a moment the foreman saw something in his eyes—an ancient amusement, as if death was an old friend he'd already tricked twice. "Then tell them we're having a conversation with something that's learning to think. Whether it learns fear or curiosity from us... well, that's what we're about to find out." He smiled slightly, the same smile he'd worn pushing the boulder on good days, finding joy in the defiance of going down to meet a monster not with weapons, but with patience.
 
 "Then seal it," Daedalus said simply. "Seal it and inform the King that the labyrinth has begun to dream."
 
@@ -158,94 +194,124 @@ They descended into the darkness, leaving the world of men behind.
 
 ---
 
-The torchlight revealed Daedalus's masterwork in fragments—passages that curved through impossible angles, chambers that contained more space than their boundaries should allow, stairs that descended while somehow climbing. Each architectural element had been crafted with obsessive precision, yet the whole created something that transcended mere engineering.
+The torchlight revealed Daedalus's masterwork in fragments—passages that curved through impossible angles, chambers containing more space than their boundaries should allow, stairs that descended while somehow climbing.
 
-"Archimedes thinks himself clever with his spirals and his levers," Daedalus said, his voice carrying unexpected pride as they moved deeper. "Give me a place to stand, he says, and I'll move the world. But he never asked the real question—what if the world doesn't want to be moved? What if it has preferences about its position?"
+"Give me a place to stand, Archimedes says, and I'll move the world," Daedalus muttered as they moved deeper. "But he never asked—what if the world doesn't want to be moved?"
 
-He ran his hand along a wall that seemed to pulse with its own internal rhythm. "This structure negotiates with reality itself. Not forcing, not breaking—convincing stone to be something other than what nature intended."
+He ran his hand along a wall that pulsed with its own rhythm. "This structure negotiates with reality itself. Not forcing, not breaking—convincing stone to be something other than what nature intended."
 
-"Master Daedalus," Nikias interrupted, his weathered face tight with professional concern. "These passages... they're not defensible. Too many blind corners, too many spaces where—"
+"Master Daedalus," Nikias interrupted, weathered face tight. "These passages aren't defensible. Too many blind corners—"
 
-"Where what, Sergeant?" Daedalus asked sharply. "Where enemies might hide? This isn't a fortress. It's a feeding mechanism. Every blind corner, every confusion—they all serve a single purpose."
+"This isn't a fortress, Sergeant. It's a feeding mechanism."
 
-Alexios, trying to maintain his composure, held the torch higher. The light caught something white against the dark stone. "Sir, there's something—"
+Alexios held the torch higher. The light caught something white against dark stone. "Sir, there's something—"
 
-They all saw it at the same moment. A human skeleton, still partially clothed in the remnants of what had once been fine Athenian fabric. The bones were scattered but showed clear signs of violence—ribs cracked, skull fractured, long bones snapped as if by immense pressure. But what made Nikias step back wasn't the violence. It was the position.
+A human skeleton, still clothed in remnants of Athenian fabric. The bones showed clear violence—ribs cracked, skull fractured, long bones snapped. But what made Nikias step back wasn't the violence. It was the position.
 
-The skeleton's hand still clutched a piece of chalk, and on the wall beside it, a half-finished message: "It learns our—"
+The skeleton's hand still clutched a piece of chalk. On the wall beside it, a half-finished message: "It learns our—"
 
-"One of the tributes from last cycle," Daedalus said quietly. "They tried to map their way out, leave messages for others who might follow."
+"One of the tributes from last cycle," Daedalus said quietly. "Tried to map their way out."
 
-"He got further than most," Sisyphus observed, kneeling beside the remains. "This is sector seven. The main feeding chamber is in sector four."
+"He got further than most," Sisyphus observed, kneeling beside the remains. "This is sector seven. The feeding chamber is in sector four."
 
-"The young ones always think they're clever," Nikias said, his voice rough. He'd seen death before, but this was different. "Think they can outsmart the maze, find the pattern." He looked at the unfinished message. "But it learned from him, didn't it? Learned he was leaving marks."
+"The young ones always think they're clever," Nikias said roughly. "Think they can outsmart the maze." He looked at the unfinished message. "But it learned from him, didn't it?"
 
-"And adapted," Daedalus confirmed. "After this one, we found three more tributes. They'd tried the same strategy—leaving chalk marks to map their path. But the passages had changed overnight. Their own marks led them in circles, then directly to the center."
+"And adapted," Daedalus confirmed. "After this one, we found three more tributes. They'd tried leaving chalk marks. But the passages had changed overnight. Their own marks led them in circles, then directly to the center."
 
-Alexios had gone pale, but he maintained his position, torch held steady. "The creature... it can read?"
+Alexios had gone pale, but maintained his position. "The creature can read?"
 
 "It can recognize patterns," Daedalus corrected. "Whether that constitutes reading is a question I prefer not to contemplate."
 
-They moved on, leaving the bones undisturbed—a grim monument to clever youth who'd died learning the labyrinth's rules. The passages grew stranger as they descended. Here, a section where the walls had been polished to mirror brightness. There, channels cut in the floor that would carry blood away from the feeding areas, keeping the paths clear for the next tribute cycle.
+They moved on, leaving the bones undisturbed. The passages grew stranger—walls polished to mirror brightness, channels cut in floors to carry blood away from feeding areas.
 
-"The mathematics alone took three months," Daedalus was saying, his pride overcoming his usual caution. "Each passage calculated to create maximum disorientation. The human mind expects patterns, seeks logic. So we give them patterns that almost make sense, logic that breaks down at crucial moments."
+"The mathematics alone took three months," Daedalus was saying. "Each passage calculated to create maximum disorientation. The human mind expects patterns, seeks logic. So we give them patterns that almost make sense, logic that breaks down at crucial moments."
 
 "You sound proud of it," Nikias said flatly.
 
-"I'm proud of the craft," Daedalus replied, his tone defensive. "Whatever else this is, it's the most sophisticated architectural project ever attempted. Archimedes builds toys for tyrants. I've built something that will outlast empires."
+"I'm proud of the craft," Daedalus replied defensively. "Whatever else this is, it's the most sophisticated architectural project ever attempted."
 
 They turned a corner and Sisyphus stopped so abruptly that Alexios nearly collided with him.
 
 "That's not right," Sisyphus said.
 
-Before them was a passage that didn't belong. While Daedalus's work showed mathematical precision and impossible beauty, this was... different. The walls were roughly shaped, as if someone had tried to copy the non-Euclidean curves but hadn't quite grasped the underlying principles. The angles were wrong—not wrong in the deliberate way that Daedalus made them wrong, but wrong like a child's drawing of something they'd seen but didn't understand.
+Before them was a passage that didn't belong. While Daedalus's work showed mathematical precision, this was different. Roughly shaped, as if someone had tried to copy the non-Euclidean curves but hadn't quite grasped the underlying principles. The angles were wrong—not wrong in the deliberate way Daedalus made them wrong, but wrong like a child's drawing.
 
-"This isn't mine," Daedalus whispered, his pride evaporating.
+"This isn't mine," Daedalus whispered.
 
-The passage extended about twenty feet before ending in an unfinished wall. Tool marks were visible—or what looked like tool marks. But as Sisyphus examined them closer, he realized they were claw marks, made by something that had observed stoneworkers and tried to replicate their techniques.
+The passage extended about twenty feet before ending in an unfinished wall. Tool marks were visible—or what looked like tool marks. But examining them closer, Sisyphus realized they were claw marks, made by something that had observed stoneworkers and tried to replicate their techniques.
 
-"It's copying you," Sisyphus said quietly. "Learning your methods, trying to build like you build."
+"It's copying you," Sisyphus said quietly. "Learning your methods."
 
-"But it's crude," Daedalus said, though he sounded more disturbed than reassured. "Like someone describing architecture to someone who's never seen a building."
+"But it's crude," Daedalus said, though he sounded more disturbed than reassured.
 
 "Give it time," Nikias said grimly. "It's practicing."
 
-From somewhere deeper in the labyrinth came a sound that made them all freeze. Not a roar or bellow, but breathing—deep, rhythmic, patient. The sound echoed through the passages, seeming to come from everywhere and nowhere, as if the labyrinth itself had lungs.
+From somewhere deeper came a sound that made them freeze. Not a roar, but breathing—deep, rhythmic, patient. The sound echoed through passages, seeming to come from everywhere and nowhere.
 
-The breathing paused. Then, from the crude new passage they'd discovered, came the distinct sound of stone being worked. Scraping, methodical and deliberate. The Minotaur was building. Right now. While they stood in its domain.
+The breathing paused.
 
-"We leave," Nikias ordered, his battlefield authority overriding protocol. "Now."
+Then, from the crude new passage, came a different sound. Stone being worked. Not the clean ring of hammer on chisel, but something scraping—methodical, deliberate, like claws dragging across rock in precise patterns. Short scrape, pause, short scrape. The rhythm of someone learning to carve. Practicing the same motion over and over, the way a child traces letters.
 
-"Quiet!" Daedalus hissed in a whispered voice. "These halls are designed to echo. The beast has adapted to hunt through sound."
+The Minotaur was building. Right now. While they stood in its domain.
+
+"We leave," Nikias ordered. "Now."
+
+"Quiet," Daedalus hissed in a whisper. "Sound travels here. The beast hunts through echo."
 
 As they turned to retreat, the breathing resumed—closer now, as if whatever made that sound had moved through passages they couldn't see to position itself between them and the exit.
 
 The torch flames flickered in a breeze that shouldn't exist this deep underground.
 
-"Stay against the walls, never the center," Daedalus whispered urgently, taking command. "The center passages are where hope lives—false hope. Every corridor that seems to lead up actually spirals down. Trust nothing that looks like escape."
+"This corridor," Daedalus whispered urgently, gesturing them forward. "The walls appear parallel but they converge. Creates disorientation—victims think they're going straight but they're actually curving back." He traced the angle with his finger. "And here—acoustic dead zone. Sound doesn't carry. The Minotaur can approach and you'll never hear it coming."
 
-They began their retreat, Daedalus leading with the confidence of someone who knew every deception he'd built. "Don't look at the shadows on the walls," he instructed as they passed a section where darkness seemed to move independently. "They're designed to make you think something's there when it isn't."
+Sisyphus studied the passage with professional interest, noting the mathematical precision required to create such effects. The converging walls were subtle—the human eye wouldn't notice the gradual narrowing until it was too late.
 
-A passage opened to their right, bright with what looked like daylight. Alexios started toward it, but Daedalus grabbed his arm. "No. That's reflected light from polished stone three levels down. Follow it and you'll walk straight into the feeding chamber."
+"Every corridor that looks like escape is actually a trap," Daedalus continued, leading them through the labyrinth with the confidence of someone who knew every deception he'd built. "The center passages offer false hope. Trust nothing."
+
+They moved through darkness that seemed to have weight, past shadows that moved independently of their torches. A passage opened to their right, bright with what looked like daylight.
+
+Alexios started toward it, but Daedalus grabbed his arm. "Reflected light from polished stone three levels down. Follow it and you'll walk straight into the feeding chamber."
 
 The breathing sound shifted, now coming from ahead of them. Impossible—they'd heard it behind them moments ago.
 
 "The acoustics," Sisyphus understood. "You built the sound to lie."
 
-"Everything here lies," Daedalus confirmed, leading them down a passage that seemed to dead-end but revealed a sharp turn at the last moment. "That's the point. But lies have patterns. I know which lies I told."
+"Everything here lies," Daedalus confirmed, leading them down a passage that seemed to dead-end but revealed a sharp turn at the last moment. "But I know which lies I told."
+
+While the others focused on Daedalus's explanations, Sisyphus lagged behind slightly. His hands moved quickly, efficiently—running along the converging walls, feeling for the stress points in the stone. Here. A subtle adjustment to the angle, barely noticeable. The walls that were meant to converge now ran truly parallel.
+
+In the acoustic dead zone, his fingers found purchase points in the stone. Small modifications, crude handholds that looked like natural imperfections. Nothing obvious. Nothing that would draw attention.
+
+He changed the echo pattern with a few strategic chips in the stone overhead. Sound would carry here now, not die. The Minotaur's approach would be audible.
+
+All of it done in moments, while pretending to examine Daedalus's work with professional curiosity. The architect was too focused on leading them out to notice. The guards were too terrified to pay attention to what the new assistant was doing.
+
+Sisyphus was thinking of Theseus. The boy with the yarn. The boy who'd come prepared. Who'd lost everything to casual cruelty but still stood there planning, still looking for a way.
+
+*Give him a chance,* Sisyphus thought, his modifications complete. *Just a chance.*
 
 They climbed stairs that felt like they were descending, turned corners that should have led them in circles but somehow carried them upward. Behind them, the breathing had stopped, replaced by something worse—the sound of stone being carefully, methodically reshaped.
 
 "It's not following," Nikias observed, confused.
 
-"It's learning," Daedalus replied. "Watching how we navigate, memorizing which passages we avoid, which tricks we don't fall for. Next time, those will be the real traps."
+"It's learning," Daedalus replied. "Watching how we navigate, memorizing which passages we avoid, which tricks we don't fall for."
 
-For a moment, just at the edge of torchlight, Alexios swore he saw eyes in the darkness—not animal eyes, but something that studied them with terrible intelligence. Then Daedalus pulled him around another impossible corner, and the eyes were gone.
+For a moment, just at the edge of torchlight, something moved. Sisyphus caught a glimpse—not the full form, but eyes. Massive eyes, maybe three feet apart, reflecting the torch flame with an amber glow. Not the flat reflection of animal eyes, but something else. Something that studied them with calculation, with thought. The eyes were positioned low, as if the creature was crouched, watching from the darkness with the patience of something that had learned to wait.
 
-Finally, blessed daylight appeared ahead—real this time, with the warmth that couldn't be faked. They emerged gasping into the afternoon sun, the normal world feeling surreal after the impossibilities below.
+Then Daedalus pulled them around another impossible corner, and the eyes were gone.
+
+Finally, blessed daylight appeared ahead—real this time, with warmth that couldn't be faked. They emerged gasping into the afternoon sun, the normal world feeling surreal after the impossibilities below.
 
 "Everyone accounted for?" Nikias did a quick count, relief visible on his weathered face.
 
-But Daedalus was looking back at the entrance, his expression troubled. "We escaped because I know every lie I built down there. But it's building its own lies now. Soon, I won't know which deceptions are mine and which are its."
+But Daedalus was looking back at the entrance, his expression troubled. "We escaped because I know every lie I built down there. But it's building its own lies now." His hands began their familiar tremor. "Soon I won't know which deceptions are mine and which are its."
 
-Sisyphus watched the architect's hands begin their familiar tremor. The master of the labyrinth was slowly becoming just another potential victim of his creation.
+Sisyphus said nothing. In his mind, he was mapping the modifications he'd made. The passage that was now truly parallel instead of converging. The handholds in the acoustic dead zone. The echoes that would carry where they shouldn't.
+
+A path. For a boy with a plan. For anyone desperate enough to try.
+
+Small mercies, hidden in stone. Daedalus would never notice them. But someone navigating those passages, looking for any advantage, any hope—they might.
+
+The labyrinth was a machine designed to eliminate hope. But every machine had flaws. Every system had exploits.
+
+And Sisyphus had just spent ten thousand years learning how to find them.

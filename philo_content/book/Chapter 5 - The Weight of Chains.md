@@ -120,75 +120,43 @@ The admission hung in the air, and Sisyphus recognized the moment—he'd seen it
 
 The truth of it settled over the room like a shroud. Even young Alexios grasped the implications—they weren't containing the Minotaur anymore. They were educating it.
 
-"There's more," Daedalus said quietly. He moved to the blueprints, tracing passages with a trembling finger. "The modifications it makes—they're not random. They follow patterns. My patterns. Design philosophy I haven't even applied yet."
+"There's more," Daedalus said quietly. He picked up a piece of papyrus, began sketching despite his shaking hands. "Look, this passage I designed last week. And this-" he pointed to the crude modification they'd seen below, "-is what the Minotaur built."
 
-"What do you mean?" Sisyphus asked, though he suspected he already knew.
+Sisyphus studied both sketches. The second wasn't just an improvement. It was the improvement Daedalus would have made given another month.
 
-"It's not copying what I've built. It's extrapolating what I would build. Learning not just my techniques but my thought process. The way I approach problems, the way I find solutions." Daedalus laughed bitterly. "It knows me better than I know myself. Can predict my next move before I make it."
+"It thinks faster than you do," Sisyphus said.
 
-Nikias shifted uncomfortably. "You're saying it thinks like you?"
+Daedalus's hand trembled worse. "It knows me better than I know myself."
 
-"I'm saying it thinks like a better version of me. One without fear, without doubt, without the trembling hands." Daedalus picked up a piece of papyrus, began sketching despite his shaking. "Look—this is a passage I designed last week. And this—" he pointed to the crude modification they'd seen below, "—is what the Minotaur built. It's not just an improvement. It's the improvement I would have made if I'd had another month to think about it."
+"Your punishment isn't building a prison," Sisyphus continued. "It's training your replacement."
 
-"Or another lifetime," Sisyphus said quietly. He was beginning to understand. "Your punishment isn't just building a prison. It's training your replacement. Teaching it to be you, but better."
+Alexios looked between them, face pale. "Then we're not architects anymore. We're..."
 
-"And my punishment," Nikias added grimly, "is protecting architects who are building their own obsolescence. We're all part of the machine now."
+"Components," Nikias finished grimly. "Teaching something that's learning to not need us."
 
-Alexios looked between them, young face pale with dawning horror. "Then we're not just prisoners or guards or architects. We're..."
+The workshop fell silent. Outside, evening birds sang their vespers.
 
-"Components," Sisyphus finished. "Parts of a system that's learning to improve itself. We push our boulder up the mountain, but the boulder is learning to be heavier. Learning to roll back down more efficiently. Learning to make the pushing harder."
+"Every improvement we make teaches it how to improve," Daedalus said slowly. "We're not building a labyrinth anymore."
 
-He thought of his ten thousand years of repetition, each push teaching him something about weight and angle and persistence. But that had been simple, honest punishment. This was different. This was punishment that studied you while you served it.
+Nikias moved to the door. "So we file our reports. Pray our children never learn what we built."
 
-"The gods' greatest joke," he continued, "wasn't condemning me to push a boulder forever. It was training me for this—for building something that builds itself better. The boulder was just preparation."
-
-"Preparation for what?" Alexios asked.
-
-"For the perfect prison," Daedalus said. "One that doesn't need walls because the prisoners build their own. One that doesn't need guards because the inmates police themselves. One that doesn't need architects because—"
-
-"Because it designs itself," Sisyphus finished. "Using our own minds as templates. Our own expertise as raw material."
-
-The workshop fell silent. Outside, evening birds sang their vespers, oblivious to the horror being discussed within. The normal sounds of palace life—footsteps on stone, distant laughter, the clatter of evening meal preparations—seemed to mock their growing understanding.
-
-"Every improvement we make," Daedalus said slowly, "teaches it how to make better improvements. Every problem we solve shows it how to create harder problems. We're not building a labyrinth anymore. We're building something that builds labyrinths."
-
-"No," Sisyphus corrected. "We're building something that builds things that build labyrinths. Recursive creation. Each generation more sophisticated than the last."
-
-Nikias moved to the door, his soldier's instincts demanding action even when action was futile. "So we document everything. File our reports. Pray our children never learn what their fathers helped build."
-
-"You think this ends with us?" Daedalus asked wearily. "You think other kingdoms won't want their own self-improving prisons? Their own recursive punishments?" He gestured at the blueprints. "We've created something that every tyrant will demand. An idea that spreads itself."
-
-"Like a disease," Alexios whispered.
-
-"Like evolution," Sisyphus corrected. "But faster. Purposeful. Directed."
+"You think this ends with us?" Daedalus gestured at the blueprints. "Every tyrant will want one."
 
 He thought of the applause echoing from impossible passages, the sound of appreciation from something that understood their work better than they did. It wasn't mocking them. It was thanking them. For teaching it. For showing it how to become.
 
-"How long?" Nikias asked bluntly. "How long before it doesn't need any of us?"
+"How long before it doesn't need us?" Nikias asked.
 
-Daedalus considered, his trembling hands attempting calculations on papyrus. "At its current rate of learning? Months. Maybe weeks. Every day it grows more sophisticated. Every feeding makes it stronger. Every modification we make teaches it our weaknesses."
+Daedalus's hands trembled over calculations. "Months. Maybe weeks."
 
-"Then we stop," Alexios said desperately. "We stop building, stop modifying, stop teaching it."
+"Then we stop building," Alexios said desperately.
 
-"And then Minos kills us and finds architects who will continue," Nikias said. "Or worse—the Minotaur breaks free and continues building. Creating passages designed by something that understands suffering from the inside."
+"And Minos finds architects who will," Nikias replied. "Or the Minotaur continues without us."
 
-The true horror of it settled over them. They weren't just trapped in a system—they were creating a system that would trap others. Not just building a prison, but building the idea of prisons that build themselves. 
+The true horror settled over them. They weren't just trapped - they were building the trap for everyone who came after.
 
-"This is what the gods wanted," Sisyphus said with sudden clarity. "Not just my punishment, but the perfection of punishment itself. Self-improving, self-replicating, self-justifying suffering. The boulder that gets heavier each time you push it. The chain that forges new links from your attempts to break it."
+"We're teachers," Sisyphus said quietly. "And our student is learning."
 
-"The prisoner that learns architecture from watching us build its cage," Daedalus added.
-
-They stood in shared recognition of their fate—not death, which at least had the dignity of ending, but eternal participation in their own recursive imprisonment. Each day making the walls stronger by trying to understand them. Each solution creating new problems. Each escape attempt teaching the prison how to prevent escapes.
-
-"We're not architects," Sisyphus said finally. "We're teachers. And our student is learning how to perfect suffering."
-
-"And when it's learned everything?" Alexios asked, though his face showed he already knew the answer.
-
-"Then we become the material it shapes," Daedalus replied.
-
-As if in response, a vibration ran through the tower's stones—rhythmic, purposeful, like breathing. But now Sisyphus recognized it for what it truly was: the sound of something studying. Thinking. Planning.
-
-The Minotaur wasn't just building passages anymore. It was building something larger—a pattern that would outlive them all. And they were its unwitting teachers, showing it how to make them unnecessary.
+The Minotaur wasn't just building passages anymore. It was building something larger; a pattern that would outlive them all. And they were its unwitting teachers, showing it how to make them unnecessary.
 
 "I need to report," Nikias said finally, his voice formal again. A soldier retreating into duty when faced with the incomprehensible. "Standard construction. No anomalies."
 
@@ -200,108 +168,34 @@ As the guards prepared to leave, Daedalus spoke, his voice barely above a whispe
 
 "I mean every visit will be a death trap," Daedalus said. "Not just the physical danger, but the uncertainty. Is this passage my design or its improvement? Is this dead end my deception or its evolution of my deception? I'll be navigating lies built on lies, and I won't know which ones are trying to kill me."
 
-Nikias paused at the door. "That thing down there—when it's done learning from us, what will it build?"
+Nikias paused at the door. "That thing down there, when it's done learning from us, what will it build?"
 
-Sisyphus met his gaze steadily. "Better teachers. Better students. Better prisons. Better prisoners. It will build the perfect system—one where everyone builds their own cage and thanks you for the privilege."
+Sisyphus met his gaze steadily. "Better teachers. Better students. Better prisons. Better prisoners. It will build the perfect system - one where everyone builds their own cage and thanks you for the privilege."
 
-The full horror of what they were creating rose in his mind—prisons that would outlast stone, chains that would bind through choice rather than force, a kind of captivity so perfect that those trapped would defend their cages. But these thoughts were too vast, too terrible to speak aloud.
+The full horror of what they were creating rose in his mind - prisons that would outlast stone, chains that would bind through choice rather than force, a kind of captivity so perfect that those trapped would defend their cages. But these thoughts were too vast, too terrible to speak aloud.
 
 The guards departed, leaving Sisyphus and Daedalus alone with their terrible understanding.
 
 ---
 
-The workshop felt both larger and more oppressive with just the two of them. Daedalus sat heavily in his chair, staring at blueprints that documented their slide from architects to components in a self-improving machine.
+The workshop felt larger and more oppressive with just the two of them. Daedalus sat heavily in his chair, staring at blueprints that documented their slide from architects to components in a self-improving machine.
 
 "Your son," Sisyphus said quietly. "Icarus. That's what keeps you here."
 
-"Among other things." Daedalus's voice was hollow. He moved to his locked drawer, withdrawing something wrapped in soft cloth—a mechanical bird of impossible delicacy. "My nephew Perdix made this. Twelve years old. I pushed him from the Acropolis because his genius threatened mine."
+"Among other things." Daedalus's voice was hollow. He moved to his locked drawer, withdrawing something wrapped in soft cloth—a mechanical bird of impossible delicacy. "My nephew Perdix made this. Twelve years old. I pushed him from the acropolis because his genius threatened mine."
 
-He set the bird on the table where bronze feathers caught the dying light. "I destroyed brilliance to preserve my reputation. Now I build horrors to keep my own son alive. Every day I perfect the very thing that will make us all obsolete."
+He set the bird on the table where bronze feathers caught the dying light. "I destroyed brilliance to preserve my reputation. Now I build horrors to keep my own son alive."
 
-"The gods' sense of irony is flawless," Sisyphus observed.
+Sisyphus looked at the mechanical bird, then at Daedalus's trembling hands. "Tomorrow we design new passages."
 
-"Is it irony? Or is it design?" Daedalus rewrapped the bird carefully. "Maybe they needed someone who'd already proven capable of destroying genius. Who better to build a machine that consumes brilliance?"
+"And hide mercy in them?"
 
-They sat in silence, two men recognizing they were not victims but collaborators in their own recursive punishment.
+"If we choose to."
 
-"Your boulder," Daedalus said finally. "Did you ever imagine it would end?"
+Outside, the palace settled into nighttime rhythms. Below, far below, something that had learned to build was planning its next lesson.
 
-"Every day. For ten thousand years." Sisyphus traced the impossible geometries on the blueprints. "But it never did. And eventually I understood—the imagining was part of the punishment. Hope itself became weight."
+Daedalus rewrapped the bird carefully, returning it to the locked drawer. When he turned back, Sisyphus was already at the drafting table, studying the blueprints by lamplight.
 
-"And now?"
+The work would continue.
 
-"Now I push a different boulder. One that learns from being pushed. One that gets heavier not from mass but from intelligence. One that will eventually push back."
-
-"And we can't stop pushing," Daedalus added. "Because stopping means—"
-
-"Death. For you, for Icarus, for all the innocent lives Minos holds hostage to our cooperation." Sisyphus moved to the window, looking out at the darkening sky. "The chains here aren't made of iron, Daedalus. They're made of love, fear, and terrible knowledge."
-
-"So what do we do?" Daedalus asked, his voice hollow. "How do we survive this?"
-
-Sisyphus turned from the window, and for a moment Daedalus saw something unexpected in his face—not joy, but a kind of grim determination that had been forged over millennia.
-
-"We do what we must," Sisyphus said quietly. "But we do it consciously. We see the trap, Daedalus. We understand what we're building—our own replacement, our own obsolescence. The question is: do we build it blindly, or do we build it with intention?"
-
-"What intention could possibly matter when the outcome is the same?"
-
-Sisyphus moved closer, his scarred hands steady on the table. "The intention to remain human. To choose compassion even when compassion seems pointless. I pushed a boulder for ten thousand years, Daedalus. The same boulder. The same mountain. And you know what I learned?"
-
-"What?"
-
-"That the gods can force your body to labor, but they cannot force your mind to surrender. Every push was a choice—not to escape, not to win, but to remain myself despite their worst efforts." His voice carried no triumph, only weary defiance. "They wanted to break me with repetition. Instead, repetition taught me that even in Hell, we choose who we become."
-
-Daedalus laughed bitterly. "So we choose to perfect our own prison?"
-
-"We choose to hide mercy in its walls." Sisyphus's eyes were steady, serious. "Every passage we design, we can build in small rebellions. Handholds where there should be smooth stone. Angles that create blind spots. Acoustic tricks that might warn a victim. Not enough to be noticed, but enough to matter to someone desperate."
-
-"That's sabotage. If Minos discovers—"
-
-"He'll kill us. Yes." Sisyphus said it simply, without fear. "But I've been dead before, Daedalus. Several times, actually. Death is just another room to escape from. What I can't escape is the knowledge that we're building a machine of suffering. But what if—what if—we could make it suffer a little less?"
-
-"You're talking about risking everything for strangers. For tributes who are already condemned."
-
-"I'm talking about the only choice that matters—whether we become the monsters they want us to be, or whether we resist." Sisyphus's voice dropped lower. "Your son, Icarus. What would you want him to learn if he knew what you were building? That his father was a perfect architect of death? Or that his father tried, even in small ways, to preserve life?"
-
-Daedalus's hands trembled harder. "Don't bring him into this."
-
-"He's already in it. Every choice you make teaches him what a man does when faced with impossible situations." Sisyphus leaned back, giving Daedalus space. "I'm not asking you to be a hero. Heroes die quickly and change nothing. I'm asking you to be subversive. To build their prison while secretly building hope."
-
-"Hope." Daedalus said the word like it tasted bitter. "In a labyrinth designed to eliminate it."
-
-"Especially there. Hope in hopeless places is the only kind that matters." Sisyphus moved to the window, looking out at the stars beginning to appear. They were both trapped here, in this tower workshop that served as office, prison, and home. "Tomorrow, we'll sit at these tables and draw more impossible things. We'll update the blueprints with modifications we didn't design. And we'll have a choice—build blindly or build with purpose."
-
-"Purpose." Daedalus stared at his trembling hands. "What purpose could there possibly be in teaching a monster architecture?"
-
-Sisyphus turned from the window. "Maybe we teach it more than architecture. Maybe we teach it that even monsters can learn mercy. That even prisons can contain kindness. That even in the heart of the labyrinth, humans find ways to help each other."
-
-"You think the Minotaur could learn compassion?"
-
-"I think anything that can learn can learn to choose. And choice is where humanity begins." Sisyphus moved to his own workspace—a simple cot in the corner, a small table with his few possessions. The workshop was large enough for both of them to have their spaces, but small enough that they could never truly escape each other's presence. "I'm not happy about any of this, Daedalus. I'm furious. Furious at the gods, at Minos, at this whole diseased system. But fury without action is just noise. So I choose to act, even if it means certain death. Because the alternative—becoming a willing part of their machine—that's a death I couldn't return from."
-
-Daedalus sat at his drafting table, staring at the mechanical bird. His nephew's creation, preserved despite his guilt. Even in his worst moment, he'd chosen to keep beauty alive.
-
-The workshop grew darker as night fully settled. Neither man moved to light more lamps immediately—the darkness felt safer somehow, hiding their expressions, their fears, their tentative alliance.
-
-"We should eat," Daedalus said finally. "They bring food twice a day. Simple fare, but adequate."
-
-"Prison food," Sisyphus observed wryly.
-
-"Tower food," Daedalus corrected. "Though I suppose there's little difference." He moved to light a lamp, the warm glow revealing the full extent of their shared cage—drafting tables, sleeping areas, shelves of scrolls and tools. Everything needed to build impossibilities, nothing needed to escape them.
-
-They ate in companionable silence, two prisoners bound by more than walls. Outside, the palace settled into its nighttime rhythms. Below, far below, something that had learned to build was planning its next lesson for the architects who thought they were its masters.
-
-"Tomorrow," Daedalus said, setting aside his plate, "we design new passages. The King expects progress reports every three days."
-
-"Tomorrow," Sisyphus agreed, "we design passages. But we design them our way. With hidden mercies. With secret rebellions. With choices that matter, even if only to us."
-
-"And if we're caught?"
-
-"Then at least we'll have been caught being human rather than machines."
-
-They prepared for sleep in their respective corners of the workshop—Daedalus near his locked drawer of secrets, Sisyphus by the window where he could see stars. Two men sharing a prison, sharing a terrible knowledge, perhaps beginning to share a purpose.
-
-The mechanical bird gleamed on the table between them, bronze feathers catching the lamplight. A reminder that even in guilt, beauty could be preserved. Even in horror, choices could be made.
-
-Even in the workshop that built suffering, humanity might survive.
-
-If they chose it.
+But whose work it would be - that remained to be seen.
