@@ -365,13 +365,7 @@
 **Plot Points:**
 - Tribute ceremony in progress - formal procession of new tributes
 - Minos presiding, Queen beside him, full court in attendance
-- Theron giving report on "the architect's fate" - presumed dead in testing
 - Daedalus present, hollow-eyed, hasn't slept in days
-- Guards report finding Thalia outside the labyrinth - alive, coherent
-- She tells of the architect who saved her, died for her
-- Court murmurs - an architect died? Which one?
-- Theron: "The immortal one, Your Majesty. Sisyphus of Corinth."
-- Minos satisfied - problem solved
 - **THE FALL:** Sky darkens, wind picks up
 - Something falling from directly above
 - Sisyphus crashes into the courtyard fountain - massive splash
@@ -404,139 +398,739 @@
 # Act III - Inescapable Truths (Chapters 13-18)
 *The midpoint crisis. Palace fractures. Minos weaponizes Sisyphus's immortality. The Minotaur escapes.*
 
-## Chapter 12 - The Revelation's Aftermath
-**Setting:** Throughout palace - emergency meetings, private chambers  
-**Word Count:** ~2500 words  
-**Plot Summary:** Palace processes the supernatural revelation. Power dynamics shift violently.  
-**Characters:** All major characters in separate reactions  
-**Plot Points:**
-- **IMMEDIATE AFTERMATH:** Minos orders Sisyphus detained but not killed
-- "Clearly killing him doesn't work. Contain him."
-- Sisyphus taken to reinforced chamber, walking voluntarily
-- To guards: "I could leave whenever I want. But I'm curious."
-- **THRONE ROOM:** Emergency council session
-- Religious implications - Polyidus declares palace "tainted by divine curse"
-- Political implications - Asterion: "Other kingdoms will hear of this"
-- Kleomenes calculating: "How do you imprison someone who can't die?"
-- Queen silent, watching, calculating her own escape
-- **THERON'S CRISIS:** Alone in his quarters
-- His entire investigation based on mortal politics
-- Instead: immortal architects, self-building labyrinths, literal monsters
-- The Queen's warning: "Some truths eat you alive"
-- He demanded proof. He got it.
-- Decision: Stop investigating or accept he's in over his head?
-- **DAEDALUS'S CHAMBER:** Alone, processing relief and terror
-- Sisyphus is alive (relief) but immortal (terror)
-- The project will continue with undeniable proof of divine involvement
-- His hand finds Icarus's compass - what has he brought his son into?
-- **QUEEN'S PRIVATE MEETING WITH SISYPHUS:** She visits his cell
-- "You saved Thalia. Why?"
-- "Because she deserved saving."
-- Queen understands: he acts from compassion, not calculation
-- Warns him: "Minos will find a way to use you"
-- "The King doesn't kill problems. He incorporates them."
-- **MINOS'S CALCULATION:** Private chamber, forming new strategy
-- Sisyphus can't die, can't be threatened with death
-- But he cares about others - that's the weakness
-- The tributes, the workers, Daedalus, even random servants
-- New plan forming: leverage Sisyphus's compassion as chains
+## Chapter 12 - The Escape
 
-## Chapter 13 - The System Breaks Down
-**Setting:** Labyrinth and palace during maintenance failure  
+**Setting:** Prison cell → Palace corridors → Queen's chambers → Tower workshop  
 **Word Count:** ~2800 words  
-**Plot Summary:** Sisyphus's absence causes labyrinth systems to fail. First signs of containment weakening.  
-**Characters:** Daedalus, Keras, workers, guards, palace staff  
-**Plot Points:**
-- Three days since Sisyphus's death/return
-- Labyrinth maintenance suffering without his systematic approach
-- Daedalus trying to manage alone, failing
-- Workers reporting: passages changing faster than they can map
-- Stone dust still falling upward in some sections
-- The Minotaur's crude passages appearing more frequently
-- Keras reports: "It's building three times faster than before"
-- "Like it learned something from watching the immortal die"
-- Daedalus realizes: The Minotaur studied Sisyphus's compassion
-- It's now building passages that *help* victims reach deeper sections
-- Creating false hope to draw them closer
-- Technical problems cascading: drainage systems backing up
-- Feeding chambers mechanism jamming
-- The labyrinth responding to chaos with more chaos
-- Workers quitting en masse - too many unexplained phenomena
-- Daedalus to Keras: "We need Sisyphus back. I can't maintain this alone."
-- But Minos has other plans
-- Vibrations through palace growing stronger
-- The breathing sound now audible in lower corridors
-- Guards reporting: sounds of stone being worked at night
-- **OMINOUS:** The Minotaur is preparing something
+**Plot Summary:** Sisyphus escapes using Daedalus's blueprint. Thalia reaches the Queen during the chaos.  
+**Characters:** Sisyphus, Daedalus, Thalia, Pasiphaë, Lysippe, palace guards  
 
-## Chapter 14 - The Devil's Bargain
-**Setting:** Sisyphus's cell → Throne room → Palace chamber  
-**Word Count:** ~3000 words  
-**Plot Summary:** Minos offers Sisyphus the ultimate moral test - help heroes while enslaved, or refuse and watch slaughter.  
-**Characters:** King Minos, Sisyphus, Daedalus (brief)  
 **Plot Points:**
-- Minos visits Sisyphus's cell personally (rare)
-- Guards nervous - the King never visits prisoners
-- Minos: "I have a proposition for you"
-- Lays out the situation: labyrinth failing, workers fleeing, chaos spreading
-- "I need you to continue your work"
-- Sisyphus: "And if I refuse?"
-- Minos: "Then I'll send the next tribute group in immediately"
-- "Fourteen children. The labyrinth in its current state will kill them in hours"
-- "Or you can return to work. Make your... modifications."
-- The trap springs: Minos knows about Sisyphus's mercy
-- "I'll allow you to build your handholds, your acoustic warnings"
-- "Make the labyrinth kinder, if you wish"
-- "But you'll do it under my supervision, for my purposes"
-- Sisyphus understands: Minos is weaponizing his compassion
-- Refusing means innocent deaths
-- Accepting means enslaving himself willingly
-- **THE CHOICE:** Sisyphus considers refusing on principle
-- But sees the faces of the tributes in his mind
-- Theseus with his yarn. Thalia dying slowly.
-- "What guarantee do I have you'll honor this?"
-- Sisyphus accepts - but with conditions
-- "Daedalus stays safe. His son stays safe."
-- "The workers who help me aren't punished for knowing."
-- Minos agrees - he's won and both know it
-- Returns Sisyphus to tower workshop
-- Daedalus's relief turns to horror when he learns the terms
-- "You've enslaved yourself. Willingly."
-- Sisyphus: "I've chosen my boulder. At least this one saves lives."
 
-## Chapter 15 - The Coder's Manifesto  
-**Setting:** Tower workshop, beginning the new work  
-**Word Count:** ~2500 words  
-**Plot Summary:** Sisyphus transforms his prison into purpose. Beginning of systematic subversion.  
-**Characters:** Sisyphus, Daedalus  
+**SISYPHUS STRAND:**
+- Days after Chapter 11's civil war eruption
+- Palace divided: Theron's interior vs Asterion's grounds
+- Uneasy stalemate, both sides fortifying
+- Sisyphus imprisoned in reinforced cell (Theron's domain)
+- Daedalus hiding in tower under guard, drawing obsessively
+- Can't help, can't work, just escape plans
+- Realizes: the handholds from Chapter 4, combined knowledge
+- Guard shift change - brief window
+- Slides blueprint through maintenance gap
+- Shows exact stress points in cell wall
+
+**THE PATIENT WORK:**
+- Sisyphus receives blueprint, studies it
+- Recognition: his patience + Daedalus's precision
+- Uses metal water cup as tool
+- Hours of identical strikes at marked stress point
+- Guards hear nothing (acoustic design)
+- Stone gives - small gap
+- Squeezes through into maintenance passage
+- Navigates using blueprint - servants' routes, avoiding patrols
+- Careful, methodical, not dramatic
+
+**THALIA STRAND:**
+- Intercut: While Sisyphus escapes
+- Thalia, broken leg barely healing, stumbles through palace grounds
+- Days of hiding in labyrinth, finally emerged during civil war chaos
+- Palace dangerous - patrols, skirmishes between factions
+- Makes it to Queen's wing (royal guard territory)
+- Guards don't recognize her initially - filthy, injured
+- "Please... I need to see the Queen. I have information about—"
+- Collapses before finishing
+- Guards see her injuries, the labyrinth dust on her clothes
+- Rush her to Queen's chambers
+
+**QUEEN'S CHAMBERS:**
+- Pasiphaë in private rooms with Lysippe
+- Planning, calculating next moves
+- Palace split, Minos locked away in inner sanctum
+- She's been managing noble factions, trying to maintain order
+- Guards arrive with Thalia
+- "Your Majesty, this woman came from the labyrinth. She's asking for you."
+- Queen recognizes her: "Thalia. The maid who asked questions."
+- Lysippe: "The one Theron disappeared."
+- Orders: "Bring her in. Fetch the physician. Now."
+
+**FIRST MEETING:**
+- Thalia barely conscious, placed on couch
+- Physician arrives, begins treating broken leg
+- Queen waits, patient, watching
+- Not cold - calculating
+- This woman survived the labyrinth
+- That means something changed
+- Thalia's eyes open, see the Queen
+- Terror and hope mixed
+- "Your Majesty, I... the architect... he saved me."
+- "Which architect?"
+- "The one who fell from the sky. Sisyphus."
+- Queen and Lysippe exchange glances
+- "Tell me everything. Start from the beginning."
+- But Thalia passes out - exhausted, injured
+- Queen to physician: "Keep her alive. I need to hear what she knows."
+
+**SISYPHUS REACHES TOWER:**
+- Meanwhile: Sisyphus navigating final passages
+- Sees tower entrance ahead
+- Two guards: Nikias and Alexios
+- Both exhausted, supposed to be alert
+- Alexios dozing, Nikias half-asleep
+- Sisyphus steps on loose stone - *crack*
+- Alexios jolts awake
+- Sees Sisyphus in shadow
+- Hand to spear - freezes
+- Long moment
+- Sisyphus: "If anyone asks, I snuck past you."
+- Alexios looks at Nikias (sleeping)
+- Closes his eyes again, leans back
+- Silent permission
+- Sisyphus slips past
+
+**THE REUNION:**
+- Tower workshop, single lamp
+- Daedalus hunched over blueprints
+- Hears door - spins, terrified
+- Sees Sisyphus
+- "You got my plans."
+- "They worked."
+- "Of course they worked."
+- Brief silence
+- Both back to blueprints
+- No speeches - work is their language
+- "The northwestern passage is collapsing again."
+- "Show me."
+- Partnership reformed
+
+## Chapter 13 - The Fracture
+
+**Setting:** Tower → Queen's chambers → Palace war zones → Royal sanctum  
+**Word Count:** ~2800 words  
+**Plot Summary:** Theron discovers Sisyphus's escape and loses control. Queen learns the truth from Thalia. Minos's deterioration revealed through royal guard reports.  
+**Characters:** Theron, Sisyphus, Daedalus, Pasiphaë, Thalia, Minos (offscreen), Nikias, Alexios, Captain Prokles  
+
 **Plot Points:**
-- First day back at work under new arrangement
-- Guards watching constantly - Minos's oversight
-- But Sisyphus has permission to build mercy now
-- Daedalus: "This doesn't feel like freedom"
-- Sisyphus: "It's not. But it's better than watching them die."
-- Begins systematic modifications with Daedalus
-- Each passage now gets dual design: lethal and merciful
-- Sisyphus learning to code compassion into architecture
-- "Here - this passage appears to dead-end"
-- "But if you're calm enough to notice, there's a gap at the top"
-- Not enough to make escape easy, but enough to give hope
-- Daedalus watching: "You're turning the labyrinth into a teacher"
-- "Teaching them patience over panic"
-- Sisyphus: "If they have to die, let them die having learned something"
-- Discussion of their new reality
-- They're still building a prison, still serving Minos
-- But now with explicit permission to rebel
-- "Authorized creativity," Sisyphus says with bitter irony
-- The same phrase the Guard Captain used
-- Daedalus's mechanical bird on the table between them
-- Beauty preserved in guilt
-- Now they're trying to preserve mercy in horror
-- **PHILOSOPHICAL SHIFT:** Sisyphus realizes this is the boulder evolved
-- Not pointless repetition, but repetition with purpose
-- Each modification teaches the next
-- The labyrinth learns from their mercy the way it learned from violence
-- Question: What will it become?
+
+**THERON'S DISCOVERY:**
+- Dawn
+- Guard reports: "Sir, the prisoner is gone."
+- Theron's face goes white
+- The one person he can't kill, can't threaten, now loose
+- Could join Asterion, could leave, could—
+- Rushes through palace (his domain)
+- Checks obvious locations
+- Finally: the tower
+- Bursts in with guards
+- Finds: Sisyphus and Daedalus working
+- Blueprints spread out, tools organized
+- Like nothing happened
+
+**THE CONFRONTATION:**
+- Sisyphus looks up calmly: "The northwestern passage is collapsing. We're fixing it."
+- "You... you escaped."
+- "Yes."
+- "And came here?"
+- "Where else would I go?"
+- Theron's hand on sword - but what's the threat?
+- Kill him? Doesn't work.
+- Imprison? He escapes.
+- Threaten Daedalus? Makes it worse.
+- Realization spreading:
+- He has no leverage
+- Sisyphus will work regardless
+- The compassion is the perfect chain
+- "Get out," to his guards
+- Alone with them now
+- Sword drawn, but hand shaking
+- "You're going to keep working. No matter what I do."
+- "Yes."
+- "Even if I—"
+- "It won't change anything."
+- Silence
+- Theron sheathes sword, walks to door
+- "I don't understand you."
+- "I know."
+- Leaves - first time he's truly afraid
+- Not of Sisyphus
+- Of his own powerlessness
+
+**QUEEN'S CHAMBERS - MORNING:**
+- Thalia waking, leg splinted and bandaged
+- Queen sitting nearby, waiting
+- Lysippe brings water
+- "Can you speak now?"
+- Thalia nods, still terrified but determined
+- "Tell me what happened. All of it."
+
+**THALIA'S TESTIMONY:**
+- Tells the story: asking questions about sounds, disappeared
+- Guards threw her in labyrinth as punishment
+- Days alone in feeding chamber, dying slowly
+- Then Sisyphus appeared - running, desperate
+- Helped her drink, splinted her leg
+- "Why?" Queen asks
+- "I don't know."
+- The Minotaur came
+- Sisyphus positioned himself between them
+- Told her to run
+- She hesitated - wanted to stay
+- He made her go
+- Heard the sounds behind her as she fled
+- Crushing, breaking, death
+- "He died so I could escape."
+- Queen silent, processing
+- "And the Minotaur?"
+- Thalia's voice drops: "It... it wasn't just killing. It was studying him."
+- "It arranged stones. Like it was trying to communicate."
+- "It's learning, Your Majesty. Learning to think."
+- Queen's knuckles white on chair arm
+- Everything she feared confirmed
+
+**PALACE DYNAMICS:**
+- Brief cuts showing fractured state:
+- Theron's palace guards controlling inner corridors
+- Asterion's military holding outer grounds and gates
+- Skirmishes at boundary points - not battles, testing
+- Nobles trapped in their quarters, choosing sides
+- Servants fleeing when they can
+- Tribute system completely abandoned
+- The 14 youths from Chapter 11: most escaped, some caught in crossfire
+- Bodies still being cleared from courtyard
+- The shattered fountain where Sisyphus landed
+
+**ROYAL SANCTUM:**
+- Captain Prokles reports to Queen (she has access to Minos)
+- Royal guard protecting inner palace
+- Queen: "How is the King?"
+- Prokles hesitates: "Your Majesty... he's not well."
+- Describes without showing:
+- Minos locked in chambers, won't eat
+- Pacing constantly, talking to himself
+- Finger-drumming accelerated to constant tapping
+- Asking for reports on the architects, the Minotaur, the tribute who survived
+- Mixing past and present: "Is Theseus contained?" "Where is Daedalus?"
+- "He keeps asking if the labyrinth is complete."
+- "It's been complete for years, but he doesn't remember."
+- Queen absorbing this: her husband is fracturing
+- The curse eating him from inside
+- Prokles: "Should we... intervene?"
+- "No. Keep him comfortable. Keep him safe."
+- "But away from decisions."
+- Understanding: she's ruling now, through the royal guard
+- Minos is king in name only
+
+**CHAPTER END:**
+- Queen with Thalia, who's sleeping now
+- Lysippe: "What will you do with her?"
+- "Keep her safe. She's a witness."
+- "To what?"
+- "To the fact that compassion still exists in this place."
+- "Even if it gets people killed."
+- Looking out window at fractured palace
+- "The throne is poisoned. Has been since Poseidon cursed us."
+- "But maybe... maybe some people don't have to die from it."
+- Thalia survived because Sisyphus chose mercy
+- That matters
+- Even in this chaos
+
+## Chapter 14 - The Hungry Dark
+
+**Setting:** Labyrinth depths → Tower workshop → Queen's final conversation  
+**Word Count:** ~2800 words  
+**Plot Summary:** Week of stalemate. Labyrinth neglected and deteriorating. Queen and Thalia discuss the full truth. The Minotaur prepares something.  
+**Characters:** Sisyphus, Daedalus, Thalia, Pasiphaë, Keras, workers, guards monitoring labyrinth  
+
+**Plot Points:**
+
+**THE NEGLECT:**
+- Week since civil war started
+- Sisyphus and Daedalus working, but under guard
+- Can't descend freely - both factions watching
+- Labyrinth maintenance suffering
+- Workers refuse to go down (too dangerous during war)
+- Reports coming in: passages changing faster
+- Drainage backing up
+- Feeding chambers mechanisms jamming
+- The northwestern passage collapsing again
+- But nobody can spare resources to check
+
+**KERAS'S REPORT:**
+- Mason arrives at tower with urgent news
+- Guards let him through (both sides need labyrinth maintained)
+- To Sisyphus and Daedalus: "It's getting worse down there."
+- "The Minotaur's passages - they're appearing everywhere now."
+- "Not crude anymore. Sophisticated. Better than yours."
+- Daedalus: "That's impossible. I haven't been down there in—"
+- "It's extrapolating. Learning from absence."
+- "Building three times faster than before."
+- Sisyphus: "It learned something from killing me."
+- "From watching me come back."
+- Keras: "There's more. It's been quiet for three days."
+- "No sounds. No building. No breathing."
+- Daedalus goes pale: "It's never quiet."
+- "When it's quiet, it means—"
+- "It's finishing something."
+
+**WORKERS QUITTING:**
+- Brief scene: workers refusing to descend
+- "We signed up for construction, not war zones."
+- "And not... whatever's happening down there."
+- Foreman: "The tools move overnight. Passages we built are gone."
+- "Something's reshaping everything from below."
+- Exodus beginning - skilled workers leaving Crete when they can
+- Daedalus to Sisyphus: "We're losing containment."
+- "Without maintenance, without feeding schedule..."
+- "It's going to break out."
+- "When?"
+- "Soon."
+
+**QUEEN'S CHAMBERS - RECOVERY:**
+- Days later: Thalia recovering, stronger now
+- Can walk with assistance
+- Queen visits daily, they talk
+- Building trust, understanding
+- Today: Queen brings the golden bull brooch
+- Sets it on table between them
+- "Do you know what this is?"
+- Thalia: "The Queen's brooch. Everyone knows it."
+- "Do you know what it means?"
+- Hesitation: "No, Your Majesty."
+
+**THE FULL TRUTH:**
+- Queen tells the story:
+- Poseidon sent a sacred bull to Minos
+- Meant to be sacrificed
+- Minos kept it - too perfect, too valuable
+- God's punishment: made Queen fall in love with the bull
+- "Unnatural love. Divine curse."
+- She bore the Minotaur
+- Thalia listening, horror and pity mixed
+- "I raised him for a year. Held him. Sang to him."
+- "Then Minos built the labyrinth and took him away."
+- "Said it was mercy. Said it was safety."
+- "But it was shame. His shame."
+- "Pride destroys. That curses spread."
+- "I brought a child into this world and let him be caged."
+
+**THALIA'S INSIGHT:**
+- After silence: "Sisyphus knew, didn't he?"
+- "Knew what?"
+- "That it wasn't just a monster. That it was... someone."
+- "He talked to it. Before he died."
+- "Told it mercy mattered."
+- Queen: "And it killed him anyway."
+- "Yes. But it let me go."
+- "It could have killed us both. Chose to focus on him."
+- Understanding passing between them
+- The Minotaur has agency
+- Makes choices
+- Not just instinct
+- That makes everything more complicated
+
+**SISYPHUS FORCED TO WORK:**
+- Theron arrives at tower with demands
+- "The labyrinth is failing. Fix it."
+- Sisyphus: "I need to descend. Examine the damage."
+- "Then descend."
+- "Under guard?"
+- "Obviously."
+- "That'll take three times as long."
+- "Then work faster."
+- Theron paranoid, controlling
+- But also desperate - knows labyrinth failing matters
+- If Minotaur escapes during civil war, everyone loses
+- Sisyphus agrees but states terms:
+- "Daedalus comes with me."
+- "Workers who help aren't punished."
+- "And no feeding schedule until I say it's safe."
+- Theron: "You don't make demands—"
+- "I'm the only one who can fix this."
+- "So yes, I do."
+- Standoff
+- Theron realizes: Sisyphus is right
+- Can't force him (he'll just escape again)
+- Can't replace him (no one else understands the work)
+- "Fine. But you work under my supervision."
+
+**QUEEN AND THALIA - FINAL SCENE:**
+- Evening. Thalia preparing to sleep.
+- Queen about to leave
+- Thalia: "Your Majesty, what will you do?"
+- "When?"
+- "When it breaks out. Because it will."
+- Queen silent for long moment
+- "I don't know. Stop it if I can."
+- "And if you can't?"
+- "Then I'll do what I should have done years ago."
+- "Which is?"
+- "Stand between it and the people trying to kill it."
+- "Even if that means..."
+- Doesn't finish
+- Thalia understands: even if it means dying
+- "The architect did that. Stood between."
+- "Yes. He showed me what I should have remembered."
+- "That being trapped by a curse doesn't make you a monster."
+- "But letting others suffer for it does."
+
+**CHAPTER END:**
+- Deep in labyrinth, Sisyphus and Daedalus finishing inspection
+- Found the exit the Minotaur is building
+- Sophisticated, subtle, almost ready
+- Try to reinforce it, slow it down
+- But both know: it's temporary
+- Daedalus: "How long?"
+- Sisyphus: "Days. Maybe a week."
+- "Can we stop it?"
+- "No. Only delay it."
+- "Should we tell them?"
+- Sisyphus thinks
+- "Yes. But they won't listen."
+- "They're too busy fighting each other to see the real threat."
+- Both look at the exit passage
+- Fresh tool marks everywhere
+- The Minotaur's work is beautiful, precise
+- It learned everything they taught it
+- And improved on it
+- "Tomorrow we warn them."
+- "And when they don't listen?"
+- "We prepare anyway."
+- Final image: Deep below, the breathing sound continues
+- Patient. Methodical. Waiting.
+- Not for permission
+- For opportunity
+
+## Chapter 14 - The Hungry Dark
+
+**Setting:** Queen's chambers → Palace war zones (brief)  
+**Word Count:** ~2800 words  
+**Plot Summary:** Week of stalemate passes. Queen and Thalia build trust. Full truth revealed on both sides. Understanding what the Minotaur has become.  
+**Characters:** Pasiphaë, Thalia, Lysippe, brief palace updates  
+
+**Plot Points:**
+
+**OPENING - THE WEEK:**
+- Brief establishing: Week since civil war began
+- Stalemate holding: Theron interior, Asterion exterior, royal guard buffer
+- Labyrinth maintenance suffering - both sides too preoccupied
+- Workers refusing to descend
+- Reports of deterioration coming in but ignored
+- Tribute system abandoned
+- Palace slowly fracturing further
+
+**THALIA'S RECOVERY:**
+- Days passing in Queen's chambers
+- Physician tending her leg - healing slowly
+- Queen visits daily, they talk
+- Building trust, understanding
+- Thalia stronger now, can walk with assistance
+- Today: Queen brings the golden bull brooch
+- Sets it on table between them
+
+**THE BULL BROOCH:**
+- "Do you know what this is?"
+- Thalia: "The Queen's brooch. Everyone knows it."
+- "Do you know what it means?"
+- "No, Your Majesty."
+
+**THE FULL TRUTH:**
+- Queen tells the story she's never told:
+- Poseidon sent sacred bull to Minos for sacrifice
+- Minos kept it - too perfect, too valuable, symbol of his power
+- God's punishment: made her fall in love with the bull
+- "Unnatural love. Divine curse."
+- She bore the Minotaur
+- Thalia listening: horror and pity mixed
+- "I raised him for a year. Held him. Sang to him."
+- "He had my eyes. Did you know that?"
+- "Then Minos built the labyrinth and took him away."
+- "Said it was mercy. Said it was for safety."
+- "But it was shame. His shame, not mine."
+- The brooch: "I wear this to remind myself"
+- "That pride destroys. That curses spread."
+- "That I brought a child into this world and let him be caged."
+
+**THALIA'S INSIGHT:**
+- After silence: "Sisyphus knew, didn't he?"
+- "Knew what?"
+- "That it wasn't just a monster. That it was someone."
+- "He talked to it before dying. Told it mercy mattered."
+- "Like he was trying to teach it something."
+- Queen: "And it killed him anyway."
+- "Yes. But it let me go."
+- "It could have killed us both. I was right there."
+- "It chose to focus on him. To study him."
+- "That's a choice, isn't it?"
+- Understanding passing between them
+- The Minotaur has agency
+- Makes decisions
+- Not just instinct or hunger
+- Learns, builds, communicates
+- That makes everything more complicated
+
+**LYSIPPE'S QUESTION:**
+- She's been listening from across the room
+- "If it can choose, if it can learn..."
+- "What happens when it chooses to leave?"
+- Queen: "Then we'll see what we've made."
+- "A monster? Or something we forced to become one?"
+- Thalia: "The architect thought it could change."
+- "That's why he kept going back. Kept trying."
+- Queen stands, moves to window
+- Palace still fractured below
+- "He showed me what I forgot."
+- "What?"
+- "That being trapped by a curse doesn't make you a monster."
+- "But letting others suffer for your curse does."
+
+**THE QUESTION:**
+- Evening now. Thalia preparing to rest.
+- Queen about to leave
+- Thalia: "Your Majesty... what will you do?"
+- "When?"
+- "When it breaks out. Because it will."
+- Queen silent for long moment
+- Looking at the bull brooch in her hand
+- "I don't know. Stop it if I can."
+- "And if you can't?"
+- "Then I'll do what I should have done years ago."
+- "Stand between it and the people trying to kill it."
+- "Even if..."
+- Doesn't need to finish
+- Thalia understands: even if it means dying
+- "The architect did that. Stood between."
+- "Yes." Queen sets down brooch. "He did."
+- "Maybe that's what mercy looks like."
+- "Choosing the cage that kills you."
+
+**CHAPTER END:**
+- Queen alone at window after Thalia sleeps
+- Lysippe beside her
+- "You can't stop a civil war and save the Minotaur."
+- "I know."
+- "You'll have to choose."
+- "I know that too."
+- Below: another skirmish. More blood on stone.
+- The palace eating itself while something builds in the dark
+- Queen's hand on the brooch
+- Tomorrow the architects descend
+- Tomorrow they'll discover how little time is left
+- But tonight, just understanding
+- What her son became
+- What she allowed
+- And what she might still save
+
+## Chapter 15 - The Warning
+
+**Setting:** Tower workshop → Labyrinth depths → Palace corridors  
+**Word Count:** ~2800 words  
+**Plot Summary:** Keras reports labyrinth deterioration. Workers abandon the project. Theron forces Sisyphus to descend. Discovery of the Minotaur's nearly-complete exit.  
+**Characters:** Sisyphus, Daedalus, Keras, Theron, workers, guards, the Minotaur (presence)  
+
+**Plot Points:**
+
+**KERAS'S ARRIVAL:**
+- Morning at the tower
+- Sisyphus and Daedalus working on northwestern passage plans
+- Can't descend - both factions watching, no authorization
+- Knock at door - guards let Keras through
+- Both sides need labyrinth maintained, so mason has access
+- Keras looks exhausted, terrified
+- "We need to talk. Now."
+
+**THE REPORT:**
+- To Sisyphus and Daedalus: "It's getting worse down there."
+- "The Minotaur's passages appearing everywhere."
+- "Not crude anymore. Sophisticated."
+- Shows them sketches of what he's seen
+- Daedalus examines them, goes pale
+- "These are better than mine."
+- "That's what I said."
+- Sisyphus: "It's extrapolating. Learning from absence."
+- "We taught it the principles. Now it's improving on them."
+- Keras: "It's building three times faster than before."
+- "Like watching something evolve in days instead of years."
+- Sisyphus: "It learned something from killing me."
+- "From watching me come back."
+- "Patience. Precision. How to build with purpose."
+- Daedalus: "We created something that learns faster than we do."
+
+**THE SILENCE:**
+- Keras: "There's more. It's been quiet for three days."
+- "No sounds. No building. No breathing."
+- "Just... silence."
+- Daedalus goes very still: "It's never quiet."
+- "Never. It's always working, always moving."
+- "When it's quiet, it means—"
+- Sisyphus finishes: "It's finishing something."
+- All three men look at each other
+- Understanding dawning
+- "We need to descend. Now."
+- Keras: "The workers won't go down."
+- "They're leaving. Most of them already gone."
+
+**WORKERS QUITTING:**
+- Brief scene: Tower courtyard
+- Workers gathering belongings, preparing to flee
+- Foreman to Daedalus: "We signed up for construction."
+- "Not war zones. Not... whatever's happening down there."
+- "Tools move overnight. Our work disappears."
+- "Passages we built are just gone by morning."
+- "Something's reshaping everything from below."
+- Another worker: "I heard breathing. Behind a wall we sealed."
+- "Three feet of solid stone. And I heard breathing through it."
+- "That's not natural. That's not right."
+- Exodus beginning - skilled workers fleeing Crete
+- Some using Asterion's chaos to slip past gates
+- Others bribing guards, hiding in supply wagons
+- Daedalus watching his workforce dissolve
+- To Sisyphus: "We're losing containment."
+- "Without maintenance, without feeding schedule..."
+- Sisyphus: "It's going to break out."
+- "When?"
+- "Soon. Days. Maybe less."
+
+**THERON'S ARRIVAL:**
+- Storms into tower with armed guards
+- "The labyrinth is failing. Fix it."
+- Sisyphus, calmly: "I need to descend. Examine the damage."
+- "Then descend."
+- "Under guard?"
+- "Obviously. You think I trust you alone down there?"
+- "It'll take three times as long. Guards slow us down."
+- "Then work faster."
+- Theron paranoid but also desperate
+- Knows if Minotaur escapes during civil war, everyone loses
+- Can't afford labyrinth failure
+- But also can't afford to appear weak by trusting architects
+- Sisyphus: "I have terms."
+- "You don't make demands—"
+- "I'm the only one who can fix this." Simple statement. "So yes, I do."
+- Standoff
+- Theron's eye twitching, hand on sword
+- But Sisyphus is right and they both know it
+- Can't force him (he escapes)
+- Can't replace him (no one else understands)
+- Can't ignore problem (Minotaur breaking out)
+- "What terms?"
+- "Daedalus comes with me. Any workers who help aren't punished."
+- "And no feeding schedule until I say it's safe."
+- Theron considers
+- "Fine. But you work under my supervision."
+- "You won't survive five minutes in the depths."
+- "Then I'll send guards who will."
+- "They'll slow us down. People will die because of it."
+- "Then work faster." Theron turns to leave, stops. "And Sisyphus?"
+- "Yes?"
+- "If you try to free it, I'll kill everyone in this tower."
+- "I know."
+- "Starting with Daedalus."
+- "I know that too."
+- Theron leaves
+- Sisyphus and Daedalus look at each other
+- "He means it," Daedalus says quietly.
+- "Of course he does. He's terrified."
+- "Of the Minotaur?"
+- "Of losing control. The Minotaur is just the symbol."
+
+**THE DESCENT:**
+- Afternoon. Heavy guard escort - eight men.
+- Sisyphus, Daedalus, guards descending into labyrinth
+- Torches. Weapons. Tension.
+- Guards nervous, never been this deep before
+- Sisyphus leading, following Keras's directions
+- Daedalus noting changes as they descend
+- "This passage was three feet narrower yesterday."
+- "That wall wasn't there at all last week."
+- "The stone is warm here. Feel it."
+- Guards touching walls, pulling hands back
+- "Why is it warm?"
+- "Because something's been working it. Friction. Pressure."
+- "Recently."
+- Deeper. The breathing sound starts.
+- Distant. Rhythmic. Patient.
+- Guards stop, weapons raised
+- "That's—"
+- "The Minotaur. Keep moving."
+- "It sounds close."
+- "It's not. The acoustics down here lie."
+- "But it knows we're here. It always knows."
+
+**THE DISCOVERY:**
+- Following trail of fresh tool marks
+- Getting closer to Minotaur's domain
+- Then: a passage Daedalus doesn't recognize
+- "I didn't design this."
+- "Neither did I."
+- Examining it closely
+- The craftsmanship is extraordinary
+- Better than theirs
+- Sophisticated angles, perfect stress distribution
+- "It learned everything we taught it," Sisyphus says quietly.
+- "And improved on it."
+- Following the passage - slopes upward
+- "This goes toward the palace sub-levels."
+- "An exit."
+- "A real one."
+- Guards looking at each other nervously
+- "Should we seal it?"
+- Sisyphus runs his hand along the wall
+- Feels the work, the precision
+- "We can try. It'll break through again in days."
+- Daedalus examining the ceiling
+- "These support structures... they're beautiful."
+- "It's not just escaping. It's creating."
+- "Building like an artist, not an animal."
+
+**THE SILENCE:**
+- As they examine the exit
+- Realization hits both architects simultaneously
+- "It's been quiet for three days," Sisyphus says.
+- "Because it finished," Daedalus completes.
+- Looking at the nearly-complete exit
+- Weeks of work. Maybe months.
+- All done in silence while palace tore itself apart
+- "How long do we have?"
+- Sisyphus studies the final section
+- Stone that needs removing, supports that need adjustment
+- "Days. Maybe a week if we reinforce from our side."
+- "Can we stop it?"
+- "No. Only delay it."
+- "Should we tell them? Theron, Asterion, someone?"
+- Pause
+- "Yes. But they won't listen."
+- "Why not?"
+- "Because they're too busy fighting each other to see the real threat."
+- Both look at the exit passage
+- Fresh tool marks everywhere
+- The Minotaur's work is beautiful, precise, purposeful
+- It learned everything they taught it
+- And became something more
+
+**CHAPTER END:**
+- Guards want to leave - nervous, spooked
+- "We've seen enough. Need to report."
+- Sisyphus: "Tell Theron the labyrinth is failing."
+- "Tell him we need full authorization to reinforce."
+- "Tell him we need workers, supplies, time."
+- "Will he listen?"
+- "No. But we'll have tried."
+- Ascending back to surface
+- Behind them, deep in darkness
+- The breathing sound continues
+- Patient. Methodical. Waiting.
+- Not for permission
+- For opportunity
+- Daedalus to Sisyphus: "Tomorrow we warn them properly."
+- "And when they don't listen?"
+- "We prepare anyway."
+- "For what?"
+- "For the moment when everything we built breaks free."
+- "And becomes something we can't control."
+- Final image: The exit passage, almost complete
+- Just waiting for the final push
+- The Minotaur's final choice
+- To remain caged
+- Or to be free
 
 ## Chapter 16 - The Beast Breaks Free
 **Setting:** Labyrinth core → Palace sub-levels → Main corridors  

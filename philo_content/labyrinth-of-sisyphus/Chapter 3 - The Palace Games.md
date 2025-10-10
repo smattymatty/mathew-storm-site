@@ -20,6 +20,8 @@ She didn't turn. "On whose authority?"
 
 She turned to face him. He stood reading her private letters as if they were his own.
 
+Her hand twitched toward the bronze letter opener on her desk, from years of imagining what freedom might cost. She forced her fingers to stillness.
+
 "The harbor master has a family," she said evenly.
 
 "Had a family. They boarded a ship for Athens three nights ago. He was to follow yesterday." Theron set down the letter. "One of my men was waiting at the dock."
@@ -122,7 +124,7 @@ The blade fell.
 
 Someone in the crowd shouted approval - one of Theron's men, planted there. Then another voice joined, and another. Not the whole crowd, but enough. The loyal, the frightened, the opportunistic - all cheering to be seen cheering.
 
-The council members stood frozen. This was theater, and Theron had cultivated the audience.
+The council members stood frozen. This was theater with a cultivated audience.
 
 Polyidus recognized one of the voices. A temple guard. One of his own men, now cheering for Theron.
 
@@ -136,11 +138,11 @@ Asterion left without a word.
 
 After they'd gone, Theron remained on the balcony, watching workers return to their tasks with new urgency. The message was clear: work hard, stay loyal, or join the harbor master.
 
-Below in the darkness, something breathed in rhythm with his satisfaction. The King visited it, spoke to it, learned from it. Soon Theron would do the same. Because whatever lived beneath the palace, whatever the Queen had birthed, whatever required impossible prisons and immortal architects-
+Below in the darkness, something breathed in rhythm with his satisfaction. The King visited it, spoke to it, learned from it. Soon Theron would do the same. Because whatever lived beneath the palace, whatever required impossible prisons and foreign architects-
 
 That was the real power in Crete now.
 
-And Theron intended to understand it.
+And he intended to understand it.
 
 ---
 
@@ -152,48 +154,50 @@ Queen Pasiphaë received Theron in her formal chamber, dressed in full regalia. 
 
 He sat, but his posture remained rigid. Watchful.
 
-"What I'm about to tell you," she said, "will sound like madness. But it's the truth, and you need to hear it before you dig any deeper."
+"What I'm about to tell you will sound like madness." she said, "But I need you to hear it. Not because I expect you to believe me. Not even because I think it will change anything." A pause. "Because someone should finally say it aloud."
 
 "I'm listening."
 
-She took a breath. "Years ago, my husband offended Poseidon. The god's curse fell on me- The bull from the sea. I tried to resist, but divine curses don't permit resistance."
+She studied him for a long moment, this man who thought power meant control. Her fingers traced the armrest of her chair - the same motion she used when forcing herself still during court.
+
+She took a deep breath. "Years ago, my husband offended Poseidon. The god's curse fell on me." She watched Theron's face carefully. "The bull from the sea. I tried to resist, but divine curses don't permit resistance. What I gave birth to should never have existed."
+
+Her voice was steady. Calmer than she felt. The anger helped, she'd learned that years ago. Channel it into coldness, into precision. Let it sharpen her words instead of breaking them.
 
 "Careful, Majesty." Theron's voice was soft. "Speaking ill of the King-"
 
-"I'm not speaking ill. I'm explaining." She pressed on. "What I gave birth to should never have existed. Half bull, half man. Minos was shamed by it, horrified by it, but also..." She paused. "He was intrigues by it. He couldn't kill it. So he commissioned the prison."
+"I'm not speaking ill. I'm stating fact." She leaned forward slightly. "Half bull, half man. Minos was horrified, but he was also fascinated. He couldn't kill it, whether from paternal feeling or divine prohibition, I've never been certain. So he commissioned the prison. Fed it. Raised it."
 
-Theron's hand moved to his belt—not for a weapon, but for the small tablet he kept there. Taking notes. "These are serious accusations, Majesty."
+Theron's hand moved to his belt - not for a weapon, but for the small tablet he kept there. Taking notes. "These are serious accusations, Majesty."
 
-"They're not accusations. They're confession." She leaned forward. "The thing below is learning, growing stronger. The labyrinth won't hold it forever. When it breaks free—"
+She felt the familiar tightness in her chest. The same helpless rage that had defined her marriage, her motherhood, her entire cursed existence on this island. She'd tried so many times to stop this. To warn people. To find someone who would listen.
+
+"They're not accusations. They're confession." She leaned forward. "The thing below is learning, growing stronger. The labyrinth won't hold it forever. When it breaks free-"
 
 "You're suggesting the King knowingly harbors a monster?" Theron's stylus scratched against wax. "That he's built this entire project to contain his... what are you claiming, exactly?"
 
-"His son." The word fell like stone. "The Minotaur is Minos's son."
+"I'm claiming he's corrupted something that was already an abomination. Made it worse. Fed it children to study how it learns." Her voice went quieter. "Whatever fathered it, he claimed it as his own. He sees it as his son."
 
 Silence.
 
-Then Theron set down his stylus with deliberate care. "Majesty, you're clearly under great strain. Perhaps—"
+Then Theron set down his stylus with deliberate care. "Majesty, you're clearly under great strain. Perhaps-"
 
-"I'm trying to warn you." Her voice rose. "Stop your investigation. Take a ship. Leave Crete while you still can."
+"Stop." She held up a hand. "We both know what you're doing. You're deciding how to use this. Whether to report me as mad, or treasonous, or simply inconvenient." Her smile was bitter. "So decide. But don't insult me by pretending concern."
 
-"Leave?" He stood. "You're asking me to abandon my post based on... what? Palace ghost stories? Your Majesty, if you're unwell, perhaps the royal physicians—"
+"I'm trying to help-"
 
-"I'm not unwell, you fool. I'm trying to save your life."
+"You're trying to position yourself." She stood, moving to the window. The island stretched below; beautiful, cursed, inescapable. "You think if you can prove Minos is unfit, or I'm disloyal, you can seize control." She turned back to face him "You want power, but you can't see that the throne itself is poisoned" 
 
-"By confessing treason against the King?" His smile was cold. "By claiming he's harboring monsters? By suggesting I flee like a deserter?" He moved toward the door. "This conversation has been very illuminating."
+"The King's authority is absolute. I merely ensure it remains so." A pause. "This conversation has been very illuminating, Majesty."
 
-She stood, understanding too late. "You're going to use this against me."
+"Has it?" She moved closer, and for a moment her composure cracked. "I just told you the truth about divine punishment, monstrous offspring, and systematic murder. And all you heard was opportunity."
 
-"I'm going to report what I heard. A queen suggesting the King is ashamed, speaking of divine curses and monstrous offspring. Recommending his own officers abandon their posts." He paused at the threshold. "Very concerning behavior, Majesty."
+"Your honesty has been invaluable, Majesty."
 
-"You want the throne," she said quietly. "But you can't see the throne itself is poisoned."
+After he left, she stood motionless. She'd tried to save him through truth, but instead he weaponized it.
 
-"The throne is power. Power is never poisoned—only poorly wielded." He bowed. "Thank you for your candor, Majesty. It's been most useful."
+The vibrations through the stone pulsed stronger. The Queen felt what Theron couldn't; the breathing rhythm she'd once carried inside her.
 
-After he left, she stood motionless. She'd tried to save him through truth. He'd heard only opportunity.
+Theron would investigate. Dig deeper. Demand proof.
 
-The vibrations through the stone pulsed stronger. Hungry.
-
-Theron would get his answers soon enough. He'd investigate, dig deeper, demand to see the lower chambers. And eventually, he would.
-
-The thing below was always hungry for men who thought they understood power.
+He'd get it.

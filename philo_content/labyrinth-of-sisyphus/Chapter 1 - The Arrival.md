@@ -1,4 +1,6 @@
-The chains had been lighter than expected. Not because they were made of lesser iron—Sisyphus could feel the weight in every link - but because after an eternity of pushing stone up an endless slope, anything that didn't roll back down felt almost like freedom.
+# Chapter 1 - The Arrival
+
+The chains had been lighter than expected. Not because they were made of lesser iron - Sisyphus could feel the weight in every link - but because after an eternity of pushing stone up an endless slope, anything that didn't roll back down felt almost like freedom.
 
 Almost.
 
@@ -50,13 +52,9 @@ He let that sink in before continuing, his voice taking on the flat tone of some
 
 "What kind of creativity concerns him?" Sisyphus asked, though his shoulders were already tensing with familiar dread.
 
-The Captain's fingers drummed against his pommel. "Daedalus's last assistant asked too many questions about the tribute schedule. About where they came from, why children." His voice flattened. "He became the first test subject for Sector Three. Took him six days to die."
+The Captain's fingers drummed against his pommel. "Daedalus's last assistant asked too many questions." His voice flattened. "He became the first test subject for Sector Three. Took him six days to die."
 
-Sisyphus kept his expression neutral. Not hope exactly, but recognition. After endless repetition, he knew how threats worked - they revealed the threatener's fears. This guard feared questions about tributes. Which meant the tribute system was vulnerable. The guard had just outlined the exact boundaries of his cage, and Sisyphus had spent eternity learning that knowing your boundaries was the first step to transcending them.
-
-The guard stepped closer, close enough that Sisyphus could smell leather oil and old metal. "The King values results. Remember, our previous assistants have made excellent test subjects."
-
-The threat hung in the air as he turned toward the door, his boots clicking against stone with military precision.
+Sisyphus kept his expression neutral. After endless repetition, he knew how threats worked - they revealed the threatener's fears. This guard feared questions. Which meant the system was vulnerable. The guard had just outlined the exact boundaries of his cage, and Sisyphus had spent eternity learning that knowing your boundaries was the first step to transcending them.
 
 ---
 
@@ -88,7 +86,7 @@ Daedalus's stylus stopped mid-scratch. "What do you mean?"
 
 Daedalus's stylus stopped mid-stroke. "Which gods?"
 
-"The kind you don't name aloud." Sisyphus studied his scarred palms. "My punishment was... repetitive. They wanted to teach me patience through endless labor. I think they succeeded, though probably not in the way they intended."
+"Too many to count." Sisyphus studied his scarred palms. "My punishment was... repetitive. They wanted to teach me patience through endless labor. I think they succeeded, though probably not in the way they intended."
 
 The silence stretched. Daedalus set down his stylus with exaggerated care.
 
@@ -100,23 +98,21 @@ The silence stretched. Daedalus set down his stylus with exaggerated care.
 
 ---
 
-"Now," Daedalus said, unrolling a different scroll with the brisk efficiency of someone changing an uncomfortable subject, "let me show you what we're actually building."
+"Now," Daedalus said, unrolling a different scroll with the brisk efficiency of someone changing an uncomfortable subject, "let me show you the feeding chambers."
 
-This blueprint was smaller but more disturbing. Passages designed to draw victims inward, inevitable as a closing trap.
+The blueprint was smaller but more disturbing. Passages that spiraled inward with mathematical inevitability.
 
-"What am I looking at?" Sisyphus asked, squinting at the strange markings.
+"Who are you feeding?" Sisyphus asked.
 
-"The feeding chambers," Daedalus replied, as if discussing grain storage. "Athens sends fourteen young people every seven years—payment for some ancient debt. The labyrinth ensures they reach the center, where..."
+Daedalus's hands began trembling again. "Athens sends... payment. Every seven years. Fourteen." He couldn't quite look at Sisyphus. "The beast must be fed, or it will break free."
 
-He didn't finish the sentence. He didn't need to.
+"Fourteen what?"
 
-Sisyphus felt something cold settle in his stomach. "You're building an elaborate execution device."
+"Does it matter?" Daedalus's voice went cold. "They're dead either way. Our job is to make the system work."
 
-"I'm building a containment system," Daedalus corrected, but his voice lacked conviction. "The beast cannot be destroyed, cannot be reasoned with. It must be fed, or it will break free. The labyrinth serves two purposes—it contains the monster, and it ensures the tributes reach their destination... efficiently."
+Something tightened in Sisyphus's chest - an old ache he'd thought Tartarus had ground out of him. He said nothing. But his finger, still tracing the feeding chamber passage, had gone still.
 
-"Efficiently." Sisyphus let the word sit in his mouth, his hands unconsciously clenching as if gripping invisible stone. "You mean it ensures they can't escape."
-
-"Precisely." Daedalus rolled up the smaller scroll with practiced efficiency, as if rolling up his own conscience. "King Minos desires a system where hope becomes the instrument of its own destruction. The tributes must believe escape is possible—not from kindness, but because despair without hope is merely suffering. With hope, it becomes education. Each death teaches the next group what not to try, and the labyrinth grows more perfect through their accumulated failures."
+Daedalus rolled up the scroll before Sisyphus could study it further. "We have two hours before Minos expects us. Questions about ethics can wait until after we've ensured our own survival."
 
 Sisyphus studied the blueprints with new understanding. A maze that learned from death. He traced one passage with his finger, watching the ink shift. Could it learn from survival too? The thought made him smile slightly—the same smile he'd worn the day he'd chained Death itself. First, he needed to understand what they were building. Then, perhaps, he could discover what else it might become.
 

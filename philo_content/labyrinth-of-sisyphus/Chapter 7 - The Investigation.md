@@ -8,7 +8,7 @@ Nikias shot to his feet. Alexios's hand moved toward his spear before he caught 
 
 "Lieutenant," Nikias said, too quickly. "We were just-"
 
-"Supervising?" Theron stepped fully inside, two more guards filing in behind him. His eyes swept the workshop, cataloging everything: the scattered tools, the fresh ink on blueprints, the wine cups on the table. "Or socializing?"
+"Supervising?" Theron stepped fully inside, two more guards filing in behind him. Theron's eyes went to the wine cups on the workbench. Four of them. "Or socializing?"
 
 "The architects were explaining the structural-" Alexios began.
 
@@ -16,9 +16,9 @@ Nikias shot to his feet. Alexios's hand moved toward his spear before he caught 
 
 Nikias's face went carefully blank. "Yes, sir."
 
-"Good family. Loyal service." Theron turned to Daedalus. "I need you to guide me through the labyrinth. Specifically Sector Three. There's been an... anomaly."
+"Good family. Loyal service." Theron turned to Daedalus. "I need you to guide me through the labyrinth. Specifically Sector Three. There's been a disturbance."
 
-Daedalus's stylus clattered to the table. "An anomaly?"
+Daedalus's stylus clattered to the table. "A disturbance?"
 
 "A tribute reached Sector Four." Theron watched both architects carefully. "Unprecedented progress. I need to understand how."
 
@@ -60,7 +60,7 @@ Theron's attention snapped to him. "The beast is modifying the structure?"
 
 Silence.
 
-"Because you're scared." Theron's smile was cold. "Of going back down. Of not knowing which passages are safe anymore. Of discovering your perfect labyrinth has been compromised." He looked at Daedalus. "By your own creation."
+"Because you're scared." Theron's smile was cold. "Of going back down. Of not knowing which passages are safe anymore. Of discovering your perfect labyrinth has been compromised." He looked at Daedalus.
 
 "It's not fear," Daedalus said, but his voice betrayed him. "It's caution. Proper procedure would be to-"
 
@@ -74,7 +74,7 @@ Sisyphus stood slowly, gathering tools with the careful movements of someone who
 
 "I've dealt with mazes before." Sisyphus met his eyes steadily. "And with men who think they understand what they're walking into."
 
-"Is that a warning?"
+"Is that a warning?" Theron snapped.
 
 "Advice." Sisyphus picked up a chisel, examined it, set it back down. "Mortal men should be careful about places designed to kill them. Even when they think they're in control."
 
@@ -82,7 +82,7 @@ Theron's expression didn't change, but something shifted in his posture. "Mortal
 
 Sisyphus said nothing.
 
-"Gather what you need," Theron ordered. "We leave in ten minutes." He looked at Nikias and Alexios. "And you two two, remember which side you're on. Family is easy to protect when you're loyal. Much harder when you're not."
+"Gather what you need," Theron ordered. "We leave in ten minutes." He looked at Nikias and Alexios. "And you two, remember which side you're on. Family is easy to protect when you're loyal. Much harder when you're not."
 
 The threat was clear. The guards nodded, faces carefully blank.
 
@@ -142,17 +142,17 @@ They entered. Ten paces in, Nikias stumbled. "The walls-"
 
 He'd thought she was mad.
 
-"They should converge," Daedalus said, pressing both hands against the wall as if testing whether reality was still real. "They *did* converge. I built them to-" His voice cracked. "Someone changed them."
+"They should converge," Daedalus said, pressing both hands against the wall as if testing whether reality was still real. "They did converge. I built them to-" His voice cracked. "Someone changed them."
 
 "Recently." Theron's torch revealed fresh chisel marks in the stone. "The dust is still loose. Days old at most."
 
-A sound cut through the air. Deep. Resonant. The sound of stone being worked, but wrong - too rhythmic, too purposeful, too intelligent. Coming from below them. From Sector Four.
+A sound cut through the air. Deep. Resonant. The sound of stone being worked, but wrong - too rhythmic, too purposeful. Coming from below them. From Sector Four.
 
 Everyone froze.
 
 "The Minotaur," Daedalus whispered.
 
-The sound continued. Steady. Patient. Something massive moving through passages it was actively reshaping. The rhythm wasn't hunting. It was construction.
+The sound continued. Steady. Patient. Something massive moving through passages it was actively reshaping.
 
 Theron's hand moved to his sword. The gesture was instinctive, useless. What did you fight geometry with? What blade cut sound?
 
@@ -166,7 +166,7 @@ The silence was so much worse.
 
 "We should go back," Daedalus said, backing toward the entrance. "Before it realizes we're here. Before-"
 
-A scraping sound. Closer than before. Then breathing. Slow. Heavy. Deliberate. Something large in the darkness just beyond the torchlight, patiently waiting.
+A scraping sound. Closer than before. Then breathing. Slow and Heavy. Something large in the darkness just beyond the torchlight, patiently waiting.
 
 "Lieutenant," Nikias said quietly. "We need to leave. Now."
 
@@ -192,11 +192,11 @@ From the darkness ahead, a sound. Not breathing now. Something else. A low rumbl
 
 "Show. Me."
 
+---
+
 The descent to Sector Four nearly broke them.
 
-The passages here were new. Walls that hadn't existed three days ago now formed corridors that led in directions that shouldn't exist. Fresh tool marks scored the stone - crude but purposeful, improving with each mark. The beast was teaching itself architecture.
-
-And it was getting better.
+The passages here were new. Walls that hadn't existed three days ago now formed corridors that led in directions that shouldn't exist.
 
 They found Theseus in a feeding chamber.
 
@@ -224,7 +224,7 @@ It was still here.
 
 They didn't run, that would be undisciplined. But moved with urgent purpose through passages that seemed to shift behind them, following Daedalus's frantic navigation through deceptions that might no longer be reliable. The sound of breathing followed them. Never close enough to see. Never far enough to forget.
 
-When they emerged into afternoon sunlight, Theron stood gasping, his carefully maintained composure shattered. Behind him, guards carried Theseus's wrapped body. Nikias and Alexios looked shaken. Daedalus was openly weeping.
+When they emerged into afternoon sunlight, Theron stood gasping, his carefully maintained composure shattered. Behind him, guards carried Theseus's wrapped body. Nikias and Alexios looked shaken. Daedalus was shaking even more than usual.
 
 Only Sisyphus seemed unchanged.
 
@@ -244,11 +244,11 @@ Now he had it.
 
 Minos received Theron's report in the throne room at sunset.
 
-No court. No ministers. Just the two of them—king and investigator, with Theseus's wrapped body laid on the stone floor between them.
+No court. No ministers. Just the two of them - king and investigator, with Theseus's wrapped body laid on the stone floor between them.
 
-"Modifications," Theron said, spreading drawings across the floor. "Sector Three. Tool marks match Sisyphus's chisel exactly. The tribute used them - you can see the path in the blood. Handholds where there should be smooth walls. Parallel passages where they should converge. Acoustic zones reversed." He pointed to the body. "This is where it led him."
+"Modifications," Theron said, spreading drawings across the floor. "Sector Three. Tool marks match Sisyphus's chisel exactly." He pointed to the body. "This is where it led him."
 
-Minos circled the corpse slowly. His fingers drummed against his thigh - three quick, two slow, three quick, two slow. He knelt, pulled back the cloth, studied Theseus's shredded hands.
+Minos circled the corpse slowly. His fingers drummed against his thigh - three quick, two slow. He knelt, pulled back the cloth, studied Theseus's shredded hands.
 
 "He climbed," Minos said softly. "Believed someone was helping him."
 
@@ -278,9 +278,9 @@ Fast. Violent. Grabbed one of Theron's drawings and shoved it at Sisyphus's face
 
 "They deserved a chance-"
 
-"DESERVED?" Minos threw the drawing. It fluttered to the floor. "That boy DESERVED to die in Sector One! Quick! Clean! Honest!" He pointed at Theseus. "Instead you gave him hope. Made him climb. Made him BELIEVE. And he died anyway - slower, deeper, with more time to understand that survival was NEVER POSSIBLE."
+"DESERVED?" Minos threw the drawing. It fluttered to the floor. "That boy DESERVED to die in Sector One! Quick! Clean! Honest!" He pointed at Theseus. "Instead you gave him hope. Made him climb. Made him BELIEVE. And he died anyway - slower, deeper, with more time to suffer?"
 
-His fingers drummed frantically. Three quick, two slow, faster, faster.
+His fingers drummed frantically in his usual pattern, faster, faster.
 
 "Your Majesty," Daedalus whispered, "if I could explain-"
 
@@ -288,13 +288,13 @@ His fingers drummed frantically. Three quick, two slow, faster, faster.
 
 "Please-"
 
-"-if his father's incompetence cost him his position at court."
+"-if his father's incompetence cost him his life."
 
 Daedalus's face crumpled.
 
 Minos turned back to Sisyphus. The rage drained from his voice, replaced by something colder.
 
-"Sisyphus of Corinth." Minos circled slowly. "My father sent you. Said you'd be useful. An architect who understood systems." His fingers drummed. Three quick, two slow. "And the first thing you do is HELP them? Hide mercy in MY walls?"
+"Sisyphus of Corinth." Minos circled slowly. "My father sent you. Said you'd be useful. An architect who understood systems." His fingers drummed.
 
 He stopped directly in front of Sisyphus.
 
@@ -304,13 +304,15 @@ Sisyphus said nothing.
 
 Minos turned away sharply.
 
+He stopped. Drew breath. When he spoke again, the rage was gone, replaced by something calculated.
+
 "Theron. Recommendation?"
 
 "Execution, Your Majesty."
 
-"Execution." Minos laughed. 
+"Execution?!" Minos laughed. 
 
-"No." Minos's smile was terrible. "No, execution is too simple. Too honest." His fingers drummed. "You want to give tributes a chance? Fine. You'll test the labyrinth. Tomorrow. Dawn. You'll walk your own path, every modification you made. Prove they work. Survive them."
+"No." Minos's smile was terrible. "No, execution is too simple. Too honest." His fingers drummed. "You want to give tributes a chance? Fine. You'll test the labyrinth. Tomorrow at Dawn. You'll walk your own path, every modification you made. Prove they work. Survive them."
 
 "Your Majesty-" Daedalus started.
 
@@ -336,7 +338,7 @@ They'd both known this would happen eventually.
 
 As the door slammed shut, Minos spoke again, voice echoing in the empty throne room:
 
-"Tomorrow at dawn. Full court. They'll watch him descend." He resumed his drumming. "They'll watch him die."
+"Tomorrow at dawn. Full court. They'll watch him descend." He resumed his drumming. "Let this be a lesson."
 
 Daedalus stood frozen, staring at where Sisyphus had been.
 

@@ -10,7 +10,7 @@ Daedalus looked up from his own calculations, eyes sharp despite three sleepless
 
 "It's fighting us." Sisyphus pointed to where passages intersected at angles that hurt to perceive. "Look at the stress patterns. Every time we reinforce this section, the surrounding stone weakens."
 
-"Not fighting," Daedalus corrected. "Negotiating. It knows what it wants to become." He moved to examine the plans. "If we redirect through here—"
+"Not fighting," Daedalus corrected. "Negotiating. It knows what it wants to become." He moved to examine the plans. "If we redirect through here-"
 
 "No." Sisyphus saw it clearly, the way he'd once seen the perfect angle to push his boulder. "We don't fight it. We let it flow where it wants, then use that flow to strengthen containment. Like redirecting a river instead of damming it."
 
@@ -24,7 +24,7 @@ The new design emerged under his stylus, organic and wrong, passages that flowed
 
 "In my experience, they're often the same thing."
 
-A sound from outside made them both look up—distant shouting from the harbor. Sisyphus moved to the window, squinting against morning sun reflecting off the sea. A ship had arrived, black-sailed and riding low in the water. Armed guards surrounded the dock as figures were herded off the vessel.
+A sound from outside made them both look up - distant shouting from the harbor. Sisyphus moved to the window, squinting against morning sun reflecting off the sea. A ship had arrived, black-sailed and riding low in the water. Armed guards surrounded the dock as figures were herded off the vessel.
 
 Young figures. Children, some of them.
 
@@ -36,13 +36,13 @@ Behind him, he heard Daedalus's sharp exhale.
 
 Sisyphus turned. "Daedalus?"
 
-"The tribute. Fourteen youths from Athens. Payment for an old debt." He moved to the window, watching the distant figures with clinical interest. "When it doesn't feed regularly, it tests the walls. Three days without food last time, it broke through the eastern support beam in sector seven—took sixteen workers and a full week to repair. We found claw marks in stone that shouldn't show damage from anything short of divine intervention. Another day and it would have reached the palace sub-levels." He paused. "The feeding keeps it manageable. Predictable."
+"The tribute. Fourteen youths from Athens. Payment for an old debt." He moved to the window, watching the distant figures with clinical interest. "When it doesn't feed regularly, it tests the walls. Three days without food last time, it broke through the eastern support beam in sector seven - took sixteen workers and a full week to repair. Another day and it would have reached the palace sub-levels." He paused. "The feeding keeps it manageable. Predictable."
 
 Sisyphus watched the young Athenians stumbling up the path. Without thought he said, "Those are children."
 
 "Those are political necessities." Daedalus's voice held no emotion. "Athens sends them to prevent invasion. Minos accepts them to prevent worse things."
 
-"And we build the machine that processes them."
+"And we build the machine that processes them." Sisyphus replied.
 
 "We build the cage that contains what processes them." Daedalus turned from the window. "Don't look at me like that. You think I don't know what we are?"
 
@@ -50,31 +50,29 @@ Sisyphus said nothing. But he was thinking of the harbor, of guards and manifest
 
 "I need air," Sisyphus said.
 
-"We have work—"
+"We have work-"
 
 "Five minutes. The calculations can wait five minutes."
 
-Before Daedalus could object, Sisyphus was moving down the tower stairs, taking them two at a time. The morning was bright, the palace grounds busy with the mundane tasks of empire. No one noticed one more worker moving with purpose through the olive groves.
+Before Daedalus could object, Sisyphus was moving down the tower stairs, taking them two at a time. The morning was bright, the palace grounds busy with the mundane tasks of the empire. No one noticed one more worker moving with purpose through the olive groves.
 
-He found a vantage point above the harbor—a collapsed section of old wall, overgrown with vines, perfect for watching without being seen. Below, the black-sailed ship rocked gently at anchor. The tributes stood in a line on the dock, fourteen of them, guarded by men with spears.
+He found a vantage point above the harbor - a collapsed section of old wall, overgrown with vines, perfect for watching without being seen. Below, the black-sailed ship rocked gently at anchor. The tributes stood in a line on the dock, fourteen of them, guarded by men with spears.
 
-A harbor official held a papyrus manifest, calling names. "Philippa of Marathon. Nikodemos of Athens. Kallisto of—"
+A harbor official held a papyrus manifest, calling names. "Philippa of Marathon. Nikodemos of Athens. Kallisto of-"
 
-Each name was met with a trembling voice acknowledging. Some of the tributes were crying. Most looked terrified. But one stood apart from the others—a boy, maybe sixteen, with the bearing of someone who'd trained for combat. He watched everything with careful attention, noting guard positions, exit routes, the layout of the dock.
+Each name was met with a trembling voice acknowledging. Some of the tributes were crying. Most looked terrified. But one stood apart from the others - a boy, with the bearing of someone who'd trained for combat. He watched everything with careful attention, noting guard positions, exit routes, the layout of the dock.
 
 "Theseus," the official called. "Son of Aegeus."
 
 "Here," the boy said calmly.
 
-The guard nearest him noticed something in the boy's hand—a ball of red yarn, bright against the dark wood of the dock. "What's this?" The guard snatched it, examining it with mild curiosity. "Planning to knit while you wait for the beast?"
+The guard nearest him noticed something in the boy's hand -a ball of red yarn, bright against the dark wood of the dock. "What's this?" The guard snatched it, examining it with mild curiosity. "Planning to knit while you wait to die?"
 
 He laughed and tossed it into the harbor. It hit the water and sank immediately, pulled down by its own weight.
 
 Theseus's face went blank. His hands clenched into fists, then slowly relaxed. He said nothing. Did nothing. Just watched the spot where the yarn had disappeared, as if memorizing the exact location.
 
-The other tributes were crying harder now, but Theseus just stood there, perfectly still, perfectly composed, while his plan was casually destroyed by a guard who didn't even know what he'd done.
-
-Sisyphus pressed against the wall, barely breathing. A patrol passed nearby—two guards making their rounds. One paused, looking directly at the vines where Sisyphus hid. Sisyphus didn't move. Didn't breathe. Ten thousand years of patience, of waiting for the boulder to settle before pushing again.
+Sisyphus pressed against the wall, barely breathing. A patrol passed nearby - two guards making their rounds. One paused, looking directly at the vines where Sisyphus hid. Sisyphus didn't move. Didn't breathe. Ten thousand years of patience have paid off.
 
 The guard shrugged. "Thought I saw something."
 
@@ -82,11 +80,11 @@ The guard shrugged. "Thought I saw something."
 
 They moved on. Sisyphus waited until they were gone, then watched the tributes being led away. Theseus walked last, still watching everything, still planning even though his yarn had just sunk.
 
-*That boy deserves a chance,* Sisyphus thought.
+"That boy deserves a chance." Sisyphus thought.
 
 He slipped back through the olive groves, returning to the tower before Daedalus noticed his absence. The architect was still bent over calculations, muttering about stress points and load-bearing impossibilities.
 
-"Where were you?"
+"Where were you?" He asked.
 
 "Thinking," Sisyphus said. Which was true. He'd been thinking about a boy with yarn. About modifications he could make to passages. About small mercies hidden in architectural precision.
 
@@ -118,7 +116,7 @@ Daedalus's jaw tightened. He reached for a specific pouch—chalk blessed by pri
 
 They grabbed their tools and followed at a near-run. As they descended the tower stairs, Sisyphus heard it—a sound like breathing, but not from lungs. From stone itself. The vibration that had been growing stronger for days had changed, become rhythmic.
 
-Below them, in chambers that shouldn't exist, something that shouldn't exist knew its food had arrived.
+Below them, in chambers that shouldn't exist, the beast knew its food had arrived.
 
 And the stone was celebrating.
 
@@ -276,19 +274,25 @@ The breathing sound shifted, now coming from ahead of them. Impossible—they'd 
 
 "The acoustics," Sisyphus understood. "You built the sound to lie."
 
-"Everything here lies," Daedalus confirmed, leading them down a passage that seemed to dead-end but revealed a sharp turn at the last moment. "But I know which lies I told."
+"This corridor," Daedalus was explaining to the guards, his back to Sisyphus, "the walls appear parallel but they converge. Creates disorientation-"
 
-While the others focused on Daedalus's explanations, Sisyphus lagged behind slightly. His hands moved quickly, efficiently—running along the converging walls, feeling for the stress points in the stone. Here. A subtle adjustment to the angle, barely noticeable. The walls that were meant to converge now ran truly parallel.
+Sisyphus ran his hand along the wall, feeling the mathematical deception in the stone. Ten thousand years of pushing had taught him to read angles through touch alone. Here—the convergence point. He pressed his palm flat, found the stress line where Daedalus had forced the geometry wrong.
 
-In the acoustic dead zone, his fingers found purchase points in the stone. Small modifications, crude handholds that looked like natural imperfections. Nothing obvious. Nothing that would draw attention.
+A small adjustment. The kind that would look like settling, like natural wear. His chisel work was quick, practiced - three careful strikes that opened the convergence just enough. The walls would still look parallel. But now they'd actually BE parallel for the next twenty feet.
 
-He changed the echo pattern with a few strategic chips in the stone overhead. Sound would carry here now, not die. The Minotaur's approach would be audible.
+He moved to the acoustic dead zone while Daedalus was still talking. "Sound doesn't carry here - the Minotaur can approach and you'll never hear it-"
 
-All of it done in moments, while pretending to examine Daedalus's work with professional curiosity. The architect was too focused on leading them out to notice. The guards were too terrified to pay attention to what the new assistant was doing.
+Wrong, Sisyphus thought. Not anymore. His fingers found the precisely smooth ceiling - too smooth, designed to absorb rather than reflect. He scraped subtle texture into the stone with his belt knife. Barely visible. But enough to bounce sound instead of swallowing it.
 
-Sisyphus was thinking of Theseus. The boy with the yarn. The boy who'd come prepared. Who'd lost everything to casual cruelty but still stood there planning, still looking for a way.
+Three handholds, carved to look like natural cracks in the stone. Positioned exactly where someone climbing would need them.
 
-*Give him a chance,* Sisyphus thought, his modifications complete. *Just a chance.*
+"Everything here lies," Daedalus was saying, leading them toward the exit. "But I know which lies I told."
+
+Sisyphus followed, tools back in his belt, stone dust on his hands the only evidence. The tributes would come through here. Would find walls that ran true when they should converge. Would hear the monster approaching when he should hear nothing. Would find handholds when he should find smooth stone.
+
+Small rebellions. Barely noticeable. Unless you were desperate enough to look for them.
+
+"That's all I can give you," Sisyphus thought, remembering Theseus's face as his yarn sank. "Make it count."
 
 They climbed stairs that felt like they were descending, turned corners that should have led them in circles but somehow carried them upward. Behind them, the breathing had stopped, replaced by something worse—the sound of stone being carefully, methodically reshaped.
 

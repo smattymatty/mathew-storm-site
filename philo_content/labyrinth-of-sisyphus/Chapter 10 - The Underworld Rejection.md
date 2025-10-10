@@ -14,7 +14,7 @@ Charon's boat scraped onto the shore with a sound like someone giving up. The fe
 
 "No," Charon said.
 
-"Yes."
+"What?"
 
 "You're not supposed to be here."
 
@@ -26,7 +26,7 @@ Charon consulted his scroll with the weary professionalism of someone who'd been
 
 "I was killed. Legitimately. By the Minotaur." Sisyphus crossed his arms. "I was crushed, it was very thorough. I felt my ribs break, and everything!"
 
-"Yes, but-" Charon tapped the manifest. "-you died *during* the punishment. That's... complicated."
+"Yes, but-" Charon tapped the manifest. "-you died during the punishment. That's... complicated."
 
 "How is being murdered complicated?"
 
@@ -46,13 +46,13 @@ Not because of the grey water or the distant wailing of souls or the fact that S
 
 "Three thousand years," Charon muttered. "Three thousand years of smooth operations. No problems. Then you."
 
-"To be fair, I didn't ask to be crushed to death."
+"To be fair, I didn't ask to be crushed to death." Sisyphus defended.
 
-"You never ask. That's the problem. Things just happen around you." Another accusatory look. "Do you know how many forms I had to file after your last stunt? The Persephone incident?"
+"You never ask. That's the problem." Another accusatory look. "Do you know how many forms I had to file after your last stunt? The Persephone incident?"
 
 "I returned voluntarily."
 
-"After a DECADE. With compound interest on the ferry toll." Charon's pole hit water with more force than necessary. "Do you know what compound interest looks like over ten years in the underworld? The paperwork alone took six months."
+"After a DECADE. With compound interest on the ferry toll." Charon's pole hit water with more force than necessary. "Do you know what compound interest looks like over ten years in the underworld?"
 
 They crossed in silence after that. The far shore materialized from grey mist; not Tartarus, where Sisyphus's boulder waited in eternal futility, but somewhere else. A complex of buildings that looked like they'd been designed by someone who'd given up on architecture and settled for "depressingly functional."
 
@@ -130,18 +130,6 @@ They both looked at Sisyphus.
 
 Both bureaucrats went very still.
 
-"He died performing mercy," Minos said slowly. "During eternal punishment designed to prevent mercy."
-
-"So the punishment succeeded in stopping him," Rhadamanthys said. "Which means it worked."
-
-"But he achieved the mercy first," Minos countered. "Which means it failed."
-
-"Is successful mercy during punishment still punishment?"
-
-"Is failed punishment during mercy still mercy?"
-
-They stared at each other. Then at their tablets. Then at Sisyphus.
-
 "We need to consult Hades," they said in unison.
 
 ---
@@ -158,27 +146,29 @@ They waited.
 
 Sisyphus sat on a bench that had been worn smooth by countless dead souls awaiting judgment. Around him, the bureaucracy of death ground on with inexorable efficiency. A shade argued with a clerk about whether drowning counted as "death by water" or "death by lung failure" for categorization purposes. Another filled out form after form, each one generating three more forms in response.
 
-After what might have been ten minutes or ten hours - time behaved strangely here - a voice echoed through the chamber. Deep. Resonant. Carrying the weight of eons.
+After what might have been ten minutes or ten hours - time behaved strangely here - the chamber grew cold. Not temperature. Something deeper. The kind of cold that preceded existence itself.
 
-"SEND HIM BACK."
+A presence filled the space. Not voice. Understanding. Direct and absolute.
 
-Everyone stopped working.
+"The punishment continues. He returns to flesh."
 
-Minos looked up from his tablets. "Back to... back to the boulder, Lord Hades?"
+Everyone stopped working. Even the eternal bureaucracy paused before that absolute indifference.
 
-"BACK TO WHEREVER HE DIED."
+Minos looked up from his tablets, voice trembling. "Back to... back to the boulder, Lord Hades?"
 
-A pause. Then, quieter but still audible: "I'M NOT FILING THAT PAPERWORK."
+"To wherever he fell. The logic breaks otherwise. We do not accommodate paradox."
 
 Rhadamanthys and Minos exchanged glances.
 
 "So..." Minos said carefully. "We're rejecting his death?"
 
-"YES."
+The cold presence pressed against the chamber walls. Not anger. Indifference with weight.
+
+"Yes."
 
 "On what grounds?"
 
-"TOO COMPLICATED. NOT WORTH THE ADMINISTRATIVE OVERHEAD."
+"Too complicated, not worth the administrative overhead."
 
 Sisyphus started laughing.
 
@@ -192,7 +182,7 @@ Both bureaucrats looked at him.
 
 "Correct." Minos pulled out a different form. "We're issuing you a RETURN TO SENDER classification. You'll be ejected back to the mortal realm near the point of death. Whatever happens after that is not our jurisdiction."
 
-"You're passing me back to King Minos."
+"You're passing me back to King Minos?"
 
 "We're passing you back to physical reality and letting it sort itself out." Rhadamanthys began stamping forms. "Frankly, this is a relief. Your file was giving me a headache."
 

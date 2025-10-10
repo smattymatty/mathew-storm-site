@@ -170,7 +170,8 @@ As the guards prepared to leave, Daedalus spoke, his voice barely above a whispe
 
 Nikias paused at the door. "That thing down there, when it's done learning from us, what will it build?"
 
-Sisyphus met his gaze steadily. "Better teachers. Better students. Better prisons. Better prisoners. It will build the perfect system - one where everyone builds their own cage and thanks you for the privilege."
+
+Sisyphus was quiet. He'd spent eternity learning how systems evolve, how they turn compliance into choice. "Better versions of us," he said finally. "Better teachers. Better builders. Better prisoners." His voice went quieter. "Until everyone's building their own cage, thinking it was their idea."
 
 The full horror of what they were creating rose in his mind - prisons that would outlast stone, chains that would bind through choice rather than force, a kind of captivity so perfect that those trapped would defend their cages. But these thoughts were too vast, too terrible to speak aloud.
 
@@ -182,7 +183,7 @@ The workshop felt larger and more oppressive with just the two of them. Daedalus
 
 "Your son," Sisyphus said quietly. "Icarus. That's what keeps you here."
 
-"Among other things." Daedalus's voice was hollow. He moved to his locked drawer, withdrawing something wrapped in soft cloth—a mechanical bird of impossible delicacy. "My nephew Perdix made this. Twelve years old. I pushed him from the acropolis because his genius threatened mine."
+"Among other things." Daedalus's voice was hollow. He moved to his locked drawer, withdrawing something wrapped in soft cloth, a mechanical bird of impossible delicacy. "My nephew Perdix made this. I pushed him from the acropolis because his genius threatened mine."
 
 He set the bird on the table where bronze feathers caught the dying light. "I destroyed brilliance to preserve my reputation. Now I build horrors to keep my own son alive."
 
@@ -197,5 +198,3 @@ Outside, the palace settled into nighttime rhythms. Below, far below, something 
 Daedalus rewrapped the bird carefully, returning it to the locked drawer. When he turned back, Sisyphus was already at the drafting table, studying the blueprints by lamplight.
 
 The work would continue.
-
-But whose work it would be - that remained to be seen.

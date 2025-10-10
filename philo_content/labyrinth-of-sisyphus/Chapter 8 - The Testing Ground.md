@@ -2,9 +2,9 @@
 
 The cell was smaller than the boulder.
 
-Sisyphus sat with his back against cold stone, hands resting on his knees, and tried not to find that funny. Ten thousand years pushing a rock the size of a house, and now six feet of palace dungeon felt cramped.
+Sisyphus sat with his back against cold stone, hands resting on his knees.
 
-Through the narrow window slit, he could hear the palace preparing for dawn. Footsteps in distant corridors. Voices giving orders. The scrape of benches being arranged in the courtyard—seating for the spectators. Minos wanted an audience for this.
+Through the narrow window slit, he could hear the palace preparing for dawn. Footsteps in distant corridors. Voices giving orders. The scrape of benches being arranged in the courtyard; seating for the spectators. 
 
 Fair enough. Theater required an audience.
 
@@ -12,7 +12,7 @@ He examined the cell walls out of habit. Limestone blocks, decent craftsmanship,
 
 Nothing like what waited below.
 
-His hands moved without thinking, fingers tracing the wall beside him. Found a rough patch where the stone was softer. Started working at it with his thumbnail, carving shallow lines. Not words. Just marks. The kind a prisoner might make to count days, except he wasn't counting anything.
+His hands moved without thinking, fingers tracing the wall beside him. Found a rough patch where the stone was softer. Started working at it with his thumbnail, carving shallow lines. Not words. Just marks.
 
 Just keeping his hands busy.
 
@@ -32,7 +32,7 @@ Queen Pasiphaë stood in the threshold, alone, holding a single oil lamp. No gua
 
 "Your Majesty," Sisyphus said, not standing. "Bit late for confessions."
 
-She stepped inside. Closed the door behind her. Set the lamp on the floor between them and sat across from him with the practiced grace of someone used to maintaining composure in impossible situations.
+She stepped inside. Closed the door behind her. Set the lamp on the floor between them and sat across from him with the practiced grace of someone used to maintaining composure.
 
 "I'm not here to confess," she said. "I'm here to understand."
 
@@ -44,7 +44,7 @@ She stepped inside. Closed the door behind her. Set the lamp on the floor betwee
 
 "What?"
 
-"His name was Theseus." Sisyphus met her gaze. "If we're discussing the dead, we should use their names."
+"His name was Theseus." Sisyphus met her gaze. "If we're discussing the dead, we should at least use their names."
 
 The Queen's expression didn't change, but something flickered behind her eyes. Recognition, maybe. Of a pattern she knew too well.
 
@@ -72,7 +72,7 @@ Sisyphus was quiet for a moment, considering.
 
 The Queen studied him. "You sound like you're talking about yourself."
 
-"Maybe I am."
+"Maybe I am." he answered.
 
 She stood abruptly, paced to the door, stopped. Her back to him. The golden bull brooch caught lamplight, shimmering its reflection onto the wall.
 
@@ -86,29 +86,41 @@ They sat in silence for a moment. The lamp flickered between them.
 
 "I think," he said carefully, "that tomorrow will be instructive. For everyone watching."
 
-"You're going to die."
+"You're going to die." she replied.
 
 "Probably."
 
 "You sound almost pleased about it."
 
-"Tomorrow's going to answer something." His fingers kept moving against the stone, scraping out shallow lines. "I've been wondering for a while now."
-
-"Wondering what?"
-
-He didn't answer immediately. Just kept working the stone, thumbnail finding soft spots in the limestone. The sound filled the cell: scrape, scrape, pause.
+He didn't answer immediately. Just kept working the stone, thumbnail finding soft spots in the limestone. The scraping sound filled the cell.
 
 The Queen moved closer, studying the marks he was making. "Those are handholds. Directions." She looked at him. "You're teaching the cell how to let people escape."
 
 He said nothing.
 
-"You can't help yourself." Not accusation. Just observation. "You see a cage, you have to hide a key. Even here. Even now. Knowing it's pointless."
+"You really can't help yourself." She accused, "You see a cage, you have to hide a key. Even here. Even now. Knowing it's pointless."
 
-"Especially when it's pointless."
+"Especially when it's pointless." He laughed. "It's better than standing still."
 
-She sat back down, and for the first time her composure cracked slightly. "Theseus died because of your modifications. Theron is hunting you because of my confession. We both tried to help and made everything worse." She looked at him. "So why do we keep doing it?"
+"Is it?" Her voice rose. "Is it really? Theseus is dead. You'll be dead. Daedalus is locked in that tower drawing maps he can't deliver. All of us just-" 
+
+She stopped. Her hand went to the golden bull brooch, gripped it so hard her knuckles whitened.
+
+"I tried to warn Theron," she said, voice controlled again but different now. Harder. "Told him the truth about what lives below. About Minos. About all of it. And he turned my confession into evidence. Used my honesty as a weapon."
+
+She released the brooch. A red mark remained on her palm where the pin had pressed.
+
+"Every truth I tell becomes a chain."
+
+"I know," Sisyphus said.
+
+"Then why do you keep trying?"
 
 "Because otherwise we accept the cage."
+
+Her hand moved to the brooch again. "And if the cage is all there is? If there's no outside to escape to?"
+
+"Then we carve anyway," he said quietly. "Because the carving is the point."
 
 She waited for more. He didn't give it.
 
@@ -118,15 +130,11 @@ She waited for more. He didn't give it.
 
 "Something that actually makes sense. You're going to die tomorrow for-" She gestured at the wall scratches. "-for this. For helping a boy who died anyway. For carving handholds that lead nowhere."
 
-"Better than sitting still."
-
-"Is it?" Her voice rose. "Is it really? Theseus is dead. You'll be dead. Daedalus is locked in that tower drawing maps he can't deliver. All of us just-" She stopped, composing herself. "This is pointless." She muttered.
-
-"I know what pointless feels like, yes." His thumbnail found a new soft spot. Started a fresh groove. 
+His hands started moving again. Scrape, scrape, pause.
 
 The Queen stood, collected her lamp. Moved to the door, then paused.
 
-"Theseus made it past Sector Three because of you," she said quietly. "Further than anyone in recorded history. They'll say you accomplished nothing."
+"They'll say you accomplished nothing." She whispered.
 
 "We'll see."
 
@@ -136,17 +144,13 @@ She left. The door closed. The key turned.
 
 Sisyphus sat alone in the dark.
 
-His hands found the wall again. Kept carving. The shallow grooves wouldn't help anyone escape—the cell door was oak and iron, the window too narrow. But his hands needed the work. Ten thousand years of touching stone, they didn't know how to stop.
+His hands found the wall again. Kept carving. The shallow grooves wouldn't help anyone escape - the cell door was oak and iron, the window too narrow. But his hands needed the work. Ten thousand years of touching stone, they didn't know how to stop.
 
 Tomorrow he would be sent to death in front of the entire court.
 
-Tomorrow everyone would finally see.
-
-He thought about Theseus climbing through Sector Three using modifications that shouldn't exist. About the Queen trying to save people with truth that became weapon.
+He thought about Theseus climbing using modifications that shouldn't exist. About the Queen trying to save people with truth that became weapon.
 
 He finished the pattern in the stone, and lay down on the cold floor. The stone was familiar. Comfortable, almost. He'd spent more time against stone than not.
-
-Through the window, he could hear the palace settling into night. Guards changing watch. Distant voices. The scrape of tomorrow's scaffold being tested one last time.
 
 He smiled in the darkness.
 
@@ -172,11 +176,23 @@ They didn't bind his hands. Didn't need to. Where would he run? The palace was a
 
 The courtyard was packed.
 
-Every noble, every minister, every guard not on essential duty. Minos had made attendance mandatory. Wooden benches formed a semicircle around the labyrinth entrance—the one used for maintenance access, wide enough to accommodate an audience's view of the first passages below.
+Every noble, every minister, every guard not on essential duty. Minos had made attendance mandatory. Wooden benches formed a semicircle around the labyrinth entrance - the one used for maintenance access, wide enough to accommodate an audience's view of the first passages below.
 
-Minos sat on a portable throne at the center. The Queen stood beside him, face perfectly composed. The council members arranged by rank: Asterion rigid in his armor, Kleomenes clutching papers he wasn't reading, Polyidus making constant warding signs that no one watched.
+Minos sat on a portable throne at the center. The Queen stood beside him, face perfectly composed; a stark contrast from the night before. The council members arranged by rank: Polyidus clutching his prayer beads, lips moving in silent recitations that would save no one. Kleomenes with a ledger he wasn't reading, already calculating how to distance himself from this spectacle in his reports. 
 
-Sisyphus looked up at the tower.
+And Commander Asterion.
+
+He stood apart from the others, not physically - protocol dictated his position - but in bearing. While the other council members found reasons to look away, to busy themselves with prayers or papers, Asterion watched the entrance with the steady gaze of someone who'd spent thirty years evaluating tactical situations. His weight was balanced, ready. A soldier's stance, not a courtier's.
+
+When Sisyphus emerged into the courtyard, Asterion's eyes tracked him with professional assessment. Not the morbid curiosity of the nobles. Not the fearful avoidance of his fellow councilors. Just the calculating attention of someone measuring another man's capabilities, his chances. His worth.
+
+Their eyes met for half a second across the courtyard.
+
+Asterion gave the smallest nod. So brief that anyone watching would miss it. A warrior's acknowledgment of another man walking into battle.
+
+Then he resumed his position, hands clasped behind his back, face carefully neutral. But unlike Polyidus with his useless prayers, unlike Kleomenes with his coward's ledger, Asterion didn't look away.
+
+Sisyphus continued walking, then looked up at the tower.
 
 In the highest window, a figure stood watching. Daedalus. Hands pressed against the glass. Confined to quarters by Minos's order - not arrested, not punished, but isolated. Made to watch what happened to architects who defied the King.
 
@@ -188,11 +204,11 @@ Then the guards positioned him at the entrance. The crowd pressed closer, cranin
 
 "Sisyphus of Corinth." Minos's voice carried across the courtyard. "You stand convicted of sabotage, insubordination, and unauthorized modification of royal construction. The sentence is death by testing. You will descend into the sections you modified and prove whether your mercy makes survival possible."
 
-Pause for effect. The crowd murmured.
+The king paused for effect. The crowd murmured.
 
 "If you emerge alive," Minos continued, "your sentence will be reconsidered. If you do not..." He gestured to the darkness below. "Then we will know your compassion was simply elaborate cruelty."
 
-Sisyphus said nothing. Just looked at the entrance—stone stairs descending into blackness that seemed to have weight.
+Sisyphus said nothing. Just looked at the entrance - stone stairs descending into blackness that seemed to have weight.
 
 "Any final words?" Minos asked.
 
@@ -224,31 +240,17 @@ His hand trembled. The stylus clattered to the workbench.
 
 Through the window, he could see Nikias and Alexios standing near the sealed entrance. Both guards staring at the stone as if they could see through it. Both knowing they'd watched a man descend to his death because they'd stayed silent.
 
-Daedalus turned away from the window.
-
-On the workbench sat his tools. Sisyphus's tools beside them. Chisels worn smooth by a man who had spent ten thousand years touching stone.
-
-He picked one up. Studied the wear pattern on the handle.
-
-And understood, finally, what Sisyphus had been trying to teach him.
-
-The work mattered. Even knowing it was pointless. Even knowing it would fail.
-
-The choosing mattered.
-
-Daedalus set down the chisel and returned to his sketches.
-
 ---
 
 The labyrinth swallowed sound.
 
-Sisyphus counted steps—twenty-three down before the entrance disappeared above. The darkness was absolute for three breaths. Then torches ignited along the walls with sharp hisses, revealing the passage ahead.
+Sisyphus counted steps - twenty-three down before the entrance disappeared above. The darkness was absolute for three breaths. Then torches ignited along the walls with sharp hisses, revealing the passage ahead.
 
-Daedalus's design. Automatic lighting triggered by weight on specific stairs.
+Daedalus's design. Automatic lighting triggered by weight on specific stairs. 
 
 The passage split into three corridors. Sisyphus chose left, following the airflow. Ten paces in, the floor dropped away beneath a trigger stone. He stopped three steps before it, watching the shadows.
 
-Picked up a loose rock. Tossed it onto the trap section.
+Picked up a loose rock. Tossed it onto the trap.
 
 The floor tilted immediately. Three seconds of movement, then pause. Reset in ten seconds.
 
@@ -262,17 +264,17 @@ The third corridor had sweeping blades. Seven seconds. Three seconds. That was t
 
 He walked through the gaps, patient, unhurried.
 
-Somewhere deeper, breathing. Not human rhythm. Slower, heavier. The Minotaur, tracking him.
+Somewhere deeper, that familiar breathing. Slower, heavier. The Minotaur was tracking him.
 
 Sisyphus descended further. Each trap teaching him the labyrinth's logic. Each pattern revealing the language beneath the horror.
 
-He'd pushed a boulder for ten thousand years. He knew patience. Knew rhythm.
+He'd pushed a boulder for ten thousand years. He knew patience. He knew rhythm.
 
 The labyrinth spoke that same language.
 
 Then he heard a scream.
 
-Distant. Female. Cut short by exhaustion.
+Distant. A woman's voice. Cut short by exhaustion.
 
 Sisyphus stopped, the smoothness of his flow had been disrupted.
 
@@ -282,8 +284,8 @@ The passage forward was clear. Dark stone descending deeper into sections he kne
 
 The Minotaur's breathing echoed closer now, moving toward the scream.
 
-Another scream. Barely a sound. Someone dying slowly in the dark.
+Another scream. Barely a sound. Someone was dying slowly in the dark.
 
-Sisyphus looked at the clear path ahead.
+Survival lay straight ahead.
 
-Then turned toward the sound.
+Then he turned around, toward the sound.
