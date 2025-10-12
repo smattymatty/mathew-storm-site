@@ -1,6 +1,6 @@
-The throne room of King Minos stretched before them, painted columns rising into shadow. Their escort's boots echoed against polished stone. Daedalus's stomach clenched with each step - three hours of desperate work in a leather portfolio that would either satisfy Minos or provide entertainment through their deaths.
+The throne room of King Minos stretched before them, painted columns rising into shadow. Their escort's boots echoed against polished stone. Daedalus's stomach clenched with each step.
 
-Beside him, Sisyphus walked with unnerving steadiness, as if approaching thrones was merely another form of repetitive labor. The man's calm made Daedalus's own terror more acute. In his arms, the leather portfolio grew heavier with each step—three hours of desperate creativity that would either satisfy the monster who ruled Crete or provide fresh entertainment through their deaths.
+Beside him, Sisyphus walked with unnerving steadiness, as if approaching thrones was merely another form of repetitive labor. The man's calm made Daedalus's own terror more acute. In his arms, the leather portfolio grew heavier. Three hours of desperate creativity that would either satisfy the monster who ruled Crete or provide fresh entertainment through their deaths.
 
 *Icarus would be fourteen now*. The thought struck without warning, as it always did in moments of stress. *Old enough to appreciate architectural beauty, young enough to still believe his father still creates wonders*. Daedalus's hand moved unconsciously to his chest, where he kept a small bronze compass Icarus had made, its weight both a comfort and torment.
 

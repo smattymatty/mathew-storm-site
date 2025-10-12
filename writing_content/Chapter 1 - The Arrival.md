@@ -6,7 +6,7 @@ Almost.
 
 His shoulders rolled forward, testing this new absence. Where the boulder's weight had carved grooves in his bones, now only air pressed against him. A different burden entirely. Each step up the stone stairs carried him toward unknown labor, the air sharp with olive groves and sea salt. He only faintly recognized these scents. It had been long since he'd breathed anything but the stale air of Tartarus.
 
-The tower stretched upward, reminding him of his eternal ascent, only this one felt much more cramped. The Guard Captain climbed ahead of him, bronze armor clanking with each step, never once looking back to see if his prisoner followed. Why would he? Where could Sisyphus run that the gods couldn't find him again? As they climbed past arrow slits that framed glimpses of the awakening palace below, Sisyphus understood that this was reassigment, rather than rescue.
+The tower stretched upward, reminding him of his eternal ascent, only this one felt much more cramped. The Guard Captain climbed ahead of him, bronze armor clanking with each step, never once looking back to see if his prisoner followed. Why would he? Where could Sisyphus run that the gods couldn't find him again? As they climbed past arrow slits that framed glimpses of the awakening palace below, Sisyphus understood that this was a reassigment rather than rescue.
 
 "Here." grunted the Guard Captain. He stopped before a heavy wooden door, inserted a small key that scraped against the ancient metal, then pushed. 
 
