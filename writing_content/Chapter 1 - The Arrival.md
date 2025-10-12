@@ -104,7 +104,7 @@ The silence stretched. Daedalus set down his stylus with exaggerated care.
 
 The blueprint was smaller but more disturbing. Passages that spiraled inward with mathematical inevitability.
 
-"Who are you feeding?" Sisyphus asked.
+"A whole chamber, for feeding?" Sisyphus asked.
 
 Daedalus's hands began trembling again. "Athens sends... payment. Every seven years. Fourteen." He couldn't quite look at Sisyphus. "The beast must be fed, or it will break free."
 
@@ -160,18 +160,21 @@ Sisyphus picked up his wine cup, the morning light through the window catching t
 
 The architect's stylus moved across the papyrus with sudden, urgent precision. "We need to show him modifications - improvements to contain a beast that's grown stronger since the last tribute. New chambers to replace the ones it destroyed during its last frenzy. Passages that account for its learning, its adaptation."
 
-As Daedalus worked, Sisyphus found himself studying the man's profile. The desperate energy in his movements wasn't mere professional pride—it was the frantic calculation of a man balancing invisible weights. Each line he drew seemed to cost him something irreplaceable.
+As Daedalus worked, Sisyphus found himself studying the man's profile. The desperate energy in his movements wasn't mere professional pride - it was the frantic calculation of a man balancing invisible weights. Each line he drew seemed to cost him something irreplaceable.
 
 "Why are you here, Daedalus?" Sisyphus asked quietly. "Really? What hold does Minos have over you?"
 
-Daedalus's stylus stopped. His free hand moved to his chest, an unconscious gesture, fingers pressing against something small and hard beneath his tunic. A shape. Circular. He caught himself, dropped his hand like he'd touched fire. "The same hold he has on everyone." His voice was carefully empty. "We all have something we can't afford to lose."
+Daedalus's stylus stopped. His free hand moved to his chest, an unconscious gesture, fingers pressing against something small and hard beneath his tunic. A shape. Circular. He caught himself, dropped his hand like he'd touched fire. "The same hold he has on everyone." His voice was carefully empty. "We all have something we can't afford to lose." Another clear dismissal.
 
 Sisyphus reached for the bread, noting how the liquid in his cup trembled with each distant vibration through the stone, rhythmic and wrong, like a pulse through veins that shouldn't exist. Three beats, pause, two beats. The same pattern as the Captain's fingers on his pommel. The same pattern as the floor's vibration when he'd entered. The fortress itself was becoming alive, learning to breathe in harmony with the thing it held.
 
 In three hours, they would face a king who treated human lives like architectural materials. Below their feet, something born from divine cruelty was learning to be crueler still.
 
-Sisyphus flexed his hands. The boulder had left calluses, grooves worn into bone, scars that marked ten thousand years of repetition. That work had been simple. Push. Fall. Start over. The only thing it taught was patience. The only thing it destroyed was him.
+Sisyphus flexed his hands. The boulder had left calluses, grooves worn into bone, scars that marked ten thousand years of repetition. That work had been simple. Push. Fall. Start over.
 
 This work would teach something else. Something that learned. Something that would outlive him.
 
-He wasn't sure which punishment was crueler.
+This work taught something that learned. That remembered. That would outlive him and everyone who came after.
+
+
+The boulder only broke him. But this? This would break everything else.

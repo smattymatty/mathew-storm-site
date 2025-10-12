@@ -9,37 +9,73 @@ import re
 CONTENT_DIR = Path(__file__).resolve().parent.parent / 'writing_content'
 
 
-def paginate_chapter(markdown_content, chars_per_page=1200):
+def estimate_line_count(text, chars_per_line=65):
     """
-    Intelligently split markdown content into book-like pages.
+    Estimate how many visual lines a paragraph will take when rendered.
+
+    Args:
+        text: The paragraph text
+        chars_per_line: Average characters per line (accounting for wrapping)
+
+    Returns:
+        Estimated number of lines this text will occupy
+    """
+    # Count explicit line breaks
+    explicit_lines = text.count('\n') + 1
+
+    # Estimate wrapped lines
+    total_chars = len(text)
+    wrapped_lines = (total_chars + chars_per_line - 1) // chars_per_line
+
+    # Return the maximum (accounts for both explicit breaks and wrapping)
+    return max(explicit_lines, wrapped_lines)
+
+
+def paginate_chapter(markdown_content, max_lines_per_page=28, chars_per_line=65):
+    """
+    Intelligently split markdown content into book-like pages based on line count.
 
     Strategy:
     - Split on paragraph boundaries (double newlines)
-    - Target ~1200 characters per page (about 200-250 words)
+    - Count estimated visual lines (including text wrapping)
+    - Target max 28 lines per page for consistent reading experience
     - Never split mid-paragraph
     - Preserve markdown formatting
+
+    Args:
+        markdown_content: The raw markdown text
+        max_lines_per_page: Maximum lines allowed per page
+        chars_per_line: Average characters per line (for wrapping calculation)
     """
     # Split into paragraphs
     paragraphs = markdown_content.split('\n\n')
 
     pages = []
     current_page = []
-    current_length = 0
+    current_line_count = 0
 
     for para in paragraphs:
-        para_length = len(para)
+        # Skip empty paragraphs
+        if not para.strip():
+            continue
 
-        # If adding this paragraph would exceed target, start new page
-        if current_length > 0 and (current_length + para_length > chars_per_page):
+        # Estimate how many lines this paragraph will take
+        para_lines = estimate_line_count(para, chars_per_line)
+
+        # Add 1 line for the paragraph spacing
+        para_lines_with_spacing = para_lines + 1
+
+        # If adding this paragraph would exceed max lines, start new page
+        if current_line_count > 0 and (current_line_count + para_lines_with_spacing > max_lines_per_page):
             # Save current page
             pages.append('\n\n'.join(current_page))
             # Start new page with this paragraph
             current_page = [para]
-            current_length = para_length
+            current_line_count = para_lines_with_spacing
         else:
             # Add to current page
             current_page.append(para)
-            current_length += para_length + 2  # +2 for the \n\n
+            current_line_count += para_lines_with_spacing
 
     # Add final page if any content remains
     if current_page:
