@@ -1,6 +1,6 @@
 # Chapter 1 - The Arrival
 
-The chains had been lighter than expected. Not because they were made of lesser iron - Sisyphus could feel the weight in every link - but because after an eternity of pushing stone up an endless slope, anything that didn't roll back down felt almost like freedom.
+The chains had been lighter than expected. They weren't made with lesser iron, Sisyphus could feel the weight in every link, but after an eternity of pushing stone up an endless slope, anything that didn't roll back down felt almost like freedom.
 
 Almost.
 
@@ -172,9 +172,6 @@ In three hours, they would face a king who treated human lives like architectura
 
 Sisyphus flexed his hands. The boulder had left calluses, grooves worn into bone, scars that marked ten thousand years of repetition. That work had been simple. Push. Fall. Start over.
 
-This work would teach something else. Something that learned. Something that would outlive him.
-
 This work taught something that learned. That remembered. That would outlive him and everyone who came after.
-
 
 The boulder only broke him. But this? This would break everything else.
