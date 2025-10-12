@@ -2,7 +2,7 @@
 
 The workshop had been quiet for three days, and that was wrong.
 
-Not the workshop itself, Sisyphus and Daedalus worked in their usual rhythm, stylus scratching papyrus, tools clicking against measurement instruments. That silence was productive, familiar, the sound of craftsmen who'd learned to communicate through shared understanding rather than words.
+Not the workshop itself, Sisyphus and Daedalus worked in their usual rhythm, stylus scratching papyrus, tools clicking against instruments.
 
 No, the wrongness came from below.
 
@@ -11,8 +11,6 @@ The labyrinth had stopped breathing.
 Sisyphus felt it first. The absence pressed against his bones like atmospheric pressure changing before a storm. The palace's foundation usually hummed with a rhythm so constant you forgot it was there.
 
 Until it stopped.
-
-He set down his stylus on the fourth morning of silence.
 
 "You feel it too," Daedalus said. Not a question.
 

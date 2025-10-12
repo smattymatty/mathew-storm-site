@@ -2,7 +2,7 @@
 
 Theron had his threats prepared.
 
-Three days of civil war had taught him the value of leverage. Asterion controlled the gates, but Theron held the palace interior, including the architects. Including Sisyphus.
+Four days of civil war had taught him the value of leverage. Asterion controlled the gates, but Theron held the palace interior, including the architects. Including Sisyphus.
 
 The immortal architect was the key. The man who'd fallen from the sky, who couldn't die, who the entire palace now whispered about in equal parts terror and awe. If Theron controlled him, he controlled the narrative.
 
@@ -30,7 +30,7 @@ His prepared threats died in his throat.
 
 "When?" His voice came out strangled.
 
-The guards at the door exchanged glances. "Sir, we've been here all night. No one passed—"
+The guards at the door exchanged glances. "Sir, we've been here all night. No one passed-"
 
 "WHEN DID HE ESCAPE?"
 
@@ -48,7 +48,7 @@ He ran.
 
 Through corridors that were his domain. Past patrols that snapped to attention, confused by his urgency. Down passages where bloodstains from three days ago still marked the stone.
 
-His thoughts spiraled. The immortal architect loose during a civil war. The man everyone feared and whispered about. If Asterion got to him first, divine legitimacy for his rebellion. If the architect simply left, all knowledge of the labyrinth gone.
+His thoughts spiraled. The immortal architect loose during a civil war. The man everyone feared and whispered about. If Asterion got to him first, divine legitimacy for his rebellion.
 
 Everything Theron had built, the leverage, the threats, the careful system of control, crumbling because one man wouldn't stay imprisoned.
 
@@ -90,7 +90,7 @@ The workshop door was closed. He hit it with his shoulder, guards scrambling beh
 
 The door crashed open.
 
-Sisyphus and Daedalus stood at the worktable. Blueprints spread between them. Tools organized in neat rows. Two wine cups waiting on the shelf. A lamp burning steady.
+Sisyphus and Daedalus stood at the worktable. Blueprints spread between them. Tools organized in neat rows. Two wine cups ready on the table. A lamp burning steady.
 
 They looked up. Not startled. Not afraid. Just... interrupted.
 
@@ -102,15 +102,13 @@ Sisyphus straightened, wiping stone dust from his hands. "The northwestern passa
 
 His voice was calm. Patient. The same tone he'd use to explain anything technical.
 
-Theron's sword was in his hand. He didn't remember drawing it.
-
-"You escaped."
+"You escaped." Theron snapped against Sisyphus' uncanny calmness.
 
 "Yes."
 
 "And came here?" The word came out wrong. Too much disbelief.
 
-"Where else would I go?"
+"Where else would I go?" 
 
 The question hung in the air. Theron's mind supplied answers: Asterion's camp, the harbor, anywhere that made sense, anywhere with strategy or purpose or-
 
@@ -120,21 +118,15 @@ There was nowhere else.
 
 For this man, there had never been anywhere else.
 
-The sword felt heavy. What was he going to do with it? Kill the architect who'd already died and returned? Threaten him with death again?
-
 "I had threats prepared," Theron heard himself say. "About Daedalus. About the workers. About-" He stopped. "It doesn't matter, does it?"
 
 "No," Sisyphus said simply.
 
-Theron's hand tightened on the sword hilt. His prepared speech dissolved. All the leverage he'd mapped out, the pressure points, the ways to make the architect compliant-
+Theron's hand tightened. His prepared speech dissolved. All the leverage he'd mapped out, the pressure points, the ways to make the architect compliant-
 
 None of it mattered.
 
 "You're going to keep working." Not a question. A realization. "No matter what I do."
-
-"Yes."
-
-"Even if I threatened to- He gestured vaguely with the sword. "-anything. You'd still work."
 
 "The northwestern passage needs reinforcement," Sisyphus said. "If we don't fix it, people will die. Probably servants first, they use those corridors. Then guards. Then whoever else happens to be nearby when it collapses."
 
@@ -146,27 +138,25 @@ The realization spread through Theron like ice water.
 
 He had no leverage. No threats that worked. No power over a man who'd chosen his prison and would stay in it voluntarily.
 
-The compassion was the cage. And you couldn't threaten someone with the cage they'd already locked themselves in.
-
 "Get out," Theron said to his guards.
 
 They hesitated.
 
 "NOW!"
 
-The door closed. Three men in the workshop. One with a sword he couldn't use. Two with blueprints they'd never stop working on.
+The door closed. Three men in the workshop. Theron unseathed a sword he knew he couldn't use.
 
-Theron's hand was shaking. Not from anger. From something worse. The terror of powerlessness. Of watching everything he'd built mean nothing.
+Theron's hand was shaking. From something worse than anger. The terror of powerlessness. Of watching everything he'd built mean nothing.
 
 "You terrify me," he said finally.
 
 Sisyphus tilted his head slightly. "Why?"
 
-"Because you don't care. About threats. About power. About any of it. You'll just keep pushing your boulder forever."
+"Because you don't care. About threats. About power. About any of it. You'll just keep working, forever."
 
 "Not forever," Sisyphus corrected. "Just until the work is done."
 
-"The work is never done. That's the point. The northwestern passage collapses every month. The labyrinth always needs maintenance. There's always something."
+"The work is never done. That's the point. The labyrinth always needs maintenance. There's always something."
 
 "Yes." Sisyphus picked up a stylus. "There is."
 
@@ -198,19 +188,11 @@ That thought should have comforted him: at least the labyrinth wouldn't fail.
 
 Instead it terrified him.
 
-Because if threats didn't work on them, what did that say about everything else he'd built?
-
-What did that say about power itself?
-
-He had no answer.
-
-And that scared him most of all.
-
 ---
 
-Captain Prokles arrived at midday with his reports.
+Captain Prokles of the royal legion arrived at midday with his reports.
 
-The Queen was standing at the window when he entered, watching smoke rise from the eastern courtyard where another skirmish had ended. Lysippe sat at the desk, organizing messages by urgency.
+The Queen was standing at the window when he entered, watching smoke rise from the eastern courtyard where another skirmish had ended. Lysippe sat at the desk, organizing messages.
 
 "Your Majesty." Prokles bowed. "The morning's developments."
 
@@ -222,21 +204,17 @@ She turned from the window. "Go on."
 
 "Yes, Your Majesty. He's pulled back to the inner palace, the tower, and the main armory. Defensible positions."
 
-The Queen moved to the desk where maps lay spread. Colored markers showed territorial control: blue for Theron's palace guards, bronze for Asterion's military, purple and gold for the royal guard. A thin corridor of purple connected the King's chambers to her wing.
+The Queen moved to the desk where maps lay spread. Colored markers showed territorial control: blue for Theron's palace guards, bronze for Asterion's military, purple and gold for the royal legion. A thin corridor of purple connected the King's chambers to her wing.
 
-"We're the buffer," she said.
+"We're the buffer," She said.
 
 "Yes, Your Majesty."
 
 She studied the map. Three factions. None strong enough to win. All strong enough to make the others bleed.
 
-"Casualties?"
+"Casualties?" She asked.
 
 "Seventeen wounded today. Three dead, two of Asterion's, one servant caught in crossfire."
-
-"The servants?"
-
-"Most have fled. Perhaps two hundred remain. Those with families in the city, or nowhere else to go."
 
 The Queen's hand tightened on the desk edge. "The tribute youths?"
 
@@ -260,7 +238,7 @@ The Queen's shoulders tensed slightly. She knew what was coming.
 
 She turned to face him. "He hasn't been for a while now." After playing her role for so long, it felt good to finally be honest.
 
-"He won't eat. Paces his chambers constantly. Talks to himself, —or to people who aren't there. The finger-drumming..." He demonstrated the pattern unconsciously. "It's constant now. Day and night."
+"He won't eat. Paces his chambers constantly. Talks to himself, -or to people who aren't there. The finger-drumming..." He demonstrated the pattern unconsciously. "It's constant now. Day and night."
 
 "What does he talk about?"
 
@@ -270,15 +248,11 @@ She turned to face him. "He hasn't been for a while now." After playing her role
 
 "Yes, Your Majesty. We've told him. Multiple times. But ten minutes later he asks again." Another pause. "He also asks if the labyrinth is complete. Over and over. 'Is it complete yet? Has Daedalus finished?' We tell him yes. It's been complete for years. But he doesn't remember."
 
-The Queen's hand moved to the bull brooch at her throat. "Is he eating anything?"
-
-"Small amounts. When we insist. But he pushes the food away, says he needs to inspect the construction site, needs to verify the feeding chambers are operational."
-
-"Does he remember the civil war?"
+The Queen's hand moved to the bull brooch at her throat. "Does he remember the civil war?"
 
 "Sometimes. Other times he asks why the tribute ceremony was cancelled. Or demands to know why Commander Asterion isn't at his post." Prokles's voice dropped. "Your Majesty, he's fracturing. The curse is eating him from the inside."
 
-The Queen absorbed this. She'd watched it happen slowly over years. But the last week had accelerated everything. Reality breaking, the impossible made visible, and Minos's carefully constructed world of control crumbling.
+The Queen absorbed this. She'd watched it happen slowly over the years. But the last week had accelerated everything. Reality breaking, the impossible made visible, and Minos's carefully constructed world of control crumbling.
 
 "Should we intervene?" Prokles asked. "The physicians-"
 
@@ -288,7 +262,9 @@ Understanding passed between them. Unspoken but clear.
 
 "Yes, Your Majesty."
 
-The Queen sighed. She knew the King was incapable of winning this kind of war. She didn't even wanted to win, only to survive. If survival meant taking power temporarily, so be it. She remembered her warning to Theron: "The throne itself is poisoned", she tried to save him, and now here she was, taking control. She couldn't help but chuckle at the irony. 
+The Queen sighed. She knew the King was incapable of winning this kind of war. She didn't even want to win, only to survive. If survival meant taking control of the throne for now, so be it. She remembered her warning to Theron: "The throne itself is poisoned". She tried to save him, and now here she was, seizing power. 
+
+She couldn't help but chuckle at the irony. 
 
 "Who knows?"
 
@@ -298,19 +274,11 @@ The Queen sighed. She knew the King was incapable of winning this kind of war. S
 
 If Theron or Asterion knew Minos was incapacitated, the civil war would escalate. Both would claim the right to rule in his place. More blood. More chaos.
 
-Better to maintain the fiction. The King was secure in his chambers, protected by the royal guard, making decisions through his Queen.
-
-A lie. But a useful one.
+She decided it was better to maintain the fiction. The King was secure in his chambers, protected by the royal guard, making decisions through his Queen.
 
 Prokles bowed. "Is there anything else, Your Majesty?"
 
-"The girl. Thalia. How is she?"
-
-"Still sleeping. The physician says her fever is breaking. The leg will heal, given time."
-
-"Good. When she wakes, I need to speak with her."
-
-"Of course, Your Majesty."
+"You are dismissed?"
 
 Prokles withdrew. The door closed softly.
 
@@ -320,13 +288,13 @@ Lysippe looked up from her sorting. "You're ruling Crete now."
 
 "Is there?"
 
-The Queen didn't answer. She returned to the window, watching the palace tear itself apart below. Three factions. A mad king. An architect who wouldn't die. A labyrinth that was always failing.
+The Queen didn't answer. She returned to the window, watching the palace tear itself apart below. Three factions. A mad king. An architect who wouldn't die. A labyrinth that was failing.
 
 And somewhere beneath it all, her son. The Minotaur. Learning. Building. Waiting.
 
-A sound from the couch. Both women turned.
+There was a sound from the couch. Both women turned.
 
-Thalia was stirring. Her eyes fluttered open, unfocused, then finding the Queen.
+Thalia was stirring. Her eyes fluttered open, unfocused, then found the Queen.
 
 "Your Majesty," she whispered.
 

@@ -2,9 +2,9 @@
 
 Zeus woke with his hands at his own throat.
 
-The dream: always the same. Chronos's jaws opening. His siblings screaming as they disappeared into darkness. Then the shift—his own hands crushing a child's windpipe. His face in water: his father's face staring back.
+The dream: always the same. Chronos's jaws opening. His siblings screaming as they disappeared into darkness. Then the shift - his own hands crushing a windpipe. His face in water: his father's face staring back.
 
-He gasped awake, tent canvas pressing down. Poseidon snored in the corner. Zeus silent—can't show breaking. Leaders don't break.
+He gasped awake, tent canvas pressing down. Poseidon snored in the corner. Zeus silent: can't show breaking. Leaders don't break.
 
 Outside. Cold air, pre-dawn. Camp sleeping.
 
@@ -18,9 +18,9 @@ Whispered it. Didn't believe it.
 
 Then he saw movement: Metis's tent. Lamplight burning. She was awake too, but working. Not haunted. The contrast struck him like a blow.
 
-Poseidon appeared beside him. Didn't speak at first. Brothers standing in silence.
+Poseidon appeared beside him.
 
-"You were restless."
+"You were restless." That accusotry edge. The one he reserved for his brother.
 
 Zeus shrugged. What could he say?
 
@@ -28,31 +28,23 @@ Zeus shrugged. What could he say?
 
 He remembered: her walking into war council yesterday. "You're not winning this through volume." The way she'd laid her map over theirs. The certainty.
 
-"I trust she sees things we don't."
+"I trust she sees things we don't." Careful words. The kind he'd practiced for leadership.
 
 Poseidon studied his face. "You're looking at her the way father looked at power."
 
-Zeus's spine stiffened. "I'm nothing like—"
+Zeus's spine stiffened. "I'm nothing like-"
 
 "Not yet." Poseidon's voice flat. "None of us are. Yet."
 
 The word hung between them.
 
-Hades emerged from another tent. Saw them, joined without speaking. Three brothers who survived. Three who watched others die.
+Hades emerged from another tent. Saw them, joined without speaking. He said nothing, but his silence agreed. The quiet brother who'd learned to swallow screaming.
 
-Hera appeared, practical: "The troops need to see you confident."
+Three brothers who survived. Three who watched Chronos consume the others.
 
-"I am confident."
-
-"You're terrified. We all are." She handed him water. "Drink. The strategist will want to start planning at first light."
-
-They dispersed as dawn broke red.
+They stood together in silence, then disperced as the dawn broke red. Poseidon first, already turning away. Hades followed moments later, a shadow peeling away.
 
 Zeus alone with the water cup. Hands still shaking. In the distance: Chronos's palace. Closer: Metis's tent.
-
-Two futures.
-
-He drank. Tasted copper. Had bitten his cheek during the nightmare.
 
 ---
 
@@ -66,19 +58,15 @@ Footsteps. She entered without asking permission.
 
 "Studying your strategy."
 
-"Our strategy." She sat across from him, spread additional maps. Charcoal-stained fingers moving with precision. "Tomorrow's battle is simple. The war after is harder."
+"Our strategy." Correction automatic. Teacher's instinct. She sat across from him, spread additional maps. Charcoal-stained fingers moving with precision. "Tomorrow's battle is simple. The war after is harder."
 
 She traced routes. Explained timing. Zeus listened, but also watched. The way she bit her lip when thinking. The certainty in how she moved. How she corrected him without hesitation.
 
 "Here." She pointed. "Your instinct will be to pursue when they break. Don't."
 
-"Why not?"
+"Why not?" A Genuine question. Not challenging - he wanted to understand.
 
-"Because Chronos expects rage. Give him calculation instead."
-
-Everyone else deferred. Agreed. Followed.
-
-She challenged.
+"Because Chronos expects rage. Give him calculation instead." She said it like a law of nature. Like she'd proven it a hundred times before.
 
 They worked through scenarios. Hours passing. Lamp burning low.
 
@@ -88,15 +76,13 @@ She looked up. "I told you. To teach-"
 
 "No. Really." His eyes locked on hers. "You had safe positions. You walked into a losing war to teach angry gods mercy. Why?"
 
-Long pause. "Because I can see patterns. And the pattern says you become your father unless someone shows you differently."
+Long pause. Measuring him. Measuring the risk. "Because I can see patterns. And the pattern says you become your father unless someone shows you differently."
 
-The truth hit like a fist.
+The truth hit Zeus like a fist. 
 
-"What if I already am?"
+"What if I already am?" His voice dropped. The question he'd been choking on since he woke.
 
 "Then I wasted a three-week journey." She didn't look away. "But I don't think you are. Not yet."
-
-Yet.
 
 Zeus reached across the map. Didn't quite touch her hand. "And if I listen? If I learn?"
 
@@ -104,7 +90,7 @@ Zeus reached across the map. Didn't quite touch her hand. "And if I listen? If I
 
 She was thinking decades ahead. He could barely see past tomorrow.
 
-"Teach me," he said. Meant it.
+"Teach me," he said. Meant it. The first honest thing he'd said all day.
 
 She smiled: small, sad, hopeful. "I already am."
 

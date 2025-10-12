@@ -27,73 +27,67 @@ Dia found him in his study, staring at the scroll.
 "I didn't become king by being safe." He set down the invitation, met her eyes. 
 "This is the opportunity. The one we've been building toward."
 
-Dia - his wife, his actual wife, whom he'd married for love and politics in equal measure – 
+Dia - his wife, whom he'd married for love and politics in equal measure, 
 crossed her arms. "The opportunity to what, exactly?"
 
 "To prove we're equals."
 
 "We're not equals. They're immortal."
 
-"They're immortal. We're innovative." Ixion gestured at the papers covering his desk: 
-agricultural reforms, new trade routes, legal codes that actually worked. 
-"Look what we've built. In three years. Without divine power. 
-Just intelligence and effort and-"
+"They're immortal. We're innovative." Ixion gestured at the papers covering his desk: agricultural reforms, new trade routes, legal codes that actually worked. 
 
-"Hubris?"
+"Look what we've built. In three years. Without divine power. Just intelligence and effort and-"
 
-"Vision."
+"Hubris?" She interrupted.
+
+"Vision." A smile slipped through his face.
 
 Dia sighed. "You're going to do something stupid."
 
-"I'm going to do something ambitious." He stood, started sorting through his formal clothes. 
-"Zeus invited mortals to Olympus because he values mortal ingenuity. 
-Everyone knows the story – Metis, the Titaness who taught him strategy, 
-showed him mercy could be tactical."
+"I'm going to do something ambitious." He stood, started sorting through his formal clothes. "Zeus invited mortals to Olympus because he values mortal ingenuity. Everyone knows the story - Metis, the Titaness who taught Zeus strategy, showed him mercy could be tactical."
 
-"The Titaness he swallowed."
+Dia realized when she was being lectured. "The Titaness he swallowed."
 
-"After she helped him win the war." Ixion found his best chiton, 
-the one that made him look almost godlike. "The point is: Zeus respects intelligence. 
-Wisdom. Innovation. All the things we represent."
+"After she helped him win the war." Ixion found his best chiton, the one that made him look almost godlike. "The point is: Zeus respects intelligence. Wisdom. Innovation. All the things we represent."
 
-"Or," Dia said carefully, "he invites mortals to Olympus to remind them they're mortal. 
-To show them their place."
+"Or," Dia said carefully, "he invites mortals to Olympus to remind them they're mortal. To show them their place."
 
 "Then I'll show him otherwise."
 
-She watched him dress with the expression of someone watching 
-a loved one walk toward a cliff. "What's the plan, exactly?"
+She watched him dress with the expression of someone watching a loved one walk toward a cliff. "What's the plan, exactly?"
 
-"Impress them. Network. Make it clear that Thessaly – that *we* – 
-aren't just another mortal kingdom waiting for divine intervention. 
-We're partners. Potential equals."
+"Impress them. Make it clear that that we aren't just another mortal kingdom waiting for divine intervention. We're partners. Potential equals."
 
-"Ixion—"
+"Ixion-"
 
-"Zeus learned from a mortal mind." He adjusted his chiton in the bronze mirror. 
-"He swallowed Metis to keep her wisdom. That's how valuable mortal intelligence was to him. 
-So valuable he couldn't risk losing it."
+"Zeus learned from a mortal mind." He adjusted his chiton in the bronze mirror. "He swallowed Metis to keep her wisdom. That's how valuable mortal intelligence was to him. So valuable he couldn't risk losing it."
 
-"That's not the lesson I'd take from that story."
+"That's not the lesson I took from that story."
 
 "The lesson is that gods need us." Ixion turned to face her. 
-"They need our creativity. Our mortality gives us urgency, makes us sharper. 
-We die, so we innovate. They live forever, so they stagnate."
 
-Dia was quiet for a long moment. Then: "Promise me you won't try to seduce anyone."
+"They need our creativity. Our mortality gives us urgency, makes us sharper. We die, so we innovate. They live forever, so they stagnate."
+Dia was quiet for a long moment. Then: "Don't sleep with any goddesses."
 
-"I'm not going there for sex, I'm going there for status."
+"I wouldn't-"
 
-"Promise me anyway."
+"You would." Not accusatory. Sad. "You're brilliant at finding reasons why your ambitions are actually virtues. It's what makes you a good king. It's also what's going to get you killed."
 
-"I promise I won't do anything you wouldn't do."
+He started to argue, stopped. She knew him too well.
 
-"That's not reassuring. I'd absolutely seduce a goddess for political advantage."
+"Three days," he said instead. "I'll be back in three days."
 
-He laughed. Kissed her forehead. "I'll be back in three days. Try not to revolutionize 
-the entire kingdom while I'm gone."
+"Will you?" She touched his face. "Or will you stay longer? Chase that recognition you want so badly?" 
 
-"No promises."
+"Dia-"
+
+"Just come back." Her voice cracked slightly. "However it goes. Whatever happens up there. Come back."
+
+He kissed her. Not playful this time. A promise he wasn't sure he could keep.
+
+"I will."
+
+She let him go.
 
 ---
 
@@ -113,30 +107,57 @@ Hermes smiled politely and drifted away.
 
 Apollo's expression suggested he found mortal poetry quaint.
 
-"Athena, perfect. I've been developing new tactical frameworks for-"
+Athena was holding court near the great hall, discussing military strategy with a cluster of mortal generals. Ixion waited for an opening, timing his approach carefully.
 
-Athena looked at him like he was a child showing her a mud pie.
+"Athena, Your Majesty! I've been developing new tactical frameworks for siege warfare. Combining Thessalian cavalry doctrine with-"
 
-By the third hour, Ixion's jaw hurt from smiling. The gods were polite, 
-distantly amused, treating him like an interesting pet rather than an equal.
+She looked at him. Really looked. Grey eyes that had seen every battle that mattered.
+
+"You've developed new tactics," she repeated.
+
+"Yes, I-"
+
+"In three years."
+
+"I've been studying extensively-"
+
+"I've been studying for three thousand years." Not angry. Amused. "But please, do explain what I've been missing."
+
+The generals shifted. Some looked sympathetic. Most looked grateful it wasn't them.
+
+Ixion's throat was dry. "I just thought-"
+
+"You thought mortal cleverness in three years could surpass divine wisdom accumulated over millennia." She turned back to the generals. "Where were we? Ah yes, the siege of Troy..."
+
+Dismissed. Like a servant who'd interrupted.
+
+By the third hour, Ixion's jaw hurt from smiling. His teeth ground together behind the false expression. His hands had developed a tremor that he hid by keeping them moving: adjusting his chiton, holding his cup, gesturing while he talked to anyone who'd listen.
+
+The gods were polite. Distantly amused. Treating him like an interesting pet rather than an equal.
+
+A trained animal that could do tricks.
+
+He found himself alone near the wine table, refilling his cup for the fourth time. Or fifth. The server gave him a look that said "Mortal getting drunk at a divine party." Ixion wanted to throw the cup at a wall.
 
 None of them took him seriously.
 
+Three years. Three years of building Thessaly into something that *mattered*. Three years of innovation and reform and actually improving people's lives.
+
+And these immortal assholes acted like he was showing them stick figures drawn by a toddler.
+
+His reflection wavered in the wine cup. Distorted. Small.
+
+He needed air.
+
 He found himself in the gardens, away from the crowd, trying not to break something.
 
-Three years. Three years of building Thessaly into something that mattered. 
-Making it prosperous, innovative, *important*. And these immortal assholes 
-acted like he was a talented monkey.
+"Frustrated?" A sensual voice rose behind him.
 
-"Frustrated?"
-
-He turned. Hera stood in the lamplight, looking like every fantasy of power 
-and beauty compressed into one devastating package.
+He turned. Hera stood in the lamplight, looking like every fantasy of power and beauty compressed into one devastating package.
 
 "Your Majesty." He bowed. Correct depth. Correct duration.
 
-"You've been working very hard tonight," Hera observed, 
-moving closer. "Trying to impress everyone."
+"You've been working very hard tonight," Hera observed, moving closer. "Trying to impress everyone."
 
 "Trying to establish connections."
 
@@ -176,12 +197,9 @@ This was exactly what he'd wanted, wasn't it? Not her specifically, but what she
 
 "And Zeus would be fine with this?"
 
-"Zeus would understand the politics." Hera moved closer, backing him toward a column. 
-"Divine marriages are about alliances, not romance. You know that. You married for advantage yourself."
+"Zeus would understand the politics." Hera moved closer, backing him toward a column. "Divine marriages are about alliances, not romance. You know that."
 
-She wasn't wrong. And the offer was tempting in ways that had nothing to do with attraction. 
-Belonging to Hera would make every god take him seriously. Would cement Thessaly's importance. 
-Would prove-
+She wasn't wrong. And the offer was tempting in ways that had nothing to do with attraction. Belonging to Hera would make every god take him seriously. Would cement Thessaly's importance. Would prove-
 
 Would prove he could buy his way into divinity through sex and politics.
 
@@ -189,19 +207,15 @@ Would prove he could buy his way into divinity through sex and politics.
 
 Hera blinked. "What?"
 
-"No. I don't want it that way." He stepped back, putting distance between them. 
-"I didn't come here to fuck into status. I came here to earn recognition."
+"No. I don't want it that way." He stepped back, putting distance between them. "I didn't come here to fuck into status. I came here to earn recognition."
 
 "Those are the same thing."
 
-"They're not." Ixion was surprised by the certainty in his own voice. 
-"Going along with you would make me your consort. Your attachment. 
-I'd still be mortal, just... decorated with divine connection."
+"They're not." Ixion was surprised by the certainty in his own voice. "Going along with you would make me your consort. Your attachment. I'd still be mortal, just... decorated with divine connection."
 
 "Most mortals would consider that an improvement."
 
-"Most mortals haven't spent three years building something that matters  through actual work." He moved toward the garden exit. 
-"Thank you for the offer. But I'll earn my equality the hard way."
+"Most mortals haven't spent three years building something that matters ." He moved toward the garden exit. "Thank you for the offer. But I'll earn my divinity the hard way."
 
 Hera's expression shifted through several emotions: surprise, calculation, something almost like respect.
 
@@ -219,12 +233,9 @@ Ice ran down Ixion's spine.
 
 "I turned you down-"
 
-"After I caught you making advances." Her voice was silk over steel. 
-"After I had to rebuff you. That's the story I'll tell."
+"After I caught you making advances." Her voice was silk over steel. "After I had to rebuff you. That's the story I'll tell."
 
 "Why?"
-
-"Because you need to learn the real lesson of Metis." Hera moved closer, her voice dropping. "She was brilliant. Strategic. Taught Zeus everything about mercy and wisdom. And he swallowed her the moment she became inconvenient."
 
 She gestured around the garden, at the party beyond. "This system doesn't want clever mortals who demand equality. It wants clever mortals who know their place. You tried to climb too high, Ixion. Now you'll learn what happens when mortals forget they're mortal."
 
@@ -238,49 +249,59 @@ And Ixion understood.
 
 This was always going to happen.
 
-From the moment he'd accepted the invitation. From the moment he'd dared to think 
-he could be an equal. The system needed to punish that ambition. 
-Needed to make an example.
-
-Metis had taught Zeus about mercy and strategy.
-
-Then Zeus had swallowed that wisdom and gone right back to ruling through power.
-
-The lesson had never taken root.
+From the moment he'd accepted the invitation. From the moment he'd dared to think he could be an equal. The system needed to punish that ambition. It needed to make an example.
 
 "I didn't-" Ixion started.
 
 "Are you calling my wife a liar?"
 
-He could tell the truth: that Hera propositioned him, that he refused. 
-But who would believe a mortal over a goddess?
+He could tell the truth: that Hera propositioned him, that he refused. But who would believe a mortal over a goddess?
 
-He could confess to the lie: accept a crime he didn't commit to make this easier. 
-But that would make Hera right, that he should have known his place.
+He could confess to the lie: accept a crime he didn't commit to make this easier. But that would validate everything—that ambition was crime, that trying to rise was sin.
 
-Or he could do something else entirely.
+Or—
 
-"Yes," Ixion said. "I tried to seduce Hera. Because I believed we could be equals. 
-Because I thought merit mattered more than birth. Because I was stupid enough 
-to think the gods who learned from Metis might actually value mortal wisdom."
+"I don't—" Ixion's voice cracked. "I don't understand what's happening."
+
+Wrong answer. He heard it immediately in the way the court shifted.
+
+"She came to me," he tried again, knowing how it sounded. How guilty it made him. "She offered—I said no. I walked away. I did everything right and—"
+
+"Everything right?" Zeus's voice dropped to something worse than shouting. "You call attempting to seduce my wife 'everything right'?"
+
+"I didn't attempt—" But he had been alone with her. In the gardens. Away from witnesses. "She said you'd understand. That divine marriages were about alliances, not—"
+
+Hera's face: shocked, wounded, perfect.
+
+"He's trying to blame me," she said softly. "For his own—"
+
+"I'm not—" Ixion stopped. Started again. "Three years I spent building something real. Something that mattered. I came here for recognition, not for—"
+
+He sounded pathetic. Heard it in his own voice. The whining of a caught criminal making excuses.
+
+"What did you expect?" The words came out bitter. Defeated. "All night, treated like a clever dog. Hermes smiled and walked away. Apollo laughed. Athena dismissed me like a child. You wanted mortals here to remember our place, and I—"
+
+He stopped.
+
+Looked at their faces. All of them. Every god in attendance.
+
+They weren't surprised. Weren't even particularly angry.
+
+They were satisfied.
+
+"This was always going to happen," Ixion said quietly. "Wasn't it? The invitation. The party. All of it. You needed someone to punish. Someone to make an example of. And I was ambitious enough, stupid enough to—"
+
+"To think you could be our equal," Zeus finished. "Yes."
 
 The court went silent.
 
-Zeus's expression shifted from rage to something colder.
+Zeus's expression wasn't rage anymore. It was something colder. Educational.
 
-"You dare-"
+"Metis taught me about mercy," Zeus said. "About strategy. About wisdom." His hand moved to his temple, unconscious gesture. "And then I learned the most important lesson: that some wisdom is too dangerous to leave scattered. Some ambitions too great to leave unpunished."
 
-"I dare," Ixion interrupted, "because someone has to. Metis tried to teach you. You swallowed her lessons along with her. And now you're right back to this: power and punishment and proving mortals should bow."
+Ixion's legs felt unsteady. "I didn't do anything wrong."
 
-Athena stepped forward, voice like ice: "Mortals who don't know their place-"
-
-"Their place." Ixion laughed, slightly unhinged.
-
-Zeus's hands crackled with lightning.
-
-"You will learn humility."
-
-"I'll learn that you haven't learned anything at all." Ixion replied, his defiance still burning bright.
+"You tried to rise above your station. That's crime enough."
 
 Guards dragged him away.
 

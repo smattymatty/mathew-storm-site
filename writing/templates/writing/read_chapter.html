@@ -1,0 +1,249 @@
+{% extends "A_base/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="sb-w-full sb-mx-auto sb-py-8 sb-px-4 md:sb-px-8 sb-max-w-6xl">
+    <!-- Top Navigation -->
+    <div class="sb-flex sb-flex-col md:sb-flex-row sb-justify-between sb-items-center sb-gap-4 sb-mb-8" data-storm="fade-in">
+        <a href="{% url 'index' %}" class="sb-btn sb-btn-ghost sb-btn-sm" data-storm-hover="lift">
+            ← Back to Contents
+        </a>
+
+        <!-- Chapter Navigation -->
+        <div class="sb-flex sb-items-center sb-gap-2 sb-flex-wrap sb-justify-center">
+            {% if prev_chapter %}
+            <a href="{% url 'read_chapter' prev_chapter.slug %}"
+               class="sb-btn sb-btn-secondary sb-btn-sm"
+               data-storm-hover="lift"
+               title="{{ prev_chapter.title }}">
+                ← Prev
+            </a>
+            {% endif %}
+
+            <select id="chapter-selector"
+                    class="chapter-select"
+                    onchange="window.location.href='/writing/read/' + this.value + '/';">
+                {% for ch in all_chapters %}
+                <option value="{{ ch.slug }}" {% if ch.slug == chapter.slug %}selected{% endif %}>
+                    {{ ch.title }}
+                </option>
+                {% endfor %}
+            </select>
+
+            {% if next_chapter %}
+            <a href="{% url 'read_chapter' next_chapter.slug %}"
+               class="sb-btn sb-btn-secondary sb-btn-sm"
+               data-storm-hover="lift"
+               title="{{ next_chapter.title }}">
+                Next →
+            </a>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Chapter Title -->
+    <div class="sb-text-center sb-mb-8" data-storm="fade-in" data-storm-delay="200">
+        <h1 class="sb-text-4xl sb-font-bold sb-mb-2">{{ chapter.title }}</h1>
+        <p class="sb-text-secondary">
+            Page <span id="current-page-num">{{ current_page }}</span> of <span id="total-pages-num">{{ total_pages }}</span>
+        </p>
+    </div>
+
+    <!-- Book Reader Container -->
+    <div class="book-reader sb-w-full sb-max-w-5xl sb-mx-auto" data-storm="slide-up" data-storm-delay="400">
+        <!-- Progress Bar -->
+        <div class="sb-mb-6">
+            <div class="sb-w-full sb-bg-surface sb-rounded-full sb-h-2">
+                <div class="sb-bg-primary sb-h-2 sb-rounded-full sb-transition-all"
+                     style="width: {{ progress_percent }}%"
+                     id="progress-bar"></div>
+            </div>
+        </div>
+
+        <!-- Page Content -->
+        <div id="page-container"
+             class="book-page"
+             data-storm="fade-in"
+             hx-swap="innerHTML transition:true">
+            <div id="page-content" class="sb-prose sb-prose-lg">
+                {{ page_content|safe }}
+            </div>
+        </div>
+
+        <!-- Navigation Controls -->
+        <div class="sb-flex sb-justify-between sb-items-center sb-mt-8 sb-flex-wrap sb-gap-4">
+            <!-- Previous Page Button -->
+            <button id="prev-page-btn"
+                    class="sb-btn sb-btn-primary sb-btn-lg"
+                    data-storm-hover="lift"
+                    data-storm-click="pulse"
+                    {% if not has_prev %}disabled style="opacity: 0.3;"{% endif %}
+                    hx-get="{% if has_prev %}{% url 'get_page' chapter.slug current_page|add:-1 %}{% endif %}"
+                    hx-target="#page-content"
+                    hx-swap="innerHTML"
+                    hx-trigger="click"
+                    hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'
+                    onclick="updatePageNumber({{ current_page }} - 1, {{ total_pages }})">
+                ← Previous
+            </button>
+
+            <!-- Page Number Display -->
+            <div class="sb-text-lg sb-font-semibold">
+                Page <span id="page-display">{{ current_page }}</span> / {{ total_pages }}
+            </div>
+
+            <!-- Next Page Button -->
+            <button id="next-page-btn"
+                    class="sb-btn sb-btn-primary sb-btn-lg"
+                    data-storm-hover="lift"
+                    data-storm-click="pulse"
+                    {% if not has_next %}disabled style="opacity: 0.3;"{% endif %}
+                    hx-get="{% if has_next %}{% url 'get_page' chapter.slug current_page|add:1 %}{% endif %}"
+                    hx-target="#page-content"
+                    hx-swap="innerHTML"
+                    hx-trigger="click"
+                    hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'
+                    onclick="updatePageNumber({{ current_page }} + 1, {{ total_pages }})">
+                Next →
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Update page numbers and URLs
+    function updatePageNumber(newPage, totalPages) {
+        document.getElementById('current-page-num').textContent = newPage;
+        document.getElementById('page-display').textContent = newPage;
+
+        // Update progress bar
+        const progressPercent = (newPage / totalPages) * 100;
+        document.getElementById('progress-bar').style.width = progressPercent + '%';
+
+        // Update button states and URLs
+        const prevBtn = document.getElementById('prev-page-btn');
+        const nextBtn = document.getElementById('next-page-btn');
+
+        if (newPage <= 1) {
+            prevBtn.disabled = true;
+            prevBtn.style.opacity = '0.3';
+            prevBtn.removeAttribute('hx-get');
+        } else {
+            prevBtn.disabled = false;
+            prevBtn.style.opacity = '1';
+            prevBtn.setAttribute('hx-get', `/writing/api/get-page/{{ chapter.slug }}/${newPage - 1}/`);
+        }
+
+        if (newPage >= totalPages) {
+            nextBtn.disabled = true;
+            nextBtn.style.opacity = '0.3';
+            nextBtn.removeAttribute('hx-get');
+        } else {
+            nextBtn.disabled = false;
+            nextBtn.style.opacity = '1';
+            nextBtn.setAttribute('hx-get', `/writing/api/get-page/{{ chapter.slug }}/${newPage + 1}/`);
+        }
+
+        // Update URL without reload
+        const url = new URL(window.location);
+        url.searchParams.set('page', newPage);
+        window.history.pushState({}, '', url);
+    }
+
+    // Keyboard navigation
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'ArrowLeft' && !document.getElementById('prev-page-btn').disabled) {
+            document.getElementById('prev-page-btn').click();
+        } else if (e.key === 'ArrowRight' && !document.getElementById('next-page-btn').disabled) {
+            document.getElementById('next-page-btn').click();
+        }
+    });
+</script>
+
+<style>
+    .book-reader {
+        font-family: 'Georgia', serif;
+    }
+
+    /* Book page styling - clean background like a real book */
+    .book-page {
+        background-color: var(--sb-background, #090a14);
+        padding: 3rem;
+        min-height: 24rem;
+        border-radius: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+        .book-page {
+            padding: 1.5rem;
+        }
+    }
+
+    #page-content {
+        line-height: 1.8;
+        font-size: 1.1rem;
+        max-width: 100%;
+    }
+
+    #page-content p {
+        margin-bottom: 1.5rem;
+        text-indent: 2rem;
+    }
+
+    #page-content p:first-of-type {
+        text-indent: 0;
+    }
+
+    #page-content h1,
+    #page-content h2 {
+        text-indent: 0;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    /* Dark theme dropdown styling */
+    .chapter-select {
+        background-color: var(--sb-surface, #151d28);
+        color: var(--sb-text, #d7b594);
+        border: 1px solid var(--sb-neutral, #394a50);
+        padding: 0.5rem 2rem 0.5rem 1rem;
+        border-radius: 0.375rem;
+        font-size: 0.875rem;
+        cursor: pointer;
+        appearance: none;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23d7b594'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 0.5rem center;
+        background-size: 1.25rem;
+        max-width: 300px;
+    }
+
+    .chapter-select:hover {
+        border-color: var(--sb-primary, #4f8fba);
+        background-color: var(--sb-subtle, #202e37);
+    }
+
+    .chapter-select:focus {
+        outline: none;
+        border-color: var(--sb-primary, #4f8fba);
+        box-shadow: 0 0 0 3px rgba(79, 143, 186, 0.1);
+    }
+
+    .chapter-select option {
+        background-color: var(--sb-surface, #151d28);
+        color: var(--sb-text, #d7b594);
+        padding: 0.5rem;
+    }
+
+    /* Smooth fade transition for HTMX swaps */
+    .htmx-swapping {
+        opacity: 0;
+        transition: opacity 300ms ease-out;
+    }
+
+    .htmx-settling {
+        opacity: 1;
+        transition: opacity 300ms ease-in;
+    }
+</style>
+{% endblock %}
