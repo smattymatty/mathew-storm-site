@@ -4,15 +4,17 @@ The chains had been lighter than expected. Not because they were made of lesser 
 
 Almost.
 
-His shoulders rolled forward, testing this new absence. Where the boulder's weight had carved grooves in his bones, now only air pressed against him—a different burden entirely. Each step up the stone stairs carried him toward unknown labor, the air sharp with olive groves and sea salt. He only faintly recognized these scents—it had been long since he'd breathed anything but the stale air of Tartarus.
+His shoulders rolled forward, testing this new absence. Where the boulder's weight had carved grooves in his bones, now only air pressed against him. A different burden entirely. Each step up the stone stairs carried him toward unknown labor, the air sharp with olive groves and sea salt. He only faintly recognized these scents. It had been long since he'd breathed anything but the stale air of Tartarus.
 
 The tower stretched upward, reminding him of his eternal ascent, only this one felt much more cramped. The Guard Captain climbed ahead of him, bronze armor clanking with each step, never once looking back to see if his prisoner followed. Why would he? Where could Sisyphus run that the gods couldn't find him again? As they climbed past arrow slits that framed glimpses of the awakening palace below, Sisyphus understood that this was reassigment, rather than rescue.
 
 "Here." grunted the Guard Captain. He stopped before a heavy wooden door, inserted a small key that scraped against the ancient metal, then pushed. 
 
-The door creaked open, beyond was a workspace that reeked of scholarly madness. Mathematical instruments cluttered every surface, and architectural drawings covered the walls—blueprints for structures that seemed to shift when viewed directly.
+The door creaked open, beyond was a workspace that reeked of scholarly madness. Mathematical instruments cluttered every surface, and architectural drawings covered the walls: blueprints for structures that seemed to shift when viewed directly.
 
-Sisyphus stepped inside, taking in the chaos of scrolls and instruments, when movement caught his eye. In the chamber's center, a man worked hunched over the largest table. Gray-streaked hair fell across shoulders that curved inward, his pale hands trembling as they guided a stylus across papyrus with manic precision. He muttered fragments of calculations, sketching angles that hurt to look at directly.
+Sisyphus stepped inside, taking in the chaos of scrolls and instruments. The floor beneath his feet thrummed subtly, easy to miss if you weren't used to feeling stone. A pulse. Rhythmic. Three beats, pause, two beats. Like a heartbeat counting itself. From deep below.
+
+With focus back to the workshop he had entered, movement caught his eye. In the chamber's center, a man worked hunched over the largest table.
 
 "Daedalus," the Guard Captain said, his voice echoing off the curved stone walls. "Your assistant has arrived."
 
@@ -26,13 +28,13 @@ Daedalus gestured to the chaos of scrolls, his sleeve brushing against a half-em
 
 Daedalus's jaw muscles knotted beneath his beard. He swept his trembling hands over the largest scroll. "Welcome, Sisyphus, to your new eternal task."
 
-The architectural plans writhed in the lamplight - corridors that connected to themselves, symbols that shifted when he wasn't looking directly at them. As Sisyphus traced a passage with his finger, the ink seemed to recoil from his touch, redrawing itself into new configurations. His eyes watered trying to follow the impossible geometries.
+The architectural plans writhed in the lamplight - corridors that connected to themselves, symbols that shifted when he wasn't looking directly at them. Sisyphus traced a passage with his finger. The ink pulled away from his touch like water from oil, then, when his finger stopped moving, it flowed back. Following the path his finger had just taken. Learning the pattern. Remembering. He jerked his hand away and the ink settled, but now the passage he'd traced was slightly different. As if it had taken notes. His eyes watered trying to follow the new geometry.
 
 "What am I looking at?" Sisyphus asked, his voice steady despite the wrongness of what he saw.
 
 "The perfect prison," Daedalus whispered, his stylus tapping against the table. "A labyrinth of such complexity that even its creators will struggle to navigate it. King Minos has commissioned us to build something that has never existed before."
 
-Sisyphus studied the impossible geometries, his fingers unconsciously tracing the corridors.
+Sisyphus studied the impossible geometries, his fingers unconsciously tracing the corridors, even still.
 
 "A maze that thinks, that learns, that adapts to its prey." Daedalus's voice dropped lower. "It's meant to contain something that cannot be killed, cannot be reasoned with, and must never be allowed to escape."
 
@@ -50,11 +52,11 @@ Daedalus glanced at the Captain as he trailed off.
 
 He let that sink in before continuing, his voice taking on the flat tone of someone reciting execution orders. "Neither will unauthorized creativity."
 
-"What kind of creativity concerns him?" Sisyphus asked, though his shoulders were already tensing with familiar dread.
+"What kind of creativity concerns him?" Sisyphus asked.
 
-The Captain's fingers drummed against his pommel. "Daedalus's last assistant asked too many questions." His voice flattened. "He became the first test subject for Sector Three. Took him six days to die."
+The Captain's fingers drummed against his pommel. Three quick taps, pause, two slow. "The kind that makes architects think they're anything more than tools." His voice flattened. "You'll learn."
 
-Sisyphus kept his expression neutral. After endless repetition, he knew how threats worked - they revealed the threatener's fears. This guard feared questions. Which meant the system was vulnerable. The guard had just outlined the exact boundaries of his cage, and Sisyphus had spent eternity learning that knowing your boundaries was the first step to transcending them.
+After the threat hung in the air, Sisyphus nodded. After endless repetition, he knew how threats worked: they revealed the threatener's fears. This one feared creativity. Which meant the system had gaps. The guard had just outlined where to look.
 
 ---
 
@@ -122,15 +124,15 @@ The lamp flame guttered in a draft from the window, casting dancing shadows acro
 
 Daedalus's hands began trembling again. "Something that should never have been born." He pulled out a piece of charcoal and began sketching on a scrap of papyrus. "Half bull, half man. The palace calls it the Minotaur—as if naming it could contain what it truly is. When it first arrived, it was just rage and hunger. But each group of tributes teaches it something new."
 
-The charcoal moved across the paper in quick, nervous strokes. "It remembers their tactics, their hiding places. The last group built a barricade—the beast didn't just break through it, it used the pieces to trap them. It's learning to savor the fear before the feeding."
+The charcoal moved across the paper in quick, nervous strokes. "It remembers their tactics, their hiding places. The last group built a barricade. The beast didn't just break through it, it used the pieces to trap them."
 
-For a moment, the sketch revealed something horrifying—not just bull and man fused, but intelligence gleaming in graphite eyes, a mouth curved in what might have been a smile. The thing on the paper seemed to watch them back.
+For a moment, the sketch revealed something horrifying: not just bull and man fused, but intelligence gleaming in graphite eyes, a mouth curved in what might have been a smile. The thing on the paper seemed to watch them back.
 
 "What happens when it outgrows the maze?" Sisyphus asked.
 
 The charcoal snapped in Daedalus's grip. He stared at the broken pieces for a moment, then swept them into the lamp flame.
 
-"When it breaks free" He stopped. Started again. "If the labyrinth fails, Crete—" Another pause. His hands were shaking worse now. "It won't stop. That's all you need to know. It won't stop."
+"When it breaks free" He stopped. Started again. "If the labyrinth fails, Crete-" Another pause. His hands were shaking worse now. "It won't stop. That's all you need to know. It won't stop."
 
 ---
 
@@ -162,10 +164,14 @@ As Daedalus worked, Sisyphus found himself studying the man's profile. The despe
 
 "Why are you here, Daedalus?" Sisyphus asked quietly. "Really? What hold does Minos have over you?"
 
-Daedalus's stylus kept moving. "The same hold he has over everyone. We all have something we can't afford to lose."
+Daedalus's stylus stopped. His free hand moved to his chest, an unconscious gesture, fingers pressing against something small and hard beneath his tunic. A shape. Circular. He caught himself, dropped his hand like he'd touched fire. "The same hold he has on everyone." His voice was carefully empty. "We all have something we can't afford to lose."
 
-Sisyphus reached for the bread, noting how the liquid in his cup trembled with each distant vibration through the stone—rhythmic and wrong, like a pulse through veins that shouldn't exist. The fortress itself was becoming alive, learning to breathe in harmony with the thing it held.
+Sisyphus reached for the bread, noting how the liquid in his cup trembled with each distant vibration through the stone, rhythmic and wrong, like a pulse through veins that shouldn't exist. Three beats, pause, two beats. The same pattern as the Captain's fingers on his pommel. The same pattern as the floor's vibration when he'd entered. The fortress itself was becoming alive, learning to breathe in harmony with the thing it held.
 
 In three hours, they would face a king who treated human lives like architectural materials. Below their feet, something born from divine cruelty was learning to be crueler still.
 
-Sisyphus flexed his hands. The boulder had left calluses. He wondered what this work would leave behind.
+Sisyphus flexed his hands. The boulder had left calluses, grooves worn into bone, scars that marked ten thousand years of repetition. That work had been simple. Push. Fall. Start over. The only thing it taught was patience. The only thing it destroyed was him.
+
+This work would teach something else. Something that learned. Something that would outlive him.
+
+He wasn't sure which punishment was crueler.
