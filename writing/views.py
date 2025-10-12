@@ -92,7 +92,10 @@ def index(request):
 def read_chapter(request, chapter_slug):
     """Main chapter reading view with pagination."""
     # Get page number from query params (default to 1)
-    page_num = int(request.GET.get('page', 1))
+    try:
+        page_num = int(request.GET.get('page', 1))
+    except (ValueError, TypeError):
+        page_num = 1
 
     # Find the chapter file
     chapter_file = None
@@ -114,7 +117,7 @@ def read_chapter(request, chapter_slug):
     pages = paginate_chapter(raw_markdown)
     total_pages = len(pages)
 
-    # Validate page number
+    # Validate page number (must be >= 1)
     if page_num < 1 or page_num > total_pages:
         page_num = 1
 
@@ -150,7 +153,10 @@ def read_chapter(request, chapter_slug):
 
 def get_page_htmx(request, chapter_slug, page_num):
     """HTMX endpoint to return just the page content."""
+    from django.http import HttpResponse
+
     page_num = int(page_num)
+    print(f"[DEBUG] HTMX request for chapter: {chapter_slug}, page: {page_num}")
 
     # Find the chapter file
     chapter_file = None
@@ -181,4 +187,12 @@ def get_page_htmx(request, chapter_slug, page_num):
         'total_pages': len(pages),
     }
 
-    return render(request, 'writing/partials/page_content.html', context)
+    response = render(request, 'writing/partials/page_content.html', context)
+
+    # Add custom headers for JavaScript to read
+    response['X-Current-Page'] = str(page_num)
+    response['X-Total-Pages'] = str(len(pages))
+
+    print(f"[DEBUG] Returning page {page_num} of {len(pages)}")
+
+    return response

@@ -62,7 +62,7 @@ Theron stood in the threshold, six guards behind him, all armed. His face was wr
 
 Sisyphus looked at Keras, then at Daedalus, then back at Theron.
 
-The workshop was silent except for breathing—human breathing, natural breathing, the kind that came from living lungs instead of stone passages that learned to think.
+The workshop was silent except for breathing - human breathing, natural breathing, the kind that came from living lungs instead of stone passages that learned to think.
 
 Sisyphus stood slowly.
 
@@ -79,11 +79,9 @@ Sisyphus stood slowly.
 
 Keras's face crumpled.
 
-Sisyphus felt the old, familiar rage, the same anger that had made him chain Death itself, that had made him defy gods and kings and the fundamental nature of reality. But he pushed it down, back into the place where he kept such things. Rage was useless here.
+Sisyphus felt the old, familiar rage, the same anger that had made him chain Death itself, that had made him defy gods and the fundamental nature of reality. But he pushed it down, back into the place where he kept such things. Rage was useless here. Only precision mattered now.
 
-Only precision mattered now.
-
-"Fine," he said. "We descend. But on one condition."
+"Fine," he said. "We descend. But on one condition".
 
 "You don't make-"
 
@@ -97,11 +95,11 @@ Theron's jaw tightened. "What?"
 
 "You're trying to-"
 
-"I'm trying to save lives." Sisyphus met his eyes steadily. "Including yours. Because if I'm right about what's happening down there, this palace is about to have a much bigger problem than a civil war."
+"I'm trying to save lives." Sisyphus met his eyes steadily. "Including yours."
 
 Theron's hand moved to his sword hilt. An old habit when thinking. Sisyphus could see the calculation happening behind his eyes.
 
-"The men need to see you're not afraid," Sisyphus added quietly. "They're terrified. The workers fled. The masons quit. Even your guards look ready to run." He gestured to the six armed men in the doorway. "But if Lieutenant Theron descends into the depths himself, if he faces whatever's down there..."
+"The men need to see you're not afraid," Sisyphus added quietly. "They're terrified. The workers fled. The masons quit. Even your guards look ready to run." He gestured to the six armed men in the doorway. "But if their lieutenant descends into the depths himself, if he faces whatever's down there..."
 
 Understanding dawned on Theron's face. Not the understanding Sisyphus intended, but something else entirely.
 
@@ -109,7 +107,7 @@ An opportunity.
 
 "They'll see I'm not just giving orders," Theron said slowly. "I'm willing to face the same risks."
 
-"Exactly."
+"Exactly." Sisyphus nodded.
 
 "While Asterion cowers outside the walls." A smile touched Theron's face. The first genuine expression Sisyphus had seen from him in days. "While the Commander hides behind his soldiers, I descend into the labyrinth itself."
 
@@ -117,7 +115,7 @@ An opportunity.
 
 "The men will remember," Theron continued, speaking more to himself now than to them. "When this is over. When I've won. They'll remember who had the courage."
 
-He turned to his guards. "Four of you, with us. The rest, inform the captains I'm conducting a personal inspection of the labyrinth. Make sure word spreads." He looked back at Sisyphus. "Anything else?"
+He turned to his guards. "Four of you, with us. The rest, inform the squads I'm conducting a personal inspection of the labyrinth. Make sure word spreads." He looked back at Sisyphus. "Anything else?"
 
 "Just one thing."
 
@@ -135,7 +133,7 @@ Theron watched him for a moment, then turned to Keras. "You know the paths. You 
 
 Keras's shoulders sagged in defeat.
 
-They gathered their supplies in silence. Torches. Rope. Tools they probably wouldn't need. Four guards, hands on spears, trying to look brave and failing. Daedalus, hands shaking as he rolled up blueprints. Keras, looking like a man walking to his execution. Theron, checking his sword, his armor, preparing for theater without understanding he was preparing for truth.
+They gathered their supplies in silence. Torches. Rope. Tools they probably wouldn't need. Four guards, hands on spears, trying to look brave. Daedalus, hands shaking as he rolled up blueprints. Keras, looking like a man walking to his execution.
 
 And Sisyphus, feeling the absence from below pressing against his bones, knowing they were about to descend into something that had learned patience from watching him die.
 
@@ -151,9 +149,9 @@ Despite everything, Sisyphus smiled slightly. "I'll do my best."
 
 They descended.
 
-The stairwell felt different immediately. Colder. The air too still, like the palace itself was holding its breath. The torches seemed dimmer here, their light not reaching as far as it should.
+The stairwell felt different immediately. Colder. The air too still, like the walls themselves were holding its breath. The torches seemed dimmer here, their light not reaching as far as it should.
 
-Sector One opened before them: passages Sisyphus had walked a hundred times. Familiar geometry, known deceptions. The floor that tilted on pressure plates. The walls that appeared to converge but didn't.
+Sector One opened before them: passages Sisyphus had walked a hundred times. Familiar geometry, known deceptions. The floor that tilted. The walls that appeared to converge.
 
 "Stay close," Keras said, his voice barely above a whisper. "Watch for-"
 
@@ -171,7 +169,7 @@ The remaining three guards pressed together, spears raised against geometry.
 
 "All the way up here?" Daedalus' voice shook even more still.
 
-They moved more carefully after that. Keras leading, testing each step. The guards behind him, weapons useless against architecture. Daedalus marking their path on his mental map. Theron silent, calculating, still thinking this was about courage and politics. And Sisyphus, feeling the wrongness grow with every step deeper.
+They moved more carefully after that. Keras leading, testing each step. The guards behind him, weapons useless against architecture. Daedalus marking their path on his mental map. Theron silent, calculating, still thinking this was about politics, leading the front with false courage. Behind, was Sisyphus, feeling the wrongness grow with every step deeper.
 
 The breathing should have started by now. The rhythmic sound that pervaded everything, that made the stone feel alive. But there was nothing. Just their footsteps. Their breathing. The crackle of torches.
 
@@ -187,10 +185,6 @@ Sector Three. They were deep now. This was where Theseus had died, where Sisyphu
 
 Still no breathing.
 
-"Maybe it's sleeping," a guard offered. His voice cracked with hope.
-
-"It doesn't sleep for three days," Keras said flatly.
-
 They rounded a corner and stopped.
 
 The passage ahead had changed completely. Not modified. Rebuilt. The crude approximations Sisyphus had seen before were gone, replaced by sophisticated architecture that rivaled Daedalus's best work. Support columns at perfect intervals. Load-bearing arches that distributed weight flawlessly. And at the end of the passage-
@@ -199,7 +193,7 @@ Fresh air.
 
 Not the stale, recycled air of the labyrinth. Fresh air from above, carrying the scent of the palace, of the sea beyond.
 
-They approached slowly. The passage sloped upward at a careful angle: not too steep, not too shallow. Engineered for efficient movement. The walls were smooth, polished almost. No tool marks visible. Just clean, precise stone that seemed to flow like water frozen mid-current.
+They approached slowly. The passage sloped upward at a careful angle. Engineered for efficient movement. No tool marks visible. Just clean, precise stone that seemed to flow like water.
 
 Sisyphus reached the end and stopped.
 
@@ -213,9 +207,9 @@ Not human footprints.
 
 "When?" Theron grabbed Sisyphus's arm. "When did it leave?"
 
-Sisyphus knelt, studying the tracks. The dust pattern. The way the stone still held faint warmth from passage. 
+Sisyphus knelt, studying the tracks. The dust pattern. The way the stone still held.
 
-"Hours ago. Maybe more." He looked up at them all. "While we were gathering supplies. While you were giving orders. While we were descending."
+"Hours ago. Maybe more." He looked up at them all. "While we were gathering supplies. While you were threatening orders. While we were descending."
 
 Understanding hit Theron's face like a physical blow. "It waited for us to come down."
 
@@ -233,17 +227,29 @@ Theron's hand was on his sword, gripping the hilt so tight his knuckles were whi
 
 A sound cut him off.
 
-Distant. Muffled by stone and distance. But clear enough.
+It was distant and muffled by stone. But clear enough:
 
-Screaming.
-
-From above.
+Screaming. From above.
 
 They ran.
 
-Back through passages they'd carefully navigated. Past the traps that had killed many. Through Sector Two, Sector One, up the stairs that seemed to multiply, that seemed to stretch forever while the screaming continued above, growing louder, closer, more terrible.
+Back through passages they'd carefully navigated. Past the traps that had killed many. Up the stairs that seemed to multiply, that seemed to stretch forever while the screaming continued above, growing louder, closer, more terrible.
 
-Keras stumbled. A guard caught him, hauled him forward. Daedalus's breath came in ragged gasps, hands pressed against the walls for support. Theron shouted orders that no one listened to, that meant nothing here.
+Keras stumbled on the seventh step.
+
+The guard beside him reached to steady him. 
+
+The pressure plate clicked.
+
+Spears shot from both walls. Horizontal. Chest-height. The kind of trap Daedalus had designed for quick kills in narrow passages.
+
+The spears retracted with mechanical precision. The bodies fell.
+
+Sisyphus glanced back once. Then forward. He kept climbing.
+
+No one stopped.
+
+Daedalus's breath came in ragged gasps, hands pressed against the walls for support. Theron shouted orders that no one listened to, that meant nothing here.
 
 And Sisyphus ran, knowing they were too late, knowing the patient trap had closed perfectly, knowing the Minotaur had learned its lessons well.
 

@@ -144,33 +144,53 @@ They hesitated.
 
 "NOW!"
 
-The door closed. Three men in the workshop. Theron unseathed a sword he knew he couldn't use.
+The door closed. Three men in the workshop. 
 
-Theron's hand was shaking. From something worse than anger. The terror of powerlessness. Of watching everything he'd built mean nothing.
+Theron moved fast. Grabbed Sisyphus by the tunic, slammed him against the wall. Sword drawn, blade at his throat.
 
-"You terrify me," he said finally.
+"You escaped. You came back. Why?"
 
-Sisyphus tilted his head slightly. "Why?"
+Sisyphus didn't struggle. Just looked at him. "The northwestern passage-"
 
-"Because you don't care. About threats. About power. About any of it. You'll just keep working, forever."
+"I don't CARE about the passage!" The blade pressed closer. Drew a thin line of blood. "You think I can't hurt you? You think falling from the sky makes you invincible?"
 
-"Not forever," Sisyphus corrected. "Just until the work is done."
+"No." Calm. Too calm.
 
-"The work is never done. That's the point. The labyrinth always needs maintenance. There's always something."
+Theron's blade wavered.
 
-"Yes." Sisyphus picked up a stylus. "There is."
+Because what did you do with someone who'd already died? Who came back anyway? Who stood there bleeding and talked about fucking passages like violence was just... inconvenient?
 
-The silence stretched.
+He released Sisyphus. Spun to Daedalus instead. "Your son. Icarus. Fourteen years old. One word from me and-"
 
-Theron sheathed his sword. The click of metal on leather seemed too loud in the workshop.
+"The passage will collapse in two days," Sisyphus interrupted. Not loud. Not threatening. Just stating fact. "Servants use those corridors. Maybe twenty people die. Maybe more."
 
-He walked to the door. Hand on the latch. Stopped.
+"Are you threatening-"
 
-"I don't understand you."
+"I'm explaining." Sisyphus wiped blood from his neck with his sleeve. "You can hurt us. Kill us. Whatever you want. But the passage still collapses. The work still needs doing."
 
-"I know," Sisyphus said, already turning back to the blueprint.
+Theron looked between them. Daedalus pale and trembling but not moving. Sisyphus bleeding but already turning back to the blueprints.
 
-Theron left. His hand was still shaking.
+He could destroy the plans. Burn them. Force them to start over.
+
+They'd redraw them. 
+
+He could lock them in cells. Separate them.
+
+They'd escape. Come back. Keep working.
+
+His sword felt heavy. Pointless.
+
+"You're insane," Theron said.
+
+Sisyphus picked up his stylus. "The reinforcement calculations..."
+
+Not answering. Not arguing. Just... working.
+
+Theron's hand was shaking. Not from rage. From something worse.
+
+He sheathed his sword.
+
+Left without another word.
 
 In the corridor, Nikias and Alexios stood at attention. Neither spoke. Neither asked what happened.
 

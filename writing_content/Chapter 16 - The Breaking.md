@@ -2,9 +2,9 @@
 
 The courtyard skirmish had been going for twenty minutes over two sacks of grain.
 
-"That warehouse is ours!" A soldier in bronze - Asterion's colors - jabbed his spear toward the storage building. "We secured it three days ago!"
+"That warehouse is ours!" A soldier in bronze jabbed his spear toward the storage building. "We secured it three days ago!"
 
-"You abandoned it yesterday!" The guard in blue - Theron's man - stepped forward, hand on sword. "Anything left behind is forfeit!"
+"You abandoned it yesterday!" The guard in blue stepped forward, hand on sword. "Anything left behind is forfeit!"
 
 Five men on each side. All exhausted from days of civil war. All hungry. All ready to kill over supplies that wouldn't feed them for more than a week.
 
@@ -16,7 +16,7 @@ Five men on each side. All exhausted from days of civil war. All hungry. All rea
 
 Steel cleared sheaths on both sides.
 
-They circled each other in the courtyard, boots crunching on stone still stained from previous skirmishes. The two sacks of grain sat forgotten between them, the actual prize meaningless compared to the principle of the thing.
+They circled each other in the courtyard, boots crunching on bloodied stone. The two sacks of grain sat forgotten between them, the actual prize meaningless compared to the principle of the thing.
 
 "Last chance," the bronze soldier said. "Walk away."
 
@@ -24,7 +24,7 @@ They circled each other in the courtyard, boots crunching on stone still stained
 
 They charged.
 
-The sound of metal on metal rang out. Grunts. Curses. The familiar choreography of men who'd been fighting the same fight for days. A thrust parried. A slash blocked. Blood on stone that already wore too much of it.
+The sound of metal on metal rang out. Grunts. Curses. The familiar choreography of men who'd been fighting the same fight for days. A thrust parried. A slash blocked. Spilling more blood for the stone to absorb.
 
 None of them noticed the wall.
 
@@ -34,11 +34,9 @@ The eastern wall, thick stone that had stood for generations, that separated the
 
 Hunger.
 
-The word was too small for what moved through muscle and bone. Four days without feeding. Four days of silence, of building, of patience. Four days of WAITING while the scent of living things filtered down through stone, while footsteps echoed above, while the world forgot what lived below.
+The word was too small for what moved through muscle and bone. Four days without feeding. Four days of silence, of patience. Four days of WAITING while the scent of living things filtered down through stone, while the world forgot what lived below.
 
 The wall was in the way.
-
-Stone that had contained, that had pressed inward for years, that had shaped every movement into smaller and smaller circles until even thinking felt like confinement.
 
 The Minotaur's head lowered. Horns that could gouge stone, that had learned their strength through years of testing every surface, every weakness. Muscles that had grown powerful from endless movement through impossible angles.
 
@@ -46,7 +44,7 @@ It charged.
 
 The wall didn't stand a chance.
 
-Stone exploded. Dust filled the courtyard in a choking cloud. Through it, massive, came a shape that didn't belong in daylight. Eight feet of bull and man and something that had learned to BUILD, emerging from darkness with the desperate single-mindedness of starvation.
+Stone exploded. Dust filled the courtyard in a choking cloud. Through it, massive, came a shape that didn't belong in daylight. Eight feet of bull and man, emerging from darkness with the desperate single-mindedness of a starved beast.
 
 The soldiers stopped mid-swing.
 
@@ -56,11 +54,11 @@ Then the Minotaur MOVED.
 
 The bronze soldier barely had time to scream.
 
-The Minotaur's hand closed around him. Not a hand, not a hoof, but something between. Fingers that ended in blunt claws, scarred from working stone, now closing around soft meat that bruised and broke.
+The Minotaur's hoof-hand closed around him. Fingers that ended in blunt claws, scarred from working stone, now closing around soft meat that bruised and broke.
 
 The head came off with a wet crunch.
 
-Not torn. Bitten. Teeth designed for vegetation learning new purposes through necessity. Blood and bone and brain matter, Food after days of nothing. The Minotaur didn't pause to savor. Just fed. Desperate. Primal.
+Teeth designed for vegetation learning new purposes through necessity. Blood and bone and brain matter, Food after days of nothing. The Minotaur didn't pause to savor. Just fed. Desperate and primal.
 
 The courtyard erupted into chaos.
 
@@ -70,29 +68,29 @@ One tried to fight, a guard in blue with more courage than sense. Spear thrust f
 
 The Minotaur's fist came down.
 
-Not a swipe. Just weight. Simple physics. The guard crumpled with the sound of everything inside breaking at once.
+It didn't need a swipe. Just weight. Simple physics. The guard crumpled with the sound of everything inside breaking at once.
 
 Another soldier, bronze, younger, faster, almost made it to the gate.
 
-The Minotaur caught him mid-stride. Lifted. The man was still screaming when teeth found throat. When hunger found satisfaction in hot meat, in the taste of terror and salt and—
+The Minotaur caught him mid-stride. Lifted. The man was still screaming when teeth found throat. When hunger found satisfaction in hot meat, in the taste of terror and salt and-
 
-—the edge coming off.
+-the edge coming off.
 
-The desperate, gnawing emptiness starting to recede. The fog lifting. Thought returning where before was only need.
+The desperate, gnawing emptiness starting to recede. The fog lifting. Thought returning where before there was only need.
 
 The Minotaur stopped.
 
-Stood in the courtyard, blood dripping from its muzzle, three bodies at its feet. The remaining soldiers had fled. Their weapons lay scattered. The two sacks of grain they'd been killing each other over sat forgotten, trampled, split open and worthless.
+Stood in the courtyard, warm blood dripping from its muzzle, three bodies at its feet. The remaining soldiers had fled. Their weapons lay scattered. The two sacks of grain sat forgotten, trampled, split open and worthless.
 
 The Minotaur's breathing slowed.
 
-No longer desperate gulps but measured rhythm. In through nostrils that had learned to read stone by scent. Out through lungs that had adapted to stale air but remembered, distantly, what FRESH meant.
+No longer desperate gulps but measured rhythm. In through nostrils that had learned to read stone by scent. Out through lungs that had adapted to stale air but remembered, distantly, what fresh air meant.
 
 It looked at the bodies. Really looked, not just saw as food but as... what?
 
 Meat that had been alive. That had been fighting. Over grain. Over territory. Over things that didn't matter.
 
-Like the tributes who'd fought in the labyrinth. Who'd built barricades, who'd used tactics, who'd learned nothing and died anyway.
+Like the tributes who'd fought in the labyrinth. Who'd built barricades, who'd used tactics, who'd died anyway.
 
 These ones were the same.
 
@@ -106,7 +104,7 @@ The Minotaur could smash through it. Easily. The same way it had smashed through
 
 It stopped.
 
-Looked back at the destroyed wall. At rubble scattered across courtyard stone. At the violence of its entrance, the crude necessity of hunger overriding everything else.
+Looked back at the destroyed wall. At rubble scattered across courtyard. At the violence of its entrance, the crude necessity of hunger overriding everything else.
 
 The wall had been good work too. Solid. Well-built. It had stood for generations. And now it was rubble because hunger had made thinking impossible, had reduced architecture to obstacle, had turned craft into casualty.
 
@@ -124,11 +122,7 @@ The Minotaur stood at the threshold.
 
 ---
 
----
-
 The Queen was the first to feel it.
-
-Not hear. Not see. Feel.
 
 She was at the window, watching another pointless skirmish over grain, when the sensation hit. A wrongness in her bones, in her blood, in the parts of her that had carried something impossible for nine months and never quite forgotten.
 
@@ -144,17 +138,17 @@ Lysippe looked up from the desk. "Your Majesty?"
 
 On the couch, Thalia's head snapped up.
 
-The girl had been resting, leg still healing, half-dozing in the afternoon light. Now she was bolt upright, face gone white, eyes too wide.
+The girl had been resting, leg still healing, half-dozing in the afternoon light. Now she was bolt upright, face gone white.
 
-"No," she whispered. "No, it's not possible. They sealed—Sisyphus said—"
+"No," she whispered. "No, it's not possible. Sisyphus said-"
 
-"Thalia—"
+"Thalia-"
 
-"It's coming for me." The girl tried to stand, leg buckling. Lysippe caught her. "It let me go but it REMEMBERS. It remembers and now it's—"
+"It's coming for me." The girl tried to stand, leg buckling. Lysippe caught her. "It let me go but it REMEMBERS. It remembers and now it's-"
 
 "Breathe." The Queen's voice cut through panic like a blade. Not harsh. Commanding. "You're spiraling. Stop."
 
-"You don't UNDERSTAND!" Thalia's voice cracked. "I heard it for DAYS. The breathing, the scraping, the sound of stone being worked. And then it came and it—" She was shaking. "It studied him. Sisyphus. Like it was learning. Like it was PLANNING and now it's OUT and everything he did meant NOTHING because—"
+"You don't UNDERSTAND!" Thalia's voice cracked. "I heard it for DAYS and it-" She was shaking. "It studied him. Sisyphus. Like it was learning. Like it was PLANNING and now it's OUT and everything he did meant NOTHING because-"
 
 "It meant everything." The Queen crossed to her in three steps. Took her shoulders. Firm. "Look at me."
 
@@ -168,7 +162,7 @@ Thalia's eyes were wild with terror and survivor's guilt mixed together.
 
 "But it's out now. It's free. And I'm-I'm the one who survived when he-"
 
-"When he saved you. That's not debt. That's not guilt." The Queen's expression softened just slightly. "That's the whole point of mercy. Someone lives who shouldn't. Someone gets a chance they didn't earn."
+"When he saved you." The Queen's expression softened just slightly. "That's the whole point of mercy. Someone lives."
 
 A sound from outside. Distant. Screaming. Then silence. Then screaming again from a different direction.
 
@@ -182,7 +176,7 @@ Her face went pale.
 
 The Queen joined her. Saw the destroyed wall. The rubble. The bodies scattered like broken dolls.
 
-She felt massive shape inside the palace now as it moved through the corridors. Not charging. Not raging. Just... moving. Exploring. And anyone in its path-
+She felt the massive shape inside the palace now as it moved through the corridors. Not charging. Not raging. Just... moving. Exploring. And anyone in its path-
 
 More screaming. Cut short.
 
@@ -219,12 +213,6 @@ The Queen opened the door, and walked away without another word.
 Lysippe stood there for a moment, staring at the doorway. Then turned to Thalia, all business.
 
 "Can you walk?"
-
-"I don't - I can't-"
-
-"You can. You survived the labyrinth. You can survive this." Lysippe's voice was firm. "Come on. Inner chambers. Now."
-
-She helped Thalia stand, took her weight. They moved toward the inner doors, Thalia limping badly, leaning heavily.
 
 ---
 

@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block content %}
-<div class="sb-w-full sb-mx-auto sb-py-8 sb-px-4 md:sb-px-8 sb-max-w-6xl">
+<div class="sb-w-full sb-mx-auto sb-py-8 sb-pr-4 md:sb-px-8 sb-max-w-6xl">
     <!-- Top Navigation -->
     <div class="sb-flex sb-flex-col md:sb-flex-row sb-justify-between sb-items-center sb-gap-4 sb-mb-8" data-storm="fade-in">
         <a href="{% url 'index' %}" class="sb-btn sb-btn-ghost sb-btn-sm" data-storm-hover="lift">
@@ -63,8 +63,7 @@
         <!-- Page Content -->
         <div id="page-container"
              class="book-page"
-             data-storm="fade-in"
-             hx-swap="innerHTML transition:true">
+             data-storm="fade-in">
             <div id="page-content" class="sb-prose sb-prose-lg">
                 {{ page_content|safe }}
             </div>
@@ -78,12 +77,11 @@
                     data-storm-hover="lift"
                     data-storm-click="pulse"
                     {% if not has_prev %}disabled style="opacity: 0.3;"{% endif %}
+                    data-page="{{ current_page|add:-1 }}"
                     hx-get="{% if has_prev %}{% url 'get_page' chapter.slug current_page|add:-1 %}{% endif %}"
                     hx-target="#page-content"
                     hx-swap="innerHTML"
-                    hx-trigger="click"
-                    hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'
-                    onclick="updatePageNumber({{ current_page }} - 1, {{ total_pages }})">
+                    hx-trigger="click">
                 ← Previous
             </button>
 
@@ -98,12 +96,11 @@
                     data-storm-hover="lift"
                     data-storm-click="pulse"
                     {% if not has_next %}disabled style="opacity: 0.3;"{% endif %}
+                    data-page="{{ current_page|add:1 }}"
                     hx-get="{% if has_next %}{% url 'get_page' chapter.slug current_page|add:1 %}{% endif %}"
                     hx-target="#page-content"
                     hx-swap="innerHTML"
-                    hx-trigger="click"
-                    hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'
-                    onclick="updatePageNumber({{ current_page }} + 1, {{ total_pages }})">
+                    hx-trigger="click">
                 Next →
             </button>
         </div>
@@ -111,13 +108,23 @@
 </div>
 
 <script>
+    const TOTAL_PAGES = {{ total_pages }};
+    const CHAPTER_SLUG = "{{ chapter.slug }}";
+    let currentPage = {{ current_page }};
+
     // Update page numbers and URLs
-    function updatePageNumber(newPage, totalPages) {
+    function updatePageNumber(newPage) {
+        console.log('updatePageNumber called:', newPage, '/', TOTAL_PAGES);
+
+        // Ensure page number is valid (between 1 and totalPages)
+        newPage = Math.max(1, Math.min(newPage, TOTAL_PAGES));
+        currentPage = newPage;
+
         document.getElementById('current-page-num').textContent = newPage;
         document.getElementById('page-display').textContent = newPage;
 
         // Update progress bar
-        const progressPercent = (newPage / totalPages) * 100;
+        const progressPercent = (newPage / TOTAL_PAGES) * 100;
         document.getElementById('progress-bar').style.width = progressPercent + '%';
 
         // Update button states and URLs
@@ -131,17 +138,25 @@
         } else {
             prevBtn.disabled = false;
             prevBtn.style.opacity = '1';
-            prevBtn.setAttribute('hx-get', `/writing/api/get-page/{{ chapter.slug }}/${newPage - 1}/`);
+            prevBtn.setAttribute('hx-get', `/writing/api/get-page/${CHAPTER_SLUG}/${newPage - 1}/`);
+            prevBtn.setAttribute('data-page', newPage - 1);
         }
 
-        if (newPage >= totalPages) {
+        if (newPage >= TOTAL_PAGES) {
             nextBtn.disabled = true;
             nextBtn.style.opacity = '0.3';
             nextBtn.removeAttribute('hx-get');
         } else {
             nextBtn.disabled = false;
             nextBtn.style.opacity = '1';
-            nextBtn.setAttribute('hx-get', `/writing/api/get-page/{{ chapter.slug }}/${newPage + 1}/`);
+            nextBtn.setAttribute('hx-get', `/writing/api/get-page/${CHAPTER_SLUG}/${newPage + 1}/`);
+            nextBtn.setAttribute('data-page', newPage + 1);
+        }
+
+        // Re-process HTMX attributes
+        if (window.htmx) {
+            htmx.process(prevBtn);
+            htmx.process(nextBtn);
         }
 
         // Update URL without reload
@@ -149,6 +164,25 @@
         url.searchParams.set('page', newPage);
         window.history.pushState({}, '', url);
     }
+
+    // Listen for HTMX after swap to update page state
+    document.body.addEventListener('htmx:afterSwap', function(event) {
+        console.log('HTMX swap completed');
+        const target = event.detail.target;
+
+        if (target.id === 'page-content') {
+            // Read page number from response headers
+            const xhr = event.detail.xhr;
+            const newPage = parseInt(xhr.getResponseHeader('X-Current-Page'));
+            const totalPages = parseInt(xhr.getResponseHeader('X-Total-Pages'));
+
+            console.log('New page from headers:', newPage, '/', totalPages);
+
+            if (newPage && !isNaN(newPage)) {
+                updatePageNumber(newPage);
+            }
+        }
+    });
 
     // Keyboard navigation
     document.addEventListener('keydown', function(e) {
@@ -158,6 +192,8 @@
             document.getElementById('next-page-btn').click();
         }
     });
+
+    console.log('Page reader initialized. Current page:', currentPage, '/', TOTAL_PAGES);
 </script>
 
 <style>

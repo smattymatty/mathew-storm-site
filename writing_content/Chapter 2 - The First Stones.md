@@ -132,11 +132,19 @@ They stepped onto the platform - Daedalus, Sisyphus, and the two guards. Alexios
 
 Down they went, past layers of construction that chronicled the project's evolution. Conventional masonry gave way to architecture that challenged perception. Then deeper, into darkness where lamplight struggled.
 
+The air changed. Not cooler as it should be going underground, but warmer. Body-temperature. Like descending into something living. The torch smoke pooled against the ceiling, spreading horizontally before dripping down the walls like oil.
+
 The platform shuddered. In the silence, they could all hear it - rhythmic breathing too deep, too vast for any natural throat.
 
 "Testing ground," Daedalus announced when they stopped. "Every modification verified before implementation."
 
-The chamber that opened before them defied description. Vast enough to hold temples, yet its walls curved in patterns that made measurement impossible. Passages branched in directions human language had never named. Sisyphus's eyes watered as his mind struggled with geometries that shouldn't exist.
+His voice came out strange when he tried to speak, the chamber swallowed some syllables, amplified others. "Testing-" echoed seven times. "-ground" didn't echo at all. Sound itself didn't know how to behave here.
+
+The chamber that opened before them defied description. Vast enough to hold temples, yet its walls curved in patterns that made measurement impossible. 
+
+Sisyphus took three steps forward and his balance failed. Rather than stumbling, his inner ear screamed. Down was now thirty degrees to the left. He locked his knees, forced his eyes to follow the floor. The floor was level. His body insisted it was tilted. The disagreement made his stomach clench.
+
+Alexios reached for the wall to steady himself. His hand passed through where the wall LOOKED solid, found stone three inches further in. He jerked back, examining his fingers: no injury, but his hand hit something that his eyes said wasn't there. "It's not... the wall isn't where it..." He couldn't finish.
 
 "Paths that promise freedom but guarantee deeper imprisonment," Daedalus said, the words worn smooth from repetition. "Chambers that offer sanctuary but become traps."
 
@@ -160,7 +168,7 @@ The guards shifted nervously. Alexios's gripped his spear tighter.
 
 "The stone learns. We decide its lessons."
 
-Another howl rose from below, though different this time. Almost curious, as if the creature had heard something worth considering.
+Another sound rose from below. Not a howl. The breathing changed - three long, two short. Responding. Answering. The intelligence in that reversal made Nikias's hand tighten on his spear. This wasn't mere instinct.
 
 Daedalus shivered. The beast was listening.
 
