@@ -112,9 +112,7 @@ Sisyphus didn't respond, just kept trying. Fortieth attempt. Fiftieth. His finge
 
 Sisyphus kept going.
 
-Daedalus watched from the shade, his mouth dry. Awed by the way his new assistant worked with impossible geometries; not through genius or insight, but through relentless, patient iteration. The same motion performed until the universe surrendered.
-
-Daedalus watched from the shade, his mouth dry. This was how Perdix had worked; not through genius but through relentless, patient iteration that made genius irrelevant. The same motion performed until the universe surrendered.
+Daedalus watched from the shade, the way his new assistant worked with impossible geometries; not through genius or insight, but through relentless, patient iteration. The same motion performed until the universe surrendered.
 
 ---
 
@@ -144,34 +142,56 @@ The chamber that opened before them defied description. Vast enough to hold temp
 
 Sisyphus took three steps forward and his balance failed. Rather than stumbling, his inner ear screamed. Down was now thirty degrees to the left. He locked his knees, forced his eyes to follow the floor. The floor was level. His body insisted it was tilted. The disagreement made his stomach clench.
 
+"Your body knows something's wrong," Daedalus said quietly. "But your eyes can't figure out what. That's the first lesson of the Labyrinth: trust nothing. Not sight, not balance, not memory."
+
 Alexios reached for the wall to steady himself. His hand passed through where the wall LOOKED solid, found stone three inches further in. He jerked back, examining his fingers: no injury, but his hand hit something that his eyes said wasn't there. "It's not... the wall isn't where it..." He couldn't finish.
 
 "Paths that promise freedom but guarantee deeper imprisonment," Daedalus said, the words worn smooth from repetition. "Chambers that offer sanctuary but become traps."
 
-He'd given this speech to three previous assistants. Two had fled. One had thrown himself from the platform during the return ascent.
+"The walls don't stay where you see them," Daedalus explained, his voice flat with repetition. "The tributes learn that quickly. They mark their paths, count their steps. None of it helps. The geometry changes based on how you look at it, how you move through it." He paused. "And the beast? It knows every configuration. Every trick. It grew up here."
 
-Sisyphus merely nodded.
+He'd explained this to three previous assistants. Two had fled. One had thrown himself from the platform during the return ascent.
 
-The sound came again - closer. A rumbling howl that vibrated through stone and bone. Intelligence lived in that sound, and hunger, and something worse: patience.
+Sisyphus merely nodded, studying the chamber with the same patience he'd used on the impossible cornerstone.
 
-"Each feeding teaches it something new," Daedalus said.
+The sound came again, closer. A rumbling howl that vibrated through stone and bone. Intelligence lived in that sound, hunger made deliberate.
 
-"And we're teaching it too." Sisyphus picked up a piece of impossible stone. "Every refinement, every improvement, we're showing it exactly how we think."
+"Each feeding teaches it something new," Daedalus said carefully.
 
-Ice spread through Daedalus's chest. He'd had the same thought countless times, but hearing it spoken made it real.
+"And we're teaching it too." Sisyphus picked up a piece of impossible stone, turning it over in his bleeding hands. "Every refinement, every improvement. We're showing it exactly how we think."
 
-"The question," Sisyphus continued, examining the stone as it shifted weight in his hands, "is what we choose to teach it."
+Daedalus's breath caught. The guards were RIGHT THERE. "That's not-" He racked his scattered brain for a quick deflection: "We're building what we're ordered to-"
 
-The guards shifted nervously. Alexios's gripped his spear tighter.
+"Of course." Sisyphus's voice stayed calm, almost absent, as if discussing weather. "But the stone doesn't care about orders. Neither does the beast. They just learn what we teach them." He examined the stone as it shifted weight in his palm. "The question is what we choose to show it."
 
-"What do you mean?" Daedalus heard himself ask.
+Ice spread through Daedalus's chest. He'd had that same thought countless times, alone in his tower, never daring to speak it. And here was this man, on his FIRST day, saying it aloud. With guards listening.
 
-"The stone learns. We decide its lessons."
+Nikias's hand moved to his sword hilt. Not threatening, just ready. His eyes met Daedalus's. This Seargant had been guarding the master architect since his arrival to Crete, they've grown into a silent understanding, it'd be a shame to break that now.
 
-Another sound rose from below. Not a howl. The breathing changed - three long, two short. Responding. Answering. The intelligence in that reversal made Nikias's hand tighten on his spear. This wasn't mere instinct.
+Alexios gripped his spear tighter, looking between them with barely concealed panic. He was new to the guard corps, never expected to be down here with builder and beast.
 
-Daedalus shivered. The beast was listening.
+"The King made his expectations very clear," Daedalus said, each word careful, trying to signal STOP without saying it. "Unauthorized creativity-"
 
-And Sisyphus was suggesting they could teach it lessons Minos never intended.
+"I'm not being creative." Sisyphus set the stone down gently. "I'm being observant. The labyrinth learns. We can't stop that. But we can be... deliberate about what patterns we repeat." He looked at Daedalus directly. "Wouldn't you agree? As the master architect?"
 
-The chamber echoed with the sound of stone being shaped by immortal hands. Below, something listened to every strike of the chisel. In the darkness, it was learning.
+The question was a trap. Agree and he was complicit in whatever Sisyphus was suggesting. Disagree and he'd just called his new assistant a liar in front of witnesses.
+
+From below, the breathing changed rhythm. Three long, two short. Then reversed. Two long, three short.
+
+Responding. Answering. 
+
+The intelligence in that reversal made Nikias's knuckles white on his sword.
+
+"We're leaving," Daedalus said, stepping back onto the platform. "Now."
+
+They ascended in silence. The breathing followed them up through the levels.
+
+When they reached the surface, Nikias pulled Daedalus aside. His voice was low. "Should I report what the new architect said?"
+
+Daedalus's hand found the compass in his pocket. Everyone serves something. "He said we should be deliberate in our work. That's not treason. That's craftsmanship."
+
+Nikias studied him for a long moment. Then nodded once. "As you say, Master Daedalus."
+
+But his hand stayed on his sword as they rode back to the palace.
+
+Behind them, deep below the mountain, something ancient had learned a new lesson.
