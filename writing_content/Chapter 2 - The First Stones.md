@@ -62,7 +62,7 @@ The younger guard glanced back. His companion's hand clamped on his shoulder.
 
 "Lieutenant Theron isn't here."
 
-Daedalus noted the name. Another layer of palace politics. The boy fell silent, though his shoulders stayed tense with unspoken questions.
+Daedalus recognized the name as another layer of palace politics. The boy fell silent, though his shoulders stayed tense with unspoken questions.
 
 They emerged into sunlight where horses waited. Sergeant Nikias announced, "We ride for the quarries. His Majesty expects you there before sunset."
 
@@ -75,8 +75,6 @@ The path climbed through olive groves into bare mountain. Daedalus's fingers fou
 They passed workers hauling stone that moved too easily for its mass.
 
 "The stone learns," Sisyphus observed quietly.
-
-The same intuitive leap Perdix had made. Daedalus's knuckles whitened on the reins.
 
 When they crested the ridge, the excavation sprawled below: stone cut at angles that shouldn't exist, workers moving in patterns that hurt to track.
 
@@ -100,21 +98,21 @@ Keras, one of the senior masons, looked up before Daedalus could answer. A scar 
 
 "The specifications follow precise non-Euclidean principles," Daedalus interjected.
 
-Sisyphus knelt beside the cornerstone, hands tracing the impossible edge where the curve maintained its angle. His fingers followed the geometry once, twice, three times—the same motion repeated with minute variations in pressure and speed.
+Sisyphus knelt beside the cornerstone, hands tracing the impossible edge where the curve maintained its angle. His fingers followed the geometry once, twice, three times. The same motion repeated with minute variations in pressure and speed.
 
 "It don't work like that," Keras said. "You can't force it to make sense. You gotta let it show you."
 
 "Everything makes sense," Sisyphus murmured, still tracing. "You just have to try enough times."
 
-On his seventh pass, his hand jerked back. The stone had shifted—microscopically, but shifted. He tried again. Same spot, same motion. Nothing. Adjusted his angle slightly. The stone stayed inert. Again. Again. By the twentieth attempt, sweat beaded his forehead.
+On his seventh pass, his hand jerked back. The stone had shifted microscopically. He tried again. Same spot, same motion. Nothing. Adjusted his angle slightly. The stone stayed inert. Again. Again. By the twentieth attempt, sweat beaded his forehead.
 
 "Master Daedalus spent three weeks on his first one," Keras offered.
 
-Sisyphus didn't respond, just kept trying. Fortieth attempt. Fiftieth. His fingers began bleeding where the edge cut him. Noon sun beat down. Other workers broke for water.
+Sisyphus didn't respond, just kept trying. Fortieth attempt. Fiftieth. His fingers began bleeding where the edge cut him. The noon sun beat down. Other workers broke for water.
 
 Sisyphus kept going.
 
-On the hundred-and-third attempt, the stone cooperated. Just a fraction. But enough.
+Daedalus watched from the shade, his mouth dry. Awed by the way his new assistant worked with impossible geometries; not through genius or insight, but through relentless, patient iteration. The same motion performed until the universe surrendered.
 
 Daedalus watched from the shade, his mouth dry. This was how Perdix had worked; not through genius but through relentless, patient iteration that made genius irrelevant. The same motion performed until the universe surrendered.
 
