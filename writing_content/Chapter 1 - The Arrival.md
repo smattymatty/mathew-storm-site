@@ -116,13 +116,13 @@ Something tightened in Sisyphus's chest - an old ache he'd thought Tartarus had 
 
 Daedalus rolled up the scroll before Sisyphus could study it further. "We have two hours before Minos expects us. Questions about ethics can wait until after we've ensured our own survival."
 
-Sisyphus studied the blueprints with new understanding. A maze that learned from death. He traced one passage with his finger, watching the ink shift. Could it learn from survival too? The thought made him smile slightly—the same smile he'd worn the day he'd chained Death itself. First, he needed to understand what they were building. Then, perhaps, he could discover what else it might become.
+Sisyphus studied the blueprints with new understanding. A maze that learned from death. He traced one passage with his finger, watching the ink shift. Could it learn from survival too? The thought made him smile slightly. The same smile he'd worn the day he'd chained Death itself. First, he needed to understand what they were building. Then, perhaps, he could discover what else it might become.
 
 The lamp flame guttered in a draft from the window, casting dancing shadows across the walls. In that flickering light, Daedalus's hands moved with practiced efficiency across the feeding chamber blueprints. This was a man who could design hope itself as a weapon.
 
 "The beast," Sisyphus said slowly. "What exactly is it?"
 
-Daedalus's hands began trembling again. "Something that should never have been born." He pulled out a piece of charcoal and began sketching on a scrap of papyrus. "Half bull, half man. The palace calls it the Minotaur—as if naming it could contain what it truly is. When it first arrived, it was just rage and hunger. But each group of tributes teaches it something new."
+Daedalus's hands began trembling again. "Something that should never have been born." He pulled out a piece of charcoal and began sketching on a scrap of papyrus. "Half bull, half man. The palace calls it the Minotaur, as if naming it could contain what it truly is. When it first arrived, it was just rage and hunger. But each group of tributes teaches it something new."
 
 The charcoal moved across the paper in quick, nervous strokes. "It remembers their tactics, their hiding places. The last group built a barricade. The beast didn't just break through it, it used the pieces to trap them."
 
@@ -164,7 +164,7 @@ As Daedalus worked, Sisyphus found himself studying the man's profile. The despe
 
 "Why are you here, Daedalus?" Sisyphus asked quietly. "Really? What hold does Minos have over you?"
 
-Daedalus's stylus stopped. His free hand moved to his chest, an unconscious gesture, fingers pressing against something small and hard beneath his tunic. A shape. Circular. He caught himself, dropped his hand like he'd touched fire. "The same hold he has on everyone." His voice was carefully empty. "We all have something we can't afford to lose." Another clear dismissal.
+Daedalus's stylus stopped. His free hand moved to his chest, an unconscious gesture, fingers pressing against something small and hard beneath his tunic. A shape. Circular. He caught himself, dropped his hand like he'd touched fire. "Everyone serves something, Sisyphus." His voice was carefully empty. "We all have something we can't afford to lose." Another clear dismissal.
 
 Sisyphus reached for the bread, noting how the liquid in his cup trembled with each distant vibration through the stone, rhythmic and wrong, like a pulse through veins that shouldn't exist. Three beats, pause, two beats. The same pattern as the Captain's fingers on his pommel. The same pattern as the floor's vibration when he'd entered. The fortress itself was becoming alive, learning to breathe in harmony with the thing it held.
 

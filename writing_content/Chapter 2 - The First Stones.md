@@ -2,7 +2,7 @@ The throne room of King Minos stretched before them, painted columns rising into
 
 Beside him, Sisyphus walked with unnerving steadiness, as if approaching thrones was merely another form of repetitive labor. The man's calm made Daedalus's own terror more acute. In his arms, the leather portfolio grew heavier. Three hours of desperate creativity that would either satisfy the monster who ruled Crete or provide fresh entertainment through their deaths.
 
-*Icarus would be fourteen now*. The thought struck without warning, as it always did in moments of stress. *Old enough to appreciate architectural beauty, young enough to still believe his father still creates wonders*. Daedalus's hand moved unconsciously to his chest, where he kept a small bronze compass Icarus had made, its weight both a comfort and torment.
+*Icarus would be fourteen now*. The thought struck without warning, as it always did in moments of stress. *Old enough to appreciate architectural beauty, young enough to still believe his father-*. Daedalus's hand moved unconsciously to his chest, where he kept a small bronze compass Icarus had made, its weight both a comfort and torment.
 
 The throne itself sat on a raised plate at the chamber's far end, carved from a single block of black marble. Upon it sat Minos, motionless as the stone itself but infinitely more dangerous. He didn't acknowledge their approach, his attention fixed on a scroll that Daedalus recognized with sinking certainty—reports from Athens, perhaps, or intelligence about tribute preparations. The silence stretched until Daedalus's hands began their telltale tremor.
 
@@ -36,17 +36,19 @@ The silence stretched. Minos's fingers drummed once against the marble armrest.
 
 Adequate wasn't approval. It was provisional survival.
 
-The King rose from his throne with the fluid grace of a predator sated but not satisfied. "Work begins immediately. I want to see structural progress by week's end, and full implementation of these modifications within the month." His gaze shifted between them like a blade testing edges. "Failure to meet these deadlines will result in... personal testing of the labyrinth's effectiveness."
+The King rose from his throne with the fluid grace of a predator sated but not satisfied. "Work begins immediately. I want to see structural progress by week's end, and full implementation of these modifications within the month." His gaze shifted between them like a blade testing edges. "Begone!"
 
-As guards escorted them from the throne room, Sisyphus walked beside him in contemplative silence, his gaze fixed on something distant. Daedalus wanted to warn him that it only got worse, that each compromise carved away another piece of whatever soul remained. But what was the point? They would both learn soon enough that some prisons were built from the inside out, bar by bar, choice by terrible choice.
+As guards escorted them from the throne room, Sisyphus walked beside him in contemplative silence, his gaze fixed on something distant. Daedalus wanted to warn him that it only got worse, that each compromise carved away another piece of whatever soul remained. But what was the point? They would both learn soon enough.
 
-The weight of the portfolio in his arms felt heavier now, filled with future horrors he would design with the same precision he'd once used for beauty. Perdix would have figured out another - no. He crushed that thought before it could form completely. The memory of his nephew's eyes, wide with surprise as he fell, threatened to surface. Daedalus forced it down with practiced efficiency. Some guilts were too dangerous to examine in daylight.
+The portfolio's leather bit into his forearm—filled with designs for future horrors. Necessary horrors, he told himself. *Perdix would have found a better way.* The thought struck uninvited. *He was brilliant, could see solutions in-*
+
+No. He crushed that thought before it could finish. The memory of his nephew's eyes, wide with surprise as he fell, threatened to surface. Daedalus forced it down with practiced efficiency. Some guilts were too dangerous to examine in daylight.
 
 Everyone serves something, he'd told Sisyphus. His hand found the compass in his pocket again. Icarus had been so proud making it, the bronze still rough where his small fingers hadn't quite smoothed the edges. Daedalus tightened his grip until the metal bit into his palm.
 
 ---
 
-The palace corridors seemed to multiply as they walked, each turn revealing another passage decorated with frescoes of bulls and dolphins. The guards ahead moved with practiced efficiency—one young, one old.
+The palace corridors seemed to multiply as they walked, each turn revealing another passage decorated with frescoes of bulls and dolphins. The guards ahead moved with practiced efficiency, one young, one old.
 
 "The King seemed... pleased," Daedalus ventured quietly.
 
