@@ -42,7 +42,7 @@ The architectural plans writhed in the lamplight - corridors that connected to t
 
 "What am I looking at?" Sisyphus asked with a steady voice, despite the wrongness of what he saw.
 
-"The perfect prison," Daedalus whispered, his stylus tapping against the table. "A labyrinth of such complexity that even its creators will struggle to navigate it. King Minos has commissioned us to build something that has never existed before."
+"The perfect prison," Daedalus whispered, his stylus tapping against the table. "King Minos has commissioned us to build something that has never existed before."
 
 Sisyphus studied the impossible geometries, his fingers unconsciously tracing the corridors, even still.
 
