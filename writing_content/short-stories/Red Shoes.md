@@ -264,6 +264,8 @@ Her watch buzzed: **Protective protocols engaged. Automatic adjustments in progr
 
 Karen had been sitting here for twelve minutes. The app told her so: **Inactive period detected.**
 
+**Psychological Episode concluded. Necessary for containment. Return to workstation.**
+
 Her phone was in her trembling hands, screen glowing in the dark.
 
 An old memory surfaced: Her mother's voice, reading at bedtime. A girl who's red shoes made her dance and dance until she begged the executioner to-
