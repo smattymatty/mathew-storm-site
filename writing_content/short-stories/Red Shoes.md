@@ -152,7 +152,7 @@ Something about him - beneath the grime and exhaustion - was familiar. Corporate
 
 Karen pulled back gently. "Tyler, are you okay?"
 
-"Delete it." His voice cracked. "No, wait. Don't. If you delete-" He grabbed his head. "Why can't I remember-"
+"Delete it." His voice cracked. "No, wait. Don't. If you delete- Even when it's gone, you're not whole anymore." He grabbed his head. "Why can't I remember-"
 
 His eyes went empty. Like someone cut his power mid-sentence.
 
