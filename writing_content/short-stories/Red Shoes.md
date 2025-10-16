@@ -6,9 +6,7 @@ Her mother died two weeks before Karen walked at graduation. The funeral cost $8
 
 So when Vertex offered $52,000, full benefits, room for growth - Karen said yes before they could finish.
 
-Now she stood in the elevator, watching the floor numbers climb, trying to breathe like she belonged here.
-
-Fifth floor. Doors opened.
+Now she stood in the elevator, watching the floor numbers climb, trying to breathe like she belonged here. On the fifth floor, doors opened.
 
 Karen had barely stepped out when a man in his mid-thirties appeared, moving with the kind of purpose that made people get out of his way.
 
