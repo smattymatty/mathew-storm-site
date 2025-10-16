@@ -36,7 +36,7 @@ The hunched figure straightened slowly, then turned with the careful precision o
 
 Sisyphus blinked. He'd assumed his name had faded from mortal memory, yet this man spoke it with casual familiarity. 
 
-Daedalus gestured to the chaos of scrolls, sleeve brushed against the half-empty wine cup. "I've overheard news of your arrival. The palace walls carry sound well." His eyes flicked toward the Guard Captain, then back. He pressed his palms flat against the largest scroll, steadying himself. "Please. Make yourself comfortable."
+Daedalus gestured to the chaos of scrolls, sleeve brushed against the half-empty wine cup. "I just heard news of your arrival. The palace walls carry sound well." His eyes flicked toward the Guard Captain, then back. He pressed his palms flat against the largest scroll, steadying himself. "Please. Make yourself comfortable."
 
 The architectural plans writhed in the lamplight - corridors that connected to themselves, symbols that shifted when he wasn't looking directly at them. Sisyphus traced a passage with his finger. The ink pulled away from his touch like water from oil, then, when his finger stopped moving, it flowed back, following the path his finger had just taken. It was learning the pattern, remembering. He jerked his hand away and the ink settled, but now the passage he'd traced was slightly different. As if it had taken notes. His eyes watered trying to follow the new geometry.
 
