@@ -212,7 +212,7 @@ But there she was, fingers moving across the keyboard with mechanical precision.
 
 When had she gone back to bed?
 
-Karen's breath came shallow. She clicked to night before.
+Karen's breath came shallow. She clicked to the night before.
 
 There. 1:12 AM.
 
