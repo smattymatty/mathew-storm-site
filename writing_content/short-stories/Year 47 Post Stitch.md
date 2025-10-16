@@ -197,11 +197,11 @@ Elise laughed. The sound echoed wrong in the enclosed space.
 
 ---
 
-The container door opened. Clean air. White light. Everything too bright after two hours in the dark with that neon glow.
+The container door opened. Clean air and White light. After two hours in the dark with that neon glow, this place had been far too bright.
 
 Elise stepped out.
 
-Someone was shouting. A man in uniform. Security. He reached for something at his belt but Elise was faster. Pull the trigger. Thread feeds. Needle punches. Ceramic through his chest. Once. Twice. Three times. Fifteen-centimeter intervals.
+Someone was shouting. A security guard in uniform. He reached for something at his belt but Elise was faster. Pull the trigger. Thread feeds. Needle punches. Ceramic through his chest. Once. Twice. Three times. Fifteen-centimeter intervals.
 
 He fell, then bloomed. His uniform split open and crystalline petals pushed through, translucent and pulsing their own impossible colors. He was laughing, that same laugh Elise had been cackling the whole time. The sounds overlapped like they were coming from different dimensions.
 
@@ -275,19 +275,17 @@ Three times. Head.
 
 Fifteen-centimeter intervals.
 
-The Vera-thing fell. Bloomed. Its body split open and thread poured out. Not blood. Thread. Raw and glowing. It spread across the floor in patterns. Grid formation. Perfect stitches.
+The Vera-thing fell. Bloomed. Its body split open and thread poured out, raw and glowing. It spread across the floor in patterns. Grid formation. Perfect stitches.
 
 "Beautiful work," it whispered with Vera's voice. "Just like your mother used to."
 
 Then it was gone. Just blooms. Just light.
 
-The Station screamed. Hull breach. Multiple sectors. Elise moved toward the central hub. The core. Where all the infrastructure connected. Life support. Air. Water. Power. Gravity.
-
 Lena sat down beside her. "Mama, I'm cold."
 
 "Me too, sweetheart."
 
-The Station shuddered. 5.8 hertz. The same frequency as Earth. Everything screaming together now.
+The Station shuddered - 5.8 hertz - the same frequency as Earth. Everything screaming together now.
 
 And then, the colors started fading. Not all at once, but slowly, like paint washing off in rain. The neon twilight became just darkness. The thread blooms on the walls became just cracks. The pulsing lights became emergency strobes.
 
