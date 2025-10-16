@@ -244,7 +244,7 @@ Her chest tightened.
 
 Another notification: **Your progress has been exceptional. Trust the process.**
 
-"No," she whispered.
+"No." she whispered.
 
 Her hands were shaking, but her mind was suddenly, perfectly clear. She had to delete it. Now.
 
@@ -254,7 +254,7 @@ She pressed down.
 
 Her hand stopped. Frozen mid-motion, thumb a millimeter from the screen. She tried again, pressed harder, but this time, her arm wouldn't move. The muscles locked, like they'd forgotten how to obey her.
 
-"No," she said again, louder.
+"No." she said again, louder.
 
 Her watch buzzed: **Protective protocols engaged. Automatic adjustments in progress.**
 
