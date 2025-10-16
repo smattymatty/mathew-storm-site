@@ -213,11 +213,11 @@ Sisyphus knelt, studying the tracks. The dust pattern. The way the stone still h
 
 Understanding hit Theron's face like a physical blow. "It waited for us to come down."
 
-"Yes."
+"Yes." Sisyphus's voice was flat.
 
 "It wanted us out of the way."
 
-"Yes."
+"Yes." Sisyphus stood slowly, stone dust on his knees. The footprints seemed to mock him. Patient. Methodical. Exactly how he would have planned an escape.
 
 "It was never the threat here. We are. The architects who might stop it, the guards who might slow it, the lieutenant who might organize a response." Sisyphus stood. "It learned patience. Strategy. How to use silence as bait."
 
@@ -241,7 +241,7 @@ The guard beside him reached to steady him.
 
 The pressure plate clicked.
 
-Spears shot from both walls. Horizontal. Chest-height. The kind of trap Daedalus had designed for quick kills in narrow passages.
+Spears shot from both walls. Horizontal and sharp. The kind of trap Daedalus had designed for quick kills in narrow passages.
 
 The spears retracted with mechanical precision. The bodies fell.
 

@@ -6,7 +6,8 @@ import re
 
 
 # Path to writing content
-CONTENT_DIR = Path(__file__).resolve().parent.parent / 'writing_content'
+CONTENT_DIR = Path(__file__).resolve().parent.parent / 'writing_content' / 'labyrinth-of-sisyphus'
+SHORT_STORIES_DIR = Path(__file__).resolve().parent.parent / 'writing_content' / 'short-stories'
 
 
 def estimate_line_count(text, chars_per_line=65):
@@ -114,7 +115,12 @@ def get_chapter_list():
 
 
 def index(request):
-    """Book cover / table of contents landing page."""
+    """Writing dashboard with novels and short stories."""
+    return render(request, 'writing/dashboard.html')
+
+
+def book_cover(request):
+    """Book cover / table of contents for The Labyrinth of Sisyphus."""
     chapters = get_chapter_list()
 
     context = {
@@ -232,3 +238,57 @@ def get_page_htmx(request, chapter_slug, page_num):
     print(f"[DEBUG] Returning page {page_num} of {len(pages)}")
 
     return response
+
+
+def red_shoes(request):
+    """Display the Red Shoes short story."""
+    story_file = SHORT_STORIES_DIR / 'Red Shoes.md'
+
+    if not story_file.exists():
+        raise Http404("Short story not found")
+
+    # Read the markdown content
+    with open(story_file, 'r', encoding='utf-8') as f:
+        raw_markdown = f.read()
+
+    # Calculate word count
+    word_count = len(raw_markdown.split())
+
+    # Render to HTML
+    story_html = render_spellbook_markdown_to_html(raw_markdown)
+
+    context = {
+        'story_title': 'Red Shoes',
+        'story_subtitle': 'Black Mirror inspired story about a productivity app that works a little too well.',
+        'story_content': story_html,
+        'word_count': f"{word_count:,}",  # Format with commas
+    }
+
+    return render(request, 'writing/short_story.html', context)
+
+
+def minimum_viable_apocalypse(request):
+    """Display the Minimum Viable Apocalypse short story."""
+    story_file = SHORT_STORIES_DIR / 'Minimum Viable Apocalypse.md'
+
+    if not story_file.exists():
+        raise Http404("Short story not found")
+
+    # Read the markdown content
+    with open(story_file, 'r', encoding='utf-8') as f:
+        raw_markdown = f.read()
+
+    # Calculate word count
+    word_count = len(raw_markdown.split())
+
+    # Render to HTML
+    story_html = render_spellbook_markdown_to_html(raw_markdown)
+
+    context = {
+        'story_title': 'Minimum Viable Apocalypse',
+        'story_subtitle': 'Corporate satire meets cosmic dread. The apocalypse needs better Q4 projections.',
+        'story_content': story_html,
+        'word_count': f"{word_count:,}",  # Format with commas
+    }
+
+    return render(request, 'writing/short_story.html', context)

@@ -1,10 +1,7 @@
-# Chapter 3 - The Palace Games
+From her chamber window, she counted supply wagons at the distant quarry. Eleven today. Down from seventeen last week. The bleeding had begun.
+Then, she saw them—the architect and his new assistant, returning through the outer gates. Sisyphus of Corinth. Minos had been cryptic about how the man arrived, mentioning only that "arrangements had been made." Whatever those arrangements were, they'd delivered someone who worked without rest, without fear. Someone who didn't belong.
 
-Queen Pasiphaë watched from her chamber window as they erected the scaffold in the courtyard below. The carpenter worked quickly - he'd done this before. Too many times before.
-
-She counted the supply wagons at the distant quarry. Only eleven today, down from seventeen the week before.
-
-Her palm pressed against the cool stone. The vibrations traveled up from below - not settling, not construction. Breathing. The same rhythm that had once moved inside her. Her body remembered what her mind refused.
+Queen Pasiphaë pressed her palm against cool stone, feeling the vibration from below. She knew exactly what it was: breathing. The same rhythm that had once moved inside her. Her body remembered what her mind refused.
 
 Behind her, the door opened without announcement.
 
@@ -28,7 +25,7 @@ Her hand twitched toward the bronze letter opener on her desk, from years of ima
 
 "You're executing a man for trying to leave?"
 
-"I'm executing a traitor for desertion during crisis. There's a difference." He moved toward the window, standing too close. "Unless Your Majesty believes fleeing one's post is acceptable? That would send an interesting message."
+"I'm executing a traitor. There's a difference." He moved toward the window, standing too close. "Unless Your Majesty believes fleeing one's post is acceptable? That would send an interesting message."
 
 The trap was elegant. Defend the harbor master and she admitted the crisis. Condemn him and she enabled Theron's tyranny.
 
@@ -54,7 +51,7 @@ After he left, Lysippe's composure crumbled. "He's using the execution to trap e
 
 "They say the King hasn't slept in weeks. That he visits the lower chambers alone, emerging with blood on his robes. They say Daedalus looks haunted but the foreign architect just... continues. Works without rest, without fear. They say he's not natural." Lysippe paused. "And they say anyone who asks questions ends up missing. Like Thalia."
 
-The scullery maid. Everyone knew where she'd gone. No one said it aloud.
+The curious scullery maid. Everyone knew where she'd gone. No one said it aloud.
 
 "They're executing the harbor master to keep the rest of us here," Pasiphaë said quietly. "Theron knows we're all planning to run. This is him closing the doors."
 
@@ -70,37 +67,39 @@ Pasiphaë watched the scaffold take shape. By the tenth hour, a man would die to
 
 ---
 
-The balcony overlooked the courtyard where 
+The execution balcony jutted from the palace's east wall, designed specifically for public displays. Three council members stood in uneasy silence, summoned by Theron's "invitation" that allowed no refusal.
+
+Commander Asterion kept his steady soldier posture, his eyes fixed on the distant horizon. Beside him, Kleomenes gripped the marble railing with ink-stained fingers, leaving damp prints on the stone. The High Priest Polyidus clutched his prayer beads, the wooden clicking a counterpoint to his muttered recitations.
+
+Below, carpenters made final adjustments to the scaffold.
 
 "His Majesty sends his regrets." Lieutenant Theron stood at the balcony railing, arms crossed. "Affairs of state require his attention below."
 
-The three council members stood in uneasy silence. Commander Asterion kept his eyes fixed on the horizon. Kleomenes gripped the railing, ink-stained fingers leaving prints on stone. The High Priest's prayer beads clicked in rhythm with his muttered recitations.
-
 Below, guards brought out the harbor master. His hands were bound, but he walked steadily. No hood covered his face - Theron wanted everyone to see.
-
-"This is unnecessary," Polyidus said quietly. "The man sought only to-"
-
-"To abandon his post during crisis." Theron moved to stand beside the priest. "To betray his oaths. To flee like a coward."
 
 "His family had already left. A man seeking to reunite with-"
 
-"A man abandoning Crete." Theron's voice hardened. "Tell me, Holy One, what do the scriptures say about duty? About loyalty to one's kingdom?"
+Theron's voice hardened. "Tell me, Holy One, what do the scriptures say about duty? About loyalty to one's kingdom?"
 
 Polyidus's jaw tightened. "They also speak of mercy. Of compassion for-"
 
-"For the faithful, yes. Not for deserters." Theron gestured to the courtyard below where workers had gathered; a forced attendance. "These men remain. They do their duty despite fear, despite hardship. What message does pardoning a deserter send them?"
+"For the faithful, yes. Not for deserters." Theron gestured to the courtyard below where workers had gathered; a forced attendance. "These men remain. What message does pardoning a deserter send them?"
 
 "That we are not savages," Polyidus said. "That Crete still values-"
 
-"Crete values loyalty." Theron turned to face him fully. "Unless you believe desertion should be rewarded? I'm certain His Majesty would be interested in your theological interpretation."
+"Crete values loyalty." Theron turned to face him fully. "Unless you believe treason should be rewarded? I'm certain His Majesty would be interested in your theological interpretation."
 
 Polyidus opened his mouth, then closed it.
 
 "I thought so." Theron looked to Asterion. "Commander? Any military objections to this proceeding?"
 
-Asterion's face remained impassive. His nephew's shipping contracts with Athens sat on Theron's desk; proof enough for execution if Theron chose to use it.
+Asterion had commanded troops for decades. Had earned his scars in honest combat, leading from the front, never asking his soldiers to bleed where he wouldn't.
 
-"None," Asterion said flatly.
+His nephew's shipping contracts with Athens sat on Theron's desk. Evidence of correspondence with enemy merchants. Proof enough for execution if Theron chose to interpret it that way. And Theron would choose. The lieutenant specialized in interpretation.
+
+During his campaigns, Asterion had won because he'd known when to hold position and when to advance. This wasn't that kind of fight. Not yet.
+
+"None," Asterion said, his voice carrying the flatness of a tactical retreat.
 
 "Kleomenes? As treasurer, perhaps you have economic concerns about losing a harbor master?"
 
@@ -122,7 +121,7 @@ Polyidus turned away.
 
 The blade fell.
 
-Someone in the crowd shouted approval - one of Theron's men, planted there. Then another voice joined, and another. Not the whole crowd, but enough. The loyal, the frightened, the opportunistic - all cheering to be seen cheering.
+Someone in the crowd shouted approval. one of Theron's men, planted there. Then another voice joined, and another. Not the whole crowd, but enough. The loyal, the frightened, the opportunistic - all cheering to be seen cheering.
 
 The council members stood frozen. This was theater with a cultivated audience.
 
@@ -158,11 +157,13 @@ He sat, but his posture remained rigid. Watchful.
 
 "I'm listening."
 
-She studied him for a long moment, this man who thought power meant control. Her fingers traced the armrest of her chair - the same motion she used when forcing herself still during court.
+She studied him for a long moment, this man who thought loyalty meant order. Her fingers traced the armrest of her chair - the same motion she used when forcing herself still during court.
 
-She took a deep breath. "Years ago, my husband offended Poseidon. The god's curse fell on me." She watched Theron's face carefully. "The bull from the sea. I tried to resist, but divine curses don't permit resistance. What I gave birth to should never have existed."
+She took a deep breath. "Years ago, my husband offended Poseidon. Stole the god's sacred bull, claimed it as his own." She watched Theron's face carefully. "The curse fell on me. Not him. Me."
 
 Her voice was steady. Calmer than she felt. The anger helped, she'd learned that years ago. Channel it into coldness, into precision. Let it sharpen her words instead of breaking them.
+
+"The bull was Poseidon's," she continued. "And Minos knew it. He chose pride over piety, and when the god's wrath came, it fell on me. On my body. On my children."
 
 "Careful, Majesty." Theron's voice was soft. "Speaking ill of the King-"
 
@@ -171,8 +172,6 @@ Her voice was steady. Calmer than she felt. The anger helped, she'd learned that
 Theron's hand moved to his belt - not for a weapon, but for the small tablet he kept there. Taking notes. "These are serious accusations, Majesty."
 
 She felt the familiar tightness in her chest. The same helpless rage that had defined her marriage, her motherhood, her entire cursed existence on this island. She'd tried so many times to stop this. To warn people. To find someone who would listen.
-
-"They're not accusations. They're confession." She leaned forward. "The thing below is learning, growing stronger. The labyrinth won't hold it forever. When it breaks free-"
 
 "You're suggesting the King knowingly harbors a monster?" Theron's stylus scratched against wax. "That he's built this entire project to contain his... what are you claiming, exactly?"
 

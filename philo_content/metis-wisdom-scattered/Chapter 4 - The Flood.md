@@ -366,10 +366,6 @@ The gradual replacement.
 
 The system optimizing her out.
 
-Not violent consumption. Efficiency consumption.
-
-She was debugging herself out of necessity.
-
 Prometheus's hands clenched. He could warn her. Tell her what the Fates showed him. Describe the scissors, the scattered silver, the throne that poisons.
 
 She wouldn't believe it. Would see love, which WAS real. Would see partnership, which Zeus genuinely wanted.
@@ -424,8 +420,6 @@ The sun cleared the ridge. The victory was complete. The tyrant was fallen. The 
 
 Tomorrow, they would build something beautiful.
 
-Tomorrow, the consumption would begin in earnest.
-
 Same thing, depending on who you asked.
 
 Prometheus watched the dawn and said nothing.
@@ -433,8 +427,6 @@ Prometheus watched the dawn and said nothing.
 Some lessons could only be learned through living them.
 
 One must imagine them happy.
-
-At least for now.
 
 At least for today.
 

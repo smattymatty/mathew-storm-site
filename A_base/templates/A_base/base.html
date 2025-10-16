@@ -117,35 +117,8 @@
               {% sidebar_toc %}
             </div>
           {% endif %}
-          
-          {# Professional Quick Links #}
-          <div class="sb-bg-surface sb-rounded-xl sb-shadow-lg sb-p-6 sb-mb-6 sb-border sb-border-subtle">
-            <h3 class="sb-text-lg sb-font-semibold sb-text-accent sb-mb-4 sb-uppercase sb-tracking-wider" style="font-size: 0.875rem; letter-spacing: 0.05em;">Navigation</h3>
-            <ul class="sb-space-y-3">
-              <li><a href="{% url 'projects:intro' %}" class="sb-flex sb-items-center sb-gap-3 sb-p-2 sb-rounded-lg sb-hover:bg-primary-10 sb-transition-all" data-storm-hover="scale">
-                <span class="sb-text-xl">🚀</span>
-                <span class="sb-font-medium">Projects</span>
-              </a></li>
-              <li><a href="{% url 'tutorials:intro' %}" class="sb-flex sb-items-center sb-gap-3 sb-p-2 sb-rounded-lg sb-hover:bg-secondary-10 sb-transition-all" data-storm-hover="scale">
-                <span class="sb-text-xl">📚</span>
-                <span class="sb-font-medium">Tutorials</span>
-              </a></li>
-              <li><a href="{% url 'blog:intro' %}" class="sb-flex sb-items-center sb-gap-3 sb-p-2 sb-rounded-lg sb-hover:bg-accent-10 sb-transition-all" data-storm-hover="scale">
-                <span class="sb-text-xl">✍️</span>
-                <span class="sb-font-medium">Blog</span>
-              </a></li>
-              <li><a href="{% url 'notes:intro' %}" class="sb-flex sb-items-center sb-gap-3 sb-p-2 sb-rounded-lg sb-hover:bg-warning-10 sb-transition-all" data-storm-hover="scale">
-                <span class="sb-text-xl">📝</span>
-                <span class="sb-font-medium">Notes</span>
-              </a></li>
-              <li><a href="{% url 'philo:intro' %}" class="sb-flex sb-items-center sb-gap-3 sb-p-2 sb-rounded-lg sb-hover:bg-emphasis-10 sb-transition-all" data-storm-hover="scale">
-                <span class="sb-text-xl">🧠</span>
-                <span class="sb-font-medium">Philosophy</span>
-              </a></li>
-            </ul>
-          </div>
-          
-          
+
+
     {% include 'A_base/partials/footer.html' %}
     
     <!-- Storm System Animation Library -->

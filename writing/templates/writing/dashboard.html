@@ -1,0 +1,269 @@
+{% extends "A_base/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="sb-container sb-mx-auto sb-py-16 sb-px-4">
+    <!-- Hero Section -->
+    <div class="sb-max-w-5xl sb-mx-auto sb-text-center sb-mb-16" data-storm="fade-in">
+        <h1 class="sb-text-6xl sb-font-bold sb-text-primary sb-mb-4" data-storm="hero-title">
+            Writing
+        </h1>
+        <p class="sb-text-2xl sb-text-secondary sb-mb-8" data-storm="hero-subtitle" data-storm-delay="300">
+            Stories exploring the absurd, the recursive, and the human condition
+        </p>
+    </div>
+
+    <!-- Novels Section -->
+    <div class="sb-max-w-5xl sb-mx-auto sb-mb-12" data-storm="slide-up" data-storm-delay="400">
+        <button
+            onclick="toggleSection('novels')"
+            class="toggle-button sb-w-full sb-flex sb-justify-between sb-items-center sb-bg-surface sb-rounded-xl sb-shadow-lg sb-p-6 sb-mb-4 sb-border-2 sb-border-primary sb-transition-all sb-cursor-pointer"
+            data-storm-hover="lift"
+            data-storm-click="pulse">
+            <div class="sb-flex sb-items-center sb-gap-4">
+                <span class="sb-text-4xl">📚</span>
+                <div class="sb-text-left">
+                    <h2 class="sb-text-3xl sb-font-bold sb-text-primary">Novels</h2>
+                    <p class="sb-text-secondary">Long-form fiction and philosophical narratives</p>
+                    <p class="sb-text-sm sb-text-accent sb-mt-1 sb-font-semibold">Click to expand ↓</p>
+                </div>
+            </div>
+            <svg id="novels-icon" class="sb-w-6 sb-h-6 sb-text-accent sb-transition-all sb-duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+            </svg>
+        </button>
+
+        <div id="novels-content" class="sb-overflow-hidden sb-transition-all sb-duration-500 sb-max-h-0">
+            <div class="sb-grid sb-grid-cols-1 sb-md:grid-cols-2 sb-gap-6 sb-px-2 sb-pb-4">
+                <!-- The Labyrinth of Sisyphus -->
+                <a href="{% url 'book_cover' %}"
+                   class="sb-card sb-p-6 sb-shadow-lg sb-transition-all"
+                   data-storm="fade-in"
+                   data-storm-delay="100"
+                   data-storm-hover="scale">
+                    <div class="sb-flex sb-items-start sb-gap-4">
+                        <span class="sb-text-5xl">🌀</span>
+                        <div>
+                            <h3 class="sb-text-2xl sb-font-bold sb-text-primary sb-mb-2">
+                                The Labyrinth of Sisyphus
+                            </h3>
+                            <p class="sb-text-secondary sb-mb-3">
+                                A reimagining of Greek mythology where Sisyphus trades his boulder for a new eternal task: building the most perfect prison ever conceived.
+                            </p>
+                            <div class="sb-flex sb-items-center sb-gap-2">
+                                <span class="sb-badge sb-badge-primary">In Progress</span>
+                                <span class="sb-text-sm sb-text-muted">18 Chapters</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Coming Soon placeholder -->
+                <div class="sb-card sb-p-6 sb-shadow-lg sb-opacity-60">
+                    <div class="sb-flex sb-items-start sb-gap-4">
+                        <span class="sb-text-5xl sb-opacity-50">📖</span>
+                        <div>
+                            <h3 class="sb-text-2xl sb-font-bold sb-text-muted sb-mb-2">
+                                More Novels Coming Soon
+                            </h3>
+                            <p class="sb-text-secondary sb-mb-3">
+                                Future works exploring themes of absurdism, technology, and human nature.
+                            </p>
+                            <span class="sb-badge sb-badge-secondary">Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Short Stories Section -->
+    <div class="sb-max-w-5xl sb-mx-auto sb-mb-12" data-storm="slide-up" data-storm-delay="600">
+        <button
+            onclick="toggleSection('stories')"
+            class="toggle-button sb-w-full sb-flex sb-justify-between sb-items-center sb-bg-surface sb-rounded-xl sb-shadow-lg sb-p-6 sb-mb-4 sb-border-2 sb-border-primary sb-transition-all sb-cursor-pointer"
+            data-storm-hover="lift"
+            data-storm-click="pulse">
+            <div class="sb-flex sb-items-center sb-gap-4">
+                <span class="sb-text-4xl">✍️</span>
+                <div class="sb-text-left">
+                    <h2 class="sb-text-3xl sb-font-bold sb-text-primary">Short Stories</h2>
+                    <p class="sb-text-secondary">Bite-sized explorations of ideas and themes</p>
+                    <p class="sb-text-sm sb-text-accent sb-mt-1 sb-font-semibold">Click to expand ↓</p>
+                </div>
+            </div>
+            <svg id="stories-icon" class="sb-w-6 sb-h-6 sb-text-accent sb-transition-all sb-duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+            </svg>
+        </button>
+
+        <div id="stories-content" class="sb-overflow-hidden sb-transition-all sb-duration-500 sb-max-h-0">
+            <div class="sb-grid sb-grid-cols-1 sb-md:grid-cols-2 sb-lg:grid-cols-3 sb-gap-4 sb-px-2 sb-pb-4">
+                <!-- Red Shoes -->
+                <a href="{% url 'red_shoes' %}"
+                   class="sb-card sb-p-4 sb-shadow-lg sb-transition-all"
+                   data-storm="fade-in"
+                   data-storm-delay="100"
+                   data-storm-hover="scale">
+                    <div class="sb-text-center">
+                        <span class="sb-text-5xl sb-mb-3 sb-block">👟</span>
+                        <h4 class="sb-text-xl sb-font-bold sb-text-primary sb-mb-2">
+                            Red Shoes
+                        </h4>
+                        <p class="sb-text-sm sb-text-secondary sb-mb-3">
+                            Black Mirror inspired story about a productivity app that works a little too well.
+                        </p>
+                        <span class="sb-badge sb-badge-accent">Complete</span>
+                    </div>
+                </a>
+
+                <!-- Minimum Viable Apocalypse -->
+                <a href="{% url 'minimum_viable_apocalypse' %}"
+                   class="sb-card sb-p-4 sb-shadow-lg sb-transition-all"
+                   data-storm="fade-in"
+                   data-storm-delay="200"
+                   data-storm-hover="scale">
+                    <div class="sb-text-center">
+                        <span class="sb-text-5xl sb-mb-3 sb-block">🔥</span>
+                        <h4 class="sb-text-xl sb-font-bold sb-text-primary sb-mb-2">
+                            Minimum Viable Apocalypse
+                        </h4>
+                        <p class="sb-text-sm sb-text-secondary sb-mb-3">
+                            Corporate satire meets cosmic dread. The apocalypse needs better Q4 projections.
+                        </p>
+                        <span class="sb-badge sb-badge-accent">Complete</span>
+                    </div>
+                </a>
+
+                <!-- Coming Soon placeholder -->
+                <div class="sb-card sb-p-4 sb-shadow-lg sb-opacity-60 sb-text-center">
+                    <span class="sb-text-4xl sb-opacity-50 sb-mb-2 sb-block">📝</span>
+                    <h4 class="sb-text-lg sb-font-semibold sb-text-muted sb-mb-2">
+                        More Coming Soon
+                    </h4>
+                    <p class="sb-text-sm sb-text-secondary">
+                        Additional short stories in development
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Writing -->
+    <div class="sb-max-w-5xl sb-mx-auto sb-mt-16 sb-text-center" data-storm="fade-in" data-storm-delay="800">
+        <div class="sb-card sb-p-8 sb-shadow-lg">
+            <p class="sb-text-lg sb-text-secondary sb-mb-4">
+                These stories explore themes of absurdism, recursion, technology, and the human condition.
+                They're deeply connected to my essays on
+                <a href="/philo/the-recursive-absurd/" class="sb-link">The Recursive Absurd</a>
+            </p>
+            <p class="sb-text-sm sb-text-muted sb-italic">
+                Works in progress. Updates and revisions ongoing.
+            </p>
+        </div>
+    </div>
+</div>
+
+<script>
+function toggleSection(sectionName) {
+    const content = document.getElementById(`${sectionName}-content`);
+    const icon = document.getElementById(`${sectionName}-icon`);
+    const button = icon.closest('button');
+    const expandText = button.querySelector('.sb-text-sm');
+
+    const isOpen = content.classList.contains('open');
+
+    if (isOpen) {
+        // Close - remove open class, CSS handles animation
+        content.classList.remove('open');
+        content.style.maxHeight = '0px';
+
+        icon.style.transform = 'rotate(0deg)';
+        expandText.textContent = 'Click to expand ↓';
+        button.classList.remove('active');
+    } else {
+        // Open - add open class, CSS handles animation
+        content.style.maxHeight = content.scrollHeight + 'px';
+        content.classList.add('open');
+
+        icon.style.transform = 'rotate(180deg)';
+        expandText.textContent = 'Click to collapse ↑';
+        button.classList.add('active');
+
+        // Re-trigger Storm animations for items inside
+        if (window.storm && window.storm.reAnimateElement) {
+            setTimeout(() => {
+                content.querySelectorAll('[data-storm]').forEach(el => {
+                    window.storm.reAnimateElement(el);
+                });
+            }, 400);
+        }
+    }
+}
+
+// Optional: Auto-open sections on page load
+document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(() => {
+        toggleSection('novels');
+    }, 800);
+    setTimeout(() => {
+        toggleSection('stories');
+    }, 1000);
+});
+</script>
+
+<style>
+/* Smooth transitions for content - CSS ONLY */
+#novels-content, #stories-content {
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-20px);
+    overflow: hidden;
+    transition: max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+                opacity 0.4s ease-in-out 0.1s,
+                transform 0.4s ease-in-out 0.1s;
+}
+
+#novels-content.open, #stories-content.open {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Toggle button styling */
+.toggle-button {
+    cursor: pointer;
+    position: relative;
+}
+
+.toggle-button:hover {
+    background-color: var(--sb-primary-10, rgba(79, 143, 186, 0.1)) !important;
+    border-color: var(--sb-accent, #7fa5bd) !important;
+    box-shadow: 0 8px 24px rgba(79, 143, 186, 0.2) !important;
+    transform: translateY(-2px) !important;
+}
+
+.toggle-button:active {
+    transform: scale(0.98) !important;
+}
+
+.toggle-button.active {
+    border-color: var(--sb-accent, #7fa5bd) !important;
+    background-color: var(--sb-primary-10, rgba(79, 143, 186, 0.05)) !important;
+}
+
+/* Icon animation on hover */
+.toggle-button:hover svg {
+    transform: scale(1.15) !important;
+}
+
+/* Expand text pulse animation */
+@keyframes pulse-text {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.6; }
+}
+
+.toggle-button:hover .sb-text-sm {
+    animation: pulse-text 1.5s ease-in-out infinite;
+}
+</style>
+{% endblock %}

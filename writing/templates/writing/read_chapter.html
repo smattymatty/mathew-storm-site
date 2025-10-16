@@ -2,21 +2,27 @@
 {% load static %}
 
 {% block content %}
-<div class="sb-w-full sb-mx-auto sb-py-8 sb-pr-4 md:sb-px-8 sb-max-w-6xl">
-    <!-- Top Navigation -->
-    <div class="sb-flex sb-flex-col md:sb-flex-row sb-justify-between sb-items-center sb-gap-4 sb-mb-8" data-storm="fade-in">
-        <a href="{% url 'index' %}" class="sb-btn sb-btn-ghost sb-btn-sm" data-storm-hover="lift">
-            ← Back to Contents
+<div class="sb-w-full sb-mx-auto sb-py-4 sb-pr-4 md:sb-px-8 sb-max-w-6xl">
+    <!-- Back to Book Cover -->
+    <div class="sb-mb-6" data-storm="fade-in">
+        <a href="{% url 'book_cover' %}" class="sb-btn sb-btn-ghost sb-btn-sm" data-storm-hover="lift">
+            ← Back to Book Cover
         </a>
+    </div>
 
-        <!-- Chapter Navigation -->
-        <div class="sb-flex sb-items-center sb-gap-2 sb-flex-wrap sb-justify-center">
+    <!-- Top Navigation - Centered -->
+    <div class="sb-grid sb-grid-cols-3 sb-items-center sb-gap-4 sb-mb-8" data-storm="fade-in">
+        <!-- Left: Empty for balance -->
+        <div></div>
+
+        <!-- Center: Chapter Navigation -->
+        <div class="sb-flex sb-items-center sb-gap-2 sb-justify-center">
             {% if prev_chapter %}
             <a href="{% url 'read_chapter' prev_chapter.slug %}"
                class="sb-btn sb-btn-secondary sb-btn-sm"
                data-storm-hover="lift"
                title="{{ prev_chapter.title }}">
-                ← Prev
+                ←
             </a>
             {% endif %}
 
@@ -35,10 +41,13 @@
                class="sb-btn sb-btn-secondary sb-btn-sm"
                data-storm-hover="lift"
                title="{{ next_chapter.title }}">
-                Next →
+                →
             </a>
             {% endif %}
         </div>
+
+        <!-- Right: Empty for balance -->
+        <div></div>
     </div>
 
     <!-- Chapter Title -->
@@ -62,7 +71,7 @@
 
         <!-- Page Content -->
         <div id="page-container"
-             class="book-page"
+             class="book-page{% if current_page == 1 %} first-page{% endif %}"
              data-storm="fade-in">
             <div id="page-content" class="sb-prose sb-prose-lg">
                 {{ page_content|safe }}
@@ -145,10 +154,10 @@
                 document.getElementById('page-content').innerHTML = html;
                 updatePageNumber(newPage);
 
-                // Scroll to top
-                const pageContainer = document.getElementById('page-container');
-                if (pageContainer) {
-                    pageContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                // Scroll to top (to book-reader to show progress bar)
+                const bookReader = document.querySelector('.book-reader');
+                if (bookReader) {
+                    bookReader.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
             })
             .catch(error => console.error('Error jumping to page:', error));
@@ -168,6 +177,16 @@
         // Update progress bar
         const progressPercent = (newPage / TOTAL_PAGES) * 100;
         document.getElementById('progress-bar').style.width = progressPercent + '%';
+
+        // Update first-page class for drop cap
+        const pageContainer = document.getElementById('page-container');
+        if (pageContainer) {
+            if (newPage === 1) {
+                pageContainer.classList.add('first-page');
+            } else {
+                pageContainer.classList.remove('first-page');
+            }
+        }
 
         // Update button states and URLs
         const prevBtn = document.getElementById('prev-page-btn');
@@ -230,10 +249,10 @@
                 updatePageNumber(newPage);
             }
 
-            // Scroll to top of page container
-            const pageContainer = document.getElementById('page-container');
-            if (pageContainer) {
-                pageContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            // Scroll to top (to book-reader to show progress bar)
+            const bookReader = document.querySelector('.book-reader');
+            if (bookReader) {
+                bookReader.scrollIntoView({ behavior: 'smooth', block: 'start' });
             }
         }
     });
@@ -282,6 +301,17 @@
 
     #page-content p:first-of-type {
         text-indent: 0;
+    }
+
+    /* Drop cap - only on first page */
+    .first-page #page-content p:first-of-type::first-letter {
+        font-size: 3.5rem;
+        font-weight: bold;
+        float: left;
+        line-height: 1;
+        margin-right: 0.5rem;
+        margin-top: 0.1rem;
+        color: var(--sb-primary, #4f8fba);
     }
 
     #page-content h1,

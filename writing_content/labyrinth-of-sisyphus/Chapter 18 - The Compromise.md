@@ -318,6 +318,6 @@ The question was clear: You'll come? You'll sing?
 
 "Every day," she promised. "I swear it."
 
-The massive head bowed. Not submission. Agreement.
+The massive head bowed in agreement:
 
 Choice.

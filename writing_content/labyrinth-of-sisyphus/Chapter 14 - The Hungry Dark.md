@@ -74,8 +74,6 @@ She paused. Outside, another skirmish erupted and died.
 
 ---
 
-
-
 "You're not sleeping either," Nikias asked his young colleague.
 
 Alexios sat against the tower wall, staring at nothing. "Can't. Every time I close my eyes, I hear it."
@@ -84,7 +82,7 @@ Alexios sat against the tower wall, staring at nothing. "Can't. Every time I clo
 
 "The silence. The breathing stopped yesterday. You must have noticed."
 
-Nikias had noticed. That constant rhythm from below, present for three years, had gone quiet sometime around midday. Like a heartbeat stopping.
+Nikias had noticed. That constant rhythm from below, present for years, had gone quiet sometime around midday. Like a heartbeat stopping.
 
 "Maybe it died," Alexios offered. No hope in his voice. Just words to fill the silence.
 
@@ -120,13 +118,9 @@ Thalia glanced toward the door where Lysippe had withdrawn. Understanding why th
 
 "But after..." The Queen's expression softened slightly. "After, when they brought him to me, I tried. I raised him for a year. Held him. Fed him. Sang to him."
 
-"Sang to him," Thalia repeated softly. Recognition in her voice.
+"Sang to him," Thalia repeated softly. Recognition in her voice. "The lullaby. When the Minotaur..." Thalia stopped. "When it calmed. There was a sound. Like humming. I thought I imagined it."
 
-"Yes." The Queen looked at her. "You heard it, didn't you? In the labyrinth."
-
-"The lullaby. When the Minotaur..." Thalia stopped. "When it calmed. There was a sound. Like humming. I thought I imagined it."
-
-"You didn't." The Queen set the brooch down carefully. "He remembered. After all these years in the dark, he remembered his mother's voice."
+"You didn't." The Queen set the brooch down carefully. "He remembered. After all these years in the dark, he remembered his mother's song."
 
 Silence. Just the distant sounds of the palace at war with itself.
 
@@ -136,7 +130,7 @@ Silence. Just the distant sounds of the palace at war with itself.
 
 "So he built a prison."
 
-"He built a tomb. Daedalus designed it, and Minos took my chil - one year old, barely able to walk - and locked him in the dark." Her voice cracked slightly. "Said it was mercy. Said it was for safety. For Crete."
+"He built a tomb. Daedalus designed it, and Minos took my child - one year old, barely able to walk - and locked him in the dark." Her voice cracked slightly. "Said it was mercy. Said it was for safety. For Crete."
 
 "But it was to hide his shame."
 
@@ -158,7 +152,7 @@ The Queen looked up. "Knew what?"
 
 The Queen was silent for a long time. Outside, the palace bled and no one came to help. Inside, two women sat with the weight of impossible questions.
 
-Finally: "I don't know. But the fact that you're alive suggests it might be."
+She finally answered: "I don't know. But the fact that you're alive suggests it might be."
 
 ---
 
@@ -173,10 +167,6 @@ Asterion looked at the dead boy. At the warehouse. At the six other bodies - fou
 "Congratulations," he said flatly.
 
 Hemon shifted. "Sir, the men are asking-"
-
-"What? What are they asking?" Asterion's voice rose. "If dying over empty buildings has meaning? If I have a plan beyond bleeding Theron slowly? If any of this accomplishes anything?"
-
-"Sir-"
 
 "I never wanted this." The words came out before he could stop them. "I called them mad. Both of them. The King and his lieutenant. And now I'm leading men to die for corridors and courtyards because the alternative is..." He gestured at the palace. "Is letting them finish destroying everything."
 
@@ -197,8 +187,6 @@ Asterion looked at the dead boy again. Tried to remember his name. Couldn't.
 He walked away, leaving Hemon to organize the body detail.
 
 Behind him, soldiers gathered around the warehouse they'd just won. Three sacks of grain. A broken cart wheel.
-
-And outside the palace walls, ships waited in the harbor, ready to flee.
 
 ---
 

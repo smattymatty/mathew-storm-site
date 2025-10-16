@@ -248,13 +248,15 @@ The center of camp was marked by a large command tent, and the shouting was loud
 
 "It would be suicide to attack now!" That was Poseidon's voice, carrying the arrogance of someone who'd never had to question his own judgment.
 
-"Then what do you suggest?" Hades, colder, more controlled. "Wait until we starve?"
+"What do you suggest?" Hades, colder, more controlled. "Wait until we starve?"
 
 "We need to consolidate, fall back to-"
 
-"Fall back to where? We've already-"
+"To where? We've already-"
 
-Hera's voice, trying to mediate: "If we could just agree on-"
+Zeus's voice, trying for authority: "Enough."
+
+They did not stop. They never did.
 
 Metis stopped outside the tent. Her group formed up behind her, calm and organized against the backdrop of chaos. Pallas steady, Styx skeptical but ready, Hecate practically vibrating with excitement, Kleos trying to make himself small.
 
@@ -262,7 +264,7 @@ Metis stopped outside the tent. Her group formed up behind her, calm and organiz
 
 Then she pushed through the tent flap.
 
-The war council was exactly what she'd expected: seven or eight gods clustered around a table covered in maps that no one was actually looking at. Poseidon and Hades on opposite sides, already entrenched in their positions. Hera between them, exhausted. And at the head of the table-
+The war council was exactly what she'd expected: seven or eight gods clustered around a table covered in maps that no one was actually looking at. Poseidon and Hades on opposite sides, already entrenched in their positions. Younger, unknown deities between them, exhausted. And at the head of the table-
 
 Zeus.
 

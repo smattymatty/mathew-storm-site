@@ -158,11 +158,11 @@ Sisyphus didn't struggle. Just looked at him. "The northwestern passage-"
 
 Theron's blade wavered.
 
-Because what did you do with someone who'd already died? Who came back anyway? Who stood there bleeding and talked about fucking passages like violence was just... inconvenient?
+What did you do with someone who'd already died? Who stood their bleeding and talked about fixing passages like violence was just... inconvenient?
 
 He released Sisyphus. Spun to Daedalus instead. "Your son. Icarus. Fourteen years old. One word from me and-"
 
-"The passage will collapse in two days," Sisyphus interrupted. Not loud. Not threatening. Just stating fact. "Servants use those corridors. Maybe twenty people die. Maybe more."
+"The passage will collapse in two days," Sisyphus interrupted. "Maybe twenty people die. Maybe more."
 
 "Are you threatening-"
 
@@ -182,11 +182,9 @@ His sword felt heavy. Pointless.
 
 "You're insane," Theron said.
 
-Sisyphus picked up his stylus. "The reinforcement calculations..."
+Sisyphus picked up his stylus, and got back to work.
 
-Not answering. Not arguing. Just... working.
-
-Theron's hand was shaking. Not from rage. From something worse.
+Theron's hand was shaking. From something worse than rage.
 
 He sheathed his sword.
 

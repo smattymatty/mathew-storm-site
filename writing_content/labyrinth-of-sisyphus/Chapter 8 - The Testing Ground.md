@@ -282,10 +282,8 @@ The scream came again. Weaker. From somewhere ahead and to the right.
 
 The passage forward was clear. Dark stone descending deeper into sections he knew how to navigate. Patterns he'd learned. Rhythm he understood.
 
-The Minotaur's breathing echoed closer now, moving toward the scream.
-
 Another scream. Barely a sound. Someone was dying slowly in the dark.
 
 Survival lay straight ahead.
 
-Then he turned around, toward the sound.
+He turned toward the sound.

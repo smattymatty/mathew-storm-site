@@ -3,6 +3,13 @@
 
 {% block content %}
 <div class="sb-container sb-mx-auto sb-py-16 sb-px-4">
+    <!-- Back to Writing Dashboard -->
+    <div class="sb-mb-8" data-storm="fade-in">
+        <a href="{% url 'index' %}" class="sb-btn sb-btn-ghost sb-btn-sm" data-storm-hover="lift">
+            ← Back to Writing
+        </a>
+    </div>
+
     <!-- Book Cover -->
     <div class="sb-max-w-4xl sb-mx-auto sb-text-center" data-storm="fade-in">
         <h1 class="sb-text-6xl sb-font-bold sb-text-primary sb-mb-4" data-storm="hero-title">
@@ -13,8 +20,6 @@
         </p>
 
         <div class="sb-prose sb-prose-lg sb-mx-auto sb-mb-12" data-storm="fade-in" data-storm-delay="600">
-            <p>A reimagining of Greek mythology where Sisyphus—condemned to eternal meaningless labor—is reassigned from his boulder to assist the architect Daedalus in building the Minotaur's labyrinth.</p>
-
             <p>After millennia of pushing his boulder up a mountain, Sisyphus finds himself recruited for a new eternal task: helping to design the most perfect prison ever conceived. But as he works alongside the tormented architect, he begins to see that the labyrinth is more than just a maze—it's a living system that learns, adapts, and evolves.</p>
         </div>
 
@@ -42,7 +47,7 @@
         <div class="sb-mb-8" data-storm="slide-up" data-storm-delay="200">
             <h3 class="sb-text-xl sb-font-semibold sb-mb-4 sb-text-primary">Part One: The Tower</h3>
             <div class="sb-grid sb-grid-cols-1 sb-gap-3">
-                {% for chapter in chapters|slice:":6" %}
+                {% for chapter in chapters|slice:":7" %}
                 <a href="{% url 'read_chapter' chapter.slug %}"
                    class="sb-card sb-p-4 sb-flex sb-justify-between sb-items-center"
                    data-storm-hover="scale">
@@ -57,7 +62,7 @@
         <div class="sb-mb-8" data-storm="slide-up" data-storm-delay="400">
             <h3 class="sb-text-xl sb-font-semibold sb-mb-4 sb-text-primary">Part Two: The Labyrinth</h3>
             <div class="sb-grid sb-grid-cols-1 sb-gap-3">
-                {% for chapter in chapters|slice:"6:12" %}
+                {% for chapter in chapters|slice:"7:12" %}
                 <a href="{% url 'read_chapter' chapter.slug %}"
                    class="sb-card sb-p-4 sb-flex sb-justify-between sb-items-center"
                    data-storm-hover="scale">

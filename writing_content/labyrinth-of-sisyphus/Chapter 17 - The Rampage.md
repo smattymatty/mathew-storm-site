@@ -12,7 +12,7 @@ Sisyphus hit the courtyard at full speed, momentum carrying him forward three st
 
 He stopped.
 
-The eastern wall was rubble. Just... gone. Stone that had stood for generations reduced to scattered debris, dust still hanging in the air. The violence of it was breathtaking, not the careful demolition of engineering but raw force applied without precision.
+The eastern wall was rubble. Just... gone. The violence of it was breathtaking, not the careful demolition of engineering but raw force applied without precision.
 
 And the bodies.
 
@@ -20,7 +20,7 @@ Three of them. Maybe four,it was hard to tell. Torn apart with the efficiency of
 
 Sisyphus's legs gave out.
 
-He dropped to his knees in the courtyard, staring at the carnage. At the blood soaking into stone. At the weapons scattered uselessly. At the two sacks of grain split open and trampled, grain mixing with blood and dust into paste.
+He dropped to his knees in the courtyard, staring at the carnage. At the blood soaking into stone. At the weapons scattered uselessly. At the two sacks of grain split open and trampled.
 
 They'd been fighting over grain.
 
@@ -28,7 +28,7 @@ And something starving had found them.
 
 The thought came clear and sharp: This is my fault.
 
-The handholds. The modifications. The mercy he'd coded into stone. Every choice he'd made to give tributes a chance, to teach the Minotaur patience, to show it that compassion mattered—
+The handholds. The modifications. The mercy he'd coded into stone. Every choice he'd made to give tributes a chance, to teach the Minotaur patience, to show it that compassion mattered-
 
 All of it had led here.
 
@@ -42,7 +42,7 @@ But those were just stones. Just him. Just failure that hurt no one but himself.
 
 This was different.
 
-These were people. Dead because he'd taught a monster to wait. Dead because he'd been so convinced mercy mattered that he'd-
+These were people. Dead because he'd taught a monster how to wait. Dead because he'd been so convinced that mercy mattered more than-
 
 "Sisyphus." Daedalus's hand on his shoulder. Firm. "Look at me."
 
@@ -84,7 +84,7 @@ He turned fully to Sisyphus, and there was something almost manic in his eyes.
 
 "An architect," Sisyphus finished quietly.
 
-"YES." Daedalus gripped his shoulders. "Everything you taught it, patience, precision, respect for good work, it LEARNED. It's not just escaping. It's becoming something."
+"YES." Daedalus gripped his shoulders. "Everything you taught it, patience, precision, respect for good work, it learned. It's not just escaping. It's becoming something."
 
 Sisyphus looked at the bodies again. The blood. The violence.
 
@@ -94,7 +94,7 @@ Sisyphus looked at the bodies again. The blood. The violence.
 
 "Then how-"
 
-"We're not responsible for what it was. But for what it's BECOMING." Daedalus pulled him to his feet. "The door, Sisyphus. It preserved the door. That's choice. That's growth."
+"We're not responsible for what it was. But for what it's becoming." Daedalus pulled him to his feet. "The door, Sisyphus. It preserved the door. That's choice. That's growth."
 
 Behind them, Theron was screaming orders at his guards.
 
@@ -114,7 +114,7 @@ Then something shifted in his expression. The panic receding. Calculation return
 
 "Lieutenant?" One of the guards looked hopeful. Desperate for someone to tell them what to do.
 
-"The beast is loose. Inside the palace." Theron's voice steadied as he spoke, as the plan formed. "Asterion's forces outside don't know. The King and Queen-" He stopped. "They're unprotected. The royal guard is scattered. The palace is chaos."
+"The beast is loose. Inside the palace." Theron's voice steadied as he spoke, as the plan formed. "Asterion's forces outside don't know. The King and Queen-" He stopped. "They're unprotected. Their royal legion is scattered. The palace is chaos."
 
 Sisyphus saw it happen. Watched Theron's mind pivot from containment to opportunity. From fear to ambition.
 
@@ -140,7 +140,7 @@ Theron laughed. "Why? So you can apologize to the corpses?"
 
 "So I can try to stop you from making this worse."
 
-"Worse?" Theron's laugh was ugly now. "Look around, architect. This IS worse. And it's YOUR doing. Your handholds. Your mercy. Your-" He stopped. Breathed. "But you're right. You should come. You built it. You can help contain it."
+"Worse?" Theron's laugh was ugly now. "Look around, architect. This IS worse. And it's YOUR doing. Your handholds. Your mercy. Your-" He stopped. Breathed. "But you're right. You should come. You taught it. You can help contain it."
 
 Theron started toward the palace entrance. Sword drawn now. Back straight. Playing the role of hero even though everyone watching knew better.
 
@@ -180,11 +180,11 @@ Again.
 
 The palace halls were beautiful.
 
-The Minotaur hadn't expected that. In the labyrinth, everything was functional. Passages built to contain, to confuse, to trap. Even the Minotaur's own work, sophisticated as it had become, served only purpose.
+The Minotaur hadn't expected that. In the labyrinth, everything was functional. Passages built to contain, to confuse, to trap. Even the Minotaur's own work, sophisticated as it had become, still served functional purpose.
 
 But here. Here was different.
 
-Columns carved with spirals that served no structural purpose. Mosaics on walls depicting dolphins, octopi, waves frozen in stone. Frescoes showing bulls leaping, dancers moving, life captured in pigment and plaster.
+Columns carved with spirals. Mosaics on walls depicting dolphins, octopi, waves frozen in stone. Frescoes showing bulls leaping, dancers moving, life captured in pigment and plaster.
 
 Daedalus's work. All of it.
 
@@ -210,7 +210,7 @@ The limping one. Small. Terrified. With a leg bound in splints that-
 
 Memory crashed through. Not clear. Fragmented. Stone passages. Breathing. The girl dying. The architect who - who had-
 
-The hunger returned. Not the desperate starvation from before. Something else. Something about patterns incomplete, about problems unsolved, about-
+The hunger returned. Not the desperate starvation from before. Something else. Something about patterns incomplete, about problems unsolved.
 
 The rage mixed with it. Confusion. This girl shouldn't be here. Should be dead or gone or still below where things made SENSE where the rules were simple where-
 
@@ -230,9 +230,7 @@ They were gone. Through another passage. Deeper into the maze.
 
 The Minotaur stopped in the wreckage.
 
-Looked at the destroyed doorframe. At splinters scattered across stone. At beauty broken because hunger and confusion had overridden thought.
-
-Wrong. This was wrong. The door had been good work. Had deserved preservation. Had-
+Wrong. This was wrong. The door had been good work. Had deserved preservation.
 
 But the girl. The memory. The incomplete pattern that needed - what? What did it need?
 
@@ -242,7 +240,7 @@ Singing.
 
 The Minotaur turned.
 
-A woman stood at the end of the hall. Not running. Not hiding. Just standing there, small and fragile, facing something that had just torn through a door.
+A woman stood at the end of the hall. She didn't run or hide like the others, just standing there, facing something that had torn through a door.
 
 Singing.
 
@@ -254,7 +252,7 @@ The rage surged. She was APPROACHING. Prey didn't approach. Prey ran or fought o
 
 But the singing. The melody wrapping around the rage, not stopping it but complicating it. Making it harder to act on pure instinct.
 
-The woman's face. Something about her face. About the way she looked at him. Not with fear exactly. With something else. Something the Minotaur couldn't name because nothing in the labyrinth had ever looked at it like-
+The woman's face. Something about her face. About the way she looked at him. With something other than the fear it was used to. Something the Minotaur couldn't name because nothing in the labyrinth had ever looked at it like-
 
 Doors crashed open.
 
@@ -264,13 +262,13 @@ Men in armor. A man at the front with a sword, face twisted with false courage.
 
 He charged.
 
-The interruption crystallized the rage into something simple again. Threat. Response. No confusion here. Just-
+The interruption crystallized the rage into something simple again. Threat. Response. No confusion here.
 
 The Minotaur's arm moved.
 
 A swipe. Casual. The way you'd brush debris off a work surface.
 
-The man hit the wall. Skull cracking. Blood. Body sliding down leaving red streaks. Settling into stillness. The mouth that once shouted orders, now silent against stone.
+The man hit the wall. Skull cracking. Blood and body sliding down leaving red streaks. Settling into stillness. The mouth that once shouted orders, now silent against stone.
 
 The death barely registered. The Minotaur's attention already back on the woman, on the singing that had stopped, on the-
 
@@ -278,7 +276,7 @@ Another man appeared. Running between them. Arms spread. No weapon.
 
 The architect.
 
-The one who'd carved handholds. Who'd faced death in the feeding chamber. Who'd spoken about mercy mattering, about choices, about—
+The one who'd carved handholds. Who'd faced death in the feeding chamber. Who'd spoken about mercy mattering, about choices, about - wait-
 
 He'd DIED. The Minotaur remembered. Remembered the ribs breaking under pressure. Remembered studying the body afterward, trying to understand why someone would sacrifice themselves for another. Remembered the confusion of it.
 
@@ -286,7 +284,7 @@ But here he was. Alive. Standing. Impossible.
 
 The confusion hit like physical force.
 
-Dead things didn't return. The labyrinth taught that lesson clearly. What died stayed dead. Tributes came, tributes died, tributes stayed dead. That was the pattern. That was the RULE.
+Dead things didn't return. The labyrinth taught that lesson clearly. What died stayed dead. Tributes came, tributes died, tributes stayed dead. That was the pattern. That was the rule.
 
 But this one had broken it.
 
@@ -294,7 +292,7 @@ And the confusion about broken rules always led to-
 
 The rage surged. Hot. Simple. Better than confusion. Rage made sense. Rage had direction.
 
-"Remember me?!" the man shouted. "I'm the one-"
+"Remember me?!" the architect shouted. "I'm the one-"
 
 "STOP, YOU FOOL!" The woman's voice cut through like a blade. "NOW IS NOT THE TIME FOR YOUR USELESS HEROICS!"
 
@@ -304,13 +302,9 @@ The man froze. Looked back at her. Hurt and confusion on his face.
 
 "I don't need SAVING!" Her voice sharp. Commanding. "Move! NOW!"
 
-The architect stood there. Just... stood there. The Minotaur could see him processing. Watching him understand something. Watching the hurt turn to comprehension turn to-
+The architect stood there. Just... stood there. The Minotaur could see him processing. Watching him understand something. Watching the hurt turn to comprehension turn to acceptance.
 
-Acceptance.
-
-He stepped aside. Slowly. Arms lowering. No resistance. No argument. Just... surrender.
-
-But not the surrender of defeat. Something else. Something that looked like-
+He stepped aside. Slowly. Arms lowering. No resistance. No argument. Just...
 
 Trust. The Minotaur did not recognize it.
 
@@ -318,7 +312,7 @@ The confusion doubled. Tripled.
 
 And he was looking at the Minotaur now. Direct. Steady. The same look from the feeding chamber. Like seeing something that mattered instead of something to fear.
 
-The rage built higher. Hotter. The confusion feeding it. Too many patterns broken. Too many rules violated. The dead returning. The prey protecting. The surrender without defeat. None of it made SENSE and when things didn't make sense the only answer was-
+The rage built higher. Hotter. The confusion feeding it. Too many patterns broken. Too many rules violated. The dead returning. The prey protecting. The surrender without defeat. None of it made sense.
 
 The woman stepped forward.
 
@@ -334,7 +328,7 @@ The cloth fell away.
 
 Gold caught lamplight.
 
-A brooch. Shaped like a bull. Old. Worn smooth from years of handling. Simple. Beautiful. Perfect.
+A brooch. Shaped like a bull. Old. Worn smooth from years of handling.
 
 She held it out. Not as offering. As... recognition. As proof of something. As-
 

@@ -170,10 +170,9 @@ As the guards prepared to leave, Daedalus spoke, his voice barely above a whispe
 
 Nikias paused at the door. "That thing down there, when it's done learning from us, what will it build?"
 
+Sisyphus was quiet. He'd spent eternity learning how systems evolve, how they turn compliance into choice. "Better versions of us," he said finally. "Better teachers. Better builders. Better prisoners." His voice went quieter.
 
-Sisyphus was quiet. He'd spent eternity learning how systems evolve, how they turn compliance into choice. "Better versions of us," he said finally. "Better teachers. Better builders. Better prisoners." His voice went quieter. "Until everyone's building their own cage, thinking it was their idea."
-
-The full horror of what they were creating rose in his mind - prisons that would outlast stone, chains that would bind through choice rather than force, a kind of captivity so perfect that those trapped would defend their cages. But these thoughts were too vast, too terrible to speak aloud.
+The full horror of what they were creating rose in his mind - but these thoughts were too vast, too terrible to speak aloud.
 
 The guards departed, leaving Sisyphus and Daedalus alone with their terrible understanding.
 

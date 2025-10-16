@@ -36,11 +36,16 @@
                  data-storm-hover="lift">
                 Blog
               </a>
-              <a href="{% url 'philo:intro' %}" 
+              <a href="{% url 'philo:intro' %}"
                  class="sb-px-4 sb-py-2 sb-rounded-full sb-font-semibold sb-transition-all
                         {% if metadata.namespace == 'philo' %}sb-bg-warning sb-text-white sb-shadow-lg{% else %}sb-text-text sb-hover:bg-warning-10 sb-hover:text-warning{% endif %}"
                  data-storm-hover="lift">
                 Philosophy
+              </a>
+              <a href="{% url 'index' %}"
+                 class="sb-px-4 sb-py-2 sb-rounded-full sb-font-semibold sb-transition-all sb-text-text sb-hover:bg-emphasis-10 sb-hover:text-emphasis"
+                 data-storm-hover="lift">
+                Writing
               </a>
             </div>
             
@@ -152,12 +157,18 @@
                data-storm-replayable="true"
                data-storm-delay="250"
                data-storm-hover="lift">Blog</a>
-            <a href="{% url 'philo:intro' %}" 
+            <a href="{% url 'philo:intro' %}"
                class="sb-px-4 sb-py-3 sb-rounded-lg sb-text-text sb-hover:bg-warning-25 sb-transition-all"
                data-storm="slide-right"
                data-storm-replayable="true"
                data-storm-delay="300"
                data-storm-hover="lift">Philosophy</a>
+            <a href="{% url 'index' %}"
+               class="sb-px-4 sb-py-3 sb-rounded-lg sb-text-text sb-hover:bg-emphasis-25 sb-transition-all"
+               data-storm="slide-right"
+               data-storm-replayable="true"
+               data-storm-delay="350"
+               data-storm-hover="lift">Writing</a>
             <div class="sb-border-t sb-border-neutral-50 sb-my-2"></div>
             <div class="sb-flex sb-gap-4 sb-justify-center"
                  data-storm="fade-in"

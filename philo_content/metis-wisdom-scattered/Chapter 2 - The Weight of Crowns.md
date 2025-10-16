@@ -78,7 +78,7 @@ She looked up. "I told you. To teach-"
 
 Long pause. Measuring him. Measuring the risk. "Because I can see patterns. And the pattern says you become your father unless someone shows you differently."
 
-The truth hit Zeus like a fist. 
+The truth hit Zeus like a fist. First his brother, now, this newcomer? He felt something boil inside him: Rage. No. He had to let that go. His next breath was deep.
 
 "What if I already am?" His voice dropped. The question he'd been choking on since he woke.
 

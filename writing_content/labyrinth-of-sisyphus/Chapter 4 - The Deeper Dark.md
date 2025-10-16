@@ -1,34 +1,38 @@
-# Chapter 4 - Deeper Into the Dark
-
 The blueprint fought back.
 
-Sisyphus traced the passage configuration for the third time, watching ink seem to recoil from his stylus. The labyrinth's northwestern section had collapsed twice during construction, crushing three workers despite following Daedalus's specifications perfectly. Now, studying the plans by morning light, Sisyphus understood why—the structure wasn't failing. It was refusing.
+Sisyphus traced the northwestern passage. Ink pulled away from his stylus. He tried again, pressing harder.
+
+Third attempt. Different angle. Same result.
 
 "It doesn't want to be contained there," he said quietly.
 
-Daedalus looked up from his own calculations, eyes sharp despite three sleepless nights. "So you've finally noticed. The structure has... preferences."
+Behind him, Daedalus muttered calculations, too focused to notice.
 
-"It's fighting us." Sisyphus pointed to where passages intersected at angles that hurt to perceive. "Look at the stress patterns. Every time we reinforce this section, the surrounding stone weakens."
+"Daedalus."
 
-"Not fighting," Daedalus corrected. "Negotiating. It knows what it wants to become." He moved to examine the plans. "If we redirect through here-"
+The old man looked up, eyes red-rimmed.
+
+"It's fighting us." Sisyphus pointed to where passages intersected at angles that hurt to perceive. "Look at the stress patterns. Every time we reinforce this section, the surrounding stone-"
+
+"My structure's don't fight," Daedalus corrected. "The negotiate. It knows what it wants to become." He moved to examine the plans. "If we redirect through here-"
 
 "No." Sisyphus saw it clearly, the way he'd once seen the perfect angle to push his boulder. "We don't fight it. We let it flow where it wants, then use that flow to strengthen containment. Like redirecting a river instead of damming it."
 
 Daedalus stared at him. "You're suggesting we let the labyrinth design itself?"
 
-"I'm suggesting we listen to what it's trying to tell us." Sisyphus picked up fresh papyrus. "Here—if we curve the passages like this, following the natural stress lines..."
+"We should listen to what it's trying to tell us." Sisyphus picked up fresh papyrus. "Here, if we curve the passages like this, following the natural stress lines..."
 
 The new design emerged under his stylus, organic and wrong, passages that flowed like water finding its level. Daedalus watched with an expression caught between admiration and fear.
 
 "This is either brilliant or insane," Daedalus muttered.
 
-"In my experience, they're often the same thing."
+Sisyphus laughed. He recalled the many times he had been called both during his previous life. 
 
 A sound from outside made them both look up - distant shouting from the harbor. Sisyphus moved to the window, squinting against morning sun reflecting off the sea. A ship had arrived, black-sailed and riding low in the water. Armed guards surrounded the dock as figures were herded off the vessel.
 
-Young figures. Children, some of them.
+Young figures. Teenagers, some of them.
 
-"What manner of supplies arrive under such guard?" Sisyphus asked.
+"What supplies arrive under such guard?" Sisyphus asked.
 
 Behind him, he heard Daedalus's sharp exhale.
 
