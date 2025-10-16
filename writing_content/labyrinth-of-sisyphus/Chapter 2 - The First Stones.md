@@ -42,7 +42,7 @@ As guards escorted them from the throne room, Sisyphus walked beside him in cont
 
 The portfolio's leather bit into his forearm—filled with designs for future horrors. Necessary horrors, he told himself. *Perdix would have found a better way.* The thought struck uninvited. *He was brilliant, could see solutions in-*
 
-No. He crushed that thought before it could finish. The memory of his nephew's eyes, wide with surprise as he fell, threatened to surface. Daedalus forced it down with practiced efficiency. Some guilts were too dangerous to examine in daylight.
+No. He crushed that thought before it could finish. The memory of his nephew's eyes, wide with surprise as he fell, threatened to surface. Daedalus forced it down with practiced efficiency. Some thoughts were too dangerous to examine in daylight.
 
 Everyone serves something, he'd told Sisyphus. His hand found the compass in his pocket again. Icarus had been so proud making it, the bronze still rough where his small fingers hadn't quite smoothed the edges. Daedalus tightened his grip until the metal bit into his palm.
 

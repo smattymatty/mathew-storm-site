@@ -82,11 +82,11 @@ Daedalus's stylus stopped mid-scratch. "What do you mean?"
 
 "The question," Daedalus interrupted, his voice sharp enough to cut, "is what you did." The stylus in his fingers went perfectly still - too still. "What manner of crime earns a king eternal servitude to Minos?"
 
-"You want honesty?" Sisyphus asked, rolling his shoulders until the joints cracked. "I angered the gods. Badly enough that Tartarus seemed merciful compared to what they could have done."
+"You want honesty?" Sisyphus asked, rolling his shoulders until the joints cracked. "I cheated death, twice. That angered the gods. Badly enough that Tartarus seemed merciful compared to what they could have done."
 
-Daedalus's stylus stopped mid-stroke. "Which gods?"
+Daedalus's stylus stopped mid-stroke. "Twice?"
 
-"Too many to count." Sisyphus studied his scarred palms. "My punishment was... repetitive. They wanted to teach me patience through endless labor. I think they succeeded, though probably not in the way they intended."
+"First time: Thanatos. Second time: Persephone." Sisyphus studied his scarred palms. "My punishment was... repetitive. They wanted to teach me patience through endless labor. I think they succeeded, though probably not in the way they intended."
 
 The silence stretched. Daedalus set down his stylus with exaggerated care.
 
@@ -94,7 +94,7 @@ The silence stretched. Daedalus set down his stylus with exaggerated care.
 
 "And yours?"
 
-"Mine's staying exactly where I left it." The dismissal was clear.
+Daedalus's stylus stopped. His free hand moved to his chest, an unconscious gesture, fingers pressing against something round and metal underneath his tunic. "Everyone serves something, Sisyphus." His expression was carefully empty. "We all have something we can't afford to lose." A clear dismissal.
 
 ---
 
@@ -157,9 +157,5 @@ Sisyphus picked up his wine cup, the morning light through the window catching t
 The architect's stylus moved across the papyrus with sudden, urgent precision. "We need to show him modifications - improvements to contain a beast that's grown stronger since the last tribute. New chambers to replace the ones it destroyed during its last frenzy. Passages that account for its learning, its adaptation."
 
 As Daedalus worked, Sisyphus found himself studying the man's profile. The desperate energy in his movements wasn't mere professional pride - it was the frantic calculation of a man balancing invisible weights. Each line he drew seemed to cost him something irreplaceable.
-
-"Why are you here, Daedalus?" Sisyphus asked quietly. "Really? What hold does Minos have over you?"
-
-Daedalus's stylus stopped. His free hand moved to his chest, an unconscious gesture, fingers pressing against something round and metal underneath his tunic. "Everyone serves something, Sisyphus." His expression was carefully empty. "We all have something we can't afford to lose." Another clear dismissal.
 
 Sisyphus reached for the bread, noting how the liquid in his cup trembled with each distant vibration through the stone, rhythmic and wrong, like a pulse through veins that shouldn't exist. Three beats, pause, two beats. The same pattern as the Captain's fingers on his pommel. The same pattern as the floor's vibration when he'd entered. The fortress itself was becoming alive, learning to breathe in harmony with the thing it held.
