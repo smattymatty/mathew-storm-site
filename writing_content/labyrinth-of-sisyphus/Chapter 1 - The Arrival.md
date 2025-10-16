@@ -10,7 +10,7 @@ The prisoner looked up once, scanning the palace towers with the calculating gaz
 
 ---
 
-The chains had been lighter than expected, though Sisyphus could feel the weight in each link. After an eternity of pushing stone up an endless slope, anything that didn't roll back down felt almost like freedom.
+The chains had been lighter than expected. The iron was of quality, Sisyphus could feel ther weight in every link, but after an eternity of pushing stone up an endless slope, anything that didn't roll back down felt almost like freedom.
 
 Almost.
 

@@ -54,7 +54,7 @@ Karen looked at the faces around her. Eager. Genuine. These people really believ
 
 "Okay," she said. "How do I... ?"
 
-"Here." Jonah was already pulling up the app store on her phone. "Then we'll get it on your desktop, laptop, and-" He glanced at the small piece of technology strapped to her wrist. "your smart watch."
+"Here." Jonah was already pulling up the app store on her phone. "Then we'll get it on your desktop, laptop, and-" He glanced at the small piece of technology strapped to her wrist. "Your smart watch."
 
 The download started. The icon appeared on her home screen, that circular wave glowing.
 
@@ -84,7 +84,7 @@ The others nodded, like Karen was overthinking something obvious.
 
 She tapped Allow.
 
-Her phone buzzed again: **Achievement Unlocked: First Steps! You've taken the first step toward a better you.**
+Her phone buzzed again: **Achievement Unlocked: First Steps! Welcome to a better you.**
 
 The knot in her chest loosened - the one that had been there since the hospital room, since the funeral, since she'd signed those loan papers. For the first time in months, she could breathe properly. Finally, she felt like she was doing something right.
 
