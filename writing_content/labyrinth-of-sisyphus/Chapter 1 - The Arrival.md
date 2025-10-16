@@ -1,4 +1,16 @@
-The chains had been lighter than expected, though Sisyphus could feel their weight in every link. After an eternity of pushing stone up an endless slope, anything that didn't roll back down felt almost like freedom.
+Queen Pasiphaë pressed her palm against the stone wall of her chamber, feeling the familiar pulse that no one else acknowledged.
+
+From her window, she watched the guard escort a prisoner across the lower courtyard. He walked steadily, like someone who'd already accepted his fate.
+
+"Sisyphus of Corinth," her attendant Lysippe murmured, reading from a tablet. "The new assistant. The King said arrangements were made."
+
+Another one.
+
+The prisoner looked up once, scanning the palace towers with the calculating gaze of someone measuring an obstacle with interest rather than fear. Then the guard led him inside, toward the architect's workshop.
+
+---
+
+The chains had been lighter than expected, though Sisyphus could feel the weight in each link. After an eternity of pushing stone up an endless slope, anything that didn't roll back down felt almost like freedom.
 
 Almost.
 
@@ -6,13 +18,13 @@ He rolled his shoulders to test this new absence as he climbed. Where the boulde
 
 It had been a long time since he'd breathed anything but the stale air of Tartarus.
 
-The tower stretched upward, reminding him of his eternal ascent, only this time much more cramped. The Guard Captain climbed ahead of him, armor clanking with each step, never once looking back to see if his prisoner followed. Why would he? Where could Sisyphus run that the gods couldn't find him again? As they climbed past arrow slits that framed glimpses of the awakening palace below, Sisyphus understood that this was reassignment rather than rescue.
+The tower stretched upward, reminding him of his eternal ascent, only this time much more cramped. The Guard Captain climbed ahead of him, armor clanking with each step. He checked over his shoulder twice, unnecessarily. Where could Sisyphus run that the gods couldn't find him? As they climbed past arrow slits that framed glimpses of the awakening palace below, Sisyphus understood that this was reassignment rather than rescue.
 
 "Here," the Guard Captain grunted. He stopped before a heavy wooden door, inserted a small key that scraped against the ancient metal, then pushed. 
 
 The door creaked open, revealing the workshop. Mathematical instruments cluttered every surface, and architectural drawings covered the walls: blueprints for structures that seemed to shift when viewed directly.
 
-Sisyphus stepped inside. The floor beneath his feet thrummed subtly, easy to miss if you weren't used to feeling stone. A ryhtmic pulse: three beats, pause, two beats. Like a heartbeat counting itself from deep below.
+Sisyphus stepped inside. The floor beneath his feet thrummed subtly, easy to miss if you weren't used to feeling stone. A rhythmic pulse: three beats, pause, two beats. Like a heartbeat counting itself from deep below.
 
 When he turned his attention back to the workshop, movement caught his eye. In the chamber's center, a man worked hunched over the largest table.
 

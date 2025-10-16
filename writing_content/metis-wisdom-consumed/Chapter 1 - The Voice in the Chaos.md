@@ -1,22 +1,34 @@
-# Chapter 1: The Voice in the Chaos
+Prometheus had watched Chronos devour three of his children before he had to leave. He'd seen worse, and would see worse again, but the King of Titans was beginning to grow suspicious.
 
-Metis had learned to measure victory backwards: not by what you accomplished, but by what you tried despite knowing it was impossible.
+Now, as he stood in the ruins of what used to be a village, Prometheus understood why Chronos had been right to suspect him.
 
-She knelt in the pre-dawn cold, tracing supply routes with a piece of charcoal while her companions slept. The map spread before her told three different stories depending on how you looked at it: Chronos's forces advancing like a tide, the rebels retreating in desperate arcs, and, if you knew what to look for, the empty spaces between where neither side controlled anything at all.
+The soldiers had been methodical: supplies first, buildings second, bodies arranged for maximum terror. Prometheus knelt beside a small wooden horse, still warm from flames, and felt that dangerous fondness for creatures who carved toys knowing gods would destroy them. An eagle's shadow crossed the ash-dark sky.
 
-She knew that to notice those empty spaces was the difference of winning or losing this war.
+His thoughts drifted to the rebel camps gathering in the valley: Zeus's forces loud with fury and uncertain righteousness, and the quieter camp where a Titaness named Metis was teaching gods what came after the throne. He'd seen both patterns before.
 
-Her fingers were stained black from the charcoal, and she'd stopped noticing the cold hours ago. This was the part she loved: the pure problem of it. Not the violence, not the glory, just the puzzle of how to move pieces on a board so that fewer people had to die. So that maybe, just maybe, something better could emerge from the chaos.
+But this Metis, she'd seen the patterns as well. There was something about her. Something that made Prometheus pocket the wooden horse and turn toward the camps. This time felt different. He had to know why.
+
+---
+
+Dawn was still an hour away when Metis slipped from her tent into the cold.
+
+She spread her map on the frozen camp table, weighted the corners with stones, and began tracing routes with charcoal. Chronos's forces here, cutting off supply lines. The rebels here, losing ground daily. She then traced what they didn't: the gaps. The empty territories where neither army had bothered to look.
+
+Empty spaces. That's where wars were actually won. The kinds of wars neither side knew they were fighting.
+
+Her fingers were stained black from the charcoal, and she'd stopped noticing the cold hours ago. This was the part she loved: the pure problem of it. Not the violence, not the glory, just the puzzle of how to move pieces on a board so that fewer people had to die. So that maybe something better could emerge from the chaos.
 
 "You haven't slept." Pallas's voice cut through her concentration. Her sister emerged from the tent, wrapping a cloak around her shoulders. "Again."
 
-"I slept." Metis didn't look up.
+"I slept." Metis didn't look up, still tracing.
 
-"Closing your eyes for an hour doesn't count."
+"Metis." Just her name, said the way only a sister could: half exasperation, half worry.
 
-"It does if you use the time efficiently."
+Metis finally looked up. Pallas's hair was still wild from sleep, cloak hastily thrown on. She'd come out here just to check on her.
 
-Pallas crouched beside her, close enough that Metis could smell the smoke from last night's fire still clinging to her hair. They'd been traveling together for three weeks now. Six of them at first, then seven after they'd found the deserter, and Metis kept expecting her sister to ask the obvious question. Why are we doing this? Why risk everything for a rebellion that's losing?
+"I'm fine," Metis said, softer now.
+
+Pallas crouched beside her, close enough that Metis could smell the smoke from last night's fire still clung to her hair. They'd been traveling together for three weeks now. Six of them at first, then seven after they'd found the deserter, and Metis kept expecting her sister to ask the obvious question. Why are we doing this? Why risk everything for a rebellion that's losing?
 
 But Pallas had always understood her better than that.
 
@@ -40,29 +52,25 @@ The name hung between them: The young god, angry child, the one the rebellion ha
 
 "I don't know," Metis admitted. "But someone has to try."
 
-"Why you?"
+"Why you?" The question was gentle, but Metis heard what her sister wasn't saying: You're not a soldier. You're not a warrior god with lightning in your hands. You're just you, and you're walking into a war camp to tell angry, traumatized gods that they're fighting wrong.
 
-The question was gentle, but Metis heard what her sister wasn't saying: You're not a soldier. You're not a warrior god with lightning in your hands. You're just you, and you're walking into a war camp to tell angry, traumatized gods that they're fighting wrong.
-
-"Because I can see what they can't," Metis said simply. "Not the future, I'm not an oracle. Just... patterns. Consequences. The way decisions ripple outward." She gestured at the map. "Chronos was a rebel once too. He overthrew his own father. And now he's become the same thing he fought against, because he never asked what comes after the victory."
+"Because I can see what they can't," Metis said simply. "Not the future, I'm not an oracle. I just see patterns. Consequences. The way decisions ripple outward." She gestured at the map. "Chronos was a rebel once too. He overthrew his own father. And now he's become the same thing he fought against, because he never asked what comes after."
 
 "And you think Zeus will?"
 
-"I think he's young enough that the question might still matter to him." Metis started rolling up the maps, her movements precise and careful. "I think he's desperate enough to listen to someone who offers him a different path. And I think-" She paused, choosing her words carefully. "I think if no one teaches him mercy now, while he's still learning how to be king, then we've just trading one tyrant for another."
+"I think he's young enough that the question might still matter to him." Metis started rolling up the maps, her movements precise and careful. "And I think-" She paused, choosing her words carefully. "I think we might just be trading one tyrant for another."
 
 Movement in the other tents now: Styx stirring, young Hecate's voice murmuring something about breakfast. Soon they'd all be awake, and Metis would need to be the leader again: confident, certain, the one with the plan. She allowed herself these few minutes of honesty with her sister, because once the sun rose, doubt was a luxury she couldn't afford.
 
 "You're afraid of him," Pallas observed.
 
-"I'm afraid for him." Metis secured the maps with practiced efficiency. "I'm afraid of what happens when angry boys become powerful kings. I'm afraid of watching someone with potential for greatness choose fear instead. I'm afraid-" She stopped, surprised by the tightness in her own throat. "I'm afraid of planting seeds in soil that's already been poisoned."
+"I'm afraid for him." Metis secured the maps with practiced efficiency. "I'm afraid of watching someone with potential for greatness choose fear instead. I'm afraid-" She stopped, surprised by the tightness in her own throat. "I'm afraid of planting seeds in soil that's already been poisoned."
 
 "Then why do it?"
 
-"Because maybe it hasn't been. Not completely. Not yet." Metis stood, brushing dirt from her knees. Through the gap in the eastern ridge, dawn was beginning to break - red and gold bleeding across the sky. "Because someone has to try. And because-"
+"Because maybe it hasn't been. Not completely. Not yet." Metis stood and gazed toward the horizon. Through the gap in the eastern ridge, dawn was beginning to break - red and gold bleeding across the sky. "Because someone has to try. And because-"
 
-She thought of all the places she'd traveled, all the small victories she'd already won. The deserters she'd given choice to. The refugees she'd protected. The soldiers she'd taught to see enemies as people rather than problems to be eliminated. Seeds planted in a dozen different places, most of which would never grow. But some might.
-
-Some had to.
+She thought of all the places she'd traveled, all the small victories she'd already won. The deserter she'd given choice to. The refugees she'd protected. The soldiers she'd taught to see enemies as people rather than problems to be eliminated. Seeds planted in a dozen different places, most of which would never grow. But some might. Some had to.
 
 "Because mercy isn't weakness," Metis finished. "It's strategy. And I'm very good at strategy."
 

@@ -6,8 +6,10 @@ import re
 
 
 # Path to writing content
-CONTENT_DIR = Path(__file__).resolve().parent.parent / 'writing_content' / 'labyrinth-of-sisyphus'
-SHORT_STORIES_DIR = Path(__file__).resolve().parent.parent / 'writing_content' / 'short-stories'
+WRITING_CONTENT_DIR = Path(__file__).resolve().parent.parent / 'writing_content'
+CONTENT_DIR = WRITING_CONTENT_DIR / 'labyrinth-of-sisyphus'
+METIS_CONTENT_DIR = WRITING_CONTENT_DIR / 'metis-wisdom-consumed'
+SHORT_STORIES_DIR = WRITING_CONTENT_DIR / 'short-stories'
 
 
 def estimate_line_count(text, chars_per_line=65):
@@ -85,17 +87,20 @@ def paginate_chapter(markdown_content, max_lines_per_page=28, chars_per_line=65)
     return pages
 
 
-def get_chapter_list():
+def get_chapter_list(content_dir=None):
     """Get list of all chapters in order."""
+    if content_dir is None:
+        content_dir = CONTENT_DIR
+
     chapters = []
 
     # Debug: Check if content directory exists
-    if not CONTENT_DIR.exists():
-        print(f"WARNING: Content directory does not exist: {CONTENT_DIR}")
+    if not content_dir.exists():
+        print(f"WARNING: Content directory does not exist: {content_dir}")
         return []
 
     # Get all chapter files (they're in the flat writing_content directory)
-    all_chapter_files = sorted(CONTENT_DIR.glob("Chapter *.md"))
+    all_chapter_files = sorted(content_dir.glob("Chapter *.md"))
 
     for file in all_chapter_files:
         # Extract chapter number from filename like "Chapter 1 - The Arrival.md"
@@ -131,7 +136,19 @@ def book_cover(request):
     return render(request, 'writing/book_cover.html', context)
 
 
-def read_chapter(request, chapter_slug):
+def metis_cover(request):
+    """Book cover / table of contents for Metis: Wisdom Consumed."""
+    chapters = get_chapter_list(METIS_CONTENT_DIR)
+
+    context = {
+        'chapters': chapters,
+        'book_title': 'Metis: Wisdom Consumed',
+        'book_subtitle': 'Before Zeus, there was wisdom',
+    }
+    return render(request, 'writing/metis_cover.html', context)
+
+
+def read_chapter(request, book_slug, chapter_slug):
     """Main chapter reading view with pagination."""
     # Get page number from query params (default to 1)
     try:
@@ -139,10 +156,20 @@ def read_chapter(request, chapter_slug):
     except (ValueError, TypeError):
         page_num = 1
 
+    # Map book slug to content directory
+    book_dirs = {
+        'labyrinth-of-sisyphus': CONTENT_DIR,
+        'metis-wisdom-consumed': METIS_CONTENT_DIR,
+    }
+
+    content_dir = book_dirs.get(book_slug)
+    if not content_dir:
+        raise Http404("Book not found")
+
     # Find the chapter file
     chapter_file = None
     chapter_info = None
-    for chapter in get_chapter_list():
+    for chapter in get_chapter_list(content_dir):
         if chapter['slug'] == chapter_slug:
             chapter_file = chapter['file']
             chapter_info = chapter
@@ -167,8 +194,8 @@ def read_chapter(request, chapter_slug):
     current_page_markdown = pages[page_num - 1]
     current_page_html = render_spellbook_markdown_to_html(current_page_markdown)
 
-    # Get all chapters for navigation
-    all_chapters = get_chapter_list()
+    # Get all chapters for navigation (from the same book)
+    all_chapters = get_chapter_list(content_dir)
     current_chapter_index = next((i for i, c in enumerate(all_chapters) if c['slug'] == chapter_slug), 0)
 
     prev_chapter = all_chapters[current_chapter_index - 1] if current_chapter_index > 0 else None
@@ -178,6 +205,7 @@ def read_chapter(request, chapter_slug):
     progress_percent = int((page_num / total_pages) * 100) if total_pages > 0 else 0
 
     context = {
+        'book_slug': book_slug,
         'chapter': chapter_info,
         'page_content': current_page_html,
         'current_page': page_num,
@@ -193,16 +221,24 @@ def read_chapter(request, chapter_slug):
     return render(request, 'writing/read_chapter.html', context)
 
 
-def get_page_htmx(request, chapter_slug, page_num):
+def get_page_htmx(request, book_slug, chapter_slug, page_num):
     """HTMX endpoint to return just the page content."""
-    from django.http import HttpResponse
-
     page_num = int(page_num)
-    print(f"[DEBUG] HTMX request for chapter: {chapter_slug}, page: {page_num}")
+    print(f"[DEBUG] HTMX request for book: {book_slug}, chapter: {chapter_slug}, page: {page_num}")
+
+    # Map book slug to content directory
+    book_dirs = {
+        'labyrinth-of-sisyphus': CONTENT_DIR,
+        'metis-wisdom-consumed': METIS_CONTENT_DIR,
+    }
+
+    content_dir = book_dirs.get(book_slug)
+    if not content_dir:
+        return render(request, 'writing/partials/page_not_found.html')
 
     # Find the chapter file
     chapter_file = None
-    for chapter in get_chapter_list():
+    for chapter in get_chapter_list(content_dir):
         if chapter['slug'] == chapter_slug:
             chapter_file = chapter['file']
             break

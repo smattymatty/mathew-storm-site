@@ -24,7 +24,7 @@
         </div>
 
         {% if chapters %}
-        <a href="{% url 'read_chapter' chapters.0.slug %}"
+        <a href="{% url 'read_chapter' 'labyrinth-of-sisyphus' chapters.0.slug %}"
            class="sb-btn sb-btn-primary sb-btn-lg"
            data-storm="fade-in"
            data-storm-delay="900"
@@ -48,7 +48,7 @@
             <h3 class="sb-text-xl sb-font-semibold sb-mb-4 sb-text-primary">Part One: The Tower</h3>
             <div class="sb-grid sb-grid-cols-1 sb-gap-3">
                 {% for chapter in chapters|slice:":7" %}
-                <a href="{% url 'read_chapter' chapter.slug %}"
+                <a href="{% url 'read_chapter' 'labyrinth-of-sisyphus' chapter.slug %}"
                    class="sb-card sb-p-4 sb-flex sb-justify-between sb-items-center"
                    data-storm-hover="scale">
                     <span class="sb-font-medium">{{ chapter.title }}</span>
@@ -63,7 +63,7 @@
             <h3 class="sb-text-xl sb-font-semibold sb-mb-4 sb-text-primary">Part Two: The Labyrinth</h3>
             <div class="sb-grid sb-grid-cols-1 sb-gap-3">
                 {% for chapter in chapters|slice:"7:12" %}
-                <a href="{% url 'read_chapter' chapter.slug %}"
+                <a href="{% url 'read_chapter' 'labyrinth-of-sisyphus' chapter.slug %}"
                    class="sb-card sb-p-4 sb-flex sb-justify-between sb-items-center"
                    data-storm-hover="scale">
                     <span class="sb-font-medium">{{ chapter.title }}</span>
@@ -78,7 +78,7 @@
             <h3 class="sb-text-xl sb-font-semibold sb-mb-4 sb-text-primary">Part Three: The Breaking</h3>
             <div class="sb-grid sb-grid-cols-1 sb-gap-3">
                 {% for chapter in chapters|slice:"12:" %}
-                <a href="{% url 'read_chapter' chapter.slug %}"
+                <a href="{% url 'read_chapter' 'labyrinth-of-sisyphus' chapter.slug %}"
                    class="sb-card sb-p-4 sb-flex sb-justify-between sb-items-center"
                    data-storm-hover="scale">
                     <span class="sb-font-medium">{{ chapter.title }}</span>

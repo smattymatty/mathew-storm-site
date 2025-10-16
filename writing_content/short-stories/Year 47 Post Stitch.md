@@ -1,0 +1,54 @@
+The earth screamed at 5.8 hertz, and Elise Volkov's hands screamed back.
+
+She knelt in the dirt at the edge of Westbrook's agricultural zone, bio-suture gun punching ceramic needle through dead soil in the pattern she'd perfected over sixteen years. Pull the trigger. Thread feeds. Needle punches. Fifteen-centimeter intervals. Grid formation. Keep the thread taut but not so tight it snaps when the next tremor hits.
+
+The bio-thread glowed faint blue-green as it fed into the soil, living filament carrying nutrients into earth that had forgotten how to hold them. Around her, the strange plant they'd call "thread blooms" pushed through the crust: bioluminescent growths with translucent petals that pulsed with their own unique colours. Their root systems grew upward as easily as down, stems that branched in spirals no plant natural to Earth had ever needed. Beautiful in the way deep-sea creatures were. Wrong in the way they moved without wind, turned toward the bio-thread like flowers toward sun.
+
+They didn't belong here.
+
+But neither did the thread.
+
+Elise adjusted her mask - the kind all soil surgeons wore, filtration system humming against her face, limited oxygen supply metered out in careful ratios. The comms were built into the left temple, Vera's voice feeding directly into her ear. Elise's mask was heritage-rank, older than most. The seal had worn smooth from decades of use, though proper maintenance and upgrades had kept it functional. Her grandmother had worn it during First Stitch. Her mother had died in it. Now it was hers.
+
+The Volkov women and their masks. Three generations of breathing dead air while trying to keep the earth from forgetting how to hold life.
+
+Around her, the thread blooms swayed toward the fresh stitches, already learning where the thread ran strongest. Westbrook unraveled 6 times this year, each one faster than the last. She'd stopped counting the people.
+
+"Elise." Vera's voice crackled through the comms, warm and familiar and coming from two hundred kilometers straight up. "I need you to redirect to Silverlake."
+
+"I'm in Westbrook," Elise said, needle still punching. "Critical re-stitch."
+
+"Silverlake's water treatment plant is showing critical degradation. You're the closest Class-2 certified unit." A pause, just long enough to sound like she cared. "I know it's hard, El. But infrastructure keeps more people alive than any single zone."
+
+The water treatment plant. Right. Because Silverlake's water fed the launch facilities—or what used to be launch facilities before the Station sealed itself off five years ago. Now it just fed the monitoring stations. The skeleton crew that kept pretending evacuation was still possible.
+
+Infrastructure for ghosts.
+
+Elise sealed the current stitch. "Understood. On my way."
+
+"Thank you, El. I know you'll do beautiful work. Just like your mother used to."
+
+Just like her mother.
+
+The words hit like they always did. Mama, who'd called for backup during a Westbrook collapse six years ago. Who'd waited for Vera to come. Who'd died still waiting while Vera calculated that saving herself was the strategic choice. Infrastructure over people. Always infrastructure over people.
+
+Elise's hands clenched around the bio-suture gun hard enough that the ceramic housing creaked. The thread blooms nearest her swayed like they could taste the fury. Or maybe that was just the tremor running through the earth. Through her. Same frequency. Same rage.
+
+"I'll head out now," she said. Voice steady. Hands not.
+
+She packed her kit, leaving Westbrook half-stitched. Let it unravel. Let them all unravel. Vera wanted infrastructure? Fine. Elise would give her infrastructure.
+
+And then she'd give her so much more.
+
+---
+
+Elise broke the seal on her mask the moment the door closed behind her. The air inside tasted stale but clean. No bloom spores. No thread toxins. Just recycled oxygen and the faint smell of whatever Lena had tried to cook for dinner.
+
+"Mama?" Lena's voice came from the kitchen, followed by a wet cough that Elise felt in her own chest. "I made soup. Or, I tried. The protein paste wouldn't-" Another cough, harder. Longer.
+
+Elise dropped her kit and moved.
+
+Lena sat at the table, oxygen mask hanging around her neck like she'd been trying to cook without it. Again. Her lips had that blue tinge that meant she'd been off it too long. Twelve years old and stubborn as her father had been. Dmitri used to take his mask off during stitches too, said he worked better when he could smell the soil. Said masks made him claustrophobic.
+
+He'd died with bloom spores in his lungs. Six years ago. Another Westbrook collapse.
+

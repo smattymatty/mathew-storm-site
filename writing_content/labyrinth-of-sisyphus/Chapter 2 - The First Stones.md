@@ -1,10 +1,14 @@
-The throne room of King Minos stretched before them, painted columns rising into shadow. Their escort's boots echoed against polished stone. Daedalus's stomach clenched with each step.
-
-Beside him, Sisyphus walked with unnerving steadiness. The man's calm made Daedalus's own terror feel even more maddening. In his arms, the leather portfolio grew heavier. Three hours of desperate creativity that would either satisfy the monster who ruled Crete or provide fresh entertainment through their deaths.
+The throne room of King Minos stretched before them, painted columns rising into shadow. Their escort's boots echoed against polished stone. Daedalus's stomach clenched with each step. Beside him, Sisyphus walked with unnerving steadiness. The man's calm made Daedalus's own terror feel even more maddening. In his arms, the leather portfolio grew heavier. Three hours of desperate creativity that would either satisfy the monster who ruled Crete or provide fresh entertainment through their deaths.
 
 *Icarus would be fourteen now*. The thought struck without warning, as it always did in moments of stress. *Old enough to appreciate architectural beauty, young enough to still believe his father-*. Daedalus's hand moved unconsciously to his chest, where he kept a small bronze compass his son made before Minos took him. Its weight was both a comfort and torment.
 
-The throne itself sat on a raised plate at the chamber's far end, carved from a single block of black marble. Upon it sat Minos, motionless as the stone itself but infinitely more dangerous. He didn't acknowledge their approach, his attention fixed on a scroll that Daedalus recognized with sinking certainty—reports from Athens, perhaps, or intelligence about tribute preparations. The silence stretched until Daedalus's hands began their telltale tremor.
+The throne itself sat on a raised plate at the chamber's far end, carved from a single block of black marble. Upon it sat King Minos, motionless as the stone itself but infinitely more dangerous. Shadows under his eyes had deepened since the last architectural review.
+
+To his right, Queen Pasiphaë stood in formal posture, hands clasped. The golden brooch on her neck caught the lamplight - Daedalus's own work, commissioned years ago. Perfect symmetry in the design, each horn precisely angled. He'd been proud of it once.
+
+Her eyes were fixed on Sisyphus. The same careful study she'd shown Daedalus - learning everything about him within a month. He'd been simple, really. But as she watched Sisyphus now, something shifted in her expression. This one wasn't simple
+
+Minos didn't acknowledge their approach, his attention fixed on a scroll, drawings from the previous assistant.
 
 "Your Majesty," Daedalus forced out, willing his voice to steadiness his hands couldn't achieve, "we bring initial modifications to the labyrinth design, accounting for the recent developments."
 
@@ -192,4 +196,4 @@ Nikias studied him for a long moment. Then nodded once. "As you say, Master Daed
 
 But his hand stayed on his sword as they rode back to the palace.
 
-Behind them, deep below the mountain, something ancient had learned a new lesson.
+Behind them, deep below the mountain, the beast had learned a new lesson.

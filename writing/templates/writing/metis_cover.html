@@ -1,0 +1,72 @@
+{% extends "A_base/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="sb-container sb-mx-auto sb-py-16 sb-px-4">
+    <!-- Back to Writing Dashboard -->
+    <div class="sb-mb-8" data-storm="fade-in">
+        <a href="{% url 'index' %}" class="sb-btn sb-btn-ghost sb-btn-sm" data-storm-hover="lift">
+            ← Back to Writing
+        </a>
+    </div>
+
+    <!-- Book Cover -->
+    <div class="sb-max-w-4xl sb-mx-auto sb-text-center" data-storm="fade-in">
+        <h1 class="sb-text-6xl sb-font-bold sb-text-primary sb-mb-4" data-storm="hero-title">
+            {{ book_title }}
+        </h1>
+        <p class="sb-text-2xl sb-text-secondary sb-mb-8" data-storm="hero-subtitle" data-storm-delay="300">
+            {{ book_subtitle }}
+        </p>
+
+        <div class="sb-prose sb-prose-lg sb-mx-auto sb-mb-12" data-storm="fade-in" data-storm-delay="600">
+            <p>Before Zeus became king of the gods, there was Metis, the Titaness of wisdom and cunning counsel. As the war between Titans and Olympians reaches its breaking point, Metis must navigate the treacherous politics of rebellion with the bleak understanding that overthrowing one tyrant may only make room for another. A story of strategy, sacrifice, and the price of wisdom in a world ruled by power.</p>
+        </div>
+
+        {% if chapters %}
+        <a href="{% url 'read_chapter' 'metis-wisdom-consumed' chapters.0.slug %}"
+           class="sb-btn sb-btn-primary sb-btn-lg"
+           data-storm="fade-in"
+           data-storm-delay="900"
+           data-storm-hover="lift"
+           data-storm-click="pulse">
+            Begin Reading →
+        </a>
+        {% else %}
+        <p class="sb-alert sb-alert-warning">No chapters found. Please check the content directory.</p>
+        {% endif %}
+    </div>
+
+    <!-- Table of Contents -->
+    <div class="sb-max-w-4xl sb-mx-auto sb-mt-16">
+        <h2 class="sb-text-3xl sb-font-bold sb-mb-8 sb-text-center" data-storm="fade-in">
+            Table of Contents
+        </h2>
+
+        <!-- All Chapters (no parts structure for now) -->
+        <div class="sb-mb-8" data-storm="slide-up" data-storm-delay="200">
+            <div class="sb-grid sb-grid-cols-1 sb-gap-3">
+                {% for chapter in chapters %}
+                <a href="{% url 'read_chapter' 'metis-wisdom-consumed' chapter.slug %}"
+                   class="sb-card sb-p-4 sb-flex sb-justify-between sb-items-center"
+                   data-storm-hover="scale">
+                    <span class="sb-font-medium">{{ chapter.title }}</span>
+                    <span class="sb-text-secondary">→</span>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="sb-max-w-4xl sb-mx-auto sb-mt-16 sb-text-center" data-storm="fade-in">
+        <p class="sb-text-secondary sb-italic">
+            This is a work in progress. Updates and revisions ongoing.
+        </p>
+        <p class="sb-text-sm sb-text-muted sb-mt-4">
+            For more on the philosophical themes, see
+            <a href="/philo/neo-absurdism/" class="sb-link">Neo-Absurdism</a>.
+        </p>
+    </div>
+</div>
+{% endblock %}

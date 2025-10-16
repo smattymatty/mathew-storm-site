@@ -9,11 +9,14 @@ urlpatterns = [
     # The Labyrinth of Sisyphus book cover
     path('labyrinth-of-sisyphus/', views.book_cover, name='book_cover'),
 
+    # Metis: Wisdom Consumed book cover
+    path('metis-wisdom-consumed/', views.metis_cover, name='metis_cover'),
+
     # Read a specific chapter
-    path('read/<slug:chapter_slug>/', views.read_chapter, name='read_chapter'),
+    path('read/<slug:book_slug>/<slug:chapter_slug>/', views.read_chapter, name='read_chapter'),
 
     # HTMX endpoint for dynamic page loading
-    path('api/get-page/<slug:chapter_slug>/<int:page_num>/', views.get_page_htmx, name='get_page'),
+    path('api/get-page/<slug:book_slug>/<slug:chapter_slug>/<int:page_num>/', views.get_page_htmx, name='get_page'),
 
     # Short Stories
     path('red-shoes/', views.red_shoes, name='red_shoes'),

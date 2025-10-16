@@ -5,9 +5,15 @@
 <div class="sb-w-full sb-mx-auto sb-py-4 sb-pr-4 md:sb-px-8 sb-max-w-6xl">
     <!-- Back to Book Cover -->
     <div class="sb-mb-6" data-storm="fade-in">
+        {% if book_slug == 'labyrinth-of-sisyphus' %}
         <a href="{% url 'book_cover' %}" class="sb-btn sb-btn-ghost sb-btn-sm" data-storm-hover="lift">
             ← Back to Book Cover
         </a>
+        {% elif book_slug == 'metis-wisdom-consumed' %}
+        <a href="{% url 'metis_cover' %}" class="sb-btn sb-btn-ghost sb-btn-sm" data-storm-hover="lift">
+            ← Back to Book Cover
+        </a>
+        {% endif %}
     </div>
 
     <!-- Top Navigation - Centered -->
@@ -18,7 +24,7 @@
         <!-- Center: Chapter Navigation -->
         <div class="sb-flex sb-items-center sb-gap-2 sb-justify-center">
             {% if prev_chapter %}
-            <a href="{% url 'read_chapter' prev_chapter.slug %}"
+            <a href="{% url 'read_chapter' book_slug prev_chapter.slug %}"
                class="sb-btn sb-btn-secondary sb-btn-sm"
                data-storm-hover="lift"
                title="{{ prev_chapter.title }}">
@@ -28,7 +34,7 @@
 
             <select id="chapter-selector"
                     class="chapter-select"
-                    onchange="window.location.href='/writing/read/' + this.value + '/';">
+                    onchange="window.location.href='/writing/read/{{ book_slug }}/' + this.value + '/';">
                 {% for ch in all_chapters %}
                 <option value="{{ ch.slug }}" {% if ch.slug == chapter.slug %}selected{% endif %}>
                     {{ ch.title }}
@@ -37,7 +43,7 @@
             </select>
 
             {% if next_chapter %}
-            <a href="{% url 'read_chapter' next_chapter.slug %}"
+            <a href="{% url 'read_chapter' book_slug next_chapter.slug %}"
                class="sb-btn sb-btn-secondary sb-btn-sm"
                data-storm-hover="lift"
                title="{{ next_chapter.title }}">
@@ -87,7 +93,7 @@
                     data-storm-click="pulse"
                     {% if not has_prev %}disabled style="opacity: 0.3;"{% endif %}
                     data-page="{{ current_page|add:-1 }}"
-                    hx-get="{% if has_prev %}{% url 'get_page' chapter.slug current_page|add:-1 %}{% endif %}"
+                    hx-get="{% if has_prev %}{% url 'get_page' book_slug chapter.slug current_page|add:-1 %}{% endif %}"
                     hx-target="#page-content"
                     hx-swap="innerHTML"
                     hx-trigger="click">
@@ -118,7 +124,7 @@
                     data-storm-click="pulse"
                     {% if not has_next %}disabled style="opacity: 0.3;"{% endif %}
                     data-page="{{ current_page|add:1 }}"
-                    hx-get="{% if has_next %}{% url 'get_page' chapter.slug current_page|add:1 %}{% endif %}"
+                    hx-get="{% if has_next %}{% url 'get_page' book_slug chapter.slug current_page|add:1 %}{% endif %}"
                     hx-target="#page-content"
                     hx-swap="innerHTML"
                     hx-trigger="click">
@@ -130,6 +136,7 @@
 
 <script>
     const TOTAL_PAGES = {{ total_pages }};
+    const BOOK_SLUG = "{{ book_slug }}";
     const CHAPTER_SLUG = "{{ chapter.slug }}";
     let currentPage = {{ current_page }};
 
@@ -145,7 +152,7 @@
         console.log('Jumping to page:', targetPage);
 
         // Fetch the page content
-        fetch(`/writing/api/get-page/${CHAPTER_SLUG}/${targetPage}/`)
+        fetch(`/writing/api/get-page/${BOOK_SLUG}/${CHAPTER_SLUG}/${targetPage}/`)
             .then(response => {
                 const newPage = parseInt(response.headers.get('X-Current-Page'));
                 return response.text().then(html => ({ html, newPage }));
@@ -199,7 +206,7 @@
         } else {
             prevBtn.disabled = false;
             prevBtn.style.opacity = '1';
-            prevBtn.setAttribute('hx-get', `/writing/api/get-page/${CHAPTER_SLUG}/${newPage - 1}/`);
+            prevBtn.setAttribute('hx-get', `/writing/api/get-page/${BOOK_SLUG}/${CHAPTER_SLUG}/${newPage - 1}/`);
             prevBtn.setAttribute('data-page', newPage - 1);
         }
 
@@ -210,7 +217,7 @@
         } else {
             nextBtn.disabled = false;
             nextBtn.style.opacity = '1';
-            nextBtn.setAttribute('hx-get', `/writing/api/get-page/${CHAPTER_SLUG}/${newPage + 1}/`);
+            nextBtn.setAttribute('hx-get', `/writing/api/get-page/${BOOK_SLUG}/${CHAPTER_SLUG}/${newPage + 1}/`);
             nextBtn.setAttribute('data-page', newPage + 1);
         }
 

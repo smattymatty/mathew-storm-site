@@ -268,7 +268,6 @@ SPELLBOOK_MD_PATH = [
     BASE_DIR / "blog_content",
     BASE_DIR / "notes_content",
     BASE_DIR / "philo_content",
-    BASE_DIR / "writing_content",
 ]
 
 SPELLBOOK_MD_APP = [
@@ -277,7 +276,6 @@ SPELLBOOK_MD_APP = [
     "blog",
     "notes",
     "philo",
-    "writing",
 ]
 
 SPELLBOOK_MD_URL_PREFIX = [
@@ -286,7 +284,6 @@ SPELLBOOK_MD_URL_PREFIX = [
     "blog",
     "note",
     "philo",
-    "writing",
 ]
 
 SPELLBOOK_MD_BASE_TEMPLATE = "A_base/sb_base.html"
