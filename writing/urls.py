@@ -21,4 +21,5 @@ urlpatterns = [
     # Short Stories
     path('red-shoes/', views.red_shoes, name='red_shoes'),
     path('minimum-viable-apocalypse/', views.minimum_viable_apocalypse, name='minimum_viable_apocalypse'),
+    path('year-47-post-stitch/', views.year_47_post_stitch, name='year_47_post_stitch'),
 ]

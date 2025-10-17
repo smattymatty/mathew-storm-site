@@ -328,3 +328,30 @@ def minimum_viable_apocalypse(request):
     }
 
     return render(request, 'writing/short_story.html', context)
+
+
+def year_47_post_stitch(request):
+    """Display the Year 47 Post Stitch short story."""
+    story_file = SHORT_STORIES_DIR / 'Year 47 Post Stitch.md'
+
+    if not story_file.exists():
+        raise Http404("Short story not found")
+
+    # Read the markdown content
+    with open(story_file, 'r', encoding='utf-8') as f:
+        raw_markdown = f.read()
+
+    # Calculate word count
+    word_count = len(raw_markdown.split())
+
+    # Render to HTML
+    story_html = render_spellbook_markdown_to_html(raw_markdown)
+
+    context = {
+        'story_title': 'Year 47 Post Stitch',
+        'story_subtitle': 'A soil surgeon stitches bio-thread into a dying Earth while crystalline bioluminescent plants consume it faster than she can repair.',
+        'story_content': story_html,
+        'word_count': f"{word_count:,}",  # Format with commas
+    }
+
+    return render(request, 'writing/short_story.html', context)

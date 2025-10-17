@@ -213,9 +213,7 @@ She smiled.
 
 "Thank you," the woman said, or maybe Elise imagined it. She was gone. Collapsed. Blooming.
 
-The hallway stretched forever. White walls breathing. In and out. 5.8 hertz. The Station was screaming now. Or maybe that was the alarm. Red lights flashing. Or were they blue-green? Neon twilight. Everything was neon twilight.
-
-More people. Running. From her? Toward her? Elise couldn't tell anymore. She worked the bio-suture gun like she'd worked it for sixteen years. Methodical. Precise. Grid formation. Pull. Feed. Punch. Pull. Feed. Punch.
+The hallway stretched forever. The Station was screaming now. Or maybe that was the alarm. Red lights flashing. Or were they blue-green? Neon twilight. Everything was neon twilight while Elise's brain spiraled with spores.
 
 She heard a voice - "Mama?"
 
@@ -245,17 +243,17 @@ No. Right here. Five meters away.
 
 Elise turned.
 
-"Elise, please. Stop this."
+Vera stood in the corridor, hands raised, no weapon. She wore the Station administrator's uniform, crisp and white, untouched by dirt or bloom spores or the lumniscent liquid that now painted the walls around them. Her hair was still perfect. Still pulled back in that same efficient bun she'd worn since before First Stitch.
 
-Vera.
+"Elise, please. Stop this."
 
 Not Vera. Something wearing Vera's voice. Something that had borrowed it. Stolen it. Used it to give orders while people died.
 
 "You sent me away," Elise said. Her voice sounded far away. Underwater. "You knew the building would fall."
 
-"I calculated-" The Vera-thing reached out. "I had to prioritize-"
-
-"Infrastructure over people." Elise raised the bio-suture gun. "You taught me that."
+"I calculated-" Vera took a step closer. Her face was doing something. Shifting. Or maybe that was the spores. "El, I had to make a choice. The Hollows plant serves eight thousand people. Your building was-
+"
+"Infrastructure over people." Elise raised the bio-suture gun. "Always infrastructure over people." Each word came out flat. Dead. 
 
 "Lena wouldn't want-"
 
@@ -289,9 +287,7 @@ The Station shuddered - 5.8 hertz - the same frequency as Earth. Everything scre
 
 And then, the colors started fading. Not all at once, but slowly, like paint washing off in rain. The neon twilight became just darkness. The thread blooms on the walls became just cracks. The pulsing lights became emergency strobes.
 
-Elise blinked. She looked down. Bodies. Not blooming. Not glowing. Just bodies. People in uniforms. Lab coats. Coveralls. Blood on the white floors. Real blood. Red. Not blue-green.
-
-So many bodies.
+Elise blinked. She looked down. Bodies. Not blooming. Not glowing. Just bodies. People in uniforms. Lab coats. Coveralls. Blood on the white floors. Real, red blood.
 
 Her hands were shaking. The bio-suture gun was empty. Cartridges scattered around her feet. How many had she-?
 
@@ -299,11 +295,9 @@ Her hands were shaking. The bio-suture gun was empty. Cartridges scattered aroun
 
 No one answered.
 
-Because Lena was dead. Had been dead. And now-
-
 Elise looked at the viewport. Earth below. Not glowing. Not covered in light. Just dark. Dying. And the Station-
 
-The Station was dying too. Because she'd stitched thread into the life support. Into the air systems. Into the hull itself. Real thread. Real seeds. And now they were growing in the vacuum and the walls were splitting and-
+The Station was dying too. She'd stitched thread into the life support. Into the air systems. Into the hull itself. Real thread. Real seeds. And now they were growing in the vacuum and the walls were splitting and-
 
 "Oh no," Elise whispered.
 
@@ -311,7 +305,7 @@ The Station lurched. Metal screaming. Atmosphere venting. Everything unraveling.
 
 "Oh no." Quietly.
 
-The floor tilted. Gravity failing. Elise floated, weightless, watching through the viewport as the Station came apart. Pieces spinning away into the void. And below, Earth kept dying. Kept unraveling.
+The floor tilted and gravity began failing. Elise floated, weightless, watching through the viewport as the Station came apart. Pieces spinning away into the void. And below, Earth kept dying. Kept unraveling.
 
 She hadn't saved anything. Hadn't fixed anything.
 
