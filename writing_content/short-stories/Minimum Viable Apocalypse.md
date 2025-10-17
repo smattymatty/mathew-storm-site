@@ -10,11 +10,9 @@ A thermos.
 
 He unscrewed the cap, steam slowly rising. That smell-
 
-Tomato bisque.
+Tomato bisque. 
 
-The hunger woke.
-
-I gripped the chair. Wood splintered under my palms. The fluorescent lights overhead began to hum the wrong frequency.
+The hunger woke. My teeth ached with the phantom taste of a thousand missed meals - saliva thick and hot in my mouth. As I watched his throat work as he swallowed, I wanted to crawl across the table and lick the steam off his thermos.
 
 "You don't mind?" He poured into his travel mug.
 
@@ -68,7 +66,7 @@ I walked to where the window used to be. Below, I could taste them. Every meal. 
 
 Behind me, the investor brushed dust off his suit. "Hunger-driven marketing. I like it. Creates urgency, drives engagement." He pulled out his phone, and began tapping notes. "But I'm going to be honest with you - you're a big risk. Four untested co-founders, catastrophic burn rate, no proven revenue model."
 
-I turned from the void.
+I turned from the void. The hunger crawled back into its cage, and I crawled back into my suit.
 
 He met my eyes but still didn't see. "I need proof. Concrete evidence of return. Show me your Q4 projections. Show me you can actually deliver on this vision." He packed up his thermoses like nothing had happened. "Bring me numbers that justify your vision. Then, we'll talk."
 
@@ -88,13 +86,13 @@ Down the hall. Through security. Past the receptionist who never looked at us di
 
 Three figures sat around the table, backlit by monitors showing statistics.
 
-The first one looked up from a tablet. His suit was too sharp, too red. He took an inhale from his vape pen - new, chrome, sleek - from his last conquest. A stark upgrade from the ash he used to breathe.
+The first man looked up from his tablet, and the room felt smaller. His suit was blood-red, cut so sharp it could draw blood, fitted to a frame that suggested violence even at rest. He took a slow pull from his vape pen - chrome, expensive, from his last conquest, a stark upgrade from the ash he used to breath. The exhale smelled like burning cities and costly cologne. When he smiled, it was all teeth and malice and the kind of dangerous charm that made you forget what he was capable of.
 
 "So?" He snarled.
 
 "They want numbers. Hard projections."
 
-A wet, rattling cough from the corner. The second one hunched over a laptop, skin the color of spoiled meat. Code streamed across the screen: mutation models, infection vectors. His phones buzzed on the table. Notification after notification from apps with icons of hearts and flames and bees.
+A wet, rattling cough from the corner. The second one hunched over a laptop. His skin was the color of spoiled meat, mottled purple-green in the fluorescent light, slick with something that might have been sweat. When he shifted, I caught the sweet-rot smell of him, somehow it made me want to lean closer. Code streamed across the screen: mutation models, infection vectors. His phones buzzed on the table. Notification after notification from apps with icons of hearts and flames and bees.
 
 "Did you mention the retention metrics?" He spit.
 
@@ -169,6 +167,8 @@ I arrived last. War was already pacing. Pestilence hunched over his laptop. Deat
 I pulled up the shared drive, created a new deck. "War, you're up first."
 
 He grinned, all teeth. "Border skirmish. Started with a post, escalated to armed engagement within 36 hours." He swiped through photos on his tablet - burning vehicles, scattered debris, faces frozen in terror. "47 casualties. Minimal resource investment. Proof of rapid deployment capability."
+
+He swiped to a close-up of blood spraying across concrete, still wet. He ran his thumb across the screen, slow, like he could feel the warmth of it. "Beautiful panic response. You can see the exact moment they realized they were meat."
 
 "User engagement?" I asked.
 
@@ -251,17 +251,17 @@ Death stood in the doorway.
 
 The receptionist at the entrance looked confused, checking her tablet. "Sir, I don't see your name-"
 
-Death walked past her.
+Death walked past her. The potted plant beside her desk browned, wilted, and crumbled to dust before she finished gasping.
 
-She stumbled back, hand to her face, feeling wrinkles that hadn't been there seconds before. Twenty years in two steps.
+She stumbled back, hand to her face, fingers discovering the new geography of her skin—the hollow beneath her cheekbone that hadn't existed, the papery texture of her eyelids, the way her lips had thinned. He'd touched nothing but the air near her. That's what made it intimate.
 
 The room felt hollow. Empty. Like all the warmth had been pulled out through a drain.
 
 Death moved through the crowd. Where he passed, drinks went flat. The glitter stopped catching light, turned grey and dull.
 
-He stopped in the center of the room.
+He stopped in the center of the room. The glitter wasn't falling anymore - it hung suspended, like the universe had buffered.
 
-"This ends now." His voice came from the space where sound goes to die. "Your plan is pathetic. Begging humans for permission to end their world."
+"This ends now." His voice echoed. "Your plan is pathetic. Begging humans for permission to end their world."
 
 War stepped forward. "We had a deal-"
 
@@ -275,7 +275,7 @@ The investor turned, bowl in hand. "I think you have me confused with-"
 
 "It doesn't matter."
 
-Death raised his hand.
+Death raised his hand. Everyone's phones displayed their death dates; most were set to three seconds from now.
 
 The investor took a spoonful of soup and tasted it thoughtfully.
 

@@ -2,11 +2,15 @@ The earth screamed at 6.2 hertz, and Elise Volkov's hands screamed back.
 
 She knelt in the dirt at the edge of Westbrook's collapse, bio-suture gun punching ceramic needle through dead soil. She worked in the technique that had been passed down to her: Fifteen-centimeter intervals in a grid formation. Keep the thread taut but not so tight it snaps when the next tremor hits.
 
-The bio-thread glowed faint blue-green as it fed into the ground, living filament carrying nutrients into earth that had been bled dry. Around her, strange, bright, crystalline plants - the thread blooms - pushed through the crust: bioluminescent growths with translucent petals that pulsed their own unique colors. Their root systems grew upward as easily as down, stems that branched in spirals that no plant natural to Earth had ever needed. Beautiful in the way deep-sea creatures were. Wrong in the way they moved without wind, turning toward the bio-thread like flowers toward sun.
+The bio-thread glowed faint blue-green as it fed into the ground, living filament carrying nutrients into earth that had been bled dry. Around her, strange, bright, crystalline plants - thread blooms - pushed through the crust: bioluminescent growths with translucent petals that pulsed their own unique colors. 
+
+Their root systems grew upward as easily as down, stems that branched in spirals that no plant natural to Earth had ever needed. Beautiful in the way deep-sea creatures were. Wrong in the way they moved without wind, turning toward the bio-thread like flowers toward sun.
 
 They didn't belong here, but neither did the thread.
 
-Elise adjusted her mask - the kind all soil surgeons wore, filtration system humming against her face, limited oxygen supply metered out in careful ratios. The comms were built into the left temple, voices from The Station fed directly into her ear. Elise's mask was heritage-rank, painted black with a golden rim. The seal had worn smooth from decades of use, though proper maintenance and upgrades had kept it functional. Her grandmother had worn it during the First Stitch. Her mother had died in it. Now it was hers. Three generations of trying to stitch together a dying planet.
+Elise adjusted her mask - the kind all soil surgeons wore, filtration system humming against her face, limited oxygen supply metered out in careful ratios. The comms were built into the left temple, voices from The Station fed directly into her ear. 
+
+Her mask was heritage-rank, painted black with a golden rim. The seal had worn smooth from decades of use, though proper maintenance and upgrades had kept it functional. Her grandmother had worn it during the First Stitch. Her mother had died in it. Now it was hers.
 
 Around her, the thread blooms swayed toward her work, already learning where the thread ran strongest. Westbrook unraveled six times this year, each time worse than the last. She'd stopped counting the people. But the plants, they always came after, and her mask never stopped counting: 73,599 of them in this zone, a world record.
 
@@ -22,7 +26,7 @@ Static. Then: "That's not relevant to-"
 
 "How many?"
 
-"We're at capacity. 10,000. We've been at capacity for three years." Vera's voice went clinical. "But we still need the thread recycling. We still need the water. We still need the monitoring data. Earth keeps us alive even while it dies, El. That's why the work matters."
+"We're at capacity. 100,000. We've been at capacity for three years." Vera's voice went clinical. "But we still need the thread recycling. We still need the water. We still need the monitoring data. Earth keeps us alive, El. That's why the work matters."
 
 Earth keeps *you* alive, Elise thought. The rest of us just keep Earth running so you can watch it die from a safe distance.
 
@@ -62,7 +66,7 @@ Elise's throat tightened. "It's beautiful, sweetheart."
 
 He'd died with bloom spores in his lungs. Six years ago. Another Westbrook collapse.
 
-Elise's eyes drifted to the wall where Dmitri had hung their old wedding photo. Behind the frame, she could see it: a hairline crack in the old plaster, already glowing faint blue-green. 47 years since the Korolev crash. 47 years since Russian scientists decided the alien vessel's ecosystem might "restore Earth's dead soil." 
+Elise's eyes drifted to the wall where Dmitri had hung their old wedding photo. Behind the frame, she could see it: a hairline crack in the old plaster, already glowing faint blue-green. 47 years since the Korolev crash - since the First Stitch. 47 years since Russian scientists decided the alien vessel's ecosystem might "restore Earth's dead soil." 
 
 It had worked. For about two years. Then the blooms learned to eat concrete. Then they learned to grow in human lungs. Then they learned that Earth was just another substrate to consume.
 
@@ -118,9 +122,9 @@ Lena nodded against her shoulder, and Elise held her for ten more seconds she di
 
 ---
 
-Elise's boots crunched through crystalline growth as she made her way through the Hollows. The thread blooms here had taken over, carpeting every surface in pulsing colored light. Buildings sagged under their weight. Streets glowed with that neon twilight she'd seen in every dead zone.
+Elise's boots crunched through glowing petals as she made her way through the Hollows. The thread blooms here had taken over, carpeting every surface in pulsing colored light. Buildings sagged under their weight. Streets glowed with that neon twilight she'd seen in every dead zone.
 
-And in the middle of it all, a group of people sat in a circle, breathing deep. Elise had seen thread huffers before. They sat in the bloom field, masks off, inhaling spores that they knew would kill them. Their lips stained blue and their eyes glassed over. They laughed hysterically, in their own little world, oblivious to the decay around them.
+And in the middle of it all, a group of people sat in a circle, breathing deep. Elise had seen thread huffers before. They sat in the bloom field, maskless, inhaling spores that they knew would kill them. Their lips stained blue and their eyes glassed over. They laughed hysterically, in their own little world, oblivious to the decay around them.
 
 One of them noticed her. The man's head snapped up, eyes wide and unseeing. He lurched to his feet and ran toward something only he could see. His arms reached out like he was trying to catch something precious.
 
@@ -166,13 +170,19 @@ Elise turned and ran. She had to get back home.
 
 ---
 
+Elise sprinted. Through the Hollows, past the huffers who didn't look up, their eyes tracking things that weren't there. Her boots hammered, each step a crunch that echoed the sound she'd heard from the crater's edge. The neon glow lit her path in that wrong twilight, thread blooms swaying as she passed like they could taste her panic.
+
+The shuttle depot was twelve blocks north. Too far. Too slow. And something in her chest - the same instinct that had kept her alive this long - screamed that the shuttle couldn't be trusted. She cut through dead zones instead, places where the ground had collapsed into craters that had once been city blocks. She slid down edges of raw earth, kicked through thread blooms that reached for her boots, their stems snapping under her weight. When she needed to climb out, she grabbed the same crystalline stalks, using their unnatural strength to haul herself up and over.
+
+She pulled herself over the final crater's edge, and there it was. Her building. Three blocks away. Still standing, until the earth around it began screaming. It sank into the ground that opened beneath it like a mouth, swallowing concrete and steel and twelve years of Lena's drawings in one smooth, inevitable motion. Elise opened her mouth but no sound came out. Just that frequency, vibrating through her bones, as neon light bloomed from the edges where her daughter had been.
+
 Elise's apartment was gone. Not damaged. Not collapsed. Gone. A thirty-meter crater where her building had been, edges still glowing from fresh thread bloom growth. Her knees gave out. She keyed the comms, voice cracking: "Vera. Vera, my apartment - where is Lena? Vera, please-"
 
 Static.
 
 Elise's legs gave out and she fell to her knees at the crater's edge, hands scrabbling at dirt that was still warm. Still glowing.
 
-"VERA!" The scream tore out of her. Raw. Animal. The kind of sound that came from somewhere deeper than lungs.
+"VERA!" The raw scream tore out of her. The kind of sound that came from somewhere deeper than lungs.
 
 Through her rage, Elise pieced the puzzle together: the Station had known. They'd had enough data, watched the bloom count spike, calculated the collapse window down to the hour.
 
@@ -194,12 +204,12 @@ The delivery shuttles sat in rows, loading containers marked with biohazard symb
 
 Elise chose one near the back. Checked the manifest: scheduled departure in eight minutes. Arrival time: two hours, fourteen minutes.
 
-She climbed inside. The container was packed with sealed canisters, but one had cracked. Hairline fracture along the seal. Neon liquid pooling at the bottom, already starting to evaporate. This was raw, unprocessed, thread bloom concentrate.
+She climbed inside. The container was packed with sealed canisters, she picked one up, and cracked it on the container, causing a hairline fracture along the seal. Neon liquid pooling at the bottom, already starting to evaporate - this was raw, unprocessed, thread bloom concentrate.
 
 Elise looked at the cracked canister. At the neon liquid pooling. At her mask's oxygen reserves: six hours.
 Her mask's filters were rated for atmospheric bloom spores. Not concentrated extract in an enclosed space.
 
-She'd heard the stories. Bloom toxins didn't just make you see things. They made you feel things. Made pain feel like purpose. Made murder feel like mercy. The huffers in the Hollows died happy because the spores rewrote what happiness meant.
+She'd heard the stories. Bloom toxins didn't just make you see things, they made you feel things. Made pain feel like purpose. Made murder feel like mercy. The huffers in the Hollows died happy because the spores rewrote what happiness meant.
 
 Elise reached up and adjusted her mask's filter settings. The intake valve could be manually overridden. Could be set to draw from the cargo hold instead of her oxygen reserves.
 
