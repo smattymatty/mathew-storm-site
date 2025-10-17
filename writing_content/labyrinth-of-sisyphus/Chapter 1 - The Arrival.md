@@ -1,16 +1,4 @@
-Queen Pasiphaë pressed her palm against the stone wall of her chamber, feeling the familiar pulse that no one else acknowledged.
-
-From her window, she watched the guard escort a prisoner across the lower courtyard. He walked steadily, like someone who'd already accepted his fate.
-
-"Sisyphus of Corinth," her attendant Lysippe murmured, reading from a tablet. "The new assistant. The King said arrangements were made."
-
-Another one.
-
-The prisoner looked up once, scanning the palace towers with the calculating gaze of someone measuring an obstacle with interest rather than fear. Then the guard led him inside, toward the architect's workshop.
-
----
-
-The chains had been lighter than expected. Sisyphus could feel ther weight in every link, but after an eternity of pushing stone up an endless slope, anything that didn't roll back down felt almost like freedom.
+The chains had been lighter than expected. Sisyphus could feel their weight in every link, but after an eternity of pushing stone up an endless slope, anything that didn't roll back down felt almost like freedom.
 
 Almost.
 
@@ -36,7 +24,7 @@ The hunched figure straightened slowly, then turned with the careful precision o
 
 Sisyphus blinked. He'd assumed his name had faded from mortal memory, yet this man spoke it with casual familiarity. 
 
-Daedalus gestured to the chaos of scrolls, sleeve brushed against the half-empty wine cup. "I just heard news of your arrival. The palace walls carry sound well." His eyes flicked toward the Guard Captain, then back. He pressed his palms flat against the largest scroll, steadying himself. "Please. Make yourself comfortable."
+Daedalus gestured to the chaos of scrolls. "I just heard news of your arrival, the palace walls carry sound well." His eyes flicked toward the Guard Captain, then back. He pressed his palms flat against the largest scroll, steadying himself. "Please. Make yourself comfortable."
 
 The architectural plans writhed in the lamplight - corridors that connected to themselves, symbols that shifted when he wasn't looking directly at them. Sisyphus traced a passage with his finger. The ink pulled away from his touch like water from oil, then, when his finger stopped moving, it flowed back, following the path his finger had just taken. It was learning the pattern, remembering. He jerked his hand away and the ink settled, but now the passage he'd traced was slightly different. As if it had taken notes. His eyes watered trying to follow the new geometry.
 
@@ -72,19 +60,17 @@ Sisyphus nodded. After endless repetition, he knew how threats worked: they reve
 
 After the Captain's bootfalls had faded down the spiral stairs, Daedalus collapsed into his chair as if invisible puppet strings had been severed. The leather creaked under his weight, releasing the scent of old fear.
 
-"Charming fellow," Sisyphus observed, rolling his shoulders to work out the perpetual knots.
+"Charming fellow," Sisyphus observed.
 
 "He's executed three architects before us," Daedalus said with forced casualness. "Minos values results over lives."
 
-He reached for his wine cup as the first light of dawn crept through the eastern window, lifting it with desperate hands in what seemed like ritual. The wine was sour, but he drank deeply anyway.
+He reached for his wine cup as the first light of dawn crept through the eastern window, lifting it with desperate hands in what seemed like ritual. The liquid was sour, but he drank deeply anyway.
 
-"I once built temples in Athens," he said quietly, staring into the cup. "Places where people came to find hope, to celebrate beauty." His voice carried the weight of loss, his head shook without his will. "Now I calculate the most efficient ways for hope to die." He took his final gulp, but the wine couldn't wash away what he'd just admitted. 
+"I once built temples in Athens," he said quietly, staring into the cup. "Places where people came to find hope, to celebrate beauty." His voice carried the weight of loss, his head shook without his will. "Now I calculate the most efficient ways for hope to die." He took his final gulp, but it couldn't wash away what he'd just admitted. 
 
 The old man collected himself, his scholarly composure returned. He grabbed the stylus and got back to work.
 
-Sisyphus watched him return to the blueprints, noting how Daedalus's stylus hesitated at certain junctions, as if his hand rebelled against its own precision. At one corner, Daedalus drew what looked like a dead end but was actually—Sisyphus squinted—a shadow passage, barely visible, that might offer moments of concealment. Small mercies disguised as incompetence. Interesting.
-
-The tremor in Daedalus's hands hadn't ceased, and something lurked in his eyes, a depth of self-loathing that Sisyphus recognized like his own reflection.
+Sisyphus watched Daedalus return to the center table, how he stared at his own blueprints like a man reading his own confession. Sisyphus knew that look. Had worn it himself, back when he still bothered to count the number of times the boulder rolled back down.
 
 "What did you do?" Sisyphus asked quietly.
 
@@ -160,7 +146,7 @@ The door closed with a heavy thud.
 
 Daedalus stared at the wooden barrier for a long moment, then turned to face Sisyphus with eyes that had gone flat and calculating.
 
-"Three hours," he said, reaching for a piece of bread. "We have three hours to convince a king who has never been denied anything that two men can accomplish what should take months of planning."
+"Three hours," he said as he picked up a piece of bread. "We have three hours to convince a mad king that two men can accomplish what should take months of planning."
 
 Sisyphus picked up his wine cup, the morning light through the window catching the liquid's surface. "What exactly does he expect to see?"
 
@@ -170,4 +156,4 @@ The architect's stylus moved across the papyrus with sudden, urgent precision. "
 
 As Daedalus worked, Sisyphus found himself studying the man's profile. The desperate energy in his movements wasn't mere professional pride - it was the frantic calculation of a man balancing invisible weights. Each line he drew seemed to cost him something irreplaceable.
 
-Sisyphus reached for the bread, noting how the liquid in his cup trembled with each distant vibration through the stone, rhythmic and wrong, like a pulse through veins that shouldn't exist. Three beats, pause, two beats. The same pattern as the Captain's fingers on his pommel. The same pattern as the floor's vibration when he'd entered. The fortress itself was becoming alive, learning to breathe in harmony with the thing it held.
+Sisyphus reached for the bread, noting how the liquid in his cup trembled with each distant vibration through the stone, rhythmic and wrong, like a pulse through veins that shouldn't exist. Three beats, pause, two beats. The same pattern as the Captain's fingers on his pommel. The same pattern as the floor's vibration when he'd entered.
