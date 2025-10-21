@@ -1,6 +1,6 @@
 Queen Pasiphaë folded the third letter from Syracuse into her sleeve as footsteps approached. The supply manifests lay scattered across her desk - evidence of the bleeding. Eleven wagons this week. Seventeen last week. The exodus had begun.
 
-Behind her, the door opened without announcement.
+Behind her, the door opened without announcement. She already knew who it was. Even her own husband knocked before entering.
 
 "Majesty." Lieutenant Theron's voice carried respect that sounded like mockery. "The execution is scheduled for the twelfth hour."
 
@@ -10,9 +10,9 @@ She didn't turn. "On whose authority?"
 
 "Minos didn't authorize-"
 
-"The King has been occupied with the architects. I simply follow his orders." 
+"The King has been occupied with his project. I simply follow his orders." 
 
-Theron picked up one of her letters from the writing desk without permission. "Correspondence from Rhodes? Their governor seeks extensions. Syracuse made similar requests. Everyone senses weakness, Majesty."
+Theron picked up one of her letters from the writing desk without permission. "Correspondence from Rhodes? Their governor seeks extensions. Syracuse made similar requests. Everyone senses weakness."
 
 She turned to face him. He stood reading her private letters as if they were his own.
 
@@ -25,8 +25,6 @@ Her hand twitched toward the bronze letter opener on her desk, from years of ima
 "You're executing a man for trying to leave?"
 
 "I'm executing a traitor. There's a difference." He moved toward the window, standing too close. "Unless Your Majesty believes fleeing one's post is acceptable? That would send an interesting message."
-
-The trap was elegant. Defend the harbor master and she admitted the crisis. Condemn him and she enabled Theron's tyranny.
 
 Before she could respond, Lysippe appeared in the doorway. "Your Majesty, the council-"
 
@@ -120,9 +118,9 @@ Polyidus turned away.
 
 The blade fell.
 
-Someone in the crowd shouted approval. one of Theron's men, planted there. Then another voice joined, and another. Not the whole crowd, but enough. The loyal, the frightened, the opportunistic - all cheering to be seen cheering.
+Someone in the crowd shouted approval. One of Theron's men, planted there. Then another voice joined, and another. Not the whole crowd, but enough. The loyal, the frightened, the opportunistic - all cheering to be seen cheering.
 
-The council members stood frozen. This was theater with a cultivated audience.
+The council members stood frozen.
 
 Polyidus recognized one of the voices. A temple guard. One of his own men, now cheering for Theron.
 
@@ -152,7 +150,7 @@ Queen Pasiphaë received Theron in her formal chamber, dressed in full regalia. 
 
 He sat, but his posture remained rigid. Watchful.
 
-"What I'm about to tell you will sound like madness." she said, studying his face with the same precision he used to catalog her belongings. "But you're the type of man who needs evidence. Who trusts only what he can see fo himself." A pause. "So I'm going to give you exactly what you want."
+"What I'm about to tell you will sound like madness." she said, studying his face with the same precision he used to catalog her belongings. "But you're the type of man who needs evidence. Who trusts only what he can see for himself." A pause. "So I'm going to give you exactly what you want."
 
 "I'm listening."
 
@@ -160,9 +158,9 @@ She continued to study him, this man who thought loyalty meant order. Her finger
 
 She took a deep breath. "Years ago, my husband offended Poseidon. Stole the god's sacred bull, claimed it." She watched Theron's face carefully. "The curse fell on me. Not him. Me."
 
-Her voice was steady. Calmer than she felt. The anger helped, she'd learned that years ago. Channel it into coldness, into precision. Let it sharpen her words instead of breaking them.
+Her voice was steady, almer than she felt. The anger helped, she'd learned that years ago. Channel it into coldness, into precision. Let it sharpen her words instead of breaking them.
 
-"The bull was Poseidon's," she continued. "And Minos knew it. He chose pride over piety, and when the god's wrath came, it fell on me. My Body and my mind became instruments of divine will, and from that abomination came what breathes below."
+"The bull was Poseidon's," she continued. "And Minos knew it. He chose pride over piety, and when the god's wrath came, it fell on me. My body and my mind became instruments of divine will, and from that abomination came what breathes below."
 
 "Careful, Majesty." Theron's voice was soft. "Speaking ill of the King-"
 
@@ -170,11 +168,11 @@ Her voice was steady. Calmer than she felt. The anger helped, she'd learned that
 
 Theron's jaw had dropped. His hand moved to his belt - not for a weapon, but for the small tablet he kept there. Taking notes. "These are serious accusations, Majesty."
 
-She watched his stylus move across the wax tablet, recording every word. Good. He'd need those notes later - when he insisted on seeing the beast for himself. Men like Theron always needed to verify. To control. To understand.
+She watched his stylus move across the wax tablet, recording every word. Good. He'd need those notes later - when he insisted on seeing the beast for himself. Men like Theron always needed to verify, to control, to understand.
 
 "You're suggesting the King knowingly harbors a monster?" Theron's stylus scratched against wax. "That he's built this entire project to contain his... what are you claiming, exactly?"
 
-"I'm claiming he's corrupted something that was already an abomination and made it worse. Fed it children to study how it learns." Her voice went quieter. "Whatever fathered it, he claimed it as his own. He sees it as his son."
+"I'm claiming he's corrupted something that was already cursed and made it worse. Fed it tributes to study how it learns." Her voice went quieter. "Whatever fathered it, he claimed it as his own. He sees it as his son."
 
 Silence.
 
@@ -194,6 +192,6 @@ Then Theron set down his stylus with deliberate care. "Majesty, you're clearly u
 
 After he left, she stood motionless. The vibrations through the stone pulsed stronger. The Queen felt what Theron couldn't; the breathing rhythm she'd once carried inside her.
 
-Theron would investigate. Dig deeper. Demand proof.
+Theron would investigate. He would dig deeper, and demand proof.
 
 He'd get it.

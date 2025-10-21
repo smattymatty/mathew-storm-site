@@ -12,7 +12,7 @@ He unscrewed the cap, steam slowly rising. That smell-
 
 Tomato bisque. 
 
-The hunger woke. My teeth ached with the phantom taste of a thousand missed meals - saliva thick and hot in my mouth. As I watched his throat work as he swallowed, I wanted to crawl across the table and lick the steam off his thermos.
+The hunger woke. My teeth ached with the phantom taste of a thousand missed meals - saliva thick and hot in my mouth.
 
 "You don't mind?" He poured into his travel mug.
 

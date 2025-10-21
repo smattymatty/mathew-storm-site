@@ -202,7 +202,7 @@ The torchlight revealed Daedalus's masterwork in fragments—passages that curve
 
 He ran his hand along a wall that pulsed with its own rhythm. "This structure negotiates with reality itself. Not forcing, not breaking—convincing stone to be something other than what nature intended."
 
-"Master Daedalus," Nikias interrupted, weathered face tight. "These passages aren't defensible. Too many blind corners—"
+"Master Daedalus," Nikias interrupted, weathered face tight. "These passages aren't defensible. Too many blind corners-"
 
 "This isn't a fortress, Sergeant. It's a feeding mechanism."
 
