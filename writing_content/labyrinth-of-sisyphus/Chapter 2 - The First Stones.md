@@ -1,56 +1,54 @@
-The throne room of King Minos stretched before them, painted columns rising into shadow. Their escort's boots echoed against polished stone. Daedalus's stomach clenched with each step. Beside him, Sisyphus walked with unnerving steadiness. The man's calm made Daedalus's own terror feel even more maddening. In his arms, the leather portfolio grew heavier. Three hours of desperate creativity that would either satisfy the monster who ruled Crete or provide fresh entertainment through their deaths.
+The throne room of King Minos stretched before them, painted columns rising into shadow. The  escort's boots echoed against polished stone. Daedalus's stomach clenched with each step. Beside him, Sisyphus walked with unnerving steadiness. The new assistant's calm made Daedalus's own terror feel even more maddening. In his arms, the leather portfolio grew heavier. Hours of desperate creativity that would either satisfy the tyrant who ruled Crete or provide fresh entertainment through their deaths.
 
-*Icarus would be fourteen now*. The thought struck without warning, as it always did in moments of stress. *Old enough to appreciate architectural beauty, young enough to still believe his father-*. Daedalus's hand moved unconsciously to his chest, where he kept a small bronze compass his son made before Minos took him. Its weight was both a comfort and torment.
+Icarus would be fourteen now. The thought struck without warning, as it always did in moments of stress. Old enough to appreciate architectural beauty, young enough to still believe his father-. Daedalus's hand moved unconsciously to his chest, where he kept a small bronze compass his son made before Minos took him. Its weight was both a comfort and torment.
 
 The throne itself sat on a raised plate at the chamber's far end, carved from a single block of black marble. Upon it sat King Minos, motionless as the stone itself but infinitely more dangerous. Shadows under his eyes had deepened since the last architectural review.
 
 To his right, Queen Pasiphaë stood in formal posture, hands clasped. The golden brooch on her neck caught the lamplight - Daedalus's own work, commissioned years ago. Perfect symmetry in the design, each horn precisely angled. He'd been proud of it once.
 
-Her eyes were fixed on Sisyphus. The same careful study she'd shown Daedalus - learning everything about him within a month. He'd been simple, really. But as she watched Sisyphus now, something shifted in her expression. This one wasn't simple
+Her eyes were fixed on Sisyphus. The same careful study she'd shown Daedalus - learning everything about him within a month. He'd been simple, really. But as she watched Sisyphus now, her expression shifted. This one wasn't simple.
 
 Minos didn't acknowledge their approach, his attention fixed on a scroll, drawings from the previous assistant.
 
-"Your Majesty," Daedalus forced out, willing his voice to steadiness his hands couldn't achieve, "we bring initial modifications to the labyrinth design, accounting for the recent developments."
+"Your Majesty," Daedalus forced out, willing his voice to steadiness his hands couldn't achieve, "as requested, we bring initial modifications to the labyrinth design."
 
-Minos raised his head with the deliberate slowness. Those dark eyes fixed first on him with familiar contempt, then shifted to Sisyphus with the calculating assessment of someone evaluating a new blade's sharpness.
+Minos raised his head with deliberate slowness. Those dark eyes fixed first on him with familiar contempt, then shifted to Sisyphus, looking through him as if evaluating whether he was worth noticing at all.
 
 "Show me," the King commanded.
 
-Daedalus unrolled their drawings, muscle memory taking over where courage failed. The modifications they'd sketched were good work - he knew this with the part of his mind that remained objective about craft even as the rest of him screamed. Reinforced chambers where the beast had broken through. New passage configurations that accounted for its growing intelligence. Adaptive sections that could evolve with their prisoner.
+Daedalus unrolled their drawings, muscle memory taking over where courage failed. The modifications they'd sketched were good work - he knew this with the part of his mind that remained objective about craft. Reinforced chambers where the beast had broken through. New passage configurations that accounted for its growing intelligence. Adaptive sections that could evolve with their prisoner.
 
-"The beast has grown stronger since the last tribute," Daedalus explained, his stylus moving with the precision that had once built temples. "These modifications account for its increased size and intelligence. The walls must be thicker here, the passages more complex there. And these chambers-" He indicated the interconnected spaces he'd designed with bitter expertise. "—allow for systematic testing of the maze's effectiveness."
+"The beast has grown stronger," Daedalus explained, his stylus moving with the precision that had once built temples. "The walls must be thicker here, the passages more complex there. These chambers-" He indicated the interconnected spaces he'd designed with bitter expertise.
 
-He watched Minos study the plans with an absorption that reminded Daedalus of his own focus when solving architectural problems. The King's fingers traced certain passages while ignoring others, and Daedalus felt a sick recognition—Minos didn't just want functional cruelty; he wanted elegant cruelty. Artful suffering. The kind Daedalus had become expert at providing.
+He watched Minos study the plans with an absorption that reminded Daedalus of his own focus when solving architectural problems. The King's fingers traced certain passages while ignoring others, and Daedalus felt a sick recognition - Minos didn't just want functional cruelty, he wanted elegant cruelty. Artful suffering. The kind Daedalus had become expert at providing.
 
-"This section," Minos said, tapping a confluence of passages near the labyrinth's heart. "Too straightforward. A clever tribute might navigate it too quickly." He looked at Sisyphus. "What would you do to... complicate matters?"
+"This section," Minos said, tapping a confluence of passages near the labyrinth's heart. "Too straightforward. A clever tribute might navigate it too quickly." He looked at Sisyphus. "What would you do to complicate matters?"
 
 Sisyphus studied the junction. Daedalus held his breath - if he suggested anything merciful, anything weak-
 
 "I don't know yet," Sisyphus said. "I'd need to see how the stone moves in that configuration. Whether the angles create natural confusion or require artificial-"
 
-"I didn't ask for a lecture on methodology." Minos's voice went flat. "I asked what you would do."
+"I didn't ask for a lecture." Minos's voice went flat. "I asked what you would do."
 
 Daedalus felt sweat prickle his scalp. This was the test. Minos didn't tolerate uncertainty.
 
 "Build a false exit," Sisyphus said finally. "Right here. Let them think they've solved it. Then when they step through-" He traced a line with his finger. "-the passage loops back to the feeding chamber. Their own hope delivers them."
 
-The silence stretched. Minos's fingers drummed once against the marble armrest.
+The silence stretched. Minos's fingers drummed against the marble armrest.
 
 "Adequate," he said, setting down the scroll. "You'll refine it during construction. I expect improvements."
-
-Adequate wasn't approval. It was provisional survival.
 
 The King rose from his throne with the fluid grace of a predator sated but not satisfied. "Work begins immediately. I want to see structural progress by week's end, and full implementation of these modifications within the month." His gaze shifted between them like a blade testing edges. "Begone!"
 
 As guards escorted them from the throne room, Sisyphus walked beside him in contemplative silence, his gaze fixed on something distant. Daedalus wanted to warn him that it only got worse, that each compromise carved away another piece of whatever soul remained. But what was the point? They would both learn soon enough.
 
-The portfolio's leather bit into his forearm—filled with designs for future horrors. Necessary horrors, he told himself. *Perdix would have found a better way.* The thought struck uninvited. *He was brilliant, could see solutions in-*
+The portfolio's leather bit into his forearm, filled with designs for future horrors. Necessary horrors, he told himself. Perdix would have found a better way. The thought struck uninvited. He was brilliant, could see solutions in-
 
 No. He crushed that thought before it could finish. The memory of his nephew's eyes, wide with surprise as he fell, threatened to surface. Daedalus forced it down with practiced efficiency. Some thoughts were too dangerous to examine in daylight.
 
 Everyone serves something, he'd told Sisyphus. His hand found the compass in his pocket again. Icarus had been so proud making it, the bronze still rough where his small fingers hadn't quite smoothed the edges. Daedalus tightened his grip until the metal bit into his palm.
 
----
+
 
 The palace corridors seemed to multiply as they walked, each turn revealing another passage decorated with frescoes of bulls and dolphins. The guards ahead moved with practiced efficiency, one young, one old.
 
@@ -72,13 +70,13 @@ They emerged into sunlight where horses waited. Sergeant Nikias announced, "We r
 
 The path climbed through olive groves into bare mountain. Daedalus's fingers found the compass in his pocket as Sisyphus rode alongside.
 
-"Tell me about these quarries," Sisyphus said.
+"Tell me about these quarries." Sisyphus said.
 
 "Three years at this scale. The labyrinth requires materials that exist in flexible relationships with physical law."
 
 They passed workers hauling stone that moved too easily for its mass.
 
-"The stone learns," Sisyphus observed quietly.
+"The stone learns." Sisyphus observed quietly.
 
 When they crested the ridge, the excavation sprawled below: stone cut at angles that shouldn't exist, workers moving in patterns that hurt to track.
 
@@ -120,13 +118,13 @@ Daedalus watched from the shade. He took note the way his new assistant worked w
 
 ---
 
-By sunset, Sisyphus had set three stones. What had taken Daedalus weeks.
+By sunset, Sisyphus had set three stones. What had once taken Daedalus weeks.
 
 "Tomorrow I'll be faster," Sisyphus said, wrapping his bleeding hands.
 
 "Enough surface work," Daedalus announced. "Time you saw where your efforts lead."
 
-The entrance to the depths was concealed behind solid stone—until Daedalus pressed his palm against a specific point and the rock face split along seams that hadn't existed moments before. Beyond lay a platform suspended over darkness.
+The entrance to the depths was concealed behind solid stone until Daedalus pressed his palm against a specific point. Then, the rock face split along seams that hadn't existed moments before. Beyond lay a platform suspended over darkness.
 
 "My design," Daedalus said. "A lifting platform that operates on counterweights. The stone knows which direction it needs to go."
 
@@ -144,17 +142,17 @@ His voice came out strange when he tried to speak, the chamber swallowed some sy
 
 The chamber that opened before them defied description. Vast enough to hold temples, yet its walls curved in patterns that made measurement impossible. 
 
-Sisyphus took three steps forward and his balance failed. Rather than stumbling, his inner ear screamed. Down was now thirty degrees to the left. He locked his knees, forced his eyes to follow the floor. The floor was level. His body insisted it was tilted. The disagreement made his stomach clench.
+Sisyphus took three steps forward and his balance failed. Rather than stumbling, his inner ear screamed. Down was now thirty degrees to the left. He locked his knees, forced his eyes to follow the floor. The floor was level, though his body insisted it was tilted. The disagreement made his stomach clench.
 
 "Your body knows something's wrong," Daedalus said quietly. "But your eyes can't figure out what. That's the first lesson of the Labyrinth: trust nothing. Not sight, not balance, not memory."
 
-Alexios reached for the wall to steady himself. His hand passed through where the wall LOOKED solid, found stone three inches further in. He jerked back, examining his fingers: no injury, but his hand hit something that his eyes said wasn't there. "It's not... the wall isn't where it..." He couldn't finish.
+Alexios reached for the wall to steady himself. His hand passed through where the wall looked solid, found stone three inches further in. He jerked back, examining his fingers: no injury, but his hand hit something that his eyes said wasn't there. "It's not- The wall isn't where it-" He couldn't finish.
 
 "The walls don't stay where you see them," Daedalus explained, his voice flat with repetition. "The tributes learn that quickly. They mark their paths, count their steps. None of it helps. The geometry changes based on how you look at it, how you move through it." He paused. "And the beast? It knows every configuration. Every trick. It grew up here."
 
 He'd explained this to three previous assistants. Two had fled. One had thrown himself from the platform during the return ascent.
 
-Sisyphus merely nodded, studying the chamber with the same patience he'd used on the impossible cornerstone.
+Sisyphus merely nodded as he studied the chamber.
 
 The sound came again, closer. A rumbling howl that vibrated through stone and bone. Intelligence lived in that sound, hunger made deliberate.
 
@@ -168,19 +166,17 @@ Daedalus's breath caught. The guards were RIGHT THERE. "That's not-" He searched
 
 Ice spread through Daedalus's chest. He'd had that same thought countless times, alone in his tower, never daring to speak it. And here was this man, on his FIRST day, saying it aloud. With guards listening.
 
-Nikias's hand moved to his sword hilt. Not threatening, just ready. His eyes met Daedalus's. This Sergaent had been guarding the master architect since his arrival to Crete, they've grown into a silent understanding, it'd be a shame to break that now.
+Nikias's hand moved to his sword hilt. Not threatening, just ready. His eyes met Daedalus's. This Sergeant had been guarding the master architect since his arrival to Crete; they've grown into a silent understanding.
 
 Alexios gripped his spear tighter, looking between them with barely concealed panic. He was new to the guard corps, never expected to be down here with builder and beast.
 
 "The King made his expectations very clear," Daedalus said, each word careful, trying to signal STOP without saying it. "Unauthorized creativity-"
 
-"I'm not being creative." Sisyphus set the stone down gently. "I'm being observant. The labyrinth learns. We can't stop that. But we can be... deliberate about what patterns we repeat." He looked at Daedalus directly. "Wouldn't you agree? As the master architect?"
+"I'm not being creative." Sisyphus set the stone down gently. "I'm being observant. The labyrinth learns. We can't stop that. But we can be deliberate about what patterns we repeat." He looked at Daedalus directly. "Wouldn't you agree? As the master architect?"
 
 The question was a trap. Agree and he was complicit in whatever Sisyphus was suggesting. Disagree and he'd just called his new assistant a liar in front of witnesses.
 
 From below, the breathing changed rhythm. Three long, two short. Then reversed. Two long, three short.
-
-Responding. Answering. 
 
 The intelligence in that reversal made Nikias's knuckles white on his sword.
 
@@ -188,7 +184,7 @@ The intelligence in that reversal made Nikias's knuckles white on his sword.
 
 They ascended in silence. The breathing followed them up through the levels.
 
-When they reached the surface, Nikias pulled Daedalus aside. His voice was low. "Should I report what the new architect said?"
+When they reached the surface, Nikias pulled Daedalus aside. His voice was low. "Should I report what the assistant said?"
 
 Daedalus's hand found the compass in his pocket. Everyone serves something. "He said we should be deliberate in our work. That's not treason. That's craftsmanship."
 
@@ -197,3 +193,4 @@ Nikias studied him for a long moment. Then nodded once. "As you say, Master Daed
 But his hand stayed on his sword as they rode back to the palace.
 
 Behind them, deep below the mountain, the beast had learned a new lesson.
+
