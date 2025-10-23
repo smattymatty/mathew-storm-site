@@ -54,7 +54,7 @@ The Captain's jaw tightened, but he answered. "The kind that makes architects th
 
 Sisyphus nodded. After endless repetition, he knew how threats worked: they revealed the threatener's fears. This one feared creativity, which meant the system had gaps. The guard had just outlined where to look.
 
-
+---
 
 After the Captain's bootfalls had faded down the spiral stairs, Daedalus collapsed into his chair as if invisible puppet strings had been severed. The leather creaked under his weight, releasing the scent of old fear.
 
@@ -90,9 +90,9 @@ The silence stretched until Daedalus set down his stylus with exaggerated care. 
 
 "And yours?"
 
-Daedalus's hand moved to his chest, an unconscious gesture, fingers pressing against something round and metal underneath his tunic. "Everyone serves something, Sisyphus." His expression was carefully empty. "We all have something we can't afford to lose." The dismissal was clear.
+"Mine stays exactly where I left it." Daedalus's hand moved to his chest, an unconscious gesture, fingers pressing against something round and metal underneath his tunic. "Everyone serves something, Sisyphus." His expression was carefully empty. "We all have something we can't afford to lose." The dismissal was clear.
 
-
+---
 
 "Now," Daedalus said, unrolling a different scroll with the brisk efficiency of someone changing an uncomfortable subject, "let me show you the feeding chambers."
 
@@ -126,7 +126,7 @@ For a moment, the sketch revealed something horrifying: not just bull and man fu
 
 "When it breaks free" He stopped. Started again. "If the labyrinth fails, Crete-" The charcoal snapped in his grip. He stared at the broken pieces, then swept them into the lamp flame. "It won't stop. That's all you need to know."
 
-
+---
 
 The sound of boots on stone stairs announced the Guard Captain's return before his scarred face appeared in the doorway. Behind him came two younger guards carrying a wooden tray laden with bread, cheese, watered wine, and olives that gleamed like dark jewels in the morning light.
 
