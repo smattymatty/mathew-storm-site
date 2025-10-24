@@ -44,7 +44,7 @@ It wasn't abstract. It wasn't "YouTube has some problems." It was concrete: **ev
 
 That's when I knew I had to leave. Not gradually. Not "I'll just use it less." Actually delete everything and walk away.
 
-Because I can't live with myself knowing that an ad played before MY content might make some poor person think "hey, $20,000 signing bonus, maybe ICE isn't so bad" - my content cannot be used to normalize fascism like this.
+Because I can't live with myself knowing that an ad played before MY content might make some poor person think "hey, $50,000 signing bonus, maybe ICE isn't so bad" - my content cannot be used to normalize fascism like this.
 
 So I deleted everything. Years of videos. Gone.
 
