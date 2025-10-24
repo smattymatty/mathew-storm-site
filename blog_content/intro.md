@@ -38,7 +38,11 @@ Visit my [Interactive Questions Page](/questions/) (WORK IN PROGRESS!) to test y
 [Is the Fediverse the Key to Canadian Digital Sovereignty?](/blog/Digital_Sovereignty/fediverse-sovereignty-journalistic/)
   *Exploring how decentralized networks could secure Canada's digital future*
 
-[Bill C-2: The Recursive Absurd in Legislative Form](/blog/Digital_Sovereignty/stop-bill-c-2/) 
-  *Shining Light on this bill that claims to liberate us while taking away our rights*
+[Why I Left Youtube to Build NorthTube](/blog/Digital_Sovereignty/why-i-left-youtube-to-build-northtube/) 
+  *After years on YouTube, I finally had enough. Here's why I built NorthTube*
+
+[Funding NorthTube](/blog/Digital_Sovereignty/funding-northtube/) 
+  *Initial thoughts on my plan to fund a PeerTube instance that is owned by the community*
+  
 
 {~~}

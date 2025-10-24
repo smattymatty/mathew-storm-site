@@ -33,34 +33,28 @@ class SpellbookContentSitemap(BaseSitemap):
 
         # Iterate through each content directory
         for idx, content_path in enumerate(settings.SPELLBOOK_MD_PATH):
-            app_name = settings.SPELLBOOK_MD_APP[idx]
+            url_prefix = settings.SPELLBOOK_MD_URL_PREFIX[idx]
 
             # Find all .md files
             for md_file in Path(content_path).glob('**/*.md'):
                 relative_path = md_file.relative_to(content_path)
                 url_path = str(relative_path).replace('.md', '').replace('\\', '/')
 
-                # Skip intro files (they're at the root)
+                # Build the full URL path
                 if url_path == 'intro':
-                    url_path = ''
-
-                # Build the namespaced URL name
-                if url_path:
-                    # Replace slashes with underscores for URL name
-                    url_name = url_path.replace('/', '_').replace(' ', '_').replace('-', '_')
-                    items.append(f"{app_name}:{url_name}")
+                    # intro files go to the root of the app
+                    full_url = f'/{url_prefix}/'
                 else:
-                    items.append(f"{app_name}:intro")
+                    # All other files keep their directory structure
+                    full_url = f'/{url_prefix}/{url_path}/'
+
+                items.append(full_url)
 
         return items
 
     def location(self, item):
-        """Generate URL for each item"""
-        try:
-            return reverse(item)
-        except:
-            # Fallback for items that don't resolve
-            return '/'
+        """Generate URL for each item - item is already the full path"""
+        return item
 
 
 class StaticViewSitemap(BaseSitemap):

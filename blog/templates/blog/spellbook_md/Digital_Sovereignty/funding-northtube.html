@@ -1,0 +1,254 @@
+{% extends 'A_base/sb_base.html' %}
+
+{% block spellbook_md %}
+<div class="seo-metadata" style="display: none;"
+     data-seo-title="Funding NorthTube: Sustainable Community Video Platform"
+     data-seo-description="Exploring sustainable funding models for
+  NorthTube, a Canadian PeerTube instance. Learn about membership tiers, Open Collective transparency, and ad-free creator monetization in the fediverse."
+     data-seo-keywords="NorthTube, PeerTube, community funding, sustainable platforms, ad-free video hosting, creator monetization, Open Collective, fediverse, Canadian tech, ethical media, platform governance, YouTube alternative, membership tiers, transparent funding, community owned video platform"
+     data-seo-author="Mathew Storm"
+     data-seo-image="/static/images/northtube-og.jpg"
+     data-seo-type="article">
+</div>
+
+<script>
+// Extract SEO data and update meta tags in head
+(function() {
+    const seoDiv = document.querySelector('.seo-metadata');
+    if (!seoDiv) return;
+
+    const title = seoDiv.dataset.seoTitle;
+    const description = seoDiv.dataset.seoDescription;
+    const keywords = seoDiv.dataset.seoKeywords;
+    const author = seoDiv.dataset.seoAuthor;
+    const image = seoDiv.dataset.seoImage;
+    const type = seoDiv.dataset.seoType;
+
+    // Update or create meta tags
+    function setMetaTag(name, content, property = false) {
+        if (!content) return;
+
+        const selector = property ? `meta[property="${name}"]` : `meta[name="${name}"]`;
+        let meta = document.querySelector(selector);
+
+        if (!meta) {
+            meta = document.createElement('meta');
+            if (property) {
+                meta.setAttribute('property', name);
+            } else {
+                meta.setAttribute('name', name);
+            }
+            document.head.appendChild(meta);
+        }
+        meta.setAttribute('content', content);
+    }
+
+    // Update title tag
+    if (title) {
+        document.title = title;
+        setMetaTag('og:title', title, true);
+        setMetaTag('twitter:title', title);
+    }
+
+    // Update description
+    if (description) {
+        setMetaTag('description', description);
+        setMetaTag('og:description', description, true);
+        setMetaTag('twitter:description', description);
+    }
+
+    // Update keywords
+    if (keywords) {
+        setMetaTag('keywords', keywords);
+    }
+
+    // Update author
+    if (author) {
+        setMetaTag('author', author);
+    }
+
+    // Update image
+    if (image) {
+        setMetaTag('og:image', image, true);
+        setMetaTag('twitter:image', image);
+        setMetaTag('twitter:card', 'summary_large_image');
+    } else {
+        setMetaTag('twitter:card', 'summary');
+    }
+
+    // Update type
+    if (type) {
+        setMetaTag('og:type', type, true);
+    }
+
+    // Update URL
+    setMetaTag('og:url', window.location.href, true);
+    setMetaTag('og:site_name', 'Mathew Storm', true);
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Funding NorthTube: Sustainable Community Video Platform",
+  "datePublished": "2025-10-24",
+  "dateModified": "2025-10-24",
+
+  "author": {
+    "@type": "Person",
+    "name": "Mathew Storm",
+    "url": "https://mathewstorm.ca"
+  },
+
+  "description": "Exploring sustainable funding models for NorthTube, a Canadian PeerTube instance in the fediverse, focusing on
+  transparency, membership tiers, and ad-free creator support.",
+  "publisher": {
+    "@type": "Person",
+    "name": "Mathew Storm",
+    "url": "https://mathewstorm.ca"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": ""
+  }
+}
+</script>
+
+<h1 id="funding-northtube-building-something-sustainable">Funding NorthTube: Building Something Sustainable</h1>
+<p>I launched <a href="https://northtube.ca">NorthTube</a> yesterday - an ad-free PeerTube instance for Canadian creators, educators, and people focused on public good content. The technical side was challenging but manageable. The funding side? That's the real puzzle.</p>
+<h2 id="the-problem">The Problem</h2>
+<p>Video hosting is expensive. Even with a lean setup:</p>
+<ul>
+<li>VPS hosting: ~$20/month (bare minimum)</li>
+<li>Storage &amp; bandwidth (growing): ~$10-20/month</li>
+<li>Domain, SSL, misc: ~$5/month</li>
+</ul>
+<p>That's <strong>~$40/month minimum</strong>. Not breaking the bank, but not sustainable long-term if I'm paying out of pocket, especially as usage grows.</p>
+<p>More importantly: if this is truly community-owned, the community should fund it. Otherwise it's just <em>my</em> project that happens to be open to others.</p>
+<h2 id="how-were-funding-northtube-right-now">How We're Funding NorthTube Right Now</h2>
+<p>NorthTube is currently funded through <strong>community donations</strong> via <a href="https://opencollective.com/northtube">Open Collective</a>. No ads, no data selling, no corporate sponsors - just people who believe in ethical media.</p>
+<p>We're building toward a 6-month reserve (~$240 for bare minimum hosting) plus buffer for moderators, creator support, and infrastructure = <strong>$1,000 CAD total</strong>.</p>
+<p>All finances are 100% transparent on Open Collective - you can see every dollar.</p>
+<p><a href="https://opencollective.com/northtube">Become a supporter →</a></p>
+<h2 id="what-im-planning-membership-tiers">What I'm Planning: Membership Tiers</h2>
+<p>Once we hit sustainability, I want to implement something different. Here's what I'm thinking:</p>
+<h3 id="friend-of-northtube-5month">Friend of NorthTube - $5/month</h3>
+<ul>
+<li>5GB storage quota (vs 1GB free)</li>
+<li>Listed as supporter (optional)</li>
+<li>Behind-the-scenes updates</li>
+<li>Community pride</li>
+</ul>
+<p>Pretty standard. Entry-level support.</p>
+<h3 id="creator-supporter-15month">Creator Supporter - $15/month</h3>
+<p>Here's where it gets interesting:</p>
+<ul>
+<li>20GB storage quota</li>
+<li>Early access to features</li>
+<li>Vote on community decisions</li>
+<li><strong>Choose one NorthTube creator to support directly ($5/month goes to them)</strong></li>
+</ul>
+<p>That last point is the experiment. When you become a Creator Supporter, $5 of your monthly contribution goes directly to a creator you choose (not yourself). The other $10 goes to platform sustainment.</p>
+<h3 id="community-champion-50month">Community Champion - $50/month</h3>
+<ul>
+<li>100GB storage quota</li>
+<li>Support <strong>three creators</strong> ($15/month split between them)</li>
+<li>Custom channel badge</li>
+<li>Your name in platform credits</li>
+<li>Priority support</li>
+<li>Input on roadmap</li>
+</ul>
+<h3 id="institutional-partner-200month">Institutional Partner - $200/month</h3>
+<ul>
+<li>For schools, libraries, nonprofits</li>
+<li>250GB+ storage quota</li>
+<li>Dedicated support</li>
+<li>Custom branding</li>
+<li>Priority features</li>
+</ul>
+<h2 id="why-the-creator-support-feature">Why the Creator Support Feature?</h2>
+<p>Most platforms treat creator monetization and platform funding as separate problems. You fund the platform through one system, creators through another (Patreon, Ko-fi, etc.).</p>
+<p>What if they were connected?</p>
+<p><strong>Benefits:</strong><br />
+1. <strong>Builds community</strong> - Members have a direct relationship with creators<br />
+2. <strong>Distributes wealth</strong> - Platform success flows to creators immediately<br />
+3. <strong>Incentivizes quality</strong> - Creators want to make content worth supporting<br />
+4. <strong>Novel differentiation</strong> - I don't know of other PeerTube instances doing this</p>
+<p><strong>Challenges:</strong><br />
+1. <strong>Administrative complexity</strong> - Tracking who's supporting whom, monthly payouts<br />
+2. <strong>Eligibility rules</strong> - Who can receive support? (3+ videos? Good standing?)<br />
+3. <strong>What if creator leaves?</strong> - Supporter picks someone else<br />
+4. <strong>Tax implications?</strong> - I'm not a lawyer or accountant</p>
+<h2 id="the-math">The Math</h2>
+<p>Let's say we get to <strong>100 members</strong> with a typical distribution:</p>
+<ul>
+<li>50 Friends @ $5 = $250/month</li>
+<li>35 Creator Supporters @ $15 = $525/month ($175 to creators, $350 to platform)</li>
+<li>12 Champions @ $50 = $600/month ($180 to creators, $420 to platform)</li>
+<li>3 Institutions @ $200 = $600/month</li>
+</ul>
+<p><strong>Total: $1,975/month</strong><br />
+- <strong>Platform gets: $1,620/month</strong> (covers $40/month hosting + moderators + reserves)<br />
+- <strong>Creators get: $355/month</strong> (distributed among supported creators)</p>
+<p>At 100 members, we're not just sustainable - we can pay moderators fairly, support creators, and build reserves for growth.</p>
+<p>Even at just <strong>10 Friends</strong> ($50/month), we cover base hosting costs and prove the model works.</p>
+<h2 id="what-im-unsure-about">What I'm Unsure About</h2>
+<p><strong>Transparency:</strong><br />
+Do I publish exactly who's supporting whom? Anonymous? Opt-in?</p>
+<p><strong>Payout mechanics:</strong><br />
+PayPal? Interac? Monthly? Quarterly? Minimum threshold?</p>
+<p><strong>Creator eligibility:</strong><br />
+Must opt-in? Minimum content requirements? What about new creators?</p>
+<p><strong>Tax handling:</strong><br />
+Is NorthTube a payment processor here? Do creators get 1099s/T4As? (I really need to talk to an accountant.)</p>
+<p><strong>Scaling:</strong><br />
+At 10 creators this is manageable. At 100? Need automation.</p>
+<h2 id="alternative-models-i-considered">Alternative Models I Considered</h2>
+<p><strong>Patreon-style per-creator:</strong><br />
+Each creator sets up their own funding. Platform takes a cut.<br />
+<em>Problem:</em> Splits the community, adds friction.</p>
+<p><strong>Co-op incorporation:</strong><br />
+Formal democratic governance, member-owners.<br />
+<em>Maybe later:</em> Too complex for day one, but interesting long-term.</p>
+<p><strong>Grants/sponsorships:</strong><br />
+Apply for public good tech funding.<br />
+<em>Exploring:</em> But can't rely on this as primary funding.</p>
+<p><strong>Just keep it simple:</strong><br />
+Regular membership tiers, no creator support feature.<br />
+<em>Boring:</em> But maybe that's smarter?</p>
+<h2 id="what-im-not-doing">What I'm NOT Doing</h2>
+<p><strong>Not running ads</strong> - That's the whole point.</p>
+<p><strong>Not selling data</strong> - Your privacy isn't for sale.</p>
+<p><strong>Not seeking VC funding</strong> - The moment you take investor money, you serve investors, not users.</p>
+<p><strong>Not making it complicated</strong> - No NFTs, no tokens, no blockchain nonsense. Just transparent community funding.</p>
+<h2 id="what-happens-next">What Happens Next</h2>
+<p>I'm starting with the <strong>Bootstrap to Sustainability</strong> goal on <a href="https://opencollective.com/northtube">Open Collective</a>: <strong>$1,000 CAD</strong>. This gives us 6 months of hosting if we upgrade to $150/month, proves people actually care about this, and gives us runway to figure out what comes next.</p>
+<p>Once we hit that milestone, I'll implement the membership tiers. The creator support feature might launch as a beta - test it with a small group first, work out the kinks.</p>
+<p>If it's too complicated or doesn't work well? We simplify. The goal is sustainability, not novelty for its own sake.</p>
+<h2 id="your-thoughts">Your Thoughts?</h2>
+<p>If you're reading this and have experience with:<br />
+- Community platform funding<br />
+- Creator monetization systems<br />
+- Co-op governance<br />
+- Canadian tax law for platforms (please help)</p>
+<p>I'd love to hear from you. Email me at mathewstormdev@gmail.com or find me on <a href="https://techhub.social/@smattymatty">Mastodon</a>.</p>
+<p>And if you believe in what NorthTube is trying to do - an ad-free, community-focused alternative to YouTube - <a href="https://opencollective.com/northtube">consider supporting us</a>.</p>
+<hr />
+<p><strong>Building in public,</strong><br />
+Mathew Storm (smattymatty)</p>
+<p><em>October 24, 2025</em></p>
+<hr />
+<h2 id="related">Related</h2>
+<ul>
+<li><a href="/blog/Digital_Sovereignty/why-i-left-youtube-to-build-northtube/">Why I Left YouTube (and Built NorthTube)</a> </li>
+<li><a href="#">NorthTube Devlog #1: Launch Week</a> <em>(coming soon)</em></li>
+<li><a href="#">Technical Stack: How NorthTube Works</a> <em>(coming soon)</em></li>
+</ul>
+<h2 id="follow-the-journey">Follow the journey</h2>
+<ul>
+<li>NorthTube: <a href="https://northtube.ca">northtube.ca</a></li>
+<li>Open Collective: <a href="https://opencollective.com/northtube">opencollective.com/northtube</a></li>
+<li>Mastodon: <a href="https://techhub.social/@smattymatty">@smattymatty@techhub.social</a></li>
+</ul>
+{% endblock %}
