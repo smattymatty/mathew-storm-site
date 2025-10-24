@@ -34,13 +34,13 @@ Then I saw the ICE recruitment ads.
 
 **U.S. Immigration and Customs Enforcement. Offering massive signing bonuses. Recruiting agents. Playing before MY content.**
 
+{~ quote ~}
 I sat there, staring at my screen, and realized: someone just watched my video, and before they could learn something useful, they saw an ad offering them $50,000 to join an organization that separates families, detains children, and operates what can only be described as concentration camps.
+{~~}
 
 **My content. Funded by fascists. Recruiting fascists.**
 
 I couldn't stand by anymore.
-
-It wasn't abstract. It wasn't "YouTube has some problems." It was concrete: **every day my videos stayed up, they could be used to normalize and recruit for an organization I fundamentally oppose.**
 
 That's when I knew I had to leave. Not gradually. Not "I'll just use it less." Actually delete everything and walk away.
 
@@ -121,6 +121,7 @@ So I built NorthTube.
 ## What NorthTube Is (And Isn't)
 
 **NorthTube is:**
+
 - Ad-free by design (and staying that way)
 - Community-funded through Open Collective
 - Focused on Canadian creators (but open to anyone who shares our values)
@@ -130,18 +131,19 @@ So I built NorthTube.
 - A place where your content won't fund organizations you oppose
 
 **NorthTube is not:**
+
 - A free-speech absolutist platform (we have community guidelines)
 - Trying to replace YouTube (that's not realistic or the goal)
 - Venture-backed or seeking growth at all costs
 - Trying to maximize user engagement through manipulation
 - Perfect (we're figuring this out as we go)
-- Going to run ads for ICE, the military, fossil fuels, or any other organization that profits from harm
 
 ## The Vision
 
 What if video hosting worked like this:
 
 **For viewers:**
+
 - No ads interrupting content (especially not recruitment ads for organizations causing harm)
 - No algorithm pushing rage-bait
 - No data harvesting your watching habits
@@ -149,6 +151,7 @@ What if video hosting worked like this:
 - Watch on a platform that shares your values
 
 **For creators:**
+
 - Know your content won't be used to fund things you oppose
 - Own your content (actually, legally, fully)
 - Fair treatment and clear policies
@@ -157,6 +160,7 @@ What if video hosting worked like this:
 - Build audience without gaming an algorithm
 
 **For the community:**
+
 - Democratic input on policies
 - Transparent finances
 - Shared governance over time
@@ -171,7 +175,7 @@ I've been running NorthTube for a few days now. Here's what's actually different
 
 **No ads. Period.** Not "fewer ads" or "better ads." No ads. Your content plays, uninterrupted, unfunded by organizations you might oppose. That's it.
 
-**No algorithmic recommendations (yet).** You see what's recent or what you search for. That's it. Turns out this is... fine? Maybe even better?
+**No algorithmic recommendations.** You see what's recent or what you search for. That's it. Turns out this is fine. Maybe even better?
 
 **Smaller audience means real community.** We're tiny right now. But that means everyone here chose to be here. No one stumbled in from an algorithmic recommendation. They came intentionally.
 
@@ -187,15 +191,15 @@ Let me be honest about what sucks:
 
 **Discoverability is tough.** Without an algorithm or massive user base, getting noticed takes more work.
 
-**Features lag behind YouTube.** No automatic captions (yet). Upload process is clunkier. Mobile apps are rough. Transcoding is... a work in progress.
+**Features lag behind YouTube.** No automatic captions (yet). Upload process is clunkier. Mobile apps are rough. Transcoding is a work in progress.
 
 **Most people haven't heard of PeerTube.** Explaining "it's like federated YouTube" gets blank stares.
 
-**Funding is uncertain.** We're bootstrapping with community donations. That's precarious compared to ad revenue (even ad revenue I hated).
+**Funding is uncertain.** We're bootstrapping with community donations. That's unstable compared to ad revenue.
 
 **It's more work for everyone.** Creators need to promote more. Viewers need to be more intentional. I need to actually moderate and maintain infrastructure.
 
-**You have a smaller audience.** At least initially. Maybe permanently. That's the trade-off for ethical alignment.
+**You have a smaller audience.** At least initially. That's the trade-off for ethical alignment.
 
 These are real tradeoffs. NorthTube isn't "YouTube but better" - it's **different**, with different strengths and weaknesses.
 
