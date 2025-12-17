@@ -57,14 +57,3 @@
 ## About
 
 Open source engineer focused on federated systems, self-hosted infrastructure, and tools that put control back in users' hands. Creating Django-based solutions for organizations that value transparency, sovereignty, and the open web.
----
-
-## What I Believe
-
-The federated social web is the future. Self-hosted infrastructure isn't just for hobbyists - it's how organizations maintain sovereignty and transparency.
-
-WASM and ActivityPub are changing what's possible. We can build powerful, distributed systems without surrendering control to platforms.
-
----
-
-🇨🇦 Canadian by birth and choice • Human rights > all
