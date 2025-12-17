@@ -4,7 +4,7 @@
 {~ storm_hero 
    image="https://files.techhub.social/accounts/avatars/112/618/249/566/505/608/original/7f1971370d7d4e44.jpg"
    title="Mathew Storm"
-   tagline="<p>I build Django tools and run my own servers. Currently making <strong>Storm Cloud</strong> - self-hosted storage with federation baked in.</p><p>Before that I made <strong>Django Spellbook</strong> (markdown CMS) and <strong>Django Mercury</strong> (performance testing). I build what I need, then open source it.</p><p>I also write about tech and what it means - Philosophy dressed up as engineering blog posts.</p>"
+   tagline="<p>I build Django tools and run my own servers. Currently making <strong>Storm Cloud</strong> - self-hosted storage with federation baked in.</p><p>Before that I made <strong>Django Spellbook</strong> (markdown CMS) and <strong>Django Mercury</strong> (performance testing). I build what I need, then open source it.</p>"
    cta_text="View Projects"
    cta_link="#projects"
 ~}
@@ -57,29 +57,6 @@
 ## About
 
 Open source engineer focused on federated systems, self-hosted infrastructure, and tools that put control back in users' hands. Creating Django-based solutions for organizations that value transparency, sovereignty, and the open web.
-
-Canadian developer active on the Fediverse, building alternatives to centralized platforms.
-
-## Writing
-
-I write about the intersection of technology and philosophy, particularly around digital sovereignty, the federated web, and what it means to build human-centered infrastructure.
-
-Exploring themes like recursive absurdism, techno-absurdism, and how we can create technology that respects human agency rather than extracting from it.
-
-[Read my philosophical writing →](/writing/)
-
----
-
-## Connect
-
-**Mastodon:** [@smattymatty@techhub.social](https://techhub.social/@smattymatty) - Active on the Fediverse, discussing digital sovereignty and federated infrastructure
-
-**GitHub:** [github.com/smattymatty](https://github.com/smattymatty) - All projects are open source
-
-**NorthTube:** [northtube.ca](https://northtube.ca) - PeerTube instance, building alternatives to YouTube
-
-**Email:** Contact via Mastodon for fastest response
-
 ---
 
 ## What I Believe
