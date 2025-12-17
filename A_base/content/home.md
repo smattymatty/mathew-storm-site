@@ -65,8 +65,6 @@ The federated social web is the future. Self-hosted infrastructure isn't just fo
 
 WASM and ActivityPub are changing what's possible. We can build powerful, distributed systems without surrendering control to platforms.
 
-Technology and philosophy are inseparable. The tools we build encode values. I'm building tools that encode sovereignty, transparency, and respect for human agency.
-
 ---
 
 🇨🇦 Canadian by birth and choice • Human rights > all
