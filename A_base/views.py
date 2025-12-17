@@ -11,18 +11,13 @@ from . import spellblocks
 content_folder = Path(__file__).resolve().parent / 'content'
 
 def index(request):
-    with open(content_folder / 'home.md', 'r') as f:
-        content = f.read()
     context = {
-        'content': render_spellbook_markdown_to_html(content),
-        'sidebar_header': 'Welcome to my Digital Workshop',
-        'hero': {
-            'title': 'Mathew Storm',
-            'subtitle': 'Full-Stack Developer & Open Source Enthusiast',
-            'description': 'Building elegant solutions with Django, Python, and modern web technologies',
-        }
+        # SEO metadata for homepage
+        'page_title': 'Mathew Storm - Building Sovereign Infrastructure for the Decentralized Web',
+        'meta_description': 'Founder building Storm Cloud Server, Django Spellbook, and Django Mercury. Open source engineer focused on federated infrastructure and digital sovereignty.',
+        'meta_keywords': 'mathew storm, storm cloud server, django spellbook, federated infrastructure, digital sovereignty, activitypub, django developer',
     }
-    template = 'A_base/base.html'
+    template = 'A_base/home.html'
     return render(request, template, context)
 
 @require_POST

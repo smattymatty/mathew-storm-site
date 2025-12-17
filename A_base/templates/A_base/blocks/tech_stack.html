@@ -1,0 +1,12 @@
+{% load spellbook_tags %}
+
+<div class="sb-mb-6">
+  <h4 class="sb-text-lg sb-font-semibold sb-text-text sb-mb-3">{{ title }}</h4>
+  <div class="sb-flex sb-flex-wrap sb-gap-2">
+    {% for tech in technologies %}
+      <span class="sb-px-3 sb-py-1 sb-text-sm sb-bg-surface sb-text-text sb-rounded sb-border sb-border-border">
+        {{ tech }}
+      </span>
+    {% endfor %}
+  </div>
+</div>

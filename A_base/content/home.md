@@ -1,222 +1,95 @@
-{~ seo title="Mathew Storm - Full-Stack Django Developer & Philosophical Author" description="Python/Django specialist, founder of 80-20 Human-in-the-Loop community, creator of Django Spellbook. Where recursive absurdism meets practical engineering." keywords="mathew storm, django developer, python programmer, recursive absurd, 80-20 human-in-the-loop, django spellbook, techno-absurdism, neo-absurdism, humanist absurdism, full-stack developer" author="Mathew Storm" type="website" ~}
+{~ seo title="Mathew Storm - Building Sovereign Infrastructure for the Decentralized Web" description="Founder building Storm Cloud Server, Django Spellbook, and Django Mercury. Open source engineer focused on federated infrastructure and digital sovereignty." keywords="mathew storm, storm cloud server, django spellbook, federated infrastructure, digital sovereignty, activitypub, django developer" ~}
 {~~}
 
-{~ schema type="Person" name="Mathew Storm" headline="Full-Stack Developer & Philosophical Author" date="2025-09-25" author="Mathew Storm" description="Python/Django specialist with 5+ years experience, founder of 80-20 Human-in-the-Loop community, exploring the recursive absurd where philosophy meets engineering." ~}
-{~~}
-
-{% div .storm-hero-gradient .sb-py-12 .sb-px-4 .sb-mb-8 .sb-relative .sb-min-h-[80vh] .sb-flex .sb-items-center .sb-justify-center %}
-  {% div .sb-text-center .sb-relative .sb-z-10 %}
-    {% h1 .sb-text-6xl .sb-md:text-7xl .sb-font-bold .storm-text-lightning .sb-mb-6 data-storm-hero="title" %}
-    ⚡ Mathew Storm ⚡
-    {% endh1 %}
-
-    {% h2 .sb-text-3xl .sb-md:text-4xl .sb-text-secondary .sb-mb-4 data-storm-hero="subtitle" %}
-    Full-Stack Developer
-    {% endh2 %}
-
-    {% p .sb-text-lg .sb-text-secondary .sb-max-w-3xl .sb-mx-auto .sb-mb-12 data-storm-hero="tagline" %}
-    Python/Django specialist with 5+ years experience building scalable web applications, AI integrations, and open-source tools. Expertise in full-stack development, cloud deployment, and community leadership.
-    {% endp %}
-  {% enddiv %}
-{% enddiv %}
-
-{~ carousel
-   image1="https://i.imgur.com/uwImLmA.png"
-   image1desc="AI2U Platform - Full-Stack Knowledge Management System"
-   image1link="https://ai2u.ca"
-   image2="https://i.imgur.com/PgrR5W9.png"
-   image2desc="Django Spellbook - Markdown CMS Framework with 24 GitHub Stars"
-   image2link="https://django-spellbook.org"
-   image3="https://i.imgur.com/Ih0Ty0d.png"
-   image3desc="EduLite - Leading Backend Development for Global Education"
-   image3link="https://edulite-nine.vercel.app"
-   image4="https://i.imgur.com/a77inGr.png"
-   image4desc="Django Mercury - Educational Performance Testing Framework"
-   image4link="https://github.com/80-20-Human-In-The-Loop/Django-Mercury-Performance-Testing"
-   image5="https://i.imgur.com/Ot44Tfg.png"
-   image5desc="80-20 Human-in-the-Loop Community & Philosophy"
-   image5link="https://github.com/80-20-Human-In-The-Loop/Community"
+{~ storm_hero 
+   image="https://files.techhub.social/accounts/avatars/112/618/249/566/505/608/original/7f1971370d7d4e44.jpg"
+   title="Mathew Storm"
+   tagline="<p>I build Django tools and run my own servers. Currently making <strong>Storm Cloud</strong> - self-hosted storage with federation baked in.</p><p>Before that I made <strong>Django Spellbook</strong> (markdown CMS) and <strong>Django Mercury</strong> (performance testing). I build what I need, then open source it.</p><p>I also write about tech and what it means - Philosophy dressed up as engineering blog posts.</p>"
+   cta_text="View Projects"
+   cta_link="#projects"
 ~}
 {~~}
 
-## Technical Skills
+---
 
-{~ skill_category
-   name="Backend Development"
-   icon="server"
-   highlight="Python"
-   skills="Python:5:expert|Django & Django REST Framework:5:expert|PostgreSQL, MySQL:4:advanced|RESTful API Design:5:expert|PyPI Package Development:3:advanced"
+<div id="projects"></div>
+
+## Storm Developments
+
+{~ project_card
+   project="storm-cloud"
+   title="Storm Cloud Server"
+   description="Self-hostable cloud storage with API key authentication and federated transparency via ActivityPub. Built for organizations that need sovereign infrastructure with public audit trails. Features file sharing, public links with expiry, and auto-posting to Fediverse timelines for organizational transparency."
+   status="Production Ready"
+   tech="Django 5.2|Django REST Framework|ActivityPub|GoToSocial"
+   stats="Status:Production|License:MIT"
+   github="https://github.com/stormdevelopments/storm-cloud-server"
+   docs="https://github.com/stormdevelopments/storm-cloud-server#readme"
 ~}
 {~~}
 
-{~ skill_category
-   name="Frontend & Full-Stack"
-   icon="code"
-   highlight="React"
-   skills="React, JavaScript/TypeScript:4:advanced|HTML5, CSS3, Responsive Design:5:expert|HTMX for Dynamic UIs:2:intermediate|Component-Based Architecture:4:advanced|WebSocket Integration:3:advanced"
-~}
-{~~}
-
-{~ skill_category
-   name="Cloud & DevOps"
-   icon="cloud"
-   highlight="Docker"
-   skills="Docker Containerization:4:advanced|DigitalOcean Deployment:3:advanced|CI/CD Pipelines:3:advanced|Linux/Ubuntu Administration:5:expert|Git Version Control:5:expert"
-~}
-{~~}
-
-{~ skill_category
-   name="AI/ML Integration"
-   icon="brain"
-   highlight="LLM"
-   skills="LLM Integration (Claude, GPT, Gemini):2:advanced|Custom NLP Development:2:intermediate|Context Optimization:2:advanced|Cost-Effective AI Solutions:2:advanced|Human-in-the-Loop Design:3:expert"
-~}
-{~~}
-
-{~ skill_category
-   name="Database & Architecture"
-   icon="database"
-   highlight="Database"
-   skills="Database Design & Optimization:4:advanced|Query Performance Tuning:4:advanced|Microservices Architecture:3:intermediate|Event-Driven Systems:3:intermediate|Caching Strategies:3:advanced"
-~}
-{~~}
-
-{~ skill_category
-   name="Testing & Quality"
-   icon="check"
-   highlight="Testing"
-   skills="Unit & Integration Testing:4:advanced|Test-Driven Development:3:advanced|Code Review Best Practices:4:expert|Performance Testing:3:intermediate|Security Best Practices:4:advanced"
-~}
-{~~}
-
-## Featured Projects
-
-{% div .sb-grid .sb-grid-cols-1 .sb-lg:grid-cols-2 .sb-gap-6 .sb-mb-8 %}
-
-{% div %}
-{~ project_showcase
-   title="AI2U Platform"
-   subtitle="Full-Stack AI Knowledge Management System"
-   description="Production SaaS platform with Django backend, React islands, and custom event bus architecture. Features multi-model AI chat (Claude, GPT, Gemini) with proprietary NLP for context optimization, reducing compute costs by 40%."
-   section_title="Key Technologies"
-   highlights="Django + React Islands Architecture|Custom NLP for relevance sorting|WebSocket real-time communication|Hierarchical card-based knowledge system"
-   tech="Django|React|PostgreSQL|WebSockets|Claude API|GPT API|Gemini API"
-   stats="Cost Reduction:40%|Active Users:100+"
-   type="saas"
-   primary_link="https://ai2u.ca"
-   primary_link_text="View Live Platform →"
-   image="https://i.imgur.com/Lf29kDL.png"
-   featured="true"
-~}
-{~~}
-{% enddiv %}
-
-{% div %}
-{~ project_showcase
+{~ project_card
+   project="spellbook"
    title="Django Spellbook"
-   subtitle="Open Source Markdown CMS Framework"
-   description="Created lightweight CMS eliminating traditional overhead. Features custom SpellBlock syntax and auto-generates views/URLs from markdown. Published on PyPI with regular updates."
-   section_title="Impact"
-   highlights="Published on PyPI with regular updates|Praised by Django President Thibaud Colas|Powers multiple production websites|Comprehensive documentation site"
-   tech="Django|Python|Markdown|PyPI"
+   description="Markdown-based CMS framework for Django. Write content in markdown with custom SpellBlocks, auto-generate views and URLs. Eliminates traditional CMS overhead. Published on PyPI, praised by Django President Thibaud Colas."
+   status="Stable"
+   tech="Django|Python|Markdown"
    stats="GitHub Stars:24|PyPI Downloads:10,000+"
-   type="opensource"
-   github_link="https://github.com/smattymatty/django_spellbook"
-   primary_link="https://django-spellbook.org"
-   primary_link_text="View Documentation →"
-   docs_link="https://django-spellbook.org"
-   image="https://i.imgur.com/PgrR5W9.png"
-~}
-{~~}
-{% enddiv %}
-
-{% div %}
-{~ project_showcase
-   title="EduLite"
-   subtitle="Backend Team Lead | Educational Platform"
-   description="Leading backend development for education platform serving underserved areas. Managing 15+ international contributors, architecting REST APIs, and mentoring junior developers."
-   section_title="Leadership Contributions"
-   highlights="Designed and implemented Users API|Established coding standards & review processes|Created Git/GitHub training materials|Mentored 10+ developers globally"
-   tech="Django|Django REST Framework|PostgreSQL|Docker|Git"
-   stats="Contributors:15+|Mentees:10+"
-   type="team"
-   github_link="https://github.com/ibrahim-sisar/EduLite"
-   primary_link="https://edulite-nine.vercel.app"
-   primary_link_text="View Live Demo →"
-   image="https://i.imgur.com/GyG0FfP.png"
-~}
-{~~}
-{% enddiv %}
-
-
-{% enddiv %}
-
-## Professional Experience Highlights
-
-{% h3 .sb-text-2xl .sb-font-bold .sb-text-center .sb-mb-6 %}Key Achievements{% endh3 %}
-
-{% div .sb-grid .sb-grid-cols-1 .sb-md:grid-cols-2 .sb-gap-6 .sb-mb-8 %}
-
-{~ achievement
-   title="Technical Leadership"
-   icon="code"
-   color="primary"
-   items="5+ years:Python/Django production experience|Multiple open-source packages on PyPI|Full project lifecycle management|Architecture design for scalable systems"
+   github="https://github.com/smattymatty/django_spellbook"
+   pypi="https://pypi.org/project/django-spellbook/"
+   docs="https://django-spellbook.org"
 ~}
 {~~}
 
-{~ achievement
-   title="Innovation & Problem Solving"
-   icon="lightbulb"
-   color="success"
-   items="40% reduction:AI compute costs with custom NLP|Created novel markdown-based CMS solution|Implemented real-time features with WebSockets|3x improvement:Database query optimization"
+{~ project_card
+   project="mercury"
+   title="Django Mercury"
+   description="Performance testing framework for Django APIs. Catch N+1 queries and performance regressions before deployment. Simple context manager API for integration into existing test suites."
+   status="Active Development"
+   tech="Django|Python|Performance Testing"
+   stats="Focus:Developer Experience|Type:Testing Tool"
+   github="https://github.com/80-20-Human-In-The-Loop/Django-Mercury-Performance-Testing"
 ~}
 {~~}
 
-{~ achievement
-   title="Team Collaboration"
-   icon="users"
-   color="accent"
-   items="15+:International contributors managed|50+:Pull requests reviewed|Created comprehensive documentation|10+:Junior developers mentored globally"
-~}
-{~~}
+---
 
-{~ achievement
-   title="Continuous Learning"
-   icon="book"
-   color="secondary"
-   items="Always watching tech talks|Active in Django community|Regular open-source contributions|Exploring new AI integration patterns"
-~}
-{~~}
+## About
 
-{% enddiv %}
+Open source engineer focused on federated systems, self-hosted infrastructure, and tools that put control back in users' hands. Creating Django-based solutions for organizations that value transparency, sovereignty, and the open web.
 
+Canadian developer active on the Fediverse, building alternatives to centralized platforms.
 
-## Get In Touch {#contact}
+## Writing
 
-{% div .sb-card .sb-p-6 .sb-mb-8 %}
-  {% div .sb-grid .sb-grid-cols-1 .sb-md:grid-cols-3 .sb-gap-4 %}
-    {% div .sb-text-center %}
-      {% p .sb-font-semibold .sb-mb-2 %}GitHub{% endp %}
-      {% a href="https://github.com/smattymatty" .sb-text-primary .sb-hover:text-accent %}@smattymatty{% enda %}
-    {% enddiv %}
+I write about the intersection of technology and philosophy, particularly around digital sovereignty, the federated web, and what it means to build human-centered infrastructure.
 
-    {% div .sb-text-center %}
-      {% p .sb-font-semibold .sb-mb-2 %}Mastodon{% endp %}
-      {% a href="https://techhub.social/@smattymatty" .sb-text-primary .sb-hover:text-accent %}@smattymatty@techhub.social{% enda %}
-    {% enddiv %}
+Exploring themes like recursive absurdism, techno-absurdism, and how we can create technology that respects human agency rather than extracting from it.
 
-    {% div .sb-text-center %}
-      {% p .sb-font-semibold .sb-mb-2 %}Community{% endp %}
-      {% a href="https://github.com/80-20-Human-In-The-Loop" .sb-text-primary .sb-hover:text-accent %}80-20 Human-In-The-Loop{% enda %}
-    {% enddiv %}
-  {% enddiv %}
-{% enddiv %}
+[Read my philosophical writing →](/writing/)
 
-## Personal Interests
+---
 
-{% div .sb-text-sm .sb-text-secondary .sb-max-w-2xl .sb-mx-auto .sb-text-center .sb-mb-8 %}
-{% p %}
-Beyond coding, I write about technology philosophy and digital humanities. Currently working on "The Labyrinth of Sisyphus," exploring coding through an absurdist lens. Active advocate for open-source adoption and decentralized platforms.
-{% endp %}
-{% enddiv %}
+## Connect
+
+**Mastodon:** [@smattymatty@techhub.social](https://techhub.social/@smattymatty) - Active on the Fediverse, discussing digital sovereignty and federated infrastructure
+
+**GitHub:** [github.com/smattymatty](https://github.com/smattymatty) - All projects are open source
+
+**NorthTube:** [northtube.ca](https://northtube.ca) - PeerTube instance, building alternatives to YouTube
+
+**Email:** Contact via Mastodon for fastest response
+
+---
+
+## What I Believe
+
+The federated social web is the future. Self-hosted infrastructure isn't just for hobbyists - it's how organizations maintain sovereignty and transparency.
+
+WASM and ActivityPub are changing what's possible. We can build powerful, distributed systems without surrendering control to platforms.
+
+Technology and philosophy are inseparable. The tools we build encode values. I'm building tools that encode sovereignty, transparency, and respect for human agency.
+
+---
+
+🇨🇦 Canadian by birth and choice • Human rights > all

@@ -13,10 +13,10 @@ export const StormHeroLightningPlugin = {
             particleLifetime: 3000
         },
         colors: {
-            lightning: '#00ffff',
-            electricBlue: '#0099ff',
-            stormPurple: '#9933ff',
-            glowWhite: '#ffffff'
+            lightning: '#73bed3',      // Light blue from palette
+            electricBlue: '#4f8fba',   // Main blue
+            stormPurple: '#7a367b',    // Purple from palette
+            glowWhite: '#d7b594'       // Warm text color
         }
     },
 
@@ -68,33 +68,21 @@ export const StormHeroLightningPlugin = {
                 }
             }
 
-            /* Lightning Text Effect */
+            /* Lightning Text Effect - Simplified, more readable */
             .storm-text-lightning {
                 position: relative;
                 display: inline-block;
-                color: #ffffff;
+                color: #ffffff !important;
+                font-weight: 700;
                 text-shadow: 
-                    0 0 10px rgba(0, 255, 255, 0.8),
-                    0 0 20px rgba(0, 153, 255, 0.6),
-                    0 0 30px rgba(153, 51, 255, 0.4);
-                animation: lightningGlow 2s ease-in-out infinite alternate;
+                    0 2px 4px rgba(0, 0, 0, 0.3),
+                    0 0 10px rgba(115, 190, 211, 0.2);
             }
-
-            @keyframes lightningGlow {
-                0% { 
-                    filter: brightness(1) contrast(1);
-                    text-shadow: 
-                        0 0 10px rgba(0, 255, 255, 0.8),
-                        0 0 20px rgba(0, 153, 255, 0.6),
-                        0 0 30px rgba(153, 51, 255, 0.4);
-                }
-                100% { 
-                    filter: brightness(1.2) contrast(1.1);
-                    text-shadow: 
-                        0 0 20px rgba(0, 255, 255, 1),
-                        0 0 40px rgba(0, 153, 255, 0.8),
-                        0 0 60px rgba(153, 51, 255, 0.6);
-                }
+            
+            /* Yellow lightning bolt emoji */
+            .lightning-emoji {
+                color: #ffff00;
+                filter: drop-shadow(0 0 10px rgba(255, 255, 0, 0.8));
             }
 
             /* Lightning Strike Animation */
@@ -124,18 +112,10 @@ export const StormHeroLightningPlugin = {
                 animation: lightningStrike 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
             }
 
-            /* Glowing Name Effect */
+            /* Glowing Name Effect - Simplified */
             .storm-text-glow {
-                color: #ffffff;
-                text-shadow: 
-                    0 0 20px rgba(255, 255, 255, 0.5),
-                    0 0 40px rgba(0, 153, 255, 0.3);
-                animation: subtleGlow 3s ease-in-out infinite;
-            }
-
-            @keyframes subtleGlow {
-                0%, 100% { opacity: 0.9; }
-                50% { opacity: 1; }
+                color: #c7cfcc;
+                text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
             }
 
             /* Electric Badge */
@@ -151,35 +131,17 @@ export const StormHeroLightningPlugin = {
             @keyframes electricPulse {
                 0%, 100% { 
                     box-shadow: 
-                        0 0 5px rgba(0, 255, 255, 0.5),
-                        0 0 10px rgba(0, 153, 255, 0.3);
+                        0 0 5px rgba(115, 190, 211, 0.5),
+                        0 0 10px rgba(79, 143, 186, 0.3);
                 }
                 50% { 
                     box-shadow: 
-                        0 0 10px rgba(0, 255, 255, 0.8),
-                        0 0 20px rgba(0, 153, 255, 0.5);
+                        0 0 10px rgba(115, 190, 211, 0.8),
+                        0 0 20px rgba(79, 143, 186, 0.5);
                 }
             }
 
-            /* Typing Effect */
-            .storm-typing {
-                overflow: hidden;
-                white-space: nowrap;
-                border-right: 3px solid rgba(0, 255, 255, 0.8);
-                animation: 
-                    typing 3s steps(40, end),
-                    blinkCursor 0.75s step-end infinite;
-            }
 
-            @keyframes typing {
-                from { width: 0; }
-                to { width: 100%; }
-            }
-
-            @keyframes blinkCursor {
-                from, to { border-color: transparent; }
-                50% { border-color: rgba(0, 255, 255, 0.8); }
-            }
 
             /* Storm Particles Background */
             .storm-particles {
@@ -194,7 +156,7 @@ export const StormHeroLightningPlugin = {
 
             .storm-particle {
                 position: absolute;
-                background: radial-gradient(circle, rgba(0, 255, 255, 0.8) 0%, transparent 70%);
+                background: radial-gradient(circle, rgba(115, 190, 211, 0.8) 0%, transparent 70%);
                 border-radius: 50%;
                 pointer-events: none;
                 animation: floatParticle 10s linear infinite;
@@ -274,43 +236,18 @@ export const StormHeroLightningPlugin = {
     initializeHeroAnimations() {
         // Auto-initialize hero elements on page load
         document.addEventListener('DOMContentLoaded', () => {
-            // Animate main title with lightning strike
+            // Just show title and tagline normally - no complex animations
             const heroTitle = document.querySelector('[data-storm-hero="title"]');
-            if (heroTitle) {
-                setTimeout(() => {
-                    heroTitle.classList.add('storm-strike-in');
-                    this.createLightningEffect(heroTitle);
-                }, 300);
-            }
-
-            // Animate subtitle with glow
-            const heroSubtitle = document.querySelector('[data-storm-hero="subtitle"]');
-            if (heroSubtitle) {
-                setTimeout(() => {
-                    heroSubtitle.style.opacity = '0';
-                    heroSubtitle.style.animation = 'fadeIn 1s ease-out forwards';
-                    heroSubtitle.style.animationDelay = '0.8s';
-                }, 0);
-            }
-
-            // Type out tagline
             const heroTagline = document.querySelector('[data-storm-hero="tagline"]');
-            if (heroTagline) {
-                setTimeout(() => {
-                    this.typeText(heroTagline);
-                }, 1500);
+            
+            // Simple fade-in for title and tagline
+            if (heroTitle) {
+                heroTitle.style.opacity = '1';
             }
-
-            // Animate badges with electric effect
-            const heroBadges = document.querySelectorAll('[data-storm-hero="badge"]');
-            heroBadges.forEach((badge, index) => {
-                setTimeout(() => {
-                    badge.style.opacity = '0';
-                    badge.style.transform = 'translateY(20px)';
-                    badge.style.animation = 'slideUp 0.5s ease-out forwards';
-                    badge.style.animationDelay = `${2 + (index * 0.2)}s`;
-                }, 0);
-            });
+            
+            if (heroTagline) {
+                heroTagline.style.opacity = '1';
+            }
 
             // Create floating particles
             this.createFloatingParticles();
@@ -335,7 +272,7 @@ export const StormHeroLightningPlugin = {
         bolt.innerHTML = `
             <svg viewBox="0 0 100 300" style="width: 100%; height: 100%;">
                 <path d="M 50 0 L 35 100 L 65 95 L 45 300" 
-                      stroke="rgba(0, 255, 255, 0.9)" 
+                      stroke="rgba(115, 190, 211, 0.9)" 
                       stroke-width="4" 
                       fill="none"
                       filter="url(#glow)"/>
@@ -466,7 +403,7 @@ export const StormHeroLightningPlugin = {
         spark.style.position = 'absolute';
         spark.style.width = '2px';
         spark.style.height = '20px';
-        spark.style.background = 'linear-gradient(to bottom, transparent, rgba(0, 255, 255, 0.8), transparent)';
+        spark.style.background = 'linear-gradient(to bottom, transparent, rgba(115, 190, 211, 0.8), transparent)';
         spark.style.left = `${Math.random() * element.offsetWidth}px`;
         spark.style.top = '0';
         spark.style.animation = 'sparkFall 0.3s ease-out forwards';

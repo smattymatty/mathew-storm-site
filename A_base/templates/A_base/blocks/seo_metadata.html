@@ -1,91 +1,40 @@
 {% comment %}
-SEO Metadata Block - Stores SEO data in template context
-This block is invisible but stores SEO data for the page
+SEO Metadata Block - Server-side SEO meta tags
+This renders actual meta tags that search engines can see immediately
 Usage: {~ seo title="Page Title" description="Description" keywords="keyword1, keyword2" author="Mathew Storm" image="/static/image.jpg" type="article" ~}
 {% endcomment %}
 
-{# Store SEO data in a hidden div with data attributes that JavaScript can extract #}
-<div class="seo-metadata" style="display: none;"
-     data-seo-title="{{ title|default:'' }}"
-     data-seo-description="{{ description|default:'' }}"
-     data-seo-keywords="{{ keywords|default:'' }}"
-     data-seo-author="{{ author|default:'Mathew Storm' }}"
-     data-seo-image="{{ og_image|default:'' }}"
-     data-seo-type="{{ og_type|default:'article' }}">
-</div>
+{# Render actual meta tags in the head - this is MUCH better for SEO than JavaScript injection #}
+{% if title %}
+<meta property="og:title" content="{{ title }}">
+<meta name="twitter:title" content="{{ title }}">
+<script>document.title = "{{ title|escapejs }}";</script>
+{% endif %}
 
-<script>
-// Extract SEO data and update meta tags in head
-(function() {
-    const seoDiv = document.querySelector('.seo-metadata');
-    if (!seoDiv) return;
+{% if description %}
+<meta name="description" content="{{ description }}">
+<meta property="og:description" content="{{ description }}">
+<meta name="twitter:description" content="{{ description }}">
+{% endif %}
 
-    const title = seoDiv.dataset.seoTitle;
-    const description = seoDiv.dataset.seoDescription;
-    const keywords = seoDiv.dataset.seoKeywords;
-    const author = seoDiv.dataset.seoAuthor;
-    const image = seoDiv.dataset.seoImage;
-    const type = seoDiv.dataset.seoType;
+{% if keywords %}
+<meta name="keywords" content="{{ keywords }}">
+{% endif %}
 
-    // Update or create meta tags
-    function setMetaTag(name, content, property = false) {
-        if (!content) return;
+{% if author %}
+<meta name="author" content="{{ author }}">
+{% endif %}
 
-        const selector = property ? `meta[property="${name}"]` : `meta[name="${name}"]`;
-        let meta = document.querySelector(selector);
+{% if og_image %}
+<meta property="og:image" content="{{ og_image }}">
+<meta name="twitter:image" content="{{ og_image }}">
+<meta name="twitter:card" content="summary_large_image">
+{% else %}
+<meta name="twitter:card" content="summary">
+{% endif %}
 
-        if (!meta) {
-            meta = document.createElement('meta');
-            if (property) {
-                meta.setAttribute('property', name);
-            } else {
-                meta.setAttribute('name', name);
-            }
-            document.head.appendChild(meta);
-        }
-        meta.setAttribute('content', content);
-    }
+{% if og_type %}
+<meta property="og:type" content="{{ og_type }}">
+{% endif %}
 
-    // Update title tag
-    if (title) {
-        document.title = title;
-        setMetaTag('og:title', title, true);
-        setMetaTag('twitter:title', title);
-    }
-
-    // Update description
-    if (description) {
-        setMetaTag('description', description);
-        setMetaTag('og:description', description, true);
-        setMetaTag('twitter:description', description);
-    }
-
-    // Update keywords
-    if (keywords) {
-        setMetaTag('keywords', keywords);
-    }
-
-    // Update author
-    if (author) {
-        setMetaTag('author', author);
-    }
-
-    // Update image
-    if (image) {
-        setMetaTag('og:image', image, true);
-        setMetaTag('twitter:image', image);
-        setMetaTag('twitter:card', 'summary_large_image');
-    } else {
-        setMetaTag('twitter:card', 'summary');
-    }
-
-    // Update type
-    if (type) {
-        setMetaTag('og:type', type, true);
-    }
-
-    // Update URL
-    setMetaTag('og:url', window.location.href, true);
-    setMetaTag('og:site_name', 'Mathew Storm', true);
-})();
-</script>
+<meta property="og:site_name" content="Mathew Storm">

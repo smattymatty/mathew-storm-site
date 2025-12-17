@@ -33,18 +33,14 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "django.contrib.sitemaps",  # Added for SEO sitemap
+    "django.contrib.sitemaps",
     "taggit",
     "django_htmx",
     "django_spellbook",
     "analytics",
     "A_base",
-    "projects",
-    "tutorials",
-    "blog",
-    "notes",
     "questions",
-    "philo",
+    "tech",
     "writing",
 ]
 
@@ -190,100 +186,56 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-# Custom Earthtone Theme Configuration
-EARTHTONE_THEME = {
-    'name': 'earthtone',
-    'modes': {
-        'light': {
-            'colors': {
-                # Main brand colors from the palette
-                'primary': '#466b5d',      # Forest green
-                'secondary': '#587a84',    # Blue-grey
-                'accent': '#be9167',       # Warm golden
-                'neutral': '#8f897b',      # Neutral brown-grey
-                
-                # Status colors (keeping semantic)
-                'error': '#9c525a',        # Muted red from palette
-                'warning': '#ab6c2c',      # Orange-brown from palette
-                'success': '#466b5d',      # Using forest green
-                'info': '#418791',         # Teal from palette
-                
-                # UI colors
-                'background': '#e8e8df',   # Off-white
-                'surface': '#dbdbd0',      # Light grey
-                'text': '#29323b',         # Dark blue-grey
-                'text-secondary': '#5e5d5d', # Medium grey
-                
-                # Extended colors from palette
-                'emphasis': '#8f422c',     # Strong red-brown
-                'subtle': '#b3b09f',       # Light brown-grey
-                'distinct': '#9e6a55',     # Terra cotta
-                'aether': '#6f6d76',       # Purple-grey
-                'artifact': '#a67c23',     # Deep gold
-                'sylvan': '#364f33',       # Deep forest green
-                'danger': '#8f422c',       # Deep red-brown
-            },
-            'generate_variants': True
-        },
-        'dark': {
-            'colors': {
-                # Main brand colors - sleek professional palette
-                'primary': '#4f8fba',      # Cool professional blue
-                'secondary': '#75a743',    # Calming green
-                'accent': '#de9e41',       # Warm golden accent
-                'neutral': '#394a50',      # Neutral blue-grey
-                
-                # Status colors - muted but clear
-                'error': '#cf573c',        # Muted red-orange
-                'warning': '#e8c170',      # Soft golden warning
-                'success': '#468232',      # Success green
-                'info': '#73bed3',         # Light blue info
-                
-                # UI colors - deep professional dark theme
-                'background': '#090a14',   # Deep dark blue-black
-                'surface': '#151d28',      # Slightly lighter surface
-                'text': '#d7b594',         # Warm light text for readability
-                'text-secondary': '#73bed3', # Cool blue-grey secondary text
-                
-                # Extended colors from palette
-                'emphasis': '#df84a5',     # Soft pink emphasis
-                'subtle': '#202e37',       # Subtle dark blue
-                'distinct': '#c65197',     # Distinct purple-pink
-                'aether': '#7a367b',       # Deep purple
-                'artifact': '#be772b',     # Bronze-gold artifact
-                'sylvan': '#25562e',       # Deep forest green
-                'danger': '#a53030',       # Clear danger red
-            },
-            'generate_variants': True
-        }
-    }
+# Dark Mode Theme - Mathew Storm's Color Palette
+SPELLBOOK_THEME = {
+    'colors': {
+        # System colors (deep dark backgrounds)
+        'background': '#090a14',      # Deepest dark
+        'surface': '#151d28',         # Cards/panels
+        'text': '#d7b594',            # Warm cream text
+        'text-secondary': '#c7cfcc',  # Cool grey secondary
+        
+        # Core colors
+        'primary': '#4f8fba',         # Main blue
+        'secondary': '#577277',       # Cool grey-teal
+        'accent': '#de9e41',          # Golden
+        'neutral': '#394a50',         # Neutral grey
+        
+        # Status colors
+        'success': '#75a743',         # Green
+        'warning': '#e8c170',         # Soft yellow
+        'error': '#cf573c',           # Red-orange
+        'info': '#73bed3',            # Light blue
+        
+        # Specialty colors (for variety & project accents)
+        'emphasis': '#73bed3',        # Teal emphasis
+        'subtle': '#202e37',          # Subtle background
+        'distinct': '#c65197',        # Pink
+        'aether': '#7a367b',          # Purple (Spellbook)
+        'artifact': '#be772b',        # Bronze
+        'sylvan': '#75a743',          # Green (Mercury)
+        'danger': '#cf573c',          # Danger red
+        
+        # Borders
+        'border': '#394a50',          # Subtle borders
+        'border-heavy': '#577277',    # Stronger borders
+    },
+    'generate_variants': True
 }
 
-# Set default theme - can be overridden by session
-SPELLBOOK_THEME = EARTHTONE_THEME['modes']['dark']
-
 SPELLBOOK_MD_PATH = [
-    BASE_DIR / "projects_content",
-    BASE_DIR / "tutorials_content",
-    BASE_DIR / "blog_content",
-    BASE_DIR / "notes_content",
-    BASE_DIR / "philo_content",
+    BASE_DIR / "tech_content",
+    BASE_DIR / "writing_content",
 ]
 
 SPELLBOOK_MD_APP = [
-    "projects",
-    "tutorials",
-    "blog",
-    "notes",
-    "philo",
+    "tech",
+    "writing",
 ]
 
 SPELLBOOK_MD_URL_PREFIX = [
-    "proj",
-    "tuts",
-    "blog",
-    "note",
-    "philo",
+    "tech",
+    "writing",
 ]
 
 SPELLBOOK_MD_BASE_TEMPLATE = "A_base/sb_base.html"

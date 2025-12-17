@@ -3,121 +3,83 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="{% static 'A_base/main.mjs' %}" type="module"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>{% block page_title %}Mathew Storm{% endblock %}</title>
+    <title>{{ page_title|default:"Mathew Storm - Building Sovereign Infrastructure" }}</title>
     <link rel="icon" type="image/png" href="{% static 'A_base/favicon.png' %}">
-    <link rel="shortcut icon" type="image/png" href="{% static 'A_base/favicon.png' %}">
-    <meta name="description" content="{% block meta_description %}Founder of 80-20 Human-in-the-Loop community, Django tooling architect, unraveling the recursive absurd. Where philosophy meets engineering.{% endblock %}">
+    <meta name="description" content="{{ meta_description|default:'Founder building Storm Cloud Server, Django Spellbook, and Django Mercury. Open source engineer focused on federated infrastructure and digital sovereignty.' }}">
     <meta name="author" content="Mathew Storm">
-    <meta name="keywords" content="Mathew Storm, recursive absurd, 80-20 human in the loop, Django developer tools, AI assisted engineering, techno-absurdism, philosophy of technology, neo-absudism, humanist absurdism">
-    <meta property="og:title" content="Mathew Storm - Personal Website">
-    <meta property="og:description" content="Founder of 80-20 Human-in-the-Loop community. Unraveling the recursive absurd where philosophy meets engineering.">
+    <meta name="keywords" content="{{ meta_keywords|default:'mathew storm, storm cloud server, django spellbook, federated infrastructure, digital sovereignty, activitypub, django developer' }}">
+    <meta property="og:title" content="{{ page_title|default:'Mathew Storm - Building Sovereign Infrastructure' }}">
+    <meta property="og:description" content="{{ meta_description|default:'Founder building federated infrastructure. Storm Cloud Server, Django Spellbook, Django Mercury.' }}">
     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mathewstorm.ca{{ request.path }}">
+    <meta property="og:site_name" content="Mathew Storm">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ page_title|default:'Mathew Storm - Building Sovereign Infrastructure' }}">
+    <meta name="twitter:description" content="{{ meta_description|default:'Founder building federated infrastructure.' }}"
     {% block extra_head %}{% endblock %}
+    
+    <!-- Django Spellbook Styles -->
     {% spellbook_styles %}
-    <link rel="stylesheet" type="text/css" href="{% static 'A_base/style.css' %}" />
-    <link rel="stylesheet" type="text/css" href="{% static 'A_base/modern.css' %}" />
-    <link rel="stylesheet" type="text/css" href="{% static 'A_base/carousel.css' %}" />
-    <link rel="stylesheet" type="text/css" href="{% static 'questions/quiz.css' %}" />
-    <!-- google fonts -->
+    
+    <!-- Minimal Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="{% static 'A_base/minimal.css' %}" />
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    
     <!-- HTMX -->
-     <script src="{% static 'A_base/htmx.min.js' %}"></script>
-     <!-- Carousel -->
-     <script src="{% static 'A_base/carousel.js' %}" defer></script>
+    <script src="{% static 'A_base/htmx.min.js' %}"></script>
 
-     <!-- Structured Data for Person (Mathew Storm) -->
-     <script type="application/ld+json">
-     {
-       "@context": "https://schema.org",
-       "@type": "Person",
-       "name": "Mathew Storm",
-       "alternateName": "smattymatty",
-       "url": "https://mathewstorm.ca",
-       "image": "https://mathewstorm.ca/static/images/mathew-storm.jpg",
-       "sameAs": [
-         "https://github.com/smattymatty",
-         "https://www.linkedin.com/in/mathew-storm-70b671384/",
-         "https://techhub.social/@smattymatty",
-         "https://www.youtube.com/@Mathew-Storm"
-       ],
-       "jobTitle": ["Software Developer", "Django Architect", "Philosophical Author"],
-       "worksFor": {
-         "@type": "Organization",
-         "name": "Storm Development"
-       },
-       "description": "Founder of the 80-20 Human-in-the-Loop community, creator of recursive absurdism, and Django Spellbook author. Not the basketball player.",
-       "knowsAbout": [
-         "Django Framework",
-         "Python Development",
-         "Recursive Absurdism",
-         "AI-Assisted Engineering",
-         "80-20 Human-in-the-Loop",
-         "Philosophy of Technology",
-         "Techno-Absurdism",
-         "Humanist Absurdism",
-         "Neo-Absurdism"
-       ],
-       "nationality": {
-         "@type": "Country",
-         "name": "Canada"
-       }
-     }
-     </script>
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mathew Storm",
+      "alternateName": "smattymatty",
+      "url": "https://mathewstorm.ca",
+      "sameAs": [
+        "https://github.com/smattymatty",
+        "https://techhub.social/@smattymatty",
+        "https://northtube.ca"
+      ],
+      "jobTitle": "Software Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Storm Developments"
+      },
+      "description": "Founder building Storm Cloud Server, Django Spellbook, and Django Mercury. Open source engineer focused on federated infrastructure.",
+      "knowsAbout": [
+        "Django Framework",
+        "Python Development",
+        "Federated Systems",
+        "ActivityPub",
+        "Digital Sovereignty",
+        "Self-Hosted Infrastructure"
+      ],
+      "nationality": {
+        "@type": "Country",
+        "name": "Canada"
+      }
+    }
+    </script>
   </head>
 
   <body class="sb-bg-background sb-min-h-screen sb-flex sb-flex-col" style="font-family: 'Inter', system-ui, -apple-system, sans-serif;">
     {% include 'A_base/partials/navbar.html' %}
-    
-    {% if hero %}
-      {% include 'A_base/partials/hero.html' %}
-    {% endif %}
 
-    <main class="sb-flex-grow sb-w-full" data-storm="fade-in">
-      <div class="sb-container sb-mx-auto sb-py-4 sb-md:py-6 sb-lg:py-8">
-
-        <div class="sb-lg:grid sb-lg:grid-cols-12 sb-lg:gap-8">
-        
-          {# Main Content Area - Professional Layout #}
-          <section id="home-content" class="sb-px-2 sb-md:px-4 sb-lg:px-6 sb-lg:col-span-8" data-storm="slide-up" data-storm-delay="200">
-          {% if metadata %}
-            {# Page with metadata - show title and metadata #}
-            <div class="sb-mb-8" data-storm="fade-in" data-storm-delay="300">
-              <h1 class="sb-text-3xl sb-md:text-4xl sb-lg:text-5xl sb-font-bold sb-text-primary sb-mb-4 sb-tracking-tight" style="font-weight: 800; line-height: 1.2;">
-                {% if metadata.title %}
-                  {{ metadata.title|title }}
-                {% elif metadata.namespace %}
-                  {{ metadata.namespace|title }}
-                {% endif %}
-              </h1>
-              {% include 'A_base/partials/examples/sidebar_content.html' %}
-            </div>
-          {% endif %}
-          
-          <div class="sb-p-2 sb-md:p-3 sb-lg:p-4" style="background-color: rgba(0, 0, 0, 0.25);" data-storm="fade-in" data-storm-delay="400">
-            {% block content %}
-            {{ content|safe }}
-            {% endblock %}
-          </div>
-        </section>
-        
-          {# Professional Sidebar #}
-          <aside class="sb-px-2 sb-md:px-4 sb-lg:px-6 sb-lg:col-span-4 sb-mt-6 sb-lg:mt-0">
-          {% if toc %}
-            <div class="sb-bg-surface sb-rounded-xl sb-shadow-lg sb-p-6 sb-mb-6 sb-sticky sb-top-4 sb-border sb-border-subtle">
-              <h3 class="sb-text-lg sb-font-semibold sb-text-secondary sb-mb-4 sb-uppercase sb-tracking-wider" style="font-size: 0.875rem; letter-spacing: 0.05em;">Table of Contents</h3>
-              {% sidebar_toc %}
-            </div>
-          {% endif %}
-
+    <main class="sb-flex-grow sb-w-full sb-text-text" data-storm="fade-in">
+      <div class="content-wrapper">
+        {% block content %}
+        {{ content|safe }}
+        {% endblock %}
+      </div>
+    </main>
 
     {% include 'A_base/partials/footer.html' %}
     
@@ -126,40 +88,10 @@
         import StormAnimations from '{% static "A_base/storm/storm-animations.mjs" %}';
         import StormEvents from '{% static "A_base/storm/storm-events.mjs" %}';
         import StormHeroLightningPlugin from '{% static "A_base/storm/plugins/storm-hero-lightning.mjs" %}';
-        import StormCloudBorderPlugin from '{% static "A_base/storm/plugins/storm-cloud-border.mjs" %}';
-        import StormTOCPlugin from '{% static "A_base/storm/plugins/storm-toc.mjs" %}';
         
         // Initialize Hero Lightning Plugin
         if (StormHeroLightningPlugin && StormEvents) {
             StormHeroLightningPlugin.init(StormEvents);
-        }
-        
-        // Initialize Storm Cloud Border Plugin
-        if (StormCloudBorderPlugin && StormEvents) {
-            StormCloudBorderPlugin.init(StormEvents);
-        }
-        
-        // Initialize Storm TOC Plugin
-        if (StormTOCPlugin && StormEvents) {
-            StormTOCPlugin.init(StormEvents);
-        }
-        
-        // Mobile-specific animation fix
-        if ('ontouchstart' in window || navigator.maxTouchPoints > 0) {
-            // On mobile, ensure animations trigger after everything loads
-            window.addEventListener('load', () => {
-                setTimeout(() => {
-                    // Re-check all storm elements for animation
-                    document.querySelectorAll('[data-storm]').forEach(el => {
-                        if (!el.classList.contains('storm-animate')) {
-                            const rect = el.getBoundingClientRect();
-                            if (rect.top < window.innerHeight && rect.bottom > 0) {
-                                el.classList.add('storm-animate');
-                            }
-                        }
-                    });
-                }, 300);
-            });
         }
     </script>
 

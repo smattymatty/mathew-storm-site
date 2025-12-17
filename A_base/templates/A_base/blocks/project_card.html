@@ -1,0 +1,66 @@
+{% load spellbook_tags %}
+
+<div class="project-card" data-project="{{ project }}" data-storm="fade-in" data-storm-delay="200">
+  <div class="project-card-accent"></div>
+  
+  <div class="project-card-content">
+    <!-- Header with title and status badge -->
+    <div class="project-card-header">
+      <h3>{{ title }}</h3>
+      {% if status %}
+        <span class="status-badge" data-status="{{ status }}">{{ status }}</span>
+      {% endif %}
+    </div>
+    
+    <!-- Description -->
+    <p class="project-description">{{ description }}</p>
+    
+    <!-- Tech stack pills -->
+    {% if tech_stack %}
+      <div class="tech-stack">
+        {% for tech in tech_stack %}
+          <span class="tech-pill">{{ tech }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+    
+    <!-- Stats grid -->
+    {% if stats %}
+      <div class="project-stats">
+        {% for stat in stats %}
+          <div class="stat-item">
+            <span class="stat-value">{{ stat.value }}</span>
+            <span class="stat-label">{{ stat.label }}</span>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+    
+    <!-- Links with SVG icons -->
+    <div class="project-links">
+      {% if github_link %}
+        <a href="{{ github_link }}" class="project-link" target="_blank" rel="noopener">
+          {% include 'A_base/icons/github.html' %} GitHub
+        </a>
+      {% endif %}
+      
+      {% if pypi_link %}
+        <a href="{{ pypi_link }}" class="project-link" target="_blank" rel="noopener">
+          {% include 'A_base/icons/package.html' %} PyPI
+        </a>
+      {% endif %}
+      
+      {% if docs_link %}
+        <a href="{{ docs_link }}" class="project-link" target="_blank" rel="noopener">
+          {% include 'A_base/icons/docs.html' %} Documentation
+        </a>
+      {% endif %}
+      
+      {% if live_link %}
+        <a href="{{ live_link }}" class="project-link" target="_blank" rel="noopener">
+          {% include 'A_base/icons/live.html' %} Live Demo
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>

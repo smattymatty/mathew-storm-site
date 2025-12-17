@@ -17,6 +17,5 @@ urlpatterns = [
          name='django.contrib.sitemaps.views.sitemap'),
     path('', include('A_base.urls')),
     path('questions/', include('questions.urls')),
-    path('writing/', include('writing.urls')),  # Must come BEFORE django_spellbook.urls
     path('', include('django_spellbook.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
