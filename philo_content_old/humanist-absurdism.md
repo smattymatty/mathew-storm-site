@@ -68,7 +68,7 @@ The user on the other side of the interface has a face. The content moderator. T
 
 No gratitude returns. No reputation builds. The system cannot measure what happened because what happened produced no data.
 
-The caseworker goes home, pours a drink, watches something stupid on television. Tomorrow she will process more files. Some she will reject. The ones she saves will never know they were saved.
+The caseworker goes home, pours a drink, watches something stupid on television. Tomorrow she will process more files. Some she will reject, but the ones she saves will never know they were saved.
 
 ## III. The Core Practice
 

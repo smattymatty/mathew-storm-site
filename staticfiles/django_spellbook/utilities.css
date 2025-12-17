@@ -1214,7 +1214,8 @@
   aspect-ratio: 21 / 9;
 }
 
-* Object Fit */ .sb-object-contain {
+/* Object Fit */
+.sb-object-contain {
   object-fit: contain;
 }
 .sb-object-cover {
@@ -1379,6 +1380,13 @@
   font-style: italic;
 }
 .sb-bold {
+  font-weight: 700;
+}
+
+.sb-font-italic {
+  font-style: italic;
+}
+.sb-font-bold {
   font-weight: 700;
 }
 
