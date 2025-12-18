@@ -48,7 +48,7 @@
    status="Active Development"
    tech="Django|Python|Performance Testing"
    stats="Focus:Developer Experience|Type:Testing Tool"
-   github="https://github.com/80-20-Human-In-The-Loop/Django-Mercury-Performance-Testing"
+   github="https://github.com/smattymatty/Django-Mercury-Performance-Testing"
 ~}
 {~~}
 
