@@ -16,7 +16,7 @@ A working collection of ideas at the intersection of technology, absurdism, and 
 
 We no longer discover absurdity; we manufacture it, then optimize its production.
 
-The systems we build now routinely exceed human comprehension - not as bug but as feature. We've architected our own incomprehension and called it progress. The engineer debugging last month's code finds it alien. The teacher uses AI to explain what they taught the AI. This isn't emergence. It's design.
+The systems we build now routinely exceed human comprehension - not as bug but as feature. We've architected our own incomprehension and called it progress. The engineer debugging yesterday's code finds it alien. The teacher uses AI to explain what they taught the AI. This isn't emergence. It's design.
 
 Your boulder doesn't just roll back down anymore. It takes notes on pushing techniques, adjusts its weight distribution, then teaches other boulders. To keep up with this, you build an app to track your metrics. You sell courses on optimization. You become the boulder you push.
 

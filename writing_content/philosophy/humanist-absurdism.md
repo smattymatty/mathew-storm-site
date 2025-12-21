@@ -54,9 +54,7 @@ Weil wrote that "attention is the rarest and purest form of generosity" - not st
 "Those who are unhappy have no need for anything in this world but people capable of giving them their attention."
 {~~}
 
-Every cruel system contains evidence of small sabotage dressed as error. The deadline extended. The warning that arrived in time. The rule unenforced. These register as glitches, luck, bureaucratic incompetence.
-
-They are none of these things.
+Every cruel system contains evidence of small sabotage dressed as error. The deadline extended. The warning that arrived in time. The rule unenforced. These register as glitches, luck, bureaucratic incompetence. But they are none of these things.
 
 The student never learns which teacher bent which rule. The patient never discovers the argument waged on their behalf behind closed doors. The refugee never knows their application was expedited by a stranger's choice. Kindness extended toward people as indifferent to us as the cosmos itself.
 
@@ -68,7 +66,7 @@ The user on the other side of the interface has a face. The content moderator. T
 
 No gratitude returns. No reputation builds. The system cannot measure what happened because what happened produced no data.
 
-The caseworker goes home, pours a drink, watches something stupid on television. Tomorrow she will process more files. Some she will reject, but the ones she saves will never know they were saved.
+The caseworker goes home, pours a drink, watches something funny on television. Tomorrow she will process more files. Some she will reject, but the ones she saves will never know they were saved.
 
 ## III. The Core Practice
 
@@ -107,7 +105,7 @@ This is certain. The machine learns. It watches for friction and eliminates it. 
 {~ accordion title="Levinas on Infinite Responsibility" ~}
 Levinas insisted that obligation to the Other is infinite - it can never be discharged. "I am responsible for the Other without waiting for reciprocity." You cannot say "I've done enough." There is always more.
 
-This isn't guilt. It's the structure of ethical existence. The small mercies don't pay off a debt. The debt remains infinite regardless.
+This is the structure of ethical existence. The small mercies don't pay off a debt. The debt remains infinite regardless.
 {~~}
 
 And yet.
@@ -134,7 +132,7 @@ The embedded kindness isn't about your heroism. It's about getting out of the wa
 
 The practice must be sustainable or it means nothing. You cannot save everyone. You cannot fix everything. The attempt will break you, and then you save no one.
 
-Some days the kindest thing is to survive within the system without becoming it. Some days you can do more. The philosophy doesn't demand heroism. Just persistence. Not perfection but presence. Not revolution but the quiet refusal to become the machine you serve.
+Some days the kindest thing is to survive within the system without becoming it. Some days you can do more. The philosophy doesn't demand heroism, just persistence. Not perfection but presence. Not revolution but the quiet refusal to become the machine you serve.
 
 {~ accordion title="Levinas on Asymmetry" ~}
 Levinas insisted ethics isn't reciprocal. "What I permit myself to demand of myself is not comparable to what I have the right to demand of the Other." You hold yourself to a standard you don't impose on others.
@@ -142,13 +140,11 @@ Levinas insisted ethics isn't reciprocal. "What I permit myself to demand of mys
 This protects against bitterness. The caseworker who expects gratitude will be disappointed. The one who expects nothing can continue indefinitely.
 {~~}
 
-The nurse marks the wrong code. Goes home. Sleeps. Returns. Does it again when she can, doesn't when she can't, forgives herself either way. The system still functions. She still functions within it.
+The nurse marks the wrong code, goes home to sleep, and then returns. Does it again when she can, doesn't when she can't, forgives herself either way. The system still functions. She still functions within it.
 
-Not victory. Not surrender. Just the choice, repeated until it becomes habit, to remain human in contexts designed to make humanity inefficient.
+This isn't a victory, but it's not a surrender; it's a concsious choice, repeated until it becomes habit, to remain human in contexts designed to make humanity inefficient.
 
 Tomorrow the labyrinth will need rebuilding. Tomorrow the passages will need adjusting. Tomorrow new patients will need new mercies.
-
-Good. She has some ideas.
 
 ---
 
