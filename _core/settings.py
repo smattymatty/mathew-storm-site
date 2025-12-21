@@ -23,6 +23,9 @@ ALLOWED_HOSTS = [
     "mathewstorm.ca",
 ]
 
+# Sites Framework
+SITE_ID = 1
+
 
 # Application definition
 
@@ -34,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "django.contrib.sitemaps",
+    "django.contrib.sites",
     "taggit",
     "django_htmx",
     "django_spellbook",
@@ -188,39 +192,35 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Dark Mode Theme - Mathew Storm's Color Palette
 SPELLBOOK_THEME = {
-    'colors': {
+    "colors": {
         # System colors (deep dark backgrounds)
-        'background': '#090a14',      # Deepest dark
-        'surface': '#151d28',         # Cards/panels
-        'text': '#d7b594',            # Warm cream text
-        'text-secondary': '#c7cfcc',  # Cool grey secondary
-        
+        "background": "#090a14",  # Deepest dark
+        "surface": "#151d28",  # Cards/panels
+        "text": "#d7b594",  # Warm cream text
+        "text-secondary": "#c7cfcc",  # Cool grey secondary
         # Core colors
-        'primary': '#4f8fba',         # Main blue
-        'secondary': '#577277',       # Cool grey-teal
-        'accent': '#de9e41',          # Golden
-        'neutral': '#394a50',         # Neutral grey
-        
+        "primary": "#4f8fba",  # Main blue
+        "secondary": "#577277",  # Cool grey-teal
+        "accent": "#de9e41",  # Golden
+        "neutral": "#394a50",  # Neutral grey
         # Status colors
-        'success': '#75a743',         # Green
-        'warning': '#e8c170',         # Soft yellow
-        'error': '#cf573c',           # Red-orange
-        'info': '#73bed3',            # Light blue
-        
+        "success": "#75a743",  # Green
+        "warning": "#e8c170",  # Soft yellow
+        "error": "#cf573c",  # Red-orange
+        "info": "#73bed3",  # Light blue
         # Specialty colors (for variety & project accents)
-        'emphasis': '#73bed3',        # Teal emphasis
-        'subtle': '#202e37',          # Subtle background
-        'distinct': '#c65197',        # Pink
-        'aether': '#7a367b',          # Purple (Spellbook)
-        'artifact': '#be772b',        # Bronze
-        'sylvan': '#75a743',          # Green (Mercury)
-        'danger': '#cf573c',          # Danger red
-        
+        "emphasis": "#73bed3",  # Teal emphasis
+        "subtle": "#202e37",  # Subtle background
+        "distinct": "#c65197",  # Pink
+        "aether": "#7a367b",  # Purple (Spellbook)
+        "artifact": "#be772b",  # Bronze
+        "sylvan": "#75a743",  # Green (Mercury)
+        "danger": "#cf573c",  # Danger red
         # Borders
-        'border': '#394a50',          # Subtle borders
-        'border-heavy': '#577277',    # Stronger borders
+        "border": "#394a50",  # Subtle borders
+        "border-heavy": "#577277",  # Stronger borders
     },
-    'generate_variants': True
+    "generate_variants": True,
 }
 
 SPELLBOOK_MD_PATH = [
