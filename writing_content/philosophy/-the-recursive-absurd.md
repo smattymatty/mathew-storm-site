@@ -41,7 +41,7 @@ Camus asked us to imagine Sisyphus happy. He never imagined that the boulder wou
 
 The original absurd was discovered; ours is engineered and capitalized upon. Camus faced a cosmic indifference. We face a calculated indifference, hard-coded into systems whose primary function is the extraction of value from our behavior. 
 
-This is the **recursive absurd**: a condition where our own alienated labor is captured as data to train the very boulder we are forced to push. The boulder's "learning" is not a neutral, emergent property; it is the logic of surveillance capitalism, running on a physical stack of servers that consume power from a grid built on premises of endless growth. We did not just manufacture the absurd; we accepted its term sheet.
+This is the **recursive absurd**: a condition where our own alienated labor is captured as data to train the very boulder we are forced to push. The boulder's "learning" is not a neutral, emergent property; it is the logic of surveillance capitalism, running on a physical stack of servers that consume power from a grid built on premises of endless growth. Through centuries of endless loops and cycles that nobody understands anymore, we've manufactured our own absurdity.
 
 {~ accordion title="Han on the Burnout Society" ~}
 In The Burnout Society, Byung-Chul Han argues that contemporary exhaustion stems not from external oppression but from self-exploitation. We've internalized the demand for productivity so completely that we become our own harshest taskmasters. Han describes the "achievement subject" who "exploits itself voluntarily without external constraints."
@@ -50,10 +50,6 @@ In The Burnout Society, Byung-Chul Han argues that contemporary exhaustion stems
 Meaningless labor wasn't enough, we had to optimize it. Not satisfied with futile tasks, we gamify them. The modern condition isn't just that life lacks inherent meaning; it's that we've built systems to manufacture false meaning at scale, then lost the ability to distinguish the manufactured from the real.
 
 Where Camus's rebel could at least shake his fist at the heavens, we train the machines that train us. We cannot properly rebel against our condition because we are simultaneously its victim, its author, and increasingly, its substance.
-
-### The Metrics of Meaninglessness
-
-Consider the modern workplace ritual. We gather to report what we did yesterday, what we'll do today, what blocks us. The ritual itself blocks us for thirty minutes. We measure the tracking of productivity. We optimize the process of optimizing processes, improving our methods for improvement.
 
 {~ accordion title="Stiegler on Grammatization" ~}
 Bernard Stiegler called this "grammatization" - the breaking down of continuous experience into discrete, calculable units. Writing turned flowing speech into letters. Industrial machines turned fluid gestures into mechanical steps. Now algorithms turn friendship into "connections," thoughts into "engagement," and life into data points. The workplace becomes a spreadsheet of human activity, each cell containing a fragment of what was once whole.
@@ -119,7 +115,7 @@ Han warns that neoliberal psychopolitics eliminates negativity; the capacity to 
 This is neither Camus's heroic defiance nor his joyful acceptance. It is something more modest and more desperate: the attempt to remain human while building machines, to preserve what is useless and beautiful while optimizing everything else. Small choices, embedded everywhere, preserving humanity one interaction at a time.
 
 
-[→ Explore Humanist Absurdism in depth](/philo/humanist-absurdism/)
+[→ Explore Humanist Absurdism in depth](/writing/philosophy/humanist-absurdism/)
 
 ## V. The Final Recursion
 

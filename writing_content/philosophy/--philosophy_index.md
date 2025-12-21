@@ -10,7 +10,7 @@ tags:
 
 A working collection of ideas at the intersection of technology, absurdism, and humanity.
 
-[Essay on The Recursive Absurd](/philo/the-recursive-absurd/)
+[Essay on The Recursive Absurd](/writing/philosophy/the-recursive-absurd/)
 
 ## The Recursive Condition
 
@@ -45,7 +45,7 @@ The philosophy of embedding kindness within inhuman systems. When we cannot esca
 - Does this make people more capable or more dependent?
 - What breaks when I'm gone?
 
-[→ Explore Humanist Absurdism in depth](/philo/humanist-absurdism/)
+[→ Explore Humanist Absurdism in depth](/writing/philosophy/humanist-absurdism/)
 
 ### Techno-Absurdism 
 
@@ -67,7 +67,7 @@ The recognition that we've created systems that operate beyond human comprehensi
 - Document not just what but why
 - Preserve human understanding alongside automation
 
-[→ Explore Techno-Absurdism in depth](/philo/techno-absurdism/)
+[→ Explore Techno-Absurdism in depth](/writing/philosophy/techno-absurdism/)
 
 ### Neo-Absurdism
 
@@ -89,7 +89,7 @@ The philosophy that we've optimized our own suffering so thoroughly that exploit
 - Refuse to package your suffering as advice
 - Sometimes the only rebellion is refusing to monetize the rebellion
 
-[→ Explore Humanist Absurdism in depth](/philo/neo-absurdism/)
+[→ Explore Humanist Absurdism in depth](/writing/philosophy/neo-absurdism/)
 
 ---
 

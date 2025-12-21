@@ -15,40 +15,19 @@ def index(request):
 
 ## About
 
-Open source engineer focused on federated systems, self-hosted infrastructure, and tools that put control back in users' hands. Creating Django-based solutions for organizations that value transparency, sovereignty, and the open web.
+Open source engineer focused on federated systems, self-hosted infrastructure, and tools that put control back in users' hands. Creating Django-based solutions for organizations that value transparency, sovereignty, and the results.
 """
 
-    connect_md = """---
-
-## Connect
-
-**Mastodon:** [@smattymatty@techhub.social](https://techhub.social/@smattymatty) - Active on the Fediverse, discussing digital sovereignty and federated infrastructure
-
-**GitHub:** [github.com/smattymatty](https://github.com/smattymatty) - All projects are open source
-
-**NorthTube:** [northtube.ca](https://northtube.ca) - PeerTube instance, building alternatives to YouTube
-
-**Email:** Contact via Mastodon for fastest response
+    connect_md = """
 """
 
     beliefs_md = """---
 
-## What I Believe
-
-The federated social web is the future. Self-hosted infrastructure isn't just for hobbyists - it's how organizations maintain sovereignty and transparency.
-
-WASM and ActivityPub are changing what's possible. We can build powerful, distributed systems without surrendering control to platforms.
-
-Technology and philosophy are inseparable. The tools we build encode values. I'm building tools that encode sovereignty, transparency, and respect for human agency.
-
----
-
-🇨🇦 Canadian by birth and choice 🇨🇦
 """
 
     context = {
         # SEO metadata for homepage
-        'page_title': 'Mathew Storm - Building Sovereign Infrastructure for the Decentralized Web',
+        'page_title': 'Mathew Storm - Open Source Engineer',
         'meta_description': 'Founder building Storm Cloud Server, Django Spellbook, and Django Mercury. Open source engineer focused on federated infrastructure and digital sovereignty.',
         'meta_keywords': 'mathew storm, storm cloud server, django spellbook, federated infrastructure, digital sovereignty, activitypub, django developer',
         # Rendered markdown sections

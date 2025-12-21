@@ -92,7 +92,9 @@ A teacher grades forty essays. One is failing - not by much, but enough to matte
 
 She writes 62. Adds a note: "Come to office hours. We can fix this."
 
-The student may never come. Probably won't. The teacher knows this. The door stays open regardless.
+The student may never come. The teacher knows this. The door stays open regardless.
+
+This is Humanist Absurdism in action - not grand resistance but the quiet insistence on remaining human within systems designed to process humans. 
 
 ## IV. The Paradox
 
@@ -140,11 +142,13 @@ Levinas insisted ethics isn't reciprocal. "What I permit myself to demand of mys
 This protects against bitterness. The caseworker who expects gratitude will be disappointed. The one who expects nothing can continue indefinitely.
 {~~}
 
-The nurse marks the wrong code, goes home to sleep, and then returns. Does it again when she can, doesn't when she can't, forgives herself either way. The system still functions. She still functions within it.
+The nurse marks the wrong code, goes home to sleep, and then returns. Does it again when she can, doesn't when she can't, forgives herself either way. Sometimes she catches the eye of another nurse who knows. Nothing is said. Nothing needs to be.
 
-This isn't a victory, but it's not a surrender; it's a concsious choice, repeated until it becomes habit, to remain human in contexts designed to make humanity inefficient.
+The system still functions. She still functions within it.
 
-Tomorrow the labyrinth will need rebuilding. Tomorrow the passages will need adjusting. Tomorrow new patients will need new mercies.
+This isn't a victory, but it's not a surrender; it's a conscious choice, repeated until it becomes habit, to remain human in contexts designed to make humanity inefficient.
+
+Tomorrow the labyrinth will need rebuilding. Tomorrow the passages will need adjusting. Tomorrow new people will need new mercies.
 
 ---
 

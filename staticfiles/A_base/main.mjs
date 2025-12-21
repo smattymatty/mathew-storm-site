@@ -17,5 +17,5 @@ async function initializeApp() {
   console.log(`🚀 Initial page: ${initialPage}`);
   setupNavLinks(initialPage);
 }
-
+// INIT
 initializeApp();
