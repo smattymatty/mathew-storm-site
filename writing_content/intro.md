@@ -1,5 +1,22 @@
 ---
 title: Writing
+published: 2024-01-15
+modified: 2025-12-21
+author: Mathew Storm
+tags:
+  - philosophy
+  - technology
+  - digital-sovereignty
+
+# SEO
+description: "Exploring the intersection of technology and philosophy. Essays on digital sovereignty, the federated web, and building human-centered infrastructure."
+keywords: "mathew storm writing, philosophy, technology, digital sovereignty, federated web, recursive absurdism, techno-absurdism"
+schema_type: Article
+og_type: website
+
+# Sitemap
+sitemap_priority: 0.7
+sitemap_changefreq: weekly
 ---
 
 # Writing

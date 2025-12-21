@@ -6,20 +6,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>{{ page_title|default:"Mathew Storm - Building Sovereign Infrastructure" }}</title>
     <link rel="icon" type="image/png" href="{% static 'A_base/favicon.png' %}">
-    <meta name="description" content="{{ meta_description|default:'Founder building Storm Cloud Server, Django Spellbook, and Django Mercury. Open source engineer focused on federated infrastructure and digital sovereignty.' }}">
-    <meta name="author" content="Mathew Storm">
-    <meta name="keywords" content="{{ meta_keywords|default:'mathew storm, storm cloud server, django spellbook, federated infrastructure, digital sovereignty, activitypub, django developer' }}">
-    <meta property="og:title" content="{{ page_title|default:'Mathew Storm - Building Sovereign Infrastructure' }}">
-    <meta property="og:description" content="{{ meta_description|default:'Founder building federated infrastructure. Storm Cloud Server, Django Spellbook, Django Mercury.' }}">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mathewstorm.ca{{ request.path }}">
-    <meta property="og:site_name" content="Mathew Storm">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{ page_title|default:'Mathew Storm - Building Sovereign Infrastructure' }}">
-    <meta name="twitter:description" content="{{ meta_description|default:'Founder building federated infrastructure.' }}"
+    
     {% block extra_head %}{% endblock %}
+    
+    {# Default SEO meta tags - only if NOT a Spellbook article with custom metadata #}
+    {% if not metadata %}
+      <title>{{ page_title|default:"Mathew Storm - Building Sovereign Infrastructure" }}</title>
+      <meta name="description" content="{{ meta_description|default:'Founder building Storm Cloud Server, Django Spellbook, and Django Mercury. Open source engineer focused on federated infrastructure and digital sovereignty.' }}">
+      <meta name="author" content="Mathew Storm">
+      <meta name="keywords" content="{{ meta_keywords|default:'mathew storm, storm cloud server, django spellbook, federated infrastructure, digital sovereignty, activitypub, django developer' }}">
+      <meta property="og:title" content="{{ page_title|default:'Mathew Storm - Building Sovereign Infrastructure' }}">
+      <meta property="og:description" content="{{ meta_description|default:'Founder building federated infrastructure. Storm Cloud Server, Django Spellbook, Django Mercury.' }}">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://mathewstorm.ca{{ request.path }}">
+      <meta property="og:site_name" content="Mathew Storm">
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:title" content="{{ page_title|default:'Mathew Storm - Building Sovereign Infrastructure' }}">
+      <meta name="twitter:description" content="{{ meta_description|default:'Founder building federated infrastructure.' }}">
+    {% endif %}
     
     <!-- Django Spellbook Styles -->
     {% spellbook_styles %}

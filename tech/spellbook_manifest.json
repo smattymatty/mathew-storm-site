@@ -1,10 +1,13 @@
 {
-  "generated_at": "2025-12-21T20:56:10.979123Z",
+  "generated_at": "2025-12-21T21:57:52.660714Z",
   "app_name": "tech",
   "pages": [
     {
       "path": "/tech/intro/",
-      "title": "Storm Developments"
+      "title": "Storm Developments",
+      "lastmod": "2025-12-21",
+      "priority": 0.8,
+      "changefreq": "weekly"
     }
   ]
 }

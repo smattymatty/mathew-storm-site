@@ -1,9 +1,23 @@
-{~ seo title="The Recursive Absurd: A Digital Philosophy by Mathew Storm" description="We no longer discover absurdity; we manufacture it. An exploration of how we became prisoners of our own code, teaching algorithms to optimize our own meaninglessness." keywords="recursive absurd, mathew storm, digital philosophy, neo-absurdism, techno-absurdism, camus, sisyphus, algorithmic indifference" author="Mathew Storm" type="article" ~}
-{~~}
-{~ schema type="Article" headline="The Recursive Absurd: A Digital Addendum to Sisyphus" date="2025-09-19" author="Mathew Storm" description="A philosophical exploration of recursive absurdity in the digital age, where we build systems that build systems that build us." ~}
-{~~}
+---
+title: "The Recursive Absurd: A Digital Addendum to Sisyphus"
+published: 2024-09-19
+modified: 2025-12-21
+author: Mathew Storm
+tags:
+  - philosophy
+  - recursive-absurd
+  - camus
 
-# The Recursive Absurd: A Digital Addendum to Sisyphus
+# Custom SEO metadata
+description: "We no longer discover absurdity; we manufacture it. An exploration of how we became prisoners of our own code, teaching algorithms to optimize our own meaninglessness."
+keywords: "recursive absurd, mathew storm, digital philosophy, neo-absurdism, techno-absurdism, camus, sisyphus, algorithmic indifference"
+schema_type: Article
+og_type: article
+
+# Sitemap configuration
+sitemap_priority: 1.0
+sitemap_changefreq: monthly
+---
 
 {~ accordion title="Summary" ~}
 We no longer discover absurdity; we manufacture it. Where Camus confronted cosmic indifference, we face algorithmic indifference designed to exploit.

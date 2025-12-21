@@ -1,17 +1,47 @@
-{~ seo title="Humanist Absurdism: Choosing Humanity Within Dehumanizing Systems" description="A philosophy of embedded kindness. The lived response to techno-absurdism and neo-absurdism - finding the narrow space between compliance and resistance." keywords="humanist absurdism, mathew storm, embedded kindness, dehumanizing systems, techno-absurdism, neo-absurdism, simone weil, emmanuel levinas" author="Mathew Storm" type="article" ~}
+---
+title: "Humanist Absurdism: Choosing Humanity Within Dehumanizing Systems"
+published: 2024-09-18
+modified: 2025-12-21
+author: Mathew Storm
+tags:
+  - philosophy
+  - humanist-absurdism
+  - weil
+  - levinas
 
-{~ schema type="Article" headline="Humanist Absurdism" date="2024-09-18" author="Mathew Storm" description="The radical act of choosing humanity within dehumanizing systems. A philosophy of embedded kindness as response to technological absurdity." ~}
+# Custom SEO metadata
+description: "A philosophy of embedded kindness. The lived response to techno-absurdism and neo-absurdism - finding the narrow space between compliance and resistance."
+keywords: "humanist absurdism, mathew storm, embedded kindness, dehumanizing systems, techno-absurdism, neo-absurdism, simone weil, emmanuel levinas"
+schema_type: Article
+og_type: article
 
-# Humanist Absurdism
+# Sitemap configuration
+sitemap_priority: 0.9
+sitemap_changefreq: monthly
+---
 
 *The radical act of choosing humanity within dehumanizing systems*
 
 {~ accordion title="Summary" ~}
-Humanist Absurdism emerges from the collision of two recognitions: we build systems beyond our comprehension ([Techno-Absurdism](/philo/techno-absurdism/)), and we optimize our own imprisonment within them ([Neo-Absurdism](/philo/neo-absurdism/)).
+Humanist Absurdism emerges from the collision of two recognitions: we build systems beyond our comprehension ([Techno-Absurdism](/writing/philosophy/philosophy-index/)), and we optimize our own imprisonment within them ([Neo-Absurdism](/writing/philosophy/philosophy-index/)).
 
 These are diagnoses. Humanist Absurdism is the response - the daily practice of maintaining humanity within systems designed to eliminate it.
 
 The philosophy operates in the narrow space between quitting (impossible) and full compliance (unbearable). It manifests as anonymous friction: the error that isn't an error, the delay that saves someone, the rule unenforced. Small sabotage dressed as incompetence.
+{~~}
+
+**Terminology:**
+
+{~ accordion title="Humanism" ~}
+Traditional Humanism: The belief that human reason and agency are the center of the world and will eventually solve all problems.
+
+Humanist Absurdism: The recognition that the systems we built are now the center, and they use "reason" to make the world colder. Being a "humanist" now means being intentionally inefficient or "irrational" to protect a person from the system's logic.
+{~~}
+
+{~ accordion title="Solidarity" ~}
+Traditional Solidarity: Standing together publicly to demand political change or reform a system.
+
+Humanist Absurdism: The "Unspoken Network." It’s the quiet, anonymous knowledge that you aren't the only one slipping gears. It’s helping someone without the system (or even the person you helped) ever finding out, so the system doesn't learn how to close the gap.
 {~~}
 
 ## I. The Space Between

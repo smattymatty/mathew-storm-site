@@ -1,12 +1,24 @@
 ---
-title: Philosophical Index
-published: 09-10-2025
-modified: 12-16-2025
+title: "Philosophical Index"
+published: 2024-09-10
+modified: 2025-12-21
+author: Mathew Storm
 tags:
   - philosophy
   - index
+  - recursive-absurd
+  - digital-philosophy
+
+# Custom SEO metadata
+description: "Philosophical essays on the recursive absurd, techno-absurdism, neo-absurdism, and humanist absurdism. Exploring what it means to be human in the age of machines."
+keywords: "philosophy, mathew storm, recursive absurd, digital philosophy, techno-absurdism, humanist absurdism, existentialism"
+schema_type: CollectionPage
+og_type: website
+
+# Sitemap configuration
+sitemap_priority: 0.8
+sitemap_changefreq: weekly
 ---
-# Philosophical Index
 
 A working collection of ideas at the intersection of technology, absurdism, and humanity.
 

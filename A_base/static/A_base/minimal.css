@@ -34,8 +34,6 @@ body::before {
 
 /* Content wrapper - focused reading width */
 .content-wrapper {
-  max-width: 42rem;
-  margin: 0 auto;
   padding: 2rem 1rem;
   position: relative;
   z-index: 1;

@@ -1,13 +1,199 @@
 {% extends 'A_base/base.html' %}
+{% load spellbook_tags %}
+{% load static %}
+
+{% block extra_head %}
+  {# Override page title with article title #}
+  {% if metadata.title %}
+    <title>{{ metadata.title }} - Mathew Storm</title>
+  {% endif %}
+  
+  {# Custom Article Layout CSS #}
+  <link rel="stylesheet" href="{% static 'A_base/article.css' %}">
+  
+  {# SEO Meta Tags from Frontmatter #}
+  {% if metadata.custom_meta.description %}
+    <meta name="description" content="{{ metadata.custom_meta.description }}">
+    <meta property="og:description" content="{{ metadata.custom_meta.description }}">
+    <meta name="twitter:description" content="{{ metadata.custom_meta.description }}">
+  {% endif %}
+  
+  {% if metadata.custom_meta.keywords %}
+    <meta name="keywords" content="{{ metadata.custom_meta.keywords }}">
+  {% endif %}
+  
+  {% if metadata.title %}
+    <meta property="og:title" content="{{ metadata.title }} - Mathew Storm">
+    <meta name="twitter:title" content="{{ metadata.title }} - Mathew Storm">
+  {% endif %}
+  
+  <meta property="og:url" content="https://mathewstorm.ca{{ request.path }}">
+  <meta property="og:site_name" content="Mathew Storm">
+  <meta name="twitter:card" content="summary">
+  <meta name="author" content="Mathew Storm">
+  
+  {% if metadata.custom_meta.og_type %}
+    <meta property="og:type" content="{{ metadata.custom_meta.og_type }}">
+  {% else %}
+    <meta property="og:type" content="article">
+  {% endif %}
+  
+  {# Schema.org Article Structured Data #}
+  {% if metadata.custom_meta.schema_type == 'Article' or metadata.custom_meta.schema_type == 'BlogPosting' %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "{{ metadata.custom_meta.schema_type|default:'Article' }}",
+      "headline": "{{ metadata.title }}",
+      {% if metadata.custom_meta.description %}"description": "{{ metadata.custom_meta.description }}",{% endif %}
+      "author": {
+        "@type": "Person",
+        "name": "{{ metadata.author|default:'Mathew Storm' }}"
+      },
+      {% if metadata.published %}"datePublished": "{{ metadata.published|date:'c' }}",{% endif %}
+      {% if metadata.modified %}"dateModified": "{{ metadata.modified|date:'c' }}",{% endif %}
+      "publisher": {
+        "@type": "Person",
+        "name": "Mathew Storm",
+        "url": "https://mathewstorm.ca"
+      }
+      {% if metadata.tags %}
+      ,"keywords": "{{ metadata.tags|join:', ' }}"
+      {% endif %}
+    }
+    </script>
+  {% endif %}
+{% endblock %}
 
 {% block content %}
-<article class="spellbook-content sb-prose sb-max-w-none" style="font-family: 'Inter', system-ui, -apple-system, sans-serif;">
-  <div class="sb-p-2 sb-md:p-3 sb-lg:p-4" style="background-color: rgba(0, 0, 0, 0.25);">
-    {% block spellbook_md %}
-    {% endblock %}
+<div class="article-container">
+  
+  {# ARTICLE HEADER with elegant metadata #}
+  <header class="article-header" data-storm="fade-in">
+    <h1>{{ metadata.title|default:"Article" }}</h1>
+    
+    {# Metadata Pills - Storm Style #}
+    <div class="metadata-pills" data-storm="slide-up" data-storm-delay="200">
+      
+      {# Author/Date Row - Prominent #}
+      <div class="metadata-info">
+        {% if metadata.author %}
+          <span class="pill pill-author" data-storm-hover="lift">
+            <svg class="pill-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+            </svg>
+            {{ metadata.author }}
+          </span>
+        {% endif %}
+        
+        {% if metadata.published %}
+          <span class="pill pill-date" data-storm-hover="lift">
+            <svg class="pill-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+            </svg>
+            {{ metadata.published|date:"M d, Y" }}
+          </span>
+        {% endif %}
+        
+        {% if metadata.modified and metadata.modified != metadata.published %}
+          <span class="pill pill-updated" data-storm-hover="lift">
+            <svg class="pill-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+            </svg>
+            Updated {{ metadata.modified|date:"M d, Y" }}
+          </span>
+        {% endif %}
+        
+        {# Reading time if available #}
+        {% if metadata.reading_time %}
+          <span class="pill pill-reading" data-storm-hover="lift">
+            <svg class="pill-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+            {{ metadata.reading_time }} min read
+          </span>
+        {% endif %}
+      </div>
+      
+      {# Tags Row - Subtle #}
+      {% if metadata.tags %}
+        <div class="metadata-tags">
+          {% for tag in metadata.tags %}
+            <span class="pill pill-tag" data-storm-hover="scale">
+              <svg class="pill-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/>
+              </svg>
+              {{ tag }}
+            </span>
+          {% endfor %}
+        </div>
+      {% endif %}
+      
+    </div>
+  </header>
+  
+  {# TWO-COLUMN LAYOUT: TOC Sidebar + Content #}
+  <div class="article-layout">
+    
+    {# STICKY TABLE OF CONTENTS #}
+    <nav class="article-toc" data-storm="slide-right" data-storm-delay="300">
+      <h4>More Writing</h4>
+      {% include "django_spellbook/tocs/sidebar_toc.html" %}
+      
+      {# Developer metadata for staff #}
+      {% if user.is_staff %}
+        <div class="dev-metadata">
+          <div class="dev-metadata-title">🔧 Dev Info</div>
+          {% if is_directory_index %}
+            {% directory_metadata "for_dev" %}
+          {% else %}
+            {% page_metadata "for_dev" %}
+          {% endif %}
+        </div>
+      {% endif %}
+    </nav>
+    
+    {# MAIN CONTENT AREA #}
+    <main class="article-content" data-storm="fade-in" data-storm-delay="400">
+      <article class="spellbook-content sb-prose sb-max-w-none" style="font-family: 'Inter', system-ui, -apple-system, sans-serif;">
+        {% block spellbook_md %}{% endblock %}
+      </article>
+      
+      {# Prev/Next Navigation at Bottom #}
+      {% if prev_page or next_page %}
+        <nav class="nav-links" data-storm="slide-up" data-storm-delay="500">
+          {% if prev_page %}
+            <a href="{{ prev_page.url }}" class="nav-link nav-link-prev" data-storm-hover="lift">
+              <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+              </svg>
+              <div>
+                <span class="nav-label">Previous</span>
+                <span class="nav-title">{{ prev_page.title }}</span>
+              </div>
+            </a>
+          {% endif %}
+          
+          {% if next_page %}
+            <a href="{{ next_page.url }}" class="nav-link nav-link-next" data-storm-hover="lift">
+              <div>
+                <span class="nav-label">Next</span>
+                <span class="nav-title">{{ next_page.title }}</span>
+              </div>
+              <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+              </svg>
+            </a>
+          {% endif %}
+        </nav>
+      {% endif %}
+    </main>
+    
   </div>
-</article>
+  
+</div>
 
+{# Existing typography styles and clickable headers JS #}
 <style>
   /* Professional typography for Spellbook content */
   .spellbook-content h1 {
@@ -20,19 +206,22 @@
   .spellbook-content h2 {
     font-weight: 700;
     letter-spacing: -0.01em;
-    margin-top: 1.75rem;
-    margin-bottom: 1.25rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
   }
   
   .spellbook-content h3 {
     font-weight: 600;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
   }
   
   .spellbook-content p {
-    line-height: 1.7;
-    margin-bottom: 1.25rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    font-size: 1.125rem;
   }
   
   .spellbook-content code {
@@ -70,7 +259,9 @@
   }
   
   .spellbook-content li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.125rem;
+    line-height: 1.8;
   }
   
   /* Clickable header styles */
@@ -106,7 +297,7 @@
   }
   
   @keyframes highlight {
-    0% { background-color: rgba(var(--accent-color-rgb, 255, 193, 7), 0.3); }
+    0% { background-color: rgba(222, 158, 65, 0.3); }
     100% { background-color: transparent; }
   }
 </style>
@@ -116,20 +307,10 @@ document.addEventListener('DOMContentLoaded', function() {
   // Get all headers with IDs
   const headers = document.querySelectorAll('.spellbook-content h2[id], .spellbook-content h3[id], .spellbook-content h4[id]');
   
-  // Calculate navbar height (including any fixed elements)
+  // Calculate navbar height
   function getNavbarHeight() {
     const navbar = document.querySelector('nav');
-    const mastodonBanner = document.querySelector('.mastodon-banner');
-    let totalHeight = 0;
-    
-    if (navbar) {
-      totalHeight += navbar.offsetHeight;
-    }
-    if (mastodonBanner) {
-      totalHeight += mastodonBanner.offsetHeight;
-    }
-    
-    // Add a little extra padding
+    let totalHeight = navbar ? navbar.offsetHeight : 0;
     return totalHeight + 20;
   }
   
@@ -149,46 +330,61 @@ document.addEventListener('DOMContentLoaded', function() {
   headers.forEach(header => {
     header.addEventListener('click', function(e) {
       e.preventDefault();
-      
-      // Update URL with the header ID
       const id = this.id;
       if (id) {
-        // Update URL without triggering scroll
         history.pushState(null, null, '#' + id);
-        
-        // Smooth scroll to the header
         scrollToElement(this);
       }
     });
-    
-    // Add title attribute for better UX
     header.title = 'Click to link to this section';
   });
   
   // Handle initial page load with hash
   if (window.location.hash) {
-    // Wait for page to fully load
     setTimeout(() => {
       const targetId = window.location.hash.substring(1);
       const targetElement = document.getElementById(targetId);
-      
       if (targetElement) {
         scrollToElement(targetElement);
       }
     }, 100);
   }
   
-  // Handle browser back/forward with hash changes
+  // Handle browser back/forward
   window.addEventListener('hashchange', function() {
     if (window.location.hash) {
       const targetId = window.location.hash.substring(1);
       const targetElement = document.getElementById(targetId);
-      
       if (targetElement) {
         scrollToElement(targetElement);
       }
     }
   });
+  
+  // Active TOC highlighting on scroll
+  const tocLinks = document.querySelectorAll('.article-toc a');
+  
+  function updateActiveTocLink() {
+    let currentActive = null;
+    const scrollPosition = window.scrollY + getNavbarHeight() + 50;
+    
+    headers.forEach(header => {
+      const headerTop = header.offsetTop;
+      if (scrollPosition >= headerTop) {
+        currentActive = header.id;
+      }
+    });
+    
+    tocLinks.forEach(link => {
+      link.classList.remove('active');
+      if (currentActive && link.getAttribute('href') === '#' + currentActive) {
+        link.classList.add('active');
+      }
+    });
+  }
+  
+  window.addEventListener('scroll', updateActiveTocLink);
+  updateActiveTocLink(); // Initial call
 });
 </script>
 {% endblock %}
