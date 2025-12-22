@@ -38,30 +38,7 @@ This is the recursive condition: building tools to save time we spend maintainin
 
 ## The Three Extensions of Absurdism
 
-### Humanist Absurdism
-
-*Choosing to be a person when the system wants you to be a component.*
-
-The philosophy of embedding kindness within inhuman systems. When we cannot escape the labyrinth, we can at least ensure it contains windows, gardens, and secret doors. Every line of code is a moral choice.
-
-**Living This Philosophy:**
-
-- **Code as Care**: Every error message, every comment, every interface choice affects real humans.
-- **Business as Compassion**: Teach while you build, ensure that clients understand their own systems.
-- **Teaching as Resistance**: Create educational content that preserves human understanding in an age of AI automation.
-- **Community as Garden**: Building spaces where people grow together. The Django community, Mastodon & the Fediverse - these aren't just networks but gardens we tend together.
-
-**Questions Before Every Decision:**
-
-- Is this actually helping a human, or just a metric?
-- Will the person who comes after me curse me or thank me?
-- Am I adding complexity to solve a problem or to feel clever?
-- Does this make people more capable or more dependent?
-- What breaks when I'm gone?
-
-[→ Explore Humanist Absurdism in depth](/writing/philosophy/humanist-absurdism/)
-
-### Techno-Absurdism 
+### Techno-Absurdism (The Problem)
 
 *We build prisons of logic that learn to perfect themselves*
 
@@ -83,7 +60,7 @@ The recognition that we've created systems that operate beyond human comprehensi
 
 [→ Explore Techno-Absurdism in depth](/writing/philosophy/techno-absurdism/)
 
-### Neo-Absurdism
+### Neo-Absurdism (The Trap)
 
 *The boulder was training for building better boulders*
 
@@ -104,6 +81,29 @@ The philosophy that we've optimized our own suffering so thoroughly that exploit
 - Sometimes the only rebellion is refusing to monetize the rebellion
 
 [→ Explore Humanist Absurdism in depth](/writing/philosophy/neo-absurdism/)
+
+### Humanist Absurdism (The Remedy)
+
+*Choosing to be a person when the system wants you to be a component.*
+
+The philosophy of embedding kindness within inhuman systems. When we cannot escape the labyrinth, we can at least ensure it contains windows, gardens, and secret doors. Every line of code is a moral choice.
+
+**Living This Philosophy:**
+
+- **Code as Care**: Every error message, every comment, every interface choice affects real humans.
+- **Business as Compassion**: Teach while you build, ensure that clients understand their own systems.
+- **Teaching as Resistance**: Create educational content that preserves human understanding in an age of AI automation.
+- **Community as Garden**: Building spaces where people grow together. The Django community, Mastodon & the Fediverse - these aren't just networks but gardens we tend together.
+
+**Questions Before Every Decision:**
+
+- Is this actually helping a human, or just a metric?
+- Will the person who comes after me curse me or thank me?
+- Am I adding complexity to solve a problem or to feel clever?
+- Does this make people more capable or more dependent?
+- What breaks when I'm gone?
+
+[→ Explore Humanist Absurdism in depth](/writing/philosophy/humanist-absurdism/)
 
 ---
 

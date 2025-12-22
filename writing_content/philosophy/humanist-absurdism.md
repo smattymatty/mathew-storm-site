@@ -58,7 +58,7 @@ Gravity requires no malice. Systems don't hate - they process. The cruelty emerg
 
 A nurse sees a hundred patients. She charts one wrong - not the diagnosis, that stays accurate. The billing code. The one that means bankruptcy versus manageable debt. She cannot fix American healthcare. She cannot refuse to participate in a system that prices insulin like jewelry. But this one, today, with the kid in the bed and the mother doing math in her head, she can misremember which box to check.
 
-Tomorrow the system will audit it or it won't. Either way, she returns to her shift. She will see a hundred more. Some codes she will enter correctly.
+Tomorrow the system will audit it or it won't. Either way, she returns to her shift. She will see a hundred more. Most codes she will enter correctly.
 
 {~ accordion title="Levinas on Responsibility Before Choice" ~}
 Emmanuel Levinas argued that ethical responsibility precedes choice. You don't decide to be obligated to others - you already are, before any decision. "I am responsible for the Other without waiting for reciprocity."

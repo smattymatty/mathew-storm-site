@@ -6,7 +6,7 @@ author: Mathew Storm
 tags:
   - philosophy
   - glossary
-  - reference8
+  - reference
   - recursive-absurd
 
 # Custom SEO metadata
@@ -48,11 +48,29 @@ The traditional absurd: "Life has no inherent meaning."
 The recursive absurd: "Life has no inherent meaning, so we built an app for that. The app needs constant updates, and updating the app has become our meaning, except we've forgotten why we built it."
 {~~}
 
+**Key terms:**
+
+- **The Loop:** It's the feeling of being a "middle-man for machines." You use an app to schedule your work, so you can earn money to pay for the data plan that runs the app. The logic is perfect, but the purpose is missing.
+
+- **The Base Case:** In code, recursion needs a "base case" to stop. In life, we've forgotten ours. We just keep looping.
+
 ---
 
 ## The Three Extensions
 
-### Humanist Absurdism
+### Techno-Absurdism (The Problem)
+
+*Essay forthcoming.*
+
+**Key terms:**
+
+- **Algorithmic Indifference** — The evolution from Camus's cosmic indifference. Not the universe's silence, but the calculated indifference coded into systems designed for extraction.
+
+### Neo-Absurdism (The Trap)
+
+*Essay forthcoming.*
+
+### Humanist Absurdism (The Remedy)
 
 The radical act of choosing humanity within dehumanizing systems. The daily practice of maintaining humanity within systems designed to eliminate it.
 
@@ -79,18 +97,6 @@ Humanist Absurdism: The "Unspoken Network." It’s the quiet, anonymous knowledg
 - **Anonymous Friction** — Resistance that registers as error, delay, incompetence. The method by which embedded kindness operates - invisible by design, plausibly deniable by necessity.
 
 - **The Unspoken Network** — The quiet knowledge that you're not the only one slipping gears. Inferred from patterns, never confirmed by contact. You see the errors that aren't errors. You never see who made them.
-
-### Techno-Absurdism
-
-*Essay forthcoming.*
-
-**Key terms:**
-
-- **Algorithmic Indifference** — The evolution from Camus's cosmic indifference. Not the universe's silence, but the calculated indifference coded into systems designed for extraction.
-
-### Neo-Absurdism
-
-*Essay forthcoming.*
 
 ---
 

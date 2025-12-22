@@ -23,8 +23,8 @@
    status="Production Ready"
    tech="Django 5.2|Django REST Framework|ActivityPub|GoToSocial"
    stats="Status:Production|License:MIT"
-   github="https://github.com/stormdevelopments/storm-cloud-server"
-   docs="https://github.com/stormdevelopments/storm-cloud-server#readme"
+   github="https://github.com/smattymatty/storm-cloud-server"
+   docs="cloud.stormdevelopments.ca/docs/"
 ~}
 {~~}
 
