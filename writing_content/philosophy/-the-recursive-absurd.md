@@ -128,7 +128,6 @@ Han warns that neoliberal psychopolitics eliminates negativity; the capacity to 
 
 This is neither Camus's heroic defiance nor his joyful acceptance. It is something more modest and more desperate: the attempt to remain human while building machines, to preserve what is useless and beautiful while optimizing everything else. Small choices, embedded everywhere, preserving humanity one interaction at a time.
 
-
 [→ Explore Humanist Absurdism in depth](/writing/philosophy/humanist-absurdism/)
 
 ## V. The Final Recursion

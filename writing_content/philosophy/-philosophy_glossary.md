@@ -58,6 +58,20 @@ The radical act of choosing humanity within dehumanizing systems. The daily prac
 
 [→ Read the full essay](/writing/philosophy/humanist-absurdism/)
 
+**Terminology:**
+
+{~ accordion title="Humanism" ~}
+Traditional Humanism: The belief that human reason and agency are the center of the world and will eventually solve all problems.
+
+Humanist Absurdism: The recognition that the systems we built are now the center, and they use "reason" to make the world colder. Being a "humanist" now means being intentionally inefficient or "irrational" to protect a person from the system's logic.
+{~~}
+
+{~ accordion title="Solidarity" ~}
+Traditional Solidarity: Standing together publicly to demand political change or reform a system.
+
+Humanist Absurdism: The "Unspoken Network." It’s the quiet, anonymous knowledge that you aren't the only one slipping gears. It’s helping someone without the system (or even the person you helped) ever finding out, so the system doesn't learn how to close the gap.
+{~~}
+
 **Key terms:**
 
 - **Embedded Kindness** — Mercy coded into architecture. Windows, gardens, and secret doors built into the labyrinth. Every line of code is a moral choice.
