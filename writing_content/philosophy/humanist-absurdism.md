@@ -20,7 +20,7 @@ sitemap_priority: 0.9
 sitemap_changefreq: monthly
 ---
 
-*The radical act of choosing humanity within dehumanizing systems*
+*Choosing to be a person when the system wants you to be a component.*
 
 {~ accordion title="Summary" ~}
 Humanist Absurdism emerges from the collision of two recognitions: we build systems beyond our comprehension ([Techno-Absurdism](/writing/philosophy/philosophy-index/)), and we optimize our own imprisonment within them ([Neo-Absurdism](/writing/philosophy/philosophy-index/)).

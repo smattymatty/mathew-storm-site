@@ -20,6 +20,8 @@ sitemap_priority: 0.8
 sitemap_changefreq: weekly
 ---
 
+Don't let the machine grind the humanity out of you. Build stuff that makes life a little easier for the next person, and don't take the 'optimization' of life & work too seriously. We're all just trying to get home.
+
 A working collection of ideas at the intersection of technology, absurdism, and humanity.
 
 [Essay on The Recursive Absurd](/writing/philosophy/the-recursive-absurd/)
@@ -51,7 +53,7 @@ The philosophy of embedding kindness within inhuman systems. When we cannot esca
 
 **Questions Before Every Decision:**
 
-- Who does this serve? Who does it exclude?
+- Is this actually helping a human, or just a metric?
 - Will the person who comes after me curse me or thank me?
 - Am I adding complexity to solve a problem or to feel clever?
 - Does this make people more capable or more dependent?
@@ -104,7 +106,5 @@ The philosophy that we've optimized our own suffering so thoroughly that exploit
 [→ Explore Humanist Absurdism in depth](/writing/philosophy/neo-absurdism/)
 
 ---
-
-Don't let the machine grind the humanity out of you. Build stuff that makes life a little easier for the next person, and don't take the 'optimization' of life & work too seriously. We're all just trying to get home.
 
 *"We build the labyrinth that contains us. The question isn't whether to build - we must. The question is whether we build with windows, gardens, and secret doors for others to find. Every project is a choice: prison or playground, maze or garden, constraint or liberation. Choose wisely, build kindly, document thoroughly."*
