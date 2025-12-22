@@ -67,7 +67,7 @@ The recognition that we've created systems that operate beyond human comprehensi
 
 **How This Manifests:**
 
-- **The Toolchain Paradox:** Your CMS generates views from markdown which gets parsed to HTML which gets served by a framework which renders templates. Each layer of abstraction makes development "easier" while making the system more opaque.
+- **The Doorbell Paradox:** You bought a "smart" doorbell to save time. Now you spend 20 minutes a week updating its firmware, 10 minutes charging its battery, and 30 minutes checking notifications of a squirrel. You have spent more time maintaining the doorbell than you ever spent just walking to the door.
 - **The Framework Recursion:** We build frameworks on frameworks on frameworks to manage complexity we created by building frameworks. Abstraction all the way down.
 - **The Testing Loop:** Your tests run on test runners that depend on packages that depend on compilers that compile to bytecode that runs on VMs. We test our tests with tests.
 - **The AI Education Trap:** We teach AI to help us code, which generates code we don't understand, which we need AI to explain, creating a dependency loop that strengthens with each iteration.
