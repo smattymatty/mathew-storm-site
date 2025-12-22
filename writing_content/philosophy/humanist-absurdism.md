@@ -1,5 +1,5 @@
 ---
-title: "Humanist Absurdism: Choosing Humanity Within Dehumanizing Systems"
+title: "Humanist Absurdism: Choosing Humanity"
 published: 2025-12-18
 modified: 2025-12-21
 author: Mathew Storm

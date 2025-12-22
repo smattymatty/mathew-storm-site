@@ -1,6 +1,6 @@
 ---
 title: "Philosophical Index"
-published: 2024-09-10
+published: 2025-09-10
 modified: 2025-12-21
 author: Mathew Storm
 tags:
