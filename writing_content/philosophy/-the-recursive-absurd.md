@@ -88,7 +88,7 @@ An algorithm is indifferent to you the way a factory is indifferent to the pig o
 
 The incomprehensibility of these recursive loops is a feature, not a bug; it is an obfuscation that protects the system's core function from scrutiny.
 
-[→ Explore Techno-Absurdism in depth](/philo/techno-absurdism/)
+[→ Explore Techno-Absurdism in depth](/writing/philosophy/techno-absurdism/)
 
 ## III. The Recursion of Suffering
 
@@ -106,7 +106,7 @@ The original punishment was elegant in its simplicity. But our boulders evolve. 
 In *Psychopolitics*, Byung-Chul Han argues that neoliberal power no longer disciplines from outside but operates from within, turning freedom into compulsion. We quantify ourselves, compete against ourselves, and call it autonomy; but this “voluntary self-exploitation” is more effective than any external domination.  
 {~~}  
 
-[→ Explore Neo-Absurdism in depth](/philo/neo-absurdism/)
+[→ Explore Neo-Absurdism in depth](/writing/philosophy/neo-absurdism/)
 
 ## IV. The Humanist Response
 
