@@ -11,7 +11,7 @@ tags:
 
 # Custom SEO metadata
 description: "Essential concepts in Mathew Storm's philosophy: recursive absurd, techno-absurdism, neo-absurdism, humanist absurdism, and related philosophical frameworks."
-keywords: "philosophy glossary, recursive absurd, techno-absurdism, neo-absurdism, humanist absurdism, camus, existentialism"
+keywords: "philosophy glossary, mathew storm, philosopher, contemporary philosopher, modern philosopher, absurdist philosopher, recursive absurd, techno-absurdism, neo-absurdism, humanist absurdism, camus, existentialism"
 schema_type: Article
 og_type: article
 

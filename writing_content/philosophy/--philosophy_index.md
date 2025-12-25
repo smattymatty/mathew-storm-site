@@ -11,7 +11,7 @@ tags:
 
 # Custom SEO metadata
 description: "Philosophical essays on the recursive absurd, techno-absurdism, neo-absurdism, and humanist absurdism. Exploring what it means to be human in the age of machines."
-keywords: "philosophy, mathew storm, recursive absurd, digital philosophy, techno-absurdism, humanist absurdism, existentialism"
+keywords: "philosophy, mathew storm, philosopher, contemporary philosopher, modern philosopher, absurdist philosopher, recursive absurd, digital philosophy, techno-absurdism, neo-absurdism, humanist absurdism, existentialism, camus"
 schema_type: CollectionPage
 og_type: website
 

@@ -27,9 +27,9 @@ Open source engineer focused on federated systems, self-hosted infrastructure, a
 
     context = {
         # SEO metadata for homepage
-        'page_title': 'Mathew Storm - Open Source Engineer',
-        'meta_description': 'Founder building Storm Cloud Server, Django Spellbook, and Django Mercury. Open source engineer focused on federated infrastructure and digital sovereignty.',
-        'meta_keywords': 'mathew storm, storm cloud server, django spellbook, federated infrastructure, digital sovereignty, activitypub, django developer',
+        'page_title': 'Mathew Storm - Open Source Engineer & Writer',
+        'meta_description': 'Open source engineer building sovereign infrastructure tools. Writing on technology, meaning, and the recursive absurd. Creator of Storm Cloud Server, Django Spellbook, and Django Mercury.',
+        'meta_keywords': 'mathew storm, philosopher, contemporary philosopher, modern philosopher, absurdist philosopher, recursive absurd, humanist absurdism, techno-absurdism, neo-absurdism, storm cloud server, django spellbook, django developer, open source, digital sovereignty, digital philosophy',
         # Rendered markdown sections
         'about_section': spellbook_render(about_md),
         'connect_section': spellbook_render(connect_md),

@@ -10,7 +10,7 @@ tags:
 
 # Custom SEO metadata
 description: "We no longer discover absurdity; we manufacture it. An exploration of how we became prisoners of our own code, teaching algorithms to optimize our own meaninglessness."
-keywords: "recursive absurd, mathew storm, digital philosophy, neo-absurdism, techno-absurdism, camus, sisyphus, algorithmic indifference"
+keywords: "recursive absurd, mathew storm, philosopher, contemporary philosopher, modern philosopher, absurdist philosopher, digital philosophy, neo-absurdism, techno-absurdism, humanist absurdism, camus, sisyphus, algorithmic indifference, existentialism"
 schema_type: Article
 og_type: article
 

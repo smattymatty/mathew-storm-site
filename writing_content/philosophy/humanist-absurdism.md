@@ -11,7 +11,7 @@ tags:
 
 # Custom SEO metadata
 description: "A philosophy of embedded kindness. The lived response to techno-absurdism and neo-absurdism - finding the narrow space between compliance and resistance."
-keywords: "humanist absurdism, mathew storm, embedded kindness, dehumanizing systems, techno-absurdism, neo-absurdism, simone weil, emmanuel levinas"
+keywords: "humanist absurdism, mathew storm, philosopher, contemporary philosopher, modern philosopher, absurdist philosopher, embedded kindness, dehumanizing systems, techno-absurdism, neo-absurdism, recursive absurd, simone weil, emmanuel levinas, existentialism"
 schema_type: Article
 og_type: article
 
@@ -23,7 +23,7 @@ sitemap_changefreq: monthly
 *Choosing to be a person when the system wants you to be a component.*
 
 {~ accordion title="Summary" ~}
-Humanist Absurdism emerges from the collision of two recognitions: we build systems beyond our comprehension ([Techno-Absurdism](/writing/philosophy/philosophy-index/)), and we optimize our own imprisonment within them ([Neo-Absurdism](/writing/philosophy/philosophy-index/)).
+Humanist Absurdism emerges from the collision of two recognitions: we build systems beyond our comprehension ([Techno-Absurdism](/writing/philosophy/philosophy_index/)), and we optimize our own imprisonment within them ([Neo-Absurdism](/writing/philosophy/philosophy_index/)).
 
 These are diagnoses. Humanist Absurdism is the response - the daily practice of maintaining humanity within systems designed to eliminate it.
 
