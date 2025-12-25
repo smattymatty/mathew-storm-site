@@ -22,6 +22,8 @@ sitemap_changefreq: monthly
 
 *Choosing to be a person when the system wants you to be a component.*
 
+[The Recursive Absurd](/writing/philosophy/the-recursive-absurd/)
+
 {~ accordion title="Summary" ~}
 Humanist Absurdism emerges from the collision of two recognitions: we inhabit systems beyond our comprehension ([Techno-Absurdism](/writing/philosophy/philosophy_index/)), and we optimize our own imprisonment within them ([Neo-Absurdism](/writing/philosophy/philosophy_index/)).
 

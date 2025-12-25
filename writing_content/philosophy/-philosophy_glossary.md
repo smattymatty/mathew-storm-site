@@ -58,7 +58,7 @@ The recursive absurd: "Life has no inherent meaning, so we built an app for that
 
 ## The Three Extensions
 
-### Techno-Absurdism (The Problem)
+### Techno-Absurdism (The Problem)This is Algorithmic Indifference—the evolution from Camus's cosmic indifference. The universe didn't care, but at least it wasn't designed that way. Algorithmic indifference is calculated. It was coded, tested, deployed. Someone decided that your suffering was not a bug worth fixing.
 
 *Essay forthcoming.*
 
@@ -66,7 +66,9 @@ The recursive absurd: "Life has no inherent meaning, so we built an app for that
 
 - **Algorithmic Indifference** - The evolution from Camus's cosmic indifference. Not the universe's silence, but the calculated indifference coded into systems designed for extraction.
 
-- **The Systemic Shrug** - 
+- **The Systemic Shrug** - The automated acknowledgment that goes nowhere. This is the ticket number, the "your inquiry is important to us," the queue that processes your suffering without addressing it.
+
+- **Emergent Cruelty** - The cruelty that arises when efficiency becomes the supreme value. No one authors it; it precipitates from thousands of local optimizations. Most systems were not originally built to cause harm, it just happens to be the shortest path between two metrics.
 
 ### Neo-Absurdism (The Trap)
 
