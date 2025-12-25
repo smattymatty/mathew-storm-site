@@ -42,7 +42,7 @@ This is the recursive condition: building tools to save time we spend maintainin
 
 *We build prisons of logic that learn to perfect themselves*
 
-The recognition that we've created systems that operate beyond human comprehension while still serving human-defined goals. We are architects of our own incomprehension, debugging processes that debug themselves.
+The recognition that we now inhabit technical systems whose behavior exceeds human understanding - including the understanding of those who design, deploy, and maintain them. These systems are not guided by insight but by feedback loops, metrics, and continuous adjustment, operated through monitoring and hope rather than comprehension. They often succeed operationally while producing consequences no one intended, predicted, or can fully control. Techno-Absurdism names the condition in which systems continue to function and expand even after human understanding of their behavior has been lost.
 
 **How This Manifests:**
 
@@ -64,7 +64,7 @@ The recognition that we've created systems that operate beyond human comprehensi
 
 *The boulder was training for building better boulders*
 
-The philosophy that we've optimized our own suffering so thoroughly that exploitation has become invisible. Rather than simply enduring the absurd - we package it, monetize it, and convince others it's self-improvement.
+The psychological adaptation to life inside systems that no longer make sense. Faced with forces that cannot be confronted or understood, individuals turn inward, managing themselves instead. Endurance, self-optimization, and constant adjustment become coping strategies, not beliefs. What was once imposed externally is now maintained internally, because functioning requires it. Neo-Absurdism describes how subjects remain operational inside incomprehensible systems by converting systemic pressure into personal responsibility.
 
 **The Compound Absurdity:**
 
@@ -86,7 +86,7 @@ The philosophy that we've optimized our own suffering so thoroughly that exploit
 
 *Choosing to be a person when the system wants you to be a component.*
 
-The philosophy of embedding kindness within inhuman systems. When we cannot escape the labyrinth, we can at least ensure it contains windows, gardens, and secret doors. Every line of code is a moral choice.
+The practice of remaining human inside systems that cannot be escaped, reasoned with, or dismantled. If techno-absurdism names the external machinery and neo-absurdism names the internal psychology it demands, Humanist Absurdism names the ethical residue that remains: attention, discretion, and kindness exercised without recognition, leverage, or expectation of change.
 
 **Living This Philosophy:**
 

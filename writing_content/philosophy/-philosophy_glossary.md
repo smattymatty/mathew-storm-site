@@ -50,9 +50,9 @@ The recursive absurd: "Life has no inherent meaning, so we built an app for that
 
 **Key terms:**
 
-- **The Loop:** It's the feeling of being a "middle-man for machines." You use an app to schedule your work, so you can earn money to pay for the data plan that runs the app. The logic is perfect, but the purpose is missing.
+- **The Loop:** - It's the feeling of being a "middle-man for machines." You use an app to schedule your work, so you can earn money to pay for the data plan that runs the app. The logic is perfect, but the purpose is missing.
 
-- **The Base Case:** In code, recursion needs a "base case" to stop. In life, we've forgotten ours. We just keep looping.
+- **The Base Case:** - In code, recursion needs a "base case" to stop. In life, we've forgotten ours. We just keep looping.
 
 ---
 
@@ -64,7 +64,9 @@ The recursive absurd: "Life has no inherent meaning, so we built an app for that
 
 **Key terms:**
 
-- **Algorithmic Indifference** — The evolution from Camus's cosmic indifference. Not the universe's silence, but the calculated indifference coded into systems designed for extraction.
+- **Algorithmic Indifference** - The evolution from Camus's cosmic indifference. Not the universe's silence, but the calculated indifference coded into systems designed for extraction.
+
+- **The Systemic Shrug** - 
 
 ### Neo-Absurdism (The Trap)
 
@@ -92,11 +94,11 @@ Humanist Absurdism: The "Unspoken Network." It’s the quiet, anonymous knowledg
 
 **Key terms:**
 
-- **Embedded Kindness** — Mercy coded into architecture. Windows, gardens, and secret doors built into the labyrinth. Every line of code is a moral choice.
+- **Embedded Kindness** - Mercy coded into architecture. Windows, gardens, and secret doors built into the labyrinth. Every line of code is a moral choice.
 
-- **Anonymous Friction** — Resistance that registers as error, delay, incompetence. The method by which embedded kindness operates - invisible by design, plausibly deniable by necessity.
+- **Anonymous Friction** - Resistance that registers as error, delay, incompetence. The method by which embedded kindness operates - invisible by design, plausibly deniable by necessity.
 
-- **The Unspoken Network** — The quiet knowledge that you're not the only one slipping gears. Inferred from patterns, never confirmed by contact. You see the errors that aren't errors. You never see who made them.
+- **The Unspoken Network** - The quiet knowledge that you're not the only one slipping gears. Inferred from patterns, never confirmed by contact. You see the errors that aren't errors. You never see who made them.
 
 ---
 
