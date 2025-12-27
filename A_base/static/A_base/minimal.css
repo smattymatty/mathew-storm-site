@@ -34,7 +34,7 @@ body::before {
 
 /* Content wrapper - focused reading width */
 .content-wrapper {
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   position: relative;
   z-index: 1;
 }
@@ -593,7 +593,7 @@ tr:hover td {
   }
   
   .content-wrapper {
-    padding: 1rem 0.75rem;
+    padding: 0;
   }
   
   .project-card-content {

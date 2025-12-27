@@ -39,6 +39,6 @@ Technology and philosophy are inseparable. The tools we build encode values.
 
 ---
 
-More writing coming soon. Follow on [Mastodon](https://techhub.social/@smattymatty) for updates.
+More writing coming soon. Follow on [Mastodon](https://socialontario.ca/@smattymatty) for updates.
 
 [← Back to Home](/)

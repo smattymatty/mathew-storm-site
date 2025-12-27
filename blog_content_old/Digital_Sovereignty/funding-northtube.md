@@ -169,7 +169,7 @@ If you're reading this and have experience with:
 - Co-op governance
 - Canadian tax law for platforms (please help)
 
-I'd love to hear from you. Email me at mathewstormdev@gmail.com or find me on [Mastodon](https://techhub.social/@smattymatty).
+I'd love to hear from you. Email me at mathewstormdev@gmail.com or find me on [Mastodon](https://socialontario.ca/@smattymatty).
 
 And if you believe in what NorthTube is trying to do - an ad-free, community-focused alternative to YouTube - [consider supporting us](https://opencollective.com/northtube).
 
@@ -192,4 +192,4 @@ Mathew Storm (smattymatty)
 
 - NorthTube: [northtube.ca](https://northtube.ca)
 - Open Collective: [opencollective.com/northtube](https://opencollective.com/northtube)
-- Mastodon: [@smattymatty@techhub.social](https://techhub.social/@smattymatty)
+- Mastodon: [@smattymatty@techhub.social](https://socialontario.ca/@smattymatty)

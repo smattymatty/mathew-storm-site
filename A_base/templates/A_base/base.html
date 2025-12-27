@@ -31,6 +31,7 @@
     
     <!-- Minimal Custom Styles -->
     <link rel="stylesheet" type="text/css" href="{% static 'A_base/minimal.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'A_base/navbar.css' %}" />
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -50,7 +51,7 @@
       "url": "https://mathewstorm.ca",
       "sameAs": [
         "https://github.com/smattymatty",
-        "https://techhub.social/@smattymatty",
+        "https://socialontario.ca/@smattymatty",
         "https://northtube.ca"
       ],
       "jobTitle": ["Software Engineer", "Philosopher", "Writer"],
@@ -88,6 +89,7 @@
   </head>
 
   <body class="sb-bg-background sb-min-h-screen sb-flex sb-flex-col" style="font-family: 'Inter', system-ui, -apple-system, sans-serif;">
+    <a rel="me" href="https://socialontario.ca/@smattymatty" class="sb-hidden">Mastodon</a>
     {% include 'A_base/partials/navbar.html' %}
 
     <main class="sb-flex-grow sb-w-full sb-text-text" data-storm="fade-in">
@@ -105,7 +107,8 @@
         import StormAnimations from '{% static "A_base/storm/storm-animations.mjs" %}';
         import StormEvents from '{% static "A_base/storm/storm-events.mjs" %}';
         import StormHeroLightningPlugin from '{% static "A_base/storm/plugins/storm-hero-lightning.mjs" %}';
-        
+        import MobileNavbar from '{% static "A_base/navbar.mjs" %}';
+
         // Initialize Hero Lightning Plugin
         if (StormHeroLightningPlugin && StormEvents) {
             StormHeroLightningPlugin.init(StormEvents);

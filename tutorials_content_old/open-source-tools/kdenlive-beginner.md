@@ -188,7 +188,7 @@ Stop waiting for the "right" editor. Just start editing.
 **Questions? Feedback? Want me to cover something specific?**
 
 Email: mathewstormdev@gmail.com  
-Mastodon: [@smattymatty@techhub.social](https://techhub.social/@smattymatty)  
+Mastodon: [@smattymatty@techhub.social](https://socialontario.ca/@smattymatty)  
 NorthTube: [northtube.ca](https://northtube.ca)
 
 ---

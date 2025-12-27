@@ -783,8 +783,8 @@ class StormAnimationSystem {
     setupObserver() {
         try {
             const options = {
-                threshold: 0.1,
-                rootMargin: '0px 0px -50px 0px'
+                threshold: 0.01,  // Reduced from 0.1 - trigger when just 1% visible
+                rootMargin: '100px 0px 100px 0px'  // Changed from -50px to +100px - pre-load animations before they enter viewport
             };
 
             this.observer = new IntersectionObserver(entries => {
@@ -1561,6 +1561,31 @@ if (document.readyState === 'loading') {
             storm.init();
         }
     }, 50);
+}
+
+// Mobile scroll fallback - check for un-animated elements on scroll
+let scrollTimeout;
+const mobileScrollFallback = () => {
+    clearTimeout(scrollTimeout);
+    scrollTimeout = setTimeout(() => {
+        const elements = document.querySelectorAll('[data-storm]:not(.storm-animate)');
+        elements.forEach(element => {
+            const rect = element.getBoundingClientRect();
+            const inViewport = rect.top < window.innerHeight + 100 && rect.bottom > -100;
+            if (inViewport) {
+                storm.safeTriggerAnimation(element);
+            }
+        });
+    }, 100);
+};
+
+// Only add scroll listener on mobile/touch devices
+if ('ontouchstart' in window || navigator.maxTouchPoints > 0) {
+    window.addEventListener('scroll', mobileScrollFallback, { passive: true });
+    // Also check on load
+    window.addEventListener('load', () => {
+        setTimeout(mobileScrollFallback, 500);
+    });
 }
 
 // Export for use in other modules

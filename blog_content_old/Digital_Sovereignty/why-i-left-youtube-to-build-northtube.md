@@ -274,7 +274,7 @@ The platforms don't have to win.
 
 🎥 [Visit NorthTube](https://northtube.ca)  
 💰 [Support on Open Collective](https://opencollective.com/northtube)  
-🐘 [Follow on Mastodon](https://techhub.social/@smattymatty)
+🐘 [Follow on Mastodon](https://socialontario.ca/@smattymatty)
 
 ---
 

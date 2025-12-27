@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-25T12:09:56.966644Z",
+  "generated_at": "2025-12-27T12:18:28.156059Z",
   "app_name": "writing",
   "pages": [
     {
@@ -21,6 +21,13 @@
       "title": "Philosophical Glossary",
       "lastmod": "2025-12-21",
       "priority": 0.7,
+      "changefreq": "monthly"
+    },
+    {
+      "path": "/writing/philosophy/techno-absurdism/",
+      "title": "Techno Absurdism: the architecture of incomprehension",
+      "lastmod": "2025-12-25",
+      "priority": 0.9,
       "changefreq": "monthly"
     },
     {
