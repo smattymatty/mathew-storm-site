@@ -30,8 +30,6 @@ A working collection of ideas at the intersection of technology, absurdism, and 
 
 We no longer discover absurdity; we manufacture it, then optimize its production.
 
-The systems we build now routinely exceed human comprehension - not as bug but as feature. We've architected our own incomprehension and called it progress.
-
 Your boulder doesn't just roll back down anymore. It takes notes on pushing techniques, adjusts its weight distribution, then teaches other boulders. To keep up with this, you build an app to track your metrics. You sell courses on optimization. You become the boulder you push.
 
 This is the recursive condition: building tools to save time we spend maintaining tools. Writing documentation about reducing documentation. Automating work to free up time for more automation. The loop closes so seamlessly we forget there was ever an outside.
