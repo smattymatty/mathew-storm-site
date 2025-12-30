@@ -12,7 +12,7 @@ tags:
   - htmx
 ---
 
-{~ hero layout="text_left_image_right" image_src="https://ucarecdn.com/19205348-9397-400e-89c5-053a6da9adeb/-/resize/1050/" image_alt="Laptop displaying code with a cup of coffee" text_bg_color="white-50" text_color="neutral-800" ~}
+{~ hero layout="text_left_image_right" image_src="https://ucarecdn.com/19205348-9397-400e-89c5-053a6da9adeb/-/resize/1050/" image_alt="Laptop displaying code with a cup of coffee" text_bg_color="black-50" text_color="neutral-800" ~}
 
 ## Launch Your Web Development Journey: Django & HTMX
 
