@@ -108,6 +108,7 @@ urlpatterns = [
 Create `A_base/templates/A_base/contact.html`:
 
 ```html
+{% verbatim %}
 {% extends "A_base/base.html" %}
 
 {% block content %}
@@ -119,6 +120,7 @@ Create `A_base/templates/A_base/contact.html`:
     <button type="submit">Send Message</button>
 </form>
 {% endblock %}
+{% endverbatim %}
 ```
 
 ---
@@ -128,26 +130,30 @@ Create `A_base/templates/A_base/contact.html`:
 Django offers several ways to render forms:
 
 ```html
+{% verbatim %}
 {{ form.as_p }}    <!-- Wraps fields in <p> tags -->
 {{ form.as_table }} <!-- Renders as table rows -->
 {{ form.as_ul }}   <!-- Renders as list items -->
+{% endverbatim %}
 ```
 
 For custom rendering:
 
 ```html
+{% verbatim %}
 <div>
     <label for="{{ form.name.id_for_label }}">Name:</label>
     {{ form.name }}
     {{ form.name.errors }}
 </div>
+{% endverbatim %}
 ```
 
 ---
 
 # CSRF Protection
 
-- `{% csrf_token %}` adds a hidden field with security token
+- `{% verbatim %}{% csrf_token %}{% endverbatim %}` adds a hidden field with security token
 - Protects against Cross-Site Request Forgery attacks
 - Required in all POST forms in Django
 - Django will reject form submissions without a valid token
@@ -287,6 +293,7 @@ def create_project_view(request):
 * Create a template to display your form
 
 ```html
+{% verbatim %}
 <!-- A_projects/templates/A_projects/create_project.html -->
 {% extends "A_base/base.html" %}
 
@@ -299,6 +306,7 @@ def create_project_view(request):
     <button type="submit">Save Project</button>
 </form>
 {% endblock %}
+{% endverbatim %}
 ```
 
 * `form.as_p` renders each field wrapped in paragraph tags
@@ -508,6 +516,7 @@ def manage_tasks_view(request, project_id):
 * Display multiple forms in the template
 
 ```html
+{% verbatim %}
 <!-- A_projects/templates/A_projects/manage_tasks.html -->
 {% extends "A_base/base.html" %}
 
@@ -556,9 +565,10 @@ def manage_tasks_view(request, project_id):
     <button type="submit">Save Tasks</button>
 </form>
 {% endblock %}
+{% endverbatim %}
 ```
 
-* `{{ formset.management_form }}` is required for formset functionality
+* `{% verbatim %}{{ formset.management_form }}{% endverbatim %}` is required for formset functionality
 * Loop through each form to display fields
 * Include hidden `id` field to track existing tasks
 
@@ -665,6 +675,7 @@ def edit_project_with_tasks_view(request, project_id):
 * Display project form and task formset together
 
 ```html
+{% verbatim %}
 <!-- A_projects/templates/A_projects/create_project_with_tasks.html -->
 {% extends "A_base/base.html" %}
 
@@ -707,6 +718,7 @@ def edit_project_with_tasks_view(request, project_id):
     <button type="submit">Save Project with Tasks</button>
 </form>
 {% endblock %}
+{% endverbatim %}
 ```
 
 * Project form and task formset in a single form
