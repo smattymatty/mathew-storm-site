@@ -40,7 +40,9 @@ This is the recursive condition: building tools to save time we spend maintainin
 
 *We build prisons of logic that learn to perfect themselves*
 
-The recognition that we now inhabit technical systems whose behavior exceeds human understanding - including the understanding of those who design, deploy, and maintain them. These systems are not guided by insight but by feedback loops, metrics, and continuous adjustment, operated through monitoring and hope rather than comprehension. They often succeed operationally while producing consequences no one intended, predicted, or can fully control. Techno-Absurdism names the condition in which systems continue to function and expand even after human understanding of their behavior has been lost.
+The recognition that we now inhabit technical systems whose behavior exceeds human understanding - including the understanding of those who design, deploy, and maintain them. These systems are not guided by insight but by feedback loops, metrics, and continuous adjustment, operated through monitoring and hope rather than comprehension. They often succeed operationally while producing consequences no one intended, predicted, or can fully control. 
+
+Techno-Absurdism names the condition in which systems continue to function and expand even after human understanding of their behavior has been lost.
 
 **How This Manifests:**
 
@@ -62,7 +64,9 @@ The recognition that we now inhabit technical systems whose behavior exceeds hum
 
 *The boulder was training for building better boulders*
 
-The psychological adaptation to life inside systems that no longer make sense. Faced with forces that cannot be confronted or understood, individuals turn inward, managing themselves instead. Endurance, self-optimization, and constant adjustment become coping strategies, not beliefs. What was once imposed externally is now maintained internally, because functioning requires it. Neo-Absurdism describes how subjects remain operational inside incomprehensible systems by converting systemic pressure into personal responsibility.
+The psychological adaptation to life inside systems that no longer make sense. Faced with forces that cannot be confronted or understood, individuals turn inward, managing themselves instead. Endurance, self-optimization, and constant adjustment become coping strategies, not beliefs. What was once imposed externally is now maintained internally, because functioning requires it. 
+
+Neo-Absurdism describes how subjects remain operational inside incomprehensible systems by converting systemic pressure into personal responsibility.
 
 **The Compound Absurdity:**
 
@@ -105,4 +109,4 @@ The practice of remaining human inside systems that cannot be escaped, reasoned 
 
 ---
 
-*"We build the labyrinth that contains us. The question isn't whether to build - we must. The question is whether we build with windows, gardens, and secret doors for others to find. Every project is a choice: prison or playground, maze or garden, constraint or liberation. Choose wisely, build kindly, document thoroughly."*
+*"We build the labyrinth that contains us. The question isn't whether to build - we must. The question is whether we build with windows, gardens, and secret doors for others to find."*
