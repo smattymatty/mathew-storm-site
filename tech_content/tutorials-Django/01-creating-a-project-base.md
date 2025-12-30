@@ -20,7 +20,7 @@ Whether you're taking your first steps in web development or looking to structur
 
 {~~}
 
-Welcome, aspiring web developer! This course is designed to be your launchpad into the exciting world of creating dynamic, modern web applications. We'll guide you step-by-step as we construct a solid project base using the powerful Python framework **Django**, explore the innovative **HTMX** library for crafting interactive user interfaces with surprising simplicity, and master the essential building blocks of the web: **HTML, CSS, and JavaScript**.
+Welcome, aspiring web developer! This course is designed to be your launchpad into the world of creating dynamic, modern web applications. We'll guide you step-by-step as we construct a solid project base using the powerful Python framework **Django**, explore the innovative **HTMX** library for crafting interactive user interfaces with surprising simplicity, and master the essential building blocks of the web: **HTML, CSS, and JavaScript**.
 
 Our philosophy is that learning web development should be accessible and engaging. We've tailored this journey to be as beginner-friendly as possible, breaking down complex concepts into manageable pieces. So, whether you're completely new to programming or you already have some Python basics under your belt and are eager to apply them to the web, you'll gain the practical skills and confidence to bring your web ideas to life. We'll focus on understanding *why* things work, not just *how*, ensuring you build a strong foundation for future learning and development.
 
