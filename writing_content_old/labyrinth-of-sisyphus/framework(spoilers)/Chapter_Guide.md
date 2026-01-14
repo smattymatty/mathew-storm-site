@@ -83,7 +83,7 @@
 - Echo is wrong - space has changed, gotten bigger
 - Fresh cuts made from inside, angles don't match Daedalus's plans
 - Descent into quarry depths with guards
-- Discovery of skeleton from previous tribute with message: "It learns our—"
+- Discovery of skeleton from previous tribute with message: "It learns our-"
 - THE MINOTAUR'S CRUDE PASSAGE - copying architectural techniques
 - Roughly shaped, like child's drawing, but practicing, improving
 - Sound of breathing from deeper - rhythmic, patient
@@ -128,7 +128,7 @@
 - Reveals he has son and daughter in guard corps
 - "The truth isn't worth your child's life"
 - **ICARUS REVELATION:** Nikias knows about Daedalus's son
-- Daedalus panics at exposure: "How did you—"
+- Daedalus panics at exposure: "How did you-"
 - Confirms: "Icarus. Fourteen years old. Brilliant with his hands."
 - Alexios's idealism crumbling - understanding the system of complicity
 - Daedalus tries deflecting to Archimedes (his pattern of academic tangents)
@@ -209,7 +209,7 @@
 **Plot Points:**
 - Opens with Theron arriving at tower after overhearing Queen's conversation
 - "A tribute survived past Sector Three. The Queen believes you're responsible."
-- Daedalus tries to cover: "Structural anomaly, the labyrinth is evolving—"
+- Daedalus tries to cover: "Structural anomaly, the labyrinth is evolving-"
 - Theron: "She mentioned 'modifications.' She used the name 'Sisyphus.'"
 - Sisyphus doesn't deny it - refuses to lie
 - Theron orders immediate examination - descend together
@@ -244,7 +244,7 @@
 - Minos's cold fury: "You modified MY labyrinth. MY perfect system."
 - Not rage - disappointment that design allowed mercy
 - "The system is meant to eliminate hope, not create it."
-- Daedalus attempts to take blame: "I approved all modifications—"
+- Daedalus attempts to take blame: "I approved all modifications-"
 - Council witnesses in horror - seeing Theseus's body changed it from abstract to real
 - Polyidus makes warding signs
 - Kleomenes looks away - first time seeing a tribute corpse
@@ -437,7 +437,7 @@
 - Palace dangerous - patrols, skirmishes between factions
 - Makes it to Queen's wing (royal guard territory)
 - Guards don't recognize her initially - filthy, injured
-- "Please... I need to see the Queen. I have information about—"
+- "Please... I need to see the Queen. I have information about-"
 - Collapses before finishing
 - Guards see her injuries, the labyrinth dust on her clothes
 - Rush her to Queen's chambers
@@ -516,7 +516,7 @@
 - Guard reports: "Sir, the prisoner is gone."
 - Theron's face goes white
 - The one person he can't kill, can't threaten, now loose
-- Could join Asterion, could leave, could—
+- Could join Asterion, could leave, could-
 - Rushes through palace (his domain)
 - Checks obvious locations
 - Finally: the tower
@@ -544,7 +544,7 @@
 - Sword drawn, but hand shaking
 - "You're going to keep working. No matter what I do."
 - "Yes."
-- "Even if I—"
+- "Even if I-"
 - "It won't change anything."
 - Silence
 - Theron sheathes sword, walks to door
@@ -660,7 +660,7 @@
 - To Sisyphus and Daedalus: "It's getting worse down there."
 - "The Minotaur's passages - they're appearing everywhere now."
 - "Not crude anymore. Sophisticated. Better than yours."
-- Daedalus: "That's impossible. I haven't been down there in—"
+- Daedalus: "That's impossible. I haven't been down there in-"
 - "It's extrapolating. Learning from absence."
 - "Building three times faster than before."
 - Sisyphus: "It learned something from killing me."
@@ -668,7 +668,7 @@
 - Keras: "There's more. It's been quiet for three days."
 - "No sounds. No building. No breathing."
 - Daedalus goes pale: "It's never quiet."
-- "When it's quiet, it means—"
+- "When it's quiet, it means-"
 - "It's finishing something."
 
 **WORKERS QUITTING:**
@@ -743,7 +743,7 @@
 - "Daedalus comes with me."
 - "Workers who help aren't punished."
 - "And no feeding schedule until I say it's safe."
-- Theron: "You don't make demands—"
+- Theron: "You don't make demands-"
 - "I'm the only one who can fix this."
 - "So yes, I do."
 - Standoff
@@ -960,7 +960,7 @@
 - "Just... silence."
 - Daedalus goes very still: "It's never quiet."
 - "Never. It's always working, always moving."
-- "When it's quiet, it means—"
+- "When it's quiet, it means-"
 - Sisyphus finishes: "It's finishing something."
 - All three men look at each other
 - Understanding dawning
@@ -1003,7 +1003,7 @@
 - Can't afford labyrinth failure
 - But also can't afford to appear weak by trusting architects
 - Sisyphus: "I have terms."
-- "You don't make demands—"
+- "You don't make demands-"
 - "I'm the only one who can fix this." Simple statement. "So yes, I do."
 - Standoff
 - Theron's eye twitching, hand on sword
@@ -1049,7 +1049,7 @@
 - Deeper. The breathing sound starts.
 - Distant. Rhythmic. Patient.
 - Guards stop, weapons raised
-- "That's—"
+- "That's-"
 - "The Minotaur. Keep moving."
 - "It sounds close."
 - "It's not. The acoustics down here lie."
@@ -1159,7 +1159,7 @@
 - Not rushing, not raging - walking calmly through its own architecture
 - Sees the guards, sees Theron with his investigation notes
 - Recognizes him - the one who's been documenting everything
-- Theron tries to command it: "Stand down. By order of King Minos—"
+- Theron tries to command it: "Stand down. By order of King Minos-"
 - The Minotaur studies him with terrible intelligence
 - Then kills him. Quickly. Efficiently. Without malice.
 - Not because it's angry - because he's in the way
@@ -1227,7 +1227,7 @@
 - Understanding finally dawning on everyone
 - This isn't containment failing
 - This is family
-- Theron to Minos— (realizes Theron is dead)
+- Theron to Minos- (realizes Theron is dead)
 - Asterion to Minos: "What IS this thing?"
 - Queen answers, still touching the Minotaur's face: "My son."
 - Complete palace-wide shock
@@ -1284,7 +1284,7 @@
 - **POLITICAL EXPLOSION:** Council erupts
 - Polyidus: "You fed children to that thing?"
 - Asterion: "My men died for this?"
-- Kleomenes: "The treasury—all of it—for a family secret?"
+- Kleomenes: "The treasury-all of it-for a family secret?"
 - Demands for Minos to abdicate
 - Calls for the Queen to be exiled
 - Religious outrage, military fury, financial panic
@@ -1305,7 +1305,7 @@
 - Secret exposed but power structure intact through pure force
 - Minos to Daedalus and Sisyphus: "The labyrinth failed. Fix it."
 - "Make it so this doesn't happen again."
-- Sisyphus: "It will break out again unless—"
+- Sisyphus: "It will break out again unless-"
 - Minos: "Then make sure it can't. That's your job."
 - Daedalus quiet - he knows it's impossible
 - Queen watching, knowing this isn't over
@@ -1591,7 +1591,7 @@
 - **THE CHOICE:** The Minotaur takes the freedom passage
 - Walks past the other corridor without looking
 - Sisyphus's relief flooding through him
-- But then—
+- But then-
 - The Minotaur stops
 - Turns back
 - "Person... scared?"
@@ -1599,7 +1599,7 @@
 - "Like... I was scared. Always."
 - The Minotaur turns fully around
 - Walks back toward the tribute passage
-- Sisyphus's heart sinking—he failed, it learned nothing
+- Sisyphus's heart sinking-he failed, it learned nothing
 - But the Minotaur doesn't hunt
 - Instead: arranges stones at the passage entrance
 - "SAFE. GO UP."
@@ -1610,7 +1610,7 @@
 - The beast nods
 - Walks toward freedom
 - **MINOS'S TRAP:** Guards waiting at the exit
-- Sisyphus knew—told Minos about the test
+- Sisyphus knew-told Minos about the test
 - The price of attempting this: if it fails, the Minotaur dies
 - If it succeeds... also dies
 - Minos ordered it regardless of outcome
@@ -1627,7 +1627,7 @@
 - The ambush brutal, efficient
 - Spears, fire, nets
 - The Minotaur fighting but surrounded
-- It could kill them all—chooses not to
+- It could kill them all-chooses not to
 - Tries to retreat, blocked
 - Dies defending itself, not attacking
 - Sisyphus arrives as it falls

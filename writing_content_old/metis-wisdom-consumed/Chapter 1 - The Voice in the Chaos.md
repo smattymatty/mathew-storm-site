@@ -338,7 +338,7 @@ Zeus was staring at her now, really staring. She could see the calculation in hi
 
 Metis held Zeus's gaze as she answered. "After, we build something neither tyranny nor chaos. Something new." She paused. "Or we become exactly what we fought against, and in twenty years, your children stage another rebellion against you."
 
-The truth of it hit like a physical blow. She could see it in their faces—the fear that maybe she was right. Maybe they were already becoming Chronos.
+The truth of it hit like a physical blow. She could see it in their faces-the fear that maybe she was right. Maybe they were already becoming Chronos.
 
 Zeus's hands had gone white on the armrests of his almost-throne.
 

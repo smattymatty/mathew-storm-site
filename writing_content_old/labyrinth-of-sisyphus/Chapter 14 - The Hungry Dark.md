@@ -2,11 +2,11 @@
 
 The week passed slowly.
 
-Stalemate held. Theron's blue guards controlled the palace interior—corridors, armories, the tower. Asterion's bronze military held the grounds—gates, docks, outer walls. The royal guard in purple maintained their thin corridor between King's chambers and Queen's wing, a neutral buffer neither side could breach without triggering full war.
+Stalemate held. Theron's blue guards controlled the palace interior-corridors, armories, the tower. Asterion's bronze military held the grounds-gates, docks, outer walls. The royal guard in purple maintained their thin corridor between King's chambers and Queen's wing, a neutral buffer neither side could breach without triggering full war.
 
 So they bled each other in small skirmishes instead. Daily clashes at boundary points. Probing attacks. Testing. Three dead here, five wounded there. The palace fracturing stone by stone while everyone waited for someone else to break first.
 
-The labyrinth went unattended. Reports came to both Theron and Asterion—drainage backing up, passages shifting, tools moving overnight, but neither could spare the resources to investigate. The civil war consumed everything.
+The labyrinth went unattended. Reports came to both Theron and Asterion-drainage backing up, passages shifting, tools moving overnight, but neither could spare the resources to investigate. The civil war consumed everything.
 
 In the Queen's chambers, Thalia healed.
 

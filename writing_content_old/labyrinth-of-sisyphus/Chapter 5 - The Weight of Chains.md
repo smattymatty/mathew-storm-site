@@ -1,6 +1,6 @@
 # Chapter 5 - The Weight of Chains
 
-The ascent from the quarry felt like climbing out of Tartarus itself, each step carrying them further from chambers where stone had learned to think. Sisyphus's legs, conditioned by eternity, moved with mechanical precision. But the others struggled—Alexios stumbling on loose stones, Nikias favoring his left knee, Daedalus climbing with the desperate energy of a man fleeing his own creation.
+The ascent from the quarry felt like climbing out of Tartarus itself, each step carrying them further from chambers where stone had learned to think. Sisyphus's legs, conditioned by eternity, moved with mechanical precision. But the others struggled-Alexios stumbling on loose stones, Nikias favoring his left knee, Daedalus climbing with the desperate energy of a man fleeing his own creation.
 
 No one spoke until they crested the ridge.
 
@@ -12,7 +12,7 @@ They descended toward the palace through olive groves where workers pruned branc
 
 "Master Daedalus," Nikias said as they walked, his tone carrying battlefield weariness. "I've served three kings. Seen plenty of dark projects. But I've never seen stone afraid of what lives inside it."
 
-Sisyphus studied the veteran with new interest. The pattern was as old as the first city—good men serving bad causes, telling themselves they had no choice. He'd seen it in Corinth, in Tartarus where demons convinced themselves torture was just their job, and now here. The same chains, different metal.
+Sisyphus studied the veteran with new interest. The pattern was as old as the first city-good men serving bad causes, telling themselves they had no choice. He'd seen it in Corinth, in Tartarus where demons convinced themselves torture was just their job, and now here. The same chains, different metal.
 
 Daedalus's hands had developed a tremor that made his robes shake. "The stone isn't afraid. It's... cooperating."
 
@@ -28,11 +28,11 @@ A group of servants passed them on the path, carrying amphorae of oil from the p
 
 "I'm saying it improved upon them." The admission seemed to physically pain Daedalus. "Found more elegant solutions to problems I thought I'd perfected."
 
-They passed through the palace gates where guards saluted Nikias with practiced efficiency. The familiar rhythms of palace life continued around them—servants carrying water jars, nobles discussing trade agreements, a group of scribes hurrying to afternoon sessions. All of it felt like a dream after the nightmare reality below.
+They passed through the palace gates where guards saluted Nikias with practiced efficiency. The familiar rhythms of palace life continued around them-servants carrying water jars, nobles discussing trade agreements, a group of scribes hurrying to afternoon sessions. All of it felt like a dream after the nightmare reality below.
 
 "Three months since the first signs," Daedalus continued, his voice steadier now that they were back in the world of normal architecture.
 
-The tower rose before them, its solid stones a comfort after the fluid impossibilities they'd witnessed. But even its familiar shape felt different now—less refuge, more cage.
+The tower rose before them, its solid stones a comfort after the fluid impossibilities they'd witnessed. But even its familiar shape felt different now-less refuge, more cage.
 
 "Master Daedalus," Nikias said formally as they reached the entrance. "We'll need to report to our superiors about the... inspection."
 
@@ -44,7 +44,7 @@ Both statements were technically accurate while revealing nothing of importance.
 
 ---
 
-The workshop felt smaller with all four of them inside. Nikias positioned himself by the door—old habits of controlling exits. Alexios stood by the window, staring at nothing. Daedalus went immediately to his drafting table but his trembling hands couldn't hold the stylus steady.
+The workshop felt smaller with all four of them inside. Nikias positioned himself by the door-old habits of controlling exits. Alexios stood by the window, staring at nothing. Daedalus went immediately to his drafting table but his trembling hands couldn't hold the stylus steady.
 
 "Damn it," he muttered, setting down the instrument after the third attempt to draw a straight line resulted in chaotic scratches.
 
@@ -54,23 +54,23 @@ The workshop felt smaller with all four of them inside. Nikias positioned himsel
 
 "We're going to survive," Daedalus said flatly. "Which means maintaining the fiction that we're still in control. The alternative is explaining to King Minos that his prisoner has become a collaborating architect."
 
-"But surely the King should know—" Alexios began.
+"But surely the King should know-" Alexios began.
 
 "Boy," Nikias interrupted, his scarred face serious. "Let me tell you something about how power works. They don't recruit monsters for projects like this."
 
-Sisyphus felt a flicker of joy—here it came, the speech every empire's servants gave to justify their service. He could recite the next words before Nikias spoke them.
+Sisyphus felt a flicker of joy-here it came, the speech every empire's servants gave to justify their service. He could recite the next words before Nikias spoke them.
 
 "They don't?"
 
-"Monsters are unreliable. Unpredictable. No, they find good men—men with families, men with principles, men with something to lose. Then they turn those good things into chains. Your love becomes leverage. Your hope becomes a weapon against you. Your decency becomes the very thing that ensures your cooperation."
+"Monsters are unreliable. Unpredictable. No, they find good men-men with families, men with principles, men with something to lose. Then they turn those good things into chains. Your love becomes leverage. Your hope becomes a weapon against you. Your decency becomes the very thing that ensures your cooperation."
 
 Nikias gestured toward Daedalus. "You think the Master here is evil? He's got a son. Probably loves the boy more than life itself. And that love is exactly what keeps him building horrors."
 
-Daedalus flinched as if struck, his carefully maintained composure cracking. The stylus in his trembling hand clattered to the floor. For a moment, his face showed naked vulnerability—the look of a man whose deepest secret had been casually exposed.
+Daedalus flinched as if struck, his carefully maintained composure cracking. The stylus in his trembling hand clattered to the floor. For a moment, his face showed naked vulnerability-the look of a man whose deepest secret had been casually exposed.
 
 Sisyphus straightened, pieces clicking into place. A son. Of course. He caught Daedalus's eye, saw the confirmation there along with a plea for silence. The architect's leverage wasn't just professional pride or fear of death. It was love weaponized.
 
-"How did you—" Daedalus began, voice hoarse.
+"How did you-" Daedalus began, voice hoarse.
 
 "I've been at this palace twenty-three years," Nikias said, not unkindly. "You learn things. Who has family. Who can be pressured. Who will break and who will bend." He moved from the door, his weathered face showing unexpected empathy. "I've got a son too. And a daughter. Both in the guard corps now, following their old man's footsteps."
 
@@ -86,7 +86,7 @@ Daedalus took the stylus with still-trembling hands. "Icarus," he said quietly, 
 
 "And he will be," Nikias said firmly. "As long as his father keeps being smart. Playing the game. Giving Minos what he wants to hear while keeping the worst of it from destroying us all."
 
-Alexios had gone pale, his youthful idealism crumbling. "But if we all just tell the truth—"
+Alexios had gone pale, his youthful idealism crumbling. "But if we all just tell the truth-"
 
 "We all die," Nikias cut him off. "Our families die. And the truth dies with us, because dead men change nothing." He returned to his post by the door. "You want to survive in this palace, boy? Learn to see the chains. Not just the ones on prisoners, but the invisible ones on every good man who serves here. Then learn to wear them without letting them choke you."
 
@@ -96,13 +96,13 @@ Finally, he threw the stylus down with violence.
 
 The mention of Icarus hung in the air like smoke from a funeral pyre. Daedalus's face had gone pale, and Sisyphus could see him scrambling for something, anything, to change the subject.
 
-"Archimedes!" Daedalus burst out, the name escaping like a held breath. "My old rival from Syracuse—that pompous fool claims he can calculate the number of grains of sand in the universe, the entire universe, but he couldn't—" His hands swept frantically over the blueprints, knocking over an ink pot that bled black across the corner of his perfect geometries. "He couldn't calculate this, couldn't even imagine—architecture that thinks, that dreams, that builds itself while we sleep—"
+"Archimedes!" Daedalus burst out, the name escaping like a held breath. "My old rival from Syracuse-that pompous fool claims he can calculate the number of grains of sand in the universe, the entire universe, but he couldn't-" His hands swept frantically over the blueprints, knocking over an ink pot that bled black across the corner of his perfect geometries. "He couldn't calculate this, couldn't even imagine-architecture that thinks, that dreams, that builds itself while we sleep-"
 
 "Master?" Alexios asked, confused by the sudden shift.
 
-Sisyphus watched the deflection with growing understanding. The seventh deflection in three days—he'd been counting. Was this calculated—a technique honed through years of palace survival? Or had decades of burying guilt beneath theorems and formulas made it reflexive? He'd seen the same pattern in philosophers in Tartarus, endlessly explaining why their torment was actually a complex theoretical problem. Every painful truth seemed to trigger another academic tangent, as if mathematics could solve the equation of a father's fear. The pattern was so predictable that Sisyphus could almost time it—mention Icarus, wait three heartbeats, receive a lecture on architectural theory.
+Sisyphus watched the deflection with growing understanding. The seventh deflection in three days-he'd been counting. Was this calculated-a technique honed through years of palace survival? Or had decades of burying guilt beneath theorems and formulas made it reflexive? He'd seen the same pattern in philosophers in Tartarus, endlessly explaining why their torment was actually a complex theoretical problem. Every painful truth seemed to trigger another academic tangent, as if mathematics could solve the equation of a father's fear. The pattern was so predictable that Sisyphus could almost time it-mention Icarus, wait three heartbeats, receive a lecture on architectural theory.
 
-"All his war machines, his burning mirrors, his great claw that could lift ships from the sea—" Daedalus's voice grew more agitated, clearly grasping for anything to avoid the subject of Icarus. "Mechanical tricks! But what we've built learns. Improves. Creates its own solutions."
+"All his war machines, his burning mirrors, his great claw that could lift ships from the sea-" Daedalus's voice grew more agitated, clearly grasping for anything to avoid the subject of Icarus. "Mechanical tricks! But what we've built learns. Improves. Creates its own solutions."
 
 Sisyphus decided to pull him back. "You're not the architect anymore, are you?"
 
@@ -110,7 +110,7 @@ Daedalus's mouth worked silently for a moment, still trying to find another tang
 
 "No." The word emerged reluctantly, dragged from some place he'd kept locked. "I'm the scribe. Documenting improvements made by our... client."
 
-The admission hung in the air, and Sisyphus recognized the moment—he'd seen it countless times across eternity. The instant when a man realized he'd become a tool of the very thing he'd tried to master. But where others might despair, Sisyphus felt that familiar thrill of possibility. If Daedalus was just the scribe now, then perhaps they could edit what got written.
+The admission hung in the air, and Sisyphus recognized the moment-he'd seen it countless times across eternity. The instant when a man realized he'd become a tool of the very thing he'd tried to master. But where others might despair, Sisyphus felt that familiar thrill of possibility. If Daedalus was just the scribe now, then perhaps they could edit what got written.
 
 "Client," Nikias repeated, his scarred face twisting. "That's what we're calling it now?"
 
@@ -118,7 +118,7 @@ The admission hung in the air, and Sisyphus recognized the moment—he'd seen it
 
 "I'd prefer honesty," Nikias said simply. "We're teaching something that learns faster than we do. Every 'improvement' we make shows it how to make better improvements. We're training the very thing that's going to kill us."
 
-The truth of it settled over the room like a shroud. Even young Alexios grasped the implications—they weren't containing the Minotaur anymore. They were educating it.
+The truth of it settled over the room like a shroud. Even young Alexios grasped the implications-they weren't containing the Minotaur anymore. They were educating it.
 
 "There's more," Daedalus said quietly. He picked up a piece of papyrus, began sketching despite his shaking hands. "Look, this passage I designed last week. And this-" he pointed to the crude modification they'd seen below, "-is what the Minotaur built."
 
@@ -162,7 +162,7 @@ The Minotaur wasn't just building passages anymore. It was building something la
 
 "No anomalies," Daedalus agreed hollowly.
 
-As the guards prepared to leave, Daedalus spoke, his voice barely above a whisper. "The worst part? Next time we go down there, I won't know which passages are mine and which are its. I built lies into stone—deceptions to confuse and trap. But now it's building its own lies, and they're more convincing than mine."
+As the guards prepared to leave, Daedalus spoke, his voice barely above a whisper. "The worst part? Next time we go down there, I won't know which passages are mine and which are its. I built lies into stone-deceptions to confuse and trap. But now it's building its own lies, and they're more convincing than mine."
 
 "What do you mean?" Alexios asked.
 

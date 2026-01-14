@@ -289,7 +289,7 @@ Visual Studio Code offers powerful built-in Git integration and is further enhan
 # Git Terminal vs. GUI Clients: Which to Use?
 
 {~ alert type="info" title="Our Tutorial's Approach to Git Tools" ~}
-In this guide, we often use VS Code, which includes excellent visual Git integration (giving you a bit of a hybrid experience!). However, to ensure you build a strong and versatile understanding of Git, we primarily focus on teaching the **terminal/command line** operations. Mastering the core commands empowers you with a deep knowledge of how Git works, allowing you to use any Git tool—whether CLI or GUI—more effectively.
+In this guide, we often use VS Code, which includes excellent visual Git integration (giving you a bit of a hybrid experience!). However, to ensure you build a strong and versatile understanding of Git, we primarily focus on teaching the **terminal/command line** operations. Mastering the core commands empowers you with a deep knowledge of how Git works, allowing you to use any Git tool-whether CLI or GUI-more effectively.
 {~~}
 
 {~ card title="Comparing Git Interfaces: Terminal (CLI) vs. Graphical (GUI)" footer="Both have their strengths; understanding core Git is key!" ~}
@@ -539,7 +539,7 @@ In Git, branches are like parallel universes for your project. They allow you to
 {~~}
 
 {~ alert type="danger" title="The Golden Rule of Branching!" ~}
-**Almost always, avoid working directly on your `main` (or `master`) branch!** For any new piece of work—a feature, a bug fix, documentation, an experiment—always create a new branch first. This keeps your `main` branch clean, stable, and potentially shippable at all times.
+**Almost always, avoid working directly on your `main` (or `master`) branch!** For any new piece of work-a feature, a bug fix, documentation, an experiment-always create a new branch first. This keeps your `main` branch clean, stable, and potentially shippable at all times.
 {~~}
 
 ### Creating a New Branch (and Switching to It)
@@ -950,7 +950,7 @@ It's good practice to keep your feature branch up-to-date with the latest change
 
 # Handling Merge Conflicts: Resolving Clashing Changes
 
-Sooner or later, as you work with Git—especially in collaborative projects or when keeping your branches updated with an active `main` branch—you'll encounter **merge conflicts**.
+Sooner or later, as you work with Git-especially in collaborative projects or when keeping your branches updated with an active `main` branch-you'll encounter **merge conflicts**.
 
 A merge conflict occurs when Git is trying to combine changes from two different sources (e.g., your branch and the `main` branch, or two different commits during a rebase) and finds that both sources have made different changes to the **same lines in the same file(s)**. Git can't automatically decide which version is correct, so it pauses the operation and asks for your help.
 

@@ -76,7 +76,7 @@ Hour 12: The original developer texts: "Just ask AI to fix it."
 {~ accordion title="MIT Study: Your Brain on ChatGPT" ~}
 Kosmyna et al. (2025) studied 54 participants over four months using EEG monitoring while writing essays with and without ChatGPT. The results were stark: LLM users showed measurably weaker brain connectivity, particularly in alpha and beta bands indicating cognitive under-engagement. 
 
-Most damning: **83% of AI users couldn't remember passages they had just written.** The study calls this "cognitive debt"—you're not just outsourcing the work, you're outsourcing the memory of having done it.
+Most damning: **83% of AI users couldn't remember passages they had just written.** The study calls this "cognitive debt"-you're not just outsourcing the work, you're outsourcing the memory of having done it.
 
 The neuroscience confirms what every developer knows at 3 AM: if you didn't write it, you can't debug it. Your brain literally doesn't form the neural pathways needed to understand the code.
 
@@ -104,7 +104,7 @@ Each vibe-coded feature adds to a growing debt of understanding. Like financial 
 
 But the real cost isn't technical; it's human. Every line of code you don't understand is a piece of your professional capability you've outsourced. Every system you can't explain is a part of your expertise that doesn't exist. You're not becoming a better developer; you're becoming a better prompter. And prompters, unlike developers, have no fundamental understanding to fall back on when the magic stops working.
 
-This is [The recursive absurd](/philo/the-recursive-absurd/) in its purest form: we've automated ourselves into incompetence. The boulder doesn't just learn—it teaches us to forget how to push. We're not standing on the shoulders of giants; we're standing on a black box, hoping it doesn't collapse, having forgotten that we're the ones who were supposed to understand how to build boxes in the first place.
+This is [The recursive absurd](/philo/the-recursive-absurd/) in its purest form: we've automated ourselves into incompetence. The boulder doesn't just learn-it teaches us to forget how to push. We're not standing on the shoulders of giants; we're standing on a black box, hoping it doesn't collapse, having forgotten that we're the ones who were supposed to understand how to build boxes in the first place.
 
 ## II. The Architecture of Intention
 
@@ -124,12 +124,12 @@ AI-Assisted Engineering isn't about rejecting AI. It's about refusing to become 
 - Pattern application
 - Syntax translation
 
-This isn't about percentages—it's about sovereignty. Some tasks demand 90% human oversight. Others need only 10%. The constant: humans remain in the loop, not as rubber stamps but as architects.
+This isn't about percentages-it's about sovereignty. Some tasks demand 90% human oversight. Others need only 10%. The constant: humans remain in the loop, not as rubber stamps but as architects.
 
 {~ accordion title="GitHub Copilot Study: Asset or Liability?" ~}
 Dakhel et al. (2023) empirically evaluated GitHub Copilot's impact by comparing AI-generated solutions with human programmer solutions. The key finding: while Copilot provided faster solutions, human programmers consistently produced higher-quality, more correct code.
 
-But here's the twist: when Copilot-generated code did contain bugs, they were often easier to fix than human bugs. This suggests complementary strengths—AI excels at boilerplate and pattern implementation (the "how"), while humans excel at correctness and design decisions (the "why" and "what").
+But here's the twist: when Copilot-generated code did contain bugs, they were often easier to fix than human bugs. This suggests complementary strengths-AI excels at boilerplate and pattern implementation (the "how"), while humans excel at correctness and design decisions (the "why" and "what").
 
 The study concluded Copilot can be an asset for experts who understand what they're accepting or rejecting, but a liability for novices who accept suggestions blindly. The difference? Architectural understanding.
 
@@ -138,13 +138,13 @@ Source: "GitHub Copilot AI pair programmer: Asset or Liability?" - Journal of Sy
 
 ### The Engineer's Manifesto
 
-Write your solution in markdown before code—not because it's virtuous, but because explaining forces understanding. If you can't write it, you can't own it.
+Write your solution in markdown before code-not because it's virtuous, but because explaining forces understanding. If you can't write it, you can't own it.
 
 Draw your system before prompting. Boxes and arrows aren't outdated; they're how humans think about relationships. AI thinks in token probabilities. Who do you want designing your architecture?
 
 Understand your problem before describing it. The difference between "make me a login system" and "I need JWT-based auth with 15-minute refresh tokens for a financial app" is the difference between gambling and engineering. One hopes the AI guesses right. The other ensures it builds what you actually need.
 
-Own your decisions, especially the automated ones. When AI suggests using MongoDB for your financial transactions, you need to know why that's insane. When it generates a recursive function that'll blow the stack, you need to catch it. The AI is your intern with infinite speed but zero judgment. You wouldn't let an intern deploy to production without review—why let AI?
+Own your decisions, especially the automated ones. When AI suggests using MongoDB for your financial transactions, you need to know why that's insane. When it generates a recursive function that'll blow the stack, you need to catch it. The AI is your intern with infinite speed but zero judgment. You wouldn't let an intern deploy to production without review-why let AI?
 
 Every decision you delegate without understanding is a piece of your expertise you'll never get back. The AI doesn't learn from its mistakes. You're supposed to.
 
@@ -172,7 +172,7 @@ When the inevitable breach occurs, who do you want on your team?
 {~ accordion title="Stiegler on the Proletarianization of Sensibility" ~}
 Bernard Stiegler identified three stages of proletarianization in *For a New Critique of Political Economy*: first, 19th-century workers lost their savoir-faire (know-how) to machines. Then 20th-century consumers lost their savoir-vivre (knowledge of how to live) to marketing. 
 
-Now, in the 21st century, we're experiencing the proletarianization of sensibility itself—losing our ability to pay attention, to think deeply, to form our own criteria of judgment. The vibe coder exemplifies this third stage: they've outsourced not just the work but the very capacity to understand the work.
+Now, in the 21st century, we're experiencing the proletarianization of sensibility itself-losing our ability to pay attention, to think deeply, to form our own criteria of judgment. The vibe coder exemplifies this third stage: they've outsourced not just the work but the very capacity to understand the work.
 
 Stiegler warned that this leads to "systemic stupidity"; not individual ignorance but a general incapacity where even experts become dependent on systems they cannot comprehend.
 {~~}
@@ -238,7 +238,7 @@ Each AI generation triggers human review:
 
 ## V. The Tools of Tomorrow (Your IDE is Gaslighting You)
 
-The tools we build determine the engineers we become. This isn't philosophy—it's observable reality.
+The tools we build determine the engineers we become. This isn't philosophy-it's observable reality.
 
 Consider two IDEs, both real, both shaping thousands of developers right now:
 
@@ -260,11 +260,11 @@ AI-Assisted Engineering tools, properly designed, can be therapeutic; they augme
 
 ### The 80-20 Principle (Not Everything Needs Your Precious Attention)
 
-Here's the uncomfortable truth: Most code doesn't matter. Formatters, linters, boilerplate—let the machines have it. Save your neurons for what counts:
+Here's the uncomfortable truth: Most code doesn't matter. Formatters, linters, boilerplate-let the machines have it. Save your neurons for what counts:
 
 - **100% AI**: Code formatting. Nobody's career depends on semicolon placement.
 - **80% AI**: Test generation, documentation templates, CRUD operations
-- **50-50**: Business logic—AI drafts, human validates and owns
+- **50-50**: Business logic-AI drafts, human validates and owns
 - **20% AI**: System architecture, security design, anything involving real money
 - **0% AI**: "Should we track this user behavior?" "Is this exploitation?" "Will this harm someone?"
 
@@ -286,10 +286,10 @@ System design isn't optional. It's the difference between engineering and gambli
 Every AI interaction, document why. "Used GPT-4 to generate auth flow because I designed token refresh pattern based on OAuth 2.1 draft spec." This becomes your knowledge base, your proof of understanding.
 
 ### Phase 4: Read Everything You Ship
-This is where most give up. Reading AI code is like reading someone else's dream journal—confusing, verbose, occasionally insane. Do it anyway. Understand every line or delete it.
+This is where most give up. Reading AI code is like reading someone else's dream journal-confusing, verbose, occasionally insane. Do it anyway. Understand every line or delete it.
 
 {~ accordion title="Visual Studio Magazine: Downward Pressure on Code Quality" ~}
-Independent research (2024) examining AI-generated code found "disconcerting trends for maintainability." The study revealed that AI coding assistants consistently generate suggestions for adding code but never for updating, moving, or deleting code—leading to bloat and technical debt.
+Independent research (2024) examining AI-generated code found "disconcerting trends for maintainability." The study revealed that AI coding assistants consistently generate suggestions for adding code but never for updating, moving, or deleting code-leading to bloat and technical debt.
 
 More concerning: developers using AI assistants showed decreased ability to identify code smells and architectural issues over time. The "muscle memory" of recognizing bad patterns atrophies when AI handles most of the writing.
 
@@ -303,7 +303,7 @@ You now architect solutions and use AI as an implementation accelerator, not a r
 
 But individual transformation isn't enough. The [80-20 Human in the Loop Mission](https://github.com/80-20-Human-In-The-Loop/Community/wiki/Mission) warns of the 10+ year disaster ahead: "You can only vibe code problems that have already been solved. You cannot vibe code innovation. You cannot vibe code wisdom. You cannot vibe code the future."
 
-They're tracking what we're all seeing: enterprise systems breaking with nobody knowing how to fix them, security vulnerabilities hidden in AI spaghetti, junior developers who can create but cannot debug. The choice is stark—a dark path toward brittle systems nobody understands, or a bright path where AI amplifies human intelligence without replacing it.
+They're tracking what we're all seeing: enterprise systems breaking with nobody knowing how to fix them, security vulnerabilities hidden in AI spaghetti, junior developers who can create but cannot debug. The choice is stark-a dark path toward brittle systems nobody understands, or a bright path where AI amplifies human intelligence without replacing it.
 
 Your personal migration from vibe coder to engineer is part of this larger fight. Every developer who reclaims their understanding tips the scales toward a future where technology serves human flourishing.
 
@@ -320,7 +320,7 @@ Every code review is an act of defiance: "I understand this."
 Every architecture decision is sovereignty: "I own this."
 
 {~ accordion title="Stiegler on Tertiary Retention" ~}
-In *Technics and Time, 3*, Stiegler distinguishes between primary retention (present perception), secondary retention (memory), and tertiary retention (technical memory—writing, code, databases).
+In *Technics and Time, 3*, Stiegler distinguishes between primary retention (present perception), secondary retention (memory), and tertiary retention (technical memory-writing, code, databases).
 
 The vibe coder surrenders their secondary retention to tertiary retention without understanding the translation. They cannot remember what they never understood. Their knowledge exists only in the machine's memory, inaccessible when the system fails.
 
@@ -331,11 +331,11 @@ The vibe coder ships features. The AI-assisted engineer ships understanding. Bot
 
 ### From Philosophy to Practice
 
-This isn't just theory. The [80-20 Human in the Loop](https://github.com/80-20-Human-In-The-Loop/Community/wiki) community emerged from these exact concerns—developers, teachers, and philosophers organizing around a simple principle: 80% AI automation for repetitive work, 20% human oversight for decisions that matter, 100% human responsibility for outcomes.
+This isn't just theory. The [80-20 Human in the Loop](https://github.com/80-20-Human-In-The-Loop/Community/wiki) community emerged from these exact concerns-developers, teachers, and philosophers organizing around a simple principle: 80% AI automation for repetitive work, 20% human oversight for decisions that matter, 100% human responsibility for outcomes.
 
 Their tools tell the story: Storm Checker doesn't just fix type errors, it teaches type safety. Django Mercury doesn't just measure performance, it explains why things are slow. Each tool preserves the learning circuit Stiegler warned us about losing.
 
-"We don't need more coders. We need tech-philosophers," the community states. Not a rejection of AI, but an insistence that wisdom, integrity, and compassion—values that can't be optimized—remain at the center of every system we build.
+"We don't need more coders. We need tech-philosophers," the community states. Not a rejection of AI, but an insistence that wisdom, integrity, and compassion-values that can't be optimized-remain at the center of every system we build.
 
 This is what resistance looks like: not grand declarations, but deliberate practice. A values-driven open source community forming around the idea that understanding matters more than velocity, that human agency deserves respect.
 
@@ -392,7 +392,7 @@ Then, and only then, let AI help you build it. Stop being a Vibe Coder. Become a
 
 [The recursive absurd](/philo/the-recursive-absurd/) thrives on thoughtlessness. We resist through deliberate practice, documented decisions, and the stubborn insistence on understanding what we ship.
 
-Build with AI. Build with intention. Build with the knowledge that when everything breaks—and it will—you'll know why.
+Build with AI. Build with intention. Build with the knowledge that when everything breaks-and it will-you'll know why.
 
 ---
 

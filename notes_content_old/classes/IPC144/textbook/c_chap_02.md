@@ -12,7 +12,7 @@ tags:
   - decision-making
 ---
 
-The C language facilitates a structured and disciplined approach to computer-program design. This chapter introduces C programming and presents several examples illustrating many fundamental C features. We analyze each example one statement at a time. In Chapters 3 and 4, we introduce structured programming—a methodology that will help you produce clear, easy-to-maintain programs. We then use the structured approach throughout the remainder of the text. This chapter concludes with the first of our “Secure C Programming” sections.
+The C language facilitates a structured and disciplined approach to computer-program design. This chapter introduces C programming and presents several examples illustrating many fundamental C features. We analyze each example one statement at a time. In Chapters 3 and 4, we introduce structured programming-a methodology that will help you produce clear, easy-to-maintain programs. We then use the structured approach throughout the remainder of the text. This chapter concludes with the first of our “Secure C Programming” sections.
 
 {~ label_seperator ~}
 ## A Simple C Program: Printing a Line of Text
@@ -38,7 +38,7 @@ Welcome to C!
 ```
 
 {~ accordion title="Comments" ~}
-Lines 1 and 2 begin with `//`, indicating that these two lines are comments. You insert comments to document programs and improve program readability. Comments do not cause the computer to perform actions when you execute programs—they’re simply ignored.
+Lines 1 and 2 begin with `//`, indicating that these two lines are comments. You insert comments to document programs and improve program readability. Comments do not cause the computer to perform actions when you execute programs-they’re simply ignored.
 {~~}
 
 {~ accordion title="include Preprocessor Directive" ~}
@@ -46,9 +46,9 @@ Line 3 is a C preprocessor directive. The preprocessor handles lines beginning w
 {~~}
 
 {~ accordion title="The Linker and Executables" ~}
-Standard library functions like `printf` and `scanf` are not part of the C programming language. For example, the compiler cannot find a spelling error in `printf` or `scanf`. When compiling a `printf` statement, the compiler merely provides space in the object program for a “call” to the library function. But the compiler does not know where the library functions are—the linker does.
+Standard library functions like `printf` and `scanf` are not part of the C programming language. For example, the compiler cannot find a spelling error in `printf` or `scanf`. When compiling a `printf` statement, the compiler merely provides space in the object program for a “call” to the library function. But the compiler does not know where the library functions are-the linker does.
 
-When the linker runs, it locates the library functions and inserts the proper calls to these functions in the object program. Now the object program is complete and ready to execute. The linked program is called an executable. If the function name is misspelled, the linker will spot the error—it will not be able to match the name in the program with the name of any known function in the libraries.
+When the linker runs, it locates the library functions and inserts the proper calls to these functions in the object program. Now the object program is complete and ready to execute. The linked program is called an executable. If the function name is misspelled, the linker will spot the error-it will not be able to match the name in the program with the name of any known function in the libraries.
 {~~}
 
 {~ label_seperator ~}
@@ -111,7 +111,7 @@ Line 10 displays `"Enter first integer: "`. This message is called a prompt beca
 {~ accordion title="The scanf Function and Formatted Inputs" ~}
 Line 11 uses `scanf` to obtain a value from the user. The function reads from the standard input, which is usually the keyboard.
 
-The “f” in `scanf` stands for “formatted.” This `scanf` has two arguments—`"%d"` and `&integer1`. The `"%d"` is the format control string. It indicates the type of data the user should enter. The `%d` conversion specification specifies that the data should be an integer—the `d` stands for “decimal integer”. A `%` character begins each conversion specification.
+The “f” in `scanf` stands for “formatted.” This `scanf` has two arguments-`"%d"` and `&integer1`. The `"%d"` is the format control string. It indicates the type of data the user should enter. The `%d` conversion specification specifies that the data should be an integer-the `d` stands for “decimal integer”. A `%` character begins each conversion specification.
 
 `scanf`’s second argument begins with an ampersand (`&`) followed by the variable name. The `&` is the address operator and, when combined with the variable name, tells `scanf` the location (or address) in memory of the variable `integer1`. `scanf` then stores the value the user enters at that memory location.
 {~~}
@@ -125,7 +125,7 @@ The assignment statement in line 17 calculates the total of variables `integer1`
 {~~}
 
 {~ accordion title="Binary Operators" ~}
-The `=` operator and the `+` operator are binary operators—each has two operands. The `+` operator’s operands are `integer1` and `integer2`. The `=` operator’s operands are `sum` and the value of the expression `integer1 + integer2`. Place spaces on either side of a binary operator to make the operator stand out and make the program more readable.
+The `=` operator and the `+` operator are binary operators-each has two operands. The `+` operator’s operands are `integer1` and `integer2`. The `=` operator’s operands are `sum` and the value of the expression `integer1 + integer2`. Place spaces on either side of a binary operator to make the operator stand out and make the program more readable.
 {~~}
 
 {~ card title="Calculations in printf Statement" ~}
@@ -178,7 +178,7 @@ Most C programs perform calculations using the following binary **arithmetic ope
 Note the use of various special symbols not used in algebra. The **asterisk** (`*`) indicates multiplication, and the percent sign (`%`) denotes the remainder operator (introduced below).
 
 {~ accordion title="Integer Division and the Remainder Operator" ~}
-**Integer division** yields an integer result, so `7/4` evaluates to `1`, and `17/5` evaluates to `3`. Any fractional part in integer division is discarded (i.e., truncated—not rounded).
+**Integer division** yields an integer result, so `7/4` evaluates to `1`, and `17/5` evaluates to `3`. Any fractional part in integer division is discarded (i.e., truncated-not rounded).
 
 The integer-only **remainder operator, `%`**, yields the remainder after integer division. For example, `7 % 4` yields `3`, and `17 % 5` yields `2`. The remainder operator can only be used with integer operands.
 {~~}

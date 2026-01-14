@@ -24,7 +24,7 @@ If you've built anything with Django, you already understand most of ActivityPub
 
 **Actors Are Just Users.**
 
-An Actor in ActivityPub is like your Django User model — but public and fetchable via URL.
+An Actor in ActivityPub is like your Django User model - but public and fetchable via URL.
 
 ```python
 # What you're used to:
@@ -87,11 +87,11 @@ For authentication (our goal), you don't need to implement inbox or outbox. You 
 2. Verify they control that identity (OAuth)
 3. Create a local user linked to their ActivityPub ID
 
-You only build your own inbox/outbox when you want federation — when you want activities from other servers to flow into your system, and your users' activities to flow out. That's Part 3.
+You only build your own inbox/outbox when you want federation - when you want activities from other servers to flow into your system, and your users' activities to flow out. That's Part 3.
 
 **Activities Wrap Objects**
 
-In ActivityPub, you don't just send content — you send actions. Every action is an Activity that wraps an Object.
+In ActivityPub, you don't just send content - you send actions. Every action is an Activity that wraps an Object.
 
 You don't post a Note. You post a Create activity containing a Note:
 ```json
@@ -108,20 +108,20 @@ You don't post a Note. You post a Create activity containing a Note:
 
 The common Activity types:
 
-- **Create** — new content (posts, comments)
-- **Like** — someone liked something
-- **Announce** — a boost/share
-- **Follow** — subscription request
-- **Accept / Reject** — response to a Follow
-- **Delete** — content removal
-- **Undo** — reverse a previous action (un-like, un-follow)
+- **Create** - new content (posts, comments)
+- **Like** - someone liked something
+- **Announce** - a boost/share
+- **Follow** - subscription request
+- **Accept / Reject** - response to a Follow
+- **Delete** - content removal
+- **Undo** - reverse a previous action (un-like, un-follow)
 
 The common Object types:
 
-- **Note** — short post (like a tweet/toot)
-- **Article** — long-form content
-- **Image / Video / Audio** — media
-- **Person** — an actor (yes, actors are objects too)
+- **Note** - short post (like a tweet/toot)
+- **Article** - long-form content
+- **Image / Video / Audio** - media
+- **Person** - an actor (yes, actors are objects too)
 
 Think of it like this: "**Actor** did **Activity** to **Object**." Mathew (Person) did Create (Activity) to "Hello fediverse!" (Note).
 

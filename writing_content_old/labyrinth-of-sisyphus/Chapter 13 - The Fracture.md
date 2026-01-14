@@ -216,7 +216,7 @@ The Queen was standing at the window when he entered, watching smoke rise from t
 
 She turned from the window. "Go on."
 
-"The eastern warehouse fell to Commander Asterion's forces. No casualties—Lieutenant Theron's men withdrew before engagement."
+"The eastern warehouse fell to Commander Asterion's forces. No casualties-Lieutenant Theron's men withdrew before engagement."
 
 "Theron is consolidating." Not a question.
 

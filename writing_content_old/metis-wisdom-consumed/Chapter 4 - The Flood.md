@@ -20,7 +20,7 @@ His hand moved across the map, following her logic. She'd taught him this: every
 
 "Show them they have choice," Metis said. The third time this morning. "That we offer something Chronos never did."
 
-Zeus nodded, absorbing it. Then: "Show them we give them choice." The emphasis shifted—subtle, probably unconscious.
+Zeus nodded, absorbing it. Then: "Show them we give them choice." The emphasis shifted-subtle, probably unconscious.
 
 Metis opened her mouth to correct him, then stopped. He was learning. That's what mattered.
 
@@ -34,7 +34,7 @@ An hour later, when Zeus was instructing his commanders, she saw him use the sam
 
 The sun cleared the eastern ridge. Time.
 
-"Positions," Zeus ordered. His voice carried across the camp—strong, certain, strategic. Every word she'd taught him, refined through his throat.
+"Positions," Zeus ordered. His voice carried across the camp-strong, certain, strategic. Every word she'd taught him, refined through his throat.
 
 The armies moved into formation. Metis watched from the command tent as her strategy unfolded in real-time: soldiers positioning exactly where she'd mapped, signal fires lighting in precise sequence, the flood channels opening according to her calculations.
 
@@ -52,7 +52,7 @@ The horns sounded. The battle began.
 
 The flood hit Chronos's forces like divine judgment.
 
-Zeus fought through the chaos with lightning in both hands, his brothers flanking him. Metis watched from the ridge as her strategy became violence—controlled, calculated, but violence nonetheless.
+Zeus fought through the chaos with lightning in both hands, his brothers flanking him. Metis watched from the ridge as her strategy became violence-controlled, calculated, but violence nonetheless.
 
 The retreat route stayed clear. Some of Chronos's soldiers saw it, hesitated, chose to run rather than die. Exactly as she'd predicted. Exactly as she'd planned.
 
@@ -62,19 +62,19 @@ The battle converged toward the center, where Chronos waited. The titan king sto
 
 Zeus approached alone.
 
-Metis couldn't hear their words from the ridge, but she could see: father and son, tyrant and rebel, the cycle completing itself or breaking—she couldn't tell which yet.
+Metis couldn't hear their words from the ridge, but she could see: father and son, tyrant and rebel, the cycle completing itself or breaking-she couldn't tell which yet.
 
 Chronos's mouth moved. Zeus's spine stiffened.
 
-Lightning erupted—not the controlled strikes Zeus had been using, but pure rage. The kind of power that came from trauma, not strategy.
+Lightning erupted-not the controlled strikes Zeus had been using, but pure rage. The kind of power that came from trauma, not strategy.
 
 The kind Metis hadn't taught him.
 
-Chronos staggered. The titan king who'd ruled through fear, who'd consumed his children to prevent prophecy, who'd become the thing he'd overthrown—fell to one knee.
+Chronos staggered. The titan king who'd ruled through fear, who'd consumed his children to prevent prophecy, who'd become the thing he'd overthrown-fell to one knee.
 
 Zeus stood over him. Breathing hard. Fists clenched.
 
-His hand moved—that unconscious gesture Metis had seen before. Reaching. But not reaching toward Chronos.
+His hand moved-that unconscious gesture Metis had seen before. Reaching. But not reaching toward Chronos.
 
 Reaching toward something else.
 
@@ -88,7 +88,7 @@ The titan king collapsed, and his stomach heaved in ways that defied natural law
 
 One by one, they emerged.
 
-Hestia first—eldest daughter, unchanged by time inside the dark. She came forth bent double, gasping, hands clutching at light she'd never seen. Her eyes adjusting. Her lungs learning to breathe real air instead of the crushing darkness of her father's stomach.
+Hestia first-eldest daughter, unchanged by time inside the dark. She came forth bent double, gasping, hands clutching at light she'd never seen. Her eyes adjusting. Her lungs learning to breathe real air instead of the crushing darkness of her father's stomach.
 
 Then Demeter, hands reaching for earth that wasn't there, that had never been there during her imprisonment.
 
@@ -106,7 +106,7 @@ Five gods born the day their youngest brother defeated what ate them.
 
 Prometheus watched Zeus watch them emerge.
 
-Watched the youngest brother see his siblings for the first time—siblings he'd heard about, been told about, been hidden to avenge, but never met.
+Watched the youngest brother see his siblings for the first time-siblings he'd heard about, been told about, been hidden to avenge, but never met.
 
 They gasped their first real breath.
 
@@ -120,7 +120,7 @@ With resentment.
 
 With need.
 
-Zeus's hand moved—that gesture again. But not toward them.
+Zeus's hand moved-that gesture again. But not toward them.
 
 Toward where Chronos was falling.
 
@@ -138,7 +138,7 @@ He could see the darkness inside it. Could see where Chronos had disappeared. Co
 
 Zeus's hand dropped.
 
-He turned to face them—these siblings, these strangers, these gods who'd been eaten for the crime of being born before him.
+He turned to face them-these siblings, these strangers, these gods who'd been eaten for the crime of being born before him.
 
 "You're free," Zeus said.
 
@@ -156,7 +156,7 @@ That was different.
 
 The victory celebration began before the dead were counted.
 
-Zeus was lifted onto shoulders, carried through the battlefield like a trophy. His siblings followed—dazed, overwhelmed, thrust into light and noise and victory they'd never experienced.
+Zeus was lifted onto shoulders, carried through the battlefield like a trophy. His siblings followed-dazed, overwhelmed, thrust into light and noise and victory they'd never experienced.
 
 Metis tried to follow. The crowd was too thick.
 
@@ -164,7 +164,7 @@ She pushed through soldiers shouting Zeus's name. Not "freedom." Not "victory." 
 
 "Metis!" Pallas appeared beside her, pulling her through a gap in the crowd. "This way."
 
-They emerged near the palace approach. The massive doors stood open—bronze and gold, sized for titans, not for the young gods now approaching them.
+They emerged near the palace approach. The massive doors stood open-bronze and gold, sized for titans, not for the young gods now approaching them.
 
 Zeus looked small walking through. Then the throne room opened before him.
 
@@ -212,7 +212,7 @@ Saw him not stand up.
 
 The throne room filled with victorious gods, and Metis waited her turn to approach.
 
-Zeus held court, receiving oaths of loyalty. His siblings stood to the sides—uncertain of their roles, uncertain of everything, but standing. Present. Real.
+Zeus held court, receiving oaths of loyalty. His siblings stood to the sides-uncertain of their roles, uncertain of everything, but standing. Present. Real.
 
 When Metis finally reached the front, Zeus's face lit up. "My advisor!" He gestured her forward. "My teacher!"
 
@@ -228,7 +228,7 @@ She noticed it anyway.
 
 "Tell them," Zeus said, leaning forward. "Tell them how we won."
 
-Metis explained the strategy to the assembled court. The flooding, the chokepoint, the choice of retreat. "We offered them something Chronos never did—"
+Metis explained the strategy to the assembled court. The flooding, the chokepoint, the choice of retreat. "We offered them something Chronos never did-"
 
 "Which is why they broke," Zeus interrupted, completing her thought but changing its emphasis. "Which is why we won."
 
@@ -270,13 +270,13 @@ And neither of them mentioned it.
 
 Night fell, and the celebration continued in the palace courtyards.
 
-Metis found her followers in a quiet corner—Pallas, Styx, Hecate, Kleos, the others. They looked at her with questions they didn't ask.
+Metis found her followers in a quiet corner-Pallas, Styx, Hecate, Kleos, the others. They looked at her with questions they didn't ask.
 
 "Tomorrow we start building," she told them. "A different kind of government. Council-based. Everyone has voice."
 
 "Where will the council meet?" Styx asked.
 
-"Zeus mentioned chambers. Near the throne room, probably." Metis pulled out parchment, began sketching. "We'll need to consider sightlines, acoustics, seating arrangements that prevent hierarchy—"
+"Zeus mentioned chambers. Near the throne room, probably." Metis pulled out parchment, began sketching. "We'll need to consider sightlines, acoustics, seating arrangements that prevent hierarchy-"
 
 "Metis," Pallas said quietly. "He didn't stand up when you approached."
 
@@ -286,7 +286,7 @@ Metis found her followers in a quiet corner—Pallas, Styx, Hecate, Kleos, the o
 
 Metis's charcoal paused on the parchment.
 
-"I saw it too," Hecate added. "When Poseidon came forward, Zeus stood. When Hades spoke, Zeus stepped down from the throne. But when you—"
+"I saw it too," Hecate added. "When Poseidon came forward, Zeus stood. When Hades spoke, Zeus stepped down from the throne. But when you-"
 
 "He respects me differently," Metis said. "As his teacher. His advisor."
 
@@ -296,15 +296,15 @@ The words hung in the night air.
 
 Metis resumed drawing. "I need you to remember something. All of you." Her voice stayed level, but her hands moved faster. "The refugee routes we mapped. The supply networks. The mercy protocols." She pressed notes into Pallas's hand. "Remember how we taught choice, not commands. Remember how we proved wisdom works better than terror."
 
-"Why do we need to remember?" Hecate asked. "You'll be there to—"
+"Why do we need to remember?" Hecate asked. "You'll be there to-"
 
 "Remember anyway." Metis drew faster, distributing papers, sketching routes. "Memorize the arguments. Practice the techniques. Learn to teach what I taught you."
 
 Pallas's expression shifted to understanding. To horror.
 
-"You think—"
+"You think-"
 
-"I think nothing," Metis interrupted. "I'm just planting seeds. The way good teachers do. Making sure the wisdom continues even if—" She stopped. "Even when I'm not available to give it directly."
+"I think nothing," Metis interrupted. "I'm just planting seeds. The way good teachers do. Making sure the wisdom continues even if-" She stopped. "Even when I'm not available to give it directly."
 
 They worked through the night. Metis teaching, distributing, scattering herself across her students before she consciously knew why.
 
@@ -320,9 +320,9 @@ She was showing Styx the mercy-protocol arguments when Zeus arrived. Explaining 
 
 Zeus listened. Added his own thoughts. His own experiences from the battle.
 
-"As Metis taught me—" he began.
+"As Metis taught me-" he began.
 
-Then caught himself. Revised: "As I learned today—"
+Then caught himself. Revised: "As I learned today-"
 
 The shift was subtle. Probably unconscious.
 
@@ -338,7 +338,7 @@ But also because he expected it.
 
 And the line between desire and duty was blurring.
 
-His hand on her back as they walked. Guiding. Possessive. His other hand's fingers drumming against his thigh—that rhythm she'd noticed before. Claiming. Counting. The unconscious gesture he'd made seven times just in this conversation.
+His hand on her back as they walked. Guiding. Possessive. His other hand's fingers drumming against his thigh-that rhythm she'd noticed before. Claiming. Counting. The unconscious gesture he'd made seven times just in this conversation.
 
 She didn't see it.
 
@@ -356,7 +356,7 @@ Real love. Real partnership. Maybe it would work after all?
 
 But Prometheus was counting.
 
-Seven claiming gestures in one conversation. The way Zeus reframed Metis's teachings as his own learning. How he'd guided her away from her students right when she was distributing knowledge. The position of his hand on her back—gentle, yes, but also directing.
+Seven claiming gestures in one conversation. The way Zeus reframed Metis's teachings as his own learning. How he'd guided her away from her students right when she was distributing knowledge. The position of his hand on her back-gentle, yes, but also directing.
 
 The pattern humans couldn't see yet.
 
@@ -372,7 +372,7 @@ She wouldn't believe it. Would see love, which WAS real. Would see partnership, 
 
 Wouldn't see that love doesn't stop systems from optimizing. That thrones don't share well. That power, once tasted, never stays satisfied with partnership.
 
-Zeus and Metis disappeared into the palace. Different chambers—he'd shown her to hers, then walked to his own. They hadn't noticed that separation. Tomorrow they'd build a council. Together. Equally.
+Zeus and Metis disappeared into the palace. Different chambers-he'd shown her to hers, then walked to his own. They hadn't noticed that separation. Tomorrow they'd build a council. Together. Equally.
 
 Probably.
 
@@ -392,7 +392,7 @@ The throne didn't care who sat on it.
 
 It just cared that someone did.
 
-And once they sat, once they felt that elevation, once they learned to see the world from throne height—
+And once they sat, once they felt that elevation, once they learned to see the world from throne height-
 
 The throne did the rest.
 
@@ -408,7 +408,7 @@ And to remember.
 
 Always remember.
 
-So that when the next cycle came—because it always came—someone could say: this happened before. This is how it begins. This is the step where everything changes.
+So that when the next cycle came-because it always came-someone could say: this happened before. This is how it begins. This is the step where everything changes.
 
 This is when the teacher becomes the consumed.
 

@@ -75,7 +75,7 @@ In "Politics and the English Language," Orwell provides devastating examples of 
 
 He identified specific mechanisms of corruption: dying metaphors ("toe the line"), operators that avoid simple verbs ("render inoperative" instead of "break"), pretentious diction using Greek/Latin roots to elevate simple statements, and meaningless words that have "several different meanings which cannot be reconciled."
 
-His most damning observation: "Political language—and with variations this is true of all political parties, from Conservatives to Anarchists—is designed to make lies sound truthful and murder respectable, and to give an appearance of solidity to pure wind."
+His most damning observation: "Political language-and with variations this is true of all political parties, from Conservatives to Anarchists-is designed to make lies sound truthful and murder respectable, and to give an appearance of solidity to pure wind."
 
 The translation exercise proves his point. Ecclesiastes in plain English: "I returned and saw under the sun, that the race is not to the swift" (49 words). In modern bureaucratese: "Objective consideration of contemporary phenomena compels the conclusion that success or failure in competitive activities exhibits no tendency to be commensurate with innate capacity" (38 unnecessary syllables of Latin abstraction).
 {~~}

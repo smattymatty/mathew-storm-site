@@ -83,7 +83,7 @@ admin.site.register(TeamMember)
 python manage.py createsuperuser
 ```
 
-Minimal coding needed for basic use—Django does the heavy lifting!
+Minimal coding needed for basic use-Django does the heavy lifting!
 
 ---
 ## Customizing the Admin

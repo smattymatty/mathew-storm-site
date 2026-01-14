@@ -51,7 +51,7 @@ Memory (Random Access Memory or RAM) is where your programs and their data resid
 {~~}
 
 {~ accordion title="How Data is Stored" ~}
-All data—numbers, mystical characters, powerful strings—are encoded as series of bits (0s and 1s). This binary system is fundamental because digital devices have two stable states.
+All data-numbers, mystical characters, powerful strings-are encoded as series of bits (0s and 1s). This binary system is fundamental because digital devices have two stable states.
 
 * **Encoding:** The system automatically handles encoding (e.g., character 'J' as `01001010`).
 * **Bytes:** The smallest addressable unit of memory. A single byte can store a small number or a single character. Larger data spans multiple adjacent bytes.

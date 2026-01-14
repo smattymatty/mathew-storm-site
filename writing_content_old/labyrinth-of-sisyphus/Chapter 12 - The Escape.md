@@ -76,7 +76,7 @@ Daedalus had mapped his escape from the inside out.
 
 Sisyphus rolled up the blueprint, tucked it into his tunic, and began squeezing through the gap. Stone scraped his shoulders, his ribs. He exhaled completely, made himself thin, worked through inch by inch.
 
-On the other side: darkness. A maintenance corridor, narrow, unused. Dust thick on the floor—no footprints.
+On the other side: darkness. A maintenance corridor, narrow, unused. Dust thick on the floor-no footprints.
 
 He pulled himself through, stood up, brushed stone dust from his clothes.
 
@@ -220,7 +220,7 @@ Alexios's grip on the spear tightened. Then loosened. His eyes were wide but not
 
 Sisyphus spoke quietly. "If anyone asks, I snuck past you."
 
-Alexios glanced at Nikias—still sleeping somehow, or pretending to be.
+Alexios glanced at Nikias-still sleeping somehow, or pretending to be.
 
 Looked back at Sisyphus.
 
@@ -242,7 +242,7 @@ He pushed open the door.
 
 The workshop was lit by a single lamp, oil burning low.
 
-Daedalus sat hunched over the worktable, surrounded by blueprints. Not labyrinth plans—something else. Drawings of the same cell from different angles. Calculations in the margins. Stress points marked and remarked.
+Daedalus sat hunched over the worktable, surrounded by blueprints. Not labyrinth plans-something else. Drawings of the same cell from different angles. Calculations in the margins. Stress points marked and remarked.
 
 He was so focused he didn't hear the door.
 
@@ -280,7 +280,7 @@ Daedalus pulled over the relevant blueprint. They leaned over it together, shoul
 
 "Because the Minotaur's passages underneath are redistributing the weight."
 
-"Exactly. If we reinforce here—" His stylus traced a line. "—we might buy another week."
+"Exactly. If we reinforce here-" His stylus traced a line. "-we might buy another week."
 
 "Only a week?"
 

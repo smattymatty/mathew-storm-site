@@ -29,7 +29,7 @@ Zeus meant: king and valued advisor.
 
 Prometheus saw the gap between.
 
-After the meeting broke, Zeus stayed behind. Studying Metis's map like it held secrets. His hand moved again—that gesture. Reaching toward something that wasn't there yet.
+After the meeting broke, Zeus stayed behind. Studying Metis's map like it held secrets. His hand moved again-that gesture. Reaching toward something that wasn't there yet.
 
 Prometheus remembered Chronos at that age. Same hunger. Same certainty he'd be different.
 
@@ -45,7 +45,7 @@ Zeus studied the map. "She sees patterns. Consequences. Things we miss."
 
 "We build something better. Together."
 
-There—that pause before 'together.' Microsecond hesitation.
+There-that pause before 'together.' Microsecond hesitation.
 
 "Will you share the throne?"
 

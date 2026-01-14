@@ -9,17 +9,17 @@ tags:
     - c-language
 ---
 
-Welcome to C—one of the world’s most senior computer programming languages and, according to the Tiobe Index, the world’s most popular. You’re probably familiar with many of the powerful tasks computers perform. In this textbook, you’ll get intensive, hands-on experience writing C instructions that command computers to perform those and other tasks. Software (that is, the C instructions you write, which are also called code) controls hardware (that is, computers and related devices).
+Welcome to C-one of the world’s most senior computer programming languages and, according to the Tiobe Index, the world’s most popular. You’re probably familiar with many of the powerful tasks computers perform. In this textbook, you’ll get intensive, hands-on experience writing C instructions that command computers to perform those and other tasks. Software (that is, the C instructions you write, which are also called code) controls hardware (that is, computers and related devices).
 
-C is widely used in industry for a wide range of tasks.2 Today’s popular desktop operating systems—Windows3 , macOS4 and Linux 5—are partially written in C. Many popular applications are partially written in C, including popular web browsers (e.g., Google Chrome 6 and Mozilla Firefox 7), database management systems (e.g., Microsoft SQL Server 8 , Oracle9 and MySQL10 ) and more.
+C is widely used in industry for a wide range of tasks.2 Today’s popular desktop operating systems-Windows3 , macOS4 and Linux 5-are partially written in C. Many popular applications are partially written in C, including popular web browsers (e.g., Google Chrome 6 and Mozilla Firefox 7), database management systems (e.g., Microsoft SQL Server 8 , Oracle9 and MySQL10 ) and more.
 
 {~ label_seperator ~}
 ## Hardware and Software
 {~~}
 
-Computers can perform calculations and make logical decisions phenomenally faster than human beings can. Today’s personal computers and smartphones can perform billions of calculations in one second—more than a human can perform in a lifetime.
+Computers can perform calculations and make logical decisions phenomenally faster than human beings can. Today’s personal computers and smartphones can perform billions of calculations in one second-more than a human can perform in a lifetime.
 
-Supercomputers already perform thousands of trillions (quadrillions) of instructions per second! As of December 2020, Fujitsu’s Fugaku is the world’s fastest supercomputer—it can perform 442 quadrillion calculations per second (442 petaflops)! To put that in perspective, this supercomputer can perform in one second almost 58 million calculations for every person on the planet! And supercomputing upper limits are growing quickly.
+Supercomputers already perform thousands of trillions (quadrillions) of instructions per second! As of December 2020, Fujitsu’s Fugaku is the world’s fastest supercomputer-it can perform 442 quadrillion calculations per second (442 petaflops)! To put that in perspective, this supercomputer can perform in one second almost 58 million calculations for every person on the planet! And supercomputing upper limits are growing quickly.
 
 Computers process data under the control of sequences of instructions called computer programs (or simply programs). These programs guide the computer through ordered actions specified by people called computer programmers.
 
@@ -39,7 +39,7 @@ This “shipping” section takes information the computer has processed and pla
 
 ### Memory Unit
 
-This rapid-access, relatively low-capacity “warehouse” section retains information entered through the input unit, making it immediately available for processing when needed. The memory unit also retains processed information until it can be placed on output devices by the output unit. Information in the memory unit is volatile—it’s typically lost when the computer’s power is turned off. The memory unit is often called either memory, primary memory or RAM (Random Access Memory). Main memories on desktop and notebook computers contain as much as 128 GB of RAM, though 8 to 16 GB is most common. GB stands for gigabytes; a gigabyte is approximately one billion bytes. A byte is eight bits. A bit (short for “binary digit”) is either a 0 or a 1.
+This rapid-access, relatively low-capacity “warehouse” section retains information entered through the input unit, making it immediately available for processing when needed. The memory unit also retains processed information until it can be placed on output devices by the output unit. Information in the memory unit is volatile-it’s typically lost when the computer’s power is turned off. The memory unit is often called either memory, primary memory or RAM (Random Access Memory). Main memories on desktop and notebook computers contain as much as 128 GB of RAM, though 8 to 16 GB is most common. GB stands for gigabytes; a gigabyte is approximately one billion bytes. A byte is eight bits. A bit (short for “binary digit”) is either a 0 or a 1.
 
 ### Arithmetic and Logic Unit (ALU)
 
@@ -53,7 +53,7 @@ Most computers today have multicore processors that economically implement multi
 
 ### Secondary Storage Unit
 
-This is the long-term, high-capacity “warehousing” section. Programs and data not actively being used by the other units are placed on secondary storage devices until they’re again needed, possibly hours, days, months or even years later. Information on secondary storage devices is persistent—it’s preserved even when the computer’s power is turned off. Secondary storage information takes much longer to access than information in primary memory, but its cost per byte is much less. Examples of sec- ondary storage devices include solid-state drives (SSDs), USB flash drives, hard drives and read/write Blu-ray drives. Many current drives hold terabytes (TB) of data. A tera- byte is approximately one trillion bytes. Typical desktop and notebook-computer hard drives hold up to 4 TB, and some recent desktop-computer hard drives hold up to 20 TB.16 The largest commercial SSD holds up to 100 TB (and costs $40,000).
+This is the long-term, high-capacity “warehousing” section. Programs and data not actively being used by the other units are placed on secondary storage devices until they’re again needed, possibly hours, days, months or even years later. Information on secondary storage devices is persistent-it’s preserved even when the computer’s power is turned off. Secondary storage information takes much longer to access than information in primary memory, but its cost per byte is much less. Examples of sec- ondary storage devices include solid-state drives (SSDs), USB flash drives, hard drives and read/write Blu-ray drives. Many current drives hold terabytes (TB) of data. A tera- byte is approximately one trillion bytes. Typical desktop and notebook-computer hard drives hold up to 4 TB, and some recent desktop-computer hard drives hold up to 20 TB.16 The largest commercial SSD holds up to 100 TB (and costs $40,000).
 
 {~ label_seperator ~}
 ## Data  Hierarchy
@@ -63,7 +63,7 @@ Data items processed by computers form a data hierarchy that becomes larger and 
 
 ### Bits
 
-A bit is short for “binary digit”—a digit that can assume one of two values—and is a computer’s smallest data item. It can have the value 0 or 1. Remarkably, computers’ impressive functions involve only the simplest manipulations of 0s and 1s—examin- ing a bit’s value, setting a bit’s value and reversing a bit’s value (from 1 to 0 or from 0 to 1). Bits form the basis of the binary number system, which we discuss in our “Number Systems” appendix.
+A bit is short for “binary digit”-a digit that can assume one of two values-and is a computer’s smallest data item. It can have the value 0 or 1. Remarkably, computers’ impressive functions involve only the simplest manipulations of 0s and 1s-examin- ing a bit’s value, setting a bit’s value and reversing a bit’s value (from 1 to 0 or from 0 to 1). Bits form the basis of the binary number system, which we discuss in our “Number Systems” appendix.
 
 ### Characters
 
@@ -88,7 +88,7 @@ Thus, a record is a group of related fields. All the fields listed above belong 
 
 ### File
 
-A file is a group of related records. More generally, a file contains arbitrary data in arbitrary formats. Some operating systems view a file simply as a sequence of bytes— any organization of the bytes in a file, such as organizing the data into records, is a view created by the application programmer. You’ll see how to do that in Chapter 11, File Processing. It’s not unusual for an organization to have many files, some containing billions, or even trillions, of characters of information. As we’ll see below, with big data, far larger file sizes are becoming increasingly common.
+A file is a group of related records. More generally, a file contains arbitrary data in arbitrary formats. Some operating systems view a file simply as a sequence of bytes- any organization of the bytes in a file, such as organizing the data into records, is a view created by the application programmer. You’ll see how to do that in Chapter 11, File Processing. It’s not unusual for an organization to have many files, some containing billions, or even trillions, of characters of information. As we’ll see below, with big data, far larger file sizes are becoming increasingly common.
 
 ### Databases
 
@@ -102,7 +102,7 @@ Programmers write instructions in various programming languages, some directly u
 
 ### Machine Languages
 
-Any computer can directly understand only its own machine language, defined by its hardware design. Machine languages generally consist of strings of numbers (ultimately reduced to 1s and 0s) that instruct computers to perform their most elementary operations one at a time. Machine languages are machine-dependent—a particular machine language can be used on only one type of computer. Such languages are cumbersome for humans. For example, here’s a section of an early machine-language payroll program that adds overtime pay to base pay and stores the result in gross pay:
+Any computer can directly understand only its own machine language, defined by its hardware design. Machine languages generally consist of strings of numbers (ultimately reduced to 1s and 0s) that instruct computers to perform their most elementary operations one at a time. Machine languages are machine-dependent-a particular machine language can be used on only one type of computer. Such languages are cumbersome for humans. For example, here’s a section of an early machine-language payroll program that adds overtime pay to base pay and stores the result in gross pay:
 
 ```
 +1300042774 
@@ -142,15 +142,15 @@ Compiling a large high-level language program into machine language can take con
 ## Operating Systems
 {~~}
 
-Operating systems are software that make using computers more convenient for users, software developers and system administrators. They provide services that allow applications to execute safely, efficiently and concurrently with one another. The software that contains the core operating-system components is called the kernel. Linux, Windows and macOS are popular desktop computer operating systems—you can use any of these with this book. Each is partially written in C. The most popular mobile operating systems used in smartphones and tablets are Google’s Android and Apple’s iOS.
+Operating systems are software that make using computers more convenient for users, software developers and system administrators. They provide services that allow applications to execute safely, efficiently and concurrently with one another. The software that contains the core operating-system components is called the kernel. Linux, Windows and macOS are popular desktop computer operating systems-you can use any of these with this book. Each is partially written in C. The most popular mobile operating systems used in smartphones and tablets are Google’s Android and Apple’s iOS.
 
 ### Windows - A Proprietary Operating System
 
-In the mid-1980s, Microsoft developed the Windows operating system, consisting of a graphical user interface built on top of DOS (Disk Operating System)—an enormously popular personal-computer operating system that users interacted with by typing commands. Windows 10 is Microsoft’s latest operating system—it includes the Cortana personal assistant for voice interactions. Windows is a proprietary operating system—it’s controlled by Microsoft exclusively. It is by far the world’s most widely used desktop operating system.
+In the mid-1980s, Microsoft developed the Windows operating system, consisting of a graphical user interface built on top of DOS (Disk Operating System)-an enormously popular personal-computer operating system that users interacted with by typing commands. Windows 10 is Microsoft’s latest operating system-it includes the Cortana personal assistant for voice interactions. Windows is a proprietary operating system-it’s controlled by Microsoft exclusively. It is by far the world’s most widely used desktop operating system.
 
-### Linux—An Open-Source Operating System
+### Linux-An Open-Source Operating System
 
-The Linux operating system is among the greatest successes of the open-source movement. Proprietary software for sale or lease dominated software’s early years. With open source, individuals and companies contribute to developing, maintaining and evolving the software. Anyone can then use that software for their own purposes—normally at no charge, but subject to a variety of (typically generous) licensing requirements. Open-source code is often scrutinised by a much larger audience than proprietary software, so errors can get removed faster, making the software more robust. Open source increases productivity and has contributed to an explosion of innovation.
+The Linux operating system is among the greatest successes of the open-source movement. Proprietary software for sale or lease dominated software’s early years. With open source, individuals and companies contribute to developing, maintaining and evolving the software. Anyone can then use that software for their own purposes-normally at no charge, but subject to a variety of (typically generous) licensing requirements. Open-source code is often scrutinised by a much larger audience than proprietary software, so errors can get removed faster, making the software more robust. Open source increases productivity and has contributed to an explosion of innovation.
 
 The Linux kernel is the core of the most popular open-source, freely distributed, full-featured operating system. It’s developed by a loosely organized team of volunteers and is popular in servers, personal computers and embedded systems (such as the computer systems at the heart of smartphones, smart TVs and automobile systems). Unlike Microsoft’s Windows and Apple’s macOS source code, the Linux source code is available to the public for examination and modification and is free to download and install. As a result, Linux users benefit from a huge community of developers actively debugging and improving the kernel, and from the ability to customise the operating system to meet specific needs.
 
@@ -160,7 +160,7 @@ Apple, founded in 1976 by Steve Jobs and Steve Wozniak, quickly became a leader 
 
 ### Google's Android
 
-Android—the most widely used mobile and smartphone operating system—is based on the Linux kernel, the Java programming language and, now, the open-source Kotlin programming language. Android is open source and free. Though you can’t develop Android apps purely in C, you can incorporate C code into Android apps. According to idc.com, 84.8% of smartphones shipped in 2020 use Android, compared to 15.2% for Apple. The Android operating system is used in numerous smartphones, e-reader devices, tablets, TVs, in-store touch-screen kiosks, cars, robots, multimedia players and more.
+Android-the most widely used mobile and smartphone operating system-is based on the Linux kernel, the Java programming language and, now, the open-source Kotlin programming language. Android is open source and free. Though you can’t develop Android apps purely in C, you can incorporate C code into Android apps. According to idc.com, 84.8% of smartphones shipped in 2020 use Android, compared to 15.2% for Apple. The Android operating system is used in numerous smartphones, e-reader devices, tablets, TVs, in-store touch-screen kiosks, cars, robots, multimedia players and more.
 
 {~ label_seperator ~}
 ## The C Programming Language
@@ -168,7 +168,7 @@ Android—the most widely used mobile and smartphone operating system—is based
 
 C evolved from two earlier languages, BCPL and B. BCPL was developed in 1967 by Martin Richards as a language for writing operating systems and compilers. Ken Thompson modeled many features in his B language after their counterparts in BCPL, and in 1970 he used B to create early versions of the UNIX operating system at Bell Laboratories.
 
-The C language was evolved from B by Dennis Ritchie at Bell Laboratories and was originally implemented in 1972. C initially became widely known as the development language of the UNIX operating system. Many of today’s leading operating systems are written in C and/or C++. C is mostly hardware-independent—with careful design, it’s possible to write C programs that are portable to most computers.
+The C language was evolved from B by Dennis Ritchie at Bell Laboratories and was originally implemented in 1972. C initially became widely known as the development language of the UNIX operating system. Many of today’s leading operating systems are written in C and/or C++. C is mostly hardware-independent-with careful design, it’s possible to write C programs that are portable to most computers.
 
 ### Built for Performance
 
@@ -220,7 +220,7 @@ provide curated lists of popular C libraries for a wide range of application are
 ## Typical C Program-Development Environment
 {~~}
 
-C systems generally consist of several parts: a program-development environment, the language and the C standard library. C programs typically go through six phases to be executed—edit, preprocess, compile, link, load and execute. Although C How to Program, 9/e, is a generic C text- book (written independently of any particular operating system), we concentrate in this section on a typical Linux-based C system
+C systems generally consist of several parts: a program-development environment, the language and the C standard library. C programs typically go through six phases to be executed-edit, preprocess, compile, link, load and execute. Although C How to Program, 9/e, is a generic C text- book (written independently of any particular operating system), we concentrate in this section on a typical Linux-based C system
 
 ### Phase 1: Creating a Program
 
@@ -266,7 +266,7 @@ Most C programs input and/or output data. Certain C functions take their input f
 ## Internet, World Wide Web, the Cloud, and IoT
 {~~}
 
-In the late 1960s, ARPA—the Advanced Research Projects Agency of the United States Department of Defense—rolled out plans for networking the main computer systems of approximately a dozen ARPA-funded universities and research institutions.
+In the late 1960s, ARPA-the Advanced Research Projects Agency of the United States Department of Defense-rolled out plans for networking the main computer systems of approximately a dozen ARPA-funded universities and research institutions.
 
 he computers were to be connected with communications lines operating at speeds on the order of 50,000 bits per second, a stunning rate at a time when most people (of the few who even had networking access) were connecting over telephone lines to computers at a rate of 110 bits per second. Academic research was about to take a giant leap forward. ARPA proceeded to implement what quickly became known as the ARPANET, the precursor to today’s Internet.
 
@@ -276,19 +276,19 @@ The protocol (set of rules) for communicating over the ARPANET became known as t
 
 ### The Internet: A Network of Networks
 
-In parallel with the early evolution of the Internet, organizations worldwide were implementing their own networks for intra-organization (that is, within an organization) and inter-organization (that is, between organizations) communication. A huge variety of networking hardware and software appeared. One challenge was to enable these different networks to communicate with each other. ARPA accomplished this by developing the Internet Protocol (IP), which created a true “network of networks,” the Internet’s current architecture. The combined set of protocols is now called TCP/IP. Each Internet-connected device has an IP address—a unique numerical identifier used by devices communicating via TCP/IP to locate one another on the Internet.
+In parallel with the early evolution of the Internet, organizations worldwide were implementing their own networks for intra-organization (that is, within an organization) and inter-organization (that is, between organizations) communication. A huge variety of networking hardware and software appeared. One challenge was to enable these different networks to communicate with each other. ARPA accomplished this by developing the Internet Protocol (IP), which created a true “network of networks,” the Internet’s current architecture. The combined set of protocols is now called TCP/IP. Each Internet-connected device has an IP address-a unique numerical identifier used by devices communicating via TCP/IP to locate one another on the Internet.
 
 ### The World Wide Web: Making the Internet User-Friendly
 
 The World Wide Web (simply called “the web”) is a collection of hardware and software associated with the Internet that allows computer users to locate and view documents (with various combinations of text, graphics, animations, audios and videos) on almost any subject.
 
-In 1989, Tim Berners-Lee of CERN (the European Organization for Nuclear Research) began developing HyperText Markup Language (HTML)—the technology for sharing information via “hyperlinked” text documents. He also wrote communication protocols such as HyperText Transfer Protocol (HTTP) to form the backbone of his new hypertext information system, which he referred to as the World Wide Web.
+In 1989, Tim Berners-Lee of CERN (the European Organization for Nuclear Research) began developing HyperText Markup Language (HTML)-the technology for sharing information via “hyperlinked” text documents. He also wrote communication protocols such as HyperText Transfer Protocol (HTTP) to form the backbone of his new hypertext information system, which he referred to as the World Wide Web.
 
 In 1994, Berners-Lee founded the World Wide Web Consortium (W3C, https://www.w3.org), devoted to developing web technologies. One of the W3C’s primary goals is to make the web universally accessible to everyone regardless of dis- abilities, language or culture.
 
 ### The Cloud
 
-More and more computing today is done “in the cloud”—that is, using software and data distributed across the Internet worldwide, rather than locally on your desktop, notebook computer or mobile device. Cloud computing allows you to increase or decrease computing resources to meet your needs at any given time, which is more cost-effective than purchasing hardware to provide enough storage and processing power to meet occasional peak demands. Cloud computing also saves money by shifting to the service provider the burden of managing these apps (such as installing and upgrading the software, security, backups and disaster recovery).
+More and more computing today is done “in the cloud”-that is, using software and data distributed across the Internet worldwide, rather than locally on your desktop, notebook computer or mobile device. Cloud computing allows you to increase or decrease computing resources to meet your needs at any given time, which is more cost-effective than purchasing hardware to provide enough storage and processing power to meet occasional peak demands. Cloud computing also saves money by shifting to the service provider the burden of managing these apps (such as installing and upgrading the software, security, backups and disaster recovery).
 
 The apps you use daily are heavily dependent on various cloud-based services. These services use massive clusters of computing resources (computers, processors, memory, disk drives, etc.) and databases that communicate over the Internet with each other and the apps you use. A service that provides access to itself over the Internet is known as a web service.
 
@@ -302,7 +302,7 @@ The applications-development methodology of mashups enables you to rapidly devel
 
 ### The Internet of Things
 
-The Internet is no longer just a network of computers—it’s an Internet of Things (IoT). A thing is any object with an IP address and the ability to send, and in some cases receive, data automatically over the Internet. Such things include:
+The Internet is no longer just a network of computers-it’s an Internet of Things (IoT). A thing is any object with an IP address and the ability to send, and in some cases receive, data automatically over the Internet. Such things include:
 - A car with a transponder for paying tolls,
 - monitors for parking-space availability in a garage,
 - water-quality monitors,
@@ -320,7 +320,7 @@ As you learn about and work in software development, you’ll frequently encount
 
 - **Refactoring**: Reworking programs to make them clearer and easier to maintain while preserving their correctness and functionality. Many IDEs contain built-in refactoring tools to do major portions of the reworking automatically
 - **Design patterns**: Proven architectures for constructing flexible and maintainable object-oriented software. The field of design patterns tries to enumerate those recurring patterns, encouraging software designers to reuse them to develop better-quality software using less time, money and effort.
-- **Software Development Kits (SDKs)**—The tools and documentation that developers use to program applications.
+- **Software Development Kits (SDKs)**-The tools and documentation that developers use to program applications.
 
 {~ label_seperator ~}
 ## How Big is Big Data?
@@ -332,9 +332,9 @@ For computer scientists and data scientists, data is now as crucial as writing p
 
 One megabyte is about one million (actually 2 20) bytes. Many of the files we use daily require one or more MBs of storage. Some examples include: 
 
--  MP3 audio files—High-quality MP3s range from 1 to 2.4 MB per minute. 50 
-- Photos—JPEG format photos taken on a digital camera can require about 8 to 10 MB per photo. 
-- Video—Smartphone cameras can record video at various resolutions. Each minute of video can require many megabytes of storage. For example, on one of our iPhones, the Camera settings app reports that 1080p video at 30 frames-per-second (FPS) requires 130 MB/minute and 4K video at 30 FPS requires 350 MB/minute.
+-  MP3 audio files-High-quality MP3s range from 1 to 2.4 MB per minute. 50 
+- Photos-JPEG format photos taken on a digital camera can require about 8 to 10 MB per photo. 
+- Video-Smartphone cameras can record video at various resolutions. Each minute of video can require many megabytes of storage. For example, on one of our iPhones, the Camera settings app reports that 1080p video at 30 frames-per-second (FPS) requires 130 MB/minute and 4K video at 30 FPS requires 350 MB/minute.
 
 ### Gigabytes (GB)
 
@@ -358,7 +358,7 @@ Nimbus Data now has the largest solid-state drive (SSD) at 100 TB, which can sto
 
 ### Petabytes, Exabytes and Zettabytes
 
-There are over four billion people online, creating about 2.5 quintillion bytes of data each day55 —that’s 2500 petabytes (each petabyte is about 1000 terabytes) or 2.5 exa- bytes (each exabyte is about 1000 petabytes). A March 2016 AnalyticsWeek article stated that by 2021 there would be over 50 billion devices connected to the Internet (most of them through the Internet of Things; Section 1.11.4) and, by 2020, there would be 1.7 megabytes of new data produced per second for every person on the planet.56 At today’s numbers (approximately 7.7 billion people57 ), that’s about:
+There are over four billion people online, creating about 2.5 quintillion bytes of data each day55 -that’s 2500 petabytes (each petabyte is about 1000 terabytes) or 2.5 exa- bytes (each exabyte is about 1000 petabytes). A March 2016 AnalyticsWeek article stated that by 2021 there would be over 50 billion devices connected to the Internet (most of them through the Internet of Things; Section 1.11.4) and, by 2020, there would be 1.7 megabytes of new data produced per second for every person on the planet.56 At today’s numbers (approximately 7.7 billion people57 ), that’s about:
 
 - 13 petabytes of new data per second,
 - 780 petabytes per minute,
@@ -369,18 +369,18 @@ That’s the equivalent of over 5.5 million hours (over 600 years) of 4K video e
 
 ### Big-Data Analytics
 
-Data analytics is a mature and well-developed discipline. The term “data analysis” was coined in 1962, though people have been analyzing data using statistics for thousands of years, going back to the ancient Egyptians. Big-data analytics is a more recent phenomenon—the term “big data” was coined around 1987.
+Data analytics is a mature and well-developed discipline. The term “data analysis” was coined in 1962, though people have been analyzing data using statistics for thousands of years, going back to the ancient Egyptians. Big-data analytics is a more recent phenomenon-the term “big data” was coined around 1987.
 
 Consider for of the V's of big data:
 
 1. **Volume** - the data the world is producing is growing exponentially
 2. **Velocity** - the speed at which data is being produced, the speed at which it moves through organizations and the speed at which data changes are growing quickly.
-3. **Variety** - data used to be alphanumeric (that is, consisting of alphabetic char- acters, digits, punctuation and some special characters)—today, it also in- cludes images, audios, videos and data from an exploding number of Internet of Things sensors in our homes, businesses, vehicles, cities and more.
-4. **Veracity** - the validity of the data—is it complete and accurate? Can we trust that data when making crucial decisions? Is it real?
+3. **Variety** - data used to be alphanumeric (that is, consisting of alphabetic char- acters, digits, punctuation and some special characters)-today, it also in- cludes images, audios, videos and data from an exploding number of Internet of Things sensors in our homes, businesses, vehicles, cities and more.
+4. **Veracity** - the validity of the data-is it complete and accurate? Can we trust that data when making crucial decisions? Is it real?
 
-Most data is now being created digitally in a variety of types, in extraordinary volumes and moving at astonishing velocities. Moore’s Law and related observations have enabled us to store data economically and process and move it faster—and all at rates growing exponentially over time. Digital data storage has become so vast in capacity, and so cheap and small, that we can now conveniently and economically retain all the digital data we’re creating. That’s big data.
+Most data is now being created digitally in a variety of types, in extraordinary volumes and moving at astonishing velocities. Moore’s Law and related observations have enabled us to store data economically and process and move it faster-and all at rates growing exponentially over time. Digital data storage has become so vast in capacity, and so cheap and small, that we can now conveniently and economically retain all the digital data we’re creating. That’s big data.
 
-The following Richard W. Hamming quote—although from 1962—sets the tone for the rest of this book:
+The following Richard W. Hamming quote-although from 1962-sets the tone for the rest of this book:
 
 > "The Purpose of computing is insight, not numbers."
 
@@ -402,7 +402,7 @@ The data-science field is growing rapidly because it’s producing significant r
 ## Case Study - A Big Data Mobile Application
 {~~}
 
-In your career, you’ll work with many programming languages and software technol- ogies. With its 130 million monthly active users, Google’s Waze GPS navigation app is one of the most widely used big-data apps. Early GPS navigation devices and apps relied on static maps and GPS coordinates to determine the best route to your destination. They could not adjust dynamically to changing traffic situations. Waze processes massive amounts of crowdsourced data—that is, the data that’s continuously supplied by their users and their users’ devices worldwide.
+In your career, you’ll work with many programming languages and software technol- ogies. With its 130 million monthly active users, Google’s Waze GPS navigation app is one of the most widely used big-data apps. Early GPS navigation devices and apps relied on static maps and GPS coordinates to determine the best route to your destination. They could not adjust dynamically to changing traffic situations. Waze processes massive amounts of crowdsourced data-that is, the data that’s continuously supplied by their users and their users’ devices worldwide.
 
 They analyze this data as it arrives to determine the best route to get you safely to your destination in the least amount of time. To accomplish this, Waze relies on your smartphone’s Internet connection. The app automatically sends location updates to their servers (assuming you allow it to). They use that data to dynamically re-route you based on current traffic conditions and to tune their maps. Users report other information, such as roadblocks, construction, obstacles, vehicles in breakdown lanes, police locations, gas prices and more. Waze then alerts other drivers in those locations.
 
@@ -420,9 +420,9 @@ Waze uses many technologies to provide its services. We’re not privy to how Wa
 ## AI - at the Intersection of Computer Science and Data Science
 {~~}
 
-When a baby first opens its eyes, does it “see” its parent’s faces? Does it understand any notion of what a face is—or even what a simple shape is? Babies must “learn” the world around them. That’s what artificial intelligence (AI) is doing today. It’s looking at massive amounts of data and learning from it. AI is being used to play games, implement a wide range of computer-vision applications, enable self-driving cars, enable robots to learn to perform new tasks, diagnose medical conditions, translate speech to other languages in near real-time, create chatbots that can respond to arbitrary questions using massive databases of knowledge, and much more. 
+When a baby first opens its eyes, does it “see” its parent’s faces? Does it understand any notion of what a face is-or even what a simple shape is? Babies must “learn” the world around them. That’s what artificial intelligence (AI) is doing today. It’s looking at massive amounts of data and learning from it. AI is being used to play games, implement a wide range of computer-vision applications, enable self-driving cars, enable robots to learn to perform new tasks, diagnose medical conditions, translate speech to other languages in near real-time, create chatbots that can respond to arbitrary questions using massive databases of knowledge, and much more. 
 
-Who’d have guessed just a few years ago that artificially intelligent self-driving cars would be allowed on our roads—or even become common? Yet, this is now a highly competitive area. The ultimate goal of all this learning is artificial general intelligence—an AI that can perform intelligence tasks as well as humans can
+Who’d have guessed just a few years ago that artificially intelligent self-driving cars would be allowed on our roads-or even become common? Yet, this is now a highly competitive area. The ultimate goal of all this learning is artificial general intelligence-an AI that can perform intelligence tasks as well as humans can
 
 ### Articial-Intelligence Milestones
 
@@ -430,9 +430,9 @@ Several artificial-intelligence milestones, in particular, captured people’s a
 
 - In a 1997 match between IBM’s DeepBlue computer system and chess Grandmaster Gary Kasparov, DeepBlue became the first computer to beat a reigning world chess champion under tournament conditions. IBM loaded DeepBlue with hundreds of thousands of grandmaster chess games. DeepBlue was capable of using brute force to evaluate up to 200 million moves per second! This is big data at work. IBM received the Carnegie Mellon University Fredkin Prize, which in 1980 offered $100,000 to the creators of the first computer to beat a world chess champion.
 - In 2011, IBM’s Watson beat the two best human Jeopardy! players in a $1 million match. Watson simultaneously used hundreds of language-analysis techniques to locate correct answers in 200 million pages of content (including all of Wikipedia) requiring four terabytes of storage.95,96 Watson was trained with machine-learning and reinforcement-learning techniques. Powerful libraries enable you to perform machine-learning and reinforcement-learning in various programming languages.
-- Go—a board game created in China thousands of years ago 98 —is widely con- sidered one of the most complex games ever invented with 10^170 possible board configurations. 99 To give you a sense of how large a number that is, it’s believed that there are (only) between 10^78 and 10^82 atoms in the known universe!In 2015, AlphaGo—created by Google’s DeepMind group— used deep learning with two neural networks to beat the European Go champion Fan Hui. Go is considered to be a far more complex game than chess. Powerful libraries enable you to use neural networks for deep learning.
-- More recently, Google generalized its AlphaGo AI to create AlphaZero—a game-playing AI that teaches itself to play other games. In December 2017, AlphaZero learned the rules of and taught itself to play chess in less than four hours using reinforcement learning. It then beat the world champion chess program, Stockfish 8, in a 100-game match—winning or drawing every game. After training itself in Go for just eight hours, AlphaZero was able to play Go vs. its AlphaGo predecessor, winning 60 of 100 games.
+- Go-a board game created in China thousands of years ago 98 -is widely con- sidered one of the most complex games ever invented with 10^170 possible board configurations. 99 To give you a sense of how large a number that is, it’s believed that there are (only) between 10^78 and 10^82 atoms in the known universe!In 2015, AlphaGo-created by Google’s DeepMind group- used deep learning with two neural networks to beat the European Go champion Fan Hui. Go is considered to be a far more complex game than chess. Powerful libraries enable you to use neural networks for deep learning.
+- More recently, Google generalized its AlphaGo AI to create AlphaZero-a game-playing AI that teaches itself to play other games. In December 2017, AlphaZero learned the rules of and taught itself to play chess in less than four hours using reinforcement learning. It then beat the world champion chess program, Stockfish 8, in a 100-game match-winning or drawing every game. After training itself in Go for just eight hours, AlphaZero was able to play Go vs. its AlphaGo predecessor, winning 60 of 100 games.
 
 ### AI: A Field with Problems but No Solutions
 
-For many decades, AI has been a field with problems and no solutions. That’s because once a particular problem is solved, people say, “Well, that’s not intelligence; it’s just a computer program that tells the computer exactly what to do.” However, with machine learning, deep learning and reinforcement learning, we’re not pre-programming solutions to specific problems. Instead, we’re letting our computers solve problems by learning from data—and, typically, lots of it. Many of the most interesting and challenging problems are being pursued with deep learning. Google alone has thousands of deep-learning projects underway.
+For many decades, AI has been a field with problems and no solutions. That’s because once a particular problem is solved, people say, “Well, that’s not intelligence; it’s just a computer program that tells the computer exactly what to do.” However, with machine learning, deep learning and reinforcement learning, we’re not pre-programming solutions to specific problems. Instead, we’re letting our computers solve problems by learning from data-and, typically, lots of it. Many of the most interesting and challenging problems are being pursued with deep learning. Google alone has thousands of deep-learning projects underway.

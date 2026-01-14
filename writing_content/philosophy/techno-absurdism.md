@@ -43,7 +43,7 @@ Technique: The pursuit of efficiency as the supreme value, applied everywhere, s
 {~~}
 
 {~ accordion title="Simulation" ~}
-Baudrillard's "simulation" describes signs that no longer refer to reality — they refer only to other signs. The map doesn't represent the territory; it generates the territory.
+Baudrillard's "simulation" describes signs that no longer refer to reality - they refer only to other signs. The map doesn't represent the territory; it generates the territory.
 
 Traditional representation: An image reflects reality.
 

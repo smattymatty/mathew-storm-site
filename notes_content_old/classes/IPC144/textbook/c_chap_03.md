@@ -82,7 +82,7 @@ while(product <= 100) {
 }
 ```
 
-The loop repeatedly multiplies `product` by 3, so it takes on the values 9, 27 and 81 successively. When `product` becomes 243, the condition `product <= 100` becomes false, terminating the iteration—`product`’s final value is 243. Execution continues with the next statement after the `while`. An action in the `while` statement’s body must eventually cause the condition to become false; otherwise, the loop will never terminate—a logic error called an infinite loop. The statement(s) contained in a `while` iteration statement constitute its body, which may be a single statement or a compound statement.
+The loop repeatedly multiplies `product` by 3, so it takes on the values 9, 27 and 81 successively. When `product` becomes 243, the condition `product <= 100` becomes false, terminating the iteration-`product`’s final value is 243. Execution continues with the next statement after the `while`. An action in the `while` statement’s body must eventually cause the condition to become false; otherwise, the loop will never terminate-a logic error called an infinite loop. The statement(s) contained in a `while` iteration statement constitute its body, which may be a single statement or a compound statement.
 
 {~ label_seperator ~}
 ## Formulating Algorithms Case Study 1: Counter-Controlled Iteration
@@ -134,7 +134,7 @@ int main(void) {
 ```
 
 {~ accordion title="Key Concepts: Totals, Counters, and Initialization" ~}
-A `total` is a variable (line 8 in the C code, referring to `int total = 0;`) used to accumulate the sum of a series of values. A `counter` is a variable (line 9, `int counter = 1;`) used to count—in this case, to count the number of grades entered. Variables for totals should be initialized to zero; otherwise, the sum would include the previous value stored in the total’s memory location. You should initialize all counters and totals. Counters typically are initialized to zero or one, depending on their use—we’ll present examples of each. An uninitialized variable contains a “garbage” value—the value last stored in the memory location reserved for that variable. If a counter or total isn’t initialized, the results of your program will probably be incorrect. These are examples of logic errors.
+A `total` is a variable (line 8 in the C code, referring to `int total = 0;`) used to accumulate the sum of a series of values. A `counter` is a variable (line 9, `int counter = 1;`) used to count-in this case, to count the number of grades entered. Variables for totals should be initialized to zero; otherwise, the sum would include the previous value stored in the total’s memory location. You should initialize all counters and totals. Counters typically are initialized to zero or one, depending on their use-we’ll present examples of each. An uninitialized variable contains a “garbage” value-the value last stored in the memory location reserved for that variable. If a counter or total isn’t initialized, the results of your program will probably be incorrect. These are examples of logic errors.
 {~~}
 
 {~ label_seperator ~}
@@ -208,15 +208,15 @@ The top is a single statement that conveys the program’s overall function. As 
 > Input, sum, and count the quiz grades
 > Calculate and print the class average
 
-Here, only the sequence structure has been used—the steps listed should execute in order, one after the other. Each refinement, as well as the top itself, is a complete specification of the algorithm. Only the level of detail varies.
+Here, only the sequence structure has been used-the steps listed should execute in order, one after the other. Each refinement, as well as the top itself, is a complete specification of the algorithm. Only the level of detail varies.
 {~~}
 
 {~ accordion title="Type Conversion: Explicit and Implicit" ~}
-Averages often are values such as 7.2 or –93.5 that contain fractional parts. These floating-point numbers can be represented by the data type `double`. Dividing two `int`s results in integer division—any fractional part of the calculation is truncated (that is, lost). You can produce a floating-point calculation with integer values by first creating temporary floating-point numbers. C provides the unary cast operator to accomplish this task. For example:
+Averages often are values such as 7.2 or –93.5 that contain fractional parts. These floating-point numbers can be represented by the data type `double`. Dividing two `int`s results in integer division-any fractional part of the calculation is truncated (that is, lost). You can produce a floating-point calculation with integer values by first creating temporary floating-point numbers. C provides the unary cast operator to accomplish this task. For example:
 `
 double average = (double) total / counter;
 `
-This uses the cast operator `(double)` to create a temporary floating-point copy of its operand, `total`. The value stored in `total` is still an integer. Using a cast operator in this manner is called **explicit conversion**. The calculation now consists of a floating-point value—the temporary `double` version of `total`—divided by the `int` value stored in `counter`.
+This uses the cast operator `(double)` to create a temporary floating-point copy of its operand, `total`. The value stored in `total` is still an integer. Using a cast operator in this manner is called **explicit conversion**. The calculation now consists of a floating-point value-the temporary `double` version of `total`-divided by the `int` value stored in `counter`.
 
 C requires the operand data types in arithmetic expressions only to be identical. In mixed-type expressions, the compiler performs an operation called **implicit conversion** on selected operands to ensure that they're of the same type. For example, in an expression containing the data types `int` and `double`, copies of `int` operands are made and implicitly converted to type `double`. After we explicitly convert `total` to a `double`, the compiler implicitly makes a `double` copy of `counter`, then performs floating-point division and assigns the floating-point result to `average`.
 
@@ -224,7 +224,7 @@ Cast operators are formed by placing parentheses around a type name. A cast is a
 {~~}
 
 {~ accordion title="Formatting Floating-Point Output" ~}
-The `printf` conversion specification `%.2f` can be used to format a `double` value. The `f` specifies that a floating-point value will be printed. The `.2` is the precision—the value will have two (2) digits to the right of the decimal point. If the `%f` conversion specification is used without specifying the precision, the default precision is 6 digits to the right of the decimal point, as if the conversion specification `%.6f` had been used. When floating-point values are printed with precision, the printed value is rounded to the indicated number of decimal positions. The value in memory is unaltered. The following statements display the values 3.45 and 3.4, respectively:
+The `printf` conversion specification `%.2f` can be used to format a `double` value. The `f` specifies that a floating-point value will be printed. The `.2` is the precision-the value will have two (2) digits to the right of the decimal point. If the `%f` conversion specification is used without specifying the precision, the default precision is 6 digits to the right of the decimal point, as if the conversion specification `%.6f` had been used. When floating-point values are printed with precision, the printed value is rounded to the indicated number of decimal positions. The value in memory is unaltered. The following statements display the values 3.45 and 3.4, respectively:
 `
 printf("%.2f\n", 3.446); // displays 3.45
 printf("%.1f\n", 3.446); // displays 3.4

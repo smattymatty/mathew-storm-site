@@ -110,7 +110,7 @@ Or perhaps longer. Time behaved strangely in the depths. Theron led with a torch
 
 Behind him came Nikias and Alexios, weapons drawn despite knowing blades were useless against geometry. Then Daedalus, each step more reluctant than the last, his breathing shallow. And finally Sisyphus, walking with the careful attention of someone who'd learned to navigate impossible spaces.
 
-They passed through Sector One quickly. Standard deceptions—passages that appeared to fork but didn't, chambers that seemed smaller from inside than their entrances suggested. Theron cataloged each one with clinical precision. Clever work, but comprehensible.
+They passed through Sector One quickly. Standard deceptions-passages that appeared to fork but didn't, chambers that seemed smaller from inside than their entrances suggested. Theron cataloged each one with clinical precision. Clever work, but comprehensible.
 
 Sector Two was where the architecture stopped pretending to be normal.
 

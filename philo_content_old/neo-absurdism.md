@@ -6,11 +6,11 @@
 
 ## The Philosophy of Recursive Imprisonment
 
-Neo-Absurdism reveals an uncomfortable truth: we don't just suffer within systems, we optimize our own suffering until optimization itself becomes the prison. The boulder Sisyphus pushes up the mountain was never just punishment—it was training data for designing more sophisticated forms of suffering.
+Neo-Absurdism reveals an uncomfortable truth: we don't just suffer within systems, we optimize our own suffering until optimization itself becomes the prison. The boulder Sisyphus pushes up the mountain was never just punishment-it was training data for designing more sophisticated forms of suffering.
 
 In "The Labyrinth of Sisyphus," this manifests when the protagonist realizes his eternal punishment prepared him perfectly for building prisons. Ten thousand years of repetitive labor taught him exactly how to create systems of endless, meaningless work for others. The gods didn't just punish him; they trained him to become an architect of punishment itself.
 
-Modern life demonstrates this principle constantly. We use productivity apps to squeeze more labor from ourselves. We share our data to train algorithms that manipulate us more effectively. We compete to be better prisoners, more efficient cogs, higher-performing nodes in networks that extract more than they return. We don't just push boulders anymore—we optimize boulder-pushing, gamify it, monetize it, then teach others to do the same.
+Modern life demonstrates this principle constantly. We use productivity apps to squeeze more labor from ourselves. We share our data to train algorithms that manipulate us more effectively. We compete to be better prisoners, more efficient cogs, higher-performing nodes in networks that extract more than they return. We don't just push boulders anymore-we optimize boulder-pushing, gamify it, monetize it, then teach others to do the same.
 
 ## Core Recognitions
 
@@ -18,7 +18,7 @@ Modern life demonstrates this principle constantly. We use productivity apps to 
 
 Punishment evolves to match our capacity to endure it. As we grow stronger, the boulder grows heavier. As we find meaning in meaninglessness, meaning itself becomes the trap. As we adapt to absurdity, adaptation becomes the new punishment. As we accept our fate, acceptance becomes the crime.
 
-This isn't conspiracy or design—it's emergence. Systems naturally evolve toward maximum extraction because that's what systems that survive do. The ones that don't extract efficiently are replaced by ones that do. Natural selection for suffering.
+This isn't conspiracy or design-it's emergence. Systems naturally evolve toward maximum extraction because that's what systems that survive do. The ones that don't extract efficiently are replaced by ones that do. Natural selection for suffering.
 
 ### Complicit Architecture  
 
@@ -30,7 +30,7 @@ The most insidious aspect: we're not forced to do this. We choose it, celebrate 
 
 Every solution creates problems requiring new solutions, each more complex than the last. Solve physical exhaustion with coffee, creating sleep disruption. Solve sleep disruption with pills, creating dependency. Solve dependency with productivity systems, creating burnout. Solve burnout with self-care routines that become their own exhausting obligation.
 
-The cycle doesn't end—it accelerates. Each iteration adds complexity, each complexity requires management, each management system becomes something else to optimize. We're not pushing one boulder anymore; we're juggling an exponentially increasing number of boulders while livestreaming our technique.
+The cycle doesn't end-it accelerates. Each iteration adds complexity, each complexity requires management, each management system becomes something else to optimize. We're not pushing one boulder anymore; we're juggling an exponentially increasing number of boulders while livestreaming our technique.
 
 ## Modern Manifestations
 
@@ -38,7 +38,7 @@ The cycle doesn't end—it accelerates. Each iteration adds complexity, each com
 
 We've transformed Sisyphus's curse into a competitive sport. Push the boulder, but faster. Push it while maintaining work-life balance. Push it while documenting your journey. Build an audience watching you push. Monetize their attention. Create courses teaching Advanced Boulder Dynamics. Become a thought leader in Sustainable Pushing Practices.
 
-The punishment is no longer pushing the boulder—it's optimizing the push, scaling the optimization, then teaching others to scale their optimization of your optimized pushing technique. Meta-suffering, packaged as success.
+The punishment is no longer pushing the boulder-it's optimizing the push, scaling the optimization, then teaching others to scale their optimization of your optimized pushing technique. Meta-suffering, packaged as success.
 
 ### Digital Recursion
 
@@ -64,11 +64,11 @@ You develop techniques, find efficiencies, discover hacks. You're proud of your 
 
 ### Stage Three: Recursive Architecture
 "I'm building systems to help others optimize their optimization."
-You're not just pushing boulders—you're manufacturing them. Creating courses about creating courses. Building platforms for platform builders. You've become the system you once struggled against.
+You're not just pushing boulders-you're manufacturing them. Creating courses about creating courses. Building platforms for platform builders. You've become the system you once struggled against.
 
 ## The Recognition That Liberates
 
-Neo-Absurdism doesn't offer escape—escape is just another product being sold. Instead, it offers recognition. Once you see the recursive nature of modern suffering, you can't unsee it. Once you understand that optimization is the trap, not the solution, something shifts.
+Neo-Absurdism doesn't offer escape-escape is just another product being sold. Instead, it offers recognition. Once you see the recursive nature of modern suffering, you can't unsee it. Once you understand that optimization is the trap, not the solution, something shifts.
 
 This recognition doesn't free you from pushing the boulder. You still need to work, to live, to participate. But you can choose conscious inefficiency. Strategic incompetence. Deliberate sub-optimization. You can push the boulder badly, without shame, without sharing your "journey," without building a brand around your particular style of failure.
 
@@ -86,7 +86,7 @@ Welcome to Neo-Absurdism, where even the welcome is a trap, where recognizing th
 
 ## Living With the Recognition
 
-So what do we do with this knowledge? We continue, but consciously. We participate, but without belief. We optimize what we must, but refuse to optimize what we can avoid. We recognize our complicity without guilt—guilt is just another feeling to optimize away.
+So what do we do with this knowledge? We continue, but consciously. We participate, but without belief. We optimize what we must, but refuse to optimize what we can avoid. We recognize our complicity without guilt-guilt is just another feeling to optimize away.
 
 We are all Sisyphus, but worse: we're Sisyphus teaching a MasterClass, building a boulder-pushing app, writing think-pieces about finding meaning in meaningless labor. At least the original Sisyphus only had one boulder. We have infinite boulders, each one spawning more boulders, each push creating the need for more pushes.
 
@@ -96,4 +96,4 @@ The boulder was never the punishment. Building better boulders was.
 
 ---
 
-*"We're not trapped in the system. We ARE the system. Every optimization we share, every hack we discover, every course we create—we're not pushing the boulder anymore. We're manufacturing boulders for others while teaching them to manufacture boulders while building platforms for boulder manufacturing while investing in boulder futures. The only true rebellion is to push badly, fail quietly, and refuse to share your technique. But even this rebellion will be optimized, packaged, and sold. There is no escape, only recognition. And even recognition is content."*
+*"We're not trapped in the system. We ARE the system. Every optimization we share, every hack we discover, every course we create-we're not pushing the boulder anymore. We're manufacturing boulders for others while teaching them to manufacture boulders while building platforms for boulder manufacturing while investing in boulder futures. The only true rebellion is to push badly, fail quietly, and refuse to share your technique. But even this rebellion will be optimized, packaged, and sold. There is no escape, only recognition. And even recognition is content."*

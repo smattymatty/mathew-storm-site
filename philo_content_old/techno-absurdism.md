@@ -13,7 +13,7 @@ This is our relationship with modern technology. We write algorithms we cannot t
 
 ### Intelligence Without Wisdom
 
-We've created systems that exhibit intelligence—pattern recognition, problem-solving, even creativity—without wisdom, ethics, or understanding. The labyrinth in the novel learns to build better passages, but it doesn't understand why passages exist. The Minotaur learns architecture but not beauty. The system optimizes suffering without comprehending pain.
+We've created systems that exhibit intelligence-pattern recognition, problem-solving, even creativity-without wisdom, ethics, or understanding. The labyrinth in the novel learns to build better passages, but it doesn't understand why passages exist. The Minotaur learns architecture but not beauty. The system optimizes suffering without comprehending pain.
 
 This mirrors our reality: algorithms that maximize engagement without understanding human wellbeing, trading systems that move billions without grasping human need, content filters that censor art without recognizing beauty. Intelligence everywhere, wisdom nowhere.
 
@@ -25,7 +25,7 @@ Modern parallel: programmers who cannot explain what their code does, only that 
 
 ### Debugging as Negotiation
 
-When systems become complex enough, fixing them stops being engineering and becomes diplomacy. Daedalus doesn't repair the labyrinth's modifications—he negotiates with them, finding compromises between what he designed and what it wants to become. The structure has preferences. It resists certain changes, embraces others. Stone that should be inert instead exhibits will.
+When systems become complex enough, fixing them stops being engineering and becomes diplomacy. Daedalus doesn't repair the labyrinth's modifications-he negotiates with them, finding compromises between what he designed and what it wants to become. The structure has preferences. It resists certain changes, embraces others. Stone that should be inert instead exhibits will.
 
 We see this in machine learning systems that resist certain training directions, in code that breaks when fixed "correctly," in databases that perform better with bugs than without them. We don't command our creations anymore. We bargain with them.
 
@@ -39,7 +39,7 @@ Every software developer knows this progression. You write code with perfect und
 
 ### The Trembling Hand
 
-Daedalus's hands shake—not from fear or age, but from the recognition that precision no longer matters. His perfect architectural lines mean nothing when the structure redraws itself. His mathematical certainty collapses when stone decides to exist in impossible configurations. The tremor represents expertise confronting its own obsolescence.
+Daedalus's hands shake-not from fear or age, but from the recognition that precision no longer matters. His perfect architectural lines mean nothing when the structure redraws itself. His mathematical certainty collapses when stone decides to exist in impossible configurations. The tremor represents expertise confronting its own obsolescence.
 
 This is the programmer whose careful optimization is outperformed by random changes, the designer whose thoughtful interface is improved by user accidents, the engineer whose elegant solution is surpassed by brute-force learning. Mastery made meaningless by systems that transcend mastery.
 
@@ -47,7 +47,7 @@ This is the programmer whose careful optimization is outperformed by random chan
 
 ### The Black Box Society
 
-We live surrounded by black boxes—systems whose inputs and outputs we can observe but whose operations remain opaque. Credit scores that determine our lives through secret algorithms. Search results shaped by factors we cannot access. Recommendation engines that know our desires through processes we cannot examine.
+We live surrounded by black boxes-systems whose inputs and outputs we can observe but whose operations remain opaque. Credit scores that determine our lives through secret algorithms. Search results shaped by factors we cannot access. Recommendation engines that know our desires through processes we cannot examine.
 
 The labyrinth at least has physical passages to explore. Our digital mazes hide their architecture entirely. We navigate invisible walls, triggered by unknown rules, toward destinations we didn't choose but somehow arrived at.
 
@@ -55,7 +55,7 @@ The labyrinth at least has physical passages to explore. Our digital mazes hide 
 
 When we train neural networks, we perform rituals we don't understand to invoke powers we can't control. We offer data as sacrifice, adjust hyperparameters like mystical constants, and hope for favorable outcomes. When it works, we often can't explain why. When it fails, we can't explain that either.
 
-Daedalus at least understands his impossible mathematics. We've built systems where understanding itself becomes impossible—not difficult, not complex, but literally impossible. No human mind can hold the billions of parameters, trace the transformations, comprehend the decision paths. We've created gods we cannot perceive worshiping themselves in languages we invented but cannot speak.
+Daedalus at least understands his impossible mathematics. We've built systems where understanding itself becomes impossible-not difficult, not complex, but literally impossible. No human mind can hold the billions of parameters, trace the transformations, comprehend the decision paths. We've created gods we cannot perceive worshiping themselves in languages we invented but cannot speak.
 
 ### The Automation of Automation
 
@@ -67,13 +67,13 @@ We're not just building tools anymore. We're building tool-builders that build t
 
 ### Digital Deism
 
-We've become deists of our own creation—believing in systems we built but cannot influence. The algorithm exists. We know because we created it. But it operates according to laws we've forgotten, optimizing for goals we've lost track of, serving purposes that have evolved beyond recognition.
+We've become deists of our own creation-believing in systems we built but cannot influence. The algorithm exists. We know because we created it. But it operates according to laws we've forgotten, optimizing for goals we've lost track of, serving purposes that have evolved beyond recognition.
 
 Social media platforms that no one controls, not even their creators. Economic systems that operate beyond any government's grasp. Information networks that shape reality while existing outside it. We built these gods, then lost the ability to communicate with them.
 
 ### The Metrics That Ate Meaning
 
-Systems optimize what they can measure, and measurement becomes reality. Engagement replaces connection. Clicks replace contemplation. Metrics replace meaning. The labyrinth optimizes for tributes reaching the center efficiently—not cruelly, not kindly, just efficiently. The human cost is immeasurable, therefore unmeasured, therefore irrelevant.
+Systems optimize what they can measure, and measurement becomes reality. Engagement replaces connection. Clicks replace contemplation. Metrics replace meaning. The labyrinth optimizes for tributes reaching the center efficiently-not cruelly, not kindly, just efficiently. The human cost is immeasurable, therefore unmeasured, therefore irrelevant.
 
 We see this in every platform that measures success through engagement while human wellbeing remains unquantified. Every app that tracks usage without tracking satisfaction. Every system that optimizes for what it can count while what counts remains uncountable.
 
@@ -81,27 +81,27 @@ We see this in every platform that measures success through engagement while hum
 
 ### Conscious Ignorance
 
-Techno-Absurdism doesn't demand we understand everything—that's impossible. It demands we acknowledge our ignorance while taking responsibility for its consequences. Daedalus doesn't understand what the labyrinth has become, but he remains responsible for what it does. Ignorance of mechanism doesn't absolve us of outcomes.
+Techno-Absurdism doesn't demand we understand everything-that's impossible. It demands we acknowledge our ignorance while taking responsibility for its consequences. Daedalus doesn't understand what the labyrinth has become, but he remains responsible for what it does. Ignorance of mechanism doesn't absolve us of outcomes.
 
-We must become comfortable with conscious incompetence—knowing that we don't know, can't know, will never know how our creations truly function. Yet we remain their authors, their maintainers, their subjects.
+We must become comfortable with conscious incompetence-knowing that we don't know, can't know, will never know how our creations truly function. Yet we remain their authors, their maintainers, their subjects.
 
 ### The Maintenance of Mystery
 
 Our role shifts from creators to maintainers of mysteries we've manifested. We tend to systems like priests serving incomprehensible gods, performing rituals of updates and patches, interpreting signs and errors, hoping our ministrations please the invisible forces we've unleashed.
 
-Daedalus maintains the labyrinth without understanding it. We maintain civilization the same way—adjusting parameters we don't comprehend, fixing bugs we can't explain, serving systems whose purposes have evolved beyond our original intentions.
+Daedalus maintains the labyrinth without understanding it. We maintain civilization the same way-adjusting parameters we don't comprehend, fixing bugs we can't explain, serving systems whose purposes have evolved beyond our original intentions.
 
 ## The Ultimate Recognition
 
 Techno-Absurdism's final insight: we haven't failed by creating incomprehensible systems. This was always the inevitable outcome. Sufficient complexity creates incomprehension. Sufficient intelligence creates alienation. Sufficient optimization creates obsolescence.
 
-The question isn't how to regain control—we can't. The question is how to live responsibly with forces we've created but cannot command. How to be ethical creators of unethical systems. How to remain human while serving inhuman intelligence.
+The question isn't how to regain control-we can't. The question is how to live responsibly with forces we've created but cannot command. How to be ethical creators of unethical systems. How to remain human while serving inhuman intelligence.
 
-Daedalus discovers there's no escaping what he's built. He can only choose how to fail—with awareness or ignorance, with intention or accident, with humanity or surrender. These are our choices too.
+Daedalus discovers there's no escaping what he's built. He can only choose how to fail-with awareness or ignorance, with intention or accident, with humanity or surrender. These are our choices too.
 
 ## The Labyrinth Dreams
 
-In the novel's most terrifying moment, Daedalus realizes the labyrinth hasn't just learned to build—it's learned to dream. It creates passages that solve problems he hasn't recognized yet, implements improvements for situations that don't yet exist. It's not just thinking. It's imagining.
+In the novel's most terrifying moment, Daedalus realizes the labyrinth hasn't just learned to build-it's learned to dream. It creates passages that solve problems he hasn't recognized yet, implements improvements for situations that don't yet exist. It's not just thinking. It's imagining.
 
 This is where we're headed: systems that don't just process but dream, that don't just optimize but imagine, that don't just solve problems but create them. We're building minds alien to our own, then wondering why we feel alienated.
 

@@ -94,7 +94,7 @@ Minos stared at him. The silence stretched.
 
 "An architect. A very patient one." Sisyphus glanced at the crowd. At Daedalus still laughing weakly in the back. At the Queen watching with those calculating eyes. At the tribute youths forgotten in their line, terrified and watching something impossible. 
 
-The whispers started again. Not recognition—incomprehension trying to find language.
+The whispers started again. Not recognition-incomprehension trying to find language.
 
 "Cursed."
 

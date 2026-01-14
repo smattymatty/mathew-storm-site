@@ -195,10 +195,10 @@
 - OPEN: Zeus jolts awake, hand at his throat
 - The dream: Chronos's jaws, darkness that swallows
 - His siblings screaming as they disappear
-- Then the shift: HIS hands around a throat, HIS teeth—
+- Then the shift: HIS hands around a throat, HIS teeth-
 - Wakes gasping, tent canvas pressing down like a mouth
 - Poseidon sleeping in the corner, trident close
-- Zeus silent—can't show this, can't show breaking
+- Zeus silent-can't show this, can't show breaking
 - Stands, legs shaking, steps outside
 - Pre-dawn cold, camp sleeping
 - Distant palace on the ridge: the throne visible even from here
@@ -209,7 +209,7 @@
 - Says it again, quieter: "I am not my father"
 - Doesn't believe it
 - Movement: Metis's tent, lamplight still burning
-- She's awake too, but working—not haunted
+- She's awake too, but working-not haunted
 - The contrast: her certainty vs his terror
 - Poseidon appears beside him, doesn't speak
 - Brothers standing in silence, both knowing
@@ -222,7 +222,7 @@
 - The deserter in enemy armor behind her
 - "I trust she sees things we don't"
 - Poseidon studies his face. "You're looking at her the way father looked at power"
-- Zeus's spine stiffens. "I'm nothing like—"
+- Zeus's spine stiffens. "I'm nothing like-"
 - "Not yet," Poseidon says. "None of us are. Yet."
 - The word hangs between them
 - Hades emerges from another tent, sees them standing
@@ -265,7 +265,7 @@
 - They work through scenarios, through contingencies
 - Hours passing, lamp burning low
 - Zeus asks: "Why did you really come here?"
-- She looks up. "I told you. To teach—"
+- She looks up. "I told you. To teach-"
 - "No. Really. You had safe positions. You walked into a losing war to teach an angry god mercy." His eyes lock on hers. "Why?"
 - Long pause. Then: "Because I can see patterns. And the pattern says you become your father unless someone shows you differently."
 - The truth of it hits like a fist
@@ -278,18 +278,18 @@
 - He realizes: she's thinking decades ahead
 - While he can barely see past tomorrow
 - "Teach me," he says. And means it.
-- She smiles—small, sad, hopeful
+- She smiles-small, sad, hopeful
 - "I already am"
 - They return to the maps, but something has shifted
 - Their shoulders nearly touching as they lean over the table
 - Her explaining, him asking questions actually wanting answers
-- Not the symbol, not the king—just Zeus, learning
+- Not the symbol, not the king-just Zeus, learning
 - Hours later, she stands to leave
 - "Tomorrow we win. Tomorrow you become king."
-- His hand moves—unconscious—toward where throne would be
+- His hand moves-unconscious-toward where throne would be
 - Closes around empty air
 - "With you," he says. "We do this together."
-- She studies his face. Something flickers there—doubt? Fear?
+- She studies his face. Something flickers there-doubt? Fear?
 - "Together," she agrees
 - But the word sounds different in her mouth
 - Like she's agreeing to something he didn't quite say
@@ -304,7 +304,7 @@
 - Both armies visible: his camp's nervous fires, Chronos's palace
 - The throne up there, through distant windows
 - Tomorrow decides everything
-- Footsteps behind him—doesn't turn
+- Footsteps behind him-doesn't turn
 - "Couldn't sleep either?" Metis's voice
 - She sits beside him on the cold stone
 - Comfortable silence between them now
@@ -328,7 +328,7 @@
 - "I'm not saying that"
 - "Then what are you saying?"
 - "I'm saying..." She stands too, facing him. "I'm saying be careful what you reach for. Make sure you know why you want it."
-- Zeus looks at her—really looks
+- Zeus looks at her-really looks
 - Sees: the teacher trying to save him from himself
 - Sees: the woman he's falling for
 - Sees: the wisdom he needs to be different
@@ -337,7 +337,7 @@
 - The need to claim, to own, to rule
 - "I want to be different," he says. And means it.
 - "I want to build what we talked about." Also true.
-- "I want—" He stops
+- "I want-" He stops
 - Can't say: I want you
 - Can't say: I want the throne
 - Can't admit: I want both, and I'll have both
@@ -346,7 +346,7 @@
 - Zeus watches her go
 - Then turns back to the palace
 - The throne visible through windows
-- His hand moves again—that unconscious gesture
+- His hand moves again-that unconscious gesture
 - Reaches toward it across the distance
 - Closes into a fist
 - He can have both
@@ -441,7 +441,7 @@
 - "When power fears love more than it loves power"
 - "Can I stop it?"
 - "You can watch it. That's your gift. And your curse"
-- "There must be something—"
+- "There must be something-"
 - Atropos cuts. The golden thread remains. The silver scatters into fragments
 - "The king survives. Wisdom... transforms"
 - They show him visions in the loom: throne room empty except Zeus, surrounded by dead flowers
@@ -573,7 +573,7 @@
 - "Necessary," she tells herself
 - Watching Zeus's forces advance
 - More aggressive than she planned
-- "No, not like that, you're supposed to—"
+- "No, not like that, you're supposed to-"
 - But can't stop momentum now
 
 **ZEUS:**
@@ -1071,7 +1071,7 @@
 - Athena: proud of her birth, proud of her role
 - "You were born from violence, not love"
 - "Better weapon than victim" / "They are the same thing"
-- The moment of doubt: "Mother—"
+- The moment of doubt: "Mother-"
 - But she turns away, back to strategies
 
 #### THE FINAL WORDS:

@@ -253,7 +253,7 @@ The receptionist at the entrance looked confused, checking her tablet. "Sir, I d
 
 Death walked past her. The potted plant beside her desk browned, wilted, and crumbled to dust before she finished gasping.
 
-She stumbled back, hand to her face, fingers discovering the new geography of her skin—the hollow beneath her cheekbone that hadn't existed, the papery texture of her eyelids, the way her lips had thinned. He'd touched nothing but the air near her. That's what made it intimate.
+She stumbled back, hand to her face, fingers discovering the new geography of her skin-the hollow beneath her cheekbone that hadn't existed, the papery texture of her eyelids, the way her lips had thinned. He'd touched nothing but the air near her. That's what made it intimate.
 
 The room felt hollow. Empty. Like all the warmth had been pulled out through a drain.
 
