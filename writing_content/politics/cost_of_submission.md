@@ -7,6 +7,7 @@ tags:
   - resistance
   - authoritarianism
   - current-events
+  - politics
 
 description: "The pragmatic case for compliance assumes authoritarian demands are finite. History demonstrates they are not. Each concession establishes a new baseline. Submission doesn't buy safety - it buys your place in line."
 keywords: "authoritarianism, compliance, resistance, appeasement, Greenland, Trump, Havel, Arendt, Niemöller, submission"
@@ -15,6 +16,10 @@ keywords: "authoritarianism, compliance, resistance, appeasement, Greenland, Tru
 *Submission doesn't buy safety. It buys your place in line.*
 
 ## I. The Appetite
+
+It is 2026, and we are barely even halfway through Janurary - current events are escalating rapidly. The specifics change, but the pattern doesn't. We have seen this before.
+
+Authoritarian demands do not stop when met. They escalate. This is not a moral claim - it's an observable pattern. Here is what it looks like right now:
 
 Two weeks ago, Trump [bombed Caracas](https://www.cbsnews.com/live-updates/venezuela-us-military-strikes-maduro-trump/), captured a sitting president, and announced America would "run the country" until further notice.
 
@@ -69,7 +74,11 @@ The Stalin purges are starker. Of 139 Central Committee members elected at the 1
 
 The mechanism: authoritarian regimes cannot distinguish genuine compliance from hidden resistance. So they purge periodically, sweeping away even the loyal. Your compliance doesn't protect you. It determines when your turn comes.
 
-Watch it happen in real time. First, it was undocumented immigrants - and many said nothing, because they weren't undocumented. Then [three thousand federal agents flooded Minneapolis](https://www.pbs.org/newshour/politics/2000-federal-agents-sent-to-minneapolis-area-to-carry-out-largest-immigration-operation-ever-ice-says), and an ICE officer [shot a legal observer](https://www.nbcnews.com/politics/white-house/trump-threatens-invoke-insurrection-act-response-minneapolis-protests-rcna254187) - an American citizen with no criminal record. When protests erupted, Trump threatened to invoke the Insurrection Act against American civilians. First immigrants, then protesters. Who's next?
+We recognize this pattern instantly in history books but we struggle to see it in our own moment.
+
+Watch it happen in real time.
+
+First, it was undocumented immigrants - and many said nothing, because they weren't undocumented. Then [three thousand federal agents flooded Minneapolis](https://www.pbs.org/newshour/politics/2000-federal-agents-sent-to-minneapolis-area-to-carry-out-largest-immigration-operation-ever-ice-says), and an ICE officer [shot a legal observer](https://www.nbcnews.com/politics/white-house/trump-threatens-invoke-insurrection-act-response-minneapolis-protests-rcna254187) - an American citizen with no criminal record. When protests erupted, Trump threatened to invoke the Insurrection Act against American civilians. First immigrants, then observers, then protesters. Who's next?
 
 And for some, there is no compliant position. The [Uyghurs](https://www.cfr.org/backgrounders/china-xinjiang-uyghurs-muslims-repression-genocide-human-rights) can't comply their way out of detention. The [Rohingya](https://encyclopedia.ushmm.org/content/en/article/atrocities-against-burmas-rohingya-population) can't modify their behavior to avoid persecution. When identity is the crime, there is no safe position available.
 
