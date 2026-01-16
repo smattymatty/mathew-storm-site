@@ -12,15 +12,11 @@ description: "A philosophical examination of why ideological purity becomes comp
 keywords: "unity vs purity, coalition building, organizing, anti-fascism, Minneapolis ICE, Venezuela invasion, Greenland annexation, political philosophy, movement building"
 ---
 
-![Leftist infighting simulator for the gameboy advanced - the shitpost meme that inspired this manifesto](https://64.media.tumblr.com/8cd1bf02b99dc4092156eb5c80f86c0a/4c4d186da312cedd-3f/s1280x1920/ca169c39604f276d24df4719591548b0f1c3ebe4.jpg)
-
-*When the tanks are in the streets, the argument about what comes after is a luxury we cannot afford.*
+*When our streets are flooded with militarized forces, the argument about what comes after victory is a luxury we cannot afford.*
 
 ## I. The Concrete Hour
 
 On January 3rd, 2026, the United States bombed Caracas, captured a sitting head of state, and announced it would ["run the country"](https://www.cbsnews.com/live-updates/venezuela-us-military-strikes-maduro-trump/) until further notice. At least 40 Venezuelans died. Thirty-two Cubans were killed defending the presidential compound. Trump called it "one of the most stunning, effective and powerful displays of American military might... since World War II."
-
-This is not metaphor, nor is it rhetoric. This is not a warning about what might happen if we fail to act. It has already happened.
 
 Nine days later, Trump threatened to take Greenland ["the hard way"](https://www.aljazeera.com/news/2026/1/10/what-are-potential-hard-ways-trump-could-try-to-take-greenland) if Denmark - a founding NATO member - refused to sell. The Danish Prime Minister responded that such an attack would mean ["the end of everything"](https://www.euronews.com/2026/01/05/us-attacking-nato-ally-to-annex-greenland-would-be-end-of-everything-says-danish-pm)- NATO, the postwar order, the basic assumption that allies don't invade each other. European nations have begun [deploying troops to Greenland](https://www.cnn.com/2026/01/15/world/europe-troops-greenland-trump-nato-intl-hnk) in a show of solidarity unprecedented since the Cold War.
 
@@ -64,13 +60,13 @@ Freud called a related phenomenon the ["narcissism of small differences"](https:
 
 This is why closely allied political factions often fight more bitterly than ideological opposites. The 20% disagreement becomes more salient than the 80% agreement. As the saying goes, the person who agrees with you 80 percent of the time is a friend - not a 20 percent traitor. But under purity spiral conditions, that 20% is precisely what gets weaponized.
 
-Labor organizer [Jane McAlevey](https://commonslibrary.org/jane-mcalevey-organizing-extraordinaire/), who died in 2024, distinguished between mobilization and organization. Mobilization motivates people who already agree with you. Organization "engages with whole populations, including those who have opposing opinions or have yet to form one." Her insight was blunt: "We will not win just by increasing the turnout of the people who already agree with us completely." Winning requires supermajorities - 80% participation or more. That means working with people who don't share your ideology, your analysis, or your vision of the future. It means building bridges before the crisis, so they exist when you need them.
+Labor organizer [Jane McAlevey](https://commonslibrary.org/jane-mcalevey-organizing-extraordinaire/), a labor organizer who died in 2024, distinguished between mobilization and organization. Mobilization motivates people who already agree with you. Organization "engages with whole populations, including those who have opposing opinions or have yet to form one." Her insight was blunt: "We will not win just by increasing the turnout of the people who already agree with us completely." Winning requires supermajorities - 80% participation or more. That means working with people who don't share your ideology, your analysis, or your vision of the future. It means building bridges before the crisis, so they exist when you need them.
 
 The purity spiral is the opposite of organizing. It shrinks the coalition at exactly the moment it needs to expand. It turns potential allies into enemies. It hands victory to the authoritarian by default - not because the authoritarian was stronger, but because the opposition was too busy fighting itself.
 
 ## V. The Choice Before Us
 
-I am not asking you to abandon your principles. I am asking you to recognize what the current moment demands.
+The concrete hour is here. The only question is whether we face it together or apart. The person who agrees with you 80% is not a 20% traitor. Right now, they might be the only ally you have. I am not asking you to abandon your principles. I am asking you to recognize what the current moment demands.
 
 The [Popular Front](https://soviethistory.msu.edu/1936/popular-front/) strategy adopted by the Communist International in 1935 - too late for Germany, nearly too late for everyone - was not about ideological surrender. It was about recognizing that the immediate threat required immediate cooperation. [Georgi Dimitrov](https://www.marxists.org/reference/archive/dimitrov/works/1935/08_02.htm) put it plainly: "We must find and advance those slogans and forms of struggle which arise from the vital needs of the masses," not "bare appeals to struggle for proletarian dictatorship." The time for debating the post-victory society is after victory. First, you must survive.
 
@@ -80,7 +76,7 @@ What would such a coalition look like today? It would include everyone - left, c
 
 Militarized forces are in the streets. The threats against allies are not hypothetical; European troops are deploying to Greenland as I write this. Trump has announced, in plain language, his willingness to use military force against American protesters. This is not a drill, nor is it a warning about the future. This is the present tense.
 
-History will record what we did in this moment. It will record whether we found a way to work together despite our differences, or whether we repeated the tragedies of the past - arguing about the shape of the world to come while the world that exists was taken from us. The choice is ours. But the hour for choosing is now.
+History will record what we did in this moment. It will record whether we found a way to work together despite our differences, or whether we repeated the tragedies of the past - arguing about the shape of the world to come while the world that exists was taken from us. The choice is ours, the hour for choosing is now.
 
 ---
 
@@ -96,3 +92,9 @@ This essay draws on:
 - Research on [coalition formation](https://commonslibrary.org/how-do-you-build-a-coalition-despite-frictions/) and [civil resistance](https://commonslibrary.org/the-trifecta-of-civil-resistance-unity-planning-discipline/)
 
 Current events reporting from PBS, NBC News, CNN, Al Jazeera, CBS News, and the Minneapolis city government.
+
+{~ hero layout="text_left_image_right" image_src="https://64.media.tumblr.com/8cd1bf02b99dc4092156eb5c80f86c0a/4c4d186da312cedd-3f/s1280x1920/ca169c39604f276d24df4719591548b0f1c3ebe4.jpg" image_alt="Leftist infighting simulator for the gameboy advanced" max_height="100px" bg_color="black-25" content_align_vertical="top" text_bg_color="black-50" text_color="white" class="movie-hero-spiderman" ~}
+### From shitpost to manifesto
+
+The pipeline is shorter than you'd think.
+{~~}
