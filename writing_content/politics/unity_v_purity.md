@@ -50,6 +50,8 @@ The American Civil Rights Movement united Black churches, the NAACP's legal stra
 
 What these victories share: a clearly defined common enemy, minimal programmatic demands beyond defeating that enemy, respect for the autonomy of coalition members, and the discipline to focus outward rather than turning inward. None of these movements achieved ideological unity. All of them achieved victory.
 
+We're watching it happen now. A bipartisan congressional delegation flew to Copenhagen this week to tell Denmark that America's elected representatives don't share their president's appetite. Republican Senator Lisa Murkowski said Greenland should be treated as ["our ally, not as an asset."](https://www.cbsnews.com/news/us-trump-greenland-denmark-congress-nato/) Democrats and Republicans, standing together in a foreign capital, contradicting their own president. That's what coalition looks like when it matters.
+
 ## IV. The Spiral Inward
 
 There is a name for what happens when movements turn their energy on themselves: the [purity spiral](https://en.wikipedia.org/wiki/Purity_spiral).
@@ -73,6 +75,8 @@ The [Popular Front](https://soviethistory.msu.edu/1936/popular-front/) strategy 
 This applies whether you are a socialist, a liberal, a progressive, a conservative who still believes in democracy, a libertarian who opposes state violence, or simply someone who thinks that bombing foreign capitals and threatening martial law against American citizens is wrong. The coalition that defeated apartheid included free-market liberals and Communists. The coalition that ended communist rule in Poland included Catholics and Marxists who rejected Soviet orthodoxy. The coalition that won civil rights included people who disagreed about nearly everything except the fundamental injustice they were fighting.
 
 What would such a coalition look like today? It would include everyone - left, center, and principled conservatives - who opposes military invasion of sovereign nations, militarized occupation of American cities, presidential threats of martial law, and the use of economic warfare to coerce allies into submission. It would not require agreement on healthcare policy, immigration reform, tax rates, or the proper role of government. It would require only the recognition that what is happening right now is intolerable, and that tolerating it guarantees worse to come.
+
+In Canada, a recent poll showed that 47% of conservatives would make concessions to American annexation pressure. That's the fracture authoritarians exploit - the hope that compliance will buy safety. But 90% of Canadians [oppose annexation outright](https://en.wikipedia.org/wiki/American_expansionism_under_Donald_Trump). The coalition already exists. It crosses party lines. It includes people who disagree about nearly everything except this: we are not for sale. That has to be enough.
 
 Militarized forces are in the streets. The threats against allies are not hypothetical; European troops are deploying to Greenland as I write this. Trump has announced, in plain language, his willingness to use military force against American protesters. This is not a drill, nor is it a warning about the future. This is the present tense.
 
