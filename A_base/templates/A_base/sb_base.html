@@ -1,6 +1,7 @@
 {% extends 'A_base/base.html' %}
 {% load spellbook_tags %}
 {% load static %}
+{% load storm_filters %}
 
 {% block extra_head %}
   {# Override page title with article title #}
@@ -163,22 +164,22 @@
       {% if prev_page or next_page %}
         <nav class="nav-links" data-storm="slide-up" data-storm-delay="500">
           {% if prev_page %}
-            <a href="{{ prev_page.url }}" class="nav-link nav-link-prev" data-storm-hover="lift">
+            <a href="{% spellbook_url prev_page %}" class="nav-link nav-link-prev" data-storm-hover="lift">
               <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
               </svg>
               <div>
                 <span class="nav-label">Previous</span>
-                <span class="nav-title">{{ prev_page.title }}</span>
+                <span class="nav-title">{{ prev_page|page_title }}</span>
               </div>
             </a>
           {% endif %}
-          
+
           {% if next_page %}
-            <a href="{{ next_page.url }}" class="nav-link nav-link-next" data-storm-hover="lift">
+            <a href="{% spellbook_url next_page %}" class="nav-link nav-link-next" data-storm-hover="lift">
               <div>
                 <span class="nav-label">Next</span>
-                <span class="nav-title">{{ next_page.title }}</span>
+                <span class="nav-title">{{ next_page|page_title }}</span>
               </div>
               <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>

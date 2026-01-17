@@ -46,6 +46,14 @@ Traditional Solidarity: Standing together publicly to demand political change or
 Humanist Absurdism: The "Unspoken Network." It’s the quiet, anonymous knowledge that you aren't the only one slipping gears. It’s helping someone without the system (or even the person you helped) ever finding out, so the system doesn't learn how to close the gap.
 {~~}
 
+{~ alert type="warning" ~}
+A note on scope: This essay addresses survival within diffuse, centerless systems - the bureaucracies, algorithms, and institutions that grind without malice or intent. 
+
+When systems have a center, when **authoritarianism** has a face, when there are **people** coordinating power - different tactics apply. Anonymous friction is not resistance to **fascism**. 
+
+See [Cost of Submission]((/writing/politics/cost_of_submission/)) and [Unity vs Purity](/writing/politics/unity_v_purity/) for the political response.
+{~~}
+
 ## I. The Space Between
 
 The machine cannot be quit. It pays rent, feeds families, constitutes professional identity. The systems we find morally bankrupt issue the same paychecks that keep us alive. Pure resistance remains a luxury for those with trust funds or nothing left to lose.

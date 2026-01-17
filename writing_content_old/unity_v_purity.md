@@ -96,9 +96,3 @@ This essay draws on:
 - Research on [coalition formation](https://commonslibrary.org/how-do-you-build-a-coalition-despite-frictions/) and [civil resistance](https://commonslibrary.org/the-trifecta-of-civil-resistance-unity-planning-discipline/)
 
 Current events reporting from PBS, NBC News, CNN, Al Jazeera, CBS News, and the Minneapolis city government.
-
-{~ hero layout="text_left_image_right" image_src="https://64.media.tumblr.com/8cd1bf02b99dc4092156eb5c80f86c0a/4c4d186da312cedd-3f/s1280x1920/ca169c39604f276d24df4719591548b0f1c3ebe4.jpg" image_alt="Leftist infighting simulator for the gameboy advanced" max_height="100px" bg_color="black-25" content_align_vertical="top" text_bg_color="black-50" text_color="white" class="movie-hero-spiderman" ~}
-### From shitpost to manifesto
-
-The pipeline is shorter than you'd think.
-{~~}

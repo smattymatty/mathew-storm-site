@@ -17,7 +17,7 @@ keywords: "authoritarianism, compliance, resistance, appeasement, Greenland, Tru
 
 ## I. The Appetite
 
-It is 2026, and we are barely even halfway through Janurary - current events are escalating rapidly. The specifics change, but the pattern doesn't. We have seen this before.
+It is 2026, and we are barely even halfway through January - current events are escalating rapidly. The specifics change, but the pattern doesn't. We have seen this before.
 
 Authoritarian demands do not stop when met. They escalate. This is not a moral claim - it's an observable pattern. Here is what it looks like right now:
 
@@ -43,7 +43,7 @@ Nazi Germany didn't begin with death camps. It began with civil service restrict
 
 The early measures appeared "rather mild" - because the regime was still testing what it could get away with. Compliance at each stage taught it to ask for more.
 
-Hungarian communist Mátyás Rákosi had a name for this: [salami tactics](https://en.wikipedia.org/wiki/Salami_slicing_tactics_(politics)). Slice away opposition piece by piece. Each cut too thin to resist. Look back later and the whole salami is gone.
+Hungarian Stalinist Mátyás Rákosi had a name for this: [salami tactics](https://en.wikipedia.org/wiki/Salami_slicing_tactics_(politics)). Slice away opposition piece by piece. Each cut too thin to resist. Look back later and the whole salami is gone.
 
 You see the shape of it now. Venezuela. Greenland. Panama Canal mentioned. Canada threatened. Each success establishes that demands work. Each accommodation invites the next demand.
 
@@ -76,9 +76,7 @@ The mechanism: authoritarian regimes cannot distinguish genuine compliance from 
 
 We recognize this pattern instantly in history books but we struggle to see it in our own moment.
 
-Watch it happen in real time.
-
-First, it was undocumented immigrants - and many said nothing, because they weren't undocumented. Then [three thousand federal agents flooded Minneapolis](https://www.pbs.org/newshour/politics/2000-federal-agents-sent-to-minneapolis-area-to-carry-out-largest-immigration-operation-ever-ice-says), and an ICE officer [shot a legal observer](https://www.nbcnews.com/politics/white-house/trump-threatens-invoke-insurrection-act-response-minneapolis-protests-rcna254187) - an American citizen with no criminal record. When protests erupted, Trump threatened to invoke the Insurrection Act against American civilians. First immigrants, then observers, then protesters. Who's next?
+Watch it happen in real time. First, it was undocumented immigrants - and many said nothing, because they weren't undocumented. Then [three thousand federal agents flooded Minneapolis](https://www.pbs.org/newshour/politics/2000-federal-agents-sent-to-minneapolis-area-to-carry-out-largest-immigration-operation-ever-ice-says), and an ICE officer [shot a legal observer](https://www.nbcnews.com/politics/white-house/trump-threatens-invoke-insurrection-act-response-minneapolis-protests-rcna254187) - an American citizen with no criminal record. When protests erupted, Trump threatened to invoke the Insurrection Act against American civilians. First immigrants, then observers, then protesters. Who's next?
 
 And for some, there is no compliant position. The [Uyghurs](https://www.cfr.org/backgrounders/china-xinjiang-uyghurs-muslims-repression-genocide-human-rights) can't comply their way out of detention. The [Rohingya](https://encyclopedia.ushmm.org/content/en/article/atrocities-against-burmas-rohingya-population) can't modify their behavior to avoid persecution. When identity is the crime, there is no safe position available.
 
