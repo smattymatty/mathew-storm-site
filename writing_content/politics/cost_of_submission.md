@@ -29,7 +29,9 @@ When asked if he'd use military force against a NATO ally, Trump [refused to rul
 
 For months, many Canadians hoped Trump had lost interest in making our country the [51st state](https://finance.yahoo.com/news/trump-venezuela-greenland-threats-canada-130020435.html) - his plate full with turning Washington and the global trading system upside down. Those hopes are fading. The administration's declaration that "THIS IS OUR HEMISPHERE" makes earlier comments about annexing Canada seem less like insults and more like a menu. Former UN Ambassador Bob Rae [warned](https://globalnews.ca/news/11605018/macron-steinmeier-trump-allies-foreign-policy-criticism/) that Canada is "on the menu" for Trump's hemispheric plans. A [viral column](https://finance.yahoo.com/news/trump-venezuela-greenland-threats-canada-130020435.html) in the Globe and Mail warned of the possibility that Trump may use "military coercion" against us.
 
-Some counsel pragmatism. Why risk confrontation over an Arctic island most people can't find on a map? Make a deal. Find an accommodation. Give him something and the crisis passes.
+The case for accommodation isn't foolish. Confrontation has real costs - economic damage, strained alliances, lives disrupted. Leaders carry genuine responsibility to protect their people from unnecessary harm.
+
+Some counsel pragmatic submission. Why risk confrontation over an Arctic island most people can't find on a map? Make a deal. Find an accommodation. Give him something and the crisis passes.
 
 The logic seems sound. It is catastrophically wrong.
 
