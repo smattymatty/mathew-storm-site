@@ -51,7 +51,7 @@ A note on scope: This essay addresses survival within diffuse, centerless system
 
 When systems have a center, when **authoritarianism** has a face, when there are **people** coordinating power - different tactics apply. Anonymous friction is not resistance to **fascism**. 
 
-See [Cost of Submission]((/writing/politics/cost_of_submission/)) and [Unity vs Purity](/writing/politics/unity_v_purity/) for the political response.
+See [Cost of Submission](/writing/politics/cost_of_submission/) and [Unity vs Purity](/writing/politics/unity_v_purity/) for the political response.
 {~~}
 
 ## I. The Space Between
