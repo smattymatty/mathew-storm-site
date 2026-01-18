@@ -16,6 +16,8 @@ keywords: "unity vs purity, coalition building, organizing, anti-fascism, Minnea
 
 ## I. The Concrete Hour
 
+We share the longest undefended border in the world with an increasingly authoritarian regime. They want us fighting over who's the better Canadian while they redraw the map.
+
 On January 3rd, 2026, the United States bombed Caracas, captured a sitting head of state, and announced it would ["run the country"](https://www.cbsnews.com/live-updates/venezuela-us-military-strikes-maduro-trump/) until further notice. At least 40 Venezuelans died. Thirty-two Cubans were killed defending the presidential compound. Trump called it "one of the most stunning, effective and powerful displays of American military might... since World War II."
 
 Nine days later, Trump threatened to take Greenland ["the hard way"](https://www.aljazeera.com/news/2026/1/10/what-are-potential-hard-ways-trump-could-try-to-take-greenland) if Denmark - a founding NATO member - refused to sell. The Danish Prime Minister responded that such an attack would mean ["the end of everything"](https://www.euronews.com/2026/01/05/us-attacking-nato-ally-to-annex-greenland-would-be-end-of-everything-says-danish-pm)- NATO, the postwar order, the basic assumption that allies don't invade each other. European nations have begun [deploying troops to Greenland](https://www.cnn.com/2026/01/15/world/europe-troops-greenland-trump-nato-intl-hnk) in a show of solidarity unprecedented since the Cold War.
@@ -62,8 +64,6 @@ Freud called a related phenomenon the ["narcissism of small differences"](https:
 
 This is why closely allied political factions often fight more bitterly than ideological opposites. The 20% disagreement becomes more salient than the 80% agreement. As the saying goes, the person who agrees with you 80 percent of the time is a friend - not a 20 percent traitor. But under purity spiral conditions, that 20% is precisely what gets weaponized.
 
-Labor organizer [Jane McAlevey](https://commonslibrary.org/jane-mcalevey-organizing-extraordinaire/), a labor organizer who died in 2024, distinguished between mobilization and organization. Mobilization motivates people who already agree with you. Organization "engages with whole populations, including those who have opposing opinions or have yet to form one." Her insight was blunt: "We will not win just by increasing the turnout of the people who already agree with us completely." Winning requires supermajorities - 80% participation or more. That means working with people who don't share your ideology, your analysis, or your vision of the future. It means building bridges before the crisis, so they exist when you need them.
-
 The purity spiral is the opposite of organizing. It shrinks the coalition at exactly the moment it needs to expand. It turns potential allies into enemies. It hands victory to the authoritarian by default - not because the authoritarian was stronger, but because the opposition was too busy fighting itself.
 
 ## V. The Choice Before Us
@@ -76,9 +76,9 @@ This applies whether you are a socialist, a liberal, a progressive, a conservati
 
 What would such a coalition look like today? It would include everyone - left, center, and principled conservatives - who opposes military invasion of sovereign nations, militarized occupation of American cities, presidential threats of martial law, and the use of economic warfare to coerce allies into submission. It would not require agreement on healthcare policy, immigration reform, tax rates, or the proper role of government. It would require only the recognition that what is happening right now is intolerable, and that tolerating it guarantees worse to come.
 
-In Canada, a recent poll showed that 47% of conservatives would make concessions to American annexation pressure. That's the fracture authoritarians exploit - the hope that compliance will buy safety. But 90% of Canadians [oppose annexation outright](https://en.wikipedia.org/wiki/American_expansionism_under_Donald_Trump). The coalition already exists. It crosses party lines. It includes people who disagree about nearly everything except this: we are not for sale. That has to be enough.
+In Canada, a recent poll showed that 47% of conservatives would make concessions to American annexation pressure. That's the fracture authoritarians exploit - the hope that compliance will buy safety. But 90% of Canadians [oppose annexation outright](https://en.wikipedia.org/wiki/American_expansionism_under_Donald_Trump). The coalition already exists and it crosses party lines. It includes people who disagree about nearly everything except this: we are not for sale. That has to be enough.
 
-Militarized forces are in the streets. The threats against allies are not hypothetical; European troops are deploying to Greenland as I write this. Trump has announced, in plain language, his willingness to use military force against American protesters. This is not a drill, nor is it a warning about the future. This is the present tense.
+Militarized forces are in American streets. The threats against allies are not hypothetical; European troops are deploying to Greenland as I write this. Trump has announced, in plain language, his willingness to use military force against American protesters. This is not a drill, nor is it a warning about the future. This is the present tense.
 
 History will record what we did in this moment. It will record whether we found a way to work together despite our differences, or whether we repeated the tragedies of the past - arguing about the shape of the world to come while the world that exists was taken from us. The choice is ours, the hour for choosing is now.
 
