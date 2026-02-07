@@ -181,30 +181,16 @@ body::before {
 }
 
 /* ========================
-   GRADIENT HEADERS
+   HEADERS
    ======================== */
 
 h1, h2 {
-  background: linear-gradient(135deg, #73bed3, #4f8fba);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: inherit;
   position: relative;
   padding-bottom: 0.75rem;
   margin-bottom: 1.5rem;
   line-height: 1.2;
   font-weight: 800;
-}
-
-h1::after, h2::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 40%;
-  height: 2px;
-  background: linear-gradient(90deg, #4f8fba 0%, transparent 100%);
-  border-radius: 2px;
 }
 
 h1 {
@@ -643,10 +629,3 @@ tr:hover td {
     linear-gradient(135deg, #4f8fba, #73bed3) border-box;
 }
 
-/* Text gradient utility */
-.text-gradient-blue {
-  background: linear-gradient(135deg, #73bed3, #4f8fba);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}

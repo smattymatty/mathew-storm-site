@@ -58,9 +58,11 @@ The recursive absurd: "Life has no inherent meaning, so we built an app for that
 
 ## The Three Extensions
 
-### Techno-Absurdism (The Problem)This is Algorithmic Indifference-the evolution from Camus's cosmic indifference. The universe didn't care, but at least it wasn't designed that way. Algorithmic indifference is calculated. It was coded, tested, deployed. Someone decided that your suffering was not a bug worth fixing.
+### Techno-Absurdism (The Problem)
 
-*Essay forthcoming.*
+The recognition that we inhabit systems no human mind can comprehend, not even the minds that built them.
+
+[→ Read the full essay](/writing/philosophy/techno-absurdism/)
 
 **Key terms:**
 

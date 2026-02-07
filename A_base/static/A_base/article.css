@@ -32,10 +32,7 @@
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 1.5rem;
-  background: linear-gradient(135deg, #73bed3, #4f8fba);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: inherit;
 }
 
 /* ========================

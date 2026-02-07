@@ -109,24 +109,17 @@ In *Psychopolitics*, Byung-Chul Han argues that neoliberal power no longer disci
 [→ Explore Neo-Absurdism in depth](/writing/philosophy/neo-absurdism/)
 
 ## IV. The Humanist Response
-
 In recognizing this recursive absurdity, we find something Camus couldn't have imagined: the opportunity to embed rebellion not in the task but in the architecture of the task itself.
 
-In *The Rebel*, Camus wrote that rebellion discovers its own limits - the point where it must say "thus far and no further." But what happens when you're building the very systems that oppress you? The limits aren't discovered; they must be encoded. This is our peculiar burden and our only genuine freedom: we can architect the boundaries of our own imprisonment.
+In The Rebel, Camus wrote that rebellion discovers its own limits — the point where it must say "thus far and no further." But what happens when you're building the very systems that oppress you? The limits aren't discovered; they must be encoded. This is our peculiar burden and our only genuine freedom: we can architect the boundaries of our own imprisonment.
 
-This is **Humanist Absurdism**: not individual acts of coding kindness, but the recognition that our only real rebellion is each other. The systems we've built isolate us, atomize us, make us compete for optimization metrics. They feed on our separation.
-
-The developer who shares salary information despite NDAs. The team that collectively refuses to implement dark patterns. These aren't only acts of compassion - they're acts of solidarity. The recursive absurd wants us alone with our individual boulders. Pushing together is the only rebellion it can't optimize away.
-
-We can't destroy the machine because we are the machine. But machines are made of parts, and parts can organize. When enough components refuse to function properly, even recursive systems fail. Not through grand sabotage but through collective friction. Through the absurd insistence on remaining human together while the system demands we become algorithms alone.
-
-Each compassionate constraint, each preservation of inefficient human agency - these are our acts of revolt. We cannot escape the recursive loops, but we can insert breakpoints. We cannot stop building the boulder that learns, but we can teach it mercy.
+This is Humanist Absurdism: the practice of remaining human when the system wants you to be a component. Not heroic defiance — the heroes get fired, arrested, deported. Not joyful acceptance — there is nothing joyful about processing a human being as a number. Something narrower and more desperate: the daily choice to preserve what the system would optimize away.
 
 {~ accordion title="Han on Negativity as Resistance" ~}
-Han warns that neoliberal psychopolitics eliminates negativity; the capacity to withdraw, to refuse, to say “no.” In the regime of positivity, everything must be optimized, shared, performed, liked. Resistance, then, requires the reintroduction of negativity: spaces of silence, refusal, inefficiency. To embed compassion into systems is to preserve friction, opacity, and the possibility of saying “enough” against the endless imperative of self-optimization.
+Han warns that neoliberal psychopolitics eliminates negativity — the capacity to withdraw, to refuse, to say "no." In the regime of positivity, everything must be optimized, shared, performed, liked. Resistance, then, requires the reintroduction of negativity: spaces of silence, refusal, inefficiency. To embed compassion into systems is to preserve friction, opacity, and the possibility of saying "enough" against the endless imperative of self-optimization.
 {~~}
 
-This is neither Camus's heroic defiance nor his joyful acceptance. It is something more modest and more desperate: the attempt to remain human while building machines, to preserve what is useless and beautiful while optimizing everything else. Small choices, embedded everywhere, preserving humanity one interaction at a time.
+The recursive absurd wants us alone with our individual boulders. It atomizes, isolates, makes us compete for optimization metrics. Every system we've built feeds on our separation. But the architecture that imprisons us was built by human hands, and human hands can leave doors in the walls — not for ourselves, but for whoever comes through next.
 
 [→ Explore Humanist Absurdism in depth](/writing/philosophy/humanist-absurdism/)
 

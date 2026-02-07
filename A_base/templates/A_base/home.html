@@ -13,7 +13,7 @@
 
 <div id="projects"></div>
 
-<h2>Storm Developments</h2>
+<h2 class="sb-text-3xl sb-font-bold sb-text-primary sb-mb-6 sb-mt-8" data-storm="fade-in">Storm Developments</h2>
 
 {% spellblock 'project_card' project='storm-cloud' title='Storm Cloud Server' description='Self-hostable cloud storage with API key authentication and federated transparency via ActivityPub. Built for organizations that need sovereign infrastructure with public audit trails. Features file sharing, public links with expiry, and auto-posting to Fediverse timelines for organizational transparency.' status='Production Ready' tech='Django 5.2|Django REST Framework|ActivityPub|GoToSocial' stats='Status:Production|License:MIT' github='https://github.com/stormdevelopments/storm-cloud-server' docs='https://github.com/stormdevelopments/storm-cloud-server#readme' %}
 {% endspellblock %}
@@ -26,14 +26,24 @@
 
 {{ about_section|safe }}
 
-<h2>Writing</h2>
-
-<p>Essays on what it means to build in the age of machines.</p>
-
-<ul>
-<li><a href="/writing/philosophy/the-recursive-absurd/">The Recursive Absurd</a> - We don't discover meaninglessness anymore; we manufacture it.</li>
-<li><a href="/writing/philosophy/humanist-absurdism/">Humanist Absurdism</a> - Choosing to be a person when the system wants you to be a component.</li>
-</ul>
+<section class="sb-mt-12" data-storm="fade-in" data-storm-delay="200">
+  <h2 class="sb-text-3xl sb-font-bold sb-text-primary sb-mb-4">Writing</h2>
+  <p class="sb-text-lg sb-text-secondary sb-mb-6">Essays on what it means to build in the age of machines.</p>
+  <ul class="sb-space-y-4">
+    <li data-storm="slide-up" data-storm-delay="100">
+      <a href="/writing/philosophy/the-recursive-absurd/"
+         class="sb-text-accent sb-hover:text-primary sb-font-medium"
+         data-storm-hover="lift">The Recursive Absurd</a>
+      <span class="sb-text-secondary"> - We don't discover meaninglessness anymore; we manufacture it.</span>
+    </li>
+    <li data-storm="slide-up" data-storm-delay="200">
+      <a href="/writing/philosophy/humanist-absurdism/"
+         class="sb-text-accent sb-hover:text-primary sb-font-medium"
+         data-storm-hover="lift">Humanist Absurdism</a>
+      <span class="sb-text-secondary"> - Choosing to be a person when the system wants you to be a component.</span>
+    </li>
+  </ul>
+</section>
 
 {{ connect_section|safe }}
 
