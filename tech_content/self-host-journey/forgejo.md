@@ -2,7 +2,7 @@
 title: Why I Left GitHub for Forgejo
 created: 2026-02-17
 tags:
-  - self host
+  - selfhost
   - git
   - forgejo
 ---
@@ -194,9 +194,11 @@ Drop a `home.tmpl` in `templates/` (not `templates/custom/` - this one replaces 
 The only Forgejo template syntax you need:
 
 ```
+{% verbatim %}
 {{template "base/head" .}}
 <!-- your HTML here -->
 {{template "base/footer" .}}
+{% endverbatim %}
 ```
 
 That gives you Forgejo's `<head>` tag (with all its JS and base CSS) and its closing scripts. Everything in between is yours.

@@ -1,0 +1,169 @@
+{% extends 'A_base/sb_base.html' %}
+
+{% block spellbook_md %}
+<h1 id="why-i-left-github-for-forgejo">Why I Left GitHub for Forgejo</h1>
+<p>I am starting a company that positions ourselves as 'champions of Canadian digital sovereignty' - we are building cloud infrastructure products like object storage and a cloud CMS, all hosted in Canada on Canadian-owned servers. But the source code for those products? That was on GitHub.</p>
+<p>GitHub is owned by Microsoft. If we're going to tell Canadian organizations to get their data off American servers, our own company's code can't live on one. So I set up Forgejo.</p>
+<h2 id="what-is-forgejo">What is Forgejo?</h2>
+<p><a href="https://forgejo.org/">Forgejo</a> is a self-hosted Git forge. Think GitHub, but you run it yourself on your own server. It's a fork of <a href="https://about.gitea.com/">Gitea</a>, maintained by a community instead of a corporation. It's written in Go, ships as a single binary or Docker image, and runs on basically nothing — under 512MB of RAM.</p>
+<p>It does pull requests, issues, CI/CD (Forgejo Actions, compatible with GitHub Actions), package registries, and everything else you'd actually use day-to-day.</p>
+<p><a href="https://forgejo.org">Forgejo project site</a></p>
+<h2 id="why-self-host-your-own-git">Why Self-Host Your Own Git?</h2>
+<p>This isn't a "GitHub bad" post. GitHub is a great product. I still use it for my personal projects and open source packages. That's fine - those are mine, and GitHub is convenient for discoverability.</p>
+<p>But company code is different. If I'm telling Canadian organizations that their data should live on Canadian servers, owned by Canadian companies, then my own company's code should too. I can't sell sovereignty and then push code commits to Microsoft.</p>
+<p>There's also the practical argument. GitHub has had outages, they've changed their policies, and they have suspended repos/accounts with little warning. When you self-host, none of that is your problem. Your forge is up when you say it's up. Your repos exist because you say they exist.</p>
+<p>And honestly? It just feels right. When I push code to <code>git.stormdevelopments.ca</code>, it goes to a server in Canada, hosted by a Canadian company, running on my infrastructure. That's not a service I'm borrowing from a trillion-dollar American corporation. That's mine.</p>
+<p>The whole setup took me about 30 minutes with Docker.</p>
+<h2 id="how-i-set-it-up">How I Set It Up</h2>
+<p>I'm running this on a VPS from <a href="https://canadawebhosting.com">canadawebhosting.com</a> - a Canadian-owned hosting provider based in Kelowna, BC. It's their cheapest plan: $6.95 CAD/month, 1 vCore, 1GB RAM, 20GB storage. That's it. That's the whole server.</p>
+<h3 id="docker-compose">Docker Compose</h3>
+<p>Forgejo runs as a Docker container. I put Caddy in front of it for automatic HTTPS. The entire deployment is two files in <code>/opt/forgejo/</code>:</p>
+<p><strong>docker-compose.yml:</strong></p>
+<pre><code class="language-yaml">networks:
+  forgejo:
+    external: false
+
+services:
+  forgejo:
+    image: codeberg.org/forgejo/forgejo:13
+    container_name: forgejo
+    environment:
+
+      - USER_UID=1000
+
+      - USER_GID=1000
+
+      - FORGEJO__server__DOMAIN=git.stormdevelopments.ca
+
+      - FORGEJO__server__ROOT_URL=https://git.stormdevelopments.ca/
+
+      - FORGEJO__server__HTTP_PORT=3000
+
+      - &quot;FORGEJO__DEFAULT__APP_NAME=Storm Forge: Canadian Code. Canadian Servers.&quot;
+    restart: always
+    networks:
+
+      - forgejo
+    volumes:
+
+      - ./forgejo-data:/data
+
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+
+      - &quot;3000:3000&quot;
+
+      - &quot;2222:22&quot;
+
+  caddy:
+    image: caddy:2
+    container_name: caddy
+    restart: always
+    networks:
+
+      - forgejo
+    ports:
+
+      - &quot;80:80&quot;
+
+      - &quot;443:443&quot;
+    volumes:
+
+      - ./Caddyfile:/etc/caddy/Caddyfile
+
+      - ./caddy-data:/data
+
+      - ./caddy-config:/config
+</code></pre>
+<p><strong>Caddyfile:</strong></p>
+<pre><code>git.stormdevelopments.ca {
+    reverse_proxy forgejo:3000
+}
+</code></pre>
+<p>That's the entire Caddyfile. <a href="https://caddyserver.com/">Caddy</a> handles Let's Encrypt certificates automatically - no certbot, cron jobs, or renewal scripts are needed!</p>
+<h3 id="dns">DNS</h3>
+<p>One A record: <code>git.stormdevelopments.ca → my VPS IP</code>. Wait for propagation.</p>
+<h3 id="security">Security</h3>
+<p>I took a few steps to ensure the VPS is a little more secure - fail2ban, SSH hardening, rate limits, etc. This isn't the blog to go in-depth on that, but it's worth mentioning</p>
+<h3 id="launch">Launch</h3>
+<pre><code class="language-bash">cd /opt/forgejo
+docker compose up -d
+</code></pre>
+<p>Hit <code>https://git.stormdevelopments.ca</code>, run through the setup wizard. I picked SQLite for the database - it's just me and maybe a couple contributors, not a company of 500. Disabled self-registration because this isn't a public forge.</p>
+<p>The whole thing was up and serving HTTPS in under a minute after the containers pulled. Page load: 4ms. Template render: 1ms. On a $7 VPS.</p>
+<h2 id="making-it-look-like-yours">Making It Look Like Yours</h2>
+<p>Out of the box, Forgejo looks like Forgejo. That's fine for most people, but I wanted visitors to <code>git.stormdevelopments.ca</code> to see Storm Developments branding - not a default install with the Forgejo logo.</p>
+<p>Forgejo supports custom templates. You create files in specific paths inside the data volume and they get injected into every page. No forking the codebase, no rebuilding from source.</p>
+<h3 id="file-structure">File Structure</h3>
+<p>Everything lives under <code>forgejo-data/gitea/</code> inside your Docker volume.</p>
+<pre><code>forgejo-data/gitea/
+├── templates/
+│   ├── home.tmpl                          # Full homepage replacement
+│   └── custom/
+│       ├── header.tmpl                    # Injected at top of every page
+│       ├── footer.tmpl                    # Injected at bottom of every page
+│       └── extra_links.tmpl               # Extra &lt;meta&gt; tags in &lt;head&gt;
+└── public/assets/
+    ├── css/
+    │   ├── custom.css                     # Nav + footer styles
+    │   ├── storm-forgejo-theme.css        # Full theme overrides
+    │   └── home.css                       # Homepage-specific styles
+    └── img/
+        ├── logo.svg                       # Replaces Forgejo logo sitewide
+        └── favicon.svg                    # Browser tab icon
+</code></pre>
+<h3 id="the-nav-and-footer">The Nav and Footer</h3>
+<p><img alt="my custom navbar in action" src="https://i.imgur.com/T02grf7.png" /></p>
+<p><code>header.tmpl</code> and <code>footer.tmpl</code> get injected on every page automatically. I wrote a nav that matches my main site - same glassmorphism dark bar, same ⚡ logo, same links back to <code>stormdevelopments.ca</code>. The footer is the same one from my main site with hardcoded URLs instead of Django template tags.</p>
+<p>The key thing people miss: <strong>your custom CSS doesn't load automatically.</strong> You need a <code>&lt;link&gt;</code> tag in <code>header.tmpl</code> to pull it in, otherwise the CSS file just sits there doing nothing.</p>
+<pre><code class="language-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/custom.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/storm-forgejo-theme.css&quot;&gt;
+</code></pre>
+<p>Forgejo serves anything in <code>public/</code> at the root path, so <code>/assets/css/custom.css</code> maps to <code>forgejo-data/gitea/public/assets/css/custom.css</code>.</p>
+<h3 id="theme-overrides">Theme Overrides</h3>
+<p>The theme CSS is just class overrides — I didn't touch any HTML. Forgejo uses Fomantic UI (a Semantic UI fork), so you're overriding classes like <code>.ui.segment</code>, <code>.ui.button</code>, <code>.ui.dropdown .menu</code>, etc. I mapped everything to my brand palette:</p>
+<pre><code class="language-css">:root {
+    --storm-electric: #00d4ff;
+    --storm-primary: #1e90ff;
+    --storm-dark: #050505;
+    --storm-surface: #0a0a0a;
+    --storm-border: #2d3748;
+}
+</code></pre>
+<p>Backgrounds, links, buttons, dropdowns, inputs, repo file trees, README rendering, flash messages - all reskinned with <code>!important</code> overrides. It's not the most elegant styling solution in the world, but it works without having to modify a single line of Forgejo source.</p>
+<h3 id="replacing-the-logo">Replacing the Logo</h3>
+<p>Forgejo hardcodes <code>logo.svg</code> in its templates. You can't just drop a PNG in there and call it done — it loads <code>logo.svg</code> specifically. The workaround is to base64-encode your PNG and embed it inside an SVG:</p>
+<pre><code class="language-bash">B64=$(base64 -w0 logo.png)
+cat &gt; logo.svg &lt;&lt;EOF
+&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; width=&quot;256&quot; height=&quot;256&quot;&gt;
+  &lt;image width=&quot;256&quot; height=&quot;256&quot; xlink:href=&quot;data:image/png;base64,${B64}&quot;/&gt;
+&lt;/svg&gt;
+EOF
+</code></pre>
+<h3 id="custom-homepage">Custom Homepage</h3>
+<p>This is the big one. By default, logged-out visitors see Forgejo's generic landing page — "A painless, self-hosted Git service" with feature cards about cross-platform support. That screams "I installed Forgejo." Not what I want.</p>
+<p>Drop a <code>home.tmpl</code> in <code>templates/</code> (not <code>templates/custom/</code> - this one replaces the whole page) and you can build whatever you want. Mine has a hero section, sovereignty messaging, project cards for all Storm Developments products, and the company footer. It links to an external <code>home.css</code> for maintainability.</p>
+<p><img alt="my homepage" src="https://i.imgur.com/EiWV36p.png" /></p>
+<p>The only Forgejo template syntax you need:</p>
+<pre><code>{% verbatim %}
+{{template &quot;base/head&quot; .}}
+&lt;!-- your HTML here --&gt;
+{{template &quot;base/footer&quot; .}}
+{% endverbatim %}
+</code></pre>
+<p>That gives you Forgejo's <code>&lt;head&gt;</code> tag (with all its JS and base CSS) and its closing scripts. Everything in between is yours.</p>
+<h3 id="opengraph-discord-previews">OpenGraph / Discord Previews</h3>
+<p>If you share your forge link on Discord or Mastodon, it'll show Forgejo's default description unless you override it. <code>extra_links.tmpl</code> lets you add <code>&lt;meta&gt;</code> tags, but Forgejo's own OG tags load first and win. The fix is in <code>app.ini</code>:</p>
+<pre><code class="language-ini">[ui.meta]
+DESCRIPTION = Git hosting by Storm Developments. Repos, issues, CI/CD - never leaves Canada.
+</code></pre>
+<p>After all this, <code>git.stormdevelopments.ca</code> doesn't look like a Forgejo install. It looks like a product.</p>
+<h2 id="was-it-worth-it">Was It Worth It?</h2>
+<p>Yes. Unambiguously.</p>
+<p>The total cost is $6.95 CAD/month. The setup took 30 minutes. The branding took a few hours because I'm picky, but you could skip all of that and have a perfectly functional private Git forge in the time it takes to make coffee.</p>
+<p>Right now, Storm Forge is private - just our company's code. But it doesn't have to stay that way.</p>
+<p>Canada doesn't have a Codeberg. There's no Canadian-hosted, Canadian-owned Git forge where developers can push code and know it stays here. Every Canadian developer on GitHub, GitLab, or Bitbucket is storing their source code on American servers, subject to American law. That's the same problem Storm Cellar aims to solve for object storage - and Storm Forge could solve it for code.</p>
+<p>I'm not announcing anything yet. But the infrastructure is there, the branding is there, and the demand is obvious to anyone paying attention to Canadian tech policy right now.</p>
+<p>If you're a Canadian developer who cares about where your code lives, keep an eye on <a href="https://git.stormdevelopments.ca">git.stormdevelopments.ca</a></p>
+<p>The forge is lit. We'll see how big the fire gets.</p>
+{% endblock %}
