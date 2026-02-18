@@ -6,7 +6,7 @@ tags:
   - selfhost
   - git
   - forgejo
-description: "I'm building a company that champions Canadian digital sovereignty — but our source code was on GitHub, owned by Microsoft. So I set up Forgejo."
+description: "I'm building a company that champions Canadian digital sovereignty - but our source code was on GitHub, owned by Microsoft. So I set up Forgejo."
 ---
 
 # Why I Left GitHub for Forgejo
