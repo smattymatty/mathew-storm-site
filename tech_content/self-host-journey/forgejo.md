@@ -37,7 +37,7 @@ The whole setup took me about 30 minutes with Docker.
 
 ## How I Set It Up
 
-I'm running this on a VPS from [canadawebhosting.com](https://canadawebhosting.com) - a Canadian-owned hosting provider based in Kelowna, BC. It's their cheapest plan: $6.95 CAD/month, 1 vCore, 1GB RAM, 20GB storage. That's it. That's the whole server.
+I'm running this on a VPS from [canadianwebhosting.com](https://canadianwebhosting.com/) - a Canadian-owned hosting provider based in Kelowna, BC. It's their cheapest plan: $6.95 CAD/month, 1 vCore, 1GB RAM, 20GB storage. That's it. That's the whole server.
 
 ### Docker Compose
 
