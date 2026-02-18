@@ -16,6 +16,7 @@ class PostEntry:
     tags: list
     category: str
     priority: float
+    featured: bool
 
 
 def _parse_date(value) -> Optional[datetime]:
@@ -99,6 +100,8 @@ def get_all_posts() -> list[PostEntry]:
             tags = metadata.get('tags', []) if isinstance(metadata.get('tags'), list) else []
             priority = float(metadata.get('sitemap_priority', 0.5))
 
+            featured = bool(metadata.get('featured', False))
+
             posts.append(PostEntry(
                 title=title,
                 path=_url_from_md_path(md_file, content_dir, url_prefix),
@@ -107,6 +110,7 @@ def get_all_posts() -> list[PostEntry]:
                 tags=tags,
                 category=url_prefix,
                 priority=priority,
+                featured=featured,
             ))
 
     posts.sort(key=lambda p: p.published or datetime.min, reverse=True)
@@ -114,4 +118,4 @@ def get_all_posts() -> list[PostEntry]:
 
 
 def get_featured_posts(posts: list[PostEntry]) -> list[PostEntry]:
-    return [p for p in posts if p.priority >= 0.9]
+    return [p for p in posts if p.featured]
