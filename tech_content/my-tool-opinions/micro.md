@@ -5,6 +5,12 @@ tags:
   - tools
   - terminal
   - editor
+description: "Why I switched from nano and vim to Micro for editing config files on VPSes. A terminal text editor with sane keybindings, syntax highlighting, and zero learning curve."
+keywords: "micro editor, terminal text editor, nano alternative, vim alternative, linux editor, ssh editor, server administration"
+schema_type: Article
+og_type: article
+sitemap_priority: 0.6
+sitemap_changefreq: monthly
 ---
 
 # Micro - The Terminal Editor Between Nano and Vim

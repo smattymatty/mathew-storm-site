@@ -7,6 +7,11 @@ tags:
   - git
   - forgejo
 description: "I'm building a company that champions Canadian digital sovereignty - but our source code was on GitHub, owned by Microsoft. So I set up Forgejo."
+keywords: "forgejo, self-hosted git, github alternative, canadian digital sovereignty, git forge, docker, caddy, storm developments"
+schema_type: Article
+og_type: article
+sitemap_priority: 0.8
+sitemap_changefreq: monthly
 ---
 
 # Why I Left GitHub for Forgejo
