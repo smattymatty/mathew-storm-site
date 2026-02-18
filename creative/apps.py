@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class WritingConfig(AppConfig):
+class CreativeConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'writing'
+    name = 'creative'

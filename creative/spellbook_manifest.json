@@ -1,61 +1,54 @@
 {
-  "generated_at": "2026-02-18T09:57:30.769489Z",
-  "app_name": "writing",
+  "generated_at": "2026-02-18T16:42:13.169417Z",
+  "app_name": "creative",
   "pages": [
     {
-      "path": "/writing/intro/",
-      "title": "Writing",
+      "path": "/creative/intro/",
+      "title": "Creative Writing",
       "lastmod": "2025-12-21",
       "priority": 0.7,
       "changefreq": "weekly"
     },
     {
-      "path": "/writing/politics/cost_of_submission/",
+      "path": "/creative/politics/cost_of_submission/",
       "title": "The Cost of Submission: The Appetite That Grows",
       "lastmod": "2026-01-17"
     },
     {
-      "path": "/writing/politics/unity_v_purity/",
+      "path": "/creative/politics/unity_v_purity/",
       "title": "Unity vs Purity: The Authoritarian Default",
       "lastmod": "2026-01-16"
     },
     {
-      "path": "/writing/philosophy/humanist-absurdism/",
+      "path": "/creative/philosophy/humanist-absurdism/",
       "title": "Humanist Absurdism: Choosing Humanity",
       "lastmod": "2025-12-21",
       "priority": 0.9,
       "changefreq": "monthly"
     },
     {
-      "path": "/writing/philosophy/philosophy_glossary/",
+      "path": "/creative/philosophy/philosophy_glossary/",
       "title": "Philosophical Glossary",
       "lastmod": "2025-12-21",
       "priority": 0.7,
       "changefreq": "monthly"
     },
     {
-      "path": "/writing/philosophy/neo-absurdism/",
-      "title": "Neo Absurdism: the trap of self Optimization",
-      "lastmod": "2026-02-07",
-      "priority": 0.9,
-      "changefreq": "monthly"
-    },
-    {
-      "path": "/writing/philosophy/techno-absurdism/",
+      "path": "/creative/philosophy/techno-absurdism/",
       "title": "Techno Absurdism: the architecture of incomprehension",
       "lastmod": "2025-12-25",
       "priority": 0.9,
       "changefreq": "monthly"
     },
     {
-      "path": "/writing/philosophy/the-recursive-absurd/",
+      "path": "/creative/philosophy/the-recursive-absurd/",
       "title": "The Recursive Absurd: A Digital Addendum to Sisyphus",
       "lastmod": "2025-12-20",
       "priority": 1.0,
       "changefreq": "monthly"
     },
     {
-      "path": "/writing/philosophy/philosophy_index/",
+      "path": "/creative/philosophy/philosophy_index/",
       "title": "Philosophical Index",
       "lastmod": "2025-12-21",
       "priority": 0.8,

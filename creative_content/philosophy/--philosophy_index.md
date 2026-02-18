@@ -24,7 +24,7 @@ Don't let the machine grind the humanity out of you. Build stuff that makes life
 
 A working collection of ideas at the intersection of technology, absurdism, and humanity.
 
-[Essay on The Recursive Absurd](/writing/philosophy/the-recursive-absurd/)
+[Essay on The Recursive Absurd](/creative/philosophy/the-recursive-absurd/)
 
 ## The Recursive Condition
 
@@ -58,7 +58,7 @@ Techno-Absurdism names the condition in which systems continue to function and e
 - Document not just what but why
 - Preserve human understanding alongside automation
 
-[→ Explore Techno-Absurdism in depth](/writing/philosophy/techno-absurdism/)
+[→ Explore Techno-Absurdism in depth](/creative/philosophy/techno-absurdism/)
 
 ### Neo-Absurdism (The Trap)
 
@@ -82,7 +82,7 @@ Neo-Absurdism describes how subjects remain operational inside incomprehensible 
 - Refuse to package your suffering as advice
 - Sometimes the only rebellion is refusing to monetize the rebellion
 
-[→ Explore Humanist Absurdism in depth](/writing/philosophy/neo-absurdism/)
+[→ Explore Humanist Absurdism in depth](/creative/philosophy/neo-absurdism/)
 
 ### Humanist Absurdism (The Remedy)
 
@@ -105,7 +105,7 @@ The practice of remaining human inside systems that cannot be escaped, reasoned 
 - Does this make people more capable or more dependent?
 - What breaks when I'm gone?
 
-[→ Explore Humanist Absurdism in depth](/writing/philosophy/humanist-absurdism/)
+[→ Explore Humanist Absurdism in depth](/creative/philosophy/humanist-absurdism/)
 
 ---
 

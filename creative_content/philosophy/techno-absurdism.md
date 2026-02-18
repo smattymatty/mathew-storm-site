@@ -22,7 +22,7 @@ sitemap_changefreq: monthly
 
 *We've built a prison of logic that learns to perfect itself.*
 
-[The Recursive Absurd](/writing/philosophy/the-recursive-absurd/)
+[The Recursive Absurd](/creative/philosophy/the-recursive-absurd/)
 
 {~ accordion title="Summary" ~}
 Techno-Absurdism is the recognition that we inhabit systems no human mind can comprehend, not even the minds that built them.

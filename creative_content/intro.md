@@ -1,5 +1,5 @@
 ---
-title: Writing
+title: Creative Writing
 published: 2024-01-15
 modified: 2025-12-21
 author: Mathew Storm
@@ -19,7 +19,7 @@ sitemap_priority: 0.7
 sitemap_changefreq: weekly
 ---
 
-# Writing
+# Creative Writing
 
 Exploring the intersection of technology and philosophy.
 

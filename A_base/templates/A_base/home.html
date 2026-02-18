@@ -17,6 +17,7 @@
     {% for post in featured_posts %}
     <a href="{{ post.path }}" class="featured-card" data-storm="fade-in" data-storm-delay="{{ forloop.counter0|multiply:150 }}">
       <span class="post-category post-category--{{ post.category }}">{{ post.category }}</span>
+      {% if post.subcategory %}<span class="post-subcategory">{{ post.subcategory }}</span>{% endif %}
       <h3 class="sb-text-xl sb-font-semibold sb-mb-2">{{ post.title }}</h3>
       {% if post.description %}
         <p class="sb-text-secondary sb-text-sm">{{ post.description }}</p>
@@ -39,6 +40,7 @@
     <a href="{{ post.path }}" class="post-item">
       <div class="post-item-meta">
         <span class="post-category post-category--{{ post.category }}">{{ post.category }}</span>
+        {% if post.subcategory %}<span class="post-subcategory">{{ post.subcategory }}</span>{% endif %}
         {% if post.published %}
           <time class="post-date" datetime="{{ post.published|date:'Y-m-d' }}">
             {{ post.published|date:"M d, Y" }}

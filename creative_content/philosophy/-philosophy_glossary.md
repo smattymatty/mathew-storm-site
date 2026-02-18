@@ -28,7 +28,7 @@ A working lexicon for the recursive condition.
 
 The core condition. We no longer discover absurdity; we manufacture it. Systems built to solve meaningless problems have become our new meaning. There is no base case, no unwinding - just deeper loops.
 
-[→ Read the full essay](/writing/philosophy/the-recursive-absurd/)
+[→ Read the full essay](/creative/philosophy/the-recursive-absurd/)
 
 **Terminology:**
 
@@ -62,7 +62,7 @@ The recursive absurd: "Life has no inherent meaning, so we built an app for that
 
 The recognition that we inhabit systems no human mind can comprehend, not even the minds that built them.
 
-[→ Read the full essay](/writing/philosophy/techno-absurdism/)
+[→ Read the full essay](/creative/philosophy/techno-absurdism/)
 
 **Key terms:**
 
@@ -80,7 +80,7 @@ The recognition that we inhabit systems no human mind can comprehend, not even t
 
 The radical act of choosing humanity within dehumanizing systems. The daily practice of maintaining humanity within systems designed to eliminate it.
 
-[→ Read the full essay](/writing/philosophy/humanist-absurdism/)
+[→ Read the full essay](/creative/philosophy/humanist-absurdism/)
 
 **Terminology:**
 

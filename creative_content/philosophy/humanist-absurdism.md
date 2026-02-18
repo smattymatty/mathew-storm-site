@@ -22,10 +22,10 @@ sitemap_changefreq: monthly
 
 *Choosing to be a person when the system wants you to be a component.*
 
-[The Recursive Absurd](/writing/philosophy/the-recursive-absurd/)
+[The Recursive Absurd](/creative/philosophy/the-recursive-absurd/)
 
 {~ accordion title="Summary" ~}
-Humanist Absurdism emerges from the collision of two recognitions: we inhabit systems beyond our comprehension ([Techno-Absurdism](/writing/philosophy/philosophy_index/)), and we optimize our own imprisonment within them ([Neo-Absurdism](/writing/philosophy/philosophy_index/)).
+Humanist Absurdism emerges from the collision of two recognitions: we inhabit systems beyond our comprehension ([Techno-Absurdism](/creative/philosophy/philosophy_index/)), and we optimize our own imprisonment within them ([Neo-Absurdism](/creative/philosophy/philosophy_index/)).
 
 These are diagnoses. Humanist Absurdism is the response - the daily practice of maintaining humanity within systems designed to eliminate it.
 
@@ -51,7 +51,7 @@ A note on scope: This essay addresses survival within diffuse, centerless system
 
 When systems have a center, when **authoritarianism** has a face, when there are **people** coordinating power - different tactics apply. Anonymous friction is not resistance to **fascism**. 
 
-See [Cost of Submission](/writing/politics/cost_of_submission/) and [Unity vs Purity](/writing/politics/unity_v_purity/) for the political response.
+See [Cost of Submission](/creative/politics/cost_of_submission/) and [Unity vs Purity](/creative/politics/unity_v_purity/) for the political response.
 {~~}
 
 ## I. The Space Between

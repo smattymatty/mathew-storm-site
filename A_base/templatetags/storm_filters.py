@@ -49,7 +49,7 @@ def _url_name_to_path(app_name, url_name):
     """
     Convert a url_name back to a path.
     url_name: philosophy_humanist-absurdism
-    returns: writing/philosophy/humanist-absurdism
+    returns: creative/philosophy/humanist-absurdism
     """
     # Replace underscores with slashes to reconstruct path
     # This works because url_name is created by: clean_url.replace('/', '_')
@@ -63,7 +63,7 @@ def page_title(namespaced_url):
     Look up the page title from a namespaced URL.
 
     Usage: {{ prev_page|page_title }}
-    Input: "writing:philosophy_humanist-absurdism"
+    Input: "creative:philosophy_humanist-absurdism"
     Output: "Humanist Absurdism: Choosing Humanity"
     """
     if not namespaced_url or ':' not in namespaced_url:

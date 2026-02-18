@@ -149,7 +149,7 @@ body {
   letter-spacing: 0.04em;
 }
 
-.post-category--writing {
+.post-category--creative {
   background: rgba(222, 158, 65, 0.15);
   color: #e8c170;
 }
@@ -157,6 +157,17 @@ body {
 .post-category--tech {
   background: rgba(79, 143, 186, 0.15);
   color: #73bed3;
+}
+
+.post-subcategory {
+  display: inline-block;
+  padding: 0.125rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  background: rgba(87, 114, 119, 0.2);
+  color: var(--text-secondary-color);
 }
 
 .post-date {

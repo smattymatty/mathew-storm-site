@@ -88,7 +88,7 @@ An algorithm is indifferent to you the way a factory is indifferent to the pig o
 
 The incomprehensibility of these recursive loops is a feature, not a bug; it is an obfuscation that protects the system's core function from scrutiny.
 
-[→ Explore Techno-Absurdism in depth](/writing/philosophy/techno-absurdism/)
+[→ Explore Techno-Absurdism in depth](/creative/philosophy/techno-absurdism/)
 
 ## III. The Recursion of Suffering
 
@@ -106,7 +106,7 @@ The original punishment was elegant in its simplicity. But our boulders evolve. 
 In *Psychopolitics*, Byung-Chul Han argues that neoliberal power no longer disciplines from outside but operates from within, turning freedom into compulsion. We quantify ourselves, compete against ourselves, and call it autonomy; but this “voluntary self-exploitation” is more effective than any external domination.  
 {~~}  
 
-[→ Explore Neo-Absurdism in depth](/writing/philosophy/neo-absurdism/)
+[→ Explore Neo-Absurdism in depth](/creative/philosophy/neo-absurdism/)
 
 ## IV. The Humanist Response
 In recognizing this recursive absurdity, we find something Camus couldn't have imagined: the opportunity to embed rebellion not in the task but in the architecture of the task itself.
@@ -121,7 +121,7 @@ Han warns that neoliberal psychopolitics eliminates negativity — the capacity 
 
 The recursive absurd wants us alone with our individual boulders. It atomizes, isolates, makes us compete for optimization metrics. Every system we've built feeds on our separation. But the architecture that imprisons us was built by human hands, and human hands can leave doors in the walls — not for ourselves, but for whoever comes through next.
 
-[→ Explore Humanist Absurdism in depth](/writing/philosophy/humanist-absurdism/)
+[→ Explore Humanist Absurdism in depth](/creative/philosophy/humanist-absurdism/)
 
 ## V. The Final Recursion
 

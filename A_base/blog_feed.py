@@ -15,6 +15,7 @@ class PostEntry:
     description: str
     tags: list
     category: str
+    subcategory: str
     priority: float
     featured: bool
 
@@ -102,6 +103,13 @@ def get_all_posts() -> list[PostEntry]:
 
             featured = bool(metadata.get('featured', False))
 
+            relative = md_file.relative_to(content_dir)
+            if len(relative.parts) > 1:
+                raw_subcat = relative.parts[0].lstrip('-')
+                subcategory = raw_subcat.replace('-', ' ').title()
+            else:
+                subcategory = ''
+
             posts.append(PostEntry(
                 title=title,
                 path=_url_from_md_path(md_file, content_dir, url_prefix),
@@ -109,6 +117,7 @@ def get_all_posts() -> list[PostEntry]:
                 description=description,
                 tags=tags,
                 category=url_prefix,
+                subcategory=subcategory,
                 priority=priority,
                 featured=featured,
             ))
