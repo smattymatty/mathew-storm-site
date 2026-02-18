@@ -1,52 +1,57 @@
 {% extends "A_base/base.html" %}
-{% load static spellbook_tags %}
+{% load storm_filters %}
 
 {% block content %}
-{# Hero section - FULL WIDTH, outside content wrapper #}
-</div> {# Close content-wrapper from base.html #}
 
-{% spellblock 'storm_hero' title='Mathew Storm' tagline='<p>Founder of <a href="https://stormdevelopments.ca">Storm Developments</a>. Open source advocate. Tech activist building alternatives to corporate infrastructure.</p><p>I run <a href="https://socialontario.ca">Social Ontario</a> and <a href="https://northtube.ca">NorthTube</a> - real community platforms on the Fediverse.</p><p>I <a href="/writing/philosophy/philosophy_index/">write about technology and meaning</a> - how the tools we build shape us back.</p>' cta_text='View Projects' cta_link='#projects' %}
-{% endspellblock %}
-
-{# Re-open content wrapper for the rest of the content #}
-<div class="content-wrapper">
-
-<div id="projects"></div>
-
-<h2 class="sb-text-3xl sb-font-bold sb-text-primary sb-mb-6 sb-mt-8" data-storm="fade-in">Storm Developments</h2>
-
-{% spellblock 'project_card' project='storm-cloud' title='Storm Cloud Server' description='Self-hostable cloud storage with API key authentication and federated transparency via ActivityPub. Built for organizations that need sovereign infrastructure with public audit trails. Features file sharing, public links with expiry, and auto-posting to Fediverse timelines for organizational transparency.' status='Production Ready' tech='Django 5.2|Django REST Framework|ActivityPub|GoToSocial' stats='Status:Production|License:MIT' github='https://github.com/stormdevelopments/storm-cloud-server' docs='https://github.com/stormdevelopments/storm-cloud-server#readme' %}
-{% endspellblock %}
-
-{% spellblock 'project_card' project='spellbook' title='Django Spellbook' description='Markdown-based CMS framework for Django. Write content in markdown with custom SpellBlocks, auto-generate views and URLs. Eliminates traditional CMS overhead. Published on PyPI, praised by Django President Thibaud Colas.' status='Stable' tech='Django|Python|Markdown' stats='GitHub Stars:24|PyPI Downloads:10,000+' github='https://github.com/smattymatty/django_spellbook' pypi='https://pypi.org/project/django-spellbook/' docs='https://django-spellbook.org' %}
-{% endspellblock %}
-
-{% spellblock 'project_card' project='mercury' title='Django Mercury' description='Performance testing framework for Django APIs. Catch N+1 queries and performance regressions before deployment. Simple context manager API for integration into existing test suites.' status='Active Development' tech='Django|Python|Performance Testing' stats='Focus:Developer Experience|Type:Testing Tool' github='https://github.com/80-20-Human-In-The-Loop/Django-Mercury-Performance-Testing' %}
-{% endspellblock %}
-
-{{ about_section|safe }}
-
-<section class="sb-mt-12" data-storm="fade-in" data-storm-delay="200">
-  <h2 class="sb-text-3xl sb-font-bold sb-text-primary sb-mb-4">Writing</h2>
-  <p class="sb-text-lg sb-text-secondary sb-mb-6">Essays on what it means to build in the age of machines.</p>
-  <ul class="sb-space-y-4">
-    <li data-storm="slide-up" data-storm-delay="100">
-      <a href="/writing/philosophy/the-recursive-absurd/"
-         class="sb-text-accent sb-hover:text-primary sb-font-medium"
-         data-storm-hover="lift">The Recursive Absurd</a>
-      <span class="sb-text-secondary"> - We don't discover meaninglessness anymore; we manufacture it.</span>
-    </li>
-    <li data-storm="slide-up" data-storm-delay="200">
-      <a href="/writing/philosophy/humanist-absurdism/"
-         class="sb-text-accent sb-hover:text-primary sb-font-medium"
-         data-storm-hover="lift">Humanist Absurdism</a>
-      <span class="sb-text-secondary"> - Choosing to be a person when the system wants you to be a component.</span>
-    </li>
-  </ul>
+<section class="home-hero" data-storm="fade-in">
+  <h1 class="sb-text-4xl sb-font-bold">Mathew Storm</h1>
+  <p class="sb-text-lg sb-text-secondary">
+    Open source engineer and writer. Building sovereign infrastructure, writing about technology and meaning.
+  </p>
 </section>
 
-{{ connect_section|safe }}
+{% if featured_posts %}
+<section class="home-section" data-storm="fade-in" data-storm-delay="200">
+  <h2 class="home-section-title sb-text-2xl sb-font-bold sb-mb-6">Featured</h2>
+  <div class="featured-grid">
+    {% for post in featured_posts %}
+    <a href="{{ post.path }}" class="featured-card" data-storm="fade-in" data-storm-delay="{{ forloop.counter0|multiply:150 }}">
+      <span class="post-category post-category--{{ post.category }}">{{ post.category }}</span>
+      <h3 class="sb-text-xl sb-font-semibold sb-mb-2">{{ post.title }}</h3>
+      {% if post.description %}
+        <p class="sb-text-secondary sb-text-sm">{{ post.description }}</p>
+      {% endif %}
+      {% if post.published %}
+        <time class="post-date" datetime="{{ post.published|date:'Y-m-d' }}">
+          {{ post.published|date:"M d, Y" }}
+        </time>
+      {% endif %}
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
 
-{{ beliefs_section|safe }}
+<section class="home-section" data-storm="fade-in" data-storm-delay="400">
+  <h2 class="home-section-title sb-text-2xl sb-font-bold sb-mb-6">Latest Posts</h2>
+  <div class="post-list">
+    {% for post in latest_posts %}
+    <a href="{{ post.path }}" class="post-item">
+      <div class="post-item-meta">
+        <span class="post-category post-category--{{ post.category }}">{{ post.category }}</span>
+        {% if post.published %}
+          <time class="post-date" datetime="{{ post.published|date:'Y-m-d' }}">
+            {{ post.published|date:"M d, Y" }}
+          </time>
+        {% endif %}
+      </div>
+      <h3 class="post-item-title">{{ post.title }}</h3>
+      {% if post.description %}
+        <p class="post-item-excerpt sb-text-secondary">{{ post.description }}</p>
+      {% endif %}
+    </a>
+    {% endfor %}
+  </div>
+</section>
 
 {% endblock %}

@@ -106,13 +106,7 @@
     <script type="module">
         import StormAnimations from '{% static "A_base/storm/storm-animations.mjs" %}';
         import StormEvents from '{% static "A_base/storm/storm-events.mjs" %}';
-        import StormHeroLightningPlugin from '{% static "A_base/storm/plugins/storm-hero-lightning.mjs" %}';
         import MobileNavbar from '{% static "A_base/navbar.mjs" %}';
-
-        // Initialize Hero Lightning Plugin
-        if (StormHeroLightningPlugin && StormEvents) {
-            StormHeroLightningPlugin.init(StormEvents);
-        }
     </script>
 
   </body>

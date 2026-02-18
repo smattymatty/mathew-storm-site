@@ -1,42 +1,24 @@
-from pathlib import Path
-
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.views.decorators.http import require_POST, require_GET
 
-from django_spellbook.parsers import spellbook_render
+from .blog_feed import get_all_posts, get_featured_posts
 # Import spellblocks to ensure they're registered
 from . import spellblocks
 
-content_folder = Path(__file__).resolve().parent / 'content'
 
 def index(request):
-    about_md = """---
-
-## About
-
-Open source engineer focused on federated systems, self-hosted infrastructure, and tools that put control back in users' hands. Creating Django-based solutions for organizations that value transparency, sovereignty, and the results.
-"""
-
-    connect_md = """
-"""
-
-    beliefs_md = """---
-
-"""
+    all_posts = get_all_posts()
+    featured_posts = get_featured_posts(all_posts)
 
     context = {
-        # SEO metadata for homepage
         'page_title': 'Mathew Storm - Open Source Engineer & Writer',
-        'meta_description': 'Open source engineer building sovereign infrastructure tools. Writing on technology, meaning, and the recursive absurd. Creator of Storm Cloud Server, Django Spellbook, and Django Mercury.',
-        'meta_keywords': 'mathew storm, philosopher, contemporary philosopher, modern philosopher, absurdist philosopher, recursive absurd, humanist absurdism, techno-absurdism, neo-absurdism, storm cloud server, django spellbook, django developer, open source, digital sovereignty, digital philosophy',
-        # Rendered markdown sections
-        'about_section': spellbook_render(about_md),
-        'connect_section': spellbook_render(connect_md),
-        'beliefs_section': spellbook_render(beliefs_md),
+        'meta_description': 'Open source engineer building sovereign infrastructure tools. Writing on technology, meaning, and the recursive absurd.',
+        'meta_keywords': 'mathew storm, open source, django, philosophy, recursive absurd, digital sovereignty',
+        'featured_posts': featured_posts[:2],
+        'latest_posts': all_posts,
     }
-    template = 'A_base/home.html'
-    return render(request, template, context)
+    return render(request, 'A_base/home.html', context)
 
 @require_POST
 def toggle_theme(request):
