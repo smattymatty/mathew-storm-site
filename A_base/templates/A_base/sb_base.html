@@ -138,7 +138,7 @@
     
     {# STICKY TABLE OF CONTENTS #}
     <nav class="article-toc" data-storm="slide-right" data-storm-delay="300">
-      <h4>More Creative Writing</h4>
+      <h4>{% if '/tech/' in request.path %}More Technical Writing{% else %}More Creative Writing{% endif %}</h4>
       {% include "django_spellbook/tocs/sidebar_toc.html" %}
       
       {# Developer metadata for staff #}
