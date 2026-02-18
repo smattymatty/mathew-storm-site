@@ -48,7 +48,7 @@ source ~/.bashrc
 
 ## Why Not Nano?
 
-Nano gets the job done. I'm not going to pretend otherwise. But once you've edited a Docker Compose file in Micro with real syntax highlighting, a visible cursor position, and tab completion - going back to nano feels like editing with a rock.
+Nano gets the job done and usually comes pre-installed. But once you've edited a Docker Compose file in Micro with real syntax highlighting a visible cursor position, and tab completion - going back to nano feels like editing with a rock.
 
 Things Micro has that nano doesn't (or barely does):
 
