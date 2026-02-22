@@ -51,7 +51,7 @@ Humanist Absurdism: The counter-architecture. It begins as the quiet knowledge t
 
 ## I. The Space Between
 
-I grew up inside the machine. Half a decade in foster care - not the kind with a redemption arc, the kind where you learn that you are a file before you are a person. Case number first, name second. The system that was supposed to protect me processed me with the same indifference it processed everyone. The system had no malice, only gravity.
+I grew up inside the machine. Half a decade in foster care, the kind where you learn that you are a file before you are a person. Case number first, name second. The system that was supposed to protect me processed me with the same indifference it processed everyone. The system had no malice, only gravity.
 
 I don't write about dehumanizing systems from the outside. I write about them because I was the kid in a cage while the adults did the math.
 
