@@ -78,7 +78,7 @@ The recognition that we inhabit systems no human mind can comprehend, not even t
 
 ### Humanist Absurdism (The Remedy)
 
-The radical act of choosing humanity within dehumanizing systems. The daily practice of maintaining humanity within systems designed to eliminate it.
+The practice of remaining human inside systems designed to eliminate humanity - beginning with individual mercy and maturing into collective action.
 
 [→ Read the full essay](/creative/philosophy/humanist-absurdism/)
 
@@ -87,22 +87,24 @@ The radical act of choosing humanity within dehumanizing systems. The daily prac
 {~ accordion title="Humanism" ~}
 Traditional Humanism: The belief that human reason and agency are the center of the world and will eventually solve all problems.
 
-Humanist Absurdism: The recognition that the systems we built are now the center, and they use "reason" to make the world colder. Being a "humanist" now means being intentionally inefficient or "irrational" to protect a person from the system's logic.
+Humanist Absurdism: The recognition that the systems we built are now the center, and they use "reason" to make the world colder. Being a "humanist" means insisting on the face the system erased - through individual mercy where possible, through collective action where necessary.
 {~~}
 
 {~ accordion title="Solidarity" ~}
 Traditional Solidarity: Standing together publicly to demand political change or reform a system.
 
-Humanist Absurdism: The "Unspoken Network." It’s the quiet, anonymous knowledge that you aren't the only one slipping gears. It’s helping someone without the system (or even the person you helped) ever finding out, so the system doesn't learn how to close the gap.
+Humanist Absurdism: The counter-architecture. It begins as the quiet knowledge that you aren't the only one slipping gears - but it matures into deliberate organization. The system manufactures isolation; solidarity distributes the weight. No single person holds all the faces. Together, they hold enough.
 {~~}
 
 **Key terms:**
 
-- **Embedded Kindness** - Mercy coded into architecture. Windows, gardens, and secret doors built into the labyrinth. Every line of code is a moral choice.
+- **Embedded Kindness** - Mercy coded into architecture. Windows, gardens, and secret doors built into the system. Every building block is a moral choice. Necessary and insufficient.
 
-- **Anonymous Friction** - Resistance that registers as error, delay, incompetence. The method by which embedded kindness operates - invisible by design, plausibly deniable by necessity.
+- **Anonymous Friction** - Resistance that registers as error, delay, incompetence. The method by which embedded kindness operates at the individual scale - invisible by design, plausibly deniable by necessity.
 
-- **The Unspoken Network** - The quiet knowledge that you're not the only one slipping gears. Inferred from patterns, never confirmed by contact. You see the errors that aren't errors. You never see who made them.
+- **The Architecture of Facelessness** - The system's greatest trick: engineering conditions where mercy never arises. Supply chains, algorithms, and scale itself hide the face before your empathy can reach it. Your brain, built for village-scale ethics, cannot feel suffering at global scale. The system exploits this by design.
+
+- **The Counter-Architecture** - Organization as the answer to facelessness. No single person can hold both ends of a seventeen-link supply chain. A network can. One researches, another translates, another pressures, another educates. Education makes visible what the system has hidden. Organizing distributes the weight of infinite responsibility across finite people.
 
 ---
 

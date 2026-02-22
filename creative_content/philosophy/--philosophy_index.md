@@ -88,22 +88,22 @@ Neo-Absurdism describes how subjects remain operational inside incomprehensible 
 
 *Choosing to be a person when the system wants you to be a component.*
 
-The practice of remaining human inside systems that cannot be escaped, reasoned with, or dismantled. If techno-absurdism names the external machinery and neo-absurdism names the internal psychology it demands, Humanist Absurdism names the ethical residue that remains: attention, discretion, and kindness exercised without recognition, leverage, or expectation of change.
+The practice of remaining human inside systems that cannot be escaped, reasoned with, or dismantled. If techno-absurdism names the external machinery and neo-absurdism names the internal psychology it demands, Humanist Absurdism begins with the ethical residue: attention, discretion, and kindness exercised without recognition. But it doesn't end there. Individual mercy keeps people alive today - it does not change what kills them tomorrow. The system hides faces by design, and your brain cannot feel suffering at global scale. The sustainable practice is to organize, distribute the weight, and educate - making visible what the system has hidden.
 
 **Living This Philosophy:**
 
-- **Code as Care**: Every error message, every comment, every interface choice affects real humans.
-- **Business as Compassion**: Teach while you build, ensure that clients understand their own systems.
-- **Teaching as Resistance**: Create educational content that preserves human understanding in an age of AI automation.
-- **Community as Garden**: Building spaces where people grow together. The Django community, Mastodon & the Fediverse - these aren't just networks but gardens we tend together.
+- **Small Mercies**: Every error message, every interface choice, every file reviewed generously affects a real human. These matter. They are not enough.
+- **Organize the Weight**: No single person holds all the faces. Find the others - one researches, another translates, another pressures, another educates. Solidarity distributes infinite responsibility across finite people.
+- **Educate as Resistance**: Not education as credential - education as making the invisible visible. Teach how the supply chain works. Show the face the system erased. Preserve human understanding in an age of automation.
+- **Build With Windows**: Code, business, community - build systems that reveal their workings, leave doors open, and make it harder for the next system to hide the face.
 
 **Questions Before Every Decision:**
 
 - Is this actually helping a human, or just a metric?
+- Am I doing this alone when I should be finding others?
+- Does this make the invisible visible or keep it hidden?
 - Will the person who comes after me curse me or thank me?
-- Am I adding complexity to solve a problem or to feel clever?
-- Does this make people more capable or more dependent?
-- What breaks when I'm gone?
+- What breaks when I'm gone - and who picks it up?
 
 [→ Explore Humanist Absurdism in depth](/creative/philosophy/humanist-absurdism/)
 
