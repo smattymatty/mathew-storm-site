@@ -2,7 +2,7 @@
 title: "Humanist Absurdism: Choosing Humanity"
 published: 2025-12-18
 modified: 2026-02-21
-featured: true
+featured: false
 author: Mathew Storm
 tags:
   - philosophy
