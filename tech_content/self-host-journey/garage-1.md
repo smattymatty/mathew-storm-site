@@ -126,7 +126,9 @@ garage layout assign -z canada-1 -c 10G <node_id>
 garage layout apply --version 1
 ```
 
+{~ alert type="info" ~}
 The node ID comes from `garage status`. You only need the first 8 characters.
+{~~}
 
 One command to check everything is healthy:
 ```bash
@@ -149,7 +151,11 @@ Then create an API key:
 garage key create obsidian-key
 ```
 
-This will output a Key ID and a Secret key. Save both somewhere safe - you will need them in a moment and the secret key is only shown once.
+This will output a Key ID and a Secret key. 
+
+{~ alert type="warning" ~}
+Save both somewhere safe - you will need them in a moment and the secret key is only shown once.
+{~~}
 
 Now, for the glue: give the key permission to read and write the bucket:
 ```bash
@@ -244,7 +250,7 @@ Install it from the Obsidian community plugins list, then open its settings and 
 Fill in the following:
 
 - **Endpoint**: `https://s3.garage-one.stormdevelopments.ca` (your Caddy-proxied Garage endpoint)
-- **Region**: `garage` - not `us-east-1`, this is the classic gotcha
+- **Region**: `garage` - not `us-east-1`, not your zone, this is the classic gotcha
 - **Access Key ID**: the Key ID from `garage key create`
 - **Secret Access Key**: the secret key from `garage key create`
 - **Bucket Name**: `obsidian-vault`
