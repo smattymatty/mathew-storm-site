@@ -32,7 +32,7 @@ So those tutorials spend most of their time on building containers, and multi-st
 For us, a container is a sealed package somebody else maintains. Our job is to know how to run it, where to put its data, how to keep it alive, and how to debug it when it breaks. That's a completely different skill set, and most tutorials skip right over it.
 
 {~ alert type="info" ~}
-If you ever want to learn the build side, that's a separate skill for a separate day. Plenty of tutorials for it - [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=b0HMimUb4f0) is a good starting point.
+If you ever want to learn the build side, [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=b0HMimUb4f0) is a good starting point.
 {~~}
 
 ---
@@ -57,7 +57,7 @@ The Mastodon bag has the right Ruby. The Postgres bag has the right Postgres. Yo
 
 ![Mastodon and Postgres each running in their own container on a single VPS, with Mastodon's Ruby and Redis dependencies sealed inside its bag](/static/tech/tutorials-docker/containers-as-bags.png)
 
-This gives you three things that matter for self-hosting.
+Three things this gets you:
 
 **Things stay separate.** Mastodon's Postgres can't fight your host's Postgres, because they're in different bags. Want to also run PeerTube with its own Postgres? Different bag. They don't see each other.
 
@@ -102,33 +102,29 @@ Windows can technically run containers, but with subtle differences and edge cas
 
 ---
 
-## Installing Docker (and a habit you need)
+## Installing Docker
 
-The fast way to install Docker is the official script:
+The fast way is the official script:
 
 ```bash
 curl -fsSL https://get.docker.com | sh
 ```
 
-It works. Docker publishes it themselves. You'll be fine if you run it.
+Or follow the instructions in the [Docker docs](https://docs.docker.com/engine/install/) for your distro.
 
-But piping a script straight from the internet into a root shell is not a habit you want to build. The script runs as root and does whatever it says, and you have no idea what that is unless you read it first. What if the domain name becomes compromised?
+Either way, come back when this prints two blocks of output:
 
-For a server you're going to run real things on, take a few extra minutes and follow the instructions in the [Docker docs](https://docs.docker.com/engine/install/) instead. You add their apt repo with a signed key and install the package. It's the same end result, you just know what got installed.
-
-{~ alert type="info" ~}
-Once you're running a server with people's data on it, "I know exactly what's on this box" is the baseline. Get used to it now while it's just you.
-{~~}
-
-Either way, come back when `docker version` prints two blocks of output.
+```bash
+docker version
+```
 
 ```
 Client:      ← the `docker` command you typed
- Version: 27.x
+ Version: 29.x
 
 Server:      ← dockerd, the background process
  Engine:
-  Version: 27.x
+  Version: 29.x
 ```
 
 Client and Server are two separate programs. That's why you can restart Docker without your running containers dying.
@@ -175,8 +171,6 @@ It downloads something from the internet (we'll get to where in a minute), then 
 
 Read what the message actually says when you run it. It walks through the four steps that just happened: client talked to daemon, daemon pulled an image, daemon ran a container, container printed text and quit.
 
-That's the whole loop you're going to use for everything from here on out.
-
 Run it again:
 
 ```bash
@@ -205,8 +199,6 @@ docker container prune
 `docker container prune` will ask if you're sure, then delete every stopped container. Running containers are safe.
 {~~}
 
-You just ran your first container, saw the pull-and-run cycle, and cleaned up after yourself. That's the whole rhythm of working with Docker.
-
 ---
 
 ## Images and containers
@@ -221,20 +213,27 @@ You can cook the same recipe many times. The image is read-only and gets stored 
 
 Each container you run from it gets a thin writable layer on top, so it can keep its own state without messing up the original.
 
+Try it:
+
 ```bash
-# Download the recipe
 docker pull caddy:2
-
-# Cook an instance from it
 docker run -d --name web1 caddy:2
-
-# Cook another from the same recipe
 docker run -d --name web2 caddy:2
+docker ps
 ```
 
-`web1` and `web2` are two separate containers running the same image. Stop one, the other keeps going. They don't know about each other.
+You should see two containers running, both from the same `caddy:2` image, with different names and different IDs.
 
 This is also what you saw with hello-world. The first `docker run` pulled the image and ran a container from it. The second `docker run` skipped the pull (image already cached) and ran another container from the same image.
+
+Now clean them up. `docker stop` takes a list of names, so you can hit them both in one command, then prune:
+
+```bash
+docker stop web1 web2
+docker container prune
+```
+
+`docker container prune` only removes stopped containers, which is why we stop them first. If you forget the stop, prune just no-ops (it won't kill anything that's running).
 
 ---
 
@@ -250,35 +249,27 @@ An image's full name has four parts:
     registry  publisher  name  tag
 ```
 
-Docker fills in the boring defaults. `caddy:2` becomes `docker.io/library/caddy:2`. `library` is what Docker Hub calls its "official" namespace.
+Docker fills in defaults so you don't have to type all that. `caddy:2` is the same as `docker.io/library/caddy:2`. The `library` namespace is for official images. For anything else you write the publisher yourself, like `dxflrs/garage:v2`.
 
-For non-official images you write the publisher yourself:
+Now the trap. The `latest` tag is just a label, and whoever publishes the image can move it to a new build whenever they want. So `mastodon:latest` today and `mastodon:latest` next month can be two completely different images.
 
-```bash
-docker pull dxflrs/garage:v2
-```
-
-{~ alert type="warning" ~}
-The `latest` tag is just a label, and whoever publishes the image can move it to a new build whenever they want. So `mastodon:latest` today and `mastodon:latest` next month can be two completely different images.
-{~~}
-
-Use specific version tags for anything you care about:
+Use specific version tags for anything you want to remain consistent:
 
 ```bash
 # Don't
 docker pull mastodon/mastodon:latest
 
 # Do
-docker pull mastodon/mastodon:v4.3.1
+docker pull mastodon/mastodon:v4.5.9
 ```
 
-Upgrade on purpose. No surprises.
+Upgrade on purpose.
 
 ---
 
 ## Something real, Caddy serving an HTML page
 
-Hello-world was a toy. Let's run something that actually does work.
+Now let's run something useful.
 
 Caddy is a web server. It's small, fast, configures itself for HTTPS automatically (we'll use that in Episode 2), and it's the front door of the stack we're going to build.
 
@@ -308,9 +299,9 @@ Walking through what's new.
 
 Hello-world ran in the foreground because it exited immediately. A web server doesn't exit, so we put it in the background.
 
-`--name web` gives the container a name. Without this, Docker generates one like `nostalgic_einstein`. Funny once, useless every time after.
+`--name web` gives the container a name. Without this, Docker generates names like `nostalgic_einstein`. Pick your own.
 
-`--restart unless-stopped` is the most important flag for self-hosting. When your VPS reboots, this container comes back automatically. We'll cover the other restart policies later.
+`--restart unless-stopped` is the most important flag for self-hosting. When your VPS reboots, this container comes back automatically.
 
 `-p 80:80` maps port 80 on the host to port 80 in the container.
 
@@ -335,20 +326,20 @@ docker ps
 Open a browser, hit your VPS's IP, you should see your "hello from my vps" page.
 
 {~ alert type="warning" ~}
-Make sure you type `http://`, not `https://`. We're not doing TLS yet, that's Episode 2 territory.
+Make sure you type `http://`, not `https://`. We're not doing TLS yet, that's Episode 2 territory. Modern browsers (especially Chrome) will sometimes refuse to load `http://` and force an upgrade to `https://`, which fails because there's no cert.
+{~~}
 
-Modern browsers (especially Chrome) will sometimes refuse to load `http://` and force an upgrade to `https://`, which fails because there's no cert. If your browser won't cooperate, drop into a terminal on your local machine and run:
+If your browser won't cooperate, drop into a terminal on your local machine and run:
 
 ```bash
 curl http://<your-vps-ip>
 ```
 
-That bypasses the browser entirely and proves the container is serving correctly. If you see your HTML come back, the container is working - the browser is just being protective.
-{~~}
+That bypasses the browser entirely. If you see your HTML come back, the container is working - the browser is just being protective.
 
 You're now serving a website from a container on a server you control.
 
-If you want to change the page, edit `/srv/site/index.html` on the VPS and refresh the browser. No rebuild, no restart. The container reads the file off your host filesystem in real time.
+If you want to change the page, edit `/srv/site/index.html` on the VPS and refresh the browser. The container reads the file off your host filesystem in real time.
 
 That's the volume mount doing its job.
 
@@ -360,31 +351,28 @@ You've got a web container running. Now you need to know how to inspect it, talk
 
 Three commands do most of the work.
 
-{~ card title="docker logs - what is the container saying?" ~}
-Your number one debugging tool. When something doesn't work, run logs first.
+**`docker logs`** is your number one debugging tool. When something doesn't work, run logs first.
 
 ```bash
 docker logs web              # everything since the container started
 docker logs -f web           # follow live, Ctrl+C to stop watching
 docker logs --tail 50 web    # just the last 50 lines
 ```
-{~~}
 
-{~ card title="docker exec - run a command inside the container" ~}
-Most of the time you'll use it to get a shell.
+**`docker exec`** runs a command inside a running container. Most of the time you'll use it to get a shell.
 
 ```bash
 docker exec -it web sh
 ```
 
-`-it` means interactive plus terminal. Type `exit` or hit Ctrl+D to leave.
-{~~}
+`-it` means interactive terminal. Type `exit` or hit Ctrl+D to leave.
 
 {~ alert type="info" ~}
 A lot of production images are deliberately tiny and don't have a shell. If `bash` doesn't work, try `sh`. If `sh` doesn't work either, the image is "distroless" and there's no shell at all, on purpose. Less stuff inside means less to attack.
 {~~}
 
-{~ card title="Stopping and removing" ~}
+**Stopping and removing.**
+
 ```bash
 docker stop web        # gentle stop
 docker start web       # start a stopped container
@@ -394,9 +382,8 @@ docker rm -f web       # force delete (stops it for you)
 ```
 
 A stopped container is not gone. It's paused. `docker start` brings it back exactly as it was. `docker rm` is what actually destroys it.
-{~~}
 
-When your disk fills up six months from now, this is how you clean up:
+Cleanup commands:
 
 ```bash
 docker container prune    # remove all stopped containers
@@ -408,7 +395,7 @@ When we ran Caddy earlier we used `--restart unless-stopped` and I said we'd com
 
 By default, when your VPS reboots, your containers do not come back. They sit in stopped state and your website is down until you SSH in and start them by hand.
 
-Your VPS will reboot eventually. Kernel update, provider maintenance, fat finger. It will happen.
+Your VPS will reboot eventually. Kernel update, provider maintenance, whatever.
 
 The fix is the restart policy:
 
@@ -419,13 +406,7 @@ The fix is the restart policy:
 | `always` | Restarts always, even if you stopped it on purpose. |
 | `unless-stopped` | Restarts always, except if you stopped it on purpose. |
 
-`unless-stopped` is the right answer for self-hosting.
-
-It means: if the box rebooted, bring my stuff back up. If I deliberately stopped this thing, leave it alone, don't fight me.
-
-{~ alert type="success" ~}
-Put `--restart unless-stopped` on every container you actually care about.
-{~~}
+`unless-stopped` is the right answer for self-hosting. Set it on every long-running container.
 
 ---
 
@@ -448,9 +429,7 @@ Delete the container, run a new one with the same `-v` flag, and the new contain
 This is why you can stop being scared of `docker rm`.
 
 {~ alert type="success" ~}
-**Anything you'd cry about losing goes in a volume. Everything else is the container's problem.**
+**If it has data you need, mount it. Everything else, leave inside the container.**
 {~~}
 
-That's the foundation. Episode 2 is Compose, where you describe your whole stack (app, database, cache, reverse proxy, all the volumes) in one file and bring it up with one command.
-
-That's where self-hosting starts to feel good. See you there.
+That's the foundation. Episode 2 is Compose, where you describe your whole stack (app, database, cache, reverse proxy, all the volumes) in one file and bring it up with one command. That's where self-hosting actually clicks.
