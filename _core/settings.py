@@ -45,7 +45,6 @@ INSTALLED_APPS = [
     "A_base",
     "questions",
     "tech",
-    "creative",
 ]
 
 MIDDLEWARE = [
@@ -225,17 +224,14 @@ SPELLBOOK_THEME = {
 
 SPELLBOOK_MD_PATH = [
     BASE_DIR / "tech_content",
-    BASE_DIR / "creative_content",
 ]
 
 SPELLBOOK_MD_APP = [
     "tech",
-    "creative",
 ]
 
 SPELLBOOK_MD_URL_PREFIX = [
     "tech",
-    "creative",
 ]
 
 SPELLBOOK_MD_BASE_TEMPLATE = "A_base/sb_base.html"
